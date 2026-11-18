@@ -1,0 +1,417 @@
+#!/usr/bin/env python3
+"""Super Agente - raccolta novita' (edilizia/ingegneria).
+
+Ogni esecuzione:
+  1. legge tutte le fonti di sources.json (RSS, con ricerca automatica del feed,
+     e scraping di riserva);
+  2. assegna ogni notizia a un'area con filtri a parole chiave (gratis);
+  3. salva docs/data/news.json e docs/data/status.json (stato di ogni fonte);
+  4. manda le notifiche push via ntfy.sh (se NTFY_TOPIC e' impostato).
+
+Con --digest invia invece il riepilogo del mattino.
+Costo IA: zero, salvo ANTHROPIC_API_KEY impostata (allora riassume solo le
+novita' normative, massimo AI_MAX_PER_RUN per esecuzione).
+"""
+import argparse
+import hashlib
+import html
+import json
+import os
+import re
+import sys
+from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from urllib.parse import urljoin, urlparse, urlunparse, parse_qsl, urlencode
+
+import feedparser
+import requests
+from bs4 import BeautifulSoup
+
+ROOT = Path(__file__).resolve().parent.parent
+UA = "Mozilla/5.0 (compatible; SuperAgenteBot/1.0; uso personale)"
+TIMEOUT = 20
+RETENTION_DAYS = 60
+MAX_ITEMS = 2000
+MAX_AGE_NEW_DAYS = 30        # alla prima lettura ignora notizie piu' vecchie di cosi'
+MAX_PUSH_SINGLE = 6          # oltre, un solo messaggio riassuntivo
+AI_MAX_PER_RUN = int(os.environ.get("AI_MAX_PER_RUN", "15"))
+FEED_GUESSES = ["feed/", "feed", "rss", "rss.xml", "feed.rss", "index.xml", "atom.xml"]
+TRACKING = {"utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "fbclid", "gclid", "mc_cid", "mc_eid"}
+
+
+# ---------------------------------------------------------------- utilita'
+def now_utc():
+    return datetime.now(timezone.utc)
+
+
+def iso(dt):
+    return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def parse_iso(s):
+    return datetime.strptime(s, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+
+
+def load_json(path, default):
+    try:
+        return json.loads(Path(path).read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return default
+
+
+def save_json(path, obj):
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    Path(path).write_text(json.dumps(obj, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def clean(text):
+    if not text:
+        return ""
+    text = BeautifulSoup(str(text), "lxml").get_text(" ")
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def short(text, n=170):
+    text = clean(text)
+    if len(text) <= n:
+        return text
+    cut = text[:n]
+    m = max(cut.rfind(". "), cut.rfind("; "))
+    if m > n * 0.5:
+        return cut[: m + 1]
+    return cut[: cut.rfind(" ")].rstrip(",;:-") + "…"
+
+
+def norm_url(url):
+    p = urlparse(url.strip())
+    q = [(k, v) for k, v in parse_qsl(p.query) if k.lower() not in TRACKING]
+    path = p.path.rstrip("/") or "/"
+    return urlunparse((p.scheme.lower(), p.netloc.lower(), path, "", urlencode(q), ""))
+
+
+def item_id(url):
+    return hashlib.sha1(norm_url(url).encode()).hexdigest()[:16]
+
+
+def get(url):
+    r = requests.get(url, headers={"User-Agent": UA, "Accept": "*/*"}, timeout=TIMEOUT, allow_redirects=True)
+    r.raise_for_status()
+    return r
+
+
+# ---------------------------------------------------------------- lettura fonti
+def parse_feed(content, base):
+    fp = feedparser.parse(content)
+    items = []
+    for e in fp.entries:
+        link = e.get("link")
+        title = clean(e.get("title"))
+        if not link or not title:
+            continue
+        dt = e.get("published_parsed") or e.get("updated_parsed")
+        pub = iso(datetime(*dt[:6], tzinfo=timezone.utc)) if dt else None
+        summ = e.get("summary") or e.get("description") or ""
+        if not summ and e.get("content"):
+            summ = e["content"][0].get("value", "")
+        items.append({"titolo": title, "link": urljoin(base, link), "pubblicata": pub, "sintesi": short(summ)})
+    return items
+
+
+def discover_feeds(page_html, base):
+    soup = BeautifulSoup(page_html, "lxml")
+    found = []
+    for l in soup.find_all("link", rel=lambda v: v and "alternate" in v):
+        t = (l.get("type") or "").lower()
+        if "rss" in t or "atom" in t:
+            found.append(urljoin(base, l.get("href", "")))
+    for guess in FEED_GUESSES:
+        found.append(urljoin(base if base.endswith("/") else base + "/", guess))
+    seen, out = set(), []
+    for u in found:
+        if u and u not in seen:
+            seen.add(u)
+            out.append(u)
+    return out
+
+
+def scrape_links(page_html, base):
+    """Riserva: estrae i link con testo lungo (titoli) dalla pagina."""
+    soup = BeautifulSoup(page_html, "lxml")
+    host = urlparse(base).netloc.replace("www.", "")
+    items, seen = [], set()
+    for a in soup.find_all("a", href=True):
+        txt = clean(a.get_text(" "))
+        if len(txt) < 38 or len(txt) > 260:
+            continue
+        href = urljoin(base, a["href"])
+        p = urlparse(href)
+        if p.scheme not in ("http", "https") or host not in p.netloc.replace("www.", ""):
+            continue
+        if norm_url(href) == norm_url(base) or norm_url(href) in seen:
+            continue
+        seen.add(norm_url(href))
+        items.append({"titolo": txt, "link": href, "pubblicata": None, "sintesi": ""})
+    return items[:60]
+
+
+def try_feed(url):
+    r = get(url)
+    items = parse_feed(r.content, url)
+    return items
+
+
+def read_source(src):
+    """Ritorna (items, metodo, errore)."""
+    errors = []
+    tried = set()
+    if src.get("feed"):
+        tried.add(src["feed"])
+        try:
+            items = try_feed(src["feed"])
+            if items:
+                return items, "rss", None
+            errors.append("feed vuoto")
+        except Exception as ex:  # noqa: BLE001
+            errors.append(f"feed: {type(ex).__name__}")
+    page = None
+    try:
+        page = get(src.get("lista") or src["home"])
+    except Exception as ex:  # noqa: BLE001
+        errors.append(f"pagina: {type(ex).__name__}")
+    if page is not None:
+        for u in discover_feeds(page.text, page.url)[:8]:
+            if u in tried:
+                continue
+            tried.add(u)
+            try:
+                items = try_feed(u)
+                if items:
+                    return items, "rss", None
+            except Exception:  # noqa: BLE001
+                continue
+        items = scrape_links(page.text, page.url)
+        if items:
+            return items, "scraping", None
+        errors.append("nessun elemento trovato")
+    return [], "nessuno", "; ".join(errors) or "sconosciuto"
+
+
+# ---------------------------------------------------------------- classificazione
+def build_matchers(aree_cfg):
+    def rx(kw):
+        k = kw.lower()
+        trail = k.endswith(" ") or len(k.strip()) <= 4
+        body = re.escape(k.strip())
+        return re.compile(r"(?<!\w)" + body + (r"(?!\w)" if trail else ""))
+    return {a: [rx(k) for k in v["parole"]] for a, v in aree_cfg["aree"].items()}, [rx(k) for k in aree_cfg["urgenti"]]
+
+
+def classify(item, src, matchers, urgenti, aree_cfg):
+    text = (item["titolo"] + " " + item.get("sintesi", "")).lower()
+    scored = []
+    for area, rxs in matchers.items():
+        n = sum(1 for r in rxs if r.search(text))
+        if n:
+            scored.append((n, area))
+    scored.sort(reverse=True)
+    aree = [a for _, a in scored[:2]]
+    hint = src.get("aree") or []
+    if not aree:
+        if src.get("filtra"):
+            return None
+        aree = [hint[0]] if hint else ["altro"]
+    elif hint and hint[0] not in aree and not src.get("filtra"):
+        aree = aree[:1] + [hint[0]]
+    norm = src["tipo"] == "ufficiale" or any(r.search(text) for r in urgenti)
+    return aree, norm
+
+
+# ---------------------------------------------------------------- IA (facoltativa)
+def ai_summary(item):
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    if not key:
+        return None
+    prompt = (
+        "Riassumi in italiano, in massimo 25 parole, per un ingegnere edile. "
+        "Tono neutro, solo fatti presenti nel testo, niente invenzioni.\n"
+        f"Titolo: {item['titolo']}\nTesto: {item.get('sintesi', '')}"
+    )
+    try:
+        r = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+            json={"model": os.environ.get("ANTHROPIC_MODEL", "claude-haiku-5-5"), "max_tokens": 80,
+                  "messages": [{"role": "user", "content": prompt}]},
+            timeout=30,
+        )
+        r.raise_for_status()
+        return clean(r.json()["content"][0]["text"])
+    except Exception as ex:  # noqa: BLE001
+        print(f"  IA non disponibile: {type(ex).__name__}", file=sys.stderr)
+        return None
+
+
+# ---------------------------------------------------------------- notifiche
+def ntfy(payload):
+    topic = os.environ.get("NTFY_TOPIC")
+    if not topic:
+        return False
+    payload = dict(payload, topic=topic)
+    try:
+        r = requests.post(os.environ.get("NTFY_SERVER", "https://ntfy.sh"), json=payload, timeout=20)
+        r.raise_for_status()
+        return True
+    except Exception as ex:  # noqa: BLE001
+        print(f"  ntfy errore: {type(ex).__name__}", file=sys.stderr)
+        return False
+
+
+def app_url():
+    if os.environ.get("APP_URL"):
+        return os.environ["APP_URL"]
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    if "/" in repo:
+        owner, name = repo.split("/", 1)
+        return f"https://{owner}.github.io/{name}/"
+    return None
+
+
+def notify_new(new_items, aree_cfg):
+    alerts = [i for i in new_items if i["normativa"]]
+    if not alerts:
+        return 0
+    if len(alerts) > MAX_PUSH_SINGLE:
+        body = "\n".join(f"• {i['titolo'][:90]}" for i in alerts[:8])
+        ntfy({"title": f"{len(alerts)} nuove novità normative", "message": body, "priority": 3,
+              "tags": ["rotating_light"], **({"click": app_url()} if app_url() else {})})
+        return len(alerts)
+    for i in alerts:
+        area = aree_cfg["aree"][i["aree"][0]]["nome"]
+        msg = i["titolo"] + (f"\n{i['sintesi']}" if i.get("sintesi") else "")
+        ntfy({"title": f"{area} · {i['fonte_nome']}", "message": msg[:700], "click": i["link"],
+              "priority": 4 if i["tipo"] == "ufficiale" else 3, "tags": ["rotating_light"] if i["tipo"] == "ufficiale" else ["newspaper"]})
+    return len(alerts)
+
+
+def send_digest(news, aree_cfg):
+    since = now_utc() - timedelta(hours=24)
+    recent = [i for i in news if parse_iso(i["visto"]) >= since]
+    if not recent:
+        ntfy({"title": "Super Agente · buongiorno", "message": "Nessuna novità nelle ultime 24 ore.", "priority": 2})
+        return 0
+    lines = []
+    for key, cfg in aree_cfg["aree"].items():
+        grp = [i for i in recent if key in i["aree"]]
+        grp.sort(key=lambda i: (not i["normativa"], i["visto"]))
+        if not grp:
+            continue
+        lines.append(f"{cfg['nome'].upper()} ({len(grp)})")
+        lines += [f"• {i['titolo'][:85]}" for i in grp[:3]]
+    msg = "\n".join(lines)
+    while len(msg.encode()) > 3800:
+        msg = msg.rsplit("\n", 1)[0]
+    ntfy({"title": f"Buongiorno: {len(recent)} novità nelle ultime 24h", "message": msg, "priority": 3,
+          "tags": ["sunrise"], **({"click": app_url()} if app_url() else {})})
+    return len(recent)
+
+
+# ---------------------------------------------------------------- main
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--digest", action="store_true", help="invia il riepilogo del mattino")
+    ap.add_argument("--data-dir", default=str(ROOT / "docs" / "data"))
+    ap.add_argument("--sources", default=str(ROOT / "sources.json"))
+    ap.add_argument("--aree", default=str(ROOT / "aree.json"))
+    args = ap.parse_args()
+
+    data = Path(args.data_dir)
+    aree_cfg = load_json(args.aree, None)
+    news_file, status_file = data / "news.json", data / "status.json"
+    news_doc = load_json(news_file, {"notizie": []})
+    news = news_doc["notizie"]
+
+    if args.digest:
+        n = send_digest(news, aree_cfg)
+        print(f"Digest inviato: {n} notizie")
+        return 0
+
+    sources = load_json(args.sources, None)["fonti"]
+    matchers, urgenti = build_matchers(aree_cfg)
+    prev_status = {s["id"]: s for s in load_json(status_file, {"fonti": []})["fonti"]}
+    first_run = not news
+    known = {i["id"]: i for i in news}
+    ts = now_utc()
+
+    print(f"Lettura di {len(sources)} fonti…")
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        results = list(pool.map(read_source, sources))
+
+    new_items, statuses = [], []
+    for src, (items, metodo, err) in zip(sources, results):
+        prev = prev_status.get(src["id"], {})
+        added = 0
+        for it in items:
+            iid = item_id(it["link"])
+            if iid in known:
+                continue
+            if it["pubblicata"] and parse_iso(it["pubblicata"]) < ts - timedelta(days=MAX_AGE_NEW_DAYS):
+                continue
+            cls = classify(it, src, matchers, urgenti, aree_cfg)
+            if cls is None:
+                continue
+            aree, normativa = cls
+            rec = {"id": iid, "titolo": it["titolo"], "link": it["link"], "fonte": src["id"],
+                   "fonte_nome": src["nome"], "tipo": src["tipo"], "aree": aree, "normativa": normativa,
+                   "sintesi": it["sintesi"], "pubblicata": it["pubblicata"], "visto": iso(ts)}
+            known[iid] = rec
+            new_items.append(rec)
+            added += 1
+        if err:
+            stato = "errore"
+        elif not items:
+            stato = "vuoto"
+        else:
+            stato = "ok" if metodo == "rss" else "ok_scraping"
+        statuses.append({
+            "id": src["id"], "nome": src["nome"], "tipo": src["tipo"], "home": src["home"],
+            "stato": stato, "metodo": metodo, "letti": len(items), "nuovi": added,
+            "ultimo_controllo": iso(ts),
+            "ultimo_nuovo": iso(ts) if added else prev.get("ultimo_nuovo"),
+            "errore": err, "nota": src.get("nota"),
+            "falliti_di_fila": (prev.get("falliti_di_fila", 0) + 1) if stato in ("errore", "vuoto") else 0,
+        })
+        print(f"  [{stato:11}] {src['nome']}: letti {len(items)}, nuovi {added}" + (f" ({err})" if err else ""))
+
+    # sintesi IA solo per novita' normative (se chiave presente)
+    if os.environ.get("ANTHROPIC_API_KEY") and not first_run:
+        for it in [i for i in new_items if i["normativa"]][:AI_MAX_PER_RUN]:
+            s = ai_summary(it)
+            if s:
+                it["sintesi"], it["ia"] = s, True
+
+    # conservazione e ordinamento
+    limit = ts - timedelta(days=RETENTION_DAYS)
+    allnews = [i for i in known.values() if parse_iso(i["pubblicata"] or i["visto"]) >= limit]
+    allnews.sort(key=lambda i: i["pubblicata"] or i["visto"], reverse=True)
+    allnews = allnews[:MAX_ITEMS]
+
+    aree_pub = {k: {"nome": v["nome"], "colore": v["colore"]} for k, v in aree_cfg["aree"].items()}
+    aree_pub["altro"] = {"nome": "Altro", "colore": "#7b8794"}
+    save_json(data / "aree.json", aree_pub)
+    save_json(news_file, {"aggiornato": iso(ts), "notizie": allnews})
+    ok = sum(1 for s in statuses if s["stato"] in ("ok", "ok_scraping"))
+    save_json(status_file, {"aggiornato": iso(ts), "fonti_ok": ok, "fonti_totale": len(statuses), "fonti": statuses})
+    print(f"Nuove: {len(new_items)} | totale archivio: {len(allnews)} | fonti attive: {ok}/{len(statuses)}")
+
+    if first_run:
+        print("Prima esecuzione: nessuna notifica (per non inviare l'archivio intero).")
+    else:
+        n = notify_new(new_items, aree_cfg)
+        print(f"Notifiche inviate: {n}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

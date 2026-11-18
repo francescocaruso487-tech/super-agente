@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Super Agente</title>
+<meta name="theme-color" content="#111e34">
+<meta name="description" content="Novità normative e tecniche in edilizia e ingegneria">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <img src="icons/icon-192.png" alt="" width="34" height="34">
+    <div>
+      <h1>Super Agente</h1>
+      <p id="aggiornato" class="sub">Edilizia e ingegneria</p>
+    </div>
+  </div>
+  <button id="btn-refresh" class="icon-btn" aria-label="Aggiorna">⟳</button>
+</header>
+
+<main>
+  <section id="tab-novita" class="tab active">
+    <div class="chips" id="chips-novita" role="tablist" aria-label="Aree"></div>
+    <label class="switch"><input type="checkbox" id="solo-norm"><span>Solo novità normative</span></label>
+    <div id="lista-novita" class="lista"></div>
+  </section>
+
+  <section id="tab-archivio" class="tab">
+    <input id="cerca" type="search" placeholder="Cerca nell'archivio (es. CILA, DM 37/08, Docfa)" autocomplete="off">
+    <div class="chips" id="chips-archivio" role="tablist" aria-label="Aree archivio"></div>
+    <div id="lista-archivio" class="lista"></div>
+    <button id="piu" class="more" hidden>Mostra altre</button>
+  </section>
+
+  <section id="tab-fonti" class="tab">
+    <div id="fonti-riepilogo" class="riepilogo"></div>
+    <div id="lista-fonti"></div>
+  </section>
+</main>
+
+<nav class="bottom" aria-label="Sezioni">
+  <button data-tab="novita" class="on"><span>🏗️</span>Novità</button>
+  <button data-tab="archivio"><span>🔎</span>Archivio</button>
+  <button data-tab="fonti"><span>📡</span>Fonti</button>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>
