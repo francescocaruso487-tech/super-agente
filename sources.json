@@ -29,7 +29,12 @@
     "antincendio"
    ],
    "filtra": true,
-   "gnews": "site:vigilfuoco.it prevenzione incendi"
+   "gnews": [
+    "site:vigilfuoco.it",
+    "circolare Dipartimento Vigili del Fuoco prevenzione incendi"
+   ],
+   "gnews_when": "30d",
+   "nota": "Il sito dei VVF blocca i lettori automatici: uso titoli indicizzati dal sito e dalla stampa che riporta le circolari."
   },
   {
    "id": "ade",

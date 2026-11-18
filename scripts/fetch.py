@@ -258,10 +258,10 @@ def read_gu(n_issues=4):
 
 
 # ---------------------------------------------------------------- riserva indiretta (Google News)
-def read_gnews(query):
+def read_gnews(query, when="14d"):
     """Per i siti che bloccano i lettori automatici: titoli indicizzati da Google News."""
     base = os.environ.get("GNEWS_BASE", "https://news.google.com/rss/search")
-    url = f"{base}?q={quote_plus(query + ' when:14d')}&hl=it&gl=IT&ceid=IT:it"
+    url = f"{base}?q={quote_plus(query + ' when:' + when)}&hl=it&gl=IT&ceid=IT:it"
     items = try_feed(url)
     for it in items:
         m = re.match(r"^(.*\S)\s+-\s+([^-]{2,45})$", it["titolo"])
@@ -288,7 +288,16 @@ def read_source(src):
         errors.append(err)
     if src.get("gnews"):
         try:
-            items = read_gnews(src["gnews"])
+            queries = src["gnews"] if isinstance(src["gnews"], list) else [src["gnews"]]
+            items, seen = [], set()
+            for q in queries:
+                try:
+                    for it in read_gnews(q, src.get("gnews_when", "14d")):
+                        if it["link"] not in seen:
+                            seen.add(it["link"])
+                            items.append(it)
+                except Exception:  # noqa: BLE001
+                    continue
             if items:
                 return items, "gnews", None
             errors.append("riserva vuota")
