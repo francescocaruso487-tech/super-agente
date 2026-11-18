@@ -22,7 +22,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, urlunparse, parse_qsl, urlencode
+from urllib.parse import urljoin, urlparse, urlunparse, parse_qsl, urlencode, quote_plus
 
 import feedparser
 import requests
@@ -162,8 +162,8 @@ def try_feed(url):
     return items
 
 
-def read_source(src):
-    """Ritorna (items, metodo, errore)."""
+def read_direct(src):
+    """Lettura diretta: RSS, ricerca del feed, scraping. Ritorna (items, metodo, errore)."""
     errors = []
     tried = set()
     if src.get("feed"):
@@ -196,6 +196,105 @@ def read_source(src):
             return items, "scraping", None
         errors.append("nessun elemento trovato")
     return [], "nessuno", "; ".join(errors) or "sconosciuto"
+
+
+
+# ---------------------------------------------------------------- Gazzetta Ufficiale (sommari)
+GU_ARCHIVE = "https://www.gazzettaufficiale.it/ricercaArchivioCompleto/serie_generale/{year}"
+GU_ISSUE_RX = re.compile(r"dataPubblicazioneGazzetta=(\d{4}-\d{2}-\d{2})&numeroGazzetta=(\d+)")
+
+
+def parse_gu_issue(page_html, base, date):
+    """Un sommario di Gazzetta: ogni atto ha due link (tipo+data, descrizione)."""
+    soup = BeautifulSoup(page_html, "lxml")
+    acts, order = {}, []
+    for a in soup.find_all("a", href=True):
+        if "caricaDettaglioAtto" not in a["href"]:
+            continue
+        href, txt = urljoin(base, a["href"]), clean(a.get_text(" "))
+        if not txt:
+            continue
+        if href not in acts:
+            acts[href] = []
+            order.append(href)
+        acts[href].append(txt)
+    items = []
+    for href in order:
+        ts = acts[href]
+        desc = re.sub(r"\s*Pag\.\s*\d+\s*$", "", ts[1]).strip() if len(ts) > 1 else ""
+        titolo = f"{ts[0]}: {desc}" if desc else ts[0]
+        items.append({"titolo": short(titolo, 240), "link": href, "pubblicata": date + "T06:00:00Z", "sintesi": short(desc)})
+    return items
+
+
+def read_gu(n_issues=4):
+    """Legge i sommari degli ultimi numeri della Serie Generale (precisa, atto per atto)."""
+    template = os.environ.get("GU_ARCHIVE", GU_ARCHIVE)
+    year = now_utc().year
+    issues = {}
+    for y in (year, year - 1):
+        try:
+            page = get(template.format(year=y))
+        except Exception:  # noqa: BLE001
+            if y == year:
+                raise
+            continue
+        for a in BeautifulSoup(page.text, "lxml").find_all("a", href=True):
+            m = GU_ISSUE_RX.search(a["href"])
+            if m:
+                issues[(m.group(1), int(m.group(2)))] = urljoin(page.url, a["href"])
+        if len(issues) >= n_issues:
+            break
+    if not issues:
+        raise RuntimeError("nessun numero trovato nell'archivio")
+    items = []
+    for key in sorted(issues)[-n_issues:]:
+        try:
+            p = get(issues[key])
+        except Exception:  # noqa: BLE001
+            continue
+        items += parse_gu_issue(p.text, p.url, key[0])
+    return items
+
+
+# ---------------------------------------------------------------- riserva indiretta (Google News)
+def read_gnews(query):
+    """Per i siti che bloccano i lettori automatici: titoli indicizzati da Google News."""
+    base = os.environ.get("GNEWS_BASE", "https://news.google.com/rss/search")
+    url = f"{base}?q={quote_plus(query + ' when:14d')}&hl=it&gl=IT&ceid=IT:it"
+    items = try_feed(url)
+    for it in items:
+        m = re.match(r"^(.*\S)\s+-\s+([^-]{2,45})$", it["titolo"])
+        if m:
+            it["titolo"] = m.group(1)
+    return items
+
+
+def read_source(src):
+    """Ritorna (items, metodo, errore). Ordine: gestore dedicato -> lettura diretta -> riserva Google News."""
+    errors = []
+    if src.get("handler") == "gu":
+        try:
+            items = read_gu()
+            if items:
+                return items, "ufficiale", None
+            errors.append("sommari vuoti")
+        except Exception as ex:  # noqa: BLE001
+            errors.append(f"gazzetta: {type(ex).__name__}")
+    else:
+        items, metodo, err = read_direct(src)
+        if items:
+            return items, metodo, None
+        errors.append(err)
+    if src.get("gnews"):
+        try:
+            items = read_gnews(src["gnews"])
+            if items:
+                return items, "gnews", None
+            errors.append("riserva vuota")
+        except Exception as ex:  # noqa: BLE001
+            errors.append(f"riserva: {type(ex).__name__}")
+    return [], "nessuno", "; ".join(e for e in errors if e) or "sconosciuto"
 
 
 # ---------------------------------------------------------------- classificazione
@@ -373,7 +472,7 @@ def main():
         elif not items:
             stato = "vuoto"
         else:
-            stato = "ok" if metodo == "rss" else "ok_scraping"
+            stato = {"rss": "ok", "ufficiale": "ok", "gnews": "ok_indiretto"}.get(metodo, "ok_scraping")
         statuses.append({
             "id": src["id"], "nome": src["nome"], "tipo": src["tipo"], "home": src["home"],
             "stato": stato, "metodo": metodo, "letti": len(items), "nuovi": added,
@@ -401,7 +500,7 @@ def main():
     aree_pub["altro"] = {"nome": "Altro", "colore": "#7b8794"}
     save_json(data / "aree.json", aree_pub)
     save_json(news_file, {"aggiornato": iso(ts), "notizie": allnews})
-    ok = sum(1 for s in statuses if s["stato"] in ("ok", "ok_scraping"))
+    ok = sum(1 for s in statuses if s["stato"] in ("ok", "ok_scraping", "ok_indiretto"))
     save_json(status_file, {"aggiornato": iso(ts), "fonti_ok": ok, "fonti_totale": len(statuses), "fonti": statuses})
     print(f"Nuove: {len(new_items)} | totale archivio: {len(allnews)} | fonti attive: {ok}/{len(statuses)}")
 

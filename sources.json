@@ -1,30 +1,191 @@
 {
-  "_note": "Registro fonti. 'feed' = URL RSS noto (opzionale: se manca o fallisce il sistema cerca da solo il feed nella home). 'lista' = pagina elenco notizie per lo scraping di riserva. 'filtra' = true per fonti generaliste: tiene solo le notizie che toccano le aree seguite. 'tipo': ufficiale | ente | ordine | stampa",
-  "fonti": [
-    {"id": "gu", "nome": "Gazzetta Ufficiale", "tipo": "ufficiale", "home": "https://www.gazzettaufficiale.it/", "lista": "https://www.gazzettaufficiale.it/", "filtra": true},
-    {"id": "normattiva", "nome": "Normattiva", "tipo": "ufficiale", "home": "https://www.normattiva.it/", "filtra": true},
-    {"id": "eurlex", "nome": "EUR-Lex (UE)", "tipo": "ufficiale", "home": "https://eur-lex.europa.eu/homepage.html?locale=it", "feed": "", "filtra": true, "nota": "Serve un feed RSS personalizzato creato su EUR-Lex: incollare qui l'URL in 'feed'."},
-    {"id": "vvf", "nome": "Vigili del Fuoco", "tipo": "ufficiale", "home": "https://www.vigilfuoco.it/", "lista": "https://www.vigilfuoco.it/aspx/page.aspx?IdPage=4090", "aree": ["antincendio"], "filtra": true},
-    {"id": "ade", "nome": "Agenzia delle Entrate", "tipo": "ufficiale", "home": "https://www.agenziaentrate.gov.it/portale/", "filtra": true},
-    {"id": "mit", "nome": "Ministero Infrastrutture (MIT)", "tipo": "ufficiale", "home": "https://www.mit.gov.it/", "filtra": true},
-    {"id": "mase", "nome": "Ministero Ambiente (MASE)", "tipo": "ufficiale", "home": "https://www.mase.gov.it/", "filtra": true},
-    {"id": "protciv", "nome": "Protezione Civile", "tipo": "ufficiale", "home": "https://www.protezionecivile.gov.it/", "aree": ["strutture"], "filtra": true},
-    {"id": "enea", "nome": "ENEA Efficienza energetica", "tipo": "ente", "home": "https://www.efficienzaenergetica.enea.it/", "aree": ["energia"]},
-    {"id": "gse", "nome": "GSE", "tipo": "ente", "home": "https://www.gse.it/", "aree": ["energia"], "filtra": true},
-    {"id": "anac", "nome": "ANAC (appalti)", "tipo": "ente", "home": "https://www.anticorruzione.it/", "filtra": true},
-    {"id": "uni", "nome": "UNI (norme tecniche)", "tipo": "ente", "home": "https://www.uni.com/", "filtra": true},
-    {"id": "cni", "nome": "Consiglio Nazionale Ingegneri", "tipo": "ordine", "home": "https://www.cni.it/"},
-    {"id": "cnappc", "nome": "Architetti Italiani (CNAPPC)", "tipo": "ordine", "home": "https://www.awn.it/"},
-    {"id": "cng", "nome": "Consiglio Nazionale Geometri", "tipo": "ordine", "home": "https://www.cng.it/"},
-    {"id": "ance", "nome": "ANCE", "tipo": "ordine", "home": "https://ance.it/"},
-    {"id": "ediltecnico", "nome": "Ediltecnico", "tipo": "stampa", "home": "https://ediltecnico.it/", "feed": "https://ediltecnico.it/feed/"},
-    {"id": "lavoripubblici", "nome": "LavoriPubblici", "tipo": "stampa", "home": "https://www.lavoripubblici.it/", "lista": "https://www.lavoripubblici.it/news/"},
-    {"id": "infobuild", "nome": "Infobuild", "tipo": "stampa", "home": "https://www.infobuild.it/"},
-    {"id": "ingenio", "nome": "Ingenio", "tipo": "stampa", "home": "https://www.ingenio-web.it/"},
-    {"id": "puntosicuro", "nome": "PuntoSicuro", "tipo": "stampa", "home": "https://www.puntosicuro.it/", "feed": "https://www.puntosicuro.it/feed.rss"},
-    {"id": "edilportale", "nome": "Edilportale", "tipo": "stampa", "home": "https://www.edilportale.com/"},
-    {"id": "teknoring", "nome": "Teknoring", "tipo": "stampa", "home": "https://www.teknoring.com/"},
-    {"id": "biblus", "nome": "Biblus (ACCA)", "tipo": "stampa", "home": "https://biblus.acca.it/"},
-    {"id": "fiscalfocus", "nome": "Fiscal Focus", "tipo": "stampa", "home": "https://www.fiscal-focus.it/", "aree": ["catasto"], "filtra": true}
-  ]
+ "_note": "Registro fonti. 'feed' = URL RSS noto (opzionale: se manca o fallisce il sistema cerca da solo il feed nella home). 'lista' = pagina elenco notizie per lo scraping di riserva. 'filtra' = true per fonti generaliste: tiene solo le notizie che toccano le aree seguite. 'tipo': ufficiale | ente | ordine | stampa",
+ "fonti": [
+  {
+   "id": "gu",
+   "nome": "Gazzetta Ufficiale",
+   "tipo": "ufficiale",
+   "home": "https://www.gazzettaufficiale.it/",
+   "filtra": true,
+   "handler": "gu",
+   "nota": "Legge i sommari degli ultimi numeri della Serie Generale, atto per atto."
+  },
+  {
+   "id": "eurlex",
+   "nome": "EUR-Lex (UE)",
+   "tipo": "ufficiale",
+   "home": "https://eur-lex.europa.eu/homepage.html?locale=it",
+   "feed": "",
+   "filtra": true,
+   "nota": "Serve un feed RSS personalizzato creato su EUR-Lex: incollare qui l'URL in 'feed'."
+  },
+  {
+   "id": "vvf",
+   "nome": "Vigili del Fuoco",
+   "tipo": "ufficiale",
+   "home": "https://www.vigilfuoco.it/",
+   "lista": "https://www.vigilfuoco.it/servizi-le-aziende-e-i-professionisti/prevenzione-incendi/norme-di-prevenzione-incendi",
+   "aree": [
+    "antincendio"
+   ],
+   "filtra": true,
+   "gnews": "site:vigilfuoco.it prevenzione incendi"
+  },
+  {
+   "id": "ade",
+   "nome": "Agenzia delle Entrate",
+   "tipo": "ufficiale",
+   "home": "https://www.agenziaentrate.gov.it/portale/",
+   "filtra": true
+  },
+  {
+   "id": "mit",
+   "nome": "Ministero Infrastrutture (MIT)",
+   "tipo": "ufficiale",
+   "home": "https://www.mit.gov.it/",
+   "filtra": true,
+   "lista": "https://www.mit.gov.it/comunicazione/news",
+   "gnews": "site:mit.gov.it"
+  },
+  {
+   "id": "mase",
+   "nome": "Ministero Ambiente (MASE)",
+   "tipo": "ufficiale",
+   "home": "https://www.mase.gov.it/",
+   "filtra": true
+  },
+  {
+   "id": "protciv",
+   "nome": "Protezione Civile",
+   "tipo": "ufficiale",
+   "home": "https://www.protezionecivile.gov.it/",
+   "aree": [
+    "strutture"
+   ],
+   "filtra": true,
+   "gnews": "site:protezionecivile.gov.it"
+  },
+  {
+   "id": "enea",
+   "nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "home": "https://www.efficienzaenergetica.enea.it/",
+   "aree": [
+    "energia"
+   ]
+  },
+  {
+   "id": "gse",
+   "nome": "GSE",
+   "tipo": "ente",
+   "home": "https://www.gse.it/",
+   "aree": [
+    "energia"
+   ],
+   "filtra": true,
+   "gnews": "site:gse.it"
+  },
+  {
+   "id": "anac",
+   "nome": "ANAC (appalti)",
+   "tipo": "ente",
+   "home": "https://www.anticorruzione.it/",
+   "filtra": true
+  },
+  {
+   "id": "uni",
+   "nome": "UNI (norme tecniche)",
+   "tipo": "ente",
+   "home": "https://www.uni.com/",
+   "filtra": true
+  },
+  {
+   "id": "cni",
+   "nome": "Consiglio Nazionale Ingegneri",
+   "tipo": "ordine",
+   "home": "https://www.cni.it/"
+  },
+  {
+   "id": "cnappc",
+   "nome": "Architetti Italiani (CNAPPC)",
+   "tipo": "ordine",
+   "home": "https://www.awn.it/"
+  },
+  {
+   "id": "cng",
+   "nome": "Consiglio Nazionale Geometri",
+   "tipo": "ordine",
+   "home": "https://www.cng.it/"
+  },
+  {
+   "id": "ance",
+   "nome": "ANCE",
+   "tipo": "ordine",
+   "home": "https://ance.it/"
+  },
+  {
+   "id": "ediltecnico",
+   "nome": "Ediltecnico",
+   "tipo": "stampa",
+   "home": "https://ediltecnico.it/",
+   "feed": "https://ediltecnico.it/feed/"
+  },
+  {
+   "id": "lavoripubblici",
+   "nome": "LavoriPubblici",
+   "tipo": "stampa",
+   "home": "https://www.lavoripubblici.it/",
+   "lista": "https://www.lavoripubblici.it/news/",
+   "gnews": "site:lavoripubblici.it"
+  },
+  {
+   "id": "infobuild",
+   "nome": "Infobuild",
+   "tipo": "stampa",
+   "home": "https://www.infobuild.it/"
+  },
+  {
+   "id": "ingenio",
+   "nome": "Ingenio",
+   "tipo": "stampa",
+   "home": "https://www.ingenio-web.it/"
+  },
+  {
+   "id": "puntosicuro",
+   "nome": "PuntoSicuro",
+   "tipo": "stampa",
+   "home": "https://www.puntosicuro.it/",
+   "feed": "https://www.puntosicuro.it/feed.rss"
+  },
+  {
+   "id": "edilportale",
+   "nome": "Edilportale",
+   "tipo": "stampa",
+   "home": "https://www.edilportale.com/"
+  },
+  {
+   "id": "teknoring",
+   "nome": "Teknoring",
+   "tipo": "stampa",
+   "home": "https://www.teknoring.com/"
+  },
+  {
+   "id": "biblus",
+   "nome": "Biblus (ACCA)",
+   "tipo": "stampa",
+   "home": "https://biblus.acca.it/",
+   "feed": "https://biblus.acca.it/feed/",
+   "gnews": "site:biblus.acca.it"
+  },
+  {
+   "id": "fiscalfocus",
+   "nome": "Fiscal Focus",
+   "tipo": "stampa",
+   "home": "https://www.fiscal-focus.it/",
+   "aree": [
+    "catasto"
+   ],
+   "filtra": true
+  }
+ ]
 }

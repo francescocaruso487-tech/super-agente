@@ -101,12 +101,12 @@ function renderArchivio() {
 }
 
 const ETICHETTE_TIPO = { ufficiale: "Fonti ufficiali", ente: "Enti", ordine: "Ordini e associazioni", stampa: "Stampa tecnica" };
-const ETICHETTE_STATO = { ok: "Attiva (feed)", ok_scraping: "Attiva (lettura pagina, meno precisa)", errore: "Non raggiungibile", vuoto: "Nessun contenuto letto" };
+const ETICHETTE_STATO = { ok: "Attiva (feed)", ok_scraping: "Attiva (lettura pagina, meno precisa)", ok_indiretto: "Attiva (indiretta via Google News: sito che blocca i lettori)", errore: "Non raggiungibile", vuoto: "Nessun contenuto letto" };
 function renderFonti() {
   const s = state.status;
   if (!s || !s.fonti.length) { $("#fonti-riepilogo").innerHTML = vuoto("Nessun dato sulle fonti", "Compare dopo il primo aggiornamento."); return; }
   const problemi = s.fonti.filter((f) => f.stato === "errore" || f.stato === "vuoto").length;
-  const scrap = s.fonti.filter((f) => f.stato === "ok_scraping").length;
+  const scrap = s.fonti.filter((f) => f.stato === "ok_scraping" || f.stato === "ok_indiretto").length;
   $("#fonti-riepilogo").innerHTML = `<b>${s.fonti_ok} / ${s.fonti_totale} fonti attive</b>
     <p>${problemi ? `${problemi} da sistemare` : "Nessun problema"}${scrap ? ` · ${scrap} lette in modo approssimativo` : ""}. Ultimo controllo: ${s.aggiornato ? fa(new Date(s.aggiornato)) : "—"}.</p>`;
   let out = "";

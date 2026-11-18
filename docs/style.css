@@ -59,7 +59,7 @@ main{max-width:720px;margin:0 auto;padding:12px 12px 0}
 .riepilogo p{margin:4px 0 0;font-size:13px;color:var(--mute)}
 .fonte{display:flex;gap:10px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:8px}
 .dot{flex:0 0 auto;width:11px;height:11px;border-radius:50%;margin-top:5px;background:var(--ok)}
-.dot.ok_scraping{background:var(--warn)}.dot.errore,.dot.vuoto{background:var(--bad)}
+.dot.ok_scraping,.dot.ok_indiretto{background:var(--warn)}.dot.errore,.dot.vuoto{background:var(--bad)}
 .fonte a{color:var(--ink);font-weight:600;text-decoration:none}
 .fonte .m{font-size:12px;color:var(--mute);margin-top:2px}
 .fonte .err{color:var(--bad)}
