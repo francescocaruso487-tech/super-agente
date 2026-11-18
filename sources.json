@@ -330,6 +330,134 @@
    ],
    "gnews_when": "14d",
    "nota": "Novità regionali via Google News."
+  },
+  {
+   "id": "bonus-ade",
+   "nome": "Bonus: Agenzia Entrate (guide e risoluzioni)",
+   "tipo": "ufficiale",
+   "home": "https://www.agenziaentrate.gov.it/portale/web/guest/schede/agevolazioni",
+   "aree": [
+    "bonus"
+   ],
+   "gnews": [
+    "site:agenziaentrate.gov.it bonus edilizi detrazioni",
+    "site:agenziaentrate.gov.it risoluzione superbonus ecobonus sismabonus",
+    "site:agenziaentrate.gov.it ristrutturazioni edilizie guida"
+   ],
+   "gnews_when": "30d",
+   "filtra": true
+  },
+  {
+   "id": "bonus-enea",
+   "nome": "Bonus: ENEA detrazioni",
+   "tipo": "ente",
+   "home": "https://detrazionifiscali.enea.it/",
+   "aree": [
+    "bonus"
+   ],
+   "gnews": [
+    "site:enea.it detrazioni fiscali ecobonus bonus casa",
+    "ENEA portale detrazioni fiscali novità"
+   ],
+   "gnews_when": "30d",
+   "filtra": true
+  },
+  {
+   "id": "bonus-gse",
+   "nome": "Bonus: GSE Conto Termico",
+   "tipo": "ente",
+   "home": "https://www.gse.it/servizi-per-te/efficienza-energetica/conto-termico",
+   "aree": [
+    "bonus"
+   ],
+   "gnews": [
+    "site:gse.it conto termico",
+    "Conto Termico 3.0 GSE novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "bonus-mef",
+   "nome": "Bonus: MEF e Governo",
+   "tipo": "ufficiale",
+   "home": "https://www.mef.gov.it/",
+   "aree": [
+    "bonus"
+   ],
+   "gnews": [
+    "site:mef.gov.it bonus edilizi detrazioni",
+    "site:governo.it bonus edilizi superbonus detrazioni"
+   ],
+   "gnews_when": "30d",
+   "filtra": true
+  },
+  {
+   "id": "bonus-fiscooggi",
+   "nome": "Fisco Oggi (rivista Agenzia Entrate)",
+   "tipo": "ufficiale",
+   "home": "https://www.fiscooggi.it/",
+   "aree": [
+    "bonus"
+   ],
+   "gnews": [
+    "site:fiscooggi.it bonus edilizi detrazioni ristrutturazioni",
+    "site:fiscooggi.it superbonus"
+   ],
+   "gnews_when": "30d",
+   "filtra": true
+  },
+  {
+   "id": "bonus-stampa",
+   "nome": "Bonus edilizi: notizie e analisi",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "aree": [
+    "bonus"
+   ],
+   "gnews": [
+    "superbonus novità",
+    "bonus edilizi 2026 novità",
+    "detrazioni ristrutturazioni 2026",
+    "ecobonus sismabonus proroga",
+    "legge di bilancio bonus casa",
+    "cessione del credito sconto in fattura novità",
+    "bonus casa Agenzia Entrate chiarimenti",
+    "bonus barriere architettoniche facciate novità"
+   ],
+   "gnews_when": "7d",
+   "filtra": true
+  },
+  {
+   "id": "bonus-sole",
+   "nome": "Bonus: Il Sole 24 Ore (casa e fisco)",
+   "tipo": "stampa",
+   "home": "https://www.ilsole24ore.com/",
+   "aree": [
+    "bonus"
+   ],
+   "gnews": [
+    "site:ilsole24ore.com superbonus bonus edilizi",
+    "site:ilsole24ore.com detrazioni ristrutturazioni ecobonus"
+   ],
+   "gnews_when": "14d",
+   "filtra": true
+  },
+  {
+   "id": "bonus-camp",
+   "nome": "Bonus e contributi Campania/Caserta",
+   "tipo": "ente",
+   "home": "https://www.regione.campania.it/",
+   "aree": [
+    "bonus"
+   ],
+   "gnews": [
+    "Campania contributi casa ristrutturazione bando",
+    "Campania bando contributi edilizia cittadini",
+    "Caserta contributi bando casa condomini",
+    "Campi Flegrei contributi ricostruzione bando"
+   ],
+   "gnews_when": "30d",
+   "luogo": "Campania"
   }
  ]
 }

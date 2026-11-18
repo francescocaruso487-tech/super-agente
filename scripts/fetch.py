@@ -327,7 +327,7 @@ def read_source(src):
 
 
 # ---------------------------------------------------------------- classificazione
-TASSONOMIA = "2"  # cambia questo valore per far riclassificare l'archivio
+TASSONOMIA = "3"  # cambia questo valore per far riclassificare l'archivio
 
 
 def _rx(kw):
