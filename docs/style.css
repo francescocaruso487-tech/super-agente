@@ -71,3 +71,17 @@ main{max-width:720px;margin:0 auto;padding:12px 12px 0}
 .bottom button span{font-size:22px;line-height:1.1}
 .bottom button.on{color:var(--ink);font-weight:700}
 .bottom button.on span{transform:translateY(-1px)}
+
+/* sezioni a tendina */
+.sez{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:10px;box-shadow:var(--shadow);overflow:hidden}
+.sez-head{width:100%;display:flex;align-items:center;gap:10px;background:none;border:0;color:var(--ink);cursor:pointer;
+  padding:15px 14px 15px 16px;text-align:left;font-size:17px;font-weight:650;border-left:6px solid var(--c)}
+.sez-titolo{flex:1}
+.sez-meta{display:flex;align-items:center;gap:8px}
+.sez-meta small{color:var(--mute);font-size:14px;font-weight:500}
+.pill{background:var(--accent);color:#1a1205;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px}
+.freccia{font-size:26px;line-height:1;color:var(--mute);transition:transform .18s;display:inline-block}
+.sez.aperta .freccia{transform:rotate(90deg)}
+.sez-corpo{padding:0 10px 6px;border-top:1px solid var(--line);background:var(--bg)}
+.sez-corpo .card{box-shadow:none}
+.sez-corpo .giorno{margin-top:14px}

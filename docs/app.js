@@ -7,7 +7,7 @@ const store = {
 };
 const state = {
   news: [], aree: {}, status: null,
-  areaNovita: "tutte", areaArchivio: "tutte", soloNorm: false, query: "", mostrati: 40,
+  aperte: new Set(), limiti: {}, areaArchivio: "tutte", soloNorm: false, query: "", mostrati: 40,
   lette: new Set(store.get("lette", [])), stelle: new Set(store.get("stelle", [])),
   ultimaVisita: store.get("ultimaVisita", null),
 };
@@ -77,20 +77,43 @@ function chips(el, corrente, onPick) {
 
 function vuoto(msg, sub) { return `<div class="vuoto"><b>${msg}</b>${sub || ""}</div>`; }
 
-function renderNovita() {
-  chips($("#chips-novita"), state.areaNovita, (k) => { state.areaNovita = k; renderNovita(); });
-  const sette = Date.now() - 7 * 86400000;
-  const lista = filtra({ area: state.areaNovita, query: "", soloNorm: state.soloNorm })
-    .filter((n) => state.areaNovita === "stelle" || dataDi(n).getTime() >= sette);
-  if (!state.news.length) { $("#lista-novita").innerHTML = vuoto("Ancora nessuna notizia", "Il primo aggiornamento automatico è in arrivo (ogni ora)."); return; }
-  if (!lista.length) { $("#lista-novita").innerHTML = vuoto("Nessuna notizia qui", "Prova un'altra area o guarda l'Archivio."); return; }
-  let out = "", ultimo = "";
-  for (const n of lista) {
-    const g = etichettaGiorno(dataDi(n));
-    if (g !== ultimo) { out += `<div class="giorno">${esc(g)}</div>`; ultimo = g; }
-    out += card(n);
+function sezione(k, lista) {
+  const aperta = state.aperte.has(k);
+  const nuovi = lista.filter((n) => !state.lette.has(n.id) && state.ultimaVisita && new Date(n.visto) > new Date(state.ultimaVisita)).length;
+  const titolo = k === "stelle" ? "★ Salvate" : nome(k);
+  const col = k === "stelle" ? "#f0b429" : colore(k);
+  let corpo = "";
+  if (aperta) {
+    const lim = state.limiti[k] || 25;
+    let ultimo = "";
+    for (const n of lista.slice(0, lim)) {
+      const g = etichettaGiorno(dataDi(n));
+      if (g !== ultimo) { corpo += `<div class="giorno">${esc(g)}</div>`; ultimo = g; }
+      corpo += card(n);
+    }
+    if (lista.length > lim) corpo += `<button class="more" data-piu="${k}">Mostra altre ${Math.min(25, lista.length - lim)}</button>`;
+    corpo = `<div class="sez-corpo">${corpo || vuoto("Nessuna notizia")}</div>`;
   }
-  $("#lista-novita").innerHTML = out;
+  return `<section class="sez${aperta ? " aperta" : ""}" style="--c:${col}">
+    <button class="sez-head" data-sez="${k}" aria-expanded="${aperta}">
+      <span class="sez-titolo">${esc(titolo)}</span>
+      <span class="sez-meta">${nuovi ? `<b class="pill">${nuovi} nuove</b>` : ""}<small>${lista.length}</small></span>
+      <span class="freccia" aria-hidden="true">›</span>
+    </button>${corpo}</section>`;
+}
+
+function renderNovita() {
+  const box = $("#lista-novita");
+  if (!state.news.length) { box.innerHTML = vuoto("Ancora nessuna notizia", "Il primo aggiornamento automatico è in arrivo (ogni ora)."); return; }
+  const chiavi = ["stelle", ...Object.keys(state.aree).filter((a) => a !== "altro"), "altro"];
+  let out = "";
+  for (const k of chiavi) {
+    const lista = filtra({ area: k, query: "", soloNorm: state.soloNorm });
+    if (!lista.length && k !== "stelle") { if (k === "altro") continue; }
+    if (k === "stelle" && !state.stelle.size) continue;
+    out += sezione(k, lista);
+  }
+  box.innerHTML = out || vuoto("Nessuna notizia", "Togli il filtro \"Solo novità normative\".");
 }
 
 function renderArchivio() {
@@ -135,6 +158,15 @@ async function carica(forza) {
 }
 
 document.addEventListener("click", (e) => {
+  const sez = e.target.closest("[data-sez]");
+  if (sez) {
+    const k = sez.dataset.sez;
+    state.aperte.has(k) ? state.aperte.delete(k) : state.aperte.add(k);
+    renderNovita();
+    return;
+  }
+  const piu = e.target.closest("[data-piu]");
+  if (piu) { state.limiti[piu.dataset.piu] = (state.limiti[piu.dataset.piu] || 25) + 25; renderNovita(); return; }
   const star = e.target.closest("[data-star]");
   if (star) {
     e.stopPropagation();

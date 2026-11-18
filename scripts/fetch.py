@@ -136,14 +136,34 @@ def discover_feeds(page_html, base):
     return out
 
 
+CHROME_RX = re.compile(r"(^|[\s_-])(menu|navbar|nav|footer|breadcrumb|sidebar|toolbar|cookie|banner)([\s_-]|$)")
+
+
+def in_chrome(a):
+    """True se il link sta in menu, intestazione, piede o barre laterali."""
+    for p in a.parents:
+        if getattr(p, "name", None) in ("nav", "header", "footer", "aside"):
+            return True
+        cls = " ".join(p.get("class") or []).lower() + " " + (p.get("id") or "").lower() if hasattr(p, "get") else ""
+        if CHROME_RX.search(cls):
+            return True
+    return False
+
+
+def quality_ok(title):
+    """Un titolo da notizia: abbastanza lungo e con almeno 6 parole (esclude voci di menu)."""
+    t = clean(title)
+    return len(t) >= 45 and len(t.split()) >= 6
+
+
 def scrape_links(page_html, base):
-    """Riserva: estrae i link con testo lungo (titoli) dalla pagina."""
+    """Riserva: estrae i titoli di notizia dalla pagina, escludendo menu e piedi pagina."""
     soup = BeautifulSoup(page_html, "lxml")
     host = urlparse(base).netloc.replace("www.", "")
     items, seen = [], set()
     for a in soup.find_all("a", href=True):
         txt = clean(a.get_text(" "))
-        if len(txt) < 38 or len(txt) > 260:
+        if len(txt) > 260 or not quality_ok(txt) or in_chrome(a):
             continue
         href = urljoin(base, a["href"])
         p = urlparse(href)
@@ -452,6 +472,12 @@ def main():
     known = {i["id"]: i for i in news}
     ts = now_utc()
 
+    # pulizia una tantum: toglie dall'archivio le voci di menu raccolte da fonti lette con scraping
+    for iid, rec in list(known.items()):
+        m = rec.get("metodo") or prev_status.get(rec["fonte"], {}).get("metodo")
+        if m == "scraping" and (not quality_ok(rec["titolo"]) or rec["aree"] == ["altro"]):
+            del known[iid]
+
     print(f"Lettura di {len(sources)} fonti…")
     with ThreadPoolExecutor(max_workers=8) as pool:
         results = list(pool.map(read_source, sources))
@@ -470,9 +496,11 @@ def main():
             if cls is None:
                 continue
             aree, normativa = cls
+            if metodo == "scraping" and aree == ["altro"]:
+                continue
             rec = {"id": iid, "titolo": it["titolo"], "link": it["link"], "fonte": src["id"],
                    "fonte_nome": src["nome"], "tipo": src["tipo"], "aree": aree, "normativa": normativa,
-                   "sintesi": it["sintesi"], "pubblicata": it["pubblicata"], "visto": iso(ts)}
+                   "sintesi": it["sintesi"], "pubblicata": it["pubblicata"], "visto": iso(ts), "metodo": metodo}
             known[iid] = rec
             new_items.append(rec)
             added += 1
