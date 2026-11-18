@@ -148,13 +148,27 @@ function renderFonti() {
 
 function renderTutto() { renderNovita(); renderArchivio(); renderFonti(); }
 
+const VERSIONE_APP = "3";
+
 async function carica(forza) {
-  const q = forza ? `?t=${Date.now()}` : "";
-  const j = async (f) => (await fetch(`data/${f}.json${q}`, { cache: "no-cache" })).json();
-  const [news, aree, status] = await Promise.all([j("news"), j("aree").catch(() => ({})), j("status").catch(() => null)]);
-  state.news = news.notizie || []; state.aree = aree; state.status = status;
-  $("#aggiornato").textContent = news.aggiornato ? `Aggiornato ${fa(new Date(news.aggiornato))}` : "Edilizia e ingegneria";
-  renderTutto();
+  const q = `?t=${Date.now()}`;
+  const j = async (f) => {
+    const r = await fetch(`data/${f}.json${q}`, { cache: "no-store" });
+    if (!r.ok) throw new Error(`${f}: ${r.status}`);
+    return r.json();
+  };
+  try {
+    const [news, aree, status] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null)]);
+    if (!Array.isArray(news.notizie)) throw new Error("dati non validi");
+    state.news = news.notizie; state.aree = aree; state.status = status;
+    $("#aggiornato").textContent = (news.aggiornato ? `Aggiornato ${fa(new Date(news.aggiornato))}` : "Edilizia e ingegneria") + ` · v${VERSIONE_APP}`;
+    renderTutto();
+  } catch (err) {
+    if (!state.news.length) {
+      $("#lista-novita").innerHTML = vuoto("Non riesco a caricare le notizie", "Controlla la connessione e tocca ⟳ in alto.");
+      $("#aggiornato").textContent = `Non aggiornato · v${VERSIONE_APP}`;
+    }
+  }
 }
 
 document.addEventListener("click", (e) => {
@@ -200,4 +214,9 @@ document.querySelectorAll(".bottom button").forEach((b) => b.addEventListener("c
 
 carica(false).then(() => store.set("ultimaVisita", new Date().toISOString()));
 document.addEventListener("visibilitychange", () => { if (!document.hidden) carica(true); });
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+if ("serviceWorker" in navigator) {
+  // quando esce una versione nuova, l'app si ricarica da sola una volta
+  let primo = !navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener("controllerchange", () => { if (primo) { primo = false; return; } location.reload(); });
+  navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).then((r) => r.update()).catch(() => {});
+}
