@@ -7,7 +7,7 @@ const store = {
 };
 const state = {
   news: [], aree: {}, status: null,
-  aperte: new Set(), limiti: {}, areaArchivio: "tutte", soloNorm: false, query: "", mostrati: 40,
+  aperte: new Set(), limiti: {}, sotto: {}, areaArchivio: "tutte", soloNorm: false, query: "", mostrati: 40,
   lette: new Set(store.get("lette", [])), stelle: new Set(store.get("stelle", [])),
   ultimaVisita: store.get("ultimaVisita", null),
 };
@@ -41,7 +41,8 @@ function card(n) {
   const letta = state.lette.has(n.id);
   const nuovo = !letta && state.ultimaVisita && new Date(n.visto) > new Date(state.ultimaVisita);
   const stella = state.stelle.has(n.id);
-  const badge = n.aree.map((a) => `<span class="badge" style="--c:${colore(a)}">${esc(nome(a))}</span>`).join("");
+  const luogoB = n.luogo ? `<span class="badge luogo">📍 ${esc(n.luogo)}</span>` : "";
+  const badge = luogoB + n.aree.filter((a) => a !== "altro" || !n.luogo).map((a) => `<span class="badge" style="--c:${colore(a)}">${esc(nome(a))}</span>`).join("");
   return `<article class="card${letta ? " letta" : ""}" data-id="${n.id}" style="--c:${colore(n.aree[0])}">
     <div class="riga">${badge}${n.normativa ? '<span class="badge norm">Normativa</span>' : ""}${nuovo ? '<span class="nuovo" title="Nuova"></span>' : ""}</div>
     <h3 class="titolo">${esc(n.titolo)}</h3>
@@ -55,7 +56,9 @@ function filtra({ area, query, soloNorm }) {
   const q = query.trim().toLowerCase();
   return state.news.filter((n) => {
     if (area === "stelle") { if (!state.stelle.has(n.id)) return false; }
-    else if (area === "tutte") { if (n.aree.length === 1 && n.aree[0] === "altro") return false; }
+    else if (area === "tutte") { if (n.aree.length === 1 && n.aree[0] === "altro" && !n.luogo) return false; }
+    else if (area === "locale") { if (!n.luogo) return false; }
+    else if (area === "altro") { if (n.luogo || !n.aree.includes("altro")) return false; }
     else if (!n.aree.includes(area)) return false;
     if (soloNorm && !n.normativa) return false;
     if (q && !(n.titolo + " " + (n.sintesi || "") + " " + n.fonte_nome).toLowerCase().includes(q)) return false;
@@ -65,10 +68,11 @@ function filtra({ area, query, soloNorm }) {
 
 function chips(el, corrente, onPick) {
   const base = state.news;
-  const conta = (a) => base.filter((n) => n.aree.includes(a)).length;
-  const voci = [["tutte", "Tutte", null, base.filter((n) => !(n.aree.length === 1 && n.aree[0] === "altro")).length],
+  const conta = (a) => base.filter((n) => a === "locale" ? !!n.luogo : a === "altro" ? (!n.luogo && n.aree.includes("altro")) : n.aree.includes(a)).length;
+  const voci = [["tutte", "Tutte", null, base.filter((n) => !(n.aree.length === 1 && n.aree[0] === "altro" && !n.luogo)).length],
     ["stelle", "★ Salvate", null, state.stelle.size]];
-  Object.keys(state.aree).filter((a) => a !== "altro").forEach((a) => voci.push([a, nome(a), colore(a), conta(a)]));
+  if (state.aree.locale) voci.push(["locale", nome("locale"), colore("locale"), conta("locale")]);
+  Object.keys(state.aree).filter((a) => a !== "altro" && a !== "locale").forEach((a) => voci.push([a, nome(a), colore(a), conta(a)]));
   voci.push(["altro", "Altro", colore("altro"), conta("altro")]);
   el.innerHTML = voci.map(([k, l, c, n]) =>
     `<button class="chip${k === corrente ? " on" : ""}" data-k="${k}">${c ? `<i style="background:${c}"></i>` : ""}${esc(l)} <small>${n}</small></button>`).join("");
@@ -77,8 +81,20 @@ function chips(el, corrente, onPick) {
 
 function vuoto(msg, sub) { return `<div class="vuoto"><b>${msg}</b>${sub || ""}</div>`; }
 
-function sezione(k, lista) {
+function sezione(k, listaTot) {
   const aperta = state.aperte.has(k);
+  const sottoDef = state.aree[k]?.sotto || {};
+  const selSotto = state.sotto[k] || "";
+  let lista = listaTot;
+  let chipsSotto = "";
+  if (aperta && Object.keys(sottoDef).length) {
+    if (selSotto) lista = listaTot.filter((n) => (n.sotto || []).includes(`${k}.${selSotto}`));
+    const cnt = (sid) => listaTot.filter((n) => (n.sotto || []).includes(`${k}.${sid}`)).length;
+    chipsSotto = `<div class="sotto">` +
+      `<button class="chip s${selSotto ? "" : " on"}" data-sotto="${k}|">Tutte <small>${listaTot.length}</small></button>` +
+      Object.entries(sottoDef).map(([sid, nm]) => `<button class="chip s${selSotto === sid ? " on" : ""}" data-sotto="${k}|${sid}">${esc(nm)} <small>${cnt(sid)}</small></button>`).join("") +
+      `</div>`;
+  }
   const nuovi = lista.filter((n) => !state.lette.has(n.id) && state.ultimaVisita && new Date(n.visto) > new Date(state.ultimaVisita)).length;
   const titolo = k === "stelle" ? "★ Salvate" : nome(k);
   const col = k === "stelle" ? "#f0b429" : colore(k);
@@ -92,7 +108,7 @@ function sezione(k, lista) {
       corpo += card(n);
     }
     if (lista.length > lim) corpo += `<button class="more" data-piu="${k}">Mostra altre ${Math.min(25, lista.length - lim)}</button>`;
-    corpo = `<div class="sez-corpo">${corpo || vuoto("Nessuna notizia")}</div>`;
+    corpo = `<div class="sez-corpo">${chipsSotto}${corpo || vuoto("Nessuna notizia")}</div>`;
   }
   return `<section class="sez${aperta ? " aperta" : ""}" style="--c:${col}">
     <button class="sez-head" data-sez="${k}" aria-expanded="${aperta}">
@@ -105,7 +121,7 @@ function sezione(k, lista) {
 function renderNovita() {
   const box = $("#lista-novita");
   if (!state.news.length) { box.innerHTML = vuoto("Ancora nessuna notizia", "Il primo aggiornamento automatico è in arrivo (ogni ora)."); return; }
-  const chiavi = ["stelle", ...Object.keys(state.aree).filter((a) => a !== "altro"), "altro"];
+  const chiavi = ["stelle", "locale", ...Object.keys(state.aree).filter((a) => a !== "altro" && a !== "locale"), "altro"];
   let out = "";
   for (const k of chiavi) {
     const lista = filtra({ area: k, query: "", soloNorm: state.soloNorm });
@@ -148,7 +164,7 @@ function renderFonti() {
 
 function renderTutto() { renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "3";
+const VERSIONE_APP = "4";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -176,6 +192,13 @@ document.addEventListener("click", (e) => {
   if (sez) {
     const k = sez.dataset.sez;
     state.aperte.has(k) ? state.aperte.delete(k) : state.aperte.add(k);
+    renderNovita();
+    return;
+  }
+  const so = e.target.closest("[data-sotto]");
+  if (so) {
+    const [k, sid] = so.dataset.sotto.split("|");
+    state.sotto[k] = sid; state.limiti[k] = 25;
     renderNovita();
     return;
   }

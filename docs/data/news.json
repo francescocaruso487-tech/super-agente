@@ -1,36 +1,7 @@
 {
- "aggiornato": "2026-11-18T19:02:28Z",
+ "aggiornato": "2026-11-18T19:27:15Z",
+ "tassonomia": "2",
  "notizie": [
-  {
-   "id": "78a843ee621a3db1",
-   "titolo": "Cooperative compliance: nuove regole dalla riforma fiscale",
-   "link": "https://www.ipsoa.it/speciali/cooperative-compliance-riforma-fiscale",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T19:02:28Z"
-  },
-  {
-   "id": "8e2dccdba5aa2357",
-   "titolo": "Corte di giustizia dell’Unione europea",
-   "link": "https://eur-lex.europa.eu/browse/institutions/justice.html",
-   "fonte": "eurlex",
-   "fonte_nome": "EUR-Lex (UE)",
-   "tipo": "ufficiale",
-   "aree": [
-    "europa"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
   {
    "id": "62dd199d21d59e50",
    "titolo": "Consultazioni catastali e ipotecarie Richiedi visure, planimetrie e ispezioni ipotecarie dei tuoi immobili",
@@ -44,7 +15,11 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "catasto.volture"
+   ],
+   "luogo": null
   },
   {
    "id": "7ea8c2eff813a15b",
@@ -54,12 +29,18 @@
    "fonte_nome": "Agenzia delle Entrate",
    "tipo": "ufficiale",
    "aree": [
-    "catasto"
+    "catasto",
+    "bonus"
    ],
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "catasto.volture",
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "61547111a3913b41",
@@ -69,12 +50,16 @@
    "fonte_nome": "Ministero Ambiente (MASE)",
    "tipo": "ufficiale",
    "aree": [
-    "europa"
+    "norme"
    ],
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null
   },
   {
    "id": "73a43e0ca16228f5",
@@ -84,13 +69,18 @@
    "fonte_nome": "Ministero Ambiente (MASE)",
    "tipo": "ufficiale",
    "aree": [
-    "industriale",
-    "energia"
+    "energia",
+    "ambiente"
    ],
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni",
+    "ambiente.via_vas"
+   ],
+   "luogo": null
   },
   {
    "id": "3fa151ebd28b26be",
@@ -105,7 +95,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null
   },
   {
    "id": "60b62ad96e832d29",
@@ -120,7 +114,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null
   },
   {
    "id": "3d61409b7102f985",
@@ -130,12 +128,17 @@
    "fonte_nome": "ENEA Efficienza energetica",
    "tipo": "ente",
    "aree": [
+    "bonus",
     "energia"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "715be1ea9f715deb",
@@ -150,22 +153,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "be3b4cca46d67cc0",
-   "titolo": "NEWS ED EVENTI SULL'EFFICIENZA ENERGETICA",
-   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo.html",
-   "fonte": "enea",
-   "fonte_nome": "ENEA Efficienza energetica",
-   "tipo": "ente",
-   "aree": [
-    "energia"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni"
    ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "luogo": null
   },
   {
    "id": "70ba60da12a0a6a8",
@@ -175,12 +167,18 @@
    "fonte_nome": "ENEA Efficienza energetica",
    "tipo": "ente",
    "aree": [
-    "energia"
+    "energia",
+    "ambiente"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni",
+    "ambiente.via_vas"
+   ],
+   "luogo": null
   },
   {
    "id": "531b8a6e5eb92d2a",
@@ -195,7 +193,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null
   },
   {
    "id": "425eb14561ebec22",
@@ -210,7 +212,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "d69b924f00990888",
@@ -220,12 +224,17 @@
    "fonte_nome": "ENEA Efficienza energetica",
    "tipo": "ente",
    "aree": [
+    "edilizia",
     "energia"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.urbanistica"
+   ],
+   "luogo": null
   },
   {
    "id": "fbce0aa7e2225365",
@@ -240,7 +249,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null
   },
   {
    "id": "7bf42e8aeb680af5",
@@ -255,7 +268,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null
   },
   {
    "id": "7e47683ce37d14a8",
@@ -270,7 +287,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "0f17d7fd8fcbd14b",
@@ -285,7 +304,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null
   },
   {
    "id": "313a808e2073a079",
@@ -300,7 +323,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "4c98e221fb25f53e",
@@ -310,13 +335,18 @@
    "fonte_nome": "ENEA Efficienza energetica",
    "tipo": "ente",
    "aree": [
-    "edilizia",
-    "energia"
+    "energia",
+    "bonus"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni",
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "1310eae5e5a04dc2",
@@ -331,7 +361,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null
   },
   {
    "id": "de091ada9144ea1e",
@@ -346,7 +380,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "9e01df928c810142",
@@ -356,87 +392,17 @@
    "fonte_nome": "ENEA Efficienza energetica",
    "tipo": "ente",
    "aree": [
+    "bonus",
     "energia"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "00e5f6028c8460f1",
-   "titolo": "Casa, la sfida degli ingegneri: edifici più resilienti per affrontare il futuro",
-   "link": "https://www.cni.it/media-ing/news/294-2026/5347-casa-la-sfida-degli-ingegneri-edifici-piu-resilienti-per-affrontare-il-futuro",
-   "fonte": "cni",
-   "fonte_nome": "Consiglio Nazionale Ingegneri",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "bonus.bonus"
    ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "dfc4ac831562b577",
-   "titolo": "PPP, il CNI sull’Art. 129 della manovra: «si’ alla trasparenza dei conti, ma per non fermare gli investimenti serve una …",
-   "link": "https://www.cni.it/media-ing/news/294-2026/5345-ppp-il-cni-sullart-129-della-manovra-si-alla-trasparenza-dei-conti-ma-per-non-fermare-gli-investimenti-serve-una-verifica-preventiva-in-tempi-certi",
-   "fonte": "cni",
-   "fonte_nome": "Consiglio Nazionale Ingegneri",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "77362b693dd1263e",
-   "titolo": "Il CNI celebra i 108 anni dell’ingegnere Sebastiano Maccioni",
-   "link": "https://www.cni.it/media-ing/news/294-2026/5342-il-cni-celebra-i-108-anni-dellingegnere-sebastiano-maccioni",
-   "fonte": "cni",
-   "fonte_nome": "Consiglio Nazionale Ingegneri",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "9d3a6397be75a087",
-   "titolo": "Come lavorare con gli strumenti di Intelligenza Artificiale",
-   "link": "https://www.cni.it/eventi/dettaglievento/22179/-/come-lavorare-con-gli-strumenti-di-intelligenza-artificiale",
-   "fonte": "cni",
-   "fonte_nome": "Consiglio Nazionale Ingegneri",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "0b984785453b1488",
-   "titolo": "La progettazione di impianti di ventilazione e qualità dell’aria nelle scuole secondo la norma UNI 12016:2026",
-   "link": "https://www.cni.it/eventi/dettaglievento/22180/-/la-progettazione-di-impianti-di-ventilazione-e-qualita-dellaria-nelle-scuole-secondo-la-norma-uni-12016-2026",
-   "fonte": "cni",
-   "fonte_nome": "Consiglio Nazionale Ingegneri",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "luogo": null
   },
   {
    "id": "fecb73f51f419a99",
@@ -446,252 +412,16 @@
    "fonte_nome": "Consiglio Nazionale Ingegneri",
    "tipo": "ordine",
    "aree": [
-    "industriale"
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "9b87690ab0bd8dfd",
-   "titolo": "comitato italiano ingegneria dell'informazione",
-   "link": "https://www.cni.it/cni/c3i",
-   "fonte": "cni",
-   "fonte_nome": "Consiglio Nazionale Ingegneri",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "sicurezza.cantieri"
    ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "efcdfd0be661bb66",
-   "titolo": "Elezioni Ordini Territoriali 2025-2029",
-   "link": "https://www.awn.it/istituzione/sistema-ordinistico/elezioni-ordini-territoriali-2025-2029",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "61e86a8784a7205c",
-   "titolo": "Elezioni Ordini Territoriali 2021-2025",
-   "link": "https://www.awn.it/istituzione/sistema-ordinistico/elezioni-ordini-territoriali-2021-2025",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "9a4ec61e51fcb03e",
-   "titolo": "Elezioni Ordini Territoriali 2017-2021",
-   "link": "https://www.awn.it/istituzione/sistema-ordinistico/elezioni-ordini-provinciali",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "ff077bd47cdcd601",
-   "titolo": "Linee Guida ai procedimenti disciplinari",
-   "link": "https://www.awn.it/professione/deontologia/linee-guida-ai-procedimenti-disciplinari",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "991e561930bee5a0",
-   "titolo": "Disciplinari d'incarico e contratti tipo",
-   "link": "https://www.awn.it/professione/compensi/disciplinari-d-incarico-e-contratti-tipo",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "6913f18665eb9e0b",
-   "titolo": "Contributi CNAPPC in consultazioni ANAC",
-   "link": "https://www.awn.it/professione/lavori-pubblici/contributi-cnappc-in-consultazioni-anac",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "f58408c9799382e1",
-   "titolo": "Proposta di revisione organica della normativa sui Lavori Pubblici",
-   "link": "https://www.awn.it/professione/lavori-pubblici/proposta-di-revisione-organica-della-normativa-sui-lavori-pubblici",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "8fce28e9fe3240ac",
-   "titolo": "Programma di formazione sul microcredito",
-   "link": "https://www.awn.it/attivita/housing-microfinance-per-la-microricettivita/programma-di-formazione-sul-microcredito",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "a7df49b1cec98a7f",
-   "titolo": "Progetto di riforma della rete dei “presidi”",
-   "link": "http://www.awn.it/attivita/architetti-e-protezione-civile/5763-progetto-di-riforma-della-rete-dei-presidi-per-la-protezione-del-sistema-ordinistico-degli-architetti",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "68f011f38548d179",
-   "titolo": "«Ri-generare con creatività», a Roma il Forum nazionale del MIC co-organizzato dal CNAPPC Dal 23 al 27 novembre all’ex Mattatoio di Testaccio, cinque giornate sulla rigenerazione urban...",
-   "link": "https://www.awn.it/86-istituzione-1/10206-ri-generare-con-creativita-1-forum-nazionale-sulla-rigenerazione-urbana-a-base-culturale",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "05fca2ef90b089f5",
-   "titolo": "Abitare il Paese, dalle esperienze nelle scuole al lancio della nona edizione: «Mappare opportunità,... L'evento il 13 novembre a Roma Le esperienze sviluppate in tutta Italia da architetti, docenti e st...",
-   "link": "https://www.awn.it/86-istituzione-1/10205-abitare-il-paese-dalle-esperienze-nelle-scuole-al-lancio-della-nona-edizione-mappare-opportunita-coltivare-i-talenti",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "56df55d11e2342ee",
-   "titolo": "Manovra: le imprese e i professionisti dell'area tecnica non possono pagare il costo del rinvio dei ... Consiglio Nazionale degli Ingegneri, Consiglio Nazionale degli Architetti PPC, Fondazione Inarcassa,...",
-   "link": "https://www.awn.it/86-istituzione-1/10202-manovra-le-imprese-e-i-professionisti-dell-area-tecnica-non-possono-pagare-il-costo-del-rinvio-dei-crediti-fiscali-del-superbonus",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "a135395fcd71aabb",
-   "titolo": "Formazione degli architetti nella PA: firmato protocollo tra CNAPPC e Ministro per la Pubblica Ammin... Rafforzare la sinergia istituzionale per promuovere la formazione continua e lo sviluppo professiona...",
-   "link": "https://www.awn.it/86-istituzione-1/10198-formazione-degli-architetti-nella-pa-firmato-protocollo-tra-cnappc-e-ministro-per-la-pubblica-amministrazione",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "5b4d05fa73eb331b",
-   "titolo": "CNAPPC e ALA, protocollo per promuovere la qualità dell’architettura Rafforzare la qualità dell’architettura, valorizzare il contributo sociale, culturale ed economico d...",
-   "link": "https://www.awn.it/86-istituzione-1/10197-cnappc-e-ala-protocollo-per-promuovere-la-qualita-dell-architettura",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "acac4866fb8ff049",
-   "titolo": "FORMAZIONE CONTINUA – Proroga ravvedimento operoso Il Consiglio Nazionale, nella seduta del 13 maggio 2026, ha deliberato il prolungamento del periodo ...",
-   "link": "https://www.awn.it/86-istituzione-1/10129-proroga-ravvedimento-operoso",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "luogo": null
   },
   {
    "id": "0eeeb64de8e464c6",
@@ -706,547 +436,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "74b72b12f0b1964e",
-   "titolo": "CNAPPC, insediato il nuovo Consiglio: una squadra al lavoro per il futuro della professione Ha preso ufficialmente il via il mandato del nuovo Consiglio Nazionale degli Architetti, Pianificato...",
-   "link": "https://www.awn.it/86-istituzione-1/10063-cnappc-insediato-il-nuovo-consiglio-una-squadra-al-lavoro-per-il-futuro-della-professione",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.urbanistica"
    ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "cefd9b2ee2a7382f",
-   "titolo": "Lavori pubblici: presentata a Bruxelles la ricerca CNAPPC “Dopo il progetto” Durante la Conferenza organizzata dal Consorzio ARCH-E e dal Consiglio Architetti d’Europa",
-   "link": "https://www.awn.it/news/cnappc-informa/10048-lavori-pubblici-presentata-a-bruxelles-la-ricerca-cnappc-dopo-il-progetto",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "57593b4c52223449",
-   "titolo": "Sostenibilità: siglato Protocollo d'Intesa tra il Consiglio Nazionale degli Architetti PPC e l’Istit... Per affrontare al meglio le prospettive di trasformazione dell’ambiente costruito",
-   "link": "https://www.awn.it/press/comunicati-stampa/10047-sostenibilita-protocollo-intesa-tra-cnappc-e-istituto-nazionale-bioarchitettura",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "dcfd286d7e3a09ec",
-   "titolo": "UIA Golden Cubes Awards: i vincitori Gli esiti della fase nazionale",
-   "link": "https://www.awn.it/news/cnappc-informa/10040-uia-golden-cubes-awards-i-vincitori",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "3ef7e7431915f2b7",
-   "titolo": "City’Scape Award 2026 Premi: al via il bando per il City’Scape Award 2026. Scadenza il prossimo 8 maggio - Premiazion...",
-   "link": "https://www.awn.it/press/comunicati-stampa/10039-city-scape-award-2026",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "d6909c99371c4b60",
-   "titolo": "UIA: Call for Projects Atlante degli ambienti di apprendimento Le candidature entro il 15 aprile",
-   "link": "https://www.awn.it/news/cnappc-informa/10038-uia-call-for-projects-atlante-degli-ambienti-di-apprendimento",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "b11904ed503c4e68",
-   "titolo": "Rigenerazione urbana: CNAPPC, “è la strada verso un nuovo umanesimo” Obiettivo città più umane, resilienti e vivibili",
-   "link": "https://www.awn.it/press/comunicati-stampa/10037-rigenerazione-urbana-cnappc-e-la-strada-verso-un-nuovo-umanesimo",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "2279d9aa0ab7a1bd",
-   "titolo": "Rigenerazione: CNAPPC, “Nuovi paradigmi di vita urbana: prossimità, benessere nelle città e nei terr... Conferenza internazionale il 24 marzo a Roma al Centro Congressi Palazzo Rospigliosi",
-   "link": "https://www.awn.it/press/comunicati-stampa/10035-rigenerazione-cnappc-nuovi-paradigmi-di-vita-urbana-prossimita-benessere-nelle-citta-e-nei-territori",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "c9ece04430c2c7a4",
-   "titolo": "CNAPPC e PPAN Academy – Futureproof Cities: siglato Memorandum Per sviluppare attività di ricerca, studio e approfondimento sui processi di trasformazione urbana e...",
-   "link": "https://www.awn.it/news/cnappc-informa/10034-cnappc-e-ppan-academy-futureproof-cities-siglato-memorandum",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "1ca858f2328f087d",
-   "titolo": "Progetto Think Tank: 2 FAD asincroni per la formazione Dialoghi con personalità di fama internazionale sul ruolo della professione",
-   "link": "https://www.awn.it/news/cnappc-informa/10033-think-tank-serbatoio-di-pensiero",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "b777abdfdac722b3",
-   "titolo": "Riforma Forense: Crusi, Architetti, “non avvenga a discapito delle altre professioni” La posizione del CNAPPC",
-   "link": "https://www.awn.it/press/comunicati-stampa/10032-riforma-forense-crusi-architetti-non-avvenga-a-discapito-delle-altre-professioni",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "574b494174f86296",
-   "titolo": "Giornata della Libera Professione: l’intervento del CNAPPC Semplificazioni, TUE e concorsi di progettazione tra i temi trattati",
-   "link": "https://www.awn.it/news/cnappc-informa/10031-giornata-della-libera-professione-l-intervento-del-cnappc",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "800718aabc648546",
-   "titolo": "Gender gap e Architettura: professioniste svantaggiate per reddito, contratti e mansioni Il Rapporto di ricerca del CNAPPC e di Format Resarch",
-   "link": "https://www.awn.it/press/comunicati-stampa/10026-gender-gap-e-architettura-professioniste-svantaggiate-per-reddito-contratti-e-mansioni",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "e4bae8877c35cce0",
-   "titolo": "Concorsi di progettazione: concluso il corso per Coordinatori di Concorsi di progettazione promosso... Formazione, competenze e senso di comunità per rafforzare la qualità delle trasformazioni del territ...",
-   "link": "https://www.awn.it/news/cnappc-informa/10025-cnappc-concluso-corso-per-coordinatori-concorsi-di-progettazione",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "1eabc76724402983",
-   "titolo": "TUE: Architetti “semplificazione, razionalizzazione, procedure unificate e connessione tra edilizia ... Il Consiglio Nazionale nel corso di un incontro con l’onorevole Erica Mazzetti",
-   "link": "https://www.awn.it/press/comunicati-stampa/10024-tue-architetti-semplificazione-razionalizzazione-procedure-unificate-e-connessione-tra-edilizia-e-urbanistica-elementi-imprescindibili",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "64f6e88c5d4241d5",
-   "titolo": "23 giugno 2014 Il Consiglio Nazionale degli Architetti, Pianificatori, Paesaggisti e Conservatori",
-   "link": "https://www.awn.it/istituzione/consiglio/51-consiglio-nazionale-degli-architetti-pianificatori-paesaggisti-e-conservatori",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "445c4d5bb2eaf022",
-   "titolo": "03 novembre 2026 ABITARE IL PAESE – IX EDIZIONE / 2026-2027 La nuova edizione",
-   "link": "https://www.awn.it/attivita/abitare-il-paese/10201-abitare-il-paese-9",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "81ee98be532bc73e",
-   "titolo": "08 maggio 2026 Milano: bando per 110 alloggi a Niguarda e Giambellino Aperto fino al 31 agosto 2026",
-   "link": "https://www.awn.it/news/notizie/10056-milano-bando-per-110-alloggi-a-niguarda-e-giambellino",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "c3d4e1e394df30b6",
-   "titolo": "06 maggio 2026 Stati generali della bellezza: a Offida l’11 e il 12 giugno Focus sul futuro dei borghi",
-   "link": "https://www.awn.it/news/notizie/10055-stati-generali-della-bellezza-a-offida-l-11-e-il-12-giugno",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "07c8c9f83e9761ae",
-   "titolo": "04 maggio 2026 Ambiente: Torino sempre più green con “Riforestazione” Iniziativa promossa dal Ministero dell'Ambiente e della Sicurezza Energetica",
-   "link": "https://www.awn.it/news/notizie/10054-ambiente-torino-sempre-piu-green-con-riforestazione",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "c7f2f114aaf749da",
-   "titolo": "27 aprile 2026 Elezioni suppletive del CNAPPC: le votazioni il 9 giugno 2026 Le candidature entro il 20 maggio",
-   "link": "https://www.awn.it/news/cnappc-informa/10049-elezioni-suppletive-cnappc-votazioni-9-giugno-2026",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "b140f0d8ec3fc831",
-   "titolo": "Il sito www.awn.it utilizza soltanto cookie tecnici",
-   "link": "https://www.awn.it/il-sito-www-awn-it-utilizza-soltanto-cookie-tecnici-informativa-cookie-law",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "b3e406ec9868eebc",
-   "titolo": "Concorsi per titoli ed esami banditi dal CNAPPC",
-   "link": "https://www.awn.it/concorsi-per-titoli-ed-esami-banditi-dal-cnappc",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "f3176fd98703db91",
-   "titolo": "AVVISI PER MANIFESTAZIONE DI INTERESSE",
-   "link": "http://www.awn.it/news/cnappc-informa/8929-avvisi-per-manifestazione-di-interesse",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "4752c243f1544066",
-   "titolo": "Progetto Europa, Sportello informativo, bandi e opportunità",
-   "link": "http://www.awn.it/servizi/progetto-europa",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "114c9c973e6010e0",
-   "titolo": "Istituzione elenco affidamento incarichi",
-   "link": "https://www.awn.it/istituzione-elenco-affidamento-incarichi",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "55d31cf544495f56",
-   "titolo": "28 Nov Premio Architettura Città di Oderzo XX Edizione 2026",
-   "link": "https://www.awn.it/news/agenda/1873-premio-architettura-citta-di-oderzo-xx-edizione-2026",
-   "fonte": "cnappc",
-   "fonte_nome": "Architetti Italiani (CNAPPC)",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "f504b5c7249218a7",
-   "titolo": "Valutazioni immobiliari: dati, qualità e trasparenza al centro del convegno ASSOVIB",
-   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/valutazioni-immobiliari-dati-qualit%C3%A0-e-trasparenza-al-centro-del-convegno-assovib?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1020791&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=valutazioni-immobiliari-dati-qualit%25C3%25A0-e-trasparenza-al-centro-del-convegno-assovib&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1020791%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "cng",
-   "fonte_nome": "Consiglio Nazionale Geometri",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "46095e7bed967c53",
-   "titolo": "Giornata europea del radon: a Salerno un confronto su prevenzione e competenze professionali",
-   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/giornata-europea-del-radon-a-salerno-un-confronto-su-prevenzione-e-competenze-professionali?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1021733&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=giornata-europea-del-radon-a-salerno-un-confronto-su-prevenzione-e-competenze-professionali&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1021733%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "cng",
-   "fonte_nome": "Consiglio Nazionale Geometri",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "eb7b100865371e5c",
-   "titolo": "San Vito al Tagliamento festeggia i cento anni del geometra Dino Candusso",
-   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1019661&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1019661%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "cng",
-   "fonte_nome": "Consiglio Nazionale Geometri",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "6f8d3047b1d88c48",
-   "titolo": "Edilizia, la nuova sfida è la salute: i geometri ridisegnano il futuro dell’abitare",
-   "link": "https://www.cng.it/web/guest/dettaglionotizie/-/asset_publisher/5xXCrPteqBpy/content/edilizia-la-nuova-sfida-%C3%A8-la-salute-i-geometri-ridisegnano-il-futuro-dell-abitare-1?p_r_p_assetEntryId=1022223&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_urlTitle=edilizia-la-nuova-sfida-%25C3%25A8-la-salute-i-geometri-ridisegnano-il-futuro-dell-abitare-1&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fhomepage%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_assetEntryId%3D1022223%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "cng",
-   "fonte_nome": "Consiglio Nazionale Geometri",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "0e99026cf1faa375",
-   "titolo": "Dentro il cerchio, Condominio 4.0: competenze tecniche al centro della riforma",
-   "link": "https://www.cng.it/web/guest/dettaglionotizie/-/asset_publisher/5xXCrPteqBpy/content/dentro-il-cerchio-condominio-4.0-competenze-tecniche-al-centro-della-riforma?p_r_p_assetEntryId=1020928&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_urlTitle=dentro-il-cerchio-condominio-4.0-competenze-tecniche-al-centro-della-riforma&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fhomepage%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_assetEntryId%3D1020928%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "cng",
-   "fonte_nome": "Consiglio Nazionale Geometri",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "b0f35d6f23373525",
-   "titolo": "Dentro il cerchio, appalti pubblici: la proposta europea e le sfide per la progettazione",
-   "link": "https://www.cng.it/web/guest/dettaglionotizie/-/asset_publisher/5xXCrPteqBpy/content/dentro-il-cerchio-appalti-pubblici-la-proposta-europea-e-le-sfide-per-la-progettazione?p_r_p_assetEntryId=1020731&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_urlTitle=dentro-il-cerchio-appalti-pubblici-la-proposta-europea-e-le-sfide-per-la-progettazione&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fhomepage%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_assetEntryId%3D1020731%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "cng",
-   "fonte_nome": "Consiglio Nazionale Geometri",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "e41b67a393cc88cb",
-   "titolo": "Dino Candusso, cento anni di vita e un'eredità di valori per le nuove generazioni di geometri",
-   "link": "https://www.cng.it/web/guest/dettaglionotizie/-/asset_publisher/5xXCrPteqBpy/content/dino-candusso-cento-anni-di-vita-e-un-eredit%C3%A0-di-valori-per-le-nuove-generazioni-di-geometri-1?p_r_p_assetEntryId=1022212&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_urlTitle=dino-candusso-cento-anni-di-vita-e-un-eredit%25C3%25A0-di-valori-per-le-nuove-generazioni-di-geometri-1&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fhomepage%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_assetEntryId%3D1022212%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "cng",
-   "fonte_nome": "Consiglio Nazionale Geometri",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "fdb74336cdf30424",
-   "titolo": "L'opzione Exclusive per il CLUB INGENIO",
-   "link": "https://www.ingenio-web.it/l-opzione-exclusive-per-il-club-ingenio/",
-   "fonte": "ingenio",
-   "fonte_nome": "Ingenio",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "32842fd80d7638e8",
-   "titolo": "Non hai un account? Registrati gratuitamente",
-   "link": "https://www.ingenio-web.it/register/",
-   "fonte": "ingenio",
-   "fonte_nome": "Ingenio",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "luogo": null
   },
   {
    "id": "1f0401cb01c5cced",
@@ -1256,12 +450,16 @@
    "fonte_nome": "PuntoSicuro",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "Un documento della Società Italiana di Medicina del Lavoro si sofferma sui temi connessi alla salute e sicurezza nel terziario avanzato.",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "sicurezza.normativa"
+   ],
+   "luogo": null
   },
   {
    "id": "d537246c049c8471",
@@ -1271,12 +469,16 @@
    "fonte_nome": "PuntoSicuro",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "antincendio"
    ],
    "normativa": false,
    "sintesi": "Gestione delle emergenze e continuità operativa: come integrare Safety e Security nei piani di emergenza aziendali. Analisi e indicazioni normative.",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "antincendio.lavoro"
+   ],
+   "luogo": null
   },
   {
    "id": "abef9a8f7ea8b096",
@@ -1286,12 +488,16 @@
    "fonte_nome": "PuntoSicuro",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "INAIL inaugura una nuova sezione dedicata alla valutazione dei rischi in ottica di genere.",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "sicurezza.normativa"
+   ],
+   "luogo": null
   },
   {
    "id": "f30f5259b9622c3d",
@@ -1301,12 +507,18 @@
    "fonte_nome": "PuntoSicuro",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "norme",
+    "sicurezza"
    ],
    "normativa": true,
    "sintesi": "La specifica tecnica ETSI TS 104 275 introduce misure concrete per prevenire la creazione e la diffusione di deepfake: valutazione dei rischi, controllo umano…",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.uni",
+    "sicurezza.normativa"
+   ],
+   "luogo": null
   },
   {
    "id": "fb2bbd3ab8f1b5dc",
@@ -1321,7 +533,9 @@
    "normativa": false,
    "sintesi": "Scopri quando è obbligatorio misurare le vibrazioni sul lavoro e quando basta consultare la banca dati del Portale Agenti Fisici (PAF).",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "451aafd9be886cfe",
@@ -1336,97 +550,9 @@
    "normativa": false,
    "sintesi": "Iscriviti alla newsletter: tutti gli articoli nella tua casella e-mail, quotidianamente!",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "0a5f15beb3a32371",
-   "titolo": "Corsi e Master IPSOA Scuola di formazione",
-   "link": "https://www.ipsoa.it/formazione-ipsoa",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "11f0f8b6dff25f97",
-   "titolo": "Semplificati per cassa e CPB: la registrazione può differire la deduzione dei costi",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/semplificati-cassa-cpb-registrazione-differire-deduzione-costi",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "0f51044c1c601d12",
-   "titolo": "NIS2: adempimenti e scadenze 2027 per le imprese",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/nis2-adempimenti-scadenze-2027-imprese",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "083ebe55088fe515",
-   "titolo": "Eredità ETS: quando servono garanzia, sigilli e inventario",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/eredita-ets-servono-garanzia-sigilli-inventario",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "7c95e6d32f476c72",
-   "titolo": "Distribuzione di utili extracontabili nelle società a ristretta base: problemi applicativi dopo il decreto Omnibus",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/14/distribuzione-utili-extracontabili-societa-ristretta-base-problemi-applicativi-decreto-omnibus",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "9831f1f894fd7f67",
-   "titolo": "Quadri direttivi: fino a dove può spingersi il carico di lavoro richiesto dall'impresa?",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/05/quadri-direttivi-spingersi-carico-lavoro-richiesto-impresa",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "9e3f506a8c653186",
@@ -1436,177 +562,16 @@
    "fonte_nome": "Teknoring",
    "tipo": "stampa",
    "aree": [
-    "industriale"
+    "sicurezza"
    ],
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "66892fac7ae6a7ad",
-   "titolo": "Bonus mamme 2026: tutto pronto per chiederlo",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/10/22/bonus-mamme-2026-pronto-chiederlo",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "sicurezza.normativa"
    ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "8440f81e216f1c9d",
-   "titolo": "Plastic tax e sugar tax slittano ancora al 1° luglio 2027",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/plastic-tax-sugar-tax-slittano-1-luglio-2027",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "32aa611ae29ebc85",
-   "titolo": "Commercialista-influencer: si può fare e con quali rischi?",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/commercialista-influencer-rischi",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "b90bbf514efeaf16",
-   "titolo": "Il cambio di controllo indiretto nel riporto delle perdite fiscali: l’interpretazione autentica del decreto Omnibus",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/cambio-controllo-indiretto-riporto-perdite-fiscali-interpretazione-autentica-decreto-omnibus",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "c39e1b69c5d0e300",
-   "titolo": "Tax credit fondazioni bancarie con percentuale al 15,8427",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/tax-credit-fondazioni-bancarie-percentuale-15-8427",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "265666c9a9a149a6",
-   "titolo": "Le scadenze di dicembre 2026: bonus mamme, sgravio contratti di solidarietà, adempimento collaborativo, saldo IMU",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/17/scadenze-dicembre-2026-bonus-mamme-sgravio-contratti-solidarieta-adempimento-collaborativo-saldo-imu",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "63d2302fed29cb4c",
-   "titolo": "Manovra 2027: più spazio ai forfetari, meno liquidità alle imprese",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/16/manovra-2027-spazio-forfetari-liquidita-imprese",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "b698b2cd7f0f9731",
-   "titolo": "Legge di Bilancio 2027: dai bonus assunzioni, ai congedi e alle pensioni. Cosa cambia",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/16/legge-bilancio-2027-bonus-assunzioni-congedi-pensioni-cambia",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "8ff5df165c7430c5",
-   "titolo": "Vi.diCo.Web cambia la gestione del visto di conformità",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/12/vi-dico-web-cambia-gestione-visto-conformita",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "6b75c98197ece271",
-   "titolo": "AI e sicurezza dei lavoratori: obblighi, rischi, ma anche opportunità per le aziende",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/10/23/sicurezza-lavoratori-obblighi-rischi-opportunita-aziende",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "7d90ee0438e32248",
-   "titolo": "Fringe benefit 2027: confermati i limiti di esenzione con una novità per i lavoratori under 31",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/fringe-benefit-2027-confermati-limiti-esenzione-novita-lavoratori-under-31",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "luogo": null
   },
   {
    "id": "bd83260437f03baa",
@@ -1621,262 +586,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "398ede2a2ef83e59",
-   "titolo": "Ex ILVA: domande integrazione al reddito dal 18 novembre 2026",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/ex-ilva-domande-integrazione-reddito-18-novembre-2026",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni"
    ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "ed007af0866abee0",
-   "titolo": "Contributi prescritti: rendita vitalizia per il personale MAECI all’estero",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/contributi-prescritti-rendita-vitalizia-personale-maeci-estero",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "eeb75972c022a276",
-   "titolo": "Obbligo SIISL dal 1° dicembre per assunzioni: le richieste dei Commercialisti",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/17/obbligo-siisl-1-dicembre-assunzioni-richieste-commercialisti",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "bb3f81d857c8ddfc",
-   "titolo": "TFR e crediti di lavoro: le rilevazioni ISTAT di ottobre 2026",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/tfr-crediti-lavoro-rilevazioni-istat-ottobre-2026",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "7658c8bbf066e011",
-   "titolo": "Smart working: quando è lecito il controllo tramite timbratura da remoto?",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/14/smart-working-lecito-controllo-tramite-timbratura-remoto",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "a02e6cb2d98bbbc9",
-   "titolo": "Impresa sociale, modello che si diffonde (e si diversifica). I numeri lo confermano",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/07/impresa-sociale-modello-diffonde-e-diversifica-numeri-confermano",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "e0e1e14c0d899936",
-   "titolo": "Come l’AI entra nella contrattazione collettiva",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/07/entra-contrattazione-collettiva",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "4061dcc6cec1d020",
-   "titolo": "Adeguati assetti e insolvenza tecnica: qual è il limite del sistema di allerta precoce",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/16/adeguati-assetti-insolvenza-tecnica-qual-limite-sistema-allerta-precoce",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "cb866b1c4b9a0895",
-   "titolo": "Consob: nuove regole per quotazioni, OPA e ricerca finanziaria",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/14/consob-nuove-regole-quotazioni-opa-ricerca-finanziaria",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "c330535fde7f7477",
-   "titolo": "Ciberresilienza UE: pubblicati gli orientamenti della Commissione",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/ciberresilienza-ue-pubblicati-orientamenti-commissione",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "069df1d75f046a18",
-   "titolo": "RUNTS: le associazioni non possono usare il termine \"Fondazione\"",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/runts-associazioni-non-possono-usare-termine-fondazione",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "777b17bb0156a413",
-   "titolo": "Legge di bilancio 2027: le osservazioni di Assonime",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/17/legge-bilancio-2027-osservazioni-assonime",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "73f32120f796277a",
-   "titolo": "Società tra professionisti e mancata comunicazione del domicilio digitale: cosa fare?",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/17/societa-professionisti-mancata-comunicazione-domicilio-digitale-fare",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "25fafaa6f0d9618f",
-   "titolo": "Partita IVA: quando e come aprirla (e chiuderla)",
-   "link": "https://www.ipsoa.it/guide/partita-iva-aprirla-e-chiuderla",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "324514ebb848a3e5",
-   "titolo": "Avviso bonario: cos'è e cosa fare quando si riceve",
-   "link": "https://www.ipsoa.it/guide/avviso-bonario-riceve",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "37516955cedd2cf5",
-   "titolo": "Credito d'imposta autotrasporto 2026: dal 19 al 30 novembre le domande per il ristoro sul caro gasolio",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/credito-imposta-autotrasporto-2026-19-30-novembre-domande-ristoro-caro-gasolio",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "6fdb2d877ecbf259",
-   "titolo": "Conto Energia: pubblicate le regole operative e l’avviso per la fuoriuscita volontaria dai meccanismi di incentivazione",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/conto-energia-pubblicate-regole-operative-avviso-fuoriuscita-volontaria-meccanismi-incentivazione",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "luogo": null
   },
   {
    "id": "05050a68e1befd4b",
@@ -1891,352 +605,11 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "d67c350537574cc2",
-   "titolo": "Il bonus mobili 2027 esclude i grandi elettrodomestici: cosa cambia dal 1° gennaio",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/17/bonus-mobili-2027-esclude-grandi-elettrodomestici-cambia-1-gennaio",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.rinnovabili"
    ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "7df21443ac3c2dba",
-   "titolo": "ON Oltre Nuove imprese: come gestire il finanziamento a tasso zero",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/16/on-nuove-imprese-gestire-finanziamento-tasso-zero",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "f24e30ad339878ed",
-   "titolo": "Bando Brevetti+ 2026: contributi fino a 140 mila euro, quanto risparmia l’impresa?",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/09/bando-brevetti-2026-contributi-140-euro-risparmia-impresa",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "30bea6ba73959784",
-   "titolo": "Immobile non condonabile, l’acquirente in buona fede ne risponde",
-   "link": "https://www.ipsoa.it/documents/hse/2026/11/18/immobile-non-condonabile-acquirente-buona-fede-risponde",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "a3a37b03783ae3b7",
-   "titolo": "Esonero da autorizzazione paesaggistica per opere interne e sagoma del fabbricato",
-   "link": "https://www.ipsoa.it/documents/hse/2026/11/18/esonero-autorizzazione-paesaggistica-opere-interne-sagoma-fabbricato",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "b1df9ba4deb0d0fe",
-   "titolo": "Violenze e molestie sul lavoro: foglio informativo INAIL",
-   "link": "https://www.ipsoa.it/documents/hse/2026/11/18/violenze-molestie-lavoro-foglio-informativo-inail",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "00e4bb53da6265bf",
-   "titolo": "IFRS 9 Contabilità di copertura: l’EFRAG avvia la consultazione fino all’11 gennaio 2027",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/17/ifrs-9-contabilita-copertura-efrag-avvia-laconsultazione-11-gennaio-2027",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "a5ae5a814da95ae7",
-   "titolo": "Revisori enti locali 2027: domande e rinnovo iscrizione entro il 16 dicembre 2026",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/07/revisori-enti-locali-2027-domande-rinnovo-iscrizione-entro-16-dicembre-2026",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "a733ba6d9f874138",
-   "titolo": "Le semplificazioni per le micro-imprese nel nuovo principio OIC",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/09/30/semplificazioni-micro-imprese-principio-oic",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "3598571204076b0c",
-   "titolo": "Terzo settore: limiti, deroghe e computo dei collaboratori",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/17/terzo-settore-limiti-deroghe-computo-collaboratori",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "519f1751869b2638",
-   "titolo": "Collocamento obbligatorio: quote di riserva strutture sanitarie",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/17/collocamento-obbligatorio-quote-riserva-strutture-sanitarie",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "9958b95f99af8d54",
-   "titolo": "Pesca e acquacoltura: al via i contributi fino al 10% per i costi del carburante",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/14/pesca-acquacoltura-via-contributi-10-costi-carburante",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "039caf98a8b36b8a",
-   "titolo": "Legge di Bilancio 2027: per Confprofessioni servono più equità fiscale e incentivi ai professionisti",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/14/legge-bilancio-2027-confprofessioni-servono-equita-fiscale-incentivi-professionisti",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "9a4826ac73b13885",
-   "titolo": "Detassazione aumenti rinnovi contrattuali: come funziona nel 2027",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/14/detassazione-aumenti-rinnovi-contrattuali-funziona-2027",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "3cf71ec372ad7f60",
-   "titolo": "Pronti per il 55 %: la Corte di Giustizia UE respinge i ricorsi della Polonia",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/13/pronti-55-corte-giustizia-ue-respinge-ricorsi-polonia",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "0691fcc44f86d283",
-   "titolo": "Accordo quadro imprese e sindacati: il commento di CNA",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/13/accordo-quadro-imprese-sindacati-commento-cna",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "6684dc4f93a863ae",
-   "titolo": "Revisori EL: pubblicato il parere sulla proposta di bilancio di previsione 2027-2029",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/12/revisori-el-pubblicato-parere-proposta-bilancio-previsione-2027-2029",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "699c02b33d3192fb",
-   "titolo": "Rilascio della certificazione di inutilizzabilità del veicolo fuori uso: non si applica l’IVA",
-   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/12/rilascio-certificazione-inutilizzabilita-veicolo-uso-non-applica-iva",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "6a7a0f3b13001ce2",
-   "titolo": "Quali obiettivi ha il principio volontario di rendicontazione di sostenibilità?",
-   "link": "https://www.ipsoa.it/magazine/principio-volontario-rendicontazione-sostenibilita-obiettivi-principi-generali",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "f673e5b7006380cd",
-   "titolo": "Entra in vigore la decisione 934/2025: quali novità per i codici EER elenco rifiuti?",
-   "link": "https://www.ipsoa.it/magazine/elenco-rifiuti-europeo-codici-aggiornati-decisione-934-2025-in-vigore",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "fd7a20771f7d4985",
-   "titolo": "Passaporto digitale del prodotto: dalla norma alla gestione dell’informazione, cosa cambia per i professionisti",
-   "link": "https://www.ipsoa.it/magazine/passaporto-digitale-prodotti-definizione-come-usarlo-imprese",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "e01b78ea9112168e",
-   "titolo": "Anche i liberi professionisti possono iscriversi all'Albo dei gestori ambientali",
-   "link": "https://www.ipsoa.it/magazine/liberi-professionisti-possono-iscriversi-albo-gestori-ambientali",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
-  },
-  {
-   "id": "d2b4d7eeb19c886c",
-   "titolo": "Crescita aziendale, innovazione e strumenti di gestione integrati: ne parliamo con FM Installazioni",
-   "link": "https://www.ipsoa.it/magazine/crescita-aziendale-innovazione-strumenti-gestione-integrati-arca-evolution",
-   "fonte": "teknoring",
-   "fonte_nome": "Teknoring",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "luogo": null
   },
   {
    "id": "bf0ff99b164b4279",
@@ -2246,12 +619,18 @@
    "fonte_nome": "Fiscal Focus",
    "tipo": "stampa",
    "aree": [
-    "industriale"
+    "edilizia",
+    "bonus"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.produttivo",
+    "bonus.contributi"
+   ],
+   "luogo": null
   },
   {
    "id": "4e3df66a3c53deeb",
@@ -2261,12 +640,16 @@
    "fonte_nome": "Fiscal Focus",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "bonus"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "faf8b01e91233e95",
@@ -2276,12 +659,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "edilizia"
    ],
    "normativa": true,
    "sintesi": "Condono edilizio, novità nella Manovra 2027: tre ipotesi in campo ACCA software",
    "pubblicata": "2026-11-18T18:48:44Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.sanatorie"
+   ],
+   "luogo": null
   },
   {
    "id": "d025e555d44c213b",
@@ -2296,7 +683,9 @@
    "normativa": true,
    "sintesi": "Locazioni brevi Toscana: guida normativa aggiornata alla legge 31/2026, requisiti e adempimenti ACCA software",
    "pubblicata": "2026-11-18T16:18:33Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "44919f30ca4df3b1",
@@ -2306,12 +695,16 @@
    "fonte_nome": "ANCE",
    "tipo": "ordine",
    "aree": [
-    "altro"
+    "edilizia"
    ],
    "normativa": false,
    "sintesi": "La CNCE comunica che sarà effettuata un’attività di manutenzione straordinaria sulle proprie linee telefoniche",
    "pubblicata": "2026-11-18T15:24:30Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "e9ac20486d4fae32",
@@ -2321,12 +714,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Sentenza Consiglio di Stato 3 novembre 2026, n. 8004 Lavori Pubblici",
    "pubblicata": "2026-11-18T14:36:39Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "6e0911d2b186c177",
@@ -2336,12 +733,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "europa"
+    "norme"
    ],
    "normativa": true,
    "sintesi": "D.Lgs. 208/2026 - Attuazione della direttiva (UE) 2024/2831 per la sicurezza del lavoro mediante piattaforme digitali ACCA software",
    "pubblicata": "2026-11-18T11:49:35Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null
   },
   {
    "id": "178ff9c0b3140753",
@@ -2351,12 +752,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "industriale"
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "L’Ispettorato deve rispondere alla richiesta di revoca della sospensione del cantiere? ACCA software",
    "pubblicata": "2026-11-18T11:46:23Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "sicurezza.cantieri"
+   ],
+   "luogo": null
   },
   {
    "id": "774594e33aa0a4b0",
@@ -2372,7 +777,12 @@
    "normativa": false,
    "sintesi": "Abruzzo: nuove disposizioni per urbanistica e rinnovabili ACCA software",
    "pubblicata": "2026-11-18T11:30:20Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "energia.rinnovabili",
+    "edilizia.urbanistica"
+   ],
+   "luogo": null
   },
   {
    "id": "33b32ee3a468535e",
@@ -2382,12 +792,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Si può evitare l’esclusione del RTI se la mandante ha debiti fiscali scoperti dopo la scadenza della gara? ACCA software",
    "pubblicata": "2026-11-18T11:28:19Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "e6e4f1a754ddba46",
@@ -2402,7 +816,11 @@
    "normativa": true,
    "sintesi": "Sentenza Tar Lazio 17149/2026 – CIL non veritiera e perdita degli incentivi fotovoltaici ACCA software",
    "pubblicata": "2026-11-18T10:31:12Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null
   },
   {
    "id": "ef42f4fc8e80ecf4",
@@ -2417,7 +835,9 @@
    "normativa": true,
    "sintesi": "D.Lgs. 208/2026: sicurezza e lavoro su piattaforme, cosa cambia dal 2 dicembre ACCA software",
    "pubblicata": "2026-11-18T10:11:18Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "bd0726640e649a9c",
@@ -2427,12 +847,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Sentenza Consiglio di Stato 17 novembre 2026, n. 8378 Lavori Pubblici",
    "pubblicata": "2026-11-18T10:09:20Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "5e2385a7507c3bb6",
@@ -2442,12 +866,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Sentenza Corte di Cassazione 30 ottobre 2026, n. 28134 Lavori Pubblici",
    "pubblicata": "2026-11-18T10:09:12Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "138c05d0ba569bf8",
@@ -2457,12 +885,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Avvalimento infragruppo: la capogruppo può prestare i requisiti delle controllate? ACCA software",
    "pubblicata": "2026-11-18T09:29:06Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.esecuzione"
+   ],
+   "luogo": null
   },
   {
    "id": "1461432b24e7a20f",
@@ -2472,12 +904,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Consorzi stabili: quali requisiti può utilizzare la consorziata esecutrice? ACCA software",
    "pubblicata": "2026-11-18T09:29:05Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.esecuzione"
+   ],
+   "luogo": null
   },
   {
    "id": "0c084c83b665611f",
@@ -2492,7 +928,11 @@
    "normativa": false,
    "sintesi": "Per la ristrutturazione edilizia spetta la riduzione del 20% sul contributo di costruzione? ACCA software",
    "pubblicata": "2026-11-18T09:29:05Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "f53b534683109ddf",
@@ -2502,12 +942,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Gare pubbliche: legittimo premiare il raggruppamento di più operatori rispetto a un concorrente singolo? ACCA software",
    "pubblicata": "2026-11-18T09:29:04Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "0b214920665be1f5",
@@ -2517,12 +961,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "edilizia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Manovra 2027 e condono edilizio: quattro proposte che riaprono vecchie questioni Lavori Pubblici",
    "pubblicata": "2026-11-18T09:24:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.sanatorie",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "c44d0d3dea5e69a3",
@@ -2537,7 +987,9 @@
    "normativa": false,
    "sintesi": "Piattaforme digitali e sicurezza del lavoro: cosa cambia dal 2 dicembre ACCA software",
    "pubblicata": "2026-11-18T09:08:52Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "1dd40640bd31fe17",
@@ -2552,7 +1004,9 @@
    "normativa": true,
    "sintesi": "Sentenza TAR Catania 2984/2026 - Requisiti assicurativi, offerta tecnica e soccorso istruttorio ACCA software",
    "pubblicata": "2026-11-18T09:06:51Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "e5bf3b2f5078108b",
@@ -2562,12 +1016,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Sentenza Corte Costituzionale 12 novembre 2026, n. 197 Lavori Pubblici",
    "pubblicata": "2026-11-18T08:58:46Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "0e48a31ec0cd0c4a",
@@ -2582,7 +1040,9 @@
    "normativa": true,
    "sintesi": "Come si dimostra che un immobile è stato costruito prima del 1° settembre 1967 e chi deve fornire le prove? Due recenti sentenze del TAR Lazio e del Consiglio di Stato…",
    "pubblicata": "2026-11-18T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "8d8fcbfb270fe54d",
@@ -2597,7 +1057,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-18T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "19fe047a2abe77aa",
@@ -2612,7 +1074,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-18T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "583ddd651207b749",
@@ -2627,7 +1091,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-18T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "dc321373e46aa728",
@@ -2637,12 +1103,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "edilizia"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-18T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.sanatorie"
+   ],
+   "luogo": null
   },
   {
    "id": "b86409ceabf95c95",
@@ -2657,7 +1127,11 @@
    "normativa": true,
    "sintesi": "Modifiche ed integrazioni all'ordinanza speciale n. 39 del 23 dicembre 2022, recante «Interventi di ricostruzione nel Comune di Preci». (Ordinanza speciale n. 184).",
    "pubblicata": "2026-11-18T06:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "15019d6921324c17",
@@ -2672,7 +1146,11 @@
    "normativa": true,
    "sintesi": "Modifiche ed integrazioni all'ordinanza speciale n. 18 del 15 luglio 2021, recante «Interventi di ricostruzione del centro storico di Castelluccio di Norcia».",
    "pubblicata": "2026-11-18T06:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "a31bf885bbca9baf",
@@ -2682,12 +1160,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Ordine di demolizione per un abuso che non hai fatto, può salvarti una planimetria del 1939? Lavori Pubblici",
    "pubblicata": "2026-11-18T05:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.sanatorie",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "7fdba671696d2dcd",
@@ -2697,12 +1181,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Cambio d’uso con opere in un edificio agricolo, si può evitare la demolizione? Lavori Pubblici",
    "pubblicata": "2026-11-18T04:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.uso",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "37729de806950038",
@@ -2717,7 +1207,11 @@
    "normativa": false,
    "sintesi": "Fabrizio Pettazzi presenta la strategia di Signify Italia: illuminazione connessa, efficienza energetica e remanufacturing per ridurre consumi ed emissioni.",
    "pubblicata": "2026-11-18T03:55:54Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null
   },
   {
    "id": "9671c407c16278d9",
@@ -2727,12 +1221,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "bonus",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Superbonus e cessione del credito: quando il Fisco non può bloccare l'operazione Lavori Pubblici",
    "pubblicata": "2026-11-18T03:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "bonus.crediti",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "cf5d14b6a420f060",
@@ -2742,12 +1242,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Quinto d’obbligo e qualificazione SOA, basta coprire la base d’asta se la lettera d’invito indica un valore globale più alto? Lavori Pubblici",
    "pubblicata": "2026-11-18T01:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "f50f4f2e9c0dccdc",
@@ -2757,12 +1261,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Project financing: quando è legittima la revoca della dichiarazione di fattibilità? Lavori Pubblici",
    "pubblicata": "2026-11-18T00:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "7aa4e98d190fae33",
@@ -2772,12 +1280,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "energia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "PNRR Agrivoltaico: dal 30 novembre anticipazione del 30% del contributo Lavori Pubblici",
    "pubblicata": "2026-11-17T23:30:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "energia.rinnovabili",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "c055e112d7b1d728",
@@ -2787,12 +1301,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Lavoro tramite piattaforme digitali: in Gazzetta Ufficiale nuove regole su algoritmi, contratti e sicurezza Lavori Pubblici",
    "pubblicata": "2026-11-17T23:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "660ab98a86e7934f",
@@ -2807,7 +1325,11 @@
    "normativa": true,
    "sintesi": "IDROGENO RINNOVABILE, PUBBLICATE LE REGOLE OPERATIVE GSE",
    "pubblicata": "2026-11-17T18:31:49Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null
   },
   {
    "id": "8104149758405ce8",
@@ -2817,12 +1339,16 @@
    "fonte_nome": "ANCE",
    "tipo": "ordine",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "L’irregolarità fiscale di un’impresa componente di un RTI non determina automaticamente l’esclusione dell’intero raggruppamento: la stazione appaltante deve prima…",
    "pubblicata": "2026-11-17T16:01:45Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "da453f2d807331c1",
@@ -2837,7 +1363,9 @@
    "normativa": false,
    "sintesi": "La Conferenza Stato-Regioni ha sancito l’intesa sulle linee di indirizzo dei piani triennali degli ITS Academy e sull’individuazione dei servizi ecosistemici e…",
    "pubblicata": "2026-11-17T15:31:20Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "044a4bd3c467c68d",
@@ -2847,12 +1375,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Sentenza TAR Veneto 2173/2026 – Correttivi CCNL ed equivalenza negli appalti ACCA software",
    "pubblicata": "2026-11-17T13:50:22Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "9c84f02e5ae2dd4f",
@@ -2867,7 +1399,11 @@
    "normativa": true,
    "sintesi": "Caratteristica Doppia conformità rigida (Art. 36 TUE) Sanatoria semplificata (Art. 36-bis TUE) Condono straordinario (Art. 32 D.L.",
    "pubblicata": "2026-11-17T12:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.sanatorie"
+   ],
+   "luogo": null
   },
   {
    "id": "b92318abf71a95c8",
@@ -2877,12 +1413,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "industriale"
+    "sicurezza"
    ],
    "normativa": true,
    "sintesi": "Sentenza TAR Campania 6265/2026 - Sospensione del cantiere e obbligo di risposta alla richiesta di revoca ACCA software",
    "pubblicata": "2026-11-17T11:47:26Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "sicurezza.cantieri"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "7f23c56afab18f79",
@@ -2892,12 +1432,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Sentenza TAR Campania 6589/2026 – Qualificazione SOA e quinto obbligo ACCA software",
    "pubblicata": "2026-11-17T11:43:13Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.esecuzione"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "12ec43a1f8206dac",
@@ -2907,12 +1451,18 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "energia",
+    "ambiente"
    ],
    "normativa": false,
    "sintesi": "Aree idonee FER: incostituzionali le norme sui siti UNESCO ACCA software",
    "pubblicata": "2026-11-17T11:41:13Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "energia.rinnovabili",
+    "ambiente.paesaggio"
+   ],
+   "luogo": null
   },
   {
    "id": "efaf9a37fb11d620",
@@ -2922,12 +1472,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "energia"
    ],
    "normativa": true,
    "sintesi": "Sentenza Corte Costituzionale 197/2026 - Giudizio di costituzionalità sulle norme per le aree idonee alle FER ACCA software",
    "pubblicata": "2026-11-17T11:27:11Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null
   },
   {
    "id": "71e2843e1232619e",
@@ -2942,7 +1496,11 @@
    "normativa": true,
    "sintesi": "Sentenza Tar Marche 1297/2026 - Ristrutturazione edilizia e riduzione contributo di costruzione ACCA software",
    "pubblicata": "2026-11-17T11:06:57Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "449cd93177a06404",
@@ -2957,7 +1515,9 @@
    "normativa": false,
    "sintesi": "Ravvedimento speciale CPB 2026-2027: nuovi codici tributo e istruzioni F24 ACCA software",
    "pubblicata": "2026-11-17T10:56:54Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "b4592d2f133d953c",
@@ -2972,7 +1532,9 @@
    "normativa": false,
    "sintesi": "Risoluzione AE 43/2026 - Ravvedimento speciale CPB 2026-2027: nuovi codici tributo e istruzioni F24 ACCA software",
    "pubblicata": "2026-11-17T10:49:23Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "5b3dae3c98e3139a",
@@ -2982,12 +1544,16 @@
    "fonte_nome": "ANCE",
    "tipo": "ordine",
    "aree": [
-    "altro"
+    "bonus"
    ],
    "normativa": false,
    "sintesi": "Dalla continuità degli investimenti alle nuove sfide per il settore delle costruzioni: infrastrutture, innovazione e prospettive per l’edilizia nel dopo Pnrr.",
    "pubblicata": "2026-11-17T10:45:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "bonus.contributi"
+   ],
+   "luogo": null
   },
   {
    "id": "e62896c4c7441b14",
@@ -2997,12 +1563,18 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "norme",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Professioni BIM, UNI 11337-7 in revisione: due nuovi profili per dati territoriali e contratti ACCA software",
    "pubblicata": "2026-11-17T10:34:47Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "norme.uni",
+    "appalti.esecuzione"
+   ],
+   "luogo": null
   },
   {
    "id": "458f15a5dac2e5bc",
@@ -3012,12 +1584,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Sentenza TAR Lazio 18147/2026 – Consorzio stabile, avvalimento e cumulo requisiti ACCA software",
    "pubblicata": "2026-11-17T09:29:48Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.esecuzione"
+   ],
+   "luogo": null
   },
   {
    "id": "1a56d8aeb75fa040",
@@ -3032,7 +1608,9 @@
    "normativa": false,
    "sintesi": "La PA può negare l’accesso a una graduatoria mai formata? ACCA software",
    "pubblicata": "2026-11-17T08:31:25Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "2dfb3e79cc7b5695",
@@ -3047,7 +1625,11 @@
    "normativa": false,
    "sintesi": "Casa vacanze con opere abusive: le autorizzazioni turistiche evitano la demolizione? ACCA software",
    "pubblicata": "2026-11-17T08:31:24Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "22054d688127849a",
@@ -3057,12 +1639,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Quando il lavoro autonomo non è subappalto? ACCA software",
    "pubblicata": "2026-11-17T08:16:15Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.esecuzione"
+   ],
+   "luogo": null
   },
   {
    "id": "dab671dcdee949f5",
@@ -3072,12 +1658,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "Salute riproduttiva sul lavoro: le indicazioni INAIL per il medico competente ACCA software",
    "pubblicata": "2026-11-17T08:13:21Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "sicurezza.normativa"
+   ],
+   "luogo": null
   },
   {
    "id": "1f0255c28f5bf220",
@@ -3087,12 +1677,16 @@
    "fonte_nome": "Ediltecnico",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "bonus"
    ],
    "normativa": true,
    "sintesi": "Il disegno di legge di Bilancio 2027 prevede la ripartizione obbligatoria in dieci anni di alcune quote dei crediti Superbonus legati alle spese del 2023.",
    "pubblicata": "2026-11-17T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "bd0c04df7602944c",
@@ -3102,12 +1696,18 @@
    "fonte_nome": "Ediltecnico",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "energia",
+    "ambiente"
    ],
    "normativa": true,
    "sintesi": "Con il decreto MASE dell'11 novembre 2026 diventano operative le regole GSE per l'accesso diretto agli incentivi FER X Definitivo.",
    "pubblicata": "2026-11-17T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.rinnovabili",
+    "ambiente.via_vas"
+   ],
+   "luogo": null
   },
   {
    "id": "c3ff8e545ed7fc8e",
@@ -3117,12 +1717,18 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "norme",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-17T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.uni",
+    "appalti.esecuzione"
+   ],
+   "luogo": null
   },
   {
    "id": "b4d5d570a8ff8814",
@@ -3137,7 +1743,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-17T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "27478f2b62d18b57",
@@ -3147,12 +1755,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "norme"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-17T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.professione"
+   ],
+   "luogo": null
   },
   {
    "id": "19ab283bf787d518",
@@ -3167,7 +1779,11 @@
    "normativa": true,
    "sintesi": "Assegnazione delle risorse di cui al c.d. Fondo protezione civile e di rettifica degli interventi di adeguamento strutturale e antisismico degli edifici del sistema…",
    "pubblicata": "2026-11-17T06:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "strutture.sismica"
+   ],
+   "luogo": null
   },
   {
    "id": "da3a6d5ebaff0cff",
@@ -3182,7 +1798,11 @@
    "normativa": true,
    "sintesi": "Modifiche e integrazioni all'ordinanza n. 45 del 31 gennaio 2023, ex articolo 11, comma 2, del decreto-legge 16 luglio 2020, n.",
    "pubblicata": "2026-11-17T06:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "a3c905adae25ba94",
@@ -3197,7 +1817,9 @@
    "normativa": false,
    "sintesi": "Interessante bando di concorso per 882 posti da Specialista tecnico a tempo indeterminato in Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia.",
    "pubblicata": "2026-11-17T05:58:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": "Campania"
   },
   {
    "id": "1e8026018f0a349b",
@@ -3207,12 +1829,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "appalti",
+    "bonus"
    ],
    "normativa": true,
    "sintesi": "Legge di Bilancio 2027, l’allarme ANCE: caro materiali, Superbonus e investimenti a rischio Lavori Pubblici",
    "pubblicata": "2026-11-17T05:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere",
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "29c2a93fd89cf762",
@@ -3222,12 +1850,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Subaffidamento e subappalto: il vero nodo critico è il controllo durante l’esecuzione Lavori Pubblici",
    "pubblicata": "2026-11-17T04:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "ada2af5e7a42de72",
@@ -3237,12 +1869,16 @@
    "fonte_nome": "Infobuild",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "ambiente"
    ],
    "normativa": false,
    "sintesi": "NOA firma de Kruif House, casa prefabbricata in CLT in tre taglie da 45, 60 e 75 m², pensata anche per vivere sull’acqua",
    "pubblicata": "2026-11-17T03:56:24Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "ambiente.paesaggio"
+   ],
+   "luogo": null
   },
   {
    "id": "db02c68a53598786",
@@ -3252,12 +1888,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "industriale"
+    "sicurezza",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "SAL non formalizzati: la contabilità di cantiere può provare i lavori eseguiti? Lavori Pubblici",
    "pubblicata": "2026-11-17T03:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "sicurezza.cantieri",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "380a2a4cc349f55a",
@@ -3267,12 +1909,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Rilievo con drone e ordine di demolizione, il Comune può tenersi i file del rilievo? Lavori Pubblici",
    "pubblicata": "2026-11-17T01:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.sanatorie",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "7e3ba477abc304d0",
@@ -3282,12 +1930,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Tolleranze costruttive e Decreto Salva Casa: quando il 5% non basta Lavori Pubblici",
    "pubblicata": "2026-11-17T00:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.sanatorie",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "dc514fc6d468cd67",
@@ -3297,12 +1951,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "energia"
+    "energia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Fotovoltaico in area idonea: quando è legittimo il diniego dell’autorizzazione? Lavori Pubblici",
    "pubblicata": "2026-11-16T23:30:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "energia.rinnovabili",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "cc52b1b8595bdca9",
@@ -3312,12 +1972,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Fioriere e passerella sul lastrico solare, è già una terrazza? Lavori Pubblici",
    "pubblicata": "2026-11-16T23:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "b7e2c86c0fd100bd",
@@ -3327,12 +1991,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Avvalimento premiale: si possono perdere 5 punti per un contratto non allegato? ACCA software",
    "pubblicata": "2026-11-16T17:18:20Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.esecuzione"
+   ],
+   "luogo": null
   },
   {
    "id": "3c3b3a70b3cbc5be",
@@ -3342,12 +2010,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Due imprese con SOA classifica \"I\" possono partecipare a una gara che richiede la \"II\"? ACCA software",
    "pubblicata": "2026-11-16T16:57:21Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "71211c397ba3722f",
@@ -3357,12 +2029,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Sentenza TAR Lazio 17294/2026 – Avvalimento infragruppo requisiti delle controllate ACCA software",
    "pubblicata": "2026-11-16T16:21:10Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.esecuzione"
+   ],
+   "luogo": null
   },
   {
    "id": "38b4ac62bbad7bd4",
@@ -3377,7 +2053,9 @@
    "normativa": true,
    "sintesi": "L’Inps fornisce indicazioni in merito all’obbligo di pubblicazione sul SIISL delle posizioni lavorative connesse ad assunzioni per le quali sono richiesti benefici…",
    "pubblicata": "2026-11-16T16:09:33Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "fb61f9ee69d74317",
@@ -3392,7 +2070,9 @@
    "normativa": true,
    "sintesi": "Previsti, all’attenzione di Camera e Senato, numerosi provvedimenti di interesse tra cui i seguenti: DL 177/2026 Disposizioni urgenti per il rafforzamento delle…",
    "pubblicata": "2026-11-16T15:32:33Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "90d3d04e2ced943b",
@@ -3407,7 +2087,9 @@
    "normativa": false,
    "sintesi": "Il Formedil Italia comunica che il prossimo 3 dicembre si terrà un seminario informativo su “SicurOca” ed “Edilab”",
    "pubblicata": "2026-11-16T13:36:54Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "89f26b334539647f",
@@ -3422,7 +2104,9 @@
    "normativa": false,
    "sintesi": "Risposta AE 213/2026 - Regime forfetario e rimborso delle spese: rilevanza ai fini della determinazione del reddito imponibile ACCA software",
    "pubblicata": "2026-11-16T13:33:46Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "96334cfb3214206d",
@@ -3437,7 +2121,9 @@
    "normativa": false,
    "sintesi": "Forfettari, rimborsi analitici esclusi dalle soglie di 85.000 e 100.000 euro: le condizioni ACCA software",
    "pubblicata": "2026-11-16T13:21:34Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "034cdf124e39485a",
@@ -3447,12 +2133,16 @@
    "fonte_nome": "ANCE",
    "tipo": "ordine",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Tra le tematiche sottoposte al Governo: Iniziative volte al rafforzamento dei controlli antimafia nella filiera degli appalti pubblici e privati, Iniziative per favorire…",
    "pubblicata": "2026-11-16T13:13:12Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "98061cdde36d2668",
@@ -3467,7 +2157,11 @@
    "normativa": true,
    "sintesi": "Sentenza Consiglio di Stato 8011/2026 - Abusi edilizi nelle strutture ricettive e legittimità dell’ordine di demolizione ACCA software",
    "pubblicata": "2026-11-16T11:45:13Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.sanatorie"
+   ],
+   "luogo": null
   },
   {
    "id": "5a9cffdd9528eca8",
@@ -3477,12 +2171,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Sentenza TAR Campania, sez. Napoli, 13 novembre 2026, n. 6589 Lavori Pubblici",
    "pubblicata": "2026-11-16T10:57:37Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "cbb52496f782125e",
@@ -3497,7 +2195,9 @@
    "normativa": true,
    "sintesi": "Sentenza Consiglio di Stato 7802/2026 – Accesso agli atti e oscuramento offerta tecnica ACCA software",
    "pubblicata": "2026-11-16T10:05:14Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "489b0e1c7738c69a",
@@ -3507,12 +2207,18 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "strutture",
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "Collaudatore e CSE: si possono cumulare gli incarichi? ACCA software",
    "pubblicata": "2026-11-16T09:22:27Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "strutture.collaudo",
+    "sicurezza.cantieri"
+   ],
+   "luogo": null
   },
   {
    "id": "84388623a6d9d116",
@@ -3527,7 +2233,9 @@
    "normativa": false,
    "sintesi": "ACCA software alla Digital Building Permit Conference 2026 ACCA software",
    "pubblicata": "2026-11-16T08:40:18Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "8998a270bd9839b8",
@@ -3542,7 +2250,9 @@
    "normativa": false,
    "sintesi": "Verifica di anomalia: i dati dell’impresa ausiliaria possono giustificare il costo della manodopera? ACCA software",
    "pubblicata": "2026-11-16T08:38:19Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "7d3a2b663b852884",
@@ -3552,12 +2262,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "bonus"
    ],
    "normativa": true,
    "sintesi": "Legge di Bilancio 2027, bonus edilizi confermati, flat tax a 100mila euro ACCA software",
    "pubblicata": "2026-11-16T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "36b3f510e3f5cee1",
@@ -3567,12 +2281,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Il subappalto nel nuovo codice appalti ACCA software",
    "pubblicata": "2026-11-16T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.codice"
+   ],
+   "luogo": null
   },
   {
    "id": "71f26c288e634d5a",
@@ -3582,12 +2300,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "Coordinatore sicurezza in fase esecutiva (CSE): compiti e responsabilità ACCA software",
    "pubblicata": "2026-11-16T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "sicurezza.cantieri"
+   ],
+   "luogo": null
   },
   {
    "id": "747fbfa9b113ff7a",
@@ -3602,7 +2324,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-16T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "674851fe3d447c9e",
@@ -3612,12 +2336,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "energia"
    ],
    "normativa": true,
    "sintesi": "",
    "pubblicata": "2026-11-16T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null
   },
   {
    "id": "4679f971cf941caf",
@@ -3632,7 +2360,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-16T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "77664abfd257c009",
@@ -3647,7 +2377,11 @@
    "normativa": true,
    "sintesi": "Modifiche ed integrazioni all'ordinanza speciale n. 31 del 31 dicembre 2021, recante «Programma straordinario di ricostruzione e definizione delle modalita' di…",
    "pubblicata": "2026-11-16T06:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "68e6ddbe2fa3a355",
@@ -3662,7 +2396,11 @@
    "normativa": true,
    "sintesi": "Modifiche ed integrazioni all'ordinanza speciale n. 7 del 6 maggio 2021, recante «Interventi di ricostruzione del patrimonio edilizio ATER Teramo».",
    "pubblicata": "2026-11-16T06:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "738fc9dfeff312ea",
@@ -3677,7 +2415,11 @@
    "normativa": true,
    "sintesi": "Modifiche ed integrazioni all'ordinanza speciale n. 41 del 30 dicembre 2022, recante «Interventi preordinati alla ricostruzione del Comune di Pioraco - Quartiere La…",
    "pubblicata": "2026-11-16T06:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "f32b50d25730a8a3",
@@ -3692,7 +2434,9 @@
    "normativa": false,
    "sintesi": "I vetri selettivi permettono di limitare gli apporti solari negli edifici, ma la scelta della vetrata deve tenere conto anche della quantità di luce naturale che…",
    "pubblicata": "2026-11-16T05:58:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "43fb085c8bf5485d",
@@ -3707,7 +2451,9 @@
    "normativa": false,
    "sintesi": "Si chiude a Rimini la 29ª edizione della manifestazione dedicata alla green, blue e circular economy.",
    "pubblicata": "2026-11-16T05:40:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "d423392e5a08fd12",
@@ -3717,12 +2463,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Sanatoria dinamica chiesta dopo l’ordine di demolizione: chi decide prima, il Comune o il giudice? Lavori Pubblici",
    "pubblicata": "2026-11-16T05:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.sanatorie",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "096a0537b80ad5de",
@@ -3732,12 +2484,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Difformità ante 1967, conta la data del titolo o quella di inizio dei lavori? Lavori Pubblici",
    "pubblicata": "2026-11-16T04:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "030423c7c07a4919",
@@ -3752,7 +2508,9 @@
    "normativa": false,
    "sintesi": "Restructura 2026 chiude con oltre 15.000 visitatori. Ben van Berkel, Andrew Waugh e i progetti premiati a Torino.",
    "pubblicata": "2026-11-16T03:12:49Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "6c648f50002c79e3",
@@ -3762,12 +2520,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Condizionatore in condominio: quando può essere ordinata la rimozione? Lavori Pubblici",
    "pubblicata": "2026-11-16T03:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "f9486fe1c9fcac2c",
@@ -3777,12 +2539,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Lavoratori autonomi e subappalto: quando l’affidamento a terzi non viola l’art. 119 del Codice Lavori Pubblici",
    "pubblicata": "2026-11-16T02:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "8cad0762f2f0db01",
@@ -3792,12 +2558,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Accesso agli atti di gara: quando si può oscurare l'offerta tecnica? Lavori Pubblici",
    "pubblicata": "2026-11-15T05:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "cd9ea0bf30cc4b0b",
@@ -3807,12 +2577,16 @@
    "fonte_nome": "Gazzetta Ufficiale",
    "tipo": "ufficiale",
    "aree": [
-    "europa"
+    "norme"
    ],
    "normativa": true,
    "sintesi": "Attuazione della direttiva (UE) 2024/2831 del Parlamento europeo e del Consiglio, del 23 ottobre 2024, relativa al miglioramento delle condizioni di lavoro nel lavoro…",
    "pubblicata": "2026-11-14T06:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null
   },
   {
    "id": "b468a7f6caa54740",
@@ -3822,12 +2596,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "bonus",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Superbonus, crediti in 10 anni: CNA Costruzioni chiede lo stop alla rateizzazione obbligatoria Lavori Pubblici",
    "pubblicata": "2026-11-14T05:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "bonus.bonus",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "56a01179d03cc84b",
@@ -3837,12 +2617,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Rinnovo contratto: si possono modificare le prestazioni e le condizioni economiche dell'appalto? Lavori Pubblici",
    "pubblicata": "2026-11-14T03:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "aca099c74f0505b9",
@@ -3852,12 +2636,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "Infortunio durante mansioni diverse da quelle contrattuali: quali responsabilità per il datore? ACCA software",
    "pubblicata": "2026-11-13T15:45:21Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "sicurezza.normativa"
+   ],
+   "luogo": null
   },
   {
    "id": "1f02fb9db8daf84f",
@@ -3867,12 +2655,18 @@
    "fonte_nome": "ANCE",
    "tipo": "ordine",
    "aree": [
-    "altro"
+    "appalti",
+    "bonus"
    ],
    "normativa": false,
    "sintesi": "“Programmiamo il futuro”, il convegno all’Ance sulla sfida della continuità per le opere pubbliche.",
    "pubblicata": "2026-11-13T15:12:35Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "appalti.opere",
+    "bonus.contributi"
+   ],
+   "luogo": null
   },
   {
    "id": "798f2c7029acc85b",
@@ -3882,12 +2676,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "norme"
    ],
    "normativa": false,
    "sintesi": "Convention ACCA 2026, l'intelligenza artificiale incontra il futuro delle costruzioni. Ecco il programma ACCA software",
    "pubblicata": "2026-11-13T14:00:47Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null
   },
   {
    "id": "058c6045ee20cd4b",
@@ -3897,12 +2695,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "energia"
    ],
    "normativa": false,
    "sintesi": "FER-X definitivo: definite le modalità di accesso diretto per gli impianti fino a 1 MW ACCA software",
    "pubblicata": "2026-11-13T10:12:40Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null
   },
   {
    "id": "ad8498d597098965",
@@ -3917,7 +2719,11 @@
    "normativa": false,
    "sintesi": "Il Comune può ordinare la demolizione anche se la SCIA è ancora efficace? ACCA software",
    "pubblicata": "2026-11-13T08:57:28Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.titoli"
+   ],
+   "luogo": null
   },
   {
    "id": "dbcd8a27f2beb5e5",
@@ -3927,12 +2733,14 @@
    "fonte_nome": "ANCE",
    "tipo": "ordine",
    "aree": [
-    "antincendio"
+    "altro"
    ],
    "normativa": false,
    "sintesi": "I VVF chiariscono che le Direzioni Regionali dei Vigili del Fuoco possono rilasciare direttamente copia dell’attestato al tecnico manutentore qualificato anche qualora…",
    "pubblicata": "2026-11-13T08:18:49Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "17779c5e1976b82f",
@@ -3947,7 +2755,11 @@
    "normativa": false,
    "sintesi": "La Direzione Edilizia e Territorio propone una rassegna settimanale con alcune fra le più recenti sentenze in materia di edilizia ed urbanistica",
    "pubblicata": "2026-11-13T08:05:29Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.urbanistica"
+   ],
+   "luogo": null
   },
   {
    "id": "f09699e76db7dafa",
@@ -3962,7 +2774,11 @@
    "normativa": true,
    "sintesi": "Portale Trasparenza Ministero delle Infrastrutture e dei Trasporti - AVVISO DI INTERPELLO - PC 061-32 Ristrutturazione edilizia del complesso demaniale “Luigi Galli”…",
    "pubblicata": "2026-11-13T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "4919a1e4d7ab6560",
@@ -3977,7 +2793,11 @@
    "normativa": false,
    "sintesi": "SCIA edilizia: cos’è, a cosa serve, quanto costa e modello PDF editabile 2026 ACCA software",
    "pubblicata": "2026-11-13T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.titoli"
+   ],
+   "luogo": null
   },
   {
    "id": "7bbb69e7fa02c3b7",
@@ -3992,7 +2812,9 @@
    "normativa": false,
    "sintesi": "Cosa sono le pertinenze: definizione e caratteristiche ACCA software",
    "pubblicata": "2026-11-13T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "15894aaa29d004e9",
@@ -4002,12 +2824,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "L’attestazione SOA: cos’è, a cosa serve e come si ottiene ACCA software",
    "pubblicata": "2026-11-13T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.esecuzione"
+   ],
+   "luogo": null
   },
   {
    "id": "b37f12020265e53c",
@@ -4017,12 +2843,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "I costi della manodopera nel nuovo codice appalti ACCA software",
    "pubblicata": "2026-11-13T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.codice"
+   ],
+   "luogo": null
   },
   {
    "id": "f2decfff02570acd",
@@ -4032,12 +2862,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Le cause di esclusione nel codice appalti ACCA software",
    "pubblicata": "2026-11-13T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "84d484a1bbbdcab6",
@@ -4047,12 +2881,18 @@
    "fonte_nome": "Ediltecnico",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "La presenza di strade asfaltate, reti idriche e fognarie è sufficiente per ottenere il permesso di costruire su un terreno soggetto a vincoli paesaggistici? Una recente…",
    "pubblicata": "2026-11-13T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.titoli",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "de2d5404ab12e0cd",
@@ -4067,7 +2907,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-13T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.sanatorie"
+   ],
+   "luogo": null
   },
   {
    "id": "f5df806bd334e673",
@@ -4077,12 +2921,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "energia"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-13T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null
   },
   {
    "id": "fea190a587c3a99d",
@@ -4093,12 +2941,17 @@
    "tipo": "stampa",
    "aree": [
     "energia",
-    "industriale"
+    "edilizia"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-13T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.rinnovabili",
+    "edilizia.produttivo"
+   ],
+   "luogo": null
   },
   {
    "id": "2d12f47bd43a222b",
@@ -4108,12 +2961,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "energia"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-13T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.impianti"
+   ],
+   "luogo": null
   },
   {
    "id": "447288833d6a63a6",
@@ -4128,7 +2985,9 @@
    "normativa": false,
    "sintesi": "Nuovo appuntamento con la rubrica “Architectural Prompting”: Giovanna Panucci ci spiega come usare l'AI per confrontare tra loro gli elaborati di progetto, con una skill…",
    "pubblicata": "2026-11-13T05:59:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "50d28ffc1895c417",
@@ -4138,12 +2997,16 @@
    "fonte_nome": "Ediltecnico",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "energia"
    ],
    "normativa": true,
    "sintesi": "Dal 3 giugno 2026 è operativa una nuova definizione normativa di ponte termico. Cosa cambia rispetto al passato? Un approfondimento, tratto dal volume di Sergio Pesaresi…",
    "pubblicata": "2026-11-13T05:58:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null
   },
   {
    "id": "d69c21359784c950",
@@ -4153,12 +3016,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "bonus",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Superbonus, crediti 2023 spalmati fino al 2036: lo Stato può cambiare le regole a partita finita? Lavori Pubblici",
    "pubblicata": "2026-11-13T05:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "bonus.bonus",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "9568041943b4c09b",
@@ -4168,12 +3037,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Volume e tettoia sul terrazzo senza permesso, quando né gli anni né una sanzione salvano dalla demolizione Lavori Pubblici",
    "pubblicata": "2026-11-13T04:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.interventi",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "6e9e47d87f84642d",
@@ -4183,12 +3058,18 @@
    "fonte_nome": "Infobuild",
    "tipo": "stampa",
    "aree": [
-    "energia"
+    "energia",
+    "edilizia"
    ],
    "normativa": false,
    "sintesi": "Cortexa e Federcostruzioni chiedono un piano di lungo periodo e incentivi stabili per una riqualificazione energetica efficace che coinvolga anche il cappotto.",
    "pubblicata": "2026-11-13T03:44:53Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni",
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "3524fbe12dbae9fa",
@@ -4198,12 +3079,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Soppalco abusivo e SCIA: quando il Comune può ordinare la demolizione senza annullare il titolo? Lavori Pubblici",
    "pubblicata": "2026-11-13T03:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.titoli",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "dfcfe487c46277ee",
@@ -4213,12 +3100,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Subappalto e silenzio-assenso: una domanda incompleta può bastare? Lavori Pubblici",
    "pubblicata": "2026-11-13T02:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "56f854f0116d5cf8",
@@ -4228,12 +3119,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "MEPA Light, arriva il mercato digitale con AI per gli affidamenti sotto i 5.000 euro Lavori Pubblici",
    "pubblicata": "2026-11-13T00:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "8df982662486d32f",
@@ -4243,12 +3138,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "antincendio"
+    "antincendio",
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "Prevenzione incendi negli edifici residenziali: il confronto INAIL tra RTV V.14 e normativa tradizionale Lavori Pubblici",
    "pubblicata": "2026-11-12T23:30:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "antincendio.codice",
+    "sicurezza.normativa"
+   ],
+   "luogo": null
   },
   {
    "id": "553eaa71d6c042e3",
@@ -4258,12 +3159,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Guaina liquida, la soluzione che conviene Lavori Pubblici",
    "pubblicata": "2026-11-12T23:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "3199b79a14232854",
@@ -4273,12 +3178,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "strutture"
    ],
    "normativa": true,
    "sintesi": "D.L. 205/2026 – Piano straordinario per i Campi Flegrei ACCA software",
    "pubblicata": "2026-11-12T22:07:41Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "strutture.sismica"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "e58fe8530fdef61a",
@@ -4288,12 +3197,16 @@
    "fonte_nome": "ANCE",
    "tipo": "ordine",
    "aree": [
-    "altro"
+    "ambiente"
    ],
    "normativa": true,
    "sintesi": "Il MASE ha approvato le guide operative per produttori, trasportatori e impianti di trattamento che utilizzano l’App RENTRI FIR Digitale per emettere e gestire il…",
    "pubblicata": "2026-11-12T15:27:39Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "ambiente.via_vas"
+   ],
+   "luogo": null
   },
   {
    "id": "73fd29268c3c27f2",
@@ -4308,7 +3221,9 @@
    "normativa": true,
    "sintesi": "Sentenze Consiglio di Stato 8115-8116/2026 - Dati ausiliaria, costo manodopera e offerta anomala ACCA software",
    "pubblicata": "2026-11-12T14:32:59Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "e3f7e5182c6ce8ca",
@@ -4318,12 +3233,16 @@
    "fonte_nome": "ANCE",
    "tipo": "ordine",
    "aree": [
-    "altro"
+    "sicurezza"
    ],
    "normativa": true,
    "sintesi": "Con la Nota n. 2469 del 6 novembre 2026, l’INL ha fornito ulteriori indicazioni e chiarimenti sulle modalità di riconoscimento degli ulteriori crediti aggiuntivi della…",
    "pubblicata": "2026-11-12T10:43:20Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "sicurezza.normativa"
+   ],
+   "luogo": null
   },
   {
    "id": "0e6634873aa5882e",
@@ -4338,7 +3257,9 @@
    "normativa": true,
    "sintesi": "AI Act: cosa cambia dal 2026 per tecnici e imprese, quali obblighi osservare ACCA software",
    "pubblicata": "2026-11-12T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "0c019968087f7cb3",
@@ -4348,12 +3269,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "edilizia"
    ],
    "normativa": false,
    "sintesi": "Manutenzione ordinaria e straordinaria in condominio ACCA software",
    "pubblicata": "2026-11-12T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "ae13e38e4e86f213",
@@ -4368,7 +3293,11 @@
    "normativa": false,
    "sintesi": "Bradisismo Campi Flegrei: misure e fondi per ridurre il rischio sismico ACCA software",
    "pubblicata": "2026-11-12T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "strutture.sismica"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "830dfe05140bf4f0",
@@ -4378,12 +3307,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "La verifica dei requisiti: cosa prevede il nuovo codice appalti ACCA software",
    "pubblicata": "2026-11-12T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.codice"
+   ],
+   "luogo": null
   },
   {
    "id": "147b51ec701876de",
@@ -4393,12 +3326,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-12T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "appalti.esecuzione"
+   ],
+   "luogo": null
   },
   {
    "id": "bac02cac5e06c7d8",
@@ -4408,12 +3345,18 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "bonus",
+    "energia"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-12T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "bonus.bonus",
+    "energia.incentivi"
+   ],
+   "luogo": null
   },
   {
    "id": "698e92f66c614106",
@@ -4428,7 +3371,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-12T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "6270feb05578e603",
@@ -4438,12 +3383,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Terzo condono edilizio e ricostruzione rudere: quando il vincolo paesaggistico blocca la sanatoria Lavori Pubblici",
    "pubblicata": "2026-11-12T05:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.sanatorie",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "b020c78386b8b28c",
@@ -4453,12 +3404,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "bonus"
    ],
    "normativa": false,
    "sintesi": "Superbonus e distanze tra edifici: fin dove arrivano le deroghe dell’art. 119? Lavori Pubblici",
    "pubblicata": "2026-11-12T04:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.urbanistica",
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "2afe9382930ef9ae",
@@ -4474,7 +3431,12 @@
    "normativa": false,
    "sintesi": "La manovra 2027 introduce misure a sostegno del fotovoltaico per impianti di nuova costruzione fino a 1 MW che accedono al meccanismo FER X.",
    "pubblicata": "2026-11-12T03:41:04Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.rinnovabili",
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "d764a5ace5dd274f",
@@ -4484,12 +3446,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Ordine di demolizione all’affittuario, serve l’istruttoria Lavori Pubblici",
    "pubblicata": "2026-11-12T03:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.sanatorie",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "28c1283d504e1262",
@@ -4499,12 +3467,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Project financing, approvato il decreto-legge che modifica il Codice Appalti Lavori Pubblici",
    "pubblicata": "2026-11-12T02:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "b92206b788a25c78",
@@ -4514,12 +3486,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Subappalto o subaffidamento? Un webinar per governare la filiera del subcontratto nei lavori pubblici Lavori Pubblici",
    "pubblicata": "2026-11-12T01:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "ac7e237d19de624e",
@@ -4529,12 +3505,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "norme",
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Intelligenza artificiale nella PA: pubblicate le Linee Guida AgID, obblighi e indicazioni per gli enti locali Lavori Pubblici",
    "pubblicata": "2026-11-12T00:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "norme.ue",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "55a5856a1f06f113",
@@ -4544,12 +3526,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Consorzio stabile in forma mista, quando alla consorziata non serve la classifica SOA del bando Lavori Pubblici",
    "pubblicata": "2026-11-11T23:30:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "c6507376df081f48",
@@ -4559,12 +3545,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "energia"
+    "energia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Fotovoltaico a terra nelle aree agricole: la Corte Costituzionale conferma la legittimità del divieto Lavori Pubblici",
    "pubblicata": "2026-11-11T23:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "energia.rinnovabili",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "c71b491b97b972ef",
@@ -4579,7 +3571,11 @@
    "normativa": true,
    "sintesi": "EFFICIENZA ENERGETICA E CAR: PUBBLICATI I DATI SUI CERTIFICATI BIANCHI DEI PRIMI DIECI MESI DEL 2026 GSE",
    "pubblicata": "2026-11-11T16:55:04Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null
   },
   {
    "id": "5f24a97a2782c710",
@@ -4589,12 +3585,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "edilizia"
    ],
    "normativa": true,
    "sintesi": "Rigenerazione urbana in Campania: chiarimenti su premialità volumetriche e cambi d’uso ACCA software",
    "pubblicata": "2026-11-11T16:02:03Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.urbanistica"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "2fbf3c3041db1e62",
@@ -4604,12 +3604,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "ambiente"
    ],
    "normativa": false,
    "sintesi": "APP RENTRI FIR Digitale: approvati quattro manuali per la gestione in mobilità ACCA software",
    "pubblicata": "2026-11-11T16:02:02Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "ambiente.terre_rifiuti"
+   ],
+   "luogo": null
   },
   {
    "id": "22e758ac4bef5099",
@@ -4624,7 +3628,9 @@
    "normativa": false,
    "sintesi": "ACCA software in Brasile per il 9º Congresso Internacional A ERA BIM ACCA software",
    "pubblicata": "2026-11-11T15:46:45Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "01163ebded82aef3",
@@ -4634,12 +3640,18 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "antincendio"
+    "antincendio",
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "Antincendio negli edifici residenziali: la guida INAIL alla RTV V.14 attraverso un caso studio ACCA software",
    "pubblicata": "2026-11-11T15:06:29Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "antincendio.codice",
+    "sicurezza.normativa"
+   ],
+   "luogo": null
   },
   {
    "id": "baee74f906dd1da9",
@@ -4654,7 +3666,9 @@
    "normativa": false,
    "sintesi": "Quando la sosta di un camper richiede un titolo edilizio? ACCA software",
    "pubblicata": "2026-11-11T09:07:30Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "169c38af064af2ad",
@@ -4664,12 +3678,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "La revisione prezzi nel nuovo Codice Appalti ACCA software",
    "pubblicata": "2026-11-11T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.codice"
+   ],
+   "luogo": null
   },
   {
    "id": "a16f15b8125f3618",
@@ -4679,12 +3697,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "ambiente"
    ],
    "normativa": true,
    "sintesi": "RENTRi per le imprese edili: obblighi e adempimenti ACCA software",
    "pubblicata": "2026-11-11T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "ambiente.terre_rifiuti"
+   ],
+   "luogo": null
   },
   {
    "id": "6af33331f2ae6667",
@@ -4694,12 +3716,18 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "industriale"
+    "sicurezza",
+    "norme"
    ],
    "normativa": false,
    "sintesi": "Segnaletica di sicurezza dei cantieri stradali: norme e prassi di riferimento ACCA software",
    "pubblicata": "2026-11-11T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "sicurezza.cantieri",
+    "norme.uni"
+   ],
+   "luogo": null
   },
   {
    "id": "532f3f41ba27e91c",
@@ -4709,12 +3737,18 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "energia"
+    "energia",
+    "ambiente"
    ],
    "normativa": false,
    "sintesi": "Rinnovabili nelle buffer zone UNESCO: sì a PAS e AU, ma senza iter agevolato ACCA software",
    "pubblicata": "2026-11-11T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "energia.rinnovabili",
+    "ambiente.paesaggio"
+   ],
+   "luogo": null
   },
   {
    "id": "08738455c3ad83f0",
@@ -4724,12 +3758,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "norme"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-11T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.uni"
+   ],
+   "luogo": null
   },
   {
    "id": "42f90935477cd55c",
@@ -4739,12 +3777,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-11T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "d5eebd39233a2e1b",
@@ -4754,12 +3796,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "energia"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-11T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null
   },
   {
    "id": "ba314422d63f0515",
@@ -4769,12 +3815,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Chi completa un rustico deve pagare di nuovo gli oneri? Lavori Pubblici",
    "pubblicata": "2026-11-11T04:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "7ced0255d1ab3c68",
@@ -4789,7 +3839,9 @@
    "normativa": false,
    "sintesi": "Osservatorio Edilizia in legno 2026: produzione a 2,29 miliardi, non residenziale ai massimi e off-site al 71% nel 2025.",
    "pubblicata": "2026-11-11T03:55:34Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "0ad8a2ff15da6eec",
@@ -4799,12 +3851,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Appalti pubblici: quattro servizi analoghi possono essere un requisito sproporzionato? Lavori Pubblici",
    "pubblicata": "2026-11-11T01:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "c15f0ec2ed42367f",
@@ -4814,12 +3870,18 @@
    "fonte_nome": "ANCE",
    "tipo": "ordine",
    "aree": [
-    "altro"
+    "ambiente",
+    "edilizia"
    ],
    "normativa": false,
    "sintesi": "Al Padiglione Italia, nell’ambito dell’iniziativa realizzata da Ance e in sinergia con Oice, Maeci, Mase e World Bank Group – Connect4Climate, presentati progetti e…",
    "pubblicata": "2026-11-11T00:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "ambiente.via_vas",
+    "edilizia.urbanistica"
+   ],
+   "luogo": null
   },
   {
    "id": "e53bd635403fa915",
@@ -4829,13 +3891,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "europa",
-    "energia"
+    "energia",
+    "norme"
    ],
    "normativa": true,
    "sintesi": "Direttiva Case Green: servono incentivi stabili e un piano nazionale per riqualificare gli edifici Lavori Pubblici",
    "pubblicata": "2026-11-10T23:30:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "energia.prestazioni",
+    "norme.ue"
+   ],
+   "luogo": null
   },
   {
    "id": "032245fbfabb5a30",
@@ -4845,12 +3912,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "catasto",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Cedolare secca e nuda proprietà: chi deve dichiarare i canoni di affitto? Lavori Pubblici",
    "pubblicata": "2026-11-10T23:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "catasto.estimo",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "519576c291e4f033",
@@ -4860,12 +3933,18 @@
    "fonte_nome": "GSE",
    "tipo": "ente",
    "aree": [
-    "energia"
+    "energia",
+    "ambiente"
    ],
    "normativa": false,
    "sintesi": "\"DECARBONIZZAZIONE DEL SETTORE HARD TO ABATE\", SESSIONE DI CO-PROGETTAZIONE PER L’AVVISO DI BANDO DEL MASE GSE",
    "pubblicata": "2026-11-10T17:14:45Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "energia.rinnovabili",
+    "ambiente.via_vas"
+   ],
+   "luogo": null
   },
   {
    "id": "a6b1095f71a40cfb",
@@ -4875,12 +3954,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Quando nella procedura negoziata senza bando può dirsi realmente assente la concorrenza per motivi tecnici? ACCA software",
    "pubblicata": "2026-11-10T13:56:40Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "38e2a1d8e14dde80",
@@ -4895,7 +3978,9 @@
    "normativa": false,
    "sintesi": "ACCA software al REMODULA EXPO 2026: chiedi il codice sconto ACCA software",
    "pubblicata": "2026-11-10T12:43:39Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "cb08630b4fdcc98b",
@@ -4905,12 +3990,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "Aggiornamento DVR: quando è necessario anche se la mansione non cambia ACCA software",
    "pubblicata": "2026-11-10T12:43:39Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "sicurezza.normativa"
+   ],
+   "luogo": null
   },
   {
    "id": "f1e8f5f512dc1bac",
@@ -4920,12 +4009,18 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "antincendio"
+    "appalti",
+    "sicurezza"
    ],
    "normativa": true,
    "sintesi": "D.L. Infrastrutture-PNRR 2026: le misure per lavori pubblici, antincendio ospedali ed emergenza caldo ACCA software",
    "pubblicata": "2026-11-10T12:12:26Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere",
+    "sicurezza.specifici"
+   ],
+   "luogo": null
   },
   {
    "id": "8b5788509ed4dc2f",
@@ -4935,12 +4030,18 @@
    "fonte_nome": "ANCE",
    "tipo": "ordine",
    "aree": [
-    "edilizia"
+    "appalti",
+    "bonus"
    ],
    "normativa": false,
    "sintesi": "Dai ritardi nei pagamenti degli extracosti, che valgono 1,8 miliardi di euro, alla riduzione del 24% degli investimenti delle Amministrazioni locali, fino alla stretta…",
    "pubblicata": "2026-11-10T11:41:56Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "appalti.esecuzione",
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "5ee8c4fc7a0f5837",
@@ -4950,12 +4051,18 @@
    "fonte_nome": "ANCE",
    "tipo": "ordine",
    "aree": [
-    "edilizia"
+    "appalti",
+    "bonus"
    ],
    "normativa": false,
    "sintesi": "Dai ritardi nei pagamenti degli extracosti, che valgono 1,8 miliardi di euro, alla riduzione del 24% degli investimenti delle Amministrazioni locali, fino alla stretta…",
    "pubblicata": "2026-11-10T11:34:04Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "appalti.esecuzione",
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "4596003d4f729e3f",
@@ -4970,7 +4077,9 @@
    "normativa": true,
    "sintesi": "Pubblicati dal Dipartimento delle Finanze i nuovi elenchi 2027 delle società controllate e partecipate dalla Pa soggette allo split payment.",
    "pubblicata": "2026-11-10T10:58:13Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "889e8572ad40069c",
@@ -4985,7 +4094,9 @@
    "normativa": false,
    "sintesi": "La CNCE comunica che, nell’ambito del progetto European Ediltrophy, si terrà un ciclo di workshop sulle buone pratiche nel settore edile",
    "pubblicata": "2026-11-10T10:16:48Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "99a6e79d5e0dc897",
@@ -5000,7 +4111,9 @@
    "normativa": false,
    "sintesi": "Il Formedil Italia comunica di aver fornito il patrocinio per il XLI Rapporto Congiunturale del CRESME",
    "pubblicata": "2026-11-10T10:04:26Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "aaeddab4ef7cc61c",
@@ -5010,12 +4123,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "D.L. Infrastrutture 2026: stop al diritto di prelazione negli appalti ACCA software",
    "pubblicata": "2026-11-10T09:58:49Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "01290d159a1e90fb",
@@ -5030,7 +4147,9 @@
    "normativa": false,
    "sintesi": "Il sistema Formedil parteciperà anche quest’anno a JobOrienta",
    "pubblicata": "2026-11-10T09:44:23Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "9880c07b17fb662a",
@@ -5045,7 +4164,9 @@
    "normativa": true,
    "sintesi": "Legge 202/2026 di conversione con modificazioni del D.L. 157/2026 – D.L. Energia ACCA software",
    "pubblicata": "2026-11-10T09:25:06Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "5eafc23ba58a43a2",
@@ -5055,12 +4176,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Affidamento diretto: la consultazione non trasforma la scelta in una gara Lavori Pubblici",
    "pubblicata": "2026-11-10T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "7f08900dcd073600",
@@ -5070,12 +4195,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "DVR, cos’è il Documento di Valutazione dei Rischi? ACCA software",
    "pubblicata": "2026-11-10T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "sicurezza.normativa"
+   ],
+   "luogo": null
   },
   {
    "id": "4391e0cde82130e6",
@@ -5090,7 +4219,11 @@
    "normativa": false,
    "sintesi": "Pergotenda in edilizia libera: normativa e casi pratici ACCA software",
    "pubblicata": "2026-11-10T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.titoli"
+   ],
+   "luogo": null
   },
   {
    "id": "d8ca659cb39c5a93",
@@ -5100,12 +4233,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "La procedura negoziata senza bando secondo l’art. 76 del Codice appalti ACCA software",
    "pubblicata": "2026-11-10T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "b9b32df61931fd7f",
@@ -5115,12 +4252,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "industriale"
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "Patente a crediti: il sistema dei crediti fissi e mobili per gestire il punteggio aggiuntivo ACCA software",
    "pubblicata": "2026-11-10T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "sicurezza.normativa"
+   ],
+   "luogo": null
   },
   {
    "id": "5b44b709a6e8f29e",
@@ -5130,12 +4271,18 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "norme",
+    "bonus"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-10T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.professione",
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "cf54ead26ebbf988",
@@ -5150,7 +4297,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-10T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "65b4dbffc46e9846",
@@ -5160,12 +4309,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "energia"
+    "energia",
+    "edilizia"
    ],
    "normativa": false,
    "sintesi": "Cappotto termico, come verificare se i tasselli tengono davvero? Lavori Pubblici",
    "pubblicata": "2026-11-10T05:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "energia.prestazioni",
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "22b4a8e28290c38c",
@@ -5175,12 +4330,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Fascia di rispetto stradale, cosa succede se l’edificio sconfina anche di poco? Lavori Pubblici",
    "pubblicata": "2026-11-10T04:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "ea335056eee7121a",
@@ -5190,12 +4349,16 @@
    "fonte_nome": "Infobuild",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "norme"
    ],
    "normativa": false,
    "sintesi": "Per le imprese edili l'intelligenza artificiale rappresenta un'opportunità per semplificare i processi e migliorare l’organizzazione del lavoro.",
    "pubblicata": "2026-11-10T03:22:09Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null
   },
   {
    "id": "7bf3b0c347bd6dfc",
@@ -5205,12 +4368,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Camper usato come abitazione, quando smette di essere un veicolo e serve il titolo edilizio Lavori Pubblici",
    "pubblicata": "2026-11-10T03:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "51929993039bbfdb",
@@ -5220,12 +4387,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "industriale"
+    "sicurezza",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Patente a crediti: nuove indicazioni INL sui crediti aggiuntivi Lavori Pubblici",
    "pubblicata": "2026-11-10T02:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "sicurezza.normativa",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "5c368a7f6404b37c",
@@ -5235,12 +4408,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Partita IVA professionisti: arriva la nuova procedura online dell'Agenzia delle Entrate Lavori Pubblici",
    "pubblicata": "2026-11-09T23:30:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "1a96252b73573cab",
@@ -5250,12 +4427,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Sanatoria paesaggistica: il cambio d'uso può bloccarla anche senza aumento di volume Lavori Pubblici",
    "pubblicata": "2026-11-09T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.uso",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "af4a4090f14356ea",
@@ -5265,12 +4448,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti",
+    "ambiente"
    ],
    "normativa": false,
    "sintesi": "Messa in sicurezza strade comunali: 10 milioni di euro dal MIT Lavori Pubblici",
    "pubblicata": "2026-11-09T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere",
+    "ambiente.terre_rifiuti"
+   ],
+   "luogo": null
   },
   {
    "id": "d4160c2d25c69484",
@@ -5280,12 +4469,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Pergotenda in edilizia libera, esclusa se il telo non si ritrae e chiude stabilmente lo spazio Lavori Pubblici",
    "pubblicata": "2026-11-09T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.titoli",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "27c71678b8cbf247",
@@ -5295,12 +4490,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
+    "appalti",
     "strutture"
    ],
    "normativa": false,
    "sintesi": "Servizi tecnici e collaudo: ANAC boccia i requisiti professionali troppo restrittivi Lavori Pubblici",
    "pubblicata": "2026-11-09T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere",
+    "strutture.collaudo"
+   ],
+   "luogo": null
   },
   {
    "id": "97dfaeb6f17b1659",
@@ -5315,7 +4516,9 @@
    "normativa": false,
    "sintesi": "Regime forfettario: come cambia con la manovra 2027 ACCA software",
    "pubblicata": "2026-11-09T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "836d7bb3244f281b",
@@ -5325,12 +4528,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Il Fascicolo virtuale operatore economico (FVOE): obblighi e vantaggi ACCA software",
    "pubblicata": "2026-11-09T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.codice"
+   ],
+   "luogo": null
   },
   {
    "id": "592455d301ddd132",
@@ -5345,7 +4552,11 @@
    "normativa": false,
    "sintesi": "Autorizzazioni in zona sismica: la guida sulle norme e sulle procedure da osservare ACCA software",
    "pubblicata": "2026-11-09T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "strutture.sismica"
+   ],
+   "luogo": null
   },
   {
    "id": "2c33f793fc81a3ba",
@@ -5355,12 +4566,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "industriale"
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "Patente a Crediti Cantieri: cos’è, come funziona, come adeguarsi ACCA software",
    "pubblicata": "2026-11-09T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "sicurezza.normativa"
+   ],
+   "luogo": null
   },
   {
    "id": "761ca1ba66228890",
@@ -5376,7 +4591,12 @@
    "normativa": false,
    "sintesi": "Autorizzazione sismica in sanatoria: esiste? ACCA software",
    "pubblicata": "2026-11-09T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "strutture.sismica",
+    "edilizia.sanatorie"
+   ],
+   "luogo": null
   },
   {
    "id": "aba98636706fea58",
@@ -5391,7 +4611,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-09T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "e309b60d45eb95d6",
@@ -5406,7 +4628,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-09T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.uso"
+   ],
+   "luogo": null
   },
   {
    "id": "d4c89059ddbaa2cd",
@@ -5416,12 +4642,18 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "ambiente"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-09T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.urbanistica",
+    "ambiente.via_vas"
+   ],
+   "luogo": null
   },
   {
    "id": "154220f344224034",
@@ -5431,12 +4663,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "norme",
+    "bonus"
    ],
    "normativa": false,
    "sintesi": "Superbonus, crediti fiscali in 10 anni: ingegneri e architetti chiedono lo stralcio dalla Manovra 2027 Lavori Pubblici",
    "pubblicata": "2026-11-09T05:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "norme.professione",
+    "bonus.crediti"
+   ],
+   "luogo": null
   },
   {
    "id": "adbc5afe33776db3",
@@ -5446,13 +4684,18 @@
    "fonte_nome": "Infobuild",
    "tipo": "stampa",
    "aree": [
-    "industriale",
-    "energia"
+    "energia",
+    "edilizia"
    ],
    "normativa": false,
    "sintesi": "Pompe di calore made in Italy, ricerca e qualità. Maxa apre lo stabilimento di Arcole e racconta la crescita in Europa.",
    "pubblicata": "2026-11-09T03:04:28Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.impianti",
+    "edilizia.produttivo"
+   ],
+   "luogo": null
   },
   {
    "id": "4f98f04d46a7ece4",
@@ -5462,12 +4705,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "catasto",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Agevolazioni prima casa: il Fisco su acquisto all'estero e vendita entro 5 anni Lavori Pubblici",
    "pubblicata": "2026-11-09T02:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "catasto.estimo",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "c9f983617deb5ff0",
@@ -5477,12 +4726,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "industriale"
+    "sicurezza",
+    "norme"
    ],
    "normativa": false,
    "sintesi": "Intelligenza artificiale, sicurezza sul lavoro e responsabilità 231: la nuova mappatura dei rischi dopo i decreti del 2026 Lavori Pubblici",
    "pubblicata": "2026-11-08T23:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "sicurezza.normativa",
+    "norme.ue"
+   ],
+   "luogo": null
   },
   {
    "id": "05adc17f6713abdd",
@@ -5492,12 +4747,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Impianti sportivi e affidamento diretto: quando serve la gara? Lavori Pubblici",
    "pubblicata": "2026-11-07T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "3605bcdeadf996d4",
@@ -5512,7 +4771,11 @@
    "normativa": true,
    "sintesi": "Portale Trasparenza Ministero delle Infrastrutture e dei Trasporti - AVVISO DI INTERPELLO - Lavori di ristrutturazione ed adeguamento funzionale del complesso…",
    "pubblicata": "2026-11-06T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "30507b970201e19f",
@@ -5522,12 +4785,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "bonus",
+    "energia"
    ],
    "normativa": true,
    "sintesi": "Bonus edilizi 2027, le novità del ddl di bilancio su aliquote, limiti e bonus mobili Lavori Pubblici",
    "pubblicata": "2026-11-06T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "bonus.bonus",
+    "energia.incentivi"
+   ],
+   "luogo": null
   },
   {
    "id": "017f86f312cf73bb",
@@ -5537,12 +4806,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "bonus"
    ],
    "normativa": true,
    "sintesi": "Compensazione dei crediti Superbonus: il DDL Bilancio 2027 propone dieci rate per la quota del 2027 ACCA software",
    "pubblicata": "2026-11-06T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "da8093ee85dd8c95",
@@ -5552,12 +4825,18 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
+    "energia",
     "edilizia"
    ],
    "normativa": true,
    "sintesi": "Bonus Ristrutturazione 2027 al 50%: guida completa e novità ACCA software",
    "pubblicata": "2026-11-06T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "energia.incentivi",
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "668bb9c32a6b235f",
@@ -5567,12 +4846,18 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti",
+    "ambiente"
    ],
    "normativa": false,
    "sintesi": "CAM edilizia 2026: testo pdf e guida ai Criteri Ambientali Minimi nei lavori pubblici ACCA software",
    "pubblicata": "2026-11-06T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.esecuzione",
+    "ambiente.terre_rifiuti"
+   ],
+   "luogo": null
   },
   {
    "id": "8bbe78f7be38613f",
@@ -5582,12 +4867,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "Le responsabilità del committente: ruolo, vigilanza e adempimenti normativi ACCA software",
    "pubblicata": "2026-11-06T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "sicurezza.normativa"
+   ],
+   "luogo": null
   },
   {
    "id": "39ec010a94397c04",
@@ -5602,7 +4891,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-06T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "3429bad5bded2b2b",
@@ -5612,12 +4903,18 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "energia"
+    "energia",
+    "edilizia"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-06T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.rinnovabili",
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "f59ecdd53a1883ee",
@@ -5627,12 +4924,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "ambiente"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-06T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "ambiente.paesaggio"
+   ],
+   "luogo": null
   },
   {
    "id": "ee395d602be7f7e1",
@@ -5642,12 +4943,18 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "bonus",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-06T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "bonus.contributi",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "f7de5f20365d5f3e",
@@ -5662,7 +4969,11 @@
    "normativa": true,
    "sintesi": "Campagna antincendio boschivo 2026:i gemellaggi tra Regioni e colonne mobili Dipartimento Protezione Civile",
    "pubblicata": "2026-11-06T03:47:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "antincendio.codice"
+   ],
+   "luogo": null
   },
   {
    "id": "e8e032ff3f9e1780",
@@ -5672,12 +4983,16 @@
    "fonte_nome": "Infobuild",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "norme"
    ],
    "normativa": false,
    "sintesi": "Il 20 e 21 novembre a Reggio Emilia il Congresso AER 2036 degli architetti dell’Emilia-Romagna: temi, programma e il Manifesto.",
    "pubblicata": "2026-11-06T03:38:37Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.professione"
+   ],
+   "luogo": null
   },
   {
    "id": "e4c75292e41eba67",
@@ -5687,12 +5002,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Anomalia dell’offerta e sgravi contributivi: quando i risparmi futuri non possono giustificare il costo del lavoro Lavori Pubblici",
    "pubblicata": "2026-11-06T01:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "0dde23d07adee9e9",
@@ -5707,7 +5026,11 @@
    "normativa": true,
    "sintesi": "AVVISO DI INTERPELLO - Manutentore Unico 2015 – cod. int. 13398- Roma – Ministero Infrastrutture e Trasporti – Lavori di adeguamento alla normativa di prevenzione…",
    "pubblicata": "2026-11-05T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "antincendio.codice"
+   ],
+   "luogo": null
   },
   {
    "id": "c3e6fe799d96cf6e",
@@ -5717,12 +5040,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Offerta tecnica e soccorso istruttorio: quando un documento mancante fa perdere il punteggio Lavori Pubblici",
    "pubblicata": "2026-11-05T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "c29cafd48571db84",
@@ -5732,12 +5059,18 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Ristrutturazione abusiva in zona A, demolizione illegittima senza il parere vincolante della Soprintendenza Lavori Pubblici",
    "pubblicata": "2026-11-05T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "edilizia.interventi",
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "5f3d2b3325bbf835",
@@ -5747,12 +5080,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Clausola sociale negli appalti: il piano di assorbimento è sempre obbligatorio? Lavori Pubblici",
    "pubblicata": "2026-11-05T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "15630e605a7446d4",
@@ -5762,12 +5099,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Ante ’67 dichiarato nel rogito, non vale come titolo edilizio Lavori Pubblici",
    "pubblicata": "2026-11-05T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "60ed6943f899fed9",
@@ -5777,12 +5118,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Obbligo BIM negli appalti pubblici: guida completa ACCA software",
    "pubblicata": "2026-11-05T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "bd005a8cd9468864",
@@ -5797,7 +5142,9 @@
    "normativa": false,
    "sintesi": "Linee guida 2026 per la gestione informativa digitale (GID) ACCA software",
    "pubblicata": "2026-11-05T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "eff74b0840fb6abf",
@@ -5807,12 +5154,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "L’affidamento diretto nel nuovo codice appalti ACCA software",
    "pubblicata": "2026-11-05T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "d3dc3b250f259578",
@@ -5822,12 +5173,16 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "ANAC riscrive le regole sulla trasparenza dei contratti pubblici ACCA software",
    "pubblicata": "2026-11-05T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.codice"
+   ],
+   "luogo": null
   },
   {
    "id": "8d8cdf5aac2b9b86",
@@ -5842,7 +5197,9 @@
    "normativa": false,
    "sintesi": "Impresa affidataria e impresa esecutrice: compiti e differenze ACCA software",
    "pubblicata": "2026-11-05T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "9de586d3c4f3fac2",
@@ -5852,12 +5209,18 @@
    "fonte_nome": "Biblus (ACCA)",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti",
+    "norme"
    ],
    "normativa": false,
    "sintesi": "Servizi di ingegneria e architettura: cosa prevede il nuovo Codice appalti ACCA software",
    "pubblicata": "2026-11-05T08:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.gare",
+    "norme.professione"
+   ],
+   "luogo": null
   },
   {
    "id": "31c7b31bb54288c0",
@@ -5872,7 +5235,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-05T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "0f101d70b96722e8",
@@ -5882,12 +5247,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "bonus"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-05T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "6489eff8a72d4ccf",
@@ -5897,12 +5266,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "energia"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-05T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.impianti"
+   ],
+   "luogo": null
   },
   {
    "id": "b3d10f3630ce095f",
@@ -5912,12 +5285,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "edilizia"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-05T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.sanatorie"
+   ],
+   "luogo": null
   },
   {
    "id": "7a3d131e4605d59b",
@@ -5927,12 +5304,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "Consulente tecnico di parte (CTP) da remoto: la presenza ai sopralluoghi è un obbligo? Lavori Pubblici",
    "pubblicata": "2026-11-05T04:00:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "8a76fb05ce576371",
@@ -5947,7 +5328,9 @@
    "normativa": false,
    "sintesi": "Intervista a Amine El Hadaoui di Xylem Lowara: efficienza IE5, hydrovar X, TCO e corretto dimensionamento di circolatori e pompe da pozzo.",
    "pubblicata": "2026-11-05T03:44:36Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "33d338ff953b242b",
@@ -5957,12 +5340,16 @@
    "fonte_nome": "LavoriPubblici",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "Accesso agli atti del whistleblower, inammissibile il ricorso se i documenti sono già stati consegnati Lavori Pubblici",
    "pubblicata": "2026-11-04T23:30:00Z",
-   "visto": "2026-11-18T19:02:28Z"
+   "visto": "2026-11-18T19:02:28Z",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
   },
   {
    "id": "ae54678320681e59",
@@ -5977,7 +5364,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-04T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "032972f68a9c71d4",
@@ -5992,7 +5381,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-04T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "32ba54b772f50113",
@@ -6002,12 +5393,18 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "energia",
+    "bonus"
    ],
    "normativa": true,
    "sintesi": "",
    "pubblicata": "2026-11-04T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.incentivi",
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "d4ebbf194d11f217",
@@ -6022,7 +5419,9 @@
    "normativa": false,
    "sintesi": "Report RICS 2026: nel real estate e costruzioni mancano soprattutto professionisti esperti (60%). Ecco le skill richieste.",
    "pubblicata": "2026-11-04T03:19:29Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "ca70bf3f03de486b",
@@ -6032,12 +5431,18 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "appalti",
+    "sicurezza"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-03T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "appalti.codice",
+    "sicurezza.cantieri"
+   ],
+   "luogo": null
   },
   {
    "id": "724337ea8a6cd872",
@@ -6052,7 +5457,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-03T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null
   },
   {
    "id": "a3bb055b6d04aaa4",
@@ -6062,12 +5471,18 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "energia",
+    "bonus"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-03T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.incentivi",
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "edf87f2b9a1cb465",
@@ -6077,12 +5492,16 @@
    "fonte_nome": "Infobuild",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "norme"
    ],
    "normativa": false,
    "sintesi": "American Hardwood Assured di AHEC integra dati satellitari, intelligenza artificiale e verifiche di provenienza per una filiera del legno più trasparente.",
    "pubblicata": "2026-11-03T03:53:07Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null
   },
   {
    "id": "377a6fd930790a61",
@@ -6092,12 +5511,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "edilizia"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-02T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.uso"
+   ],
+   "luogo": null
   },
   {
    "id": "bd0aca31b8c1c18a",
@@ -6112,7 +5535,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-02T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "6cd35cb69019810d",
@@ -6127,7 +5552,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-02T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null
   },
   {
    "id": "ad57155ff3d778ca",
@@ -6142,7 +5571,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-30T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "e3a45d6dd39c70ef",
@@ -6157,7 +5588,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-30T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "c567dee7b3594c2e",
@@ -6172,7 +5605,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-30T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "a50d56f14667860f",
@@ -6187,7 +5622,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-30T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "bc2c89bcd6d5d28d",
@@ -6197,12 +5634,18 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "europa"
+    "norme",
+    "appalti"
    ],
    "normativa": true,
    "sintesi": "",
    "pubblicata": "2026-10-29T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.ue",
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "54ffc1fecbdf3e50",
@@ -6212,12 +5655,18 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "edilizia",
+    "ambiente"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-29T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.urbanistica",
+    "ambiente.terre_rifiuti"
+   ],
+   "luogo": null
   },
   {
    "id": "3b3e0acb84ad2ace",
@@ -6227,12 +5676,18 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "industriale"
+    "sicurezza",
+    "ambiente"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-29T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "sicurezza.cantieri",
+    "ambiente.terre_rifiuti"
+   ],
+   "luogo": null
   },
   {
    "id": "0c21df2772abc51e",
@@ -6247,7 +5702,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-28T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.urbanistica"
+   ],
+   "luogo": null
   },
   {
    "id": "aa73d632a57eebbf",
@@ -6262,7 +5721,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-28T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.interventi"
+   ],
+   "luogo": null
   },
   {
    "id": "85b2d500958c04f0",
@@ -6272,12 +5735,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "bonus"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-28T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "bonus.bonus"
+   ],
+   "luogo": null
   },
   {
    "id": "5a81e08e7abf3331",
@@ -6287,13 +5754,18 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "energia",
-    "europa"
+    "norme",
+    "energia"
    ],
    "normativa": true,
    "sintesi": "",
    "pubblicata": "2026-10-27T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.ue",
+    "energia.prestazioni"
+   ],
+   "luogo": null
   },
   {
    "id": "59493ebaa516b25a",
@@ -6308,7 +5780,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-27T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "c597a5184610608d",
@@ -6318,12 +5792,18 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "norme",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-26T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.professione",
+    "appalti.gare"
+   ],
+   "luogo": null
   },
   {
    "id": "050e3c9abfb9ce23",
@@ -6333,12 +5813,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "ambiente"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-26T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "ambiente.paesaggio"
+   ],
+   "luogo": null
   },
   {
    "id": "71873d8808f2dc1c",
@@ -6348,12 +5832,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "energia"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-23T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null
   },
   {
    "id": "594c42203801e49f",
@@ -6368,7 +5856,9 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-23T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [],
+   "luogo": null
   },
   {
    "id": "15d9f6afda7b2037",
@@ -6378,12 +5868,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "ambiente"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-22T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "ambiente.terre_rifiuti"
+   ],
+   "luogo": null
   },
   {
    "id": "14a6a6c8901a1a27",
@@ -6393,12 +5887,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "norme"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-22T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null
   },
   {
    "id": "e70ecd4df7631a72",
@@ -6413,7 +5911,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-22T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.incentivi"
+   ],
+   "luogo": null
   },
   {
    "id": "19512d5e676c277a",
@@ -6423,12 +5925,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "norme"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-21T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null
   },
   {
    "id": "d38fd28f3f1188d0",
@@ -6438,12 +5944,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "norme"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-21T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null
   },
   {
    "id": "28b144d3ff7b4686",
@@ -6453,12 +5963,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "norme"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-21T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null
   },
   {
    "id": "fffe202ae9d3361a",
@@ -6468,12 +5982,16 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "europa"
+    "norme"
    ],
    "normativa": true,
    "sintesi": "",
    "pubblicata": "2026-10-20T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "norme.uni"
+   ],
+   "luogo": null
   },
   {
    "id": "7e7f230b6f048194",
@@ -6488,7 +6006,11 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-20T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null
   },
   {
    "id": "5fbd783ba9e2a1e0",
@@ -6498,12 +6020,18 @@
    "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "edilizia"
+    "edilizia",
+    "appalti"
    ],
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-10-20T06:00:00Z",
-   "visto": "2026-11-18T18:51:40Z"
+   "visto": "2026-11-18T18:51:40Z",
+   "sotto": [
+    "edilizia.urbanistica",
+    "appalti.opere"
+   ],
+   "luogo": null
   }
  ]
 }

@@ -1,31 +1,109 @@
 {
  "edilizia": {
-  "nome": "Edilizia e titoli",
-  "colore": "#e07a1f"
+  "nome": "Edilizia e titoli abilitativi",
+  "colore": "#e07a1f",
+  "sotto": {
+   "titoli": "Titoli: CILA, SCIA, permesso",
+   "sanatorie": "Sanatorie, abusi, salva casa",
+   "uso": "Destinazioni d'uso e agibilità",
+   "interventi": "Ristrutturazioni e nuove costruzioni",
+   "produttivo": "Capannoni e edifici produttivi",
+   "urbanistica": "Urbanistica e pianificazione"
+  }
  },
  "antincendio": {
   "nome": "Antincendio (VVF)",
-  "colore": "#d43f3f"
+  "colore": "#d43f3f",
+  "sotto": {
+   "pratiche": "Pratiche VVF: SCIA, CPI, SUAP",
+   "codice": "Codice e regole tecniche",
+   "impianti": "Impianti e presidi antincendio",
+   "attivita": "Attività specifiche e rischio",
+   "lavoro": "Sicurezza antincendio sul lavoro"
+  }
  },
  "catasto": {
   "nome": "Catasto e volture",
-  "colore": "#2f7fd1"
+  "colore": "#2f7fd1",
+  "sotto": {
+   "docfa": "Docfa, Pregeo, accatastamento",
+   "volture": "Volture, visure, pubblicità immobiliare",
+   "estimo": "Estimo, valori e fiscalità immobili"
+  }
  },
  "strutture": {
   "nome": "Strutture e sismica",
-  "colore": "#7a5cc7"
+  "colore": "#7a5cc7",
+  "sotto": {
+   "ntc": "NTC, calcolo e verifiche",
+   "sismica": "Sismica: Genio Civile, deposito, autorizzazione",
+   "intervento": "Miglioramento, adeguamento, sismabonus",
+   "collaudo": "Collaudo, ponti, opere infrastrutturali"
+  }
  },
  "energia": {
   "nome": "Impianti ed energia",
-  "colore": "#1f9d6b"
+  "colore": "#1f9d6b",
+  "sotto": {
+   "rinnovabili": "Fotovoltaico e rinnovabili",
+   "prestazioni": "Efficienza, APE, case green",
+   "impianti": "Impianti termici, elettrici, meccanici",
+   "mobilita": "Mobilità elettrica e colonnine",
+   "incentivi": "Conto termico e incentivi energetici"
+  }
  },
- "industriale": {
-  "nome": "Capannoni e industriale",
-  "colore": "#8a6d3b"
+ "bonus": {
+  "nome": "Bonus e incentivi",
+  "colore": "#d4a017",
+  "sotto": {
+   "bonus": "Superbonus e bonus edilizi",
+   "crediti": "Cessione del credito e sconto in fattura",
+   "contributi": "Contributi, PNRR, bandi"
+  }
  },
- "europa": {
-  "nome": "Europa",
-  "colore": "#2b6f9e"
+ "sicurezza": {
+  "nome": "Sicurezza cantieri e lavoro",
+  "colore": "#8a6d3b",
+  "sotto": {
+   "cantieri": "Cantieri: PSC, POS, CSE",
+   "normativa": "D.Lgs. 81, patente a crediti, formazione",
+   "specifici": "Rischi specifici: amianto, spazi confinati, ATEX"
+  }
+ },
+ "appalti": {
+  "nome": "Appalti e lavori pubblici",
+  "colore": "#2b8a9e",
+  "sotto": {
+   "codice": "Codice appalti e ANAC",
+   "gare": "Gare, affidamenti e bandi",
+   "esecuzione": "Esecuzione, varianti, revisione prezzi",
+   "opere": "Opere pubbliche, PNRR, infrastrutture"
+  }
+ },
+ "ambiente": {
+  "nome": "Ambiente e paesaggio",
+  "colore": "#3f8f4a",
+  "sotto": {
+   "paesaggio": "Paesaggio e beni culturali",
+   "via_vas": "VIA, VAS, AIA, valutazioni",
+   "terre_rifiuti": "Terre e rocce, rifiuti, bonifiche",
+   "rischio_idro": "Rischio idrogeologico e acqua"
+  }
+ },
+ "norme": {
+  "nome": "Norme tecniche e UE",
+  "colore": "#2b6f9e",
+  "sotto": {
+   "uni": "UNI, CEI, norme tecniche",
+   "ue": "Direttive e regolamenti UE",
+   "professione": "Professione: ordini, formazione, equo compenso"
+  }
+ },
+ "locale": {
+  "nome": "Locale · Campania e Caserta",
+  "colore": "#c2185b",
+  "sotto": {},
+  "speciale": true
  },
  "altro": {
   "nome": "Altro",

@@ -327,19 +327,36 @@ def read_source(src):
 
 
 # ---------------------------------------------------------------- classificazione
+TASSONOMIA = "2"  # cambia questo valore per far riclassificare l'archivio
+
+
+def _rx(kw):
+    k = kw.lower()
+    trail = k.endswith(" ") or len(k.strip()) <= 4
+    body = re.escape(k.strip())
+    return re.compile(r"(?<!\w)" + body + (r"(?!\w)" if trail else ""))
+
+
 def build_matchers(aree_cfg):
-    def rx(kw):
-        k = kw.lower()
-        trail = k.endswith(" ") or len(k.strip()) <= 4
-        body = re.escape(k.strip())
-        return re.compile(r"(?<!\w)" + body + (r"(?!\w)" if trail else ""))
-    return {a: [rx(k) for k in v["parole"]] for a, v in aree_cfg["aree"].items()}, [rx(k) for k in aree_cfg["urgenti"]]
+    """Ritorna (matchers per area, matchers per sottosezione, urgenti, luoghi)."""
+    area_rx, sotto_rx = {}, {}
+    for a, v in aree_cfg["aree"].items():
+        rxs = []
+        for sid, sv in v.get("sotto", {}).items():
+            lst = [_rx(k) for k in sv["parole"]]
+            sotto_rx[f"{a}.{sid}"] = lst
+            rxs += lst
+        rxs += [_rx(k) for k in v.get("parole", [])]
+        area_rx[a] = rxs
+    luoghi = {n: [_rx(k) for k in kws] for n, kws in aree_cfg.get("luoghi", {}).items()}
+    return area_rx, sotto_rx, [_rx(k) for k in aree_cfg["urgenti"]], luoghi
 
 
 def classify(item, src, matchers, urgenti, aree_cfg):
+    area_rx, sotto_rx, luoghi = matchers
     text = (item["titolo"] + " " + item.get("sintesi", "")).lower()
     scored = []
-    for area, rxs in matchers.items():
+    for area, rxs in area_rx.items():
         n = sum(1 for r in rxs if r.search(text))
         if n:
             scored.append((n, area))
@@ -352,8 +369,21 @@ def classify(item, src, matchers, urgenti, aree_cfg):
         aree = [hint[0]] if hint else ["altro"]
     elif hint and hint[0] not in aree and not src.get("filtra"):
         aree = aree[:1] + [hint[0]]
+    # sottosezioni: la migliore per ciascuna area assegnata
+    sotto = []
+    for a in aree:
+        best = max(((sum(1 for r in rxs if r.search(text)), k) for k, rxs in sotto_rx.items() if k.startswith(a + ".")), default=(0, None))
+        if best[0]:
+            sotto.append(best[1])
+    # luogo: dalla fonte locale oppure da parole chiave (Caserta prevale su Campania)
+    luogo = src.get("luogo")
+    if not luogo:
+        for nome in ("Caserta", "Campania"):
+            if any(r.search(text) for r in luoghi.get(nome, [])):
+                luogo = nome
+                break
     norm = src["tipo"] == "ufficiale" or any(r.search(text) for r in urgenti)
-    return aree, norm
+    return aree, norm, sotto, luogo
 
 
 # ---------------------------------------------------------------- IA (facoltativa)
@@ -416,7 +446,7 @@ def notify_new(new_items, aree_cfg):
               "tags": ["rotating_light"], **({"click": app_url()} if app_url() else {})})
         return len(alerts)
     for i in alerts:
-        area = aree_cfg["aree"][i["aree"][0]]["nome"]
+        area = aree_cfg["aree"].get(i["aree"][0], {"nome": "Altro"})["nome"]
         msg = i["titolo"] + (f"\n{i['sintesi']}" if i.get("sintesi") else "")
         ntfy({"title": f"{area} · {i['fonte_nome']}", "message": msg[:700], "click": i["link"],
               "priority": 4 if i["tipo"] == "ufficiale" else 3, "tags": ["rotating_light"] if i["tipo"] == "ufficiale" else ["newspaper"]})
@@ -466,7 +496,8 @@ def main():
         return 0
 
     sources = load_json(args.sources, None)["fonti"]
-    matchers, urgenti = build_matchers(aree_cfg)
+    area_rx, sotto_rx, urgenti, luoghi = build_matchers(aree_cfg)
+    matchers = (area_rx, sotto_rx, luoghi)
     prev_status = {s["id"]: s for s in load_json(status_file, {"fonti": []})["fonti"]}
     first_run = not news
     known = {i["id"]: i for i in news}
@@ -477,6 +508,20 @@ def main():
         m = rec.get("metodo") or prev_status.get(rec["fonte"], {}).get("metodo")
         if m == "scraping" and (not quality_ok(rec["titolo"]) or rec["aree"] == ["altro"]):
             del known[iid]
+
+    # nuova classificazione dell'archivio quando cambia la tassonomia
+    if news_doc.get("tassonomia") != TASSONOMIA:
+        by_id = {x["id"]: x for x in sources}
+        for iid, rec in list(known.items()):
+            src = by_id.get(rec["fonte"])
+            if not src:
+                continue
+            cls = classify({"titolo": rec["titolo"], "sintesi": rec.get("sintesi", "")}, src, matchers, urgenti, aree_cfg)
+            if cls is None or (rec.get("metodo") == "scraping" and cls[0] == ["altro"] and not cls[3]):
+                del known[iid]
+                continue
+            rec["aree"], rec["normativa"], rec["sotto"], rec["luogo"] = cls
+        print(f"Archivio riclassificato (tassonomia {TASSONOMIA}): {len(known)} notizie")
 
     print(f"Lettura di {len(sources)} fonti…")
     with ThreadPoolExecutor(max_workers=8) as pool:
@@ -495,12 +540,13 @@ def main():
             cls = classify(it, src, matchers, urgenti, aree_cfg)
             if cls is None:
                 continue
-            aree, normativa = cls
-            if metodo == "scraping" and aree == ["altro"]:
+            aree, normativa, sotto, luogo = cls
+            if metodo == "scraping" and aree == ["altro"] and not luogo:
                 continue
             rec = {"id": iid, "titolo": it["titolo"], "link": it["link"], "fonte": src["id"],
                    "fonte_nome": src["nome"], "tipo": src["tipo"], "aree": aree, "normativa": normativa,
-                   "sintesi": it["sintesi"], "pubblicata": it["pubblicata"], "visto": iso(ts), "metodo": metodo}
+                   "sintesi": it["sintesi"], "pubblicata": it["pubblicata"], "visto": iso(ts), "metodo": metodo,
+                   "sotto": sotto, "luogo": luogo}
             known[iid] = rec
             new_items.append(rec)
             added += 1
@@ -533,10 +579,12 @@ def main():
     allnews.sort(key=lambda i: i["pubblicata"] or i["visto"], reverse=True)
     allnews = allnews[:MAX_ITEMS]
 
-    aree_pub = {k: {"nome": v["nome"], "colore": v["colore"]} for k, v in aree_cfg["aree"].items()}
+    aree_pub = {k: {"nome": v["nome"], "colore": v["colore"], "sotto": {sk: sv["nome"] for sk, sv in v.get("sotto", {}).items()}}
+                for k, v in aree_cfg["aree"].items()}
+    aree_pub["locale"] = {"nome": "Locale · Campania e Caserta", "colore": "#c2185b", "sotto": {}, "speciale": True}
     aree_pub["altro"] = {"nome": "Altro", "colore": "#7b8794"}
     save_json(data / "aree.json", aree_pub)
-    save_json(news_file, {"aggiornato": iso(ts), "notizie": allnews})
+    save_json(news_file, {"aggiornato": iso(ts), "tassonomia": TASSONOMIA, "notizie": allnews})
     ok = sum(1 for s in statuses if s["stato"] in ("ok", "ok_scraping", "ok_indiretto"))
     save_json(status_file, {"aggiornato": iso(ts), "fonti_ok": ok, "fonti_totale": len(statuses), "fonti": statuses})
     print(f"Nuove: {len(new_items)} | totale archivio: {len(allnews)} | fonti attive: {ok}/{len(statuses)}")

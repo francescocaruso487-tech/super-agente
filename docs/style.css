@@ -85,3 +85,8 @@ main{max-width:720px;margin:0 auto;padding:12px 12px 0}
 .sez-corpo{padding:0 10px 6px;border-top:1px solid var(--line);background:var(--bg)}
 .sez-corpo .card{box-shadow:none}
 .sez-corpo .giorno{margin-top:14px}
+
+.badge.luogo{background:#c2185b}
+.sotto{display:flex;gap:6px;overflow-x:auto;padding:10px 0 4px;scrollbar-width:none}
+.sotto::-webkit-scrollbar{display:none}
+.chip.s{padding:6px 11px;font-size:13px}

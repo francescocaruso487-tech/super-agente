@@ -191,6 +191,145 @@
     "catasto"
    ],
    "filtra": true
+  },
+  {
+   "id": "ord-ing-ce",
+   "nome": "Ordine Ingegneri Caserta",
+   "tipo": "ordine",
+   "home": "https://caserta.ordingegneri.it/",
+   "feed": "https://caserta.ordingegneri.it/feed/",
+   "luogo": "Caserta",
+   "nota": "Sito WordPress dell'Ordine: legge il feed; se manca, lo cerca da solo."
+  },
+  {
+   "id": "ord-arch-ce",
+   "nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "home": "https://www.awn.it/",
+   "luogo": "Caserta",
+   "gnews": [
+    "Ordine Architetti Caserta",
+    "architetti Caserta urbanistica"
+   ],
+   "gnews_when": "30d",
+   "nota": "Lettura indiretta se il sito non offre un feed."
+  },
+  {
+   "id": "coll-geom-ce",
+   "nome": "Collegio Geometri Caserta",
+   "tipo": "ordine",
+   "home": "https://www.cng.it/",
+   "luogo": "Caserta",
+   "gnews": [
+    "Collegio Geometri Caserta"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "comune-ce",
+   "nome": "Comune di Caserta",
+   "tipo": "ente",
+   "home": "https://www.comune.caserta.it/",
+   "luogo": "Caserta",
+   "aree": [
+    "edilizia"
+   ],
+   "filtra": true,
+   "gnews": [
+    "site:comune.caserta.it urbanistica",
+    "site:comune.caserta.it edilizia lavori pubblici"
+   ],
+   "gnews_when": "30d",
+   "nota": "Notizie e avvisi del Comune filtrati su urbanistica, edilizia, lavori pubblici."
+  },
+  {
+   "id": "burc",
+   "nome": "BURC Regione Campania",
+   "tipo": "ufficiale",
+   "home": "https://burc.regione.campania.it/",
+   "luogo": "Campania",
+   "filtra": true,
+   "gnews": [
+    "site:burc.regione.campania.it edilizia urbanistica",
+    "BURC Campania sismica urbanistica"
+   ],
+   "gnews_when": "30d",
+   "nota": "Bollettino Ufficiale: lettura indiretta, il sito non ha un feed pubblico semplice."
+  },
+  {
+   "id": "regione-camp",
+   "nome": "Regione Campania",
+   "tipo": "ente",
+   "home": "https://www.regione.campania.it/",
+   "luogo": "Campania",
+   "filtra": true,
+   "gnews": [
+    "site:regione.campania.it edilizia",
+    "site:regione.campania.it lavori pubblici protezione civile",
+    "Regione Campania sismica Genio Civile"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "sismica-camp",
+   "nome": "Portale Sismica Campania (Genio Civile)",
+   "tipo": "ente",
+   "home": "https://portalesismica.regione.campania.it/",
+   "lista": "https://portalesismica.regione.campania.it/pagecol/circolari",
+   "luogo": "Campania",
+   "aree": [
+    "strutture"
+   ],
+   "gnews": [
+    "Genio Civile Caserta sismica",
+    "Regione Campania circolare deposito sismico autorizzazione sismica"
+   ],
+   "gnews_when": "60d",
+   "nota": "Circolari del Genio Civile (L.R. 9/83, Reg. 4/2010)."
+  },
+  {
+   "id": "vvf-ce",
+   "nome": "Vigili del Fuoco Caserta",
+   "tipo": "ente",
+   "home": "https://www.vigilfuoco.it/",
+   "luogo": "Caserta",
+   "aree": [
+    "antincendio"
+   ],
+   "gnews": [
+    "Comando Vigili del Fuoco Caserta prevenzione incendi",
+    "vigili del fuoco Caserta seminario antincendio"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "stampa-ce",
+   "nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "luogo": "Caserta",
+   "gnews": [
+    "Caserta urbanistica edilizia",
+    "Caserta lavori pubblici cantieri",
+    "Caserta permesso di costruire PUC piano urbanistico",
+    "Caserta abusi edilizi demolizioni"
+   ],
+   "gnews_when": "14d",
+   "nota": "Cronaca tecnica locale via Google News."
+  },
+  {
+   "id": "stampa-camp",
+   "nome": "Stampa Campania (edilizia)",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "luogo": "Campania",
+   "gnews": [
+    "Campania edilizia legge regionale",
+    "Campania Genio Civile sismica progetti",
+    "Campania Piano casa urbanistica regionale"
+   ],
+   "gnews_when": "14d",
+   "nota": "Novità regionali via Google News."
   }
  ]
 }
