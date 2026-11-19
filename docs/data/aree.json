@@ -447,6 +447,120 @@
    "tempo_libero": "Camper, nautica e altro"
   }
  },
+ "cantiere": {
+  "nome": "Direzione lavori e cantiere",
+  "colore": "#b45309",
+  "nicchia": "edilizia",
+  "gruppo": "tecnica",
+  "sotto": {
+   "dl": "Direzione lavori e contabilità",
+   "bim": "BIM e digitale",
+   "maestranze": "Maestranze e qualificazione"
+  }
+ },
+ "scienze": {
+  "nome": "Geologia, agronomia e scienze",
+  "colore": "#4d7c0f",
+  "nicchia": "edilizia",
+  "gruppo": "tecnica",
+  "sotto": {
+   "geologia": "Geologia e rischio",
+   "agro": "Agronomia e forestazione",
+   "chimica": "Chimica, fisica e biologia"
+  }
+ },
+ "immobiliare": {
+  "nome": "Immobiliare e condominio",
+  "colore": "#0e7490",
+  "nicchia": "edilizia",
+  "gruppo": "mercato",
+  "sotto": {
+   "mercato": "Mercato e compravendite",
+   "condominio": "Condominio e gestione",
+   "stime": "Stime e valutazioni"
+  }
+ },
+ "trasporti": {
+  "nome": "Mobilità, trasporti e logistica",
+  "colore": "#0369a1",
+  "nicchia": "edilizia",
+  "gruppo": "mercato",
+  "sotto": {
+   "logistica": "Logistica e supply chain",
+   "mobilita": "Mobilità e flotte"
+  }
+ },
+ "legale": {
+  "nome": "Legale e giustizia civile",
+  "colore": "#6d28d9",
+  "nicchia": "edilizia",
+  "gruppo": "studi",
+  "sotto": {
+   "avvocati": "Avvocati e processo",
+   "crisi": "Crisi d'impresa e curatori"
+  }
+ },
+ "management": {
+  "nome": "Management, compliance e finanza",
+  "colore": "#475569",
+  "nicchia": "edilizia",
+  "gruppo": "studi",
+  "sotto": {
+   "governance": "Compliance, 231 ed ESG",
+   "finanza": "Finanza e revisione",
+   "manager": "Imprese e consulenza"
+  }
+ },
+ "hr": {
+  "nome": "Risorse umane e formazione aziendale",
+  "colore": "#c2410c",
+  "nicchia": "edilizia",
+  "gruppo": "studi",
+  "sotto": {
+   "hr": "HR e selezione",
+   "formazione": "Formazione e fondi"
+  }
+ },
+ "sanita": {
+  "nome": "Sanità e professioni sanitarie",
+  "colore": "#be123c",
+  "nicchia": "edilizia",
+  "gruppo": "altri",
+  "sotto": {
+   "professioni": "Professioni sanitarie",
+   "sistema": "Sistema sanitario"
+  }
+ },
+ "digitale": {
+  "nome": "Digitale, IT e dati",
+  "colore": "#0891b2",
+  "nicchia": "edilizia",
+  "gruppo": "altri",
+  "sotto": {
+   "sicurezza_it": "Cybersecurity e norme",
+   "sviluppo": "Sviluppo, dati e cloud"
+  }
+ },
+ "comunicazione": {
+  "nome": "Comunicazione, media e design",
+  "colore": "#db2777",
+  "nicchia": "edilizia",
+  "gruppo": "altri",
+  "sotto": {
+   "media": "Giornalismo, marketing e social",
+   "design": "Design, foto e video"
+  }
+ },
+ "formazione_cultura": {
+  "nome": "Formazione, cultura e lingue",
+  "colore": "#7c3aed",
+  "nicchia": "edilizia",
+  "gruppo": "altri",
+  "sotto": {
+   "scuola": "Scuola, università e concorsi",
+   "cultura": "Traduzione, archivi e musei"
+  }
+ },
  "locale": {
   "nome": "Locale · Campania e Caserta",
   "colore": "#c2185b",

@@ -1,0 +1,98 @@
+{
+ "ingegnere": {
+  "nome": "Ingegnere",
+  "emoji": "🛠️"
+ },
+ "architetto": {
+  "nome": "Architetto",
+  "emoji": "📐"
+ },
+ "geometra": {
+  "nome": "Geometra",
+  "emoji": "📏"
+ },
+ "perito": {
+  "nome": "Perito",
+  "emoji": "🔩"
+ },
+ "geologo": {
+  "nome": "Geologo",
+  "emoji": "🪨"
+ },
+ "agronomo": {
+  "nome": "Agronomo e forestale",
+  "emoji": "🌾"
+ },
+ "chimico_biologo": {
+  "nome": "Chimico, fisico, biologo",
+  "emoji": "🧪"
+ },
+ "dl_cantiere": {
+  "nome": "Direzione lavori e cantiere",
+  "emoji": "🏗️"
+ },
+ "bim": {
+  "nome": "BIM",
+  "emoji": "🧊"
+ },
+ "maestranze": {
+  "nome": "Maestranze e operatori",
+  "emoji": "👷"
+ },
+ "energia_prof": {
+  "nome": "Energia ed EGE",
+  "emoji": "⚡"
+ },
+ "commercialista": {
+  "nome": "Commercialista",
+  "emoji": "🧮"
+ },
+ "avvocato": {
+  "nome": "Avvocato",
+  "emoji": "⚖️"
+ },
+ "notaio": {
+  "nome": "Notaio",
+  "emoji": "📜"
+ },
+ "consulente_lavoro": {
+  "nome": "Consulente del lavoro",
+  "emoji": "🗂️"
+ },
+ "revisore_finanza": {
+  "nome": "Revisore, finanza, crisi",
+  "emoji": "📊"
+ },
+ "immobiliare": {
+  "nome": "Immobiliare e condominio",
+  "emoji": "🏠"
+ },
+ "trasporti": {
+  "nome": "Trasporti e logistica",
+  "emoji": "🚚"
+ },
+ "management": {
+  "nome": "Manager e consulenti",
+  "emoji": "💼"
+ },
+ "hr": {
+  "nome": "Risorse umane",
+  "emoji": "🧑‍💼"
+ },
+ "sanitari": {
+  "nome": "Professioni sanitarie",
+  "emoji": "🩺"
+ },
+ "it": {
+  "nome": "Digitale, IT e dati",
+  "emoji": "💻"
+ },
+ "comunicazione": {
+  "nome": "Comunicazione e design",
+  "emoji": "🎨"
+ },
+ "formazione_prof": {
+  "nome": "Formazione e cultura",
+  "emoji": "🎓"
+ }
+}
