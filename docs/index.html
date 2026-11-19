@@ -36,6 +36,22 @@
     <button id="piu" class="more" hidden>Mostra altre</button>
   </section>
 
+  <section id="tab-chat" class="tab">
+    <div class="chat-top"><b>Chiedi alle fonti</b><span><button id="chat-nuova" class="mini">Nuova</button><button id="chat-ingranaggio" class="mini" aria-label="Impostazioni">⚙</button></span></div>
+    <div id="chat-setup" class="riepilogo" hidden>
+      <b>Attiva la chat (una volta sola)</b>
+      <p>1. Vai su <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">console.anthropic.com</a>, crea un account e ricarica 5 € di credito.<br>
+      2. Crea una chiave API e copiala.<br>
+      3. Incollala qui sotto. Resta solo su questo telefono.</p>
+      <input id="chat-key" type="password" placeholder="sk-ant-…" autocomplete="off">
+      <div class="chat-key-az"><button id="chat-key-salva" class="mini on">Salva chiave</button><button id="chat-key-togli" class="mini">Rimuovi chiave</button></div>
+      <p id="chat-key-msg" class="err"></p>
+      <p class="m">Ogni domanda costa circa 0,2–0,5 centesimi: 5 € bastano per mesi.</p>
+    </div>
+    <div id="chat-msgs"></div>
+    <form id="chat-form" class="chat-form"><input id="chat-input" type="text" placeholder="Scrivi una domanda…" autocomplete="off"><button type="submit">Invia</button></form>
+  </section>
+
   <section id="tab-fonti" class="tab">
     <div id="fonti-riepilogo" class="riepilogo"></div>
     <div id="lista-fonti"></div>
@@ -45,9 +61,11 @@
 <nav class="bottom" aria-label="Sezioni">
   <button data-tab="novita" class="on"><span>🏗️</span>Novità</button>
   <button data-tab="archivio"><span>🔎</span>Archivio</button>
+  <button data-tab="chat"><span>💬</span>Chat</button>
   <button data-tab="fonti"><span>📡</span>Fonti</button>
 </nav>
 
 <script src="app.js"></script>
+<script src="chat.js"></script>
 </body>
 </html>

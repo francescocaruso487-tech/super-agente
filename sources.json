@@ -995,6 +995,94 @@
    "aree": [
     "sicurezza"
    ]
+  },
+  {
+   "id": "inps",
+   "nome": "INPS (prassi e messaggi)",
+   "tipo": "ente",
+   "home": "https://www.inps.it/",
+   "gnews": [
+    "site:inps.it circolare edilizia cantieri",
+    "site:inps.it messaggio DURC contributi edilizia",
+    "INPS cassa integrazione edilizia circolare",
+    "INPS bonus assunzioni edilizia messaggio",
+    "INPS gestione separata professionisti tecnici contributi"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "sicurezza"
+   ]
+  },
+  {
+   "id": "ce-puc",
+   "nome": "Caserta: PUC e urbanistica comunale",
+   "tipo": "ente",
+   "home": "https://www.comune.caserta.it/",
+   "gnews": [
+    "Comune di Caserta PUC piano urbanistico comunale",
+    "Caserta variante urbanistica consiglio comunale",
+    "Caserta piano urbanistico adozione approvazione",
+    "Caserta zonizzazione urbanistica norme tecniche attuazione"
+   ],
+   "gnews_when": "30d",
+   "aree": [
+    "edilizia"
+   ],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "ce-reg",
+   "nome": "Caserta: regolamento edilizio e SUE/SUAP",
+   "tipo": "ente",
+   "home": "https://www.comune.caserta.it/",
+   "gnews": [
+    "Comune di Caserta regolamento edilizio",
+    "Caserta sportello unico edilizia SUE pratiche",
+    "Caserta SUAP sportello attività produttive",
+    "Caserta oneri di urbanizzazione contributo di costruzione delibera",
+    "Caserta modulistica edilizia CILA SCIA permesso di costruire"
+   ],
+   "gnews_when": "30d",
+   "aree": [
+    "edilizia"
+   ],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "ce-ord",
+   "nome": "Caserta: ordinanze e delibere (edilizia, lavori pubblici)",
+   "tipo": "ente",
+   "home": "https://www.comune.caserta.it/",
+   "gnews": [
+    "Comune di Caserta ordinanza edilizia demolizione abuso",
+    "Caserta delibera giunta lavori pubblici urbanistica",
+    "Caserta albo pretorio avviso urbanistica",
+    "Caserta avviso pubblico incarichi tecnici professionisti",
+    "Caserta bando gara lavori pubblici comune"
+   ],
+   "gnews_when": "30d",
+   "aree": [
+    "edilizia"
+   ],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "prov-ce",
+   "nome": "Provincia di Caserta (PTCP, strade, edilizia scolastica)",
+   "tipo": "ente",
+   "home": "https://www.provincia.caserta.it/",
+   "gnews": [
+    "Provincia di Caserta PTCP piano territoriale",
+    "Provincia di Caserta lavori pubblici strade bando",
+    "Provincia di Caserta edilizia scolastica gara",
+    "Provincia di Caserta urbanistica avviso"
+   ],
+   "gnews_when": "30d",
+   "aree": [
+    "appalti"
+   ],
+   "luogo": "Caserta"
   }
  ]
 }

@@ -164,7 +164,7 @@ function renderFonti() {
 
 function renderTutto() { renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "6";
+const VERSIONE_APP = "7";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -176,7 +176,7 @@ async function carica(forza) {
   try {
     const [news, aree, status] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null)]);
     if (!Array.isArray(news.notizie)) throw new Error("dati non validi");
-    state.news = news.notizie; state.aree = aree; state.status = status;
+    state.news = news.notizie; window.__state = state; state.aree = aree; state.status = status;
     $("#aggiornato").textContent = (news.aggiornato ? `Aggiornato ${fa(new Date(news.aggiornato))}` : "Edilizia e ingegneria") + ` · v${VERSIONE_APP}`;
     renderTutto();
   } catch (err) {
@@ -232,6 +232,7 @@ $("#btn-refresh").addEventListener("click", async (e) => {
 document.querySelectorAll(".bottom button").forEach((b) => b.addEventListener("click", () => {
   document.querySelectorAll(".bottom button").forEach((x) => x.classList.toggle("on", x === b));
   document.querySelectorAll(".tab").forEach((t) => t.classList.toggle("active", t.id === `tab-${b.dataset.tab}`));
+  document.body.classList.toggle("in-chat", b.dataset.tab === "chat");
   window.scrollTo(0, 0);
 }));
 
