@@ -1,6 +1,7 @@
 /* Chat con le fonti: risponde SOLO usando le notizie dell'archivio. La chiave resta sul telefono. */
 (function () {
   const MODELLO = "claude-haiku-5-5";
+  const MODELLO_GEMINI = "gemini-flash-latest";
   const $ = (s) => document.querySelector(s);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const get = (k) => { try { return localStorage.getItem(k) || ""; } catch { return ""; } };
@@ -47,17 +48,35 @@
     const sistema = "Sei l'assistente di un ingegnere edile che lavora in Campania (zona Caserta). Rispondi in italiano, in modo breve e pratico (max 150 parole), usando ESCLUSIVAMENTE le notizie numerate qui sotto. Cita le fonti con [n] accanto a ogni affermazione. Non inventare norme, date, importi o numeri di articolo. Se le notizie non bastano, dillo chiaramente e suggerisci cosa verificare (ente o documento ufficiale). Ricorda che sono notizie: per decisioni professionali va letta la fonte ufficiale.\n\nNOTIZIE:\n" + (elenco || "(nessuna notizia pertinente trovata)");
     const msgs = storico.slice(0, -1).slice(-8).map((m) => ({ role: m.r === "u" ? "user" : "assistant", content: m.r === "u" ? m.t : m.t.replace(/<[^>]+>/g, "") }));
     try {
-      const r = await fetch("https://api.anthropic.com/v1/messages", {
-        method: "POST",
-        headers: { "x-api-key": chiave, "anthropic-version": "2023-06-01", "content-type": "application/json", "anthropic-dangerous-direct-browser-access": "true" },
-        body: JSON.stringify({ model: MODELLO, max_tokens: 600, system: sistema, messages: msgs }),
-      });
-      if (!r.ok) {
-        const e = await r.json().catch(() => ({}));
-        throw new Error(r.status === 401 ? "Chiave non valida: controllala nelle impostazioni (⚙)." : r.status === 402 || /credit/i.test(e?.error?.message || "") ? "Credito esaurito sul conto Anthropic: ricarica da console.anthropic.com." : `Errore ${r.status}: ${e?.error?.message || "riprova"}`);
+      let testo;
+      if (chiave.startsWith("AIza")) {
+        // Google Gemini (piano gratuito)
+        const contenuti = msgs.map((m) => ({ role: m.role === "user" ? "user" : "model", parts: [{ text: m.content }] }));
+        const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODELLO_GEMINI}:generateContent`, {
+          method: "POST",
+          headers: { "x-goog-api-key": chiave, "content-type": "application/json" },
+          body: JSON.stringify({ systemInstruction: { parts: [{ text: sistema }] }, contents: contenuti, generationConfig: { maxOutputTokens: 700, temperature: 0.2 } }),
+        });
+        if (!r.ok) {
+          const e = await r.json().catch(() => ({}));
+          throw new Error(r.status === 400 || r.status === 403 ? "Chiave Google non valida: controllala nelle impostazioni (⚙)." : r.status === 429 ? "Limite gratuito di Google raggiunto: riprova tra qualche minuto (o domani)." : `Errore ${r.status}: ${e?.error?.message || "riprova"}`);
+        }
+        const j = await r.json();
+        testo = (j.candidates?.[0]?.content?.parts || []).map((c) => c.text || "").join("");
+        if (!testo) throw new Error("Risposta vuota: riprova con una domanda diversa.");
+      } else {
+        const r = await fetch("https://api.anthropic.com/v1/messages", {
+          method: "POST",
+          headers: { "x-api-key": chiave, "anthropic-version": "2023-06-01", "content-type": "application/json", "anthropic-dangerous-direct-browser-access": "true" },
+          body: JSON.stringify({ model: MODELLO, max_tokens: 600, system: sistema, messages: msgs }),
+        });
+        if (!r.ok) {
+          const e = await r.json().catch(() => ({}));
+          throw new Error(r.status === 401 ? "Chiave non valida: controllala nelle impostazioni (⚙)." : r.status === 402 || /credit/i.test(e?.error?.message || "") ? "Credito esaurito sul conto Anthropic: ricarica da console.anthropic.com." : `Errore ${r.status}: ${e?.error?.message || "riprova"}`);
+        }
+        const j = await r.json();
+        testo = (j.content || []).map((c) => c.text || "").join("");
       }
-      const j = await r.json();
-      const testo = (j.content || []).map((c) => c.text || "").join("");
       const citati = [...new Set([...testo.matchAll(/\[(\d{1,2})\]/g)].map((m) => +m[1]))].filter((i) => usate[i - 1]).sort((a, b) => a - b);
       storico[storico.length - 1] = { r: "a", t: formatta(testo, usate), fonti: citati.map((i) => `<a href="${esc(usate[i - 1].link)}" target="_blank" rel="noopener">[${i}] ${esc(usate[i - 1].titolo.slice(0, 70))}</a>`).join("") };
     } catch (e) {
@@ -77,7 +96,7 @@
     });
     $("#chat-key-salva").addEventListener("click", () => {
       const k = $("#chat-key").value.trim();
-      if (!/^sk-ant-/.test(k)) { $("#chat-key-msg").textContent = "La chiave deve iniziare con sk-ant-"; return; }
+      if (!/^(sk-ant-|AIza)/.test(k)) { $("#chat-key-msg").textContent = "La chiave deve iniziare con AIza (Google) o sk-ant- (Anthropic)"; return; }
       set("chiave_api", k); $("#chat-key").value = ""; $("#chat-key-msg").textContent = ""; $("#chat-setup").hidden = true;
     });
     $("#chat-key-togli").addEventListener("click", () => { set("chiave_api", ""); $("#chat-setup").hidden = false; });

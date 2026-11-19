@@ -164,7 +164,7 @@ function renderFonti() {
 
 function renderTutto() { renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "7";
+const VERSIONE_APP = "8";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;

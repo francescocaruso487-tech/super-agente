@@ -40,13 +40,14 @@
     <div class="chat-top"><b>Chiedi alle fonti</b><span><button id="chat-nuova" class="mini">Nuova</button><button id="chat-ingranaggio" class="mini" aria-label="Impostazioni">⚙</button></span></div>
     <div id="chat-setup" class="riepilogo" hidden>
       <b>Attiva la chat (una volta sola)</b>
-      <p>1. Vai su <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">console.anthropic.com</a>, crea un account e ricarica 5 € di credito.<br>
-      2. Crea una chiave API e copiala.<br>
-      3. Incollala qui sotto. Resta solo su questo telefono.</p>
-      <input id="chat-key" type="password" placeholder="sk-ant-…" autocomplete="off">
+      <p><b>Gratis (consigliato):</b><br>
+      1. Apri <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a> e accedi con il tuo account Google.<br>
+      2. Tocca "Crea chiave API" e copiala.<br>
+      3. Incollala qui sotto: resta solo su questo telefono.</p>
+      <p class="m">In alternativa, una chiave Anthropic (a pagamento, circa mezzo centesimo a domanda) da console.anthropic.com.</p>
+      <input id="chat-key" type="password" placeholder="Incolla qui la chiave (AIza… o sk-ant-…)" autocomplete="off">
       <div class="chat-key-az"><button id="chat-key-salva" class="mini on">Salva chiave</button><button id="chat-key-togli" class="mini">Rimuovi chiave</button></div>
       <p id="chat-key-msg" class="err"></p>
-      <p class="m">Ogni domanda costa circa 0,2–0,5 centesimi: 5 € bastano per mesi.</p>
     </div>
     <div id="chat-msgs"></div>
     <form id="chat-form" class="chat-form"><input id="chat-input" type="text" placeholder="Scrivi una domanda…" autocomplete="off"><button type="submit">Invia</button></form>
