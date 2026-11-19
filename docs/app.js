@@ -1,10 +1,46 @@
 "use strict";
 // Super Agente - interfaccia. Nessuna dipendenza esterna.
 const $ = (s) => document.querySelector(s);
+// Salvataggio doppio (localStorage + IndexedDB) e richiesta di archivio "persistente",
+// cosi' il telefono non cancella le notizie lette/le stelle anche dopo giorni o settimane.
+const idb = {
+  db: null,
+  open() {
+    return new Promise((ok) => {
+      try {
+        const r = indexedDB.open("super-agente", 1);
+        r.onupgradeneeded = () => r.result.createObjectStore("kv");
+        r.onsuccess = () => { idb.db = r.result; ok(idb.db); };
+        r.onerror = () => ok(null);
+      } catch { ok(null); }
+    });
+  },
+  get(k) {
+    return new Promise((ok) => {
+      if (!idb.db) return ok(undefined);
+      try { const q = idb.db.transaction("kv").objectStore("kv").get(k); q.onsuccess = () => ok(q.result); q.onerror = () => ok(undefined); } catch { ok(undefined); }
+    });
+  },
+  set(k, v) { try { if (idb.db) idb.db.transaction("kv", "readwrite").objectStore("kv").put(v, k); } catch { /* ignora */ } },
+};
 const store = {
   get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
-  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* ignora */ } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* ignora */ } idb.set(k, v); },
 };
+try { navigator.storage && navigator.storage.persist && navigator.storage.persist(); } catch { /* ignora */ }
+// all'avvio recupera da IndexedDB eventuali dati che localStorage ha perso e li unisce
+idb.open().then(async () => {
+  let cambiato = false;
+  for (const k of ["lette", "stelle"]) {
+    const salvate = await idb.get(k);
+    if (Array.isArray(salvate)) {
+      const set = state[k];
+      for (const id of salvate) if (!set.has(id)) { set.add(id); cambiato = true; }
+    }
+    store.set(k, [...state[k]]);
+  }
+  if (cambiato && state.news.length) renderTutto();
+});
 const state = {
   news: [], aree: {}, status: null, nicchia: store.get("nicchia", "edilizia"),
   aperte: new Set(), limiti: {}, sotto: {}, areaArchivio: "tutte", soloNorm: false, query: "", mostrati: 40,
@@ -173,7 +209,7 @@ function renderFonti() {
 
 function renderTutto() { renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "14";
+const VERSIONE_APP = "15";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -226,7 +262,7 @@ document.addEventListener("click", (e) => {
   if (c) {
     const n = state.news.find((x) => x.id === c.dataset.id);
     if (!n) return;
-    state.lette.add(n.id); store.set("lette", [...state.lette].slice(-3000));
+    state.lette.add(n.id); store.set("lette", [...state.lette].slice(-20000));
     c.classList.add("letta");
     window.open(n.link, "_blank", "noopener");
   }
