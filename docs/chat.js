@@ -49,7 +49,7 @@
     const msgs = storico.slice(0, -1).slice(-8).map((m) => ({ role: m.r === "u" ? "user" : "assistant", content: m.r === "u" ? m.t : m.t.replace(/<[^>]+>/g, "") }));
     try {
       let testo;
-      if (chiave.startsWith("AIza")) {
+      if (!chiave.startsWith("sk-ant-")) {
         // Google Gemini (piano gratuito)
         const contenuti = msgs.map((m) => ({ role: m.role === "user" ? "user" : "model", parts: [{ text: m.content }] }));
         const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODELLO_GEMINI}:generateContent`, {
@@ -96,7 +96,7 @@
     });
     $("#chat-key-salva").addEventListener("click", () => {
       const k = $("#chat-key").value.trim();
-      if (!/^(sk-ant-|AIza)/.test(k)) { $("#chat-key-msg").textContent = "La chiave deve iniziare con AIza (Google) o sk-ant- (Anthropic)"; return; }
+      if (k.length < 20 || /\s/.test(k)) { $("#chat-key-msg").textContent = "Chiave non valida: incollala per intero, senza spazi."; return; }
       set("chiave_api", k); $("#chat-key").value = ""; $("#chat-key-msg").textContent = ""; $("#chat-setup").hidden = true;
     });
     $("#chat-key-togli").addEventListener("click", () => { set("chiave_api", ""); $("#chat-setup").hidden = false; });
