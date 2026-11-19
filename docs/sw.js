@@ -1,6 +1,6 @@
 // Service worker: l'app si apre anche offline con le ultime notizie salvate.
-const VERSIONE = "v11";
-const SHELL = ["./", "index.html", "style.css", "app.js", "chat.js", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
+const VERSIONE = "v12";
+const SHELL = ["./", "index.html", "style.css", "app.js", "chat.js", "link.js", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(VERSIONE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));

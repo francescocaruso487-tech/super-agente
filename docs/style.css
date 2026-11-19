@@ -108,3 +108,9 @@ body.in-chat .chat-form{display:flex}
 .chat-form input{flex:1;padding:12px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-size:16px}
 .chat-form button{border:0;background:var(--accent);color:#1a1205;font-weight:700;padding:0 18px;border-radius:999px;font-size:15px}
 .err{color:var(--bad)}.m{color:var(--mute);font-size:13px}
+
+#cerca-link{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-size:16px;margin-bottom:6px}
+.linkbox{position:relative;display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 38px 10px 14px;margin-bottom:8px;text-decoration:none;color:var(--ink);box-shadow:var(--shadow)}
+.linkbox b{display:block;font-size:15.5px}.linkbox span{display:block;font-size:13px;color:var(--mute);margin-top:2px}
+.linkbox i{position:absolute;right:14px;top:50%;transform:translateY(-50%);font-style:normal;color:var(--accent);font-size:18px}
+.bottom button{font-size:11px}

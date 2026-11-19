@@ -9,7 +9,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
-<link rel="stylesheet" href="style.css?v=11">
+<link rel="stylesheet" href="style.css?v=12">
 </head>
 <body>
 <header class="top">
@@ -53,6 +53,11 @@
     <form id="chat-form" class="chat-form"><input id="chat-input" type="text" placeholder="Scrivi una domanda…" autocomplete="off"><button type="submit">Invia</button></form>
   </section>
 
+  <section id="tab-link" class="tab">
+    <input id="cerca-link" type="search" placeholder="Cerca un link (es. catasto, INPS, norme)" autocomplete="off">
+    <div id="lista-link"></div>
+  </section>
+
   <section id="tab-fonti" class="tab">
     <div id="fonti-riepilogo" class="riepilogo"></div>
     <div id="lista-fonti"></div>
@@ -63,10 +68,12 @@
   <button data-tab="novita" class="on"><span>🏗️</span>Novità</button>
   <button data-tab="archivio"><span>🔎</span>Archivio</button>
   <button data-tab="chat"><span>💬</span>Chat</button>
+  <button data-tab="link"><span>🔗</span>Link</button>
   <button data-tab="fonti"><span>📡</span>Fonti</button>
 </nav>
 
-<script src="app.js?v=11"></script>
-<script src="chat.js?v=11"></script>
+<script src="app.js?v=12"></script>
+<script src="chat.js?v=12"></script>
+<script src="link.js?v=12"></script>
 </body>
 </html>
