@@ -1244,6 +1244,276 @@
    ],
    "gnews_when": "30d",
    "filtra": true
+  },
+  {
+   "id": "hdblog",
+   "nome": "HDblog",
+   "tipo": "stampa",
+   "home": "https://www.hdblog.it/",
+   "nicchia": "tech",
+   "aree": [
+    "smartphone"
+   ],
+   "feed": "https://www.hdblog.it/rss/",
+   "gnews": [
+    "site:hdblog.it smartphone Samsung Galaxy",
+    "site:hdblog.it Android novità"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "tomshw",
+   "nome": "Tom's Hardware Italia",
+   "tipo": "stampa",
+   "home": "https://www.tomshw.it/",
+   "nicchia": "tech",
+   "aree": [
+    "pc"
+   ],
+   "feed": "https://www.tomshw.it/feed/",
+   "gnews": [
+    "site:tomshw.it PC processori schede video",
+    "site:tomshw.it smartphone"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "puntoinformatico",
+   "nome": "Punto Informatico",
+   "tipo": "stampa",
+   "home": "https://www.punto-informatico.it/",
+   "nicchia": "tech",
+   "aree": [
+    "sicurezza"
+   ],
+   "feed": "https://www.punto-informatico.it/feed/",
+   "gnews": [
+    "site:punto-informatico.it sicurezza privacy",
+    "site:punto-informatico.it intelligenza artificiale"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "webnews",
+   "nome": "Webnews",
+   "tipo": "stampa",
+   "home": "https://www.webnews.it/",
+   "nicchia": "tech",
+   "aree": [
+    "software"
+   ],
+   "feed": "https://www.webnews.it/feed/",
+   "gnews": [
+    "site:webnews.it app smartphone",
+    "site:webnews.it tecnologia novità"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "dday",
+   "nome": "DDay.it",
+   "tipo": "stampa",
+   "home": "https://www.dday.it/",
+   "nicchia": "tech",
+   "aree": [
+    "pc"
+   ],
+   "gnews": [
+    "site:dday.it recensione smartphone notebook",
+    "site:dday.it novità hardware"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "androidworld",
+   "nome": "AndroidWorld",
+   "tipo": "stampa",
+   "home": "https://www.androidworld.it/",
+   "nicchia": "tech",
+   "aree": [
+    "smartphone"
+   ],
+   "feed": "https://www.androidworld.it/feed/",
+   "gnews": [
+    "site:androidworld.it Samsung Galaxy aggiornamento",
+    "site:androidworld.it Android novità"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "tuttoandroid",
+   "nome": "TuttoAndroid",
+   "tipo": "stampa",
+   "home": "https://www.tuttoandroid.net/",
+   "nicchia": "tech",
+   "aree": [
+    "smartphone"
+   ],
+   "feed": "https://www.tuttoandroid.net/feed/",
+   "gnews": [
+    "site:tuttoandroid.net Samsung One UI aggiornamento",
+    "site:tuttoandroid.net offerte smartphone"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "smartworld",
+   "nome": "SmartWorld",
+   "tipo": "stampa",
+   "home": "https://www.smartworld.it/",
+   "nicchia": "tech",
+   "aree": [
+    "smartphone"
+   ],
+   "gnews": [
+    "site:smartworld.it smartphone recensione",
+    "site:smartworld.it Samsung Galaxy"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "sammobile",
+   "nome": "SamMobile (Samsung)",
+   "tipo": "stampa",
+   "home": "https://www.sammobile.com/",
+   "nicchia": "tech",
+   "aree": [
+    "smartphone"
+   ],
+   "feed": "https://www.sammobile.com/feed/",
+   "gnews": [
+    "Samsung Galaxy S25 Ultra One UI update",
+    "Samsung Galaxy aggiornamento One UI novità"
+   ],
+   "gnews_when": "14d",
+   "nota": "In inglese: tengo solo le notizie Samsung."
+  },
+  {
+   "id": "samsung-it",
+   "nome": "Samsung Italia (novità)",
+   "tipo": "ente",
+   "home": "https://news.samsung.com/it/",
+   "nicchia": "tech",
+   "aree": [
+    "smartphone"
+   ],
+   "gnews": [
+    "site:news.samsung.com/it Galaxy",
+    "Samsung Italia Galaxy novità annuncio"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "acn",
+   "nome": "ACN e CSIRT Italia (sicurezza)",
+   "tipo": "ufficiale",
+   "home": "https://www.acn.gov.it/",
+   "nicchia": "tech",
+   "aree": [
+    "sicurezza"
+   ],
+   "gnews": [
+    "site:acn.gov.it vulnerabilità bollettino",
+    "CSIRT Italia vulnerabilità critiche avviso"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "garante",
+   "nome": "Garante Privacy",
+   "tipo": "ufficiale",
+   "home": "https://www.garanteprivacy.it/",
+   "nicchia": "tech",
+   "aree": [
+    "sicurezza"
+   ],
+   "gnews": [
+    "site:garanteprivacy.it newsletter provvedimento",
+    "Garante Privacy provvedimento app dati"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "agi-tech",
+   "nome": "AGCOM e telecomunicazioni",
+   "tipo": "ufficiale",
+   "home": "https://www.agcom.it/",
+   "nicchia": "tech",
+   "aree": [
+    "hardware"
+   ],
+   "gnews": [
+    "AGCOM tariffe operatori telefonia novità",
+    "AGCOM delibera telecomunicazioni"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "offerte-tech",
+   "nome": "Offerte tecnologia",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "nicchia": "tech",
+   "aree": [
+    "offerte"
+   ],
+   "gnews": [
+    "offerte smartphone Samsung Galaxy sconto",
+    "offerte notebook PC sconto minimo storico",
+    "offerte tablet sconto",
+    "Black Friday offerte tecnologia"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "ai-news",
+   "nome": "Intelligenza artificiale: novità",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "nicchia": "tech",
+   "aree": [
+    "ai"
+   ],
+   "gnews": [
+    "ChatGPT novità aggiornamento",
+    "Gemini Google novità AI",
+    "Claude Anthropic novità",
+    "intelligenza artificiale novità regolamento"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "pc-news",
+   "nome": "PC e hardware: novità",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "nicchia": "tech",
+   "aree": [
+    "pc"
+   ],
+   "gnews": [
+    "Windows 11 aggiornamento novità",
+    "nuovi processori Intel AMD annuncio",
+    "schede video Nvidia AMD novità",
+    "notebook nuovi annunci"
+   ],
+   "gnews_when": "5d"
+  },
+  {
+   "id": "tablet-news",
+   "nome": "Tablet e wearable: novità",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "nicchia": "tech",
+   "aree": [
+    "tablet"
+   ],
+   "gnews": [
+    "Samsung Galaxy Tab novità",
+    "iPad novità aggiornamento",
+    "smartwatch novità Galaxy Watch"
+   ],
+   "gnews_when": "7d"
   }
  ]
 }

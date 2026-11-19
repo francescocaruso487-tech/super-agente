@@ -6,7 +6,7 @@ const store = {
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* ignora */ } },
 };
 const state = {
-  news: [], aree: {}, status: null,
+  news: [], aree: {}, status: null, nicchia: store.get("nicchia", "edilizia"),
   aperte: new Set(), limiti: {}, sotto: {}, areaArchivio: "tutte", soloNorm: false, query: "", mostrati: 40,
   lette: new Set(store.get("lette", [])), stelle: new Set(store.get("stelle", [])),
   ultimaVisita: store.get("ultimaVisita", null),
@@ -52,9 +52,13 @@ function card(n) {
   </article>`;
 }
 
+const inNicchia = (n) => (n.nicchia || "edilizia") === state.nicchia;
+const areaNicchia = (a) => (state.aree[a]?.nicchia || "edilizia") === state.nicchia;
+
 function filtra({ area, query, soloNorm }) {
   const q = query.trim().toLowerCase();
   return state.news.filter((n) => {
+    if (area !== "stelle" && !inNicchia(n)) return false;
     if (area === "stelle") { if (!state.stelle.has(n.id)) return false; }
     else if (area === "tutte") { if (n.aree.length === 1 && n.aree[0] === "altro" && !n.luogo) return false; }
     else if (area === "locale") { if (!n.luogo) return false; }
@@ -67,12 +71,12 @@ function filtra({ area, query, soloNorm }) {
 }
 
 function chips(el, corrente, onPick) {
-  const base = state.news;
+  const base = state.news.filter(inNicchia);
   const conta = (a) => base.filter((n) => a === "locale" ? !!n.luogo : a === "altro" ? (!n.luogo && n.aree.includes("altro")) : n.aree.includes(a)).length;
   const voci = [["tutte", "Tutte", null, base.filter((n) => !(n.aree.length === 1 && n.aree[0] === "altro" && !n.luogo)).length],
     ["stelle", "★ Salvate", null, state.stelle.size]];
-  if (state.aree.locale) voci.push(["locale", nome("locale"), colore("locale"), conta("locale")]);
-  Object.keys(state.aree).filter((a) => a !== "altro" && a !== "locale").forEach((a) => voci.push([a, nome(a), colore(a), conta(a)]));
+  if (state.aree.locale && state.nicchia === "edilizia") voci.push(["locale", nome("locale"), colore("locale"), conta("locale")]);
+  Object.keys(state.aree).filter((a) => a !== "altro" && a !== "locale" && areaNicchia(a)).forEach((a) => voci.push([a, nome(a), colore(a), conta(a)]));
   voci.push(["altro", "Altro", colore("altro"), conta("altro")]);
   el.innerHTML = voci.map(([k, l, c, n]) =>
     `<button class="chip${k === corrente ? " on" : ""}" data-k="${k}">${c ? `<i style="background:${c}"></i>` : ""}${esc(l)} <small>${n}</small></button>`).join("");
@@ -121,7 +125,9 @@ function sezione(k, listaTot) {
 function renderNovita() {
   const box = $("#lista-novita");
   if (!state.news.length) { box.innerHTML = vuoto("Ancora nessuna notizia", "Il primo aggiornamento automatico è in arrivo (ogni ora)."); return; }
-  const chiavi = ["stelle", "bonus", "imprese", "locale", ...Object.keys(state.aree).filter((a) => !["altro", "locale", "bonus", "imprese"].includes(a)), "altro"];
+  const chiavi = state.nicchia === "edilizia"
+    ? ["stelle", "bonus", "imprese", "locale", ...Object.keys(state.aree).filter((a) => !["altro", "locale", "bonus", "imprese"].includes(a) && areaNicchia(a)), "altro"]
+    : ["stelle", ...Object.keys(state.aree).filter((a) => a !== "altro" && a !== "locale" && areaNicchia(a)), "altro"];
   let out = "";
   for (const k of chiavi) {
     const lista = filtra({ area: k, query: "", soloNorm: state.soloNorm });
@@ -143,10 +149,12 @@ const ETICHETTE_TIPO = { ufficiale: "Fonti ufficiali", ente: "Enti", ordine: "Or
 const ETICHETTE_STATO = { ok: "Attiva (feed)", ok_scraping: "Attiva (lettura pagina, meno precisa)", ok_indiretto: "Attiva (indiretta via Google News: sito che blocca i lettori)", errore: "Non raggiungibile", vuoto: "Nessun contenuto letto" };
 function renderFonti() {
   const s = state.status;
+  const tutte = s ? s.fonti : [];
+  if (s) { s.fonti = tutte.filter((f) => (f.nicchia || "edilizia") === state.nicchia); }
   if (!s || !s.fonti.length) { $("#fonti-riepilogo").innerHTML = vuoto("Nessun dato sulle fonti", "Compare dopo il primo aggiornamento."); return; }
   const problemi = s.fonti.filter((f) => f.stato === "errore" || f.stato === "vuoto").length;
   const scrap = s.fonti.filter((f) => f.stato === "ok_scraping" || f.stato === "ok_indiretto").length;
-  $("#fonti-riepilogo").innerHTML = `<b>${s.fonti_ok} / ${s.fonti_totale} fonti attive</b>
+  $("#fonti-riepilogo").innerHTML = `<b>${s.fonti.filter((f) => ['ok', 'ok_scraping', 'ok_indiretto'].includes(f.stato)).length} / ${s.fonti.length} fonti attive</b>
     <p>${problemi ? `${problemi} da sistemare` : "Nessun problema"}${scrap ? ` · ${scrap} lette in modo approssimativo` : ""}. Ultimo controllo: ${s.aggiornato ? fa(new Date(s.aggiornato)) : "—"}.</p>`;
   let out = "";
   for (const tipo of Object.keys(ETICHETTE_TIPO)) {
@@ -160,11 +168,12 @@ function renderFonti() {
       ${f.nota ? `<div class="m">${esc(f.nota)}</div>` : ""}</div></div>`).join("");
   }
   $("#lista-fonti").innerHTML = out;
+  s.fonti = tutte;
 }
 
 function renderTutto() { renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "12";
+const VERSIONE_APP = "13";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -176,7 +185,7 @@ async function carica(forza) {
   try {
     const [news, aree, status] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null)]);
     if (!Array.isArray(news.notizie)) throw new Error("dati non validi");
-    state.news = news.notizie; window.__state = state; state.aree = aree; state.status = status;
+    state.news = news.notizie; state.aree = aree; state.status = status;
     $("#aggiornato").textContent = (news.aggiornato ? `Aggiornato ${fa(new Date(news.aggiornato))}` : "Edilizia e ingegneria") + ` · v${VERSIONE_APP}`;
     renderTutto();
   } catch (err) {
@@ -222,6 +231,16 @@ document.addEventListener("click", (e) => {
     window.open(n.link, "_blank", "noopener");
   }
 });
+function aggiornaNicchie() {
+  document.querySelectorAll("#nicchie button").forEach((b) => b.classList.toggle("on", b.dataset.n === state.nicchia));
+  $("#solo-norm-label").hidden = state.nicchia !== "edilizia";
+}
+document.querySelectorAll("#nicchie button").forEach((b) => b.addEventListener("click", () => {
+  state.nicchia = b.dataset.n; store.set("nicchia", state.nicchia);
+  state.areaArchivio = "tutte"; state.mostrati = 40; state.aperte.clear();
+  aggiornaNicchie(); renderTutto(); window.scrollTo(0, 0);
+}));
+aggiornaNicchie();
 $("#solo-norm").addEventListener("change", (e) => { state.soloNorm = e.target.checked; renderNovita(); });
 $("#cerca").addEventListener("input", (e) => { state.query = e.target.value; state.mostrati = 40; renderArchivio(); });
 $("#piu").addEventListener("click", () => { state.mostrati += 40; renderArchivio(); });
@@ -232,7 +251,6 @@ $("#btn-refresh").addEventListener("click", async (e) => {
 document.querySelectorAll(".bottom button").forEach((b) => b.addEventListener("click", () => {
   document.querySelectorAll(".bottom button").forEach((x) => x.classList.toggle("on", x === b));
   document.querySelectorAll(".tab").forEach((t) => t.classList.toggle("active", t.id === `tab-${b.dataset.tab}`));
-  document.body.classList.toggle("in-chat", b.dataset.tab === "chat");
   window.scrollTo(0, 0);
 }));
 

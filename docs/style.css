@@ -114,3 +114,7 @@ body.in-chat .chat-form{display:flex}
 .linkbox b{display:block;font-size:15.5px}.linkbox span{display:block;font-size:13px;color:var(--mute);margin-top:2px}
 .linkbox i{position:absolute;right:14px;top:50%;transform:translateY(-50%);font-style:normal;color:var(--accent);font-size:18px}
 .bottom button{font-size:11px}
+
+.nicchie{display:flex;gap:6px;background:var(--chip);padding:4px;border-radius:14px;margin:0 0 10px}
+.nicchie button{flex:1;border:0;background:none;color:var(--mute);padding:9px 6px;border-radius:11px;font-size:15px;font-weight:600;cursor:pointer}
+.nicchie button.on{background:var(--card);color:var(--ink);box-shadow:var(--shadow)}

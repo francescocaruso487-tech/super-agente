@@ -327,7 +327,7 @@ def read_source(src):
 
 
 # ---------------------------------------------------------------- classificazione
-TASSONOMIA = "6"  # cambia questo valore per far riclassificare l'archivio
+TASSONOMIA = "7"  # cambia questo valore per far riclassificare l'archivio
 
 
 def _rx(kw):
@@ -354,9 +354,12 @@ def build_matchers(aree_cfg):
 
 def classify(item, src, matchers, urgenti, aree_cfg):
     area_rx, sotto_rx, luoghi = matchers
+    nicchia = src.get("nicchia", "edilizia")
     text = (item["titolo"] + " " + item.get("sintesi", "")).lower()
     scored = []
     for area, rxs in area_rx.items():
+        if aree_cfg["aree"].get(area, {}).get("nicchia", "edilizia") != nicchia:
+            continue
         n = sum(1 for r in rxs if r.search(text))
         if n:
             scored.append((n, area))
@@ -377,12 +380,12 @@ def classify(item, src, matchers, urgenti, aree_cfg):
             sotto.append(best[1])
     # luogo: dalla fonte locale oppure da parole chiave (Caserta prevale su Campania)
     luogo = src.get("luogo")
-    if not luogo:
+    if not luogo and nicchia == "edilizia":
         for nome in ("Caserta", "Campania"):
             if any(r.search(text) for r in luoghi.get(nome, [])):
                 luogo = nome
                 break
-    norm = src["tipo"] == "ufficiale" or any(r.search(text) for r in urgenti)
+    norm = (src["tipo"] == "ufficiale" or any(r.search(text) for r in urgenti)) if nicchia == "edilizia" else src["tipo"] == "ufficiale"
     return aree, norm, sotto, luogo
 
 
@@ -521,6 +524,7 @@ def main():
                 del known[iid]
                 continue
             rec["aree"], rec["normativa"], rec["sotto"], rec["luogo"] = cls
+            rec["nicchia"] = src.get("nicchia", "edilizia")
         print(f"Archivio riclassificato (tassonomia {TASSONOMIA}): {len(known)} notizie")
 
     print(f"Lettura di {len(sources)} fonti…")
@@ -546,7 +550,7 @@ def main():
             rec = {"id": iid, "titolo": it["titolo"], "link": it["link"], "fonte": src["id"],
                    "fonte_nome": src["nome"], "tipo": src["tipo"], "aree": aree, "normativa": normativa,
                    "sintesi": it["sintesi"], "pubblicata": it["pubblicata"], "visto": iso(ts), "metodo": metodo,
-                   "sotto": sotto, "luogo": luogo}
+                   "sotto": sotto, "luogo": luogo, "nicchia": src.get("nicchia", "edilizia")}
             known[iid] = rec
             new_items.append(rec)
             added += 1
@@ -558,7 +562,7 @@ def main():
             stato = {"rss": "ok", "ufficiale": "ok", "gnews": "ok_indiretto"}.get(metodo, "ok_scraping")
         statuses.append({
             "id": src["id"], "nome": src["nome"], "tipo": src["tipo"], "home": src["home"],
-            "stato": stato, "metodo": metodo, "letti": len(items), "nuovi": added,
+            "stato": stato, "nicchia": src.get("nicchia", "edilizia"), "metodo": metodo, "letti": len(items), "nuovi": added,
             "ultimo_controllo": iso(ts),
             "ultimo_nuovo": iso(ts) if added else prev.get("ultimo_nuovo"),
             "errore": err, "nota": src.get("nota"),
@@ -579,7 +583,7 @@ def main():
     allnews.sort(key=lambda i: i["pubblicata"] or i["visto"], reverse=True)
     allnews = allnews[:MAX_ITEMS]
 
-    aree_pub = {k: {"nome": v["nome"], "colore": v["colore"], "sotto": {sk: sv["nome"] for sk, sv in v.get("sotto", {}).items()}}
+    aree_pub = {k: {"nome": v["nome"], "colore": v["colore"], "nicchia": v.get("nicchia", "edilizia"), "sotto": {sk: sv["nome"] for sk, sv in v.get("sotto", {}).items()}}
                 for k, v in aree_cfg["aree"].items()}
     aree_pub["locale"] = {"nome": "Locale · Campania e Caserta", "colore": "#c2185b", "sotto": {}, "speciale": True}
     aree_pub["altro"] = {"nome": "Altro", "colore": "#7b8794"}

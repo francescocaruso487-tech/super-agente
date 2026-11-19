@@ -9,7 +9,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
-<link rel="stylesheet" href="style.css?v=12">
+<link rel="stylesheet" href="style.css?v=13">
 </head>
 <body>
 <header class="top">
@@ -24,8 +24,9 @@
 </header>
 
 <main>
+  <div id="nicchie" class="nicchie" role="tablist"><button data-n="edilizia" class="on">🏗️ Edilizia</button><button data-n="tech">📱 Tecnologia</button></div>
   <section id="tab-novita" class="tab active">
-    <label class="switch"><input type="checkbox" id="solo-norm"><span>Solo novità normative</span></label>
+    <label class="switch" id="solo-norm-label"><input type="checkbox" id="solo-norm"><span>Solo novità normative</span></label>
     <div id="lista-novita" class="lista"></div>
   </section>
 
@@ -34,23 +35,6 @@
     <div class="chips" id="chips-archivio" role="tablist" aria-label="Aree archivio"></div>
     <div id="lista-archivio" class="lista"></div>
     <button id="piu" class="more" hidden>Mostra altre</button>
-  </section>
-
-  <section id="tab-chat" class="tab">
-    <div class="chat-top"><b>Chiedi alle fonti</b><span><button id="chat-nuova" class="mini">Nuova</button><button id="chat-ingranaggio" class="mini" aria-label="Impostazioni">⚙</button></span></div>
-    <div id="chat-setup" class="riepilogo" hidden>
-      <b>Attiva la chat (una volta sola)</b>
-      <p><b>Gratis (consigliato):</b><br>
-      1. Apri <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a> e accedi con il tuo account Google.<br>
-      2. Tocca "Crea chiave API" e copiala.<br>
-      3. Incollala qui sotto: resta solo su questo telefono.</p>
-      <p class="m">In alternativa, una chiave Anthropic (a pagamento, circa mezzo centesimo a domanda) da console.anthropic.com.</p>
-      <input id="chat-key" type="password" placeholder="Incolla qui la chiave (Google o Anthropic)" autocomplete="off">
-      <div class="chat-key-az"><button id="chat-key-salva" class="mini on">Salva chiave</button><button id="chat-key-togli" class="mini">Rimuovi chiave</button></div>
-      <p id="chat-key-msg" class="err"></p>
-    </div>
-    <div id="chat-msgs"></div>
-    <form id="chat-form" class="chat-form"><input id="chat-input" type="text" placeholder="Scrivi una domanda…" autocomplete="off"><button type="submit">Invia</button></form>
   </section>
 
   <section id="tab-link" class="tab">
@@ -67,13 +51,11 @@
 <nav class="bottom" aria-label="Sezioni">
   <button data-tab="novita" class="on"><span>🏗️</span>Novità</button>
   <button data-tab="archivio"><span>🔎</span>Archivio</button>
-  <button data-tab="chat"><span>💬</span>Chat</button>
   <button data-tab="link"><span>🔗</span>Link</button>
   <button data-tab="fonti"><span>📡</span>Fonti</button>
 </nav>
 
-<script src="app.js?v=12"></script>
-<script src="chat.js?v=12"></script>
-<script src="link.js?v=12"></script>
+<script src="app.js?v=13"></script>
+<script src="link.js?v=13"></script>
 </body>
 </html>
