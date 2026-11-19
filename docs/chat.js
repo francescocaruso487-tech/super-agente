@@ -39,7 +39,7 @@
     return h;
   }
 
-  async function invia(domanda) {
+  async function inviaInterno(domanda) {
     const chiave = get("chiave_api");
     if (!chiave) { $("#chat-setup").hidden = false; return; }
     const usate = cerca(domanda);
@@ -52,14 +52,13 @@
       if (!chiave.startsWith("sk-ant-")) {
         // Google Gemini (piano gratuito)
         const contenuti = msgs.map((m) => ({ role: m.role === "user" ? "user" : "model", parts: [{ text: m.content }] }));
-        const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODELLO_GEMINI}:generateContent`, {
-          method: "POST",
-          headers: { "x-goog-api-key": chiave, "content-type": "application/json" },
-          body: JSON.stringify({ systemInstruction: { parts: [{ text: sistema }] }, contents: contenuti, generationConfig: { maxOutputTokens: 700, temperature: 0.2 } }),
-        });
+        const corpo = JSON.stringify({ systemInstruction: { parts: [{ text: sistema }] }, contents: contenuti, generationConfig: { maxOutputTokens: 900, temperature: 0.2 } });
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODELLO_GEMINI}:generateContent`;
+        let r = await fetch(url, { method: "POST", headers: { "x-goog-api-key": chiave, "content-type": "application/json" }, body: corpo });
+        if (r.status === 401 || r.status === 403) r = await fetch(`${url}?key=${encodeURIComponent(chiave)}`, { method: "POST", headers: { "content-type": "application/json" }, body: corpo });
         if (!r.ok) {
           const e = await r.json().catch(() => ({}));
-          throw new Error(r.status === 400 || r.status === 403 ? "Chiave Google non valida: controllala nelle impostazioni (⚙)." : r.status === 429 ? "Limite gratuito di Google raggiunto: riprova tra qualche minuto (o domani)." : `Errore ${r.status}: ${e?.error?.message || "riprova"}`);
+          throw new Error(r.status === 400 || r.status === 401 || r.status === 403 ? `Google ha rifiutato la chiave (${r.status}): ${e?.error?.message || "controllala nelle impostazioni (⚙)"}` : r.status === 429 ? "Limite gratuito di Google raggiunto: riprova tra qualche minuto (o domani)." : `Errore ${r.status}: ${e?.error?.message || "riprova"}`);
         }
         const j = await r.json();
         testo = (j.candidates?.[0]?.content?.parts || []).map((c) => c.text || "").join("");
@@ -83,6 +82,16 @@
       storico[storico.length - 1] = { r: "a", t: `<span class="err">${esc(e.message === "Failed to fetch" ? "Nessuna connessione o chiave non accettata dal browser." : e.message)}</span>` };
     }
     render();
+  }
+
+  async function invia(domanda) {
+    try {
+      await Promise.race([inviaInterno(domanda), new Promise((_, rj) => setTimeout(() => rj(new Error("Nessuna risposta dopo 40 secondi. Controlla la connessione e riprova.")), 40000))]);
+    } catch (e) {
+      if (storico.length && storico[storico.length - 1].r === "a") storico[storico.length - 1] = { r: "a", t: `<span class="err">${esc(e.message || String(e))}</span>` };
+      else storico.push({ r: "a", t: `<span class="err">${esc(e.message || String(e))}</span>` });
+      render();
+    }
   }
 
   function init() {
