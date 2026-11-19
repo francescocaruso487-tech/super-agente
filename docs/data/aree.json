@@ -56,9 +56,13 @@
   "nome": "Bonus e incentivi",
   "colore": "#d4a017",
   "sotto": {
-   "bonus": "Superbonus e bonus edilizi",
+   "superbonus": "Superbonus e bonus edilizi",
+   "detrazioni": "Detrazioni: ristrutturazioni, ecobonus, sismabonus",
    "crediti": "Cessione del credito e sconto in fattura",
-   "contributi": "Contributi, PNRR, bandi"
+   "bilancio": "Legge di bilancio, decreti e proroghe",
+   "chiarimenti": "Chiarimenti Agenzia Entrate, ENEA, interpelli",
+   "energia": "Conto termico, GSE e incentivi energia",
+   "contributi": "Contributi, bandi, PNRR e Campania"
   }
  },
  "sicurezza": {
