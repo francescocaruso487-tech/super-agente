@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-19T16:28:00Z",
+ "aggiornato": "2026-11-19T16:42:22Z",
  "tassonomia": "7",
  "notizie": [
   {
@@ -15,7 +15,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-19T16:28:00Z",
+   "visto": "2026-11-19T16:42:22Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Campania",
@@ -34,7 +34,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-19T16:28:00Z",
+   "visto": "2026-11-19T16:42:22Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -53,7 +53,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-19T16:28:00Z",
+   "visto": "2026-11-19T16:42:22Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -72,7 +72,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-19T16:28:00Z",
+   "visto": "2026-11-19T16:42:22Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -91,11 +91,91 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-19T16:28:00Z",
+   "visto": "2026-11-19T16:42:22Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
    "nicchia": "edilizia"
+  },
+  {
+   "id": "91cc6e1f7555262d",
+   "titolo": "VZMORE iX9 Max, la recensione: tanta potenza in poco spazio a un prezzo finalmente interessante",
+   "link": "https://www.smartworld.it/recensioni/vzmore-ix9-max",
+   "fonte": "androidworld",
+   "fonte_nome": "AndroidWorld",
+   "tipo": "stampa",
+   "aree": [
+    "pc",
+    "smartphone"
+   ],
+   "normativa": false,
+   "sintesi": "VZMORE iX9 Max è un mini PC con Core Ultra 9, 24 GB di RAM e SSD da 1 TB, potente, compatto e molto competitivo con le offerte Black Friday.",
+   "pubblicata": "2026-11-19T16:34:00Z",
+   "visto": "2026-11-19T16:42:22Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech"
+  },
+  {
+   "id": "81a77108499e0bb5",
+   "titolo": "Come usare Gemini 4 Hydrogen per capire dove finiscono i soldi",
+   "link": "https://www.punto-informatico.it/come-usare-gemini-4-hydrogen-capire-dove-finiscono-soldi/",
+   "fonte": "puntoinformatico",
+   "fonte_nome": "Punto Informatico",
+   "tipo": "stampa",
+   "aree": [
+    "hardware",
+    "sicurezza"
+   ],
+   "normativa": false,
+   "sintesi": "Gemini 4 Hydrogen, il modello gratuito di Google, costruisce in pochi minuti un sito interattivo per il bilancio familiare. Il prompt da copiare.",
+   "pubblicata": "2026-11-19T16:30:41Z",
+   "visto": "2026-11-19T16:42:22Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech"
+  },
+  {
+   "id": "f556c866a4552a7c",
+   "titolo": "LEGO Barad-dûr a 412,99€, con l’Occhio di Sauron che si illumina",
+   "link": "https://www.tomshw.it/offerte/lego-barad-dur-a-37829eur-con-locchio-di-sauron-che-si-illumina",
+   "fonte": "tomshw",
+   "fonte_nome": "Tom's Hardware Italia",
+   "tipo": "stampa",
+   "aree": [
+    "offerte",
+    "pc"
+   ],
+   "normativa": false,
+   "sintesi": "Il Signore degli Anelli: Barad-dûr costa 412,99€ su Amazon, con uno sconto del 10%. Il set LEGO Icons permette di costruire la fortezza di Sauron con 5471 pezzi ed è…",
+   "pubblicata": "2026-11-19T16:30:00Z",
+   "visto": "2026-11-19T16:42:22Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech"
+  },
+  {
+   "id": "a96cfb3d2eea567d",
+   "titolo": "Le migliori offerte del Black Friday sono qui: gli sconti più attesi dell'anno",
+   "link": "https://www.tomshw.it/offerte/le-migliori-offerte-del-black-friday-sono-qui-gli-sconti-piu-attesi-dellanno",
+   "fonte": "tomshw",
+   "fonte_nome": "Tom's Hardware Italia",
+   "tipo": "stampa",
+   "aree": [
+    "offerte",
+    "pc"
+   ],
+   "normativa": false,
+   "sintesi": "Il Black Friday 2026 è arrivato e, come ogni anno, porta con sé alcune delle occasioni più attese dagli appassionati di tecnologia e non solo.",
+   "pubblicata": "2026-11-19T16:29:00Z",
+   "visto": "2026-11-19T16:42:22Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech"
   },
   {
    "id": "48a7c5f821a09716",
@@ -814,6 +894,26 @@
    "nicchia": "tech"
   },
   {
+   "id": "06f338d5e9c8e8df",
+   "titolo": "Da USB a WiFi: vecchia stampante torna a nuova vita con Raspberry e pochi euro",
+   "link": "https://www.hdblog.it/hardware/articoli/n677603/trasformare-stampante-usb-wi-fi-raspberry-pi-zero/",
+   "fonte": "hdblog",
+   "fonte_nome": "HDblog",
+   "tipo": "stampa",
+   "aree": [
+    "pc",
+    "smartphone"
+   ],
+   "normativa": false,
+   "sintesi": "+ CUPS. Risultato: niente più cavi",
+   "pubblicata": "2026-11-19T15:40:00Z",
+   "visto": "2026-11-19T16:42:22Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech"
+  },
+  {
    "id": "97b8bf52a182ce92",
    "titolo": "App bancarie troppo insicure: criticità in oltre una su due",
    "link": "https://www.tomshw.it/altro/ostorlab-segnala-criticita-nel-51-5-delle-app-bancarie-testate",
@@ -1029,6 +1129,27 @@
    "nicchia": "tech"
   },
   {
+   "id": "952d94baa5d83765",
+   "titolo": "Sentenza TAR Campania, Napoli, Sez. IV, 9 ottobre 2026, n. 5594",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMTBHWWVRRkdJLTg2TTQ0bkIzSUczc0VTRnUyRHppZUZpbUdhd1hhdkZzTVN0dUNjUXgtSjV4d0J3dV9kckExSncxb2M0SXhRdjBNd2M1QnRKZnFQeUtwR2RkSU1CQ2w3Uk5BSmZkdEw3QzVRbzNJVTN0M0lTMmwyT0JWYkU5cHJ3MUZHa18yMWl0a2pld0VoTDZsVmc2SmtoMElDeFVOeGlPLWozNmZFR1RlRDh4Nm9w?oc=5",
+   "fonte": "lavoripubblici",
+   "fonte_nome": "LavoriPubblici",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": true,
+   "sintesi": "Sentenza TAR Campania, Napoli, Sez. IV, 9 ottobre 2026, n. 5594 Lavori Pubblici",
+   "pubblicata": "2026-11-19T15:27:55Z",
+   "visto": "2026-11-19T16:42:22Z",
+   "metodo": "gnews",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": "Campania",
+   "nicchia": "edilizia"
+  },
+  {
    "id": "110cca8ddb09c6d0",
    "titolo": "Trump, Putin and Xi release 'peace declaration' after historic meeting - BBC",
    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1BblY0ODJpaUlrOGdtV1g4YjAyQzhZLS1TaFIxTDRRSUQ1X0lpcGgyZ18tMDVrZG0zNHJhSmMwampkaG1YNmh2dlRQN3kwM3lzbGtNMEtRYWVYZk0?oc=5",
@@ -1221,6 +1342,46 @@
    "visto": "2026-11-19T16:06:11Z",
    "metodo": "gnews",
    "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia"
+  },
+  {
+   "id": "fae0235769ca7586",
+   "titolo": "Putin says Russia invited Europeans to Moscow to clarify position on Ukraine talks - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZUY1dzNlQjdEcUpCSWhSdkZIa3Q5cTVJTkZqOEs3cjc1RkRyZUVFcVNoZG03cnVmZ1RZcmJqdjhsSks1dUd5NExLcmJ4SnFBNi1MbmJNQXhiamFaVUxJYmhDZVpzZHFIMWt4c2V3R2QwMmgxSUstWWt4cHoyRmlzZXBmam51MjV0c01MTUlmYngwa3VaUDFDLVRZS2NwcE5fRUhTSElwLUI1SHl2ZzZkQkhTM3NrNjVEYWw2a2ZR?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Putin says Russia invited Europeans to Moscow to clarify position on Ukraine talks Reuters Vladimir Putin invites European leaders to Moscow Financial Times Europe…",
+   "pubblicata": "2026-11-19T15:10:37Z",
+   "visto": "2026-11-19T16:42:22Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia"
+  },
+  {
+   "id": "0347839b6a027be3",
+   "titolo": "Sentenza TAR Lombardia, sez. Brescia, 17 novembre 2026, n. 1577",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY1d1YlphaXprOWQyOVVnbFJIODZKX25NVjNBZUhSeVdVemhmS3E2ZE9ONVFyV1JVZXBCRk52RTRHbFBwVlNSOE5Cbnp0MExPZG9wV3RydmUwOE5fVU5QTlJpU3ZJd00ySHRCRHplbElvU1lfWlFEZ2VueXQzOUFSNE1Bb3BUQ2NueEN2bU5MbHVycVVnaUQ5cEtiLTZhZXljcmR3NUkxem5DMkdubUJudy1LRGw4V1ZOUkHSAcYBQVVfeXFMUHhweUVMLUdMb1NtLVFTSTYtYmpVSm1XSXZZemRBMUJLZDJtM2tBLTN1cTZETEFuQS1ySzRjRVE1NnVNSkpmZlVoV1ZBY3dHYjlPa3NFcEl0WUF0V0ZLMmtzeHdySTR4cVlPMGg0dWpzUlpyN0hhSE9IOGY1UW5jU2pvZzBpUkl0RzdPQ1VKT0MyOEg3U1NsbUZVZjFXVTBqcW9WcEtNNUJYYkVXQmlYeWpxRWRldWpnU1p0RzN6UEE2NWdrTVV3?oc=5",
+   "fonte": "lavoripubblici",
+   "fonte_nome": "LavoriPubblici",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": true,
+   "sintesi": "Sentenza TAR Lombardia, sez. Brescia, 17 novembre 2026, n. 1577 Lavori Pubblici",
+   "pubblicata": "2026-11-19T15:10:25Z",
+   "visto": "2026-11-19T16:42:22Z",
+   "metodo": "gnews",
+   "sotto": [
+    "appalti.opere"
+   ],
    "luogo": null,
    "nicchia": "edilizia"
   },
@@ -1796,6 +1957,25 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "tech"
+  },
+  {
+   "id": "a23b90e2424a3a46",
+   "titolo": "Senate Republicans resist Trump’s bid to bypass Democrats on defense funding - The Washington Post",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSHdCWWVGQ0VTNWw1V3R6YlBJN2h3WTJfZ1EtcWxLQllleFI4VUU5a0loYlhlUWE2TXhWc1dVUGVGQi1xTmtvbnBSdTBCZFdOalllTmwxeU1KSnlNeFdJUno4WFhoSW5SV3czbnJodDdXR3F2alplUkdIaU94Z2pyNUpuNi1MTlFlZTB2U2JmOUwwRE9sTUN4VWJPTzg0UG94bUVuZ1VFOTJJRVUzcE96MjdLMEdySFhNNzZ3MUdTUC16c0k?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Senate Republicans resist Trump’s bid to bypass Democrats on defense funding The Washington Post Top Republican says $350 billion defense reconciliation topline is ‘not…",
+   "pubblicata": "2026-11-19T14:32:30Z",
+   "visto": "2026-11-19T16:42:22Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia"
   },
   {
    "id": "53a825445437b046",
@@ -2895,6 +3075,25 @@
    "nicchia": "edilizia"
   },
   {
+   "id": "f40a5d8dfc7d7092",
+   "titolo": "Iowa residents brace for a lead dust cloud as Army plans to detonate 5 tons of bomb-making chemicals - CNN",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pZVcxZjlEaTNOWWlMZnVNU19ab2VfeGVld3pOR0oxV0MyQndSMGdQZXV5NkVoVV9LSnZIQ3pVLTNDbG5zalduWF9CeUQ0alpfSlBPcGl6UWNleGVhRWZiSVFYSHpvYzdKTlFVeXQ1OHpXZw?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Iowa residents brace for a lead dust cloud as Army plans to detonate 5 tons of bomb-making chemicals CNN Army releases new maps showing potential locations of lead…",
+   "pubblicata": "2026-11-19T12:48:38Z",
+   "visto": "2026-11-19T16:42:22Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia"
+  },
+  {
    "id": "9f569b4c9a80049e",
    "titolo": "Fantasy Football Start 'Em, Sit 'Em Thursday Colts vs. Texans Week 11 (2026) - RotoBaller",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVTdyZEZDQlFhd3VQVWlOMDZ6UWQwdHZQRFN1R0QwZkk0VUlkbmxuR0tORzdVbVU5WU1nMDhxMVZVY2t1cFIzWkNSckx5YXFMbFdTbG4yNmR2VFViOTA3bWpxenc3SmlBaV9PVk9rdnZFakZEcTdnNUppaHRpZUJhMDdhSzY4U1dKM2tCRWlCVHV2WURUSDN6b01GSjk1Q1BxZHpKVnE0Ym0?oc=5",
@@ -3890,6 +4089,25 @@
    "sintesi": "NFL Week 11 Picks From the MMQB Staff: 49ers Predicted to Beat Vikings in Mexico City Sports Illustrated Mexico City altitude will affect the kicking game on Sunday…",
    "pubblicata": "2026-11-19T11:00:01Z",
    "visto": "2026-11-19T16:06:11Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia"
+  },
+  {
+   "id": "da61635ef6f68ffa",
+   "titolo": "An All-Star goalie’s harrowing fight to survive: ‘I just chose to take myself straight to hell’ - The New York Times",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUHRsMFJpNXJxNDdvYjdCMDJUYWtralUwNjZKSUhBNmNGNkZoZzYwR0twV3BCdXUtY0s3aV90Q0x0RFNMdU55Zmllci1vZ0RvQkVzSEVkYW9Wb1ZoS0hEbHJGaHRHUGlibjFjVml4cHVVclZtYXRRTXc4YUdJVnI1Q1Bna0tjS0FKTVFRNXFXaHBUcnlveUY5Rm53ZVJBcjA?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "An All-Star goalie’s harrowing fight to survive: ‘I just chose to take myself straight to hell’ The New York Times NHL goalies are in crisis, as an unforgiving game…",
+   "pubblicata": "2026-11-19T10:59:09Z",
+   "visto": "2026-11-19T16:42:22Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": "Caserta",
@@ -7586,6 +7804,25 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "tech"
+  },
+  {
+   "id": "24a08e13f9c8913e",
+   "titolo": "‘Elsinore’ Review: Remember Me - The New York Times",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WRUJRamRRN1BCMnBpTWk2UjdLNnBGaHBJSmpaU0RGeWhqYm9ncHdBNk5rMHgzNWNlYnZUUy1aWjFUM0ctMng5QW1tVU96eEIxRmY4VmpwS3hNRmh3aGwzdEszQ05FNkVuaXd4NnI0SQ?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "‘Elsinore’ Review: Remember Me The New York Times ‘Elsinore’ Review: Andrew Scott’s Shakespearean Struggle WSJ 'I Play Rocky' and 'Elsinore' can't land their punches…",
+   "pubblicata": "2026-11-19T10:02:17Z",
+   "visto": "2026-11-19T16:42:22Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia"
   },
   {
    "id": "55cc85afa2c7a93b",
@@ -16385,6 +16622,25 @@
    "nicchia": "tech"
   },
   {
+   "id": "6479b75417c63e33",
+   "titolo": "All GTA VI Rewards For GTA+ Members - RockstarINTEL",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5oeXNoNjEydWdhM0tWeTkxOTVUbV9faGRucmVLdVNfZ0xvTUFPQ2JFVTZFWkJ0MGJPUnZQc3pkSG9HYXQtNlhmZHJOVThjYWpWWHZNZXl2dXpmeG8zaF93RmZldjNybGFQVTJCYUpn?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "All GTA VI Rewards For GTA+ Members RockstarINTEL GTA 6's Subscription-based Perks are Worrying Players Polygon.com GTA 6: How to Get Ultimate Edition Items & Pre-Order…",
+   "pubblicata": "2026-11-18T11:37:49Z",
+   "visto": "2026-11-19T16:42:22Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia"
+  },
+  {
    "id": "64a14c0ca59731ff",
    "titolo": "America's measles return leaves infants vulnerable - Axios",
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5neExMd21uMld4ZEh2Y1hnTnVEZ3V6Mk96OXBfSXlwUlN2SVF3bTJXUHdPZWxtaHZSLWw3alhCTW1RX3VpYlVrb24tMEhLVXUtM0k3VkVDZk13TTZmTnVWSVRuUFJHRE01TTZFSnJJN1ZjTFEx?oc=5",
@@ -24009,6 +24265,27 @@
    "sotto": [
     "catasto.docfa",
     "appalti.gare"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia"
+  },
+  {
+   "id": "95245d2e3faf60ba",
+   "titolo": "PLDDO",
+   "link": "http://www.invitalia.it/incentivi-e-strumenti/plddo",
+   "fonte": "imp-invitalia",
+   "fonte_nome": "Invitalia",
+   "tipo": "ufficiale",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "PLDDO dmartarelli Mer, 11/11/2026 - 12:05 Contributo a fondo perduto (totale o parziale) Non so Impresa costituita Fino a 36 mesi​ Fino a 60 mesi​ Più di 60 mesi​ Non…",
+   "pubblicata": "2026-11-11T11:05:32Z",
+   "visto": "2026-11-19T16:42:22Z",
+   "metodo": "rss",
+   "sotto": [
+    "bonus.contributi"
    ],
    "luogo": null,
    "nicchia": "edilizia"
