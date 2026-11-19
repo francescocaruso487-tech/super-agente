@@ -642,6 +642,88 @@
     "testo unico edilizia riforma Parlamento"
    ],
    "gnews_when": "30d"
+  },
+  {
+   "id": "stato-reg",
+   "nome": "Conferenza Stato-Regioni",
+   "tipo": "ufficiale",
+   "home": "https://www.statoregioni.it/",
+   "filtra": true,
+   "gnews": [
+    "site:statoregioni.it accordo sicurezza lavoro formazione",
+    "site:statoregioni.it intesa edilizia urbanistica",
+    "Conferenza Stato-Regioni accordo sicurezza sul lavoro novità",
+    "Conferenza Stato-Regioni intesa edilizia energia"
+   ],
+   "gnews_when": "30d",
+   "nota": "Accordi e intese: filtrati su sicurezza, edilizia, energia, ambiente."
+  },
+  {
+   "id": "inail",
+   "nome": "INAIL",
+   "tipo": "ente",
+   "home": "https://www.inail.it/",
+   "aree": [
+    "sicurezza"
+   ],
+   "feed": "https://www.inail.it/portale/it/news.rss",
+   "gnews": [
+    "site:inail.it sicurezza cantieri",
+    "site:inail.it bando ISI incentivi",
+    "INAIL novità sicurezza lavoro edilizia"
+   ],
+   "gnews_when": "30d",
+   "filtra": true
+  },
+  {
+   "id": "inl",
+   "nome": "Ispettorato Nazionale del Lavoro",
+   "tipo": "ente",
+   "home": "https://www.ispettorato.gov.it/",
+   "aree": [
+    "sicurezza"
+   ],
+   "gnews": [
+    "site:ispettorato.gov.it nota circolare cantieri",
+    "Ispettorato Nazionale del Lavoro nota edilizia cantieri",
+    "INL circolare vigilanza sicurezza"
+   ],
+   "gnews_when": "30d",
+   "filtra": true
+  },
+  {
+   "id": "min-lavoro",
+   "nome": "Ministero del Lavoro",
+   "tipo": "ufficiale",
+   "home": "https://www.lavoro.gov.it/",
+   "aree": [
+    "sicurezza"
+   ],
+   "gnews": [
+    "site:lavoro.gov.it sicurezza sul lavoro decreto",
+    "site:lavoro.gov.it patente a crediti cantieri"
+   ],
+   "gnews_when": "30d",
+   "filtra": true
+  },
+  {
+   "id": "iso-it",
+   "nome": "Norme ISO e certificazioni (Italia)",
+   "tipo": "ente",
+   "home": "https://www.accredia.it/",
+   "aree": [
+    "norme"
+   ],
+   "gnews": [
+    "norma ISO nuova revisione costruzioni",
+    "ISO 45001 ISO 9001 ISO 14001 novità",
+    "ISO 19650 BIM norma novità",
+    "site:accredia.it certificazione sistemi di gestione",
+    "site:uni.com norma ISO pubblicata edilizia"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "nota": "Lettura indiretta: iso.org è in inglese e in gran parte a pagamento, per questo seguo UNI, Accredia e la stampa italiana."
   }
  ]
 }
