@@ -458,6 +458,87 @@
    ],
    "gnews_when": "30d",
    "luogo": "Campania"
+  },
+  {
+   "id": "imp-mimit",
+   "nome": "MIMIT e Transizione 5.0",
+   "tipo": "ufficiale",
+   "home": "https://www.mimit.gov.it/",
+   "aree": [
+    "imprese"
+   ],
+   "gnews": [
+    "site:mimit.gov.it incentivi imprese",
+    "site:mimit.gov.it transizione 5.0",
+    "site:mimit.gov.it bando sportello"
+   ],
+   "gnews_when": "30d",
+   "filtra": true
+  },
+  {
+   "id": "imp-invitalia",
+   "nome": "Invitalia",
+   "tipo": "ufficiale",
+   "home": "https://www.invitalia.it/",
+   "aree": [
+    "imprese"
+   ],
+   "gnews": [
+    "site:invitalia.it incentivi bando",
+    "Invitalia nuovo bando incentivi imprese"
+   ],
+   "gnews_when": "30d",
+   "filtra": true
+  },
+  {
+   "id": "imp-zes",
+   "nome": "ZES Unica Mezzogiorno",
+   "tipo": "ufficiale",
+   "home": "https://www.governo.it/it/zes-unica",
+   "aree": [
+    "imprese"
+   ],
+   "gnews": [
+    "ZES Unica Mezzogiorno novità credito d'imposta",
+    "ZES Unica autorizzazione unica Campania"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "luogo": "Campania"
+  },
+  {
+   "id": "imp-camp",
+   "nome": "Imprese Campania/Caserta: bandi",
+   "tipo": "ente",
+   "home": "https://www.regione.campania.it/",
+   "aree": [
+    "imprese"
+   ],
+   "gnews": [
+    "Campania bando imprese contributi PMI",
+    "Camera di Commercio Caserta bando contributi imprese",
+    "Sviluppo Campania bando"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "luogo": "Campania"
+  },
+  {
+   "id": "imp-stampa",
+   "nome": "Incentivi imprese: notizie",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "aree": [
+    "imprese"
+   ],
+   "gnews": [
+    "Transizione 5.0 novità credito d'imposta",
+    "incentivi imprese bando nuovo",
+    "ZES Unica novità",
+    "Invitalia bando aperto"
+   ],
+   "gnews_when": "7d",
+   "filtra": true
   }
  ]
 }

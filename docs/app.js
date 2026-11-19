@@ -121,7 +121,7 @@ function sezione(k, listaTot) {
 function renderNovita() {
   const box = $("#lista-novita");
   if (!state.news.length) { box.innerHTML = vuoto("Ancora nessuna notizia", "Il primo aggiornamento automatico è in arrivo (ogni ora)."); return; }
-  const chiavi = ["stelle", "bonus", "locale", ...Object.keys(state.aree).filter((a) => a !== "altro" && a !== "locale" && a !== "bonus"), "altro"];
+  const chiavi = ["stelle", "bonus", "imprese", "locale", ...Object.keys(state.aree).filter((a) => !["altro", "locale", "bonus", "imprese"].includes(a)), "altro"];
   let out = "";
   for (const k of chiavi) {
     const lista = filtra({ area: k, query: "", soloNorm: state.soloNorm });
@@ -164,7 +164,7 @@ function renderFonti() {
 
 function renderTutto() { renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "5";
+const VERSIONE_APP = "6";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
