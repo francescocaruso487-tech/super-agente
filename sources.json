@@ -1083,6 +1083,167 @@
     "appalti"
    ],
    "luogo": "Caserta"
+  },
+  {
+   "id": "rete-ing",
+   "nome": "ReteIngegneri",
+   "tipo": "stampa",
+   "home": "https://www.reteingegneri.it/",
+   "gnews": [
+    "site:reteingegneri.it edilizia energia fisco",
+    "site:reteingegneri.it sicurezza cantieri"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "norme"
+   ],
+   "nota": "Rubriche: Edilizia, Energia, Economia e Fisco, Software. Molti comunicati: tengo solo ciò che tocca le tue aree."
+  },
+  {
+   "id": "ipsoa",
+   "nome": "IPSOA (Wolters Kluwer)",
+   "tipo": "stampa",
+   "home": "https://www.ipsoa.it/",
+   "gnews": [
+    "site:ipsoa.it bonus edilizi detrazioni",
+    "site:ipsoa.it superbonus ristrutturazioni",
+    "site:ipsoa.it appalti codice contratti",
+    "site:ipsoa.it sicurezza sul lavoro cantieri",
+    "site:ipsoa.it edilizia catasto immobili"
+   ],
+   "gnews_when": "14d",
+   "filtra": true,
+   "nota": "Il sito blocca i lettori automatici: lettura indiretta."
+  },
+  {
+   "id": "eutekne",
+   "nome": "Eutekne.info",
+   "tipo": "stampa",
+   "home": "https://www.eutekne.info/",
+   "gnews": [
+    "site:eutekne.info bonus edilizi detrazioni",
+    "site:eutekne.info superbonus cessione crediti",
+    "site:eutekne.info immobili catasto"
+   ],
+   "gnews_when": "14d",
+   "filtra": true
+  },
+  {
+   "id": "fiscoetasse",
+   "nome": "Fisco e Tasse",
+   "tipo": "stampa",
+   "home": "https://www.fiscoetasse.com/",
+   "gnews": [
+    "site:fiscoetasse.com bonus edilizi detrazioni",
+    "site:fiscoetasse.com ristrutturazioni superbonus",
+    "site:fiscoetasse.com catasto immobili"
+   ],
+   "gnews_when": "14d",
+   "filtra": true,
+   "aree": [
+    "bonus"
+   ]
+  },
+  {
+   "id": "mynorma",
+   "nome": "MyNorma CEI (norme elettriche)",
+   "tipo": "ente",
+   "home": "https://www.ceinorme.it/",
+   "gnews": [
+    "site:ceinorme.it norma CEI nuova",
+    "norma CEI 64-8 variante novità",
+    "CEI norme impianti elettrici fotovoltaico novità"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "norme"
+   ]
+  },
+  {
+   "id": "impresa-1g",
+   "nome": "Impresa in un Giorno (SUAP)",
+   "tipo": "ufficiale",
+   "home": "https://www.impresainungiorno.gov.it/",
+   "gnews": [
+    "site:impresainungiorno.gov.it SUAP novità",
+    "SUAP modulistica unificata novità edilizia produttiva",
+    "SUAP procedimento unico decreto"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "edilizia"
+   ]
+  },
+  {
+   "id": "registroimprese",
+   "nome": "Registro Imprese / InfoCamere",
+   "tipo": "ufficiale",
+   "home": "https://www.registroimprese.it/",
+   "gnews": [
+    "site:registroimprese.it novità imprese",
+    "InfoCamere Registro Imprese novità SCIA SUAP",
+    "Unioncamere InfoCamere novità adempimenti imprese"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "imprese"
+   ]
+  },
+  {
+   "id": "voltimum",
+   "nome": "Voltimum (impianti)",
+   "tipo": "stampa",
+   "home": "https://www.voltimum.it/",
+   "gnews": [
+    "site:voltimum.it norma impianti elettrici",
+    "site:voltimum.it fotovoltaico incentivi",
+    "site:voltimum.it novità normativa"
+   ],
+   "gnews_when": "14d",
+   "filtra": true,
+   "aree": [
+    "energia"
+   ]
+  },
+  {
+   "id": "portale-tecnico",
+   "nome": "Il Portale del Tecnico",
+   "tipo": "stampa",
+   "home": "https://www.ilportaledeltecnico.it/",
+   "gnews": [
+    "site:ilportaledeltecnico.it normativa edilizia",
+    "site:ilportaledeltecnico.it bonus detrazioni"
+   ],
+   "gnews_when": "30d",
+   "filtra": true
+  },
+  {
+   "id": "tecnico-hub",
+   "nome": "Tecnico Hub",
+   "tipo": "stampa",
+   "home": "https://www.tecnico-hub.com/",
+   "gnews": [
+    "site:tecnico-hub.com normativa edilizia",
+    "site:tecnico-hub.com pratiche catasto"
+   ],
+   "gnews_when": "30d",
+   "filtra": true
+  },
+  {
+   "id": "edilnet",
+   "nome": "Edilnet",
+   "tipo": "stampa",
+   "home": "https://www.edilnet.it/",
+   "gnews": [
+    "site:edilnet.it edilizia normativa",
+    "site:edilnet.it bonus detrazioni novità"
+   ],
+   "gnews_when": "30d",
+   "filtra": true
   }
  ]
 }
