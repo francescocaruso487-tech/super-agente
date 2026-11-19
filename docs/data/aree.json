@@ -65,6 +65,16 @@
    "contributi": "Contributi, bandi, PNRR e Campania"
   }
  },
+ "imprese": {
+  "nome": "Incentivi alle imprese",
+  "colore": "#b5651d",
+  "sotto": {
+   "transizione": "Transizione 5.0 e 4.0, crediti d'imposta",
+   "zes": "ZES Unica Mezzogiorno",
+   "invitalia": "Invitalia, MIMIT e bandi nazionali",
+   "regionali": "Bandi Regione Campania per imprese"
+  }
+ },
  "sicurezza": {
   "nome": "Sicurezza cantieri e lavoro",
   "colore": "#8a6d3b",

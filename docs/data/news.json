@@ -1,7 +1,1335 @@
 {
- "aggiornato": "2026-11-19T01:06:11Z",
- "tassonomia": "3",
+ "aggiornato": "2026-11-19T08:44:19Z",
+ "tassonomia": "4",
  "notizie": [
+  {
+   "id": "a6173700404814c8",
+   "titolo": "Quali tutele per il lavoratore che svolge un'attività saltuariamente?",
+   "link": "https://www.puntosicuro.it/sentenze-commentate-C-103/quali-tutele-per-il-lavoratore-che-svolge-un-attivita-saltuariamente-AR-26949/",
+   "fonte": "puntosicuro",
+   "fonte_nome": "PuntoSicuro",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": true,
+   "sintesi": "La Cassazione Penale questo mese ha ribadito l'applicazione del principio di effettività delle tutele alle attività occasionali o attuative di prassi tollerate svolte…",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null
+  },
+  {
+   "id": "4a37d9f44a837d8c",
+   "titolo": "Laboratori di ricerca: indicazioni per la prevenzione dei rischi biologici",
+   "link": "https://www.puntosicuro.it/rischi-da-agenti-biologici-C-52/laboratori-di-ricerca-indicazioni-per-la-prevenzione-dei-rischi-biologici-AR-26951/",
+   "fonte": "puntosicuro",
+   "fonte_nome": "PuntoSicuro",
+   "tipo": "stampa",
+   "aree": [
+    "sicurezza",
+    "strutture"
+   ],
+   "normativa": false,
+   "sintesi": "Un documento Inail riporta le indicazioni operative per la prevenzione del rischio da agenti biologici nei lavoratori dei laboratori di ricerca.",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "sicurezza.specifici",
+    "strutture.ntc"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "d07db5e71e2a7832",
+   "titolo": "Imparare dagli errori: gli infortuni per folgorazione o elettrocuzione",
+   "link": "https://www.puntosicuro.it/imparare-dagli-errori-C-99/imparare-dagli-errori-gli-infortuni-per-folgorazione-o-elettrocuzione-AR-26950/",
+   "fonte": "puntosicuro",
+   "fonte_nome": "PuntoSicuro",
+   "tipo": "stampa",
+   "aree": [
+    "sicurezza"
+   ],
+   "normativa": false,
+   "sintesi": "Esempi di infortuni di lavoro correlati al rischio elettrico in varie attività lavorative. Il commercio al dettaglio e le attività in un magazzino agricolo.",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "sicurezza.normativa"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "386c49cd27b1739c",
+   "titolo": "Fotovoltaico e VIA: come gestire più progetti sulla stessa stazione",
+   "link": "https://www.puntosicuro.it/ambiente-C-94/fotovoltaico-via-come-gestire-piu-progetti-sulla-stessa-stazione-AR-26945/",
+   "fonte": "puntosicuro",
+   "fonte_nome": "PuntoSicuro",
+   "tipo": "stampa",
+   "aree": [
+    "ambiente",
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "Un interpello ambientale della Provincia di Pavia al MASE chiarisce le regole per le Valutazioni di Impatto Ambientale e i procedimenti PAUR quando diversi impianti…",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "ambiente.via_vas",
+    "energia.rinnovabili"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "f0646bdb0c68eebf",
+   "titolo": "Formazione IA in azienda: adempimenti AI Act e corsi online",
+   "link": "https://www.puntosicuro.it/pubbliredazionale-C-119/formazione-ia-in-azienda-adempimenti-ai-act-corsi-online-AR-26946/",
+   "fonte": "puntosicuro",
+   "fonte_nome": "PuntoSicuro",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": true,
+   "sintesi": "Con il nuovo AI Act, l'alfabetizzazione all'IA diventa un obbligo per le aziende. Scopri le soluzioni e-learning per formare manager e dipendenti: percorsi flessibili…",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null
+  },
+  {
+   "id": "3306484b6326d34d",
+   "titolo": "CSE: pericolosamente a cavallo della responsabilità oggettiva.",
+   "link": "https://www.ipsoa.it/documents/hse/2026/11/19/cse-pericolosamente-cavallo-responsabilita-oggettiva",
+   "fonte": "teknoring",
+   "fonte_nome": "Teknoring",
+   "tipo": "stampa",
+   "aree": [
+    "sicurezza"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "sicurezza.cantieri"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "dcfd286d7e3a09ec",
+   "titolo": "UIA Golden Cubes Awards: i vincitori Gli esiti della fase nazionale",
+   "link": "https://www.awn.it/news/cnappc-informa/10040-uia-golden-cubes-awards-i-vincitori",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "d6909c99371c4b60",
+   "titolo": "UIA: Call for Projects Atlante degli ambienti di apprendimento Le candidature entro il 15 aprile",
+   "link": "https://www.awn.it/news/cnappc-informa/10038-uia-call-for-projects-atlante-degli-ambienti-di-apprendimento",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "1ca858f2328f087d",
+   "titolo": "Progetto Think Tank: 2 FAD asincroni per la formazione Dialoghi con personalità di fama internazionale sul ruolo della professione",
+   "link": "https://www.awn.it/news/cnappc-informa/10033-think-tank-serbatoio-di-pensiero",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "445c4d5bb2eaf022",
+   "titolo": "03 novembre 2026 ABITARE IL PAESE – IX EDIZIONE / 2026-2027 La nuova edizione",
+   "link": "https://www.awn.it/attivita/abitare-il-paese/10201-abitare-il-paese-9",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "81ee98be532bc73e",
+   "titolo": "08 maggio 2026 Milano: bando per 110 alloggi a Niguarda e Giambellino Aperto fino al 31 agosto 2026",
+   "link": "https://www.awn.it/news/notizie/10056-milano-bando-per-110-alloggi-a-niguarda-e-giambellino",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "c3d4e1e394df30b6",
+   "titolo": "06 maggio 2026 Stati generali della bellezza: a Offida l’11 e il 12 giugno Focus sul futuro dei borghi",
+   "link": "https://www.awn.it/news/notizie/10055-stati-generali-della-bellezza-a-offida-l-11-e-il-12-giugno",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "f504b5c7249218a7",
+   "titolo": "Valutazioni immobiliari: dati, qualità e trasparenza al centro del convegno ASSOVIB",
+   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/valutazioni-immobiliari-dati-qualit%C3%A0-e-trasparenza-al-centro-del-convegno-assovib?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1020791&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=valutazioni-immobiliari-dati-qualit%25C3%25A0-e-trasparenza-al-centro-del-convegno-assovib&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1020791%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
+   "fonte": "coll-geom-ce",
+   "fonte_nome": "Collegio Geometri Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "eb7b100865371e5c",
+   "titolo": "San Vito al Tagliamento festeggia i cento anni del geometra Dino Candusso",
+   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1019661&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1019661%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
+   "fonte": "coll-geom-ce",
+   "fonte_nome": "Collegio Geometri Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "0e99026cf1faa375",
+   "titolo": "Dentro il cerchio, Condominio 4.0: competenze tecniche al centro della riforma",
+   "link": "https://www.cng.it/web/guest/dettaglionotizie/-/asset_publisher/5xXCrPteqBpy/content/dentro-il-cerchio-condominio-4.0-competenze-tecniche-al-centro-della-riforma?p_r_p_assetEntryId=1020928&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_urlTitle=dentro-il-cerchio-condominio-4.0-competenze-tecniche-al-centro-della-riforma&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fhomepage%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_assetEntryId%3D1020928%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_cur%3D0%26p_r_p_resetCur%3Dfalse",
+   "fonte": "coll-geom-ce",
+   "fonte_nome": "Collegio Geometri Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "e5df9a51c4f819bb",
+   "titolo": "Manovra, il condono edilizio vale 21 miliardi. Nei comuni 4 milioni di pratiche bloccate",
+   "link": "https://www.italiaoggi.it/diritto-e-fisco/fisco/manovra-il-condono-edilizio-vale-21-mld-nei-comuni-4-milioni-di-pratiche-bloccate-aylh7d6i",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia",
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "edilizia.sanatorie",
+    "bonus.bilancio"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "337f77a754f42630",
+   "titolo": "Manovra, in arrivo aiuti alle imprese. Differenze di magazzino regolarizzabili",
+   "link": "https://www.italiaoggi.it/diritto-e-fisco/fisco/manovra-in-arrivo-aiuti-alle-imprese-differenze-di-magazzino-regolarizzabili-dnynjzn3",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "bonus.bilancio"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "f40735187fe76831",
+   "titolo": "Dell’iperammortamento si può beneficiare anche per i beni fatti in casa. Ecco come",
+   "link": "https://www.italiaoggi.it/diritto-e-fisco/diritto-e-impresa/delliperammortamento-si-puo-beneficiare-anche-per-i-beni-fatti-in-casa-ecco-come-troigms4",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "imprese"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "imprese.transizione"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "02d1eb1d763cd81f",
+   "titolo": "Anac, Remo Morzenti Pellegrini verso la presidenza: il Cdm avvia l’iter per il dopo Busia",
+   "link": "https://www.italiaoggi.it/economia-e-politica/anac-remo-morzenti-pellegrini-verso-la-presidenza-il-cdm-avvia-liter-per-il-dopo-busia-uu2wbw1g",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "appalti.codice"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "7f78fd4c3173d9b0",
+   "titolo": "Edilizia, lo stato legittimo blocca 132 mila pratiche l’anno: 740 milioni di Iva sfumati",
+   "link": "https://www.italiaoggi.it/economia-e-politica/edilizia-lo-stato-legittimo-blocca-132-mila-pratiche-lanno-740-milioni-di-iva-sfumati-e4l4nxf5",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "edilizia.sanatorie"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "330b1a0481b75ef0",
+   "titolo": "Comunità energetiche rinnovabili: cosa sono e come partecipare",
+   "link": "https://www.italiaoggi.it/native-content/comunita-energetiche-rinnovabili-cosa-sono-e-come-partecipare-opbeehm8",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "cf7a43f695c1748a",
+   "titolo": "Storie di Made in Italy, da Gragnano a Brescia: le Pmi che con l’e-commerce vanno all’estero",
+   "link": "https://www.italiaoggi.it/economia-e-politica/storie-di-made-in-italy-da-gragnano-a-brescia-le-pmi-che-con-le-commerce-vanno-allestero-kqie57rg",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "imprese"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "imprese.invitalia"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "5645653c82a95d69",
+   "titolo": "Cybersecurity, per le Pmi la difesa costa tra 15 e 210mila euro all’anno",
+   "link": "https://www.italiaoggi.it/economia-e-politica/economia-e-finanza/cybersecurity-per-le-pmi-la-difesa-costa-tra-15-e-210mila-euro-allanno-jbm009hc",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "norme"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "84d1b633931ada37",
+   "titolo": "Maltempo: come proteggere auto e casa dai danni per grandine e alluvioni",
+   "link": "https://www.italiaoggi.it/le-guide-per-tutti/maltempo-come-proteggere-auto-e-casa-dai-danni-per-grandine-e-alluvioni-i19m6nk1",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "ambiente"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "ambiente.rischio_idro"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "d232ba23bc3d6bc4",
+   "titolo": "Caro carburanti, strategie per risparmiare al distributore",
+   "link": "https://www.italiaoggi.it/le-guide-per-tutti/caro-carburanti-strategie-per-risparmiare-al-distributore-ovupw42m",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "antincendio"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "antincendio.attivita"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "90b9c2e6c0e28dee",
+   "titolo": "Termosifoni e caldaie: strategie per tagliare la bolletta",
+   "link": "https://www.italiaoggi.it/le-guide-per-tutti/termosifoni-e-caldaie-strategie-per-tagliare-la-bolletta-g91gbq7s",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "energia.impianti"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "d4ab6ef27b8afbc2",
+   "titolo": "Scuola, Valditara: «Con la Manovra più risorse nel 2027 che nel 2026». Saltano i tagli",
+   "link": "https://www.italiaoggi.it/settori/scuola/scuola-valditara-con-la-manovra-piu-risorse-nel-2027-che-nel-2026-saltano-i-tagli-owqczk4w",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "bonus.bilancio"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "9dbe783a6b9bed8a",
+   "titolo": "Precari Pnrr, futuro incerto per migliaia di lavoratori. Manca un censimento nazionale",
+   "link": "https://www.italiaoggi.it/enti-locali-e-pa/pnrr/precari-pnrr-futuro-incerto-per-migliaia-di-lavoratori-manca-un-censimento-nazionale-u5d142az",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "bonus.contributi"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "a4bba5d300c8634e",
+   "titolo": "Pnrr, Foti: al Sud il 42% delle risorse. Da completare 8 mila progetti",
+   "link": "https://www.italiaoggi.it/enti-locali-e-pa/pnrr/pnrr-foti-al-sud-il-42-delle-risorse-da-completare-8-mila-progetti-lhi5qraf",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "bonus.contributi"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "5184d97a30b3de6d",
+   "titolo": "Trasporti e logistica, la sfida dell’intermodalità per rilanciare la competitività italiana",
+   "link": "https://www.italiaoggi.it/ordini-e-professioni/cnpr/trasporti-e-logistica-la-sfida-dellintermodalita-per-rilanciare-la-competitivita-italiana-djibg23q",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "edilizia.produttivo"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "8e0e8de86c9d0356",
+   "titolo": "D.L. 177/2026 - Disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche",
+   "link": "https://temi.camera.it/leg19/provvedimento/disposizioni-urgenti-per-il-rafforzamento-delle-istruttorie-ambientali-la-gestione-dei-problemi-climatici-l-economia-circolare-e-le-bonifiche.html",
+   "fonte": "parlamento",
+   "fonte_nome": "Camera e Senato (disegni di legge)",
+   "tipo": "ufficiale",
+   "aree": [
+    "ambiente"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "scraping",
+   "sotto": [
+    "ambiente.terre_rifiuti"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "98b72b77343394aa",
+   "titolo": "Catasto e registri immobiliari online: visure, mappe e ispezioni nella guida delle Entrate",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT3lZLVJqdjItWTBMVjNSSjZTYXJnbmJyaDdxRHBTTTRBTHhLUDlMSTd0aXpfOXYyQmtHWE1NQm1KbnExY2w5ZUpKWmF4NnBIa1Rvajh3TVowYWVWSVZGX1gyY0UtbmhUYm1QX09XM01CWjB3Qm55N0lJcTZkdkoxVGdxVy1iLUFjQkg4Y0xRZU5JY3dRVU5kR3BwVDN4eGdLUV9ubTE4cXlMQ1Z0NEhfS3RIcWlZSzBuVlgxUg?oc=5",
+   "fonte": "biblus",
+   "fonte_nome": "Biblus (ACCA)",
+   "tipo": "stampa",
+   "aree": [
+    "catasto"
+   ],
+   "normativa": false,
+   "sintesi": "Catasto e registri immobiliari online: visure, mappe e ispezioni nella guida delle Entrate ACCA software",
+   "pubblicata": "2026-11-19T08:33:50Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "catasto.volture"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "91baff9dd7fce93a",
+   "titolo": "Manovra, arriva l’estensione delle semplificazioni Zes. Meloni: «Procedure più semplici per investire e fare impresa»",
+   "link": "https://www.ilsole24ore.com/art/manovra-arriva-l-estensione-semplificazioni-zes-meloni-procedure-piu-semplici-investire-e-fare-impresa-AJozueLC",
+   "fonte": "bonus-sole",
+   "fonte_nome": "Bonus: Il Sole 24 Ore (casa e fisco)",
+   "tipo": "stampa",
+   "aree": [
+    "imprese",
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "Le semplificazioni amministrative della Zes unica del Mezzogiorno estese progressivamente a tutta Italia per favorire l’attrazione degli investimenti produttivi, la…",
+   "pubblicata": "2026-11-19T08:33:13Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "imprese.zes",
+    "bonus.contributi"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "f22f71a820a3fc50",
+   "titolo": "Bayesian, indagine indipendente britannica ribalta la perizia italiana",
+   "link": "https://www.ilsole24ore.com/art/bayesian-indagine-indipendente-britannica-ribalta-perizia-italiana-AJZbdcLC",
+   "fonte": "bonus-sole",
+   "fonte_nome": "Bonus: Il Sole 24 Ore (casa e fisco)",
+   "tipo": "stampa",
+   "aree": [
+    "catasto"
+   ],
+   "normativa": false,
+   "sintesi": "Secondo il Maib, l’equipaggio non era a conoscenza dei rischi critici legati al superyacht affondato a Porticello il 19 agosto 2024",
+   "pubblicata": "2026-11-19T08:28:37Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "catasto.estimo"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "d4a981c2c9664373",
+   "titolo": "Opuscolo AE sui servizi di consultazione catastale e ipotecaria online (2026)",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOW1WYy1TY08xek5Rc0FQbDNjSlBreU5VSXY5XzRiNlR6OTcwcUNFZ0RKcFhmQ3picVVPRTh5Ym05T3JMT3JsYjJCNkdZNnFCU0pMXy01b2VhZ3hBbUhfQnVyeEg3NGpKeXc1b3QtblhqWHJ4N2hvQU1GWERBa0hSa2pIR3VqUmZ5eFE3NWtTdVktWkxCdHg3TDdCWHBkaURFSFdSOG1tX3BzNjQy?oc=5",
+   "fonte": "biblus",
+   "fonte_nome": "Biblus (ACCA)",
+   "tipo": "stampa",
+   "aree": [
+    "catasto"
+   ],
+   "normativa": false,
+   "sintesi": "Opuscolo AE sui servizi di consultazione catastale e ipotecaria online (2026) ACCA software",
+   "pubblicata": "2026-11-19T08:25:45Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "catasto.volture"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "1c608b0d67626537",
+   "titolo": "Mimit, il prezzo medio self benzina scende a 1,948 euro, gasolio a 2,202 euro",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/19/mimit-il-prezzo-medio-self-benzina-scende-a-1948-euro-gasolio-a-2202_33f6f5f5-55ba-4dd5-8d95-4291b2bccfba.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "imprese"
+   ],
+   "normativa": false,
+   "sintesi": "In autostrada prezzo medio self è di 1,985 per la verde e 2,264 per il diesel",
+   "pubblicata": "2026-11-19T08:13:26Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "imprese.invitalia"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "b4d10a2f94810572",
+   "titolo": "Antica, moderna, contemporanea in cerca delle tre anime di Atene",
+   "link": "https://www.ilsole24ore.com/art/antica-moderna-contemporanea-cerca-tre-anime-atene-AJVAZcLC",
+   "fonte": "bonus-sole",
+   "fonte_nome": "Bonus: Il Sole 24 Ore (casa e fisco)",
+   "tipo": "stampa",
+   "aree": [
+    "ambiente"
+   ],
+   "normativa": false,
+   "sintesi": "Il suo ricco patrimonio artistico (due siti UNESCO, 178 musei, 44 monumenti antichi) va dal Partenone al Niarchos Foundation Cultural Center",
+   "pubblicata": "2026-11-19T08:11:38Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "ambiente.paesaggio"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "1f9bd2da54fe6aa4",
+   "titolo": "Accordo in Ue per rinviare di due anni la stretta sul metano",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/19/accordo-in-ue-per-rinviare-di-due-anni-la-stretta-sul-metano_8f90fa78-816e-496f-b864-83347b0973a3.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "norme"
+   ],
+   "normativa": true,
+   "sintesi": "Gli obblighi di monitoraggio sulle importazioni scatteranno da gennaio 2029",
+   "pubblicata": "2026-11-19T08:07:16Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "04993e5f1d534a66",
+   "titolo": "Avvio del procedimento di dichiarazione della pubblica utilità - Comune di Agerola",
+   "link": "https://www.regione.campania.it/regione-informa/notizie/avvio-procedimento-dichiarazione-pubblica-utilita-comune-agerola",
+   "fonte": "bonus-camp",
+   "fonte_nome": "Bonus e contributi Campania/Caserta",
+   "tipo": "ente",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": false,
+   "sintesi": "Avvio del procedimento di dichiarazione della pubblica utilità - Comune di Agerola DARIO CIOFFI Gio, 19/11/2026, 09:03 19/11/2026 - Avvio del procedimento di…",
+   "pubblicata": "2026-11-19T08:03:39Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Campania"
+  },
+  {
+   "id": "215a28f43e567993",
+   "titolo": "Elon Musk says he feels ‘foolish’ for donating nearly $500mn to Republicans - Financial Times",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRklYSC12UEhQUHpzZG1uNHNUaHNpSkhJbU9TaVlGUGp2cUlaR3dmOTFjaVRiYXJpbncxamtQQ0ZGSnhBTDdDS1VjSG11Y1FBTHM3MEZaZEQyRXMzOHFvVTJQSGxZbHhWZnpGb3Uwa2ZtQThtYXpLN09qRGotVTEwN0M2OUU?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Elon Musk says he feels ‘foolish’ for donating nearly $500mn to Republicans Financial Times DealBook Summit: Elon Musk Paints Himself as Political Moderate, Says He Is…",
+   "pubblicata": "2026-11-19T08:03:19Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "87cfda24e8cb5d36",
+   "titolo": "Pensioni, da quota 64 anni all’inflazione: cosa c’è in manovra e cosa potrebbe cambiare",
+   "link": "https://www.ilsole24ore.com/art/pensioni-quota-64-anni-all-inflazione-cosa-c-e-manovra-e-cosa-potrebbe-cambiare-AJ2mQdKC",
+   "fonte": "bonus-sole",
+   "fonte_nome": "Bonus: Il Sole 24 Ore (casa e fisco)",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "Pensioni materia incandescente. Il testo della manovra per il 2027 , uscito dal consiglio dei ministri del 28 ottobre e passato alla Camera per l’esame parlamentare, è…",
+   "pubblicata": "2026-11-19T07:45:55Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "bonus.bilancio"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "f6f033ecd338f6b7",
+   "titolo": "Per collaboratori e partite Iva non ordiniste lo spettro di redditi bassi e pensioni da fame",
+   "link": "https://www.ilsole24ore.com/art/per-collaboratori-e-partite-iva-non-ordiniste-spettro-redditi-bassi-e-pensioni-fame-AJpxbjKC",
+   "fonte": "bonus-sole",
+   "fonte_nome": "Bonus: Il Sole 24 Ore (casa e fisco)",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "Sono fuori dai radar della legge di Bilancio 2027 che si occupa dei professionisti “di serie A” - fino a 100mila euro di reddito annuo, beneficiari della flat...",
+   "pubblicata": "2026-11-19T07:43:42Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "bonus.bilancio"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "866fb6296651ded0",
+   "titolo": "Sentenza TAR Puglia, sez. Lecce, 16 novembre 2026, n. 1415",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORkRLS2JjTzVHUUZHaU5XcERhZTNJR1dEX2VjcEtiNkxDSkxzRlFSSEM2MjZhdE1rV0VfbDFNYWlSTDZSTURkclBnWU0xRi10WHNUaDVSOXoyM3BWNThuTXF0emNwMlBDeXZrcXVONFlGV0FLNzRWbVlUWC1KdkdvZkZwUnVBbUZCSFZoS3NkRnpqTGhOc0lOUnN2SnFEa1ZaZlVzMVJ4clROVXVub2ZUVFBpUdIBvwFBVV95cUxOMnhRU013YlRhVm96dl9oS0R5NHdjOTRGa3J2Slk1VVF5bFViRVp2WmZCeGVoLTlXcWdMMGE5VDd6Vm4tajY3Sk5FQVo5UkZYbmFXZ3FiTncyaEszZW1BcmJmdW9rcTBlM0JFSXNpTDh0NHNEeG1hcXBGOTdVQWV5b0pMMFc0VVZtdmtfSV9RU2o0clVkcmhmYTQzSHl6TnV0ZkVZT0xwRTZ2UEpzOFFxNk5NTDBQeFJiYXhkVjBkbw?oc=5",
+   "fonte": "lavoripubblici",
+   "fonte_nome": "LavoriPubblici",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": true,
+   "sintesi": "Sentenza TAR Puglia, sez. Lecce, 16 novembre 2026, n. 1415 Lavori Pubblici",
+   "pubblicata": "2026-11-19T07:38:08Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "869d523752d10eab",
+   "titolo": "Allarmi bomba, il Viminale avvia la mappatura dei siti a rischio e potenzia il Centro Situazioni",
+   "link": "https://www.ilsole24ore.com/art/allarmi-bomba-viminale-avvia-mappatura-siti-rischio-e-potenzia-centro-situazioni-AJjUKOJC",
+   "fonte": "bonus-sole",
+   "fonte_nome": "Bonus: Il Sole 24 Ore (casa e fisco)",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": false,
+   "sintesi": "Dalle scuole agli ospedali, parte la ricognizione con i prefetti delle strutture potenzialmente esposte alle minacce.",
+   "pubblicata": "2026-11-19T07:36:59Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "4672336b83e040c9",
+   "titolo": "L'Ue rinvia al 2029 la stretta sul metano",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/19/lue-rinvia-al-2029-la-stretta-sul-metano_41f23e1e-14f0-40de-b099-588e6760c0df.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "norme"
+   ],
+   "normativa": false,
+   "sintesi": "L'intesa dopo le trattative svolte durante la notte",
+   "pubblicata": "2026-11-19T07:27:24Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "9008318660f3b6e2",
+   "titolo": "Borse Ue positive nel giorno debutto di Anthropic a Wall Street. A Milano vola Saipem",
+   "link": "https://www.ilsole24ore.com/art/borsa-ultime-notizie-indici-giovedi-19-novembre-2026-AJ6krYLC",
+   "fonte": "bonus-sole",
+   "fonte_nome": "Bonus: Il Sole 24 Ore (casa e fisco)",
+   "tipo": "stampa",
+   "aree": [
+    "norme"
+   ],
+   "normativa": false,
+   "sintesi": "Asia mista con Tokyo che chiude positiva, in rialzo dello 0,7%. Tornano a salire i prezzi del petrolio con il Brent in area 92 dollari al barile.",
+   "pubblicata": "2026-11-19T06:35:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "959c8be696db0fb1",
+   "titolo": "Manovra, stop alle ritenute sulle fatture fino a 3mila euro",
+   "link": "https://www.ilsole24ore.com/art/manovra-stop-ritenute-fatture-fino-3mila-euro-AJhY4JLC",
+   "fonte": "bonus-sole",
+   "fonte_nome": "Bonus: Il Sole 24 Ore (casa e fisco)",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "Micro e piccole fatture fuori dall’obbligo di ritenuta tra imprese a partire dal 2028. Sarebbe questa una delle novità che verrà introdotta in manovra durante il…",
+   "pubblicata": "2026-11-19T06:30:05Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "bonus.bilancio"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "fa5386d78bae50f3",
+   "titolo": "Grand Theft Auto VI launches to rave reviews after 13-year wait - Al Jazeera",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOektPZ3lXMkg4dTBVbU84Wjc5dEducXhBMlZINFdFYXE0bmxjVGVIemhHMVZRTnU5Z2lHZ0w5alpfblAxVEVIRTlRZGxmZ1RuUWlaaVVPOThuZXNEeGxPY3RaSVlZLWpIeHdRWmRrYVpvMkd1eFU2dW9XWTRqSnFmaDhTcUN1LUhZUUU0emJ5cGJQcVA0VG8tOEZKNG1BTDBQNXBDMVFtblnSAa4BQVVfeXFMTnctX1Q3NWRIVDVCcU1lNzJxTnEzTWJnOEdJb3Zia3hHTTRxbFNoSDZxZ1oyVkxIdlI5bnZtc2c5Tm5scG5sN2gxMUMzYk5zbF9Lb1ltVU1FdktoTUlNMTlvNmN6cDNVNnpsenRJU2ZKcFhSVUJId0hHWHZNWXhQeDZ6ODMxTnhwNVZPYy0wUmF5SXFPTTRKektVZVE5YWpZSzZWcnVyb0FXQ2YyVHNR?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Grand Theft Auto VI launches to rave reviews after 13-year wait Al Jazeera “Grand Theft Auto VI” may mark the end of an era in gaming The Economist Fans praise GTA's…",
+   "pubblicata": "2026-11-19T06:14:04Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "b2ff3a92aef9d6d3",
+   "titolo": "Locazioni brevi o turistiche e limitazioni urbanistiche tra normativa europea, nazionale e regionale",
+   "link": "https://ediltecnico.it/locazioni-brevi-turistiche-normativa/",
+   "fonte": "ediltecnico",
+   "fonte_nome": "Ediltecnico",
+   "tipo": "stampa",
+   "aree": [
+    "norme",
+    "edilizia"
+   ],
+   "normativa": false,
+   "sintesi": "Le limitazioni urbanistiche alla prova della Corte di Giustizia UE e della Corte Costituzionale: impatti, limiti e disparità di trattamento.",
+   "pubblicata": "2026-11-19T06:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "norme.ue",
+    "edilizia.urbanistica"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "fd8b2e04361e24bd",
+   "titolo": "Stato legittimo, i geometri propongono documenti alternativi e regole uniformi",
+   "link": "https://www.edilportale.com/news/2026/11/normativa/stato-legittimo-le-nuove-regole-proposte-dai-geometri_112830_15.html",
+   "fonte": "edilportale",
+   "fonte_nome": "Edilportale",
+   "tipo": "stampa",
+   "aree": [
+    "norme",
+    "edilizia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": "2026-11-19T06:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "norme.professione",
+    "edilizia.sanatorie"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "1130916a743142fe",
+   "titolo": "Aree idonee FER, la Consulta salva le semplificazioni ma boccia due norme",
+   "link": "https://www.edilportale.com/news/2026/11/normativa/aree-idonee-fer-le-due-norme-bocciate-dalla-consulta_112851_15.html",
+   "fonte": "edilportale",
+   "fonte_nome": "Edilportale",
+   "tipo": "stampa",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": "2026-11-19T06:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "af40bd949fee3fd6",
+   "titolo": "Conoscere il vetro cellulare: caratteristiche e impieghi di ghiaia e perle di vetro cellulare espanso",
+   "link": "https://ediltecnico.it/conoscere-il-vetro-cellulare-ghiaia-e-perle/",
+   "fonte": "ediltecnico",
+   "fonte_nome": "Ediltecnico",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "In questo nuovo contributo della nostra rubrica dedicata al vetro cellulare, l'architetto Roberto Sacchi ci parla della ghiaia e delle perle di vetro cellulare espanso…",
+   "pubblicata": "2026-11-19T05:59:12Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null
+  },
+  {
+   "id": "b1b01532186a8843",
+   "titolo": "Messico, crescita potenziale da 1,4 miliardi per il made in Italy",
+   "link": "https://www.ilsole24ore.com/art/messico-crescita-potenziale-14-miliardi-il-made-italy-AJ6LtDLC",
+   "fonte": "bonus-sole",
+   "fonte_nome": "Bonus: Il Sole 24 Ore (casa e fisco)",
+   "tipo": "stampa",
+   "aree": [
+    "imprese"
+   ],
+   "normativa": false,
+   "sintesi": "Un paese dove è già consistente la presenza delle nostre imprese: è il primo mercato per l’Italia in America Latina e la terza destinazione dell’export italiano…",
+   "pubblicata": "2026-11-19T05:55:01Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "imprese.invitalia"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "8ab277feb57ffd1e",
+   "titolo": "Anthropic valued at over $1 trillion in historic IPO - Axios",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVQW5FQUFlUkpzU1BnR2RJV2Q0eG1RWVNNYS0tU0REZU9pNWV0cmI2NTd2OGQyeVhEai04c2cxOGd3LVdRNWFJbVdscGdSTmthblg4SnJRcVVnSi1oRDdxYndNVUI3SDlP?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Anthropic valued at over $1 trillion in historic IPO Axios Anthropic to float on the stock market today as it raises $81bn in record IPO – business live The Guardian US…",
+   "pubblicata": "2026-11-19T05:46:50Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "14cd114072abf00d",
+   "titolo": "2026 CMA Awards: A look at the top highlights and biggest moments - ABC7 Los Angeles",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQV9obEZMOUs0am9WS1lKdUpxT3VVa2VSUURmZmxiNm9fT05DajIwSll3YlE4UVo0Unp6YTIxaFRReXowQUFGbTBCVnppS1VFdkR1aUYxRW43V0szMC1wUm1iZ2lvb1hyVWZXbUJWZTlGX2hpMms4QWktTTFwMHkxbml4U0Y4bWFwa00wdjBiRGV6WWdUMWpsV1BISndneGNCd2xBTkdkcHVsMENQVmItanRWTXdrZHFjdkJRVWtKLVpyWVl4cWhabHVuRkhoSkZDMUhyNDExeldzN2c5?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "2026 CMA Awards: A look at the top highlights and biggest moments ABC7 Los Angeles The 10 Best Looks From the Country Music Association Awards Red Carpet The New York…",
+   "pubblicata": "2026-11-19T05:34:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "cc9ceb0da814c4a5",
+   "titolo": "Immobile condonato, si può ristrutturare?",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMG1LYTJKemVWN2dXY1ZobTljSmhGWWU5SlZqUmV0SXNHVFZpaUtXeXBTWnpRNm1EYk5BMjMyem1YZGV2WXpxLWd2SVRDYlZSNVVSRGlJSEx3ZW5zWjFqRkpja1ZaLVgzQklMbDRwTnlwREpfWWtCMF9LT0Zha0JJUVZKVW52WWt0bEpMXzNhWnplcG4tZXJV0gGcAUFVX3lxTFBUbG5tUm5YRWZOQUJrSjhDRGtRNFlWMXhscWVRbzJ2bzRJU0pxT3ZISXFhVC1Kb21qNkVjWUZlaTVwcjhJTXlLYlNJVE9LYlZ5UXNkR0dhNmZqVmRHY1ZOSTJMWXl3QUFoN3NsaXdabFRRSVZnM0hxc0NQaFhsQUNKWmwtdWNJeExMOWVNSFQwSkZnMi1YX3VpRENELQ?oc=5",
+   "fonte": "lavoripubblici",
+   "fonte_nome": "LavoriPubblici",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia",
+    "appalti"
+   ],
+   "normativa": false,
+   "sintesi": "Immobile condonato, si può ristrutturare? Lavori Pubblici",
+   "pubblicata": "2026-11-19T05:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "edilizia.interventi",
+    "appalti.opere"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "cbeeca485e6ac24b",
+   "titolo": "Rainfall supercharged by El Niño floods roads and collapses a south Florida synagogue's roof - AP News",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY2hjT213Zm5QNUU1QkJIX1pEUWNsR1lCbUhOVm1IR3VWNmpoMVczbjBTVkFkbGUyWEQ2elJpT1BYUkNpLVZja3kwbzZHbXdLUGs1dGc5OFI2bVpQbEhqSS1WcUprOTZsTzU2Y2hxcm12UUdRTTdqektyNWZ2UTVpNWpoOEhqLXJBUHpPXzhxZFdFYzJ3ZVJfZzZuSThhRXB4Q0FWTURB?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Rainfall supercharged by El Niño floods roads and collapses a south Florida synagogue's roof AP News Florida’s El Niño Rains Bring Hail and High Water The New York Times…",
+   "pubblicata": "2026-11-19T04:51:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "a3ed194a5dca26b7",
+   "titolo": "Mike Pettine To Take Over As Cowboys’ Defensive Play Caller; Christian Parker To Remain DC - ProFootballRumors.com",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQTVPMjdFS2FjZVp4eUxfdEJoZDBDZ0xZNjFfeVJ6NVdYYUJBcDJkYXNrM0NsN3RNQWQ0MWJYaV9pYzVsNUFiVl93TmRCQTl1TTJZZEI5ODN4dmpHM1FZVVpBZ1YzN3Z6dWRiRFNkb0psMzVBODhxLW01bndVLVgyd0lsQ0tmeGpuN1BObktSSUw1SC1Gd2xiRzFEbEwyZ0xGQUE?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Mike Pettine To Take Over As Cowboys’ Defensive Play Caller; Christian Parker To Remain DC ProFootballRumors.com Sources: Pettine to take over defensive playcalling for…",
+   "pubblicata": "2026-11-19T04:48:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "631a81e459a5667c",
+   "titolo": "Stato legittimo degli immobili: 6,7 miliardi di investimenti bloccati ogni anno",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUzNzb2hPd2RfSVhYbkM0SUQ0QzJkUHVIcDFlcTZoMS10emtJTzhvMVhlWkJRams1NElYa0REd05pZFFfNVQ1cWljalhvckpCYjBxZE13aXIxeGFRaWtKVmZXaE1hdm42UUd2b0xWRk5jenV1c2JKMjFwenY3d1M4eUIyNkxtNFdULUHSAY8BQVVfeXFMUC1mUFlobHNRS3lRQ1ozdU5ZZUlfaXAwTGljNzlSbjAxZ3hwM2h2SmJXOGQzaHJkY3VnRjJXbHltc0xsZ0NHS1p0TUw2TU9EbldCR2ozWGdNU3RkOW1KdlQyeVFxRkFyZ1ZGZTJONHFzLXUyVUJQOUVXNkFhVkNaYV9wbzdIeGlpWExRY3ZQWFU?oc=5",
+   "fonte": "lavoripubblici",
+   "fonte_nome": "LavoriPubblici",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia",
+    "appalti"
+   ],
+   "normativa": false,
+   "sintesi": "Stato legittimo degli immobili: 6,7 miliardi di investimenti bloccati ogni anno Lavori Pubblici",
+   "pubblicata": "2026-11-19T04:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "edilizia.sanatorie",
+    "appalti.opere"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "b1b2b24f8507f453",
+   "titolo": "Premio Ambasz–MoMA 2026, vince il Friendship Centre di Kashef Chowdhury/URBANA",
+   "link": "https://www.infobuild.it/premio-ambasz-moma-2026-friendship-centre-bangladesh/",
+   "fonte": "infobuild",
+   "fonte_nome": "Infobuild",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Il Friendship Centre di Kashef Chowdhury/URBANA, in Bangladesh, vince il primo Premio Ambasz–MoMA da 200.000 dollari",
+   "pubblicata": "2026-11-19T03:57:38Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null
+  },
+  {
+   "id": "9689ef03fb515429",
+   "titolo": "'We can get rid of the noise' – Valtteri Bottas relieved to have Cadillac future confirmed for 2027 - Formula 1",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOODhSY01ob2NzWXVEblB5djFUdnRJM082SkRlaEU1dDVGNkF6akJhWUNDZlB2RUpfbjl6Zk9ocExSWWpZdU0tZDJ0aUFYTlJKUDUtWlgtSkRDLTlhQlg2YXBCM3JibDZsWk5zZlBSMFltTTUxeDRKd2ZZUUZobFlwMzZpbkhsTU91TS0tOUxvYTdsTklpLUo5NGdLelVtTGtReG91WExLM1lSSThIYUhiQlN1a0xSYWJJUjZKSmRQcEIxX0k1LWhGZU5aWEVIYlltbjVid3kzdy1KTWttakduOHFqbEs1UEk?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "'We can get rid of the noise' – Valtteri Bottas relieved to have Cadillac future confirmed for 2027 Formula 1 Valtteri Bottas to race for Cadillac in 2027 after Colton…",
+   "pubblicata": "2026-11-19T03:13:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "3154afae90a3348d",
+   "titolo": "Incentivi tecnici, ASSORUP interviene sulla Manovra 2027: a rischio oltre il 30% delle risorse",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNR1JxeTZqM2NoMWo4eDRraEt3ckVFSXlCS0dGclFXVXJUQ3ItLXEwZjhZaEd3Mkp2aGhpbE9hWGhqLW5nSWdfS0ktRE5WZzdaTVlrakc2N1lHMkZXdlRTUHNpa1RWdkxOdzZHQThGYWxKR0x0YzNMbTh6bnFuVkI3V29IbGdMUdIBiwFBVV95cUxOQ1hzc1E0UUotTXd1MTFMUUdKaG5tZjJQdDRhTEdBOF84MV93Ukk4UUxOb3NLTHVKa2hzV0Z3OTFXdXVmVmhfNE8yN3JJd0ZLY0dybmdoUTNfNldjQndtaGNHLWUwZnQ3SWlBMDlVMWtrUlNnVy1lRWNGX0dRaVJudmtTS2RtcmxnVWJn?oc=5",
+   "fonte": "lavoripubblici",
+   "fonte_nome": "LavoriPubblici",
+   "tipo": "stampa",
+   "aree": [
+    "bonus",
+    "appalti"
+   ],
+   "normativa": true,
+   "sintesi": "Incentivi tecnici, ASSORUP interviene sulla Manovra 2027: a rischio oltre il 30% delle risorse Lavori Pubblici",
+   "pubblicata": "2026-11-19T03:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "bonus.bilancio",
+    "appalti.opere"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "aa8db7d91a95ba5a",
+   "titolo": "Sixers withstand several key injuries in character comeback win over Magic - PhillyVoice",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNclNCZW04VnB3UEUtRXpreWI2YmhwWmNuR3g3cHlhaWJWbkY0a3p4c2pZWlpVTkQ1cWJUeWxpZ0xTdllBNWVlc29YOXNKYjFBdkNNbWZGd1RyWEFvVE53WkQ3MEFuZXdUZ1FRSG1SX05adDlQcF93WW5JZGJXWUhaUWprSFB0T1dnczhFZ2c0WDhTSWcyVU1tckpEWmNKMmp4OVdoTy1rcnJQQXBoM1kyQktCSWFlQzczOUFVOWJQTWRaUnFyak5lVE5mQ1dDVTR6RDV6c1N3VTZDQQ?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Sixers withstand several key injuries in character comeback win over Magic PhillyVoice 76ers rally vs.",
+   "pubblicata": "2026-11-19T02:47:08Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "fb1ec16a871b53e3",
+   "titolo": "Musk says Jensen Huang is irreplaceable, regrets midterm spending - CNBC",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1IZzFuTWNYdk9Ic0Z4cGxSR2pBcVB1a0hMUE1icWUyYnNrYzBaOEphTmcwcDlncDJsZG5lY2Rjby1KOGZrU2liaGxNOGhPZlctcm5pOUFOeG1ZbTBYeXRjV0NZbGJUS21RbE5oYkhwYk5vSjQzdVFV0gF8QVVfeXFMTjBQalZjdEotUDUwTXJOOTdvUi0xcExrZUlNUkEtLWprdGhIdHUxb1ctUVRkaXFVczg3UWJJaC1Nalg5cW1KS2x3LVpydHMxejlJUEJYZWZiUWxKSzB4SXJSUEJEVFBJbkVqTno0STl0S2V1VDhDbEFnb1FLZA?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Musk says Jensen Huang is irreplaceable, regrets midterm spending CNBC Virtual ‘Jensanity’ rocks Taipei in support for Nvidia chief Financial Times Nvidia’s roaring…",
+   "pubblicata": "2026-11-19T02:37:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "45c83161327f5fa0",
+   "titolo": "Vincent van Gogh painting auctioned for record $190.4m after dispute over Nazi era sale - The Guardian",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd3VfR2J4b3psWUEyZUJLTk1vTndMQnI2cXJrSVh0Z3R6NXIwc2pZcHI2dUZjNTE2aGI1MUFYbHRZMXBJbURWYmtMdmpLVmdGS3dMWVNlVWxfVU9wRElxakJ2eWFpYTNEcmFPUTRPZ2c4NWRxc2YxMEF1SGRaR1U3YUd2RENXWTVfVEJiRWlCRUtqTFhIamM1dFVoMmJTX1lzdl9GcW1hUi1PUQ?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Vincent van Gogh painting auctioned for record $190.4m after dispute over Nazi era sale The Guardian Van Gogh painting sells for record $190.4m after row over its Nazi…",
+   "pubblicata": "2026-11-19T02:37:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "b248af1c1a82927a",
+   "titolo": "Storm Brings Torrential Rain and Floods to the San Francisco Bay Area - The New York Times",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5sQjBsajZCOW9pX1BaYmtfY2k5eG93Vy1wSHRtSkt6WWlXNnViVjBjVmdRenk5S3dLMURwemVqclp1NGg2aXd5Rm5tbENTN3JxVUNTN2pZcGJCUWpnbVpib25OeVF2S0VnZGdrUnUxR01mZ2cxMFQ0ZDZB?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Storm Brings Torrential Rain and Floods to the San Francisco Bay Area The New York Times Live storm updates: Severe flooding inundates roadways leads to crashes…",
+   "pubblicata": "2026-11-19T02:02:37Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "85f98b4939a98ba7",
+   "titolo": "Permesso di costruire annullato dopo anni: quando la falsa rappresentazione supera i termini dell'autotutela",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVWU4dU51QnlLcEZpYmlHY3JERFFZOElWWDJsOV93SXdGTmQzcXZ3NVFkZ3Z2QUZQY2huejlYcWtxclp2Y3N1SkpHU09WanZhMno2Z1hkS1dnNTlNYzJuRnFIRU5KVmEyQ1p6WDN6ZXJRNkZmOUtrcjEtVjgzam1GUUxFRHdvbHA5UzRF0gGQAUFVX3lxTE9JQ0dEUWlBS2QwV3dKNzZrZHp0Q1FtSFdxaUJHZUFNbFRaOXZYdmpJNU1Jb2RtczRkbk5ydFMweTJHOFVUNkhROV82RE13UDhQVTdSVFNSSV92SW1MUlJMSnFzR0NLaXAxWjdaWmw5NkJ4TURwdTgyaEJCUFM4U19MVVkyeFBDSEUycmZaU0hTcQ?oc=5",
+   "fonte": "lavoripubblici",
+   "fonte_nome": "LavoriPubblici",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia",
+    "appalti"
+   ],
+   "normativa": false,
+   "sintesi": "Permesso di costruire annullato dopo anni: quando la falsa rappresentazione supera i termini dell'autotutela Lavori Pubblici",
+   "pubblicata": "2026-11-19T02:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "edilizia.titoli",
+    "appalti.opere"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "1d85268d3b792c61",
+   "titolo": "The Jensen Huang Saga Has Reinvigorated Washington’s China Hawks - WSJ",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPazk0b19YRzZMSjFudnc5Nm4xLTNNMjQ5RDBCRDVuZjBYZzUtdzRMOGpsT1hob0lqbGNDR2hwREJGeUh6UWtGTTgxLVFmVXB4d0JWWTN4eTBqRU54VDcyTEVrYm5xdmQ4cGpLc2F3OVYxOFlrQW5Ga2ZwSEoxLTFVVTdnMUFpa0V6ZjFFSDNNU3g5VkxFeU5jbGxpYW81UDBlSk13WXMyZ21tdnplTFY2cXNvT3NobFhCVmE0?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "The Jensen Huang Saga Has Reinvigorated Washington’s China Hawks WSJ America must get serious about Chinese chip spying The Economist How Nvidia Chips Ended Up Within…",
+   "pubblicata": "2026-11-19T02:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
   {
    "id": "8f5f95ac57724f1a",
    "titolo": "agenzia delle entrate Osservatorio del Mercato immobiliare Dalle informazioni di carattere tecnico-economico dei valori immobiliari al mercato degli affitti: consulta qui le banche dati e le pubblicazioni dell’OMI",
@@ -1365,168 +2693,6 @@
    "luogo": null
   },
   {
-   "id": "dcfd286d7e3a09ec",
-   "titolo": "UIA Golden Cubes Awards: i vincitori Gli esiti della fase nazionale",
-   "link": "https://www.awn.it/news/cnappc-informa/10040-uia-golden-cubes-awards-i-vincitori",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta"
-  },
-  {
-   "id": "d6909c99371c4b60",
-   "titolo": "UIA: Call for Projects Atlante degli ambienti di apprendimento Le candidature entro il 15 aprile",
-   "link": "https://www.awn.it/news/cnappc-informa/10038-uia-call-for-projects-atlante-degli-ambienti-di-apprendimento",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta"
-  },
-  {
-   "id": "1ca858f2328f087d",
-   "titolo": "Progetto Think Tank: 2 FAD asincroni per la formazione Dialoghi con personalità di fama internazionale sul ruolo della professione",
-   "link": "https://www.awn.it/news/cnappc-informa/10033-think-tank-serbatoio-di-pensiero",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta"
-  },
-  {
-   "id": "445c4d5bb2eaf022",
-   "titolo": "03 novembre 2026 ABITARE IL PAESE – IX EDIZIONE / 2026-2027 La nuova edizione",
-   "link": "https://www.awn.it/attivita/abitare-il-paese/10201-abitare-il-paese-9",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta"
-  },
-  {
-   "id": "81ee98be532bc73e",
-   "titolo": "08 maggio 2026 Milano: bando per 110 alloggi a Niguarda e Giambellino Aperto fino al 31 agosto 2026",
-   "link": "https://www.awn.it/news/notizie/10056-milano-bando-per-110-alloggi-a-niguarda-e-giambellino",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta"
-  },
-  {
-   "id": "c3d4e1e394df30b6",
-   "titolo": "06 maggio 2026 Stati generali della bellezza: a Offida l’11 e il 12 giugno Focus sul futuro dei borghi",
-   "link": "https://www.awn.it/news/notizie/10055-stati-generali-della-bellezza-a-offida-l-11-e-il-12-giugno",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta"
-  },
-  {
-   "id": "f504b5c7249218a7",
-   "titolo": "Valutazioni immobiliari: dati, qualità e trasparenza al centro del convegno ASSOVIB",
-   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/valutazioni-immobiliari-dati-qualit%C3%A0-e-trasparenza-al-centro-del-convegno-assovib?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1020791&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=valutazioni-immobiliari-dati-qualit%25C3%25A0-e-trasparenza-al-centro-del-convegno-assovib&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1020791%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "coll-geom-ce",
-   "fonte_nome": "Collegio Geometri Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta"
-  },
-  {
-   "id": "eb7b100865371e5c",
-   "titolo": "San Vito al Tagliamento festeggia i cento anni del geometra Dino Candusso",
-   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1019661&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1019661%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "coll-geom-ce",
-   "fonte_nome": "Collegio Geometri Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta"
-  },
-  {
-   "id": "0e99026cf1faa375",
-   "titolo": "Dentro il cerchio, Condominio 4.0: competenze tecniche al centro della riforma",
-   "link": "https://www.cng.it/web/guest/dettaglionotizie/-/asset_publisher/5xXCrPteqBpy/content/dentro-il-cerchio-condominio-4.0-competenze-tecniche-al-centro-della-riforma?p_r_p_assetEntryId=1020928&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_urlTitle=dentro-il-cerchio-condominio-4.0-competenze-tecniche-al-centro-della-riforma&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fhomepage%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_assetEntryId%3D1020928%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_5xXCrPteqBpy_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "coll-geom-ce",
-   "fonte_nome": "Collegio Geometri Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta"
-  },
-  {
    "id": "c7701c8e645a4f12",
    "titolo": "Giorgetti: rivendico approccio asburgico, manovra investe sui giovani, sostiene lavoro, famiglie e imprese",
    "link": "https://www.mef.gov.it/inevidenza/Giorgetti-rivendico-approccio-asburgico-manovra-investe-sui-giovani-sostiene-lavoro-famiglie-e-imprese/",
@@ -1649,6 +2815,46 @@
    "luogo": null
   },
   {
+   "id": "4159fc613c50ac85",
+   "titolo": "Infortuni sul lavoro: quando il committente diventa datore di lavoro di fatto",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZWI5YmpiaVJ1THNxZm9yWmpBM3hjcXZhYXgya0lPOTR0YUU0UnlOTzkyWE9LUjloYXl3eHlzTHFyVGNhWGVJSVNLNER4VmxXS1NEMGNwekJiMjMzT0kzai1rQU1HWG0yZDN5a1RaZ2ZrVTkwcUhINnBZZDhjaEtUZHZURGpZSEdoS0NVZtIBkgFBVV95cUxNQ2FpQUVlRVk5N3U4d2FubHc4VW1EdTNMTUJOaVd6b0xjMVo3Vi12Nmk2aV92cEtDZDJjRTdnYjN6T3hXR2x1V3A0M0NlUDE4cjFEOFBqU2hELXZ1Unp5aE03ZTQwOEhPNkJnQnNhdzRrMVdYWEFzMU4tZkxtaUhJUkNmUkpEb1BTc3FROExuQ2loUQ?oc=5",
+   "fonte": "lavoripubblici",
+   "fonte_nome": "LavoriPubblici",
+   "tipo": "stampa",
+   "aree": [
+    "sicurezza",
+    "appalti"
+   ],
+   "normativa": false,
+   "sintesi": "Infortuni sul lavoro: quando il committente diventa datore di lavoro di fatto Lavori Pubblici",
+   "pubblicata": "2026-11-19T01:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "sicurezza.normativa",
+    "appalti.opere"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "7131ac93525757d6",
+   "titolo": "Iran widens Gulf attacks by targeting U.S. air base in Kuwait and sites in Bahrain - PBS",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaW9yLUs5SFJFWmk1NUp3aUpBc0lfYl95MEJsUl83dUs2ck9rT1ctbllHMFU0bWpseVFKSG01MV9ueV9LNW9EazJ2M2xla19qSzBPWklsM0F6ZHhDd3h1TzRxTFhSMm5aamtzN3AtZnFORWlNVk1yM0tTY0phUXRORmJwUmFIbU1BZ3ZyanlTVkg0TDMzekV3V0ZkVEl2MTNENkQyOTNSWjVsZGhVNWhZZHpFdjNDTUnSAbwBQVVfeXFMT2g5NGpZdnN5R1R2QXVsV2txeXQzYWhVdllQa1NrY2RSM2JsSHNvNmNWRnNzSGk2UlpoRnlJVFdGbGNQZnJwd0M2S2FDdEdRWmRDTEJ6UFdMUXp0d040UjlHdWFLLVROcjdmRHhCNzdySDNvWFdfWWRsS1BNVkNVYUYybnFmX2RaTFh3TmQxeFFqb2VvUnVxbWlpM3E5Y1Q0dWRPNVBJMzFGSDZZQnltTlQyYTlNUllQa09WZWw?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Iran widens Gulf attacks by targeting U.S. air base in Kuwait and sites in Bahrain PBS Iran widens Gulf attacks after US strikes missile launch site CNN Iran Attacks…",
+   "pubblicata": "2026-11-19T00:36:03Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
    "id": "e17f0e0d5011dca7",
    "titolo": "Trump, Xi and Putin set to hold historic meeting on Apec sidelines - BBC",
    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JaDV1Q0dGNjZ3bW8xZEFsR3hsRzFlb1dFUGFoUFlxejBDaUNyeHZqRnpyZkRTTkhHSWFNU2IxeWhoV0M0c1p5ZEcyMmRFMmpJb2R2TmxB?oc=5",
@@ -1662,6 +2868,60 @@
    "sintesi": "Trump, Xi and Putin set to hold historic meeting on Apec sidelines BBC ‘An absolute nightmare’ — Trump’s trilateral with Xi and Putin spooks allies Politico Russia and…",
    "pubblicata": "2026-11-19T00:27:21Z",
    "visto": "2026-11-19T01:06:11Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "c3772fd578ef417e",
+   "titolo": "Kerch attack: Bridge connecting Russia to occupied Crimea has been hit again - CNN",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMzRmTXhmRm1jLWp1c2JoZGc4Z0VwR1lvMFNNUnVKTmZPbGZ6QVY5bS01Rl96M3Y4WWtQdEtOLUVKMTJ3Z1hLMVlLQllYWW5hbTVQV0hrb2trQ2dYZUZKSVNDUDNKNzgzVUliRDlqWHBaMER2R2VnT05UM2lPS0w5N3haenNObzNYc3VR?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Kerch attack: Bridge connecting Russia to occupied Crimea has been hit again CNN Crimean bridge attacked for 3rd time in a week, officials say ABC News - Breaking News…",
+   "pubblicata": "2026-11-19T00:27:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "dfd73f18f07849e4",
+   "titolo": "Cornyn blocks Trump’s nomination to federal district court because he didn’t choose a Texan - The Hill",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5raTJreThiUkNqVXNrSTM5WE4zVE9SX2llZG4wbDJicmJEMUdvWDkxbDBUYkZyTDF6QUM3d3RJanEzR3N2V1hiYnVhUVlfLTNGcWhweHhXRk95QTNrellreG54RHgzVjB4T2pJcG1DdUFuNDhDdTB4eTFrMjZrX2PSAYQBQVVfeXFMTnV2ajlQcm9ac3hGQzZ5aDFEb2hJa0tFWDNpS1dGbTlQdmRzVWhqU0I4WHhFOEozZkZBX3hXUGxYNlk2SmxXQ2FqNVdyZU8tbG5BOEgweGRVTG0tZkltcUUwdnl1b1hiamRmNlpZNndwMmVKanh4VnF3cjhvUENKOVh0T3JR?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Cornyn blocks Trump’s nomination to federal district court because he didn’t choose a Texan The Hill Sen.",
+   "pubblicata": "2026-11-19T00:26:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "3765546037f6739d",
+   "titolo": "Unvaccinated Pennsylvania resident dies amid historic US measles resurgence - Al Jazeera",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNHBYRnQzSUcybkh6SlVFcnJDRFphZWxuOGE1ZEhvdV9wcnR1VFRTVzlacHlGeWNOZ25wZEV0RWdpemR6REF5Ry1LWWZHUUJldUNqRGJPcFhkOTl4V2g0S0hVdEhIVUFyOUsxMjZCQmN2cUZIRko2aF9xTTMtNnk3NUFNdk9ZYks5RlNDUXAyNm4tdXBpYjF3Y3hnelpETng5MGR6RnhOUVpqa0UwYVFybkZDQi1IZlk30gG-AUFVX3lxTE5sZzRkemljbGt4UHNyazRfUHVOTHgtUmgzaktvcFYtbERfTkx5YXU4SFI2YkhyZDZiY1BZTG8wR21XaXdsSDBVc3NrRDdDTktMZWJWdDhiaGRvcVN3R1A5UjFyZy1pMkpyLUhLamdmVGhDOWYxLXkyYlQwZlRWSjFXUm1IVVZPNk8xY3lLZ0E0c0VYSVJoUURfZ1B6Um5qdXY1aGZLTUJrTC1HODl2T2tQczhPbFltZ3ZOcXFGVVE?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Unvaccinated Pennsylvania resident dies amid historic US measles resurgence Al Jazeera Eighth measles death reported as Pennsylvania nears 1,600 cases The Washington…",
+   "pubblicata": "2026-11-19T00:22:49Z",
+   "visto": "2026-11-19T08:44:19Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": "Caserta"
@@ -1723,6 +2983,44 @@
    "luogo": "Caserta"
   },
   {
+   "id": "652d6039edcd8c47",
+   "titolo": "Four Maryland high school students sue after AI mistakes Doritos bag for gun - The Guardian",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSF91bW51a2g2SHNIZjBOd0lXSDEzNUtKRVBHNDFGSnZCNjlQWGpBbmZOTkJTcVliamhleExMaWJla1E0dWdMTTBLRmI5Q0NSSmZkU2RVMzlwYmpVd1FNT0ItTnJWbUY0alM2bnlaUVBxUUx5a214ZE44WjZhYkl0UGQ3ZXhGNHhIclFTelphMzJSc2Q5eFRaSkdKX3g?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia"
+   ],
+   "normativa": false,
+   "sintesi": "Four Maryland high school students sue after AI mistakes Doritos bag for gun The Guardian A.I.",
+   "pubblicata": "2026-11-18T23:53:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "edilizia.urbanistica"
+   ],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "18b5ae758542d777",
+   "titolo": "Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza - The Guardian",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQT3dEX09BWVR0NUZGYTNZNXNvYl85V1JfbDdYZzk5SDZ1OUVpTDN5SS1RaXZRMWNmNTNsM0VzeHFsMUtORTlyZ2xIVE1pS0RDVE9yQVVTMVhrTUJmNFFHcllVRk5ucTVfci1hV3FHakFhWlVZUm14MXctelI3aTdHVTg4TXpjcWZteHl0WkFiQzR4Zmg1eTRYcTE4YWN2UHJmZVp4cVYza2U4dlpsNW84N0JkQlVFMzNwRklnLXJB?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza The Guardian Israeli military launches rare ground operation in Gaza beyond Yellow Line BBC…",
+   "pubblicata": "2026-11-18T23:42:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
    "id": "0e4b111466c83740",
    "titolo": "Gare di ingegneria e architettura 2026: mercato a +38,1%, ma ottobre rallenta",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQUIxUFdjc2hkN29RdW85SzNQTThQUy1wemNtLVh2S3podkZuQVNBZW5CZU1uT2tlRjBGbHRMWlplaWNUSy1oTUg4TnJxNUZaT3UzTS1ILWZmWXJ1RjJ4Nm9jX05aQmZ3dmFfaVNEQ2VWWmM0VmhlU3Y3Q2pXU19GbXFYSlB4aXNhUVZNSjlObETSAZYBQVVfeXFMTUYyTmVtMFROOXc3dmNDZW9CMzhmWkF0Q2hTaU5JNDJ2SVo4bXBQQWN0RlRvbW5wSlI1d2xZdnZlQk1iRVNQWTMxMDVuMDBsdXFENEpNcnRqT0lFaW5KaVBVdWs4Z293LS11Y21LWU5QUDRpTmttMUR3SVdkOUdValo4TU9KeWNnQUhpandpN3lRM0pzb3Zn?oc=5",
@@ -1743,6 +3041,24 @@
     "norme.professione"
    ],
    "luogo": null
+  },
+  {
+   "id": "4b8120a0202aed92",
+   "titolo": "Google declines UK request for Russell Brand YouTube video to be removed, sources say - BBC",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPOHNOaU1hbXVNaGdvSnRFLVlvUFVPdzQ5NmIyRXZLS1dXSFc3VnB0d3BCM1dxOU52Z09WREt4dXhPcG5TVmE3V2pDRUpUc01QQmkyLU4xbERMc28?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Google declines UK request for Russell Brand YouTube video to be removed, sources say BBC UK ministers reportedly ask Google to block Russell Brand’s YouTube account The…",
+   "pubblicata": "2026-11-18T23:29:14Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
   },
   {
    "id": "5573b4890e20fdb5",
@@ -1873,6 +3189,60 @@
    "luogo": "Caserta"
   },
   {
+   "id": "d83c7fb8b72c9a83",
+   "titolo": "Flu activity rises across US as 6 states reach high levels, CDC data shows - Fox News",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTnNxbkRYSktvY3FDOHJKUXp0bXNDZHRfb2I5M3VLbm15YVZkbVR3Ny1KNkhrSWJ2c0NmZTk1MWJNODRwSkE3MWxuQVVOWUpPUTdnUEJxNU5oM3BEVkxULVlLNHYwUFVIWDIwcGRORjg5M19MNlZOSzNxNEtpVHpwbFlmNHJheFBjaW9iV0JBN1J4QmUzRnBjak1IUjhtQVZYSS1v0gGoAUFVX3lxTE9VaGJ0aDhKRkxId0E0Ul9jdmlvTFZhbDdWUWVLOTFDWHBIX055SHhHT0YxYVVweVEyMDhjRG14Ujl0LTd1ME05Sl9Oa0lXdGpNMHFnTjA5b1hyUHBmSU4tVzhlblFUUnNBd0FlVXFsS0pOT3VTcUYxVmllakNFazNIN1dlMFVFX2tLQ00tMVVDQ21yUkZCam5DZzJlVU5FZ0NRTXJvbVBDeg?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Flu activity rises across US as 6 states reach high levels, CDC data shows Fox News More people are getting the flu.",
+   "pubblicata": "2026-11-18T22:33:23Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "02743ff36736c5c8",
+   "titolo": "Democrats flipped 9 U.S. Senate seats — the most in almost 70 years - PBS",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdmV2SmVvV1YzVTZpQW5ZbHNhZjQ1blUwWUJQamJsRDVFcmh4aDkxd1RIVmtnZ2FvNzZHdXpqMGFTX09fcTExcVg4LU1KckNvaUJsWGZWLW9ybnJEUzI0ejZCYzlNbVdJaXcwOERoRDRoNUFSdHpMeDQ4Wkl1WURzUk9wRlJkQ09jQm9KSVRSQURYMkVFYUpWY1FUMFBsbUNkM0VN0gGoAUFVX3lxTFB3VURjSDZpYzlUZ2JUUldDb1ZFQWV1MzJtUkM3YkdKRDFhTy1yUDg2RjBhUWR6bU96Z3ZzZFFKT3RLdDVpRW84RGtaeEJWclE3b19LVE9kUUpveENNMHk2VGxUdkF1a0lXUWJEeUhUN0dMUXJ5al8tTnpnTTNVTVpIVGlKaVpJMV8zNXN5Yk5rTDV2SGtKT19QNFhyNVdtU1FSbEJqWHV5eA?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Democrats flipped 9 U.S. Senate seats — the most in almost 70 years PBS Mary Peltola ousts incumbent Republican Dan Sullivan in Alaska Senate race, giving Democrats 56…",
+   "pubblicata": "2026-11-18T22:11:08Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "50a9cb2d22d6b9ba",
+   "titolo": "Astronomers witness a star eating its companion in 1st-of-its-kind observation - Space",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2NqUGNSN0hpWFFpX1ZQVGpwV2hXT1l5d1I3VEN0Tk5lcEhCekhJWDJVekNhRE5WcWNCeE8zWTVZNDFNWmNkMTlQVndZeUxmYTVWaGpaUGV5Y3RfTGRVQTRRSGRjQjVwcEMteVJyYWZTYUEwc0tjNnJFVHdSVFltUnVQSVhhazVpX1lvbWdNWWZSX1ZfZmJOQ3I3c2pfYXNYdktiZzB1by1pdjc5bW1EQlFrbEE2U3M?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Astronomers witness a star eating its companion in 1st-of-its-kind observation Space AT 2025abao in the Andromeda Galaxy NASA Science (.gov) Webb confirms…",
+   "pubblicata": "2026-11-18T22:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
    "id": "aae2207c627bca1b",
    "titolo": "Democrat Hakeem Jeffries nominated to be first Black speaker of House next year - The Washington Post",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQmNzX0tUcG5xd3lWR09sUDdPc28zQUVnUUk1WnpSdDk2bEl0aGl5cUdaZl96YXYzVkVEYV9aMVVTQ1hhTUJDUktmLTMtaW9SWmhoc1M0TUhvWWdhU0JNSEZ3U3pYOW1IRml6dzI5WnFYWXNJLTBWTm5oM3FXY1lQYlNHa1BEOXdXS0V2eWlJaUhjaDlSb1doamJOUHdoWko5cFVldkZ6TFVuV3JHcklz?oc=5",
@@ -1929,6 +3299,28 @@
    "luogo": "Caserta"
   },
   {
+   "id": "7da505ec6d83c59c",
+   "titolo": "area riservata - Ecobonus - Mimit",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aS3VPRUpQenlkbU16d2lFMnpkRmszcU5LejZuTGdieEpUVTkzV0tjb2RZb3dkQWRwZFRWc241Q08yYlJ3SGcxbThlNjgtSF9qcjg2Y3ZlbUd5ZjhLSjlBd0duSUc?oc=5",
+   "fonte": "imp-mimit",
+   "fonte_nome": "MIMIT e Transizione 5.0",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese",
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "area riservata - Ecobonus - Mimit MIMIT — Ecobonus",
+   "pubblicata": "2026-11-18T21:37:56Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "imprese.invitalia",
+    "energia.incentivi"
+   ],
+   "luogo": null
+  },
+  {
    "id": "09b51967aec0b230",
    "titolo": "Google launches Gemini 4 Neon with Carbon quality at Flash speeds, live for AI Pro - 9to5Google",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xeEdVUUtUSmN1UFZBdy1kS3BodGthd3Fyc3d1WGlZWWVYUUtBUFJrQ3BzVER5LUxycWtzMm1VVE8wZjR3cUVoSW4teWRCZHpZN2JvY3cwOUZCQVZMTElCdXhBQWRiaGJOV1BNUURn?oc=5",
@@ -1983,6 +3375,24 @@
    "luogo": "Caserta"
   },
   {
+   "id": "030580d3233cfa3a",
+   "titolo": "Abdul El-Sayed Calls Out 'Grifter' RFK Jr. After U.S. Loses Measles Elimination Status - HuffPost",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMjNycmpVUl91RzVOSS1tTmxrUVNrUHk1N0JxcW1GdmRqa1F6T2VETGNuZFpWeUZYODlVS1ZXeGp3elpJQk5iUzRzZi05R2RnNVpwYk9xR00yLXZnX1YxNTRxRVRuVEtjUGctZk16M3pVXzRqcUtHaE5oYU9rN1VqTzVhN244OWVjdllYUzhOUjLSAZYBQVVfeXFMTXdCbzBFSGJZRzl6NXFwbjJEWTdzRDB1SFpqOHhtcmYtd2Z4UUZ4SXhoQ3hKVklDblh2THVpb0l5YkFBSHBYNENQUGFXLTN1bHllczVUc2pWeGdMY1FydHhiRHRTel9GS0Q4bU40X2owa1UtVEVUVkFCS0pETDVNYkRXX2JfbWR2RHVSQlB5cjVYT0V2bzd3?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Abdul El-Sayed Calls Out 'Grifter' RFK Jr. After U.S. Loses Measles Elimination Status HuffPost Timeline: How the US wrangled the deadly measles virus and how it has…",
+   "pubblicata": "2026-11-18T21:23:40Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
    "id": "b1cbfb8e8866c2a0",
    "titolo": "What the Crimean bridge attack means for Russia - DW.com",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVWNJeU52cmNIWXVxYXloM1RVdm5SQWdTd3pFWUd6QzhXYmhNeWx4enlkSjNENHBLcnBDY240aV96SEdiTnFVOUtuTWJ4ZmVIUHYySmJaczR6NzJLXzQwc2p0Y1lfSnpNaUdfOEdHLUwyZDdGVkVFODZFZjRtVVVXUjNVdWl5REXSAYcBQVVfeXFMTWR5dF9IVHRBaVhOc2RKbGpGR193aDhrRHRwSFRDZzVLeV9EdnloLTFHRU9CRi01TU5VV09iSXJ0V2VBTGJndFo0R3BSdDhmcXpraFhlSllSREJLVEZYcDVfT3NDQXRLTVdyWEpRNEw3YUY1TVJQT09KWEowOHVWSkFMeHlRVVhB?oc=5",
@@ -2019,6 +3429,24 @@
    "luogo": "Caserta"
   },
   {
+   "id": "57ff983cd4eadc02",
+   "titolo": "House Democrats Cast Wide Net as They Prepare Trump Investigations - The New York Times",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWlJQTWo5ek5SZGlUalR6SFI1U3JNeTI3RVNkOVQydjZUcjM1YWc1cEhEUWtROHB6OEk2c3pNUkNhUTEzQU1iYXFFd3BMZl9MS2JFVmM0Rlk1cXo0UEl3Z3U5V2drZDEyVHhWMmh3aXVzRXhSSzc5TFppZTRxT2tJNFVFM2lkdDN2bUNSU3BvYWM?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "House Democrats Cast Wide Net as They Prepare Trump Investigations The New York Times House Democrat warns 13 Trump allies to save their records for upcoming…",
+   "pubblicata": "2026-11-18T21:03:47Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
    "id": "a837d539774f7cc1",
    "titolo": "Exclusive | Palo Alto Networks to Buy AI-Startup Applied Compute for $4.5 Billion - WSJ",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYzJMRVRpMDh6UlVrLWNaa0JYTmZhMkUxWWdweFJuWDdJZWE2NmVsSFczcFMwT3FVYzRxVV93TXlrSVhfWDBnRTBsSTNRcjMxUF9KMnp5UVNYOTRKSlJPa0tRMC1Mc2FTN3I4RGpZRVJxZ3FCOUVkaEZkQTlDUzNpZ1V2VS1UOXZRdEkyODVCMTJuMC1pSWd2QnN1Skw1eTFWS0Z3dzd1enk?oc=5",
@@ -2035,6 +3463,82 @@
    "metodo": "rss",
    "sotto": [],
    "luogo": "Caserta"
+  },
+  {
+   "id": "8bd79f5dc4775d7e",
+   "titolo": "Duffy keeps blaming L3Harris after FAA ground stop, even as cause remains unknown - PBS",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQM1RGd3FRYVZKaDRCWmo4ZzJZeEZ1LXVRUl9UUDl0M0xjSl8xaGM2SGwzZXZQOGNQRDh3SlRhR2V4V2U0Y1FKd0p1UzFUa05PbDBPUldzbDRwOVdTMWVXejRJQ2oydHBQbU1YZnIzUDdVaHNSM0JhSjZIM1NHMUZQaDR2QzlGcVJoRzBzdkkwbzRuZTd3aXYtenhSSGw5Rm10ZVVvTElBeDRIeTNPN3Bjek9zcDVLNUZ4RmN0RTBYSWdvTnN2WG1DeDFJYTh0elR5b1g0?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Duffy keeps blaming L3Harris after FAA ground stop, even as cause remains unknown PBS Exclusive: ‘There was no monitoring.’ Sources say FAA had little oversight of work…",
+   "pubblicata": "2026-11-18T20:50:38Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "5a893a6528997144",
+   "titolo": "U.S. Army is scheduled to detonate lead azide near Middletown, elevating risk for lead in air - Iowa Capital Dispatch",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY2RkM2pmaXV6czd1akRUcUtnV25pc19NV2loMHpDcVJGbUcyVUl1bm96cW01R1NkeGlHTGVXMTZnWmtmbzR0TmN0ODZsYk9EaGFPYkpmWUVMbjJocjdxTE9HeFdzUHdaZ3ZOVDI1VzU2WWg2MkVCOGVUakxPV1NzTHhXRmdIc3EwSExqNmo0eXNQOXMzbU8zdlZtcXhXSFhNUG10WG83YTdMWmRIQ0pVNlJTS2FxSUpwREMwM09DT2tMNkxQc0JtMzV2RFAwemNp?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "U.S. Army is scheduled to detonate lead azide near Middletown, elevating risk for lead in air Iowa Capital Dispatch Army releases new maps showing potential locations of…",
+   "pubblicata": "2026-11-18T20:49:27Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "cd8658fa0ea6923c",
+   "titolo": "KJ Biermann Faced 16 Alleged Sex Offenses, Including Incest and Child Molestation, in Prior Case - E! News",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLXVPd083enRBMHhNcndSZFNJWktZVW9weGxfZWJQb2RFanZRWWhubzhKc1MzOW1zLUV1LTdubFhaYkY2Y0JTYjVWM0EzaV9QUVJ4S0R2MWxNZ1RGNU0xeG5HS1hwWUNEMnVuN2c1WVRjMENRZjdXMTdVaVoyVTh1NnQ0V0w1RjUxdG5kM1JnNGFTM043dGx6cVloazU5M3JK?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "KJ Biermann Faced 16 Alleged Sex Offenses, Including Incest and Child Molestation, in Prior Case E! News Shocking new details emerge in previous KJ Biermann case USA…",
+   "pubblicata": "2026-11-18T20:21:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "facc92ac36766f87",
+   "titolo": "Manovra: dal condono al Superbonus, le misure che potrebbero cambiare",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/18/manovra-dal-condono-al-superbonus-le-misure-che-potrebbero-cambiare_238c3a05-adc8-4cb5-aa9b-0c85bb2a6524.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "bonus",
+    "edilizia"
+   ],
+   "normativa": true,
+   "sintesi": "Arriva la pensione dedicata per forze dell'ordine. Cambia il Superbonus",
+   "pubblicata": "2026-11-18T20:13:32Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "bonus.superbonus",
+    "edilizia.sanatorie"
+   ],
+   "luogo": null
   },
   {
    "id": "27be6a20d8f0cd0e",
@@ -2164,6 +3668,44 @@
    "sintesi": "Top-scoring actor sent home in ‘Dancing with the Stars’ semifinals Deseret News 'DWTS' Season 35 finalists confirmed for first-ever live finale upi ‘Dancing With The…",
    "pubblicata": "2026-11-18T19:01:08Z",
    "visto": "2026-11-19T01:06:11Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "176edda5db521f40",
+   "titolo": "Manovra: FI, per pmi spalmatura dei crediti del Superbonus dimezzata su 5 anni",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/18/manovra-fi-per-pmi-spalmatura-dei-crediti-del-superbonus-dimezzata-su-5-anni_93f8a68f-91a2-4b74-9543-ac00fbb83d63.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "La misura vale anche per le micro. Tetto dei crediti fino a 500mila euro",
+   "pubblicata": "2026-11-18T18:58:15Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "bonus.superbonus"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "6b21ef022d7a0f46",
+   "titolo": "Voyager 1 is now a light-day from Earth. Here's what to know about NASA's longest-running mission - PBS",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY2JJVlNJNFF6QTJaNkxINXl1ckRvNUppNDZ6QndSRE5lcVdyRTFuM1B6Z1pSZlNEam9CaTVZNlNHd3MxNTM4WmdZc2ppNFlNRm5rNUoyQWxoUnoxTVcyemFSWHJPeTdzQ0hlUzE0TDVfQzdoMmFIaGhBVklfREwwV0dIaDJNU1dJYmg5OTNGMGdNU2lVVFJudFBLTWlxdW5PTDk2ZFduU0JaaXlNY1hVaWcyVmtkOE5sUV9SeFFlakJFSUgxRGU2MGdXTQ?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Voyager 1 is now a light-day from Earth. Here's what to know about NASA's longest-running mission PBS Voyager 1 is now one light-day from Earth CNN As NASA's Voyager 1…",
+   "pubblicata": "2026-11-18T18:55:55Z",
+   "visto": "2026-11-19T08:44:19Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": "Caserta"
@@ -2785,16 +4327,16 @@
    "fonte_nome": "Fiscal Focus",
    "tipo": "stampa",
    "aree": [
-    "edilizia",
-    "bonus"
+    "imprese",
+    "edilizia"
    ],
-   "normativa": false,
+   "normativa": true,
    "sintesi": "",
    "pubblicata": null,
    "visto": "2026-11-18T18:51:40Z",
    "sotto": [
-    "edilizia.produttivo",
-    "bonus.contributi"
+    "imprese.zes",
+    "edilizia.produttivo"
    ],
    "luogo": null
   },
@@ -2895,6 +4437,44 @@
    "luogo": "Caserta"
   },
   {
+   "id": "85bf0cb93ff9edf1",
+   "titolo": "Remo Morzenti Pellegrini scelto come nuovo presidente Anac",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/18/remo-morzenti-pellegrini-verso-la-presidenza-di-anac-lindicazione-attesa-in-cdm_44b8a7fa-254f-49be-857c-f7ba88dd81c5.html",
+   "fonte": "ansa-pol",
+   "fonte_nome": "ANSA Politica (leggi e decreti)",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": false,
+   "sintesi": "La proposta passerà al Parlamento per il parere obbligatorio delle competenti commissioni",
+   "pubblicata": "2026-11-18T18:07:10Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "appalti.codice"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "878f13b7f459ee77",
+   "titolo": "Google’s AI feature in Search gets its own incognito mode - TechCrunch",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVFpFb2I5OWNrdjN1cXg1UU8wMWJMSzRQYkhUbGM5NThUSFNKLTV1MXhYTWEtSUwwX2dNU05uclN1bmlGc3M5dTNxTlBIM3ZSWG5JcHZyWXV4aDNvU3VBcnloTDlla3k3a01tQ1FtQkVtV3lEd0RSWE8wTExEb3lONHpZOTRFTTVGUDNEV3lpNzZERHNvTVE?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Google’s AI feature in Search gets its own incognito mode TechCrunch Temporary threads are now available in AI Mode in Search.",
+   "pubblicata": "2026-11-18T18:04:05Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
    "id": "3de8bc081baf3f3f",
    "titolo": "Lifting weights on a GLP-1 is critical — but not because it saves muscle - The Washington Post",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX0Nod3lkT2t2cF91YmRmdEpQS2Q0SVg2d2V0UUtqa2lUTmxrS3dVdW9GT2Fmc2N6ZF9ybGZyRkdMUlZJZ0FNZ0s3Z1VNckJLMDZuc0VaTTJieXJPZjZUQ042STdDLWRJemdlY29Bb3FvbENtUlAyNU9zVExfSzFGeVVUdENSVDAzdVhEdUprX3RtUHlBN25iSi0zYnY4clp1V3FpOHYwaW9TM1RVWEl2Ng?oc=5",
@@ -2911,6 +4491,128 @@
    "metodo": "rss",
    "sotto": [],
    "luogo": "Caserta"
+  },
+  {
+   "id": "d132f6bdfda6b7b6",
+   "titolo": "Google is forcing Android app developers to properly support foldables - The Verge",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNallnZVhjM2pfaWozajdwdS04NElORzh3VXlzcE5JbS1Obl96Yzk1QmpERG8wOW55ZjNhNGpkamZQZDh3ZkdrS2U3Wm5JUlZ3RXdCaFZJRWxKQ3hTV1VUcGxkTGlfUzRYdXkyTzZKZU1KMjBXR1hZQ0xpLWFZblNQZG5WUUF1cWtQRm1vcDBjQVZIQ1JNYWc?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Google is forcing Android app developers to properly support foldables The Verge Google Play puts Galaxy Z Fold 8 and Pixel 11 Pro Fold apps on the clock PhoneArena…",
+   "pubblicata": "2026-11-18T18:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "b0585557f2869a19",
+   "titolo": "Arriva pensione dedicata per forze dell'ordine, calcolo con fino a 4 anni in più",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/18/arriva-pensione-dedicata-per-forze-dellordine-calcolo-con-fino-a-4-anni_5ba5c97f-8e09-434d-b81f-25e3e5473482.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "Bozza emendamento del governo alla manovra, subito coefficiente con 2 anni in più",
+   "pubblicata": "2026-11-18T17:58:50Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "bonus.bilancio"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "f8b521302ea05041",
+   "titolo": "Da FdI 7 emendamenti sul condono,anche per piccole opere finite entro settembre 2025",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/18/da-fdi-7-emendamenti-sul-condonoanche-per-piccole-opere-finite-entro-settembre_6cde67d0-b926-4a8c-8f20-a84c51adf97a.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia",
+    "bonus"
+   ],
+   "normativa": false,
+   "sintesi": "Comuni devono completare istruttorie entro il 30 giugno 2027. Regioni decidono se riaprire",
+   "pubblicata": "2026-11-18T17:55:45Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "edilizia.sanatorie",
+    "bonus.bilancio"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "a6b972c82a2fd222",
+   "titolo": "Da FdI 7 emendamenti sul condono,anche per piccole opere finite entro settembre 2025",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/18/da-fdi-7-emendamenti-sul-condonoanche-per-piccole-opere-finite-entro-settembre_1adc0038-da36-4528-9889-a6eda9a3c8e1.html",
+   "fonte": "ansa-pol",
+   "fonte_nome": "ANSA Politica (leggi e decreti)",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia",
+    "bonus"
+   ],
+   "normativa": false,
+   "sintesi": "Comuni devono completare istruttorie entro il 30 giugno 2027. Regioni decidono se riaprire",
+   "pubblicata": "2026-11-18T17:55:35Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "edilizia.sanatorie",
+    "bonus.bilancio"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "9ff9a7b31f10cb26",
+   "titolo": "Il Cdm avvia iter nomina di Remo Morzenti Pellegrini presidente Anac",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/18/il-cdm-avvia-iter-nomina-di-remo-morzenti-pellegrini-presidente-anac_7cf4fb41-8bf1-440e-ba08-2d8d9a089c2e.html",
+   "fonte": "ansa-pol",
+   "fonte_nome": "ANSA Politica (leggi e decreti)",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": false,
+   "sintesi": "La proposta passerà al Parlamento per il parere obbligatorio",
+   "pubblicata": "2026-11-18T17:44:59Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "appalti.codice"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "98b04440f24470a1",
+   "titolo": "Il Cdm avvia iter nomina di Remo Morzenti Pellegrini presidente Anac",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/18/il-cdm-avvia-iter-nomina-di-remo-morzenti-pellegrini-presidente-anac_22b5cd1c-2e7e-4b8a-a128-fb88dbc6779b.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": false,
+   "sintesi": "La proposta passerà al Parlamento per il parere obbligatorio",
+   "pubblicata": "2026-11-18T17:44:41Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "appalti.codice"
+   ],
+   "luogo": null
   },
   {
    "id": "ccc95dd8d62dc2f5",
@@ -3022,6 +4724,24 @@
    "sintesi": "Newsom proposes sweeping AI rules as ‘template’ for Washington Politico Newsom arrives in D.C.",
    "pubblicata": "2026-11-18T17:15:00Z",
    "visto": "2026-11-19T01:06:11Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "2a509b0a2abf4cee",
+   "titolo": "Bengals' Joe Burrow, Lions' Jahmyr Gibbs highlight Players of the Week - NFL.com",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZzBDWUowYmxYa0tFZUhsbUphSF9mYm4wdXkwMzZDczdKOF9fNU12dnF3YktieVdhMV9Kc0paRlBhTWNQbHNjR1h4MkNDSDF2bUdYb1lpZG5meUtYa016c2t6UjRCOTdxOFlIcEpNY0FnaUpXRW9sc05Eek5EakxXRkw3QkhkOGpP?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Bengals' Joe Burrow, Lions' Jahmyr Gibbs highlight Players of the Week NFL.com Week 11 NFL MVP tracker: Joe Burrow on historic hot streak;",
+   "pubblicata": "2026-11-18T17:00:22Z",
+   "visto": "2026-11-19T08:44:19Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": "Caserta"
@@ -3160,6 +4880,24 @@
    "luogo": null
   },
   {
+   "id": "b0fa40f110b7d1c2",
+   "titolo": "Microsoft’s New Windows 11 Security Check Could Block Apps From Running On Unprotected PCs, Adobe And Blizzard On Board - Wccftech",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObVRfVnFHWTBHZ3dsYTl6cnUtdFFFWV9WVDhTQ2o5QkRuTE1GM1RFSm1oYmNnTC04ZlRaZzlqMk82cEs0U2hNWVRnR2xKNVVLc3BaejJpbVVZbi1PcC1qd1dUSUk4S3BnbXdiRXhIRmc5OE9Ec05xYlp0S2R4RUpWMkNNZDRhWEQ2U2ZVeWNza19adnl1Y1gwWXhRNmRPcVRJRG9YTFZZMFJ6WFJFRmRDaGtXWjNnQVp2cHhXTmNRYXpUTkFqaWRPUTIxSndweXY2dHFIRElB0gHbAUFVX3lxTE5iRzJOUHBJSDJQb0duWEd3ZVYyVXZ6a2Z3aXNpRzg4SDM4M2FOekZicDROQWJFRUIxSWJMUWJQcklubEVZN2JMdldicXFiWF9EZ01KOWNUTEc2VnczQjdVWW40VkVxWnBOLTN4c2k1dktRR0l4bDBYU0RVSEpuY3pvOTV5SGVGS2ZYckhrYTFDX0hSNmtlODVKal9zTEUyQzU4WGRqNTBNaFktR21OLW5vVEQ2dm9sa0ZiLWNnZm95eWdqY29yNTU4bnFGeEpMUlpnRU9hOHFNWDhyRQ?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Microsoft’s New Windows 11 Security Check Could Block Apps From Running On Unprotected PCs, Adobe And Blizzard On Board Wccftech Microsoft’s new tool checks your PC’s…",
+   "pubblicata": "2026-11-18T16:09:13Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
    "id": "7ec286d27b2e3dcf",
    "titolo": "L’Ordine degli Ingegneri della Provincia di Caserta ha concesso il patrocinio a SonTraining per l’evento: Progettare il Silenzio: la nuova frontiera dell’Acustica Architettonica – 02/12/2026",
    "link": "https://caserta.ordingegneri.it/blog/2026/11/18/lordine-degli-ingegneri-della-provincia-di-caserta-ha-concesso-il-patrocinio-a-sontraining-per-levento-progettare-il-silenzio-la-nuova-frontiera-dellacustica-architettonica-02-12-2026/",
@@ -3178,6 +4916,46 @@
     "norme.professione"
    ],
    "luogo": "Caserta"
+  },
+  {
+   "id": "4eaca638b8d6ec83",
+   "titolo": "Gava, 'via libera al credito d'imposta del 36% per le imprese plastica riciclata'",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/18/gava-via-libera-al-credito-dimposta-del-36-per-le-imprese-plastica-riciclata_2c2deb7d-ef25-411c-b3ee-eb0b8fda9f12.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": false,
+   "sintesi": "'Fino a 20mila euro ad azienda, avanti con il sostegno alla filiera'",
+   "pubblicata": "2026-11-18T15:34:54Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "bonus.crediti"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "386707f3837b6fff",
+   "titolo": "'Ausili per disabili adeguati a esigenze, non a limiti di spesa', la sentenza",
+   "link": "https://www.ansa.it/campania/notizie/2026/11/18/ausili-per-disabili-adeguati-a-esigenze-non-a-limiti-di-spesa-la-sentenza_c1b989c4-3df9-4e74-ba97-89ae31c9bc0d.html",
+   "fonte": "ansa-camp",
+   "fonte_nome": "ANSA Campania",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "Sentenza della Corte d'Appello di Napoli, in campo l'associazione Coscioni",
+   "pubblicata": "2026-11-18T15:24:53Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "bonus.detrazioni"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "44919f30ca4df3b1",
@@ -3221,6 +4999,66 @@
    "luogo": null
   },
   {
+   "id": "da8ae5e650461f56",
+   "titolo": "Salvini: 'Risorse dal fondo pensioni per la sanità? Non se ne parla'",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/18/salvini-risorse-dal-fondo-pensioni-per-la-sanita-non-se-ne-parla_1a0f6c48-2ced-4c48-b0d8-4b92eb4500c9.html",
+   "fonte": "ansa-pol",
+   "fonte_nome": "ANSA Politica (leggi e decreti)",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia"
+   ],
+   "normativa": false,
+   "sintesi": "'Nessuno me l'ha proposto, al vertice non se n'è parlato e non se ne parlerà. Il condono è tema di mia competenza, ok se per sanare alcune difformità'",
+   "pubblicata": "2026-11-18T15:11:20Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "edilizia.sanatorie"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "a24393f248798c49",
+   "titolo": "Arriva la pensione dedicata per le forze dell'ordine, calcolo con fino a 4 anni in più",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/18/arriva-la-pensione-dedicata-per-le-forze-dellordine-calcolo-con-fino-a-4-anni_04c9d0a1-c7bc-4d02-831f-24ffa707b69a.html",
+   "fonte": "ansa-pol",
+   "fonte_nome": "ANSA Politica (leggi e decreti)",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "Bozza di emendamento del governo alla manovra, subito coefficiente con 2 anni in più",
+   "pubblicata": "2026-11-18T15:11:15Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "bonus.bilancio"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "7afdde0b2c68ac9f",
+   "titolo": "Minoranza Marche, 'Acquaroli sapeva e non ha denunciato, si dimetta'",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/18/minoranza-marche-acquaroli-sapeva-e-non-ha-denunciato-si-dimetta_50c45dd1-270e-498e-a0c4-696f7f436c1b.html",
+   "fonte": "ansa-pol",
+   "fonte_nome": "ANSA Politica (leggi e decreti)",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": false,
+   "sintesi": "\"Non si è rivolto ai magistrati anche se era consapevole e voleva sistemare Pistarelli\"",
+   "pubblicata": "2026-11-18T14:47:56Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "bonus.contributi"
+   ],
+   "luogo": null
+  },
+  {
    "id": "e9ac20486d4fae32",
    "titolo": "Sentenza Consiglio di Stato 3 novembre 2026, n. 8004",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSDkybW5KS3RCS1o4Zjc0SE5WcVFGQXVBWU1sRHpOQkFFQkZJVjJ0eTlmYWVyOTJtNjJ1ckZqVUluNUU4OE9id1pKWVpsMDdVVmxrYno1ZldybVVxS0o3UDZwYlhiR1RKdExDalhmNnRkWkdSVlpfU0NZQTItUllWTlZMZndBM1QxbkxGMXVNUXZVcnhpVjd2TEhqeVhKdV9EakJOYl9uNC1ONmxFaHN30gG7AUFVX3lxTE8zY3Z1aENVNWstUncwYmIwODVfelA2QmhOdllmdW1mX2JNYmhudU9vY1RPNk9nZ3VTdWVpMkxpQVV3Qmhud1RSWFk3VE4xSUU1TUVOWUpNbjRaNzEtWlhuQkhJNi1tcU5VZHhRSl9TN0c4RWZnb1owZEstNnU0UTdNMlA4RTlHeEVBLUk3QjZLendBWjc5bm0yRmRQRWEzMXotY1hUY1dUbFNHVUdkTklxb2JZSFR3QnZveTA?oc=5",
@@ -3236,6 +5074,26 @@
    "visto": "2026-11-18T19:02:28Z",
    "sotto": [
     "appalti.opere"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "c8afcea427c41f06",
+   "titolo": "Architettura solare, a Cesena il primo edificio in Europa con parapetti fotovoltaici",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/18/architettura-solare-a-cesena-il-primo-edificio-in-europa-con-parapetti-fotovoltaici_8137b188-8d45-48d2-abb6-89be50c0cb66.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "Producono energia, filtrano la luce e proteggono la struttura senza alterare l'estetica",
+   "pubblicata": "2026-11-18T14:12:46Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "energia.rinnovabili"
    ],
    "luogo": null
   },
@@ -3258,6 +5116,26 @@
    "luogo": "Campania"
   },
   {
+   "id": "533ff8cf7fda106b",
+   "titolo": "Università Torino, 'caro carburanti pesa di più sui più poveri'",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/18/universita-torino-caro-carburanti-pesa-di-piu-sui-piu-poveri_0154b8e2-2eab-49d0-9623-10dac5910411.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "antincendio"
+   ],
+   "normativa": false,
+   "sintesi": "Due studi mostrano doppia disuguaglianza",
+   "pubblicata": "2026-11-18T13:52:29Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "antincendio.attivita"
+   ],
+   "luogo": null
+  },
+  {
    "id": "c7bbee7443d5b4b8",
    "titolo": "3 numbers explain why Nvidia stock is rising despite no Jensen Huang on the earnings call - Yahoo Finance",
    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQzJGb1NJWTN1S0lqZmljcWk0UDRLMEQzNXRjQlNZT1RJUEFLTGxUb0s4TkpiMEtiVmp6bUdfSzcxWlBxcks3QzM0MHEyemlMT0xhYjg0a082dkdLN0NVdVJqOWZNemo1b28wLUNDNjV5eHV5YUlZZnUxWFFDdzhFdHlNS2I5VnZEUTNIOEtHajBOd3NnSktlejlkSlZrYVBFQUVOU0habExhOUktd0lvRUlUWURmcUYtbFBUczVndElONWZvUVVYX3o0YkE1MVNwcnYxVnRxRG9keHhWSUY1ZEdWNmxwbGtH?oc=5",
@@ -3276,6 +5154,48 @@
    "luogo": "Caserta"
   },
   {
+   "id": "ef03e6821c0695dc",
+   "titolo": "Ac Boilers, Ansaldo Energia acquisirà sito di Gioia del Colle entro gennaio",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/18/ac-boilers-ansaldo-energia-acquisira-sito-di-gioia-del-colle-entro-gennaio_2f98734b-2954-4555-85e6-0053037a0f46.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "imprese"
+   ],
+   "normativa": false,
+   "sintesi": "La conferma del Mimit. Urso, 'garantito futuro industriale e tutelata l'occupazione'",
+   "pubblicata": "2026-11-18T13:34:34Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "imprese.invitalia"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "edd7c036a17fdd16",
+   "titolo": "Mimit, ancora giù il prezzo dei carburanti, la verde a 1,951 euro e il gasolio a 2,204",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/18/mimit-ancora-giu-il-prezzo-dei-carburanti-la-verde-a-1951-euro-e-il-gasolio_dde72dd0-6da6-4d64-bff3-8de2487398c5.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "imprese",
+    "antincendio"
+   ],
+   "normativa": false,
+   "sintesi": "Per la benzina il 95% degli impianti sotto i 2 euro, per il diesel il 64% sotto 2,20 euro",
+   "pubblicata": "2026-11-18T13:07:42Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "imprese.invitalia",
+    "antincendio.attivita"
+   ],
+   "luogo": null
+  },
+  {
    "id": "a15da6961f71c0a7",
    "titolo": "Trump touts ‘landmark’ trade deal with Philippines - The Hill",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdzFEUGtzd041Uk54NWVjS2tJekhLelB0bC1VeUJBZmZ0VjAwQW1kQm01LVFBNEw1aC1kY2RmZ2lMN3N1UHBoejVPT09rTDZYd3NFSmJFUlRMQ2ZSVjR5bC15ZXR1NUZibC1PRmVUWnhzZjlHVWwxcVNyS3JCcGZkWGpKLTl6dknSAYwBQVVfeXFMTkZrZVhlVzFtUm1hT0dzRFRzQ0g1YzVkUUxlR0FrNnpHRHpfbUtHWmlhWVpkMC1UQm9HYU9TbE9VVENQMDB0Y1IyS1o2QlNyeEdNeXBFOGExcV9BNUpTbUJSU1p6Yy02YjJYVUI2WW9zMmh5WFVuQXJRMXU1ei1IaHN1M2RieFd2UFFIN0k?oc=5",
@@ -3292,6 +5212,46 @@
    "metodo": "rss",
    "sotto": [],
    "luogo": "Caserta"
+  },
+  {
+   "id": "2ffecb1e3f871180",
+   "titolo": "Mattarella visita la nuova sede di Cdp in Piazza Verdi a Roma",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/18/mattarella-visita-la-nuova-sede-di-cdp-in-piazza-verdi-a-roma_843e8a79-7e58-4d9c-9c64-0ec361ee899b.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "imprese"
+   ],
+   "normativa": false,
+   "sintesi": "Completamente riqualificato l'ex edificio del Poligrafico e Zecca dello Stato",
+   "pubblicata": "2026-11-18T12:43:36Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "imprese.invitalia"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "e1c5a72b9ab9be88",
+   "titolo": "Scatta allarme in Tribunale a Napoli, ma è un test di evacuazione",
+   "link": "https://www.ansa.it/campania/notizie/2026/11/18/scatta-allarme-in-tribunale-a-napoli-ma-e-un-test-di-evacuazione_0ee2d075-48a0-4c38-866e-5cfcae2f273e.html",
+   "fonte": "ansa-camp",
+   "fonte_nome": "ANSA Campania",
+   "tipo": "stampa",
+   "aree": [
+    "antincendio"
+   ],
+   "normativa": false,
+   "sintesi": "Dipendenti amministrativi e magistrati radunati per mezz'ora all' esterno del palazzo",
+   "pubblicata": "2026-11-18T12:28:12Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "antincendio.impianti"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "92d24efa48a2fc1a",
@@ -3464,6 +5424,28 @@
    "luogo": "Caserta"
   },
   {
+   "id": "c6f3d2363fd85e02",
+   "titolo": "Da FdI 7 emendamenti sul condono, anche per piccole opere finite entro settembre 2025",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/18/da-fdi-7-emendamenti-sul-condono-anche-per-piccole-opere-finite-entro_84c55357-5a68-4f41-93e4-4cac4bc8cf8b.html",
+   "fonte": "ansa-pol",
+   "fonte_nome": "ANSA Politica (leggi e decreti)",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia",
+    "bonus"
+   ],
+   "normativa": false,
+   "sintesi": "Comuni devono completare istruttorie entro il 30 giugno 2027. Regioni decidono se riaprire",
+   "pubblicata": "2026-11-18T10:58:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "edilizia.sanatorie",
+    "bonus.bilancio"
+   ],
+   "luogo": null
+  },
+  {
    "id": "e6e4f1a754ddba46",
    "titolo": "Sentenza Tar Lazio 17149/2026 – CIL non veritiera e perdita degli incentivi fotovoltaici",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaDBRTUhfQVZYUURNdzl2a2lUTFRCYzdRU0xsYTlSajdfbEwwZGM3eXo5a0h6a1UxbXJXaGtEbXZ0WTJRN0NSV3hEVnM1aEN6YXRGS2k1OUJYS01mLWFBd1BtWEE0TW5EQkkwLVhsVzhpbUhORFFfSzlEMkRDWElucVl5ZWdyLXltQVRoOFdUN1FIYU80TkJZeEFiM2tidzVIMTRkMlR5X190Y01FNVdzSGRPdFY3NUVaM244?oc=5",
@@ -3534,6 +5516,86 @@
    "visto": "2026-11-18T19:02:28Z",
    "sotto": [
     "appalti.opere"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "3055fca462e1014c",
+   "titolo": "Plenitude-Orva, contratto di 4 anni per la fornitura di elettricità",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/18/plenitude-orva-contratto-di-4-anni-per-la-fornitura-di-elettricita_9e795d93-00d4-4476-9655-32f6569a10a8.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "In totale circa 16 GWh da fotovoltaico, pari a circa il 40% del fabbisogno",
+   "pubblicata": "2026-11-18T10:05:12Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "0c4f2dff66d7c6de",
+   "titolo": "Dossi (H2IT), 'idrogeno rinnovabile importante per dare certezza agli investimenti'",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/18/dossi-h2it-idrogeno-rinnovabile-importante-per-dare-certezza-agli-investimenti_6350b581-5298-47fb-aad7-158184647c83.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "energia",
+    "ambiente"
+   ],
+   "normativa": true,
+   "sintesi": "Dopo il decreto del Mase che dà sostegno alla produzione, 'avviare un mercato in Italia'",
+   "pubblicata": "2026-11-18T09:54:18Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "energia.rinnovabili",
+    "ambiente.via_vas"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "8d08ba2400c2f796",
+   "titolo": "Signs of Eagle Predation on a 22-kg Adult Primate - Wiley Online Library",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBaTjEtTEwtWVhCNFlOcDBIQnJkajc0M3Rra1VoYzhPTm43Uk9JYUVZXzY3U0c3NWhJa3JXUzFsN216azFuWVBGNXQwamd2N3lvRTdsdFBFWkFNYzFPRTRUcG9TMlY?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Signs of Eagle Predation on a 22-kg Adult Primate Wiley Online Library Eagles preying on human-sized baboons upend existing evolutionary defense theory Phys.org Eagles…",
+   "pubblicata": "2026-11-18T09:49:11Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "6f34a29ec0ec3577",
+   "titolo": "La spesa di una piccola impresa per la cybersecurity tra 15-35mila euro l'anno",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/18/la-spesa-di-una-piccola-impresa-per-la-cybersecurity-tra-15-35mila-euro-lanno_b7644388-49d4-4ba5-b9cb-d1a619c1a07a.html",
+   "fonte": "ansa-eco",
+   "fonte_nome": "ANSA Economia",
+   "tipo": "stampa",
+   "aree": [
+    "norme"
+   ],
+   "normativa": false,
+   "sintesi": "I dati emergono dal report Deloitte. Per una media azienda servono tra 95 e 210mila euro",
+   "pubblicata": "2026-11-18T09:48:15Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "norme.ue"
    ],
    "luogo": null
   },
@@ -3612,6 +5674,26 @@
     "appalti.gare"
    ],
    "luogo": null
+  },
+  {
+   "id": "625e0c3b77559403",
+   "titolo": "A responsabile del laboratorio della casa di cura San Michele il premio Vito Landolfi",
+   "link": "https://www.ansa.it/campania/notizie/2026/11/18/a-responsabile-del-laboratorio-della-casa-di-cura-san-michele-il-premio-vito_ef23da97-7f59-4187-9263-fd3ff801017d.html",
+   "fonte": "ansa-camp",
+   "fonte_nome": "ANSA Campania",
+   "tipo": "stampa",
+   "aree": [
+    "strutture"
+   ],
+   "normativa": false,
+   "sintesi": "Riconoscimento a Lidia Barletta: \"Cultura fondamentale per la crescita delle persone\"",
+   "pubblicata": "2026-11-18T09:25:24Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "strutture.ntc"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "0b214920665be1f5",
@@ -3706,6 +5788,28 @@
    "visto": "2026-11-18T19:02:28Z",
    "sotto": [
     "appalti.opere"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "1b5b260a480761a4",
+   "titolo": "Record di emendamenti alla manovra, la maggioranza vuole il condono",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/17/record-di-emendamenti-alla-manovra-la-maggioranza-vuole-il-condono_0852cc79-1b4d-45f3-a0ff-9faa1bbaab52.html",
+   "fonte": "ansa-pol",
+   "fonte_nome": "ANSA Politica (leggi e decreti)",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia",
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "Vertice con Meloni: 'uniti, mantenere i conti in ordine'. Ma pensioni e banche dividono",
+   "pubblicata": "2026-11-18T07:39:47Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "edilizia.sanatorie",
+    "bonus.bilancio"
    ],
    "luogo": null
   },
@@ -4077,6 +6181,24 @@
    "luogo": null
   },
   {
+   "id": "9467e5ba8abaaa60",
+   "titolo": "Doctors are raising concerns about U.S. babies born with measles - PBS",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONHZXcGMwVE1BTDhERTMwLVU0NUw5MVNmSTM3Z0RIS2RCcjg3MHVMVDJ4MzNZUy1nOWoyY2VBT3pWYnpYUV82aXFKVkROYzJSM3dlSjVqU0ZDcE1mMVotUDFMSmY3ZFdiZXZoS0dLSWhQeVFnYlYtX0VZWXhqQVJ2SXQ3Q3lFUTRMRENObmhUVzZTN2xYRGRPRmRMMVdKcTBJ?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Doctors are raising concerns about U.S. babies born with measles PBS Opinion | Measles is here.",
+   "pubblicata": "2026-11-17T22:52:41Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
+  },
+  {
    "id": "4033eacf1bde5c1c",
    "titolo": "RFK Jr.: US will ‘work to regain’ measles elimination status - The Hill",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVVZZOHYyc1FSQVVoNlFOSG9GbXBaU3VrVUJnaURkQmJfMUhYdEJseG5vN2dtcEVKQ2t6RnJtclF1ZHJrd0lLVUdrU2V4TFJRc01SWmxvUmxCSnQ1aEl3elhsUDR0VEtCNDVGUVVPV3dUR01mdGVfckFTX1doSF93bTFEWEVVYm53NEHSAY8BQVVfeXFMT25oTThRWklKMHJrWmdvbzJKeEZnb2NoUXRiTm5FUkVadG02Y042OFpzcmRGTS1kMlNpMVlXRW1USmFCWk0tckZVVmxyNlFlcGdHTEp0Y2ZiTkFfdTNlU1JOTVhXXzdySUllMGdialZ3dS1FZnIxdzZpQkJ2dzVLNVFBaDBqQWluT0otVmNIVE0?oc=5",
@@ -4093,6 +6215,26 @@
    "metodo": "rss",
    "sotto": [],
    "luogo": "Caserta"
+  },
+  {
+   "id": "87ec950ebfc25883",
+   "titolo": "Insegnante morta a 36 anni dopo farmaco abortivo, attesa l'autopsia",
+   "link": "https://www.ansa.it/campania/notizie/2026/11/17/insegnante-morta-a-36-anni-dopo-farmaco-abortivo-attesa-lautopsia_9544d343-cc4f-4218-bbbd-d47e02502605.html",
+   "fonte": "ansa-camp",
+   "fonte_nome": "ANSA Campania",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": false,
+   "sintesi": "La Procura indaga. Verifiche interne avviate anche dall'azienda ospedaliera Ruggi",
+   "pubblicata": "2026-11-17T18:35:23Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "660ab98a86e7934f",
@@ -4160,7 +6302,7 @@
    "aree": [
     "energia"
    ],
-   "normativa": false,
+   "normativa": true,
    "sintesi": "INCENTIVI PER LE FER-ELETTRICHE GSE",
    "pubblicata": "2026-11-17T15:45:59Z",
    "visto": "2026-11-19T01:06:11Z",
@@ -4206,6 +6348,26 @@
    "luogo": "Campania"
   },
   {
+   "id": "7c03ac95866cbdf0",
+   "titolo": "Campi Flegrei, il ritorno alle radici dei fratelli Colandrea",
+   "link": "https://www.ansa.it/canale_terraegusto/notizie/regioni/campania/2026/11/17/campi-flegrei-il-ritorno-alle-radici-dei-fratelli-colandrea_70837f2a-35a0-4e3c-96d1-b11f03b63364.html",
+   "fonte": "ansa-camp",
+   "fonte_nome": "ANSA Campania",
+   "tipo": "stampa",
+   "aree": [
+    "strutture"
+   ],
+   "normativa": false,
+   "sintesi": "Dall'esperienza fuori regione all'impresa agricola \"a metro zero\"",
+   "pubblicata": "2026-11-17T14:26:38Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "strutture.sismica"
+   ],
+   "luogo": "Campania"
+  },
+  {
    "id": "044a4bd3c467c68d",
    "titolo": "Sentenza TAR Veneto 2173/2026 – Correttivi CCNL ed equivalenza negli appalti",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa2ZGRV9VaGpDMzlOSmttNWJtbFdvSDVsVEdtdFpENTd2VXBDQlRvOVVsbHdPRHVrWnJ4VXA0QnBFZl9WT20tODVZSDlBa2NwX2d0RmdyMGpyRFJ1RU11YzZTSFk4WUhSVzFUVFlneGViZlRuaVgtaDJiN2lyNVZlVzhtYWMtT0UzSV9kWmJSSTMzZDJ0OGRDbXRCckxqcFQtcU1BZnd3d2JodUk?oc=5",
@@ -4240,6 +6402,66 @@
    "visto": "2026-11-19T01:06:11Z",
    "metodo": "rss",
    "sotto": [],
+   "luogo": "Campania"
+  },
+  {
+   "id": "b67c5448400f483c",
+   "titolo": "Dieta Mediterranea, a Pioppi al via le iniziative per i 16 anni Unesco",
+   "link": "https://www.ansa.it/campania/notizie/2026/11/17/dieta-mediterranea-a-pioppi-al-via-le-iniziative-per-i-16-anni-unesco_f75d7f53-361a-4d2b-89c9-e76eb6941671.html",
+   "fonte": "ansa-camp",
+   "fonte_nome": "ANSA Campania",
+   "tipo": "stampa",
+   "aree": [
+    "ambiente"
+   ],
+   "normativa": false,
+   "sintesi": "Convegno sul vino, tre nuovi Ambasciatori e il nuovo allestimento del Museo Vivente",
+   "pubblicata": "2026-11-17T12:28:25Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "ambiente.paesaggio"
+   ],
+   "luogo": "Campania"
+  },
+  {
+   "id": "90337d07d05122f3",
+   "titolo": "Falso verbale su rifiuti radioattivi, indagati manager Sogin e ispettori Isin",
+   "link": "https://www.ansa.it/campania/notizie/2026/11/17/falso-verbale-su-rifiuti-radioattivi-indagati-manager-sogin-e-ispettori-isin_e2cfc4b1-4cb1-45f9-9233-b98be73c6d09.html",
+   "fonte": "ansa-camp",
+   "fonte_nome": "ANSA Campania",
+   "tipo": "stampa",
+   "aree": [
+    "ambiente"
+   ],
+   "normativa": false,
+   "sintesi": "Procura Santa Maria CV dispone ispezione alla centrale nucleare Garigliano",
+   "pubblicata": "2026-11-17T12:28:17Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "ambiente.terre_rifiuti"
+   ],
+   "luogo": "Campania"
+  },
+  {
+   "id": "c67f4a55780623ee",
+   "titolo": "Corteo taxi a Napoli con cartelli sulle auto 'ecco le nostra piaghe'",
+   "link": "https://www.ansa.it/campania/notizie/2026/11/17/corteo-taxi-a-napoli-con-cartelli-sulle-auto-ecco-le-nostra-piaghe_798a4760-bdaa-46b5-9b76-04c5428658e8.html",
+   "fonte": "ansa-camp",
+   "fonte_nome": "ANSA Campania",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia"
+   ],
+   "normativa": false,
+   "sintesi": "Ministero intervenga su traffico, caro carburante, abusivismo e concorrenza sleale",
+   "pubblicata": "2026-11-17T12:28:08Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [
+    "edilizia.sanatorie"
+   ],
    "luogo": "Campania"
   },
   {
@@ -4790,13 +7012,15 @@
    "fonte_nome": "Ediltecnico",
    "tipo": "stampa",
    "aree": [
-    "altro"
+    "imprese"
    ],
    "normativa": true,
    "sintesi": "Interessante bando di concorso per 882 posti da Specialista tecnico a tempo indeterminato in Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia.",
    "pubblicata": "2026-11-17T05:58:00Z",
    "visto": "2026-11-18T18:51:40Z",
-   "sotto": [],
+   "sotto": [
+    "imprese.zes"
+   ],
    "luogo": "Campania"
   },
   {
@@ -5057,6 +7281,26 @@
    "luogo": null
   },
   {
+   "id": "171325e5f90b1b69",
+   "titolo": "Geotermia a circuito aperto: le norme 2026, dalle relazioni tecniche al registro telematico",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwejM0YXd3eUk3M08xam9WZzRyLWZCbmRjRWR1RWVqTUlLM0wyNlBSSlJLVVI0Mmx4UW5lSlFRYlJMQlNpR3BfRkxNQ05oVTNLV3ExVzRyYUJtY2VsVDZ6Mw?oc=5",
+   "fonte": "biblus",
+   "fonte_nome": "Biblus (ACCA)",
+   "tipo": "stampa",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "Geotermia a circuito aperto: le norme 2026, dalle relazioni tecniche al registro telematico ACCA software",
+   "pubblicata": "2026-11-16T16:15:07Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null
+  },
+  {
    "id": "38b4ac62bbad7bd4",
    "titolo": "Inps, msg. n. 3661/2026: indicazioni operative SIISL – DL n. 159/2025",
    "link": "https://ance.it/2026/11/inps-msg-n-3661-2026-indicazioni-operative-siisl-dl-n-159-2025/",
@@ -5111,6 +7355,26 @@
    "luogo": null
   },
   {
+   "id": "a3c8644ad085865f",
+   "titolo": "Subappalto necessario senza SOA adeguata: quando è legittima l’esclusione?",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT0tPMTllTzZ0N3hjUFIxTUdIZ3BHS0t0U01aajREaXVGNnRpdWNmaTNmY0FycC1ZUjJwVDcxWmdHOENoUG9ZNldyUDJkLTdJLXBZUFZTZjZHLUk1YS03YlhKS3UzYm9icjFPRjJMb3FsNlZobW83RjN0eHZvaU4zcXZaSVJ1YW9UMGh2NVJ0SjI2Q2QzcjlKWjFIdTBBVWlRT21LZkUzQQ?oc=5",
+   "fonte": "biblus",
+   "fonte_nome": "Biblus (ACCA)",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": false,
+   "sintesi": "Subappalto necessario senza SOA adeguata: quando è legittima l’esclusione? ACCA software",
+   "pubblicata": "2026-11-16T15:12:04Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "appalti.esecuzione"
+   ],
+   "luogo": null
+  },
+  {
    "id": "75640c97ca85baea",
    "titolo": "FER X definitivo 2026: nuove regole GSE, incentivi e scadenze",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNnY0cTZ6OXRHdHQwS21hZ05mVFpPam02b3NhRXBsTFU3eXIwT05fYWFuNG9zcjlBM3dpM250c0FMMUhhSHpGN3BkNHZOclNnYm12WFRpdzBLdGVEOHFlTHZhWDVxa21iM1phaVplR090SmR1THVJWWd2aWtnRDd4QWF2QWQtc2NPNy1fMU1MRXZPVFl3WEJyS0JVci1GLUdyS0oxZW4yRTNvNEhQRlNPZQ?oc=5",
@@ -5130,6 +7394,24 @@
     "energia.rinnovabili",
     "bonus.bilancio"
    ],
+   "luogo": null
+  },
+  {
+   "id": "42f8db64d32b4f64",
+   "titolo": "D.D. 364/2026 – Prescrizioni tecniche per gli impianti geotermici a circuito aperto",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc1dpdlpqeVJxUERaVXFaOUdKSHhMeHR0ZTNKdEVfdnRLUENvTmF0NVNIQ2xVWnRTVnFIaEhEeFFwOVBDUmUzQ0dMcmhvVmNXd0pfNlpOTmJPd09GaXJQdFBBcXg5dy1nbmlocEkwcFkyRm5nTkE4cU0xcUs0TWQ5bkdRaHFmemNIVlhQMGg5ZS1SNnBDN2o2ODZyNXRrRmpHTjBob0ZlSXlWOHY5blR3QzE2OA?oc=5",
+   "fonte": "biblus",
+   "fonte_nome": "Biblus (ACCA)",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "D.D. 364/2026 – Prescrizioni tecniche per gli impianti geotermici a circuito aperto ACCA software",
+   "pubblicata": "2026-11-16T14:11:37Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [],
    "luogo": null
   },
   {
@@ -5198,6 +7480,44 @@
    "sintesi": "Forfettari, rimborsi analitici esclusi dalle soglie di 85.000 e 100.000 euro: le condizioni ACCA software",
    "pubblicata": "2026-11-16T13:21:34Z",
    "visto": "2026-11-18T19:02:28Z",
+   "sotto": [],
+   "luogo": null
+  },
+  {
+   "id": "5ffac26fe1c84ea1",
+   "titolo": "Sentenza TAR Campania, sez. Napoli, 12 novembre 2026, n. 6563",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZWpndlhmUlF3b2ZiSXc0Q0tYRkt4VUpWb19GTnFSc1I5M3pOb3EyX25iWk5JdUl0SWx3Y2dFX0JxeWVNSnZ0NS1iM25ZTEZiT204RVhTTFVLZDBwcnUyNlFJcXRhcXdOR3VaUWxfU1Frc1U2MGRjOFVnQ1pTWHlrZzFua2hxQ0FEOFZ1SlUzTlVLUU1XV0x3amlwOHh5VGswb3FNUnBBLU9UbVZfZ1cxNzRGaHBMbTDSAcMBQVVfeXFMTzJ4Q2VWdmtfekstdkJGQk1Pc2R4UVhsR1ZtUzBUZ1FRTHN2aExIOWc0TmROM1NoNVhRRUxrX3NBUnV5NUl4THhOcjVtU1VxMnRNaE1Cb0ZTaEVlajNzNTAyRWlUM2RBRjJ6Mk5pcnlQanljeGZkc0VCYmpyWUVZUWtRMXVrMXlRWVJVeHNBV3U0Z3FoeXV0eDM3dGhtNW5hV0loa3FCUHd5RXQ0MmRjNUluLUVzSm5xYmY2ODJZdHVLeXJr?oc=5",
+   "fonte": "lavoripubblici",
+   "fonte_nome": "LavoriPubblici",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": true,
+   "sintesi": "Sentenza TAR Campania, sez. Napoli, 12 novembre 2026, n. 6563 Lavori Pubblici",
+   "pubblicata": "2026-11-16T13:20:48Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "appalti.opere"
+   ],
+   "luogo": "Campania"
+  },
+  {
+   "id": "61095a490986e575",
+   "titolo": "Sentenza TAR Lazio 14084/2026 – Equivalenza tecnica e offerte alternative",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbmFqRGhFVGVFMG5RdUVqNUVtY2dBMmtZb0VLcEVBRkNpejhRRF94SGJ3V1JibGk0bnVSRHF4aS1OV2ZkZkdZcVZqSkdpY3VWam9ZZS1XYVZ6YjFjQ0dEbXNnNlJrTHZtYUNmQ2E5V3ZqLVM4SkhJNlREZUpqUjhuOGIyUzk2aWRxSjh4MUZTa1MtT3Y3dUM3TEhScGFvWFc1SEl0R2ZWUQ?oc=5",
+   "fonte": "biblus",
+   "fonte_nome": "Biblus (ACCA)",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": true,
+   "sintesi": "Sentenza TAR Lazio 14084/2026 – Equivalenza tecnica e offerte alternative ACCA software",
+   "pubblicata": "2026-11-16T13:15:33Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
    "sotto": [],
    "luogo": null
   },
@@ -5398,6 +7718,26 @@
    "luogo": null
   },
   {
+   "id": "b6bfb7399df46c60",
+   "titolo": "Un progetto di project financing già approvato può essere revocato?",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY1l1VzV0RTVsMjVPM1A1RzhVTTRlcVAyeVpLZlFPWjVyRXZreDlLTlZ4RGVGcC1RT192cEU3MFZ4ZUhRLWpISW1FU3N5Y19WLXIySGlWRElSTlNNMTI3VndFanQ1NXVsRnR0MEpUanFOVmpPQjF1Uzd3R3hQOUJxS2lldFdmeG1Mc1RjeENSMVFlQl84UVQ0M1VJOXdNQXM?oc=5",
+   "fonte": "biblus",
+   "fonte_nome": "Biblus (ACCA)",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": true,
+   "sintesi": "Un progetto di project financing già approvato può essere revocato? ACCA software",
+   "pubblicata": "2026-11-16T09:22:26Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
+  },
+  {
    "id": "84388623a6d9d116",
    "titolo": "ACCA software alla Digital Building Permit Conference 2026",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeC1kOWpoaWhPOHlFd3hJM2lMd21wZ2ZzcTJpY1ZMVkVPQktybnhVcHM0SU5PbUh6bjFBZHhiWDBpZ0pzUmxCTjVBVWxUWHJieEJJT2phSC1RblpscTd5LUVleGZwd1Q1VWlxaGtVMk5pQk1xSmRTM0kxRHB5QjhEOXhNaw?oc=5",
@@ -5507,6 +7847,70 @@
     "appalti.codice"
    ],
    "luogo": null
+  },
+  {
+   "id": "c908dd2fb598bd90",
+   "titolo": "Il project financing nel nuovo codice appalti",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqNDR0Tl82d3RiRUFQa2dsSC04VEVqZ3hBd0VtUUlZU2xTRXlGc3Vpa3otTUEzSDJWVFFQUjdwRjlYcjdBek9Bc1lramhQWHl5d0J5V2Nn?oc=5",
+   "fonte": "biblus",
+   "fonte_nome": "Biblus (ACCA)",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": false,
+   "sintesi": "Il project financing nel nuovo codice appalti ACCA software",
+   "pubblicata": "2026-11-16T08:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "51a76de6e242a834",
+   "titolo": "Crediti d’Imposta ZES Unica e ZLS 2026-2028: Guida Completa alle Novità",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9EaHhOLVhsTFpxNFp4RkRvN1pqY2RiS0NNbUwtQ1RSX2JpMUFkaEZmOWwtMjZxQXBOUTVxdFFraHRIcW56ZFlLa1JuNUl2R0VyZVM2WVJTQVRkcVRZSEttbUx5V3Y4TW1WYjM0WExJNXpoY3BPR3NHZS00OA?oc=5",
+   "fonte": "imp-zes",
+   "fonte_nome": "ZES Unica Mezzogiorno",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese",
+    "edilizia"
+   ],
+   "normativa": true,
+   "sintesi": "Crediti d’Imposta ZES Unica e ZLS 2026-2028: Guida Completa alle Novità Incentivimpresa",
+   "pubblicata": "2026-11-16T08:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "imprese.zes",
+    "edilizia.produttivo"
+   ],
+   "luogo": "Campania"
+  },
+  {
+   "id": "bedeecdbb37cbeda",
+   "titolo": "ZES Unica Mezzogiorno 2026: Zone e Credito dal 15% al 70%",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQjJYaFlvME9Lcnpaa2h3NklNeTctemkwMmVpWUJNajRKOG1nR1ljUFhTWHVkemFod2pPYVQweFRUeW5hRnBoMjRnTGd5UmxhN2ktaGVLWmNSODdsZ0NEbVpmNHh4TEZQaUxFSmQ0TXNSREVBb1ZqUWNoRHJ3b1hGblZzU1JHR1Rqei1SRXNPa20wT09qMG1JcnpiXzY?oc=5",
+   "fonte": "imp-zes",
+   "fonte_nome": "ZES Unica Mezzogiorno",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese",
+    "edilizia"
+   ],
+   "normativa": true,
+   "sintesi": "ZES Unica Mezzogiorno 2026: Zone e Credito dal 15% al 70% Incentivimpresa",
+   "pubblicata": "2026-11-16T08:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "imprese.zes",
+    "edilizia.produttivo"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "747fbfa9b113ff7a",
@@ -5968,6 +8372,28 @@
    "luogo": null
   },
   {
+   "id": "17c066ed2e0f7d6e",
+   "titolo": "UIL, \"La Zes unica in Calabria ha un ruolo marginale\"",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTVFJMjlRLWJwS1FhQjR1TENoR1FrdEprazFCbXB0NkM4RnlVZFVLT084aFc4bFpLQWdRdVBwejg0NkRaaTBXSkFhRER4US10aDNYZnNlVFlJUlhvMEhBNG1jSFFfYWNWUnAxMEtDdTlUYTRFOFg4VnJ1Qi1FakRGYkw3eEtSSzUyOFFIMmxxSE5SZUJKUWZXZFpsa2hGSW5Lamh4MWNwNWJvNEZyejZBMk9waE45aTBCWlhGQk9vU1VvVDJ2bmlBeHZKRnhzT2dJZ2IyclAxcEpXUFVBaUHSAeMBQVVfeXFMT2NUTGdCV3lycmpNR29jNWNFeUhROUU4aXA4TEJCZjRZbjgtNDF2NGJlNU5FTUV2RXJvS1dWMGU0QXFPUUhmSGxYSkdBcGpUR1gwcVBIYVdvR0pQX0VTOHdqeU10a3Q4VGtUa0hnWDV3MjV4VWNUWGtsN2FrYjFZV0QyS3Z6Z2s4THFNTFlkV0pLa2FpUDZFc0lOWmJ5RDdfN3BsUno2RVU5QkFRVVFMS1ZhNVlkQmZqd0Y1NGp5S2xZdnFqWEJka1E4Q2tQX3JNbWEzYW9vd3pWT0tmQWNSQ1c4aUk?oc=5",
+   "fonte": "imp-zes",
+   "fonte_nome": "ZES Unica Mezzogiorno",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese",
+    "edilizia"
+   ],
+   "normativa": true,
+   "sintesi": "UIL, \"La Zes unica in Calabria ha un ruolo marginale\" RaiNews",
+   "pubblicata": "2026-11-14T20:30:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "imprese.zes",
+    "edilizia.produttivo"
+   ],
+   "luogo": "Campania"
+  },
+  {
    "id": "8780d173ce05b416",
    "titolo": "Centro per I 'Impiego di Portici: chiusura degli uffici nella giornata di mercoledì 18 novembre",
    "link": "https://www.regione.campania.it/regione-informa/notizie/centro-impiego-portici-chiusura-uffici-nella-giornata-mercoledi-18-novembre",
@@ -6147,6 +8573,26 @@
    "luogo": null
   },
   {
+   "id": "4a001b47523ff33d",
+   "titolo": "TAR Lombardia 5066/2026 – Subappalto necessario e qualificazione SOA",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ1ljdXVyZG1TR0hEak1femtiSWFFNG93WEVLMjJHNUZzOTdhMW5Sc3dvdlVPTlJRMHJqakp3QkpHS0t0ZWhGMkJVU01sazdPZEhZSjhhRVNzYi05WTBwRGxpa2FjcTZ2VzR5SzlOYTBhSHlTNVczdHNMbHozVGRublZtTU5JdGhPWDhVMERPd3dnMUdqckJIV2pHaU8yLUJh?oc=5",
+   "fonte": "biblus",
+   "fonte_nome": "Biblus (ACCA)",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": true,
+   "sintesi": "TAR Lombardia 5066/2026 – Subappalto necessario e qualificazione SOA ACCA software",
+   "pubblicata": "2026-11-13T14:30:58Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "appalti.esecuzione"
+   ],
+   "luogo": null
+  },
+  {
    "id": "798f2c7029acc85b",
    "titolo": "Convention ACCA 2026, l'intelligenza artificiale incontra il futuro delle costruzioni. Ecco il programma",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5EeXVjQ3FxLTBZLXRKSHpIRndFcnFXalItRTl1OXpaOWR5ZFVlTF9tYVJORGU4eEZQN1FLUHhPOENldWIwMG9EV1FBNU1keWdv?oc=5",
@@ -6305,6 +8751,44 @@
    "visto": "2026-11-18T19:02:28Z",
    "sotto": [
     "energia.rinnovabili"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "51588ed52889cbf7",
+   "titolo": "Sentenza Tar Lazio 16874/2026 – Vincolo storico-artistico su edificio trasformato",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaUx2ckViQnEyWTUtNVlibU45UGwxdXp4UVlHWkgxSWxEX0V5ZFROM3BQenBTQ3NoaU45SjBWNWJCaFJ1RHlMWTB4cnBUd2d3RGlrMUktMUcwUmhpNzNLWGNtMFhUUmRZclpmbHVRZU56cVlMZk1teFRCMUpTRnhKTklxWjM0c2VEeDVtUHg2ZHRWOVNNWS1zT01GVEk5X2JEWkdSd1lUN0tiOTFrZDl5NC1R?oc=5",
+   "fonte": "biblus",
+   "fonte_nome": "Biblus (ACCA)",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": true,
+   "sintesi": "Sentenza Tar Lazio 16874/2026 – Vincolo storico-artistico su edificio trasformato ACCA software",
+   "pubblicata": "2026-11-13T09:33:35Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null
+  },
+  {
+   "id": "2f5a28d202a64815",
+   "titolo": "Sentenza TAR Lombardia 5063/2026 – Revoca fattibilità project financing",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVnNOM2FfQ3VQTVliOWlmQW5UeUdnSTV0Q0lrRHpvZmZCTWtUdUN6UEppT3hHZzVjYVE4S3RaZzk1MUprTHNqSnhDVThzVGZlcXl3VzBlZzQ1N3kxeHNLVm5GOU9scUdicXNpdWpoSkdGMWFiRkVrUjFuNHl0S0lva19Ed1prYmRsbWdCUmdmMmRWZUc3QW5WT0E4UGdGbG96NTZ4aw?oc=5",
+   "fonte": "biblus",
+   "fonte_nome": "Biblus (ACCA)",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": true,
+   "sintesi": "Sentenza TAR Lombardia 5063/2026 – Revoca fattibilità project financing ACCA software",
+   "pubblicata": "2026-11-13T09:33:34Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "appalti.gare"
    ],
    "luogo": null
   },
@@ -6520,6 +9004,26 @@
    "luogo": null
   },
   {
+   "id": "c01fb3d8bf061b3e",
+   "titolo": "Vigilanza sul mercato, settore impianti a fune - Ministero delle infrastrutture e dei trasporti",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNWlsUTlrQnladGtWaVRoeWJBZWpnX013LU83LWVPMWJMc3UyY3k5V1RrRHdwdDBENXRzOHF0bk1sQWpMUEpVSmlkcEJLbk1sN04zMnlRNFlGV0FqT2hmV09tWk9FdDlyUlhnd0pzNGRQZkQ2dlZxWTdwUTNSLVV3dDFJSV9CR2U2?oc=5",
+   "fonte": "mit",
+   "fonte_nome": "Ministero Infrastrutture (MIT)",
+   "tipo": "ufficiale",
+   "aree": [
+    "sicurezza"
+   ],
+   "normativa": true,
+   "sintesi": "Vigilanza sul mercato, settore impianti a fune Ministero delle infrastrutture e dei trasporti",
+   "pubblicata": "2026-11-13T08:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "sicurezza.normativa"
+   ],
+   "luogo": null
+  },
+  {
    "id": "84d484a1bbbdcab6",
    "titolo": "Terreno già urbanizzato: si può costruire anche in presenza di vincoli paesaggistici?",
    "link": "https://ediltecnico.it/terreno-gia-urbanizzato-vincoli-paesaggistici/",
@@ -6569,7 +9073,7 @@
    "aree": [
     "energia"
    ],
-   "normativa": false,
+   "normativa": true,
    "sintesi": "",
    "pubblicata": "2026-11-13T06:00:00Z",
    "visto": "2026-11-18T18:51:40Z",
@@ -6589,7 +9093,7 @@
     "energia",
     "edilizia"
    ],
-   "normativa": false,
+   "normativa": true,
    "sintesi": "",
    "pubblicata": "2026-11-13T06:00:00Z",
    "visto": "2026-11-18T18:51:40Z",
@@ -6707,7 +9211,7 @@
     "energia",
     "edilizia"
    ],
-   "normativa": false,
+   "normativa": true,
    "sintesi": "Cortexa e Federcostruzioni chiedono un piano di lungo periodo e incentivi stabili per una riqualificazione energetica efficace che coinvolga anche il cappotto.",
    "pubblicata": "2026-11-13T03:44:53Z",
    "visto": "2026-11-18T18:51:40Z",
@@ -6854,6 +9358,24 @@
     "strutture.sismica"
    ],
    "luogo": "Campania"
+  },
+  {
+   "id": "9c3f541495525ad5",
+   "titolo": "NASA announces plan to build $20 billion moon base - National News Desk",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOWWZCM2Rub0ZOOUhLVjFfRFZ5YklCaWZmN1ZDTGZ3RHczSm9aYmMwWXlZdzJwZXZyN3VGWHJzQUJhbngzaFF0QjFvTFNrUmZmWHR4TWd0WWRmVjQzZXBpaUYwdEV1eGgyT0RET2s4emdTQzQ3Ynk5RGJyN1FIZ3JHeGRlSURaRjBYeWptZ0NBVmFqdThXRndwanJkdlNpSjhIZjBHaFR2ZDhZT3pXMGtwYTFReG9HUlYtWWY0SjVyNnZKN1Nob2tvMndYMzJBeGZpUDRZMTFUUVZ2MV8tajUtNzJWR1dwdll0SGowRHg4NEMzUEpU?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "NASA announces plan to build $20 billion moon base National News Desk Everyone is heading into space The Economist What is the planned Moon Base? Adafruit What Is the…",
+   "pubblicata": "2026-11-12T17:46:39Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta"
   },
   {
    "id": "e58fe8530fdef61a",
@@ -7478,6 +10000,26 @@
    "sotto": [
     "antincendio.codice",
     "sicurezza.normativa"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "dc04d19b83eb836b",
+   "titolo": "Sentenza Consiglio di Stato 23 settembre 2026, n. 7023",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcENCUWI1WXYwNFN3U2xDWUxWYjF1ZG5tdDhPcmRPc3VYTWt2WS0wNkd0V080VkxmaE9WbC1ZZ001NkNLcFBSOGxkMGVDY0ZTQTVRVzBCQmlXcFAtMENqeUNwR3VPSGlxU2l1SHBfa3V4ajRhZE1TT2Y1WktnQ3BldVNOcTFNZXpDS2JBYUxJTk9kUzVGa1ViRW9rRno2RmEzQVZsak9ZNDFDZWJhZjJqeDZ30gG-AUFVX3lxTE1nbDJzQnBsbHZXVzFSdFBkZ2tQMVVoTk83WlhRdXFqeEotR3dfTndSRDZHUE1mZjk5b2xHQU5ycmlTcENUTy05LXpPTXktejRHd05qZUVhUjRSem1JRDFkZVdBUFFQZDZsTW5jc1dOeE9IckhiYXdaaHUzTW01WGVfeTFrT1RvM3BlaDUzeFpDM2NsY2ZnQ2dYZ0JGQ1hyeGJ4OWRYVjdpQ2RPRkNqNFkxU1dFVG1wdmo1YjduV3c?oc=5",
+   "fonte": "lavoripubblici",
+   "fonte_nome": "LavoriPubblici",
+   "tipo": "stampa",
+   "aree": [
+    "appalti"
+   ],
+   "normativa": true,
+   "sintesi": "Sentenza Consiglio di Stato 23 settembre 2026, n. 7023 Lavori Pubblici",
+   "pubblicata": "2026-11-11T10:32:37Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "appalti.opere"
    ],
    "luogo": null
   },
@@ -8500,6 +11042,26 @@
    "luogo": "Campania"
   },
   {
+   "id": "9e137fd4ca153f29",
+   "titolo": "GSE_RS_Pagina stampa_266x373.indd",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOY0RZeDU4WF9Ga3kwSUNvRXRaQVBCREZ0bnAxd2Z2T2Rma01CNFhtZXpwUTI2V1hmeTN4a1JhQURhTXI0VG8tbUJOTXB4VGo3QkxaY1FPRVNrM1kwUjRodHBrZlAtejZUUmZ2QUdzVU5weVhJSGZvbUFfZ2FlcTRnSHh4M2M5SjdadEhBNkV6WS1tSk9HSFZDTjBySFhhNmliektLQUpzSEZ2ajlKSmhsNTVpUzVkZXp0YVpjZFo3RjVJSll5ekIxQi01X2d2YVYzUUpRbA?oc=5",
+   "fonte": "gse",
+   "fonte_nome": "GSE",
+   "tipo": "ente",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "GSE_RS_Pagina stampa_266x373.indd GSE",
+   "pubblicata": "2026-11-09T15:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null
+  },
+  {
    "id": "28e6fe8c8ea38adb",
    "titolo": "Università Iuav di Venezia – Master Iuav in Lighting Design",
    "link": "https://caserta.ordingegneri.it/blog/2026/11/09/universita-iuav-di-venezia-master-iuav-in-lighting-design/",
@@ -9006,16 +11568,16 @@
    "fonte_nome": "Infobuild",
    "tipo": "stampa",
    "aree": [
-    "energia",
-    "edilizia"
+    "imprese",
+    "energia"
    ],
    "normativa": false,
    "sintesi": "Pompe di calore made in Italy, ricerca e qualità. Maxa apre lo stabilimento di Arcole e racconta la crescita in Europa.",
    "pubblicata": "2026-11-09T03:04:28Z",
    "visto": "2026-11-18T18:51:40Z",
    "sotto": [
-    "energia.impianti",
-    "edilizia.produttivo"
+    "imprese.invitalia",
+    "energia.impianti"
    ],
    "luogo": null
   },
@@ -9359,6 +11921,48 @@
     "sicurezza.normativa"
    ],
    "luogo": null
+  },
+  {
+   "id": "f1f4b50abf7857eb",
+   "titolo": "Criteri premianti CAM: il peso deve incidere sulla graduatoria, ma non c’è una percentuale fissa",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPT0FtYWRXdEp5djJlZjJIdnBSWktwY3Z2emxNMzZ3MjNiWlQ0bGR1cm8yTW9PanFnODAtNzBNZkdzVmtIVVJuckVNQzBDbEtyWjVLdDktVGdJbk5oSkV0a0xVSFQwMEFHbGJnUzhqY0p1aG9IYjFCZU1UUHhJaFRLSVc5QWxFVFRuWl9GWThKeFAyVjFnaTBMbXItdXVSNGZUM3B6V1Fla1IwN3NFd2xHOFlOUnhBVEZGdHlwaUh3WmluQVk?oc=5",
+   "fonte": "biblus",
+   "fonte_nome": "Biblus (ACCA)",
+   "tipo": "stampa",
+   "aree": [
+    "ambiente"
+   ],
+   "normativa": false,
+   "sintesi": "Criteri premianti CAM: il peso deve incidere sulla graduatoria, ma non c’è una percentuale fissa ACCA software",
+   "pubblicata": "2026-11-06T08:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "ambiente.terre_rifiuti"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "4c8046be230f7947",
+   "titolo": "ZES Unica: agevolazione 2026",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mNVdFNUdmT0ZOcWNCbUYtWnExME9GNUFCdGpuUkZtN2RyUXA4N3dWR2JpcUptQ0g2TVZLb255ZWdxOFkwZmJoSkpmclI5TUtyd2J6cDU3SmItekNJajNKbmdoWHJyeGpfWlE?oc=5",
+   "fonte": "imp-zes",
+   "fonte_nome": "ZES Unica Mezzogiorno",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese",
+    "edilizia"
+   ],
+   "normativa": true,
+   "sintesi": "ZES Unica: agevolazione 2026 ReteAgevolazioni.it",
+   "pubblicata": "2026-11-06T08:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "imprese.zes",
+    "edilizia.produttivo"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "39ec010a94397c04",
@@ -10194,7 +12798,7 @@
     "energia",
     "bonus"
    ],
-   "normativa": false,
+   "normativa": true,
    "sintesi": "Correttivo Conto Termico 3.0: cambiano fondi, prenotazioni PA e incentivi ai Comuni PMI.it",
    "pubblicata": "2026-11-03T08:00:00Z",
    "visto": "2026-11-19T01:06:11Z",
@@ -10324,6 +12928,28 @@
    "luogo": "Campania"
   },
   {
+   "id": "dd1a0e7f3149f260",
+   "titolo": "Bonus Mobili 2027: come accedere alle detrazioni",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1JdjZnbi1mWUxXQnVqYVlWUU1UcUpyVjJyM0YwTlk0dDJ3dWhUaWZrTnlaNWkwM25pMDhCQW14WFE4OFplYm5yU2ZzSFo?oc=5",
+   "fonte": "bonus-enea",
+   "fonte_nome": "Bonus: ENEA detrazioni",
+   "tipo": "ente",
+   "aree": [
+    "bonus",
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "Bonus Mobili 2027: come accedere alle detrazioni ACCA software",
+   "pubblicata": "2026-11-02T08:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "bonus.superbonus",
+    "energia.incentivi"
+   ],
+   "luogo": null
+  },
+  {
    "id": "377a6fd930790a61",
    "titolo": "Immobili con destinazioni d’uso irregolari, allo studio nuove misure per gli annunci",
    "link": "https://www.edilportale.com/news/2026/11/normativa/destinazione-d-uso-irregolare-ddl-sugli-annunci_112553_15.html",
@@ -10381,6 +13007,50 @@
    "luogo": null
   },
   {
+   "id": "cc0273910bd10b11",
+   "titolo": "Dal credito d’imposta alla Zes unica: tutte le misure per aiutare il Mezzogiorno",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNmJVY05xNjJRWUtmTEJjUG15OW5XandjY1QzZHRBSVB2Z1o4Tk9uTHRzQ2xPRE9KbUV3VjZTTXZvU0xkWENWVnh4MU1fWXlEdngyXzlaYkFNMGpIWHVkc3FqNmJFUDlwQ09QNXlTM2I5YVFuX2tTZVI1N2JYTmZhelBEc0diMTFvYVVCQ2o1V0hwRUpadjhGVnZ4RlpPbHlKd0dKaW9GUTBiN0VCVks0bU5UMXBMM0pRM3R0Ql9hbEZwQUoxMEw4X0lB?oc=5",
+   "fonte": "imp-zes",
+   "fonte_nome": "ZES Unica Mezzogiorno",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese",
+    "edilizia"
+   ],
+   "normativa": true,
+   "sintesi": "Dal credito d’imposta alla Zes unica: tutte le misure per aiutare il Mezzogiorno La Sicilia",
+   "pubblicata": "2026-11-01T07:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "imprese.zes",
+    "edilizia.produttivo"
+   ],
+   "luogo": "Campania"
+  },
+  {
+   "id": "3036b9361cedfd54",
+   "titolo": "ZES Unica 2027 | Nuovi miliardi nel Bilancio: chi agevolano?",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVlJjOGdIOWtHVFVUMmttYk5WQ2VTbFdJbzV1Z2w5QzRSdXhlZWhkbGQtM2hvMk5wMmc4SzlNbnFGX1BQYmFwRTlzNHNzM0daem50WEZGNUtNbS04RERKYlRJbXcxMHFsVm9mbnRsRFRCa21KQzNqVnE5bTJOdm9FWXlzMXRiNlZxczFvSjhDQ29jVlBTaXlLZmtxQ1VLWjFPRkHSAacBQVVfeXFMT3JQQTBYREFIdWp3bjFTbHlhbmlUcGRKTDF0Nnl4dExMaC1PVTBtM3d3LU1sWjY3NEZUVXpVdHVkdTNrRzhFWUd2T0VQYUFPT21ZQkplbWhzM20ybGREVEJ0Wm9BeTBzNllBeFZsTUl5X1NrTmFrRkphQlk4N2ZzZVp2N05FTEZBX0tfaHZIZlNLRWdOdDA3WENCdXFyQVJIcjA5UkdodHc?oc=5",
+   "fonte": "imp-zes",
+   "fonte_nome": "ZES Unica Mezzogiorno",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese",
+    "edilizia"
+   ],
+   "normativa": true,
+   "sintesi": "ZES Unica 2027 | Nuovi miliardi nel Bilancio: chi agevolano? IlSussidiario.net",
+   "pubblicata": "2026-10-31T07:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "imprese.zes",
+    "edilizia.produttivo"
+   ],
+   "luogo": "Campania"
+  },
+  {
    "id": "5aaee57a7736724a",
    "titolo": "Ecobonus, ENEA aggiorna le guide: ecco gli interventi che danno diritto alle detrazioni",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVW5DYVRWNFRNdjFnUm42YlpBT1RaWHFMNGN1OWgxOGFrZ0U0RXNwR1VQUVdnWkFuTWlYS1V1THE1T3RhR1BJRWRWTWppVUh4a1VGV2Zpa1lmU1ZnSmlhTjVlVHg1dExYZnF1VlRYU2hQWm1QV3RTMHVoZ3Y5di1RY1ItcTVaLVI0MDFnQTJfYUU1RFp0R211UWdtX19LN21NY2pCUVQ1LVZmdG0yZEx6dmhiSHZvMjZuNElvLURORFR1TFczNkJYeHF0SUVIUGxsUVFYSQ?oc=5",
@@ -10401,6 +13071,50 @@
     "energia.incentivi"
    ],
    "luogo": null
+  },
+  {
+   "id": "cf9bb12091a10f88",
+   "titolo": "Legge di Bilancio 2027: cosa cambia per le imprese tra ZES, investimenti e nuovi incentivi",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ1paTWJHb1BiY1U5LXJzSzI5bk0xSmFWTno0bXRCa2cwbV9FcTc2Yk9nTnZjNGN1ajkxdEJYVjdRdDBEc1ZWQ1NyX3paNUR1OUdHbkFOd2c1OHBIdFhveUxrVGFod2xIbVRQQ0JQZ2NhN0tsYWgzaWlKTEhQbWtiaXdDcHcyLTB1T1Jn?oc=5",
+   "fonte": "imp-zes",
+   "fonte_nome": "ZES Unica Mezzogiorno",
+   "tipo": "ufficiale",
+   "aree": [
+    "bonus",
+    "imprese"
+   ],
+   "normativa": true,
+   "sintesi": "Legge di Bilancio 2027: cosa cambia per le imprese tra ZES, investimenti e nuovi incentivi Finera",
+   "pubblicata": "2026-10-30T07:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "bonus.bilancio",
+    "imprese.zes"
+   ],
+   "luogo": "Campania"
+  },
+  {
+   "id": "94d3e02a8668e7aa",
+   "titolo": "Credito ZES Unica 2026: come si chiede, aliquote e riparto",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQc3c2bHpYdWRKa09SOGJRUFlUSUMtZGk2a3cwYTV2NGRXQW1hY1lyLWdnZzFZWnlYQWtXeEI2TnROR1l2MUdIVHpDT3l1NzI2bmw5cC1CYXFHaEU3dzBYeFdQUWs5V0V0V3ZRYWUyYUxDR21PSFVkZVBYaW5Zc1U0SnZkalB3M1UtWXYteXRFdFpRRWdZbjBuRnNjc2RGQUhnQ01Kb2FGQ29wWElCUVNv?oc=5",
+   "fonte": "imp-zes",
+   "fonte_nome": "ZES Unica Mezzogiorno",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese",
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "Credito ZES Unica 2026: come si chiede, aliquote e riparto PMI.it",
+   "pubblicata": "2026-10-30T07:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "imprese.zes",
+    "bonus.superbonus"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "ad57155ff3d778ca",
@@ -10471,6 +13185,26 @@
     "bonus.bilancio"
    ],
    "luogo": null
+  },
+  {
+   "id": "18c99181847825b9",
+   "titolo": "Manovra 2027, testo approvato in Cdm. Le misure, le novità e cosa sapere",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQREh2ZmpXeTRScnVoOEFXMG1qWjV3anFhM0NFQU5NSUNfWmNMZVk5cHg2T1B0MUgwMEZKYzJVVkNGTTVrbEx5ZTY0UzcyV1pFRmJpUjVOSFZKd3oxY0NFMVRTUzVaLTJJOHhUX3R6V2tWbnd3WnlUQnc4WGtZMlc3cUlpSmo?oc=5",
+   "fonte": "imp-zes",
+   "fonte_nome": "ZES Unica Mezzogiorno",
+   "tipo": "ufficiale",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "Manovra 2027, testo approvato in Cdm. Le misure, le novità e cosa sapere Sky TG24",
+   "pubblicata": "2026-10-29T07:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "bonus.bilancio"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "bc2c89bcd6d5d28d",
@@ -10761,6 +13495,28 @@
    "luogo": null
   },
   {
+   "id": "5c6756180824c342",
+   "titolo": "ZES Unica 2026: come funziona, scadenze e credito al 60%",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB5MjVOWDVLb0diNWE1SjgwZGZHY0U1dUl3SUlTeE5NV3RnNl9VdktFTEU4Ujl4MFR4TkMzeVROQ1JJYUFwb09QOVhSNTdacVJrVFNLVE1DQko0R1BKWFlsN3dDalJjdTNYVEc2cXNValNWUzlnMUxRcE41TkE?oc=5",
+   "fonte": "imp-zes",
+   "fonte_nome": "ZES Unica Mezzogiorno",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese",
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "ZES Unica 2026: come funziona, scadenze e credito al 60% Incentivimpresa",
+   "pubblicata": "2026-10-26T07:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "imprese.zes",
+    "bonus.contributi"
+   ],
+   "luogo": "Campania"
+  },
+  {
    "id": "c597a5184610608d",
    "titolo": "Equo compenso, incentivi e IA: le sei proposte di Confprofessioni per il 2032",
    "link": "https://www.edilportale.com/news/2026/10/professione/confprofessioni-equo-compenso-incentivi-e-ia_112442_33.html",
@@ -10771,7 +13527,7 @@
     "norme",
     "appalti"
    ],
-   "normativa": false,
+   "normativa": true,
    "sintesi": "",
    "pubblicata": "2026-10-26T06:00:00Z",
    "visto": "2026-11-18T18:51:40Z",
@@ -10801,6 +13557,72 @@
    "luogo": null
   },
   {
+   "id": "8ee40d55977c96cb",
+   "titolo": "Ecobonus in salvo anche se manca l’invio della pratica Enea",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVzY3NlFtYjNTeFp0V2NIVWhrVFhpVXZ3bUh2YnR6QmpJVjVZUnhIZ2ZKRDJKSGNIaER0RjZrdHpVbE9KeHpSVjRGYzB1eWl3bVRHU3laa2VmVnpLaG1pZkdUTGkyblVEV3lablRiSk9XdlJ0NGI1SjFaUjJPU1RPT0pDV2RlUmNDTUdkYU1mdFBjeGJmY1E?oc=5",
+   "fonte": "bonus-enea",
+   "fonte_nome": "Bonus: ENEA detrazioni",
+   "tipo": "ente",
+   "aree": [
+    "energia",
+    "bonus"
+   ],
+   "normativa": false,
+   "sintesi": "Ecobonus in salvo anche se manca l’invio della pratica Enea Il Sole 24 ORE",
+   "pubblicata": "2026-10-25T07:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "energia.incentivi",
+    "bonus.detrazioni"
+   ],
+   "luogo": null
+  },
+  {
+   "id": "48b763a59794aa1d",
+   "titolo": "Imprese del Mezzogiorno, fari puntati sulla Zes unica: «Così attiriamo nuovi e importanti capitali dall’America»",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeXg1bXZDWVJIdkkxdmZrdWF2T2hmcTNINGdVWklsQWlXeGVDeV9rWFZHX2hvRFNTXzFuLTl2LVRVbnoyU1o4eVZ1d3lPbC0yS2F5TGc1NmMtb3V4RmRTUko5TXI2cmFFYVdROUlmQ2NsWVZVeFBYSGhjb3VkLVI3bHdHYXI5ZXVHbEF6SzI3dk9NMEpwUmJHSlM3b2E4WVJKQV93REpSeThDSF9WY09RQ21Da2tRb2RPSkZiamRqaC3SAbsBQVVfeXFMTXFPbGJUUHpWYWFOT29lajRlUDVjb0dQSzZYTTVvNUhtXzFfV2RkUkFHV3BBZ0h4c3drSHpFZDgycG51eVlmWC1CQUR0MVBkTVVqaHFQUHVJcDJLczVIc2JLeThCbzF3dTU5clgwT3lUWFRGQzRHZjQ0alJBREdaVk5VUHd5UlpRYzZJR213TDFJRXVXWndudVhwQk5SNldrci1ZQXpBZ2pMOVpzbEk5SGFBb1JiSURXODFFaw?oc=5",
+   "fonte": "imp-zes",
+   "fonte_nome": "ZES Unica Mezzogiorno",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese",
+    "edilizia"
+   ],
+   "normativa": true,
+   "sintesi": "Imprese del Mezzogiorno, fari puntati sulla Zes unica: «Così attiriamo nuovi e importanti capitali dall’America» Il Mattino",
+   "pubblicata": "2026-10-24T07:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "imprese.zes",
+    "edilizia.produttivo"
+   ],
+   "luogo": "Campania"
+  },
+  {
+   "id": "554dcf99dc08aad1",
+   "titolo": "ZES Unica e capitali USA, Napoli rafforza il ponte economico con gli Stati Uniti. Flynn: «Legami forti e storici»",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQTGxLNTVxUEtjaXJ6ZnUwMFNNRnlSdTU0U28zdm9kNmhYOTc0YjM5M1RkNWgwdGR2bXVTcmJlYVpTT0FZUzZoTXlUZUhXeWUzVDktTDBFcnBQTEtSa0dqYmx0dTFLUXViNlV4ZE1rd1BpSVpWUHJNWFd6cjM0X2JETXdxMEtXcFNWcFk3Q0UxQTE5NmFBbFlwZl9wbWVkZFVkaExfM2VvWkVsQkFpa0pfeU42LXhRY1pVYjc0RHJ2dUlZZF82dGlQakpmNl9pbnlZMFBNbUNFaENCbTkzU29McGFveEpLOF9LdmQ3WlFrMklBd9IB8AFBVV95cUxOX3AxOFkyNUdfYmNMY1JFaDZUR0lFNUZaSUJTa0Z3SExHaXVXc3M0VkowYWZhYTRMRkllVmtMMDNWMG1CRG5hZ0NnT3haS242cHRuRC1DTjFRbGRIWkRqdEF3b0pLTVpNbUZVZXFjQUtBbjdzMVlMYm9kRjZWbXJDamNJd0wtaXB5YTJkMlU2LWt5ZzdYQ05OLVhVRlMxUEQ5Tjk4V0xocEFkV2pvdE9TLTRCY3dvSFNXb0VkSld4QTlyd0lHNHhJdzE2UGdWci14LTJ2UDJEN1BtSXZTWmVkYWJRcklRX1U4enRhbE9Zbkw?oc=5",
+   "fonte": "imp-zes",
+   "fonte_nome": "ZES Unica Mezzogiorno",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese",
+    "edilizia"
+   ],
+   "normativa": true,
+   "sintesi": "ZES Unica e capitali USA, Napoli rafforza il ponte economico con gli Stati Uniti. Flynn: «Legami forti e storici» Il Mattino",
+   "pubblicata": "2026-10-24T07:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "imprese.zes",
+    "edilizia.produttivo"
+   ],
+   "luogo": "Campania"
+  },
+  {
    "id": "e880ab9fd54313dc",
    "titolo": "1. di prorogare, per le motivazioni espresse in premessa, al 16.11.2026 il termine per la presentazione delle do- mande di soste",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbmlsZFo0dUZEa0l5UWU5cUVNNWtxSzd6bGFUdFBIcnliWmxyWnpVMlJjenNleTk1Mk1fWUo1TTAzYjE3MG1WYmFIb2RiQjVzMWVxb0pka1RuY2VFVmdrSFZsRHRWYXdiUmZrb0pYdWtqRzg5WXpvSm9KS3B1T3hQQWxCOHJoU1BtNWxYbnFscGdpN2hWTkI4NWVB?oc=5",
@@ -10821,6 +13643,28 @@
     "bonus.bilancio"
    ],
    "luogo": null
+  },
+  {
+   "id": "c1c3c766326475a1",
+   "titolo": "ZES Unica, iperammortamento e Sabatini: nel Mezzogiorno conta la sequenza",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYmxmbHZnQy1iaFFhWloydzRIMnh4eTZWUmZCMDF2MU1EdlJVTEtINlpORUJnLVllakM0ejFwd1hWcTZ4N3ctTDlFcXMzaHdCVE1vbFQxc29WdkcwYUN5eWhIeGdIYVZ6anE1ZktDSnc1eFVNYXZzWW9EM05kdzJVamJBb1dHRzRfUGNQVUNzRllFYVg1VmNxTVYxbVVEaUU4WG9qbmRzaEJwQ1hCOXpycmJIWDFUS1RFLVhn?oc=5",
+   "fonte": "imp-zes",
+   "fonte_nome": "ZES Unica Mezzogiorno",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese",
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "ZES Unica, iperammortamento e Sabatini: nel Mezzogiorno conta la sequenza QuotidianoPiù",
+   "pubblicata": "2026-10-23T07:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "imprese.zes",
+    "bonus.contributi"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "71873d8808f2dc1c",
@@ -10936,6 +13780,28 @@
     "bonus.energia"
    ],
    "luogo": null
+  },
+  {
+   "id": "824cbf6f33fc4923",
+   "titolo": "Prima autorizzazione Zes unica porto di Ancona, capannone Ferretti per superyacht",
+   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPdy1keDNJeGc4NF9xbEdHOHRlNU1kczh0eVJ6MWJyUGxRQ2ZHS2tsdlM1aFpwTHVmMHE5UlBqaFBmMG52dUZOM1JPYVBzVHhfbFVHOWYwWlZsejc4a0RKYldfenZZcUpvTkZnNGo0ejdBRjd4NGFfNUN5M01BNjk1cFZ4QWluanBTQWlxMkM4SFBNdG8wTmM3aDlrMGxfa3hzMjNHZ0hfTXkzcWJqX1RsbDBXbHNkbUhfMlpkeFRiTGdwZVFkcDlEdVp2a0p1VjlKY2ZWV2hfYzFWcVVtcHZjMWdfMjZ2WFBiYXEtelBOei1KcXVGRnlVbnp5UEVXa3doNU90QmRB0gGLAkFVX3lxTE1MNVdnX3QzUWg2QXhIM0E1YUpRZVF1bGttS2R5dEhTUFNOX0FMdUxKSE1MVkgxUVgzampWUnkydGZtV0dMYzBoWFdJSTdQQlJtendTNnhkNHRwLTA2TFBLTktEOGJnUlBVZ09VM1AyVUhjdnhCWDBKeURVdW5CMWtnSE9ON0l2eEd5MnBLelFjTWhxWGZaR0RUTG5yekRKazhneHJPVWdUV2V0YS1NZWFZb25BSVRaUlpuekl1Q2dJdHVqZGd2QXBJaTZ3VnIybkRidkdFREhzRzBPc3paZ0JlMDJlZklXMl9UYTNmWWNDZWVhMW1SMEFyTF9oTG5fVndEaTgyOGFvS3NBWQ?oc=5",
+   "fonte": "imp-zes",
+   "fonte_nome": "ZES Unica Mezzogiorno",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese",
+    "edilizia"
+   ],
+   "normativa": true,
+   "sintesi": "Prima autorizzazione Zes unica porto di Ancona, capannone Ferretti per superyacht ANSA",
+   "pubblicata": "2026-10-21T07:00:00Z",
+   "visto": "2026-11-19T08:44:19Z",
+   "metodo": "gnews",
+   "sotto": [
+    "imprese.zes",
+    "edilizia.produttivo"
+   ],
+   "luogo": "Campania"
   },
   {
    "id": "19512d5e676c277a",
