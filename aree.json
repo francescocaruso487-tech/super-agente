@@ -185,7 +185,15 @@
      ]
     }
    },
-   "gruppo": "pratiche"
+   "gruppo": "pratiche",
+   "prof": [
+    "ingegnere",
+    "architetto",
+    "geometra",
+    "dl_cantiere",
+    "immobiliare",
+    "notaio"
+   ]
   },
   "antincendio": {
    "nome": "Antincendio (VVF)",
@@ -329,7 +337,12 @@
      ]
     }
    },
-   "gruppo": "tecnica"
+   "gruppo": "tecnica",
+   "prof": [
+    "ingegnere",
+    "perito",
+    "dl_cantiere"
+   ]
   },
   "catasto": {
    "nome": "Catasto e volture",
@@ -443,7 +456,13 @@
      ]
     }
    },
-   "gruppo": "pratiche"
+   "gruppo": "pratiche",
+   "prof": [
+    "geometra",
+    "notaio",
+    "immobiliare",
+    "commercialista"
+   ]
   },
   "strutture": {
    "nome": "Strutture e sismica",
@@ -574,7 +593,12 @@
      ]
     }
    },
-   "gruppo": "tecnica"
+   "gruppo": "tecnica",
+   "prof": [
+    "ingegnere",
+    "geologo",
+    "dl_cantiere"
+   ]
   },
   "energia": {
    "nome": "Impianti ed energia",
@@ -767,7 +791,12 @@
      ]
     }
    },
-   "gruppo": "tecnica"
+   "gruppo": "tecnica",
+   "prof": [
+    "ingegnere",
+    "energia_prof",
+    "perito"
+   ]
   },
   "bonus": {
    "nome": "Bonus e incentivi",
@@ -1096,7 +1125,14 @@
      ]
     }
    },
-   "gruppo": "soldi"
+   "gruppo": "soldi",
+   "prof": [
+    "commercialista",
+    "geometra",
+    "ingegnere",
+    "architetto",
+    "immobiliare"
+   ]
   },
   "imprese": {
    "nome": "Incentivi alle imprese",
@@ -1231,7 +1267,12 @@
      ]
     }
    },
-   "gruppo": "soldi"
+   "gruppo": "soldi",
+   "prof": [
+    "commercialista",
+    "management",
+    "avvocato"
+   ]
   },
   "sicurezza": {
    "nome": "Sicurezza e privacy",
@@ -1274,7 +1315,12 @@
     "bug",
     "falla"
    ],
-   "gruppo": "tecnica"
+   "gruppo": "tecnica",
+   "prof": [
+    "dl_cantiere",
+    "maestranze",
+    "consulente_lavoro"
+   ]
   },
   "appalti": {
    "nome": "Appalti e lavori pubblici",
@@ -1493,7 +1539,12 @@
      ]
     }
    },
-   "gruppo": "pratiche"
+   "gruppo": "pratiche",
+   "prof": [
+    "ingegnere",
+    "avvocato",
+    "dl_cantiere"
+   ]
   },
   "ambiente": {
    "nome": "Ambiente e paesaggio",
@@ -1715,7 +1766,13 @@
      ]
     }
    },
-   "gruppo": "tecnica"
+   "gruppo": "tecnica",
+   "prof": [
+    "geologo",
+    "agronomo",
+    "chimico_biologo",
+    "ingegnere"
+   ]
   },
   "norme": {
    "nome": "Norme tecniche e UE",
@@ -1947,7 +2004,11 @@
      ]
     }
    },
-   "gruppo": "tecnica"
+   "gruppo": "tecnica",
+   "prof": [
+    "ingegnere",
+    "perito"
+   ]
   },
   "smartphone": {
    "nome": "Smartphone e Android",
@@ -2321,7 +2382,11 @@
     }
    },
    "gruppo": "soldi",
-   "fonti_riservate": "caf"
+   "fonti_riservate": "caf",
+   "prof": [
+    "commercialista",
+    "consulente_lavoro"
+   ]
   },
   "isee": {
    "nome": "ISEE e prestazioni sociali (CAF)",
@@ -2399,7 +2464,10 @@
     }
    },
    "gruppo": "soldi",
-   "fonti_riservate": "caf"
+   "fonti_riservate": "caf",
+   "prof": [
+    "commercialista"
+   ]
   },
   "pensioni": {
    "nome": "Pensioni e previdenza (CAF)",
@@ -2464,7 +2532,11 @@
     }
    },
    "gruppo": "soldi",
-   "fonti_riservate": "caf"
+   "fonti_riservate": "caf",
+   "prof": [
+    "consulente_lavoro",
+    "commercialista"
+   ]
   },
   "lavoro": {
    "nome": "Lavoro, colf e contratti (CAF)",
@@ -2523,7 +2595,11 @@
     }
    },
    "gruppo": "soldi",
-   "fonti_riservate": "caf"
+   "fonti_riservate": "caf",
+   "prof": [
+    "consulente_lavoro",
+    "hr"
+   ]
   },
   "casa_fisco": {
    "nome": "Casa: affitti, successioni, mutui",
@@ -2597,7 +2673,13 @@
     }
    },
    "gruppo": "soldi",
-   "fonti_riservate": "caf"
+   "fonti_riservate": "caf",
+   "prof": [
+    "notaio",
+    "immobiliare",
+    "commercialista",
+    "avvocato"
+   ]
   },
   "imprese_fisco": {
    "nome": "Partite IVA, cartelle e bilanci",
@@ -2676,7 +2758,11 @@
     }
    },
    "gruppo": "soldi",
-   "fonti_riservate": "caf"
+   "fonti_riservate": "caf",
+   "prof": [
+    "commercialista",
+    "revisore_finanza"
+   ]
   },
   "professione_fisco": {
    "nome": "CAF, commercialisti e professioni",
@@ -2745,7 +2831,11 @@
     }
    },
    "gruppo": "soldi",
-   "fonti_riservate": "caf"
+   "fonti_riservate": "caf",
+   "prof": [
+    "commercialista",
+    "consulente_lavoro"
+   ]
   },
   "governo": {
    "nome": "Governo e Parlamento",
@@ -3866,6 +3956,735 @@
      ]
     }
    }
+  },
+  "cantiere": {
+   "nome": "Direzione lavori e cantiere",
+   "colore": "#b45309",
+   "nicchia": "edilizia",
+   "gruppo": "tecnica",
+   "prof": [
+    "dl_cantiere",
+    "maestranze",
+    "bim"
+   ],
+   "sotto": {
+    "dl": {
+     "nome": "Direzione lavori e contabilità",
+     "parole": [
+      "direttore dei lavori",
+      "direzione lavori",
+      "direttore operativo",
+      "contabilità lavori",
+      "computo metrico",
+      "riserve",
+      "collaudo",
+      "collaudatore",
+      "rup",
+      "capo cantiere",
+      "capocantiere",
+      "sal ",
+      "varianti in corso d'opera",
+      "verbale di consegna",
+      "ispettore di cantiere",
+      "preventivo lavori",
+      "prezzario",
+      "prezzari",
+      "prezzario regionale"
+     ]
+    },
+    "bim": {
+     "nome": "BIM e digitale",
+     "parole": [
+      "bim",
+      "building information modeling",
+      "openbim",
+      "ifc",
+      "gemello digitale",
+      "digital twin",
+      "modellazione",
+      "revit",
+      "archicad",
+      "rilievo laser",
+      "laser scanner",
+      "droni",
+      "fotogrammetria",
+      "topografia",
+      "gnss"
+     ]
+    },
+    "maestranze": {
+     "nome": "Maestranze e qualificazione",
+     "parole": [
+      "ponteggio",
+      "ponteggi",
+      "ponteggisti",
+      "saldatore",
+      "saldatori",
+      "carpentiere",
+      "muratore",
+      "edili",
+      "formazione edile",
+      "cassa edile",
+      "durc",
+      "patente a crediti",
+      "qualificazione imprese",
+      "soa",
+      "manodopera",
+      "apprendisti edili",
+      "scuola edile",
+      "ccnl edilizia",
+      "ferraiolo",
+      "gruista",
+      "escavatorista",
+      "operai",
+      "lavoratori edili",
+      "caporalato"
+     ]
+    }
+   }
+  },
+  "scienze": {
+   "nome": "Geologia, agronomia e scienze",
+   "colore": "#4d7c0f",
+   "nicchia": "edilizia",
+   "gruppo": "tecnica",
+   "prof": [
+    "geologo",
+    "agronomo",
+    "chimico_biologo"
+   ],
+   "sotto": {
+    "geologia": {
+     "nome": "Geologia e rischio",
+     "parole": [
+      "geologo",
+      "geologi",
+      "geologia",
+      "geotecnica",
+      "indagini geologiche",
+      "frane",
+      "dissesto idrogeologico",
+      "microzonazione",
+      "faglie",
+      "sismologia",
+      "ingv",
+      "suolo",
+      "sottosuolo",
+      "sondaggi"
+     ]
+    },
+    "agro": {
+     "nome": "Agronomia e forestazione",
+     "parole": [
+      "agronomo",
+      "agronomi",
+      "forestale",
+      "forestazione",
+      "agricoltura",
+      "psr",
+      "pac",
+      "fondi agricoli",
+      "irrigazione",
+      "verde pubblico",
+      "alberature",
+      "paesaggio agrario",
+      "perito agrario",
+      "catasto agrario",
+      "bonifica"
+     ]
+    },
+    "chimica": {
+     "nome": "Chimica, fisica e biologia",
+     "parole": [
+      "chimico",
+      "chimici",
+      "fisico",
+      "fisici",
+      "biologo",
+      "biologi",
+      "laboratorio",
+      "analisi chimiche",
+      "reach",
+      "sostanze pericolose",
+      "amianto",
+      "radon",
+      "campi elettromagnetici",
+      "inquinamento",
+      "arpa",
+      "acque reflue"
+     ]
+    }
+   }
+  },
+  "immobiliare": {
+   "nome": "Immobiliare e condominio",
+   "colore": "#0e7490",
+   "nicchia": "edilizia",
+   "gruppo": "mercato",
+   "prof": [
+    "immobiliare",
+    "notaio",
+    "geometra",
+    "commercialista"
+   ],
+   "sotto": {
+    "mercato": {
+     "nome": "Mercato e compravendite",
+     "parole": [
+      "mercato immobiliare",
+      "compravendite",
+      "agente immobiliare",
+      "agenti immobiliari",
+      "mediatore immobiliare",
+      "fiaip",
+      "fimaa",
+      "omi",
+      "osservatorio mercato immobiliare",
+      "prezzi delle case",
+      "prezzi immobili",
+      "mutuo",
+      "mutui",
+      "tassi mutui",
+      "real estate",
+      "asta immobiliare",
+      "aste immobiliari",
+      "nomisma",
+      "tecnoborsa",
+      "affitti",
+      "canoni"
+     ]
+    },
+    "condominio": {
+     "nome": "Condominio e gestione",
+     "parole": [
+      "condominio",
+      "condomini",
+      "amministratore di condominio",
+      "amministratori di condominio",
+      "anaci",
+      "assemblea condominiale",
+      "millesimi",
+      "riforma del condominio",
+      "facility manager",
+      "property manager",
+      "asset manager",
+      "manutenzione",
+      "ascensori",
+      "riscaldamento centralizzato",
+      "impianto centralizzato"
+     ]
+    },
+    "stime": {
+     "nome": "Stime e valutazioni",
+     "parole": [
+      "valutatore immobiliare",
+      "perito estimatore",
+      "stima immobiliare",
+      "estimo",
+      "valutazione immobiliare",
+      "rics",
+      "abi linee guida",
+      "valutazione degli immobili",
+      "home staging",
+      "due diligence immobiliare",
+      "rendita",
+      "valore di mercato"
+     ]
+    }
+   }
+  },
+  "trasporti": {
+   "nome": "Mobilità, trasporti e logistica",
+   "colore": "#0369a1",
+   "nicchia": "edilizia",
+   "gruppo": "mercato",
+   "prof": [
+    "trasporti",
+    "ingegnere"
+   ],
+   "sotto": {
+    "logistica": {
+     "nome": "Logistica e supply chain",
+     "parole": [
+      "logistica",
+      "logistics",
+      "supply chain",
+      "spedizioniere",
+      "freight forwarder",
+      "trasporto merci",
+      "autotrasporto",
+      "magazzino",
+      "interporti",
+      "porti",
+      "retroporto",
+      "zes",
+      "dogane",
+      "hub logistico",
+      "last mile",
+      "ferrovia merci",
+      "trasporto intermodale"
+     ]
+    },
+    "mobilita": {
+     "nome": "Mobilità e flotte",
+     "parole": [
+      "mobility manager",
+      "mobilità sostenibile",
+      "pums",
+      "fleet manager",
+      "flotte aziendali",
+      "trasporto pubblico",
+      "tpl",
+      "ingegnere dei trasporti",
+      "traffico",
+      "pianificazione del traffico",
+      "adr",
+      "merci pericolose",
+      "consulente adr",
+      "car sharing",
+      "bike sharing",
+      "mobilità aziendale"
+     ]
+    }
+   }
+  },
+  "legale": {
+   "nome": "Legale e giustizia civile",
+   "colore": "#6d28d9",
+   "nicchia": "edilizia",
+   "gruppo": "studi",
+   "prof": [
+    "avvocato",
+    "notaio",
+    "revisore_finanza"
+   ],
+   "sotto": {
+    "avvocati": {
+     "nome": "Avvocati e processo",
+     "parole": [
+      "avvocato",
+      "avvocati",
+      "cnf",
+      "ordine degli avvocati",
+      "processo civile",
+      "processo telematico",
+      "riforma cartabia",
+      "cartabia",
+      "giudice di pace",
+      "equo compenso",
+      "mediazione",
+      "negoziazione assistita",
+      "tribunale",
+      "cassazione",
+      "civilista",
+      "amministrativista",
+      "tar ",
+      "consiglio di stato",
+      "tributaria",
+      "contenzioso"
+     ]
+    },
+    "crisi": {
+     "nome": "Crisi d'impresa e curatori",
+     "parole": [
+      "crisi d'impresa",
+      "insolvenza",
+      "composizione negoziata",
+      "fallimento",
+      "liquidazione giudiziale",
+      "curatore fallimentare",
+      "gestore della crisi",
+      "sovraindebitamento",
+      "concordato",
+      "codice della crisi",
+      "ristrutturazione del debito",
+      "procedure concorsuali"
+     ]
+    }
+   }
+  },
+  "management": {
+   "nome": "Management, compliance e finanza",
+   "colore": "#475569",
+   "nicchia": "edilizia",
+   "gruppo": "studi",
+   "prof": [
+    "management",
+    "revisore_finanza",
+    "commercialista"
+   ],
+   "sotto": {
+    "governance": {
+     "nome": "Compliance, 231 ed ESG",
+     "parole": [
+      "compliance",
+      "231",
+      "modello 231",
+      "governance",
+      "esg",
+      "sostenibilità",
+      "rendicontazione di sostenibilità",
+      "csrd",
+      "whistleblowing",
+      "privacy",
+      "gdpr",
+      "antiriciclaggio",
+      "risk manager",
+      "risk management",
+      "controllo interno",
+      "responsabilità amministrativa"
+     ]
+    },
+    "finanza": {
+     "nome": "Finanza e revisione",
+     "parole": [
+      "consulente finanziario",
+      "promotore finanziario",
+      "consob",
+      "oam",
+      "anasf",
+      "attuario",
+      "attuari",
+      "revisore",
+      "revisori",
+      "revisione legale",
+      "covip",
+      "borsa",
+      "risparmio",
+      "investimenti",
+      "intermediari finanziari",
+      "banche",
+      "abi",
+      "mifid"
+     ]
+    },
+    "manager": {
+     "nome": "Imprese e consulenza",
+     "parole": [
+      "amministratore delegato",
+      "ceo",
+      "cfo",
+      "coo",
+      "consulente aziendale",
+      "project manager",
+      "program manager",
+      "business analyst",
+      "controller",
+      "controllo di gestione",
+      "temporary manager",
+      "manager",
+      "manageritalia",
+      "dirigenti",
+      "confindustria",
+      "pmi",
+      "startup",
+      "bilancio d'esercizio"
+     ]
+    }
+   }
+  },
+  "hr": {
+   "nome": "Risorse umane e formazione aziendale",
+   "colore": "#c2410c",
+   "nicchia": "edilizia",
+   "gruppo": "studi",
+   "prof": [
+    "hr",
+    "consulente_lavoro"
+   ],
+   "sotto": {
+    "hr": {
+     "nome": "HR e selezione",
+     "parole": [
+      "hr",
+      "risorse umane",
+      "recruiter",
+      "recruiting",
+      "selezione del personale",
+      "talent acquisition",
+      "assunzioni",
+      "mercato del lavoro",
+      "competenze",
+      "retention",
+      "welfare aziendale",
+      "benefit aziendali",
+      "smart working",
+      "politiche attive",
+      "anpal",
+      "assolavoro",
+      "agenzie per il lavoro"
+     ]
+    },
+    "formazione": {
+     "nome": "Formazione e fondi",
+     "parole": [
+      "formazione aziendale",
+      "formazione continua",
+      "fondimpresa",
+      "fondi interprofessionali",
+      "forma.temp",
+      "learning",
+      "upskilling",
+      "reskilling",
+      "corsi",
+      "formatore",
+      "apprendistato",
+      "tirocini",
+      "gol",
+      "fondo nuove competenze",
+      "fondo sociale europeo"
+     ]
+    }
+   }
+  },
+  "sanita": {
+   "nome": "Sanità e professioni sanitarie",
+   "colore": "#be123c",
+   "nicchia": "edilizia",
+   "gruppo": "altri",
+   "prof": [
+    "sanitari"
+   ],
+   "sotto": {
+    "professioni": {
+     "nome": "Professioni sanitarie",
+     "parole": [
+      "medico",
+      "medici",
+      "medici di famiglia",
+      "odontoiatra",
+      "odontoiatri",
+      "farmacista",
+      "farmacisti",
+      "psicologo",
+      "psicologi",
+      "psicoterapeuta",
+      "fisioterapista",
+      "fisioterapisti",
+      "infermiere",
+      "infermieri",
+      "ostetrica",
+      "ostetriche",
+      "dietista",
+      "nutrizionista",
+      "veterinario",
+      "veterinari",
+      "fnomceo",
+      "fofi",
+      "fnopi",
+      "fnovi",
+      "ecm",
+      "ordine dei medici",
+      "specializzandi",
+      "contratto medici"
+     ]
+    },
+    "sistema": {
+     "nome": "Sistema sanitario",
+     "parole": [
+      "ssn",
+      "sanità",
+      "sanita",
+      "liste d'attesa",
+      "pronto soccorso",
+      "ospedali",
+      "asl",
+      "aifa",
+      "farmaci",
+      "vaccini",
+      "ministero della salute",
+      "lea",
+      "medicina territoriale",
+      "case di comunità",
+      "riforma sanitaria",
+      "fondo sanitario",
+      "telemedicina",
+      "fascicolo sanitario"
+     ]
+    }
+   }
+  },
+  "digitale": {
+   "nome": "Digitale, IT e dati",
+   "colore": "#0891b2",
+   "nicchia": "edilizia",
+   "gruppo": "altri",
+   "prof": [
+    "it"
+   ],
+   "sotto": {
+    "sicurezza_it": {
+     "nome": "Cybersecurity e norme",
+     "parole": [
+      "cybersecurity",
+      "sicurezza informatica",
+      "nis2",
+      "acn",
+      "csirt",
+      "data breach",
+      "ransomware",
+      "gdpr",
+      "garante privacy",
+      "dora",
+      "cyber resilience act",
+      "ai act",
+      "perimetro di sicurezza",
+      "identità digitale",
+      "spid",
+      "cie"
+     ]
+    },
+    "sviluppo": {
+     "nome": "Sviluppo, dati e cloud",
+     "parole": [
+      "sviluppatore",
+      "sviluppatori",
+      "programmatore",
+      "programmatori",
+      "data analyst",
+      "data scientist",
+      "devops",
+      "cloud",
+      "cloud architect",
+      "sistemista",
+      "ux",
+      "ui designer",
+      "product manager",
+      "e-commerce",
+      "intelligenza artificiale",
+      "open source",
+      "api",
+      "agid",
+      "pa digitale",
+      "pagopa",
+      "app io",
+      "linguaggio di programmazione",
+      "big data"
+     ]
+    }
+   }
+  },
+  "comunicazione": {
+   "nome": "Comunicazione, media e design",
+   "colore": "#db2777",
+   "nicchia": "edilizia",
+   "gruppo": "altri",
+   "prof": [
+    "comunicazione"
+   ],
+   "sotto": {
+    "media": {
+     "nome": "Giornalismo, marketing e social",
+     "parole": [
+      "giornalista",
+      "giornalisti",
+      "ordine dei giornalisti",
+      "fnsi",
+      "odg",
+      "editoria",
+      "copywriter",
+      "social media",
+      "social media manager",
+      "digital marketing",
+      "seo",
+      "pubblicità",
+      "pubblicitario",
+      "creativo",
+      "agcom",
+      "diritto d'autore",
+      "siae",
+      "influencer",
+      "contenuti",
+      "brand"
+     ]
+    },
+    "design": {
+     "nome": "Design, foto e video",
+     "parole": [
+      "graphic designer",
+      "grafica",
+      "art director",
+      "design",
+      "designer",
+      "fotografo",
+      "fotografi",
+      "fotografia",
+      "videomaker",
+      "montatore video",
+      "video",
+      "cinema",
+      "audiovisivo",
+      "adi design",
+      "compasso d'oro",
+      "illustrazione",
+      "brand identity",
+      "motion graphic"
+     ]
+    }
+   }
+  },
+  "formazione_cultura": {
+   "nome": "Formazione, cultura e lingue",
+   "colore": "#7c3aed",
+   "nicchia": "edilizia",
+   "gruppo": "altri",
+   "prof": [
+    "formazione_prof"
+   ],
+   "sotto": {
+    "scuola": {
+     "nome": "Scuola, università e concorsi",
+     "parole": [
+      "docente",
+      "docenti",
+      "insegnante",
+      "insegnanti",
+      "scuola",
+      "mim",
+      "mur",
+      "concorso",
+      "concorsi",
+      "concorso docenti",
+      "graduatorie",
+      "gps",
+      "supplenze",
+      "università",
+      "atenei",
+      "erasmus",
+      "borse di studio",
+      "maturità",
+      "esami di stato",
+      "inpa",
+      "concorsi pubblici",
+      "pnrr scuola"
+     ]
+    },
+    "cultura": {
+     "nome": "Traduzione, archivi e musei",
+     "parole": [
+      "traduttore",
+      "traduttori",
+      "interprete",
+      "interpreti",
+      "aiti",
+      "traduzione",
+      "archivista",
+      "archivisti",
+      "archivi",
+      "bibliotecario",
+      "biblioteche",
+      "aib",
+      "curatore museale",
+      "storico dell'arte",
+      "musei",
+      "beni culturali",
+      "mostre",
+      "icom",
+      "soprintendenza",
+      "patrimonio culturale"
+     ]
+    }
+   }
   }
  },
  "luoghi": {
@@ -4016,5 +4835,487 @@
   "inail",
   "norma iso",
   "norme iso"
- ]
+ ],
+ "professioni": {
+  "ingegnere": {
+   "nome": "Ingegnere",
+   "emoji": "🛠️",
+   "parole": [
+    "ingegnere",
+    "ingegneri",
+    "ingegneria",
+    "ordine degli ingegneri",
+    "cni",
+    "ingegnere civile",
+    "strutturista",
+    "ingegnere gestionale",
+    "ingegnere energetico",
+    "ingegnere elettronico",
+    "ingegnere informatico"
+   ]
+  },
+  "architetto": {
+   "nome": "Architetto",
+   "emoji": "📐",
+   "parole": [
+    "architetto",
+    "architetti",
+    "paesaggista",
+    "cnappc",
+    "ordine degli architetti",
+    "progettista",
+    "progettisti"
+   ]
+  },
+  "geometra": {
+   "nome": "Geometra",
+   "emoji": "📏",
+   "parole": [
+    "geometra",
+    "geometri",
+    "cng",
+    "collegio dei geometri",
+    "cassa geometri",
+    "cipag"
+   ]
+  },
+  "perito": {
+   "nome": "Perito",
+   "emoji": "🔩",
+   "parole": [
+    "perito industriale",
+    "periti industriali",
+    "cnpi",
+    "perito agrario",
+    "periti agrari",
+    "eppi",
+    "perito estimatore",
+    "periti"
+   ]
+  },
+  "geologo": {
+   "nome": "Geologo",
+   "emoji": "🪨",
+   "parole": [
+    "geologo",
+    "geologi",
+    "geologia",
+    "consiglio nazionale dei geologi",
+    "geotecnica",
+    "indagini geologiche"
+   ]
+  },
+  "agronomo": {
+   "nome": "Agronomo e forestale",
+   "emoji": "🌾",
+   "parole": [
+    "agronomo",
+    "agronomi",
+    "dottore agronomo",
+    "forestale",
+    "forestali",
+    "conaf",
+    "agronomia"
+   ]
+  },
+  "chimico_biologo": {
+   "nome": "Chimico, fisico, biologo",
+   "emoji": "🧪",
+   "parole": [
+    "chimico",
+    "chimici",
+    "fisico",
+    "fisici",
+    "biologo",
+    "biologi",
+    "onb",
+    "laboratorio di analisi"
+   ]
+  },
+  "dl_cantiere": {
+   "nome": "Direzione lavori e cantiere",
+   "emoji": "🏗️",
+   "parole": [
+    "direttore dei lavori",
+    "direzione lavori",
+    "direttore operativo",
+    "cse",
+    "csp",
+    "coordinatore per la sicurezza",
+    "rup",
+    "responsabile unico del progetto",
+    "rspp",
+    "aspp",
+    "capo cantiere",
+    "capocantiere",
+    "direttore tecnico",
+    "site manager",
+    "capo commessa",
+    "collaudatore",
+    "collaudo",
+    "contabilità lavori",
+    "computo metrico",
+    "topografo",
+    "ispettore di cantiere",
+    "quantity surveyor",
+    "preventivista",
+    "gare d'appalto"
+   ]
+  },
+  "bim": {
+   "nome": "BIM",
+   "emoji": "🧊",
+   "parole": [
+    "bim",
+    "building information modeling",
+    "openbim",
+    "gemello digitale",
+    "digital twin",
+    "ifc"
+   ]
+  },
+  "maestranze": {
+   "nome": "Maestranze e operatori",
+   "emoji": "👷",
+   "parole": [
+    "muratore",
+    "muratori",
+    "carpentiere",
+    "ferraiolo",
+    "saldatore",
+    "saldatori",
+    "tubista",
+    "elettricista",
+    "termoidraulico",
+    "giuntista",
+    "escavatorista",
+    "gruista",
+    "ponteggista",
+    "ponteggisti",
+    "cartongessista",
+    "imbianchino",
+    "posatore",
+    "impermeabilizzatore",
+    "coibentatore",
+    "manutentore",
+    "preposto",
+    "caposquadra",
+    "operai edili",
+    "maestranze",
+    "artigiani",
+    "installatore",
+    "installatori",
+    "impiantista",
+    "cassa edile",
+    "scuola edile",
+    "formedil",
+    "manodopera"
+   ]
+  },
+  "energia_prof": {
+   "nome": "Energia ed EGE",
+   "emoji": "⚡",
+   "parole": [
+    "energy manager",
+    "ege",
+    "esperto in gestione dell'energia",
+    "certificatore energetico",
+    "certificatori energetici",
+    "esco",
+    "rinnovabili",
+    "fotovoltaico",
+    "comunità energetiche",
+    "arera",
+    "trader energetico",
+    "leed",
+    "breeam",
+    "attestato di prestazione energetica"
+   ]
+  },
+  "commercialista": {
+   "nome": "Commercialista",
+   "emoji": "🧮",
+   "parole": [
+    "commercialista",
+    "commercialisti",
+    "dottore commercialista",
+    "esperto contabile",
+    "cndcec",
+    "odcec",
+    "caf",
+    "fiscalista",
+    "tributarista",
+    "tributaristi"
+   ]
+  },
+  "avvocato": {
+   "nome": "Avvocato",
+   "emoji": "⚖️",
+   "parole": [
+    "avvocato",
+    "avvocati",
+    "legale",
+    "cnf",
+    "ordine degli avvocati",
+    "civilista",
+    "penalista",
+    "amministrativista",
+    "giuslavorista",
+    "equo compenso",
+    "processo civile",
+    "processo amministrativo",
+    "tar ",
+    "consiglio di stato"
+   ]
+  },
+  "notaio": {
+   "nome": "Notaio",
+   "emoji": "📜",
+   "parole": [
+    "notaio",
+    "notai",
+    "notariato",
+    "atto notarile",
+    "rogito",
+    "consiglio nazionale del notariato"
+   ]
+  },
+  "consulente_lavoro": {
+   "nome": "Consulente del lavoro",
+   "emoji": "🗂️",
+   "parole": [
+    "consulente del lavoro",
+    "consulenti del lavoro",
+    "payroll",
+    "busta paga",
+    "cedolini"
+   ]
+  },
+  "revisore_finanza": {
+   "nome": "Revisore, finanza, crisi",
+   "emoji": "📊",
+   "parole": [
+    "revisore",
+    "revisori",
+    "revisione legale",
+    "consulente finanziario",
+    "promotore finanziario",
+    "consob",
+    "oam",
+    "attuario",
+    "attuari",
+    "curatore fallimentare",
+    "gestore della crisi",
+    "crisi d'impresa",
+    "insolvenza",
+    "composizione negoziata",
+    "fallimento",
+    "liquidazione giudiziale"
+   ]
+  },
+  "immobiliare": {
+   "nome": "Immobiliare e condominio",
+   "emoji": "🏠",
+   "parole": [
+    "agente immobiliare",
+    "agenti immobiliari",
+    "mediatore immobiliare",
+    "fiaip",
+    "fimaa",
+    "amministratore di condominio",
+    "amministratori di condominio",
+    "condominio",
+    "condomini",
+    "anaci",
+    "property manager",
+    "facility manager",
+    "asset manager",
+    "real estate",
+    "valutatore immobiliare",
+    "stima immobiliare",
+    "home staging",
+    "broker ipotecario",
+    "mutuo",
+    "mutui",
+    "mercato immobiliare",
+    "compravendite",
+    "omi",
+    "confedilizia"
+   ]
+  },
+  "trasporti": {
+   "nome": "Trasporti e logistica",
+   "emoji": "🚚",
+   "parole": [
+    "mobility manager",
+    "fleet manager",
+    "supply chain",
+    "logistica",
+    "logistics",
+    "spedizioniere",
+    "freight forwarder",
+    "adr",
+    "merci pericolose",
+    "trasporto merci",
+    "ingegnere dei trasporti",
+    "pianificazione del traffico",
+    "mobilità sostenibile",
+    "pums",
+    "autotrasporto"
+   ]
+  },
+  "management": {
+   "nome": "Manager e consulenti",
+   "emoji": "💼",
+   "parole": [
+    "manager",
+    "amministratore delegato",
+    "ceo",
+    "cfo",
+    "coo",
+    "consulente aziendale",
+    "project manager",
+    "business analyst",
+    "controller",
+    "temporary manager",
+    "risk manager",
+    "compliance",
+    "231",
+    "esg",
+    "governance",
+    "pmi",
+    "imprenditori",
+    "controllo di gestione"
+   ]
+  },
+  "hr": {
+   "nome": "Risorse umane",
+   "emoji": "🧑‍💼",
+   "parole": [
+    "hr",
+    "risorse umane",
+    "recruiter",
+    "recruiting",
+    "selezione del personale",
+    "talent",
+    "formazione aziendale",
+    "welfare aziendale",
+    "politiche attive",
+    "anpal",
+    "fondimpresa",
+    "fondi interprofessionali",
+    "benefit aziendali"
+   ]
+  },
+  "sanitari": {
+   "nome": "Professioni sanitarie",
+   "emoji": "🩺",
+   "parole": [
+    "medico",
+    "medici",
+    "medici di famiglia",
+    "odontoiatra",
+    "odontoiatri",
+    "farmacista",
+    "farmacisti",
+    "psicologo",
+    "psicologi",
+    "psicoterapeuta",
+    "fisioterapista",
+    "fisioterapisti",
+    "infermiere",
+    "infermieri",
+    "ostetrica",
+    "ostetriche",
+    "dietista",
+    "nutrizionista",
+    "veterinario",
+    "veterinari",
+    "fnomceo",
+    "fofi",
+    "fnopi",
+    "ecm",
+    "ssn",
+    "sanità",
+    "sanita"
+   ]
+  },
+  "it": {
+   "nome": "Digitale, IT e dati",
+   "emoji": "💻",
+   "parole": [
+    "sviluppatore",
+    "sviluppatori",
+    "programmatore",
+    "data analyst",
+    "data scientist",
+    "devops",
+    "cloud",
+    "cybersecurity",
+    "sicurezza informatica",
+    "nis2",
+    "ux",
+    "ui designer",
+    "product manager",
+    "e-commerce",
+    "intelligenza artificiale",
+    "ai act",
+    "agid",
+    "spid",
+    "pa digitale"
+   ]
+  },
+  "comunicazione": {
+   "nome": "Comunicazione e design",
+   "emoji": "🎨",
+   "parole": [
+    "giornalista",
+    "giornalisti",
+    "ordine dei giornalisti",
+    "copywriter",
+    "graphic designer",
+    "art director",
+    "social media",
+    "digital marketing",
+    "fotografo",
+    "fotografi",
+    "videomaker",
+    "pubblicitario",
+    "creativo",
+    "diritto d'autore",
+    "siae",
+    "design",
+    "grafica",
+    "comunicazione"
+   ]
+  },
+  "formazione_prof": {
+   "nome": "Formazione e cultura",
+   "emoji": "🎓",
+   "parole": [
+    "docente",
+    "docenti",
+    "insegnante",
+    "insegnanti",
+    "scuola",
+    "concorso",
+    "concorsi",
+    "università",
+    "traduttore",
+    "traduttori",
+    "interprete",
+    "interpreti",
+    "archivista",
+    "bibliotecario",
+    "bibliotecari",
+    "curatore museale",
+    "storico dell'arte",
+    "musei",
+    "beni culturali",
+    "mim",
+    "mur",
+    "erasmus"
+   ]
+  }
+ }
 }

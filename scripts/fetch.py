@@ -328,7 +328,7 @@ def read_source(src):
 
 
 # ---------------------------------------------------------------- classificazione
-TASSONOMIA = "8"  # cambia questo valore per far riclassificare l'archivio
+TASSONOMIA = "9"  # cambia questo valore per far riclassificare l'archivio
 
 
 def _rx(kw):
@@ -391,6 +391,27 @@ def classify(item, src, matchers, urgenti, aree_cfg):
                 break
     norm = (src["tipo"] == "ufficiale" or any(r.search(text) for r in urgenti)) if nicchia == "edilizia" else src["tipo"] == "ufficiale"
     return aree, norm, sotto, luogo
+
+
+def build_prof(aree_cfg):
+    return {k: [_rx(w) for w in v["parole"]] for k, v in aree_cfg.get("professioni", {}).items()}
+
+
+def profili(item, src, aree, aree_cfg, prof_rx):
+    """Professioni toccate da una notizia: parole chiave + fonte + professioni collegate alle aree."""
+    if src.get("nicchia", "edilizia") != "edilizia" or not prof_rx:
+        return []
+    text = (item["titolo"] + " " + item.get("sintesi", "")).lower()
+    trovate = [k for k, rxs in prof_rx.items() if any(r.search(text) for r in rxs)]
+    tags = list(src.get("prof", [])) + trovate
+    for a in aree:
+        tags += aree_cfg["aree"].get(a, {}).get("prof", [])
+    visti, out = set(), []
+    for t in tags:
+        if t in prof_rx and t not in visti:
+            visti.add(t)
+            out.append(t)
+    return out[:8]
 
 
 # ---------------------------------------------------------------- IA (facoltativa)
@@ -535,6 +556,7 @@ def main():
     sources = load_json(args.sources, None)["fonti"]
     area_rx, sotto_rx, urgenti, luoghi = build_matchers(aree_cfg)
     matchers = (area_rx, sotto_rx, luoghi)
+    prof_rx = build_prof(aree_cfg)
     prev_status = {s["id"]: s for s in load_json(status_file, {"fonti": []})["fonti"]}
     first_run = not news
     known = {i["id"]: i for i in news}
@@ -559,6 +581,7 @@ def main():
                 continue
             rec["aree"], rec["normativa"], rec["sotto"], rec["luogo"] = cls
             rec["nicchia"] = src.get("nicchia", "edilizia")
+            rec["prof"] = profili({"titolo": rec["titolo"], "sintesi": rec.get("sintesi", "")}, src, rec["aree"], aree_cfg, prof_rx)
         print(f"Archivio riclassificato (tassonomia {TASSONOMIA}): {len(known)} notizie")
 
     print(f"Lettura di {len(sources)} fonti…")
@@ -584,7 +607,8 @@ def main():
             rec = {"id": iid, "titolo": it["titolo"], "link": it["link"], "fonte": src["id"],
                    "fonte_nome": src["nome"], "tipo": src["tipo"], "aree": aree, "normativa": normativa,
                    "sintesi": it["sintesi"], "pubblicata": it["pubblicata"], "visto": iso(ts), "metodo": metodo,
-                   "sotto": sotto, "luogo": luogo, "nicchia": src.get("nicchia", "edilizia")}
+                   "sotto": sotto, "luogo": luogo, "nicchia": src.get("nicchia", "edilizia"),
+                   "prof": profili(it, src, aree, aree_cfg, prof_rx)}
             known[iid] = rec
             new_items.append(rec)
             added += 1
@@ -622,6 +646,7 @@ def main():
     aree_pub["locale"] = {"nome": "Locale · Campania e Caserta", "colore": "#c2185b", "sotto": {}, "speciale": True}
     aree_pub["altro"] = {"nome": "Altro", "colore": "#7b8794"}
     save_json(data / "aree.json", aree_pub)
+    save_json(data / "professioni.json", {k: {"nome": v["nome"], "emoji": v.get("emoji", "")} for k, v in aree_cfg.get("professioni", {}).items()})
     save_json(news_file, {"aggiornato": iso(ts), "tassonomia": TASSONOMIA, "notizie": allnews})
     ok = sum(1 for s in statuses if s["stato"] in ("ok", "ok_scraping", "ok_indiretto"))
     save_json(status_file, {"aggiornato": iso(ts), "fonti_ok": ok, "fonti_totale": len(statuses), "fonti": statuses})

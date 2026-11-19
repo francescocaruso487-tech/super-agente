@@ -42,7 +42,7 @@ idb.open().then(async () => {
   if (cambiato && state.news.length) renderTutto();
 });
 const state = {
-  news: [], aree: {}, status: null, nicchia: store.get("nicchia", "edilizia"),
+  news: [], aree: {}, status: null, professioni: {}, prof: "tutte", nicchia: store.get("nicchia", "edilizia"),
   aperte: new Set(), limiti: {}, sotto: {}, areaArchivio: "tutte", soloNorm: false, query: "", mostrati: 40,
   lette: new Set(store.get("lette", [])), stelle: new Set(store.get("stelle", [])),
   ultimaVisita: store.get("ultimaVisita", null),
@@ -80,7 +80,7 @@ function card(n) {
   const luogoB = n.luogo ? `<span class="badge luogo">📍 ${esc(n.luogo)}</span>` : "";
   const badge = luogoB + n.aree.filter((a) => a !== "altro" || !n.luogo).map((a) => `<span class="badge" style="--c:${colore(a)}">${esc(nome(a))}</span>`).join("");
   return `<article class="card${letta ? " letta" : ""}" data-id="${n.id}" style="--c:${colore(n.aree[0])}">
-    <div class="riga">${badge}${n.normativa ? `<span class="badge norm">${["edilizia"].includes(n.nicchia || "edilizia") ? "Normativa" : "Ufficiale"}</span>` : ""}${nuovo ? '<span class="nuovo" title="Nuova"></span>' : ""}</div>
+    <div class="riga">${badge}${(n.prof || []).slice(0, 3).map((p) => state.professioni[p] ? `<span class="badge pf" title="${esc(state.professioni[p].nome)}">${state.professioni[p].emoji} ${esc(state.professioni[p].nome)}</span>` : "").join("")}${n.normativa ? `<span class="badge norm">${["edilizia"].includes(n.nicchia || "edilizia") ? "Normativa" : "Ufficiale"}</span>` : ""}${nuovo ? '<span class="nuovo" title="Nuova"></span>' : ""}</div>
     <h3 class="titolo">${esc(n.titolo)}</h3>
     ${n.sintesi ? `<p class="sintesi">${esc(n.sintesi)}</p>` : ""}
     <div class="piede"><span>${esc(n.fonte_nome)} · ${fa(dataDi(n))}</span>
@@ -89,9 +89,10 @@ function card(n) {
 }
 
 // Suddivisione dell'Edilizia in gruppi (le aree dichiarano il proprio "gruppo" in aree.json)
-const GRUPPI = { edilizia: [["soldi", "💶 Bonus, fisco e CAF"], ["pratiche", "📑 Pratiche e burocrazia"], ["tecnica", "🔧 Tecnica e progetto"]] };
+const GRUPPI = { edilizia: [["soldi", "💶 Bonus, fisco e CAF"], ["pratiche", "📑 Pratiche e burocrazia"], ["tecnica", "🔧 Tecnica e cantiere"], ["mercato", "🏠 Immobiliare, energia e mobilità"], ["studi", "⚖️ Legale, management e lavoro"], ["altri", "🌐 Altri settori e professioni"]] };
 const gruppoDi = (a) => (a === "locale" ? "pratiche" : state.aree[a]?.gruppo || null);
 const PRIMA = { soldi: ["bonus", "imprese"], pratiche: ["locale", "edilizia", "catasto", "appalti"] };
+const profOk = (n) => state.prof === "tutte" || (n.prof || []).includes(state.prof);
 const inNicchia = (n) => (n.nicchia || "edilizia") === state.nicchia;
 const areaNicchia = (a) => (state.aree[a]?.nicchia || "edilizia") === state.nicchia;
 
@@ -99,6 +100,7 @@ function filtra({ area, query, soloNorm }) {
   const q = query.trim().toLowerCase();
   return state.news.filter((n) => {
     if (area !== "stelle" && !inNicchia(n)) return false;
+    if (area !== "stelle" && state.nicchia === "edilizia" && !profOk(n)) return false;
     if (area === "stelle") { if (!state.stelle.has(n.id)) return false; }
     else if (area === "tutte") { if (n.aree.length === 1 && n.aree[0] === "altro" && !n.luogo) return false; }
     else if (area.startsWith("g:")) { const g = area.slice(2); if (!n.aree.some((a) => gruppoDi(a) === g) && !(g === "pratiche" && n.luogo)) return false; }
@@ -112,7 +114,7 @@ function filtra({ area, query, soloNorm }) {
 }
 
 function chips(el, corrente, onPick) {
-  const base = state.news.filter(inNicchia);
+  const base = state.news.filter(inNicchia).filter((n) => state.nicchia !== "edilizia" || profOk(n));
   const conta = (a) => base.filter((n) => a === "locale" ? !!n.luogo : a === "altro" ? (!n.luogo && n.aree.includes("altro")) : n.aree.includes(a)).length;
   const voci = [["tutte", "Tutte", null, base.filter((n) => !(n.aree.length === 1 && n.aree[0] === "altro" && !n.luogo)).length],
     ["stelle", "★ Salvate", null, state.stelle.size]];
@@ -226,9 +228,19 @@ function renderFonti() {
   s.fonti = tutte;
 }
 
-function renderTutto() { renderNovita(); renderArchivio(); renderFonti(); }
+function renderProf() {
+  const el = $("#prof-bar");
+  const ids = Object.keys(state.professioni);
+  if (state.nicchia !== "edilizia" || !ids.length) { el.hidden = true; return; }
+  el.hidden = false;
+  const base = state.news.filter(inNicchia);
+  const conta = (p) => base.filter((n) => (n.prof || []).includes(p)).length;
+  const voci = [["tutte", "👤 Tutte le professioni", base.length]].concat(ids.map((p) => [p, `${state.professioni[p].emoji} ${state.professioni[p].nome}`, conta(p)]).filter((v) => v[2] > 0 || v[0] === state.prof));
+  el.innerHTML = voci.map(([k, l, n]) => `<button class="chip${k === state.prof ? " on" : ""}" data-prof="${k}">${esc(l)} <small>${n}</small></button>`).join("");
+}
+function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "17";
+const VERSIONE_APP = "18";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -238,7 +250,8 @@ async function carica(forza) {
     return r.json();
   };
   try {
-    const [news, aree, status] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null)]);
+    const [news, aree, status, prof] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({}))]);
+    state.professioni = prof || {};
     if (!Array.isArray(news.notizie)) throw new Error("dati non validi");
     state.news = news.notizie; state.aree = aree; state.status = status;
     $("#aggiornato").textContent = (news.aggiornato ? `Aggiornato ${fa(new Date(news.aggiornato))}` : "Super Agente") + ` · v${VERSIONE_APP}`;
@@ -252,6 +265,8 @@ async function carica(forza) {
 }
 
 document.addEventListener("click", (e) => {
+  const pf = e.target.closest("[data-prof]");
+  if (pf) { state.prof = pf.dataset.prof; state.mostrati = 40; renderTutto(); return; }
   const sez = e.target.closest("[data-sez]");
   if (sez) {
     const k = sez.dataset.sez;
@@ -292,7 +307,7 @@ function aggiornaNicchie() {
 }
 document.querySelectorAll("#nicchie button").forEach((b) => b.addEventListener("click", () => {
   state.nicchia = b.dataset.n; store.set("nicchia", state.nicchia);
-  state.areaArchivio = "tutte"; state.mostrati = 40; state.aperte.clear();
+  state.areaArchivio = "tutte"; state.mostrati = 40; state.aperte.clear(); state.prof = "tutte";
   aggiornaNicchie(); renderTutto(); window.scrollTo(0, 0);
 }));
 aggiornaNicchie();

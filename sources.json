@@ -3655,6 +3655,1422 @@
     "Codacons assicurazioni auto RC rincari"
    ],
    "gnews_when": "7d"
+  },
+  {
+   "id": "pr-conaf",
+   "nome": "Agronomi e Forestali (CONAF)",
+   "tipo": "ordine",
+   "home": "https://www.conaf.it/",
+   "aree": [
+    "scienze"
+   ],
+   "prof": [
+    "agronomo"
+   ],
+   "gnews": [
+    "CONAF dottori agronomi forestali novità",
+    "dottori agronomi e forestali norme"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-periti-agrari",
+   "nome": "Periti Agrari",
+   "tipo": "ordine",
+   "home": "https://www.peritiagrari.it/",
+   "aree": [
+    "scienze"
+   ],
+   "prof": [
+    "perito",
+    "agronomo"
+   ],
+   "gnews": [
+    "periti agrari novità",
+    "Collegio Nazionale Periti Agrari"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-chimici",
+   "nome": "Chimici e Fisici (CNCF)",
+   "tipo": "ordine",
+   "home": "https://www.chimicifisici.it/",
+   "aree": [
+    "scienze"
+   ],
+   "prof": [
+    "chimico_biologo"
+   ],
+   "gnews": [
+    "Consiglio Nazionale Chimici Fisici novità",
+    "ordine dei chimici e dei fisici"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-biologi",
+   "nome": "Biologi (ONB)",
+   "tipo": "ordine",
+   "home": "https://www.onb.it/",
+   "aree": [
+    "scienze"
+   ],
+   "prof": [
+    "chimico_biologo"
+   ],
+   "gnews": [
+    "Ordine Nazionale dei Biologi novità",
+    "biologi professione norme"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-ingv",
+   "nome": "INGV (sismologia)",
+   "tipo": "ente",
+   "home": "https://www.ingv.it/",
+   "aree": [
+    "scienze"
+   ],
+   "prof": [
+    "geologo",
+    "ingegnere"
+   ],
+   "gnews": [
+    "INGV terremoto sismica comunicato",
+    "INGV ricerca novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-ispra",
+   "nome": "ISPRA",
+   "tipo": "ente",
+   "home": "https://www.isprambiente.gov.it/",
+   "aree": [
+    "scienze"
+   ],
+   "prof": [
+    "geologo",
+    "chimico_biologo"
+   ],
+   "gnews": [
+    "ISPRA dissesto idrogeologico rapporto",
+    "ISPRA ambiente novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-ance",
+   "nome": "ANCE (costruttori)",
+   "tipo": "ordine",
+   "home": "https://www.ance.it/",
+   "aree": [
+    "cantiere"
+   ],
+   "prof": [
+    "dl_cantiere",
+    "maestranze"
+   ],
+   "gnews": [
+    "ANCE costruttori edili novità",
+    "ANCE Caserta costruttori"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-formedil",
+   "nome": "Formedil e Cassa Edile",
+   "tipo": "ente",
+   "home": "https://www.formedil.it/",
+   "aree": [
+    "cantiere"
+   ],
+   "prof": [
+    "maestranze",
+    "dl_cantiere"
+   ],
+   "gnews": [
+    "Formedil formazione edile novità",
+    "Cassa edile CNCE novità",
+    "CNCPT prevenzione cantieri"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-bim",
+   "nome": "BIM e buildingSMART Italia",
+   "tipo": "ente",
+   "home": "https://www.buildingsmart.it/",
+   "aree": [
+    "cantiere"
+   ],
+   "prof": [
+    "bim",
+    "ingegnere",
+    "architetto"
+   ],
+   "gnews": [
+    "BIM novità normativa UNI 11337",
+    "buildingSMART Italia openBIM",
+    "BIM obbligo appalti"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-iis",
+   "nome": "Istituto Italiano della Saldatura",
+   "tipo": "ente",
+   "home": "https://www.iis.it/",
+   "aree": [
+    "cantiere"
+   ],
+   "prof": [
+    "maestranze"
+   ],
+   "gnews": [
+    "Istituto Italiano della Saldatura saldatori qualificazione",
+    "saldatura certificazione novità"
+   ],
+   "gnews_when": "60d"
+  },
+  {
+   "id": "pr-assoponteggi",
+   "nome": "Assoponteggi e prevenzione cadute",
+   "tipo": "ordine",
+   "home": "https://www.assoponteggi.it/",
+   "aree": [
+    "cantiere"
+   ],
+   "prof": [
+    "maestranze",
+    "dl_cantiere"
+   ],
+   "gnews": [
+    "ponteggi norme sicurezza lavori in quota",
+    "Assoponteggi novità"
+   ],
+   "gnews_when": "60d"
+  },
+  {
+   "id": "pr-prezzari",
+   "nome": "Prezzari regionali e DEI",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "aree": [
+    "cantiere"
+   ],
+   "prof": [
+    "dl_cantiere",
+    "geometra"
+   ],
+   "gnews": [
+    "prezzario regionale Campania lavori pubblici",
+    "prezzario DEI aggiornamento",
+    "prezzi materiali costruzione rincari"
+   ],
+   "gnews_when": "30d",
+   "nota": "Prezzari e costi dei materiali via Google News."
+  },
+  {
+   "id": "pr-ediltecnico",
+   "nome": "Ediltecnico: direzione lavori",
+   "tipo": "stampa",
+   "home": "https://www.ediltecnico.it/",
+   "aree": [
+    "cantiere"
+   ],
+   "prof": [
+    "dl_cantiere",
+    "ingegnere"
+   ],
+   "gnews": [
+    "site:ediltecnico.it direzione lavori",
+    "site:ediltecnico.it cantiere sicurezza"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-cantiere-news",
+   "nome": "Cantieri e maestranze (Google News)",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "aree": [
+    "cantiere"
+   ],
+   "prof": [
+    "maestranze",
+    "dl_cantiere"
+   ],
+   "gnews": [
+    "cantiere edile sicurezza lavoratori novità",
+    "patente a crediti cantieri novità",
+    "carenza manodopera edilizia formazione",
+    "qualificazione imprese edili SOA novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-cnf",
+   "nome": "Avvocati (CNF)",
+   "tipo": "ordine",
+   "home": "https://www.consiglionazionaleforense.it/",
+   "aree": [
+    "legale"
+   ],
+   "prof": [
+    "avvocato"
+   ],
+   "gnews": [
+    "Consiglio Nazionale Forense novità",
+    "avvocati equo compenso novità",
+    "avvocati riforma processo civile"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-cassaforense",
+   "nome": "Cassa Forense",
+   "tipo": "ente",
+   "home": "https://www.cassaforense.it/",
+   "aree": [
+    "legale"
+   ],
+   "prof": [
+    "avvocato"
+   ],
+   "gnews": [
+    "Cassa Forense novità avvocati",
+    "Cassa Forense contributi pensioni"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-giustizia-amm",
+   "nome": "Giustizia Amministrativa (TAR e CdS)",
+   "tipo": "ufficiale",
+   "home": "https://www.giustizia-amministrativa.it/",
+   "aree": [
+    "appalti",
+    "legale"
+   ],
+   "prof": [
+    "avvocato",
+    "ingegnere"
+   ],
+   "gnews": [
+    "Consiglio di Stato sentenza appalti edilizia",
+    "TAR Campania sentenza urbanistica edilizia",
+    "TAR Campania Napoli sentenza"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-cassazione",
+   "nome": "Cassazione (sentenze civili e tributarie)",
+   "tipo": "ufficiale",
+   "home": "https://www.cortedicassazione.it/",
+   "aree": [
+    "legale"
+   ],
+   "prof": [
+    "avvocato",
+    "commercialista",
+    "immobiliare"
+   ],
+   "gnews": [
+    "Cassazione sentenza condominio locazioni",
+    "Cassazione sentenza tributaria novità",
+    "Cassazione sezioni unite novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-notariato",
+   "nome": "Notariato: studi e novità",
+   "tipo": "ordine",
+   "home": "https://www.notariato.it/",
+   "aree": [
+    "immobiliare",
+    "legale"
+   ],
+   "prof": [
+    "notaio"
+   ],
+   "gnews": [
+    "notariato studio novità compravendita",
+    "Consiglio Nazionale Notariato successioni"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-crisi",
+   "nome": "Crisi d'impresa e curatori",
+   "tipo": "stampa",
+   "home": "https://www.ilcaso.it/",
+   "aree": [
+    "legale"
+   ],
+   "prof": [
+    "revisore_finanza",
+    "avvocato",
+    "commercialista"
+   ],
+   "gnews": [
+    "site:ilcaso.it crisi d'impresa",
+    "codice della crisi novità composizione negoziata",
+    "curatore fallimentare novità",
+    "liquidazione giudiziale novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-revisori",
+   "nome": "Revisori legali (MEF)",
+   "tipo": "ente",
+   "home": "https://www.revisionelegale.mef.gov.it/",
+   "aree": [
+    "management"
+   ],
+   "prof": [
+    "revisore_finanza",
+    "commercialista"
+   ],
+   "gnews": [
+    "revisori legali novità",
+    "revisione legale registro novità",
+    "principi di revisione ISA Italia"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-consob",
+   "nome": "Consob",
+   "tipo": "ufficiale",
+   "home": "https://www.consob.it/",
+   "aree": [
+    "management"
+   ],
+   "prof": [
+    "revisore_finanza"
+   ],
+   "gnews": [
+    "Consob comunicato novità",
+    "Consob consulenti finanziari risparmio"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-oam",
+   "nome": "OAM e consulenti finanziari (ANASF)",
+   "tipo": "ente",
+   "home": "https://www.organismo-am.it/",
+   "aree": [
+    "management"
+   ],
+   "prof": [
+    "revisore_finanza"
+   ],
+   "gnews": [
+    "OAM consulenti finanziari albo",
+    "ANASF consulenti finanziari novità",
+    "promotori finanziari novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-attuari",
+   "nome": "Attuari",
+   "tipo": "ordine",
+   "home": "https://www.ordineattuari.it/",
+   "aree": [
+    "management"
+   ],
+   "prof": [
+    "revisore_finanza"
+   ],
+   "gnews": [
+    "Ordine degli Attuari novità",
+    "attuari professione assicurazioni"
+   ],
+   "gnews_when": "60d"
+  },
+  {
+   "id": "pr-bankit",
+   "nome": "Banca d'Italia e ABI (mutui, credito)",
+   "tipo": "ufficiale",
+   "home": "https://www.bancaditalia.it/",
+   "aree": [
+    "immobiliare",
+    "management"
+   ],
+   "prof": [
+    "immobiliare",
+    "revisore_finanza"
+   ],
+   "gnews": [
+    "Banca d'Italia mutui tassi famiglie",
+    "ABI mutui prestiti dati",
+    "tassi mutui prima casa novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-confindustria",
+   "nome": "Confindustria e imprese",
+   "tipo": "ordine",
+   "home": "https://www.confindustria.it/",
+   "aree": [
+    "management"
+   ],
+   "prof": [
+    "management"
+   ],
+   "gnews": [
+    "Confindustria imprese novità",
+    "Confindustria Caserta imprese",
+    "Confindustria costruzioni"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-manageritalia",
+   "nome": "Manageritalia e manager",
+   "tipo": "ordine",
+   "home": "https://www.manageritalia.it/",
+   "aree": [
+    "management"
+   ],
+   "prof": [
+    "management"
+   ],
+   "gnews": [
+    "Manageritalia dirigenti novità",
+    "temporary manager novità",
+    "consulenza aziendale tendenze"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-231",
+   "nome": "Compliance, 231 ed ESG",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "aree": [
+    "management"
+   ],
+   "prof": [
+    "management",
+    "avvocato",
+    "commercialista"
+   ],
+   "gnews": [
+    "modello 231 compliance novità",
+    "rendicontazione sostenibilità CSRD novità imprese",
+    "whistleblowing novità normativa",
+    "antiriciclaggio novità professionisti"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-hbr",
+   "nome": "Harvard Business Review Italia",
+   "tipo": "stampa",
+   "home": "https://www.hbritalia.it/",
+   "aree": [
+    "management"
+   ],
+   "prof": [
+    "management"
+   ],
+   "gnews": [
+    "site:hbritalia.it management",
+    "site:hbritalia.it leadership"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-fiaip",
+   "nome": "FIAIP (agenti immobiliari)",
+   "tipo": "ordine",
+   "home": "https://www.fiaip.it/",
+   "aree": [
+    "immobiliare"
+   ],
+   "prof": [
+    "immobiliare"
+   ],
+   "gnews": [
+    "FIAIP agenti immobiliari novità",
+    "FIAIP mercato immobiliare"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-fimaa",
+   "nome": "FIMAA (mediatori)",
+   "tipo": "ordine",
+   "home": "https://www.fimaa.it/",
+   "aree": [
+    "immobiliare"
+   ],
+   "prof": [
+    "immobiliare"
+   ],
+   "gnews": [
+    "FIMAA mediatori immobiliari novità",
+    "FIMAA Confcommercio mercato"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-anaci",
+   "nome": "ANACI (amministratori di condominio)",
+   "tipo": "ordine",
+   "home": "https://www.anaci.it/",
+   "aree": [
+    "immobiliare"
+   ],
+   "prof": [
+    "immobiliare"
+   ],
+   "gnews": [
+    "ANACI amministratori condominio novità",
+    "riforma condominio amministratori"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-confedilizia",
+   "nome": "Confedilizia (proprietari)",
+   "tipo": "ordine",
+   "home": "https://www.confedilizia.it/",
+   "aree": [
+    "immobiliare"
+   ],
+   "prof": [
+    "immobiliare",
+    "notaio"
+   ],
+   "gnews": [
+    "Confedilizia proprietari novità",
+    "Confedilizia IMU patrimoniale casa"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-immobiliare-news",
+   "nome": "Immobiliare.it e Idealista News",
+   "tipo": "stampa",
+   "home": "https://www.immobiliare.it/news/",
+   "aree": [
+    "immobiliare"
+   ],
+   "prof": [
+    "immobiliare"
+   ],
+   "gnews": [
+    "site:immobiliare.it news mercato",
+    "site:idealista.it news mercato immobiliare",
+    "prezzi case compravendite trimestre"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-nomisma",
+   "nome": "Nomisma e Scenari Immobiliari",
+   "tipo": "ente",
+   "home": "https://www.nomisma.it/",
+   "aree": [
+    "immobiliare"
+   ],
+   "prof": [
+    "immobiliare"
+   ],
+   "gnews": [
+    "Nomisma osservatorio mercato immobiliare",
+    "Scenari Immobiliari rapporto",
+    "Tecnoborsa osservatorio"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-omi",
+   "nome": "Osservatorio Mercato Immobiliare (Entrate)",
+   "tipo": "ufficiale",
+   "home": "https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/omi",
+   "aree": [
+    "immobiliare",
+    "catasto"
+   ],
+   "prof": [
+    "immobiliare",
+    "geometra"
+   ],
+   "gnews": [
+    "Osservatorio Mercato Immobiliare OMI rapporto",
+    "Agenzia Entrate compravendite immobili statistiche",
+    "Agenzia Entrate catasto novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-casa24",
+   "nome": "Il Sole 24 Ore Casa24",
+   "tipo": "stampa",
+   "home": "https://www.ilsole24ore.com/",
+   "aree": [
+    "immobiliare"
+   ],
+   "prof": [
+    "immobiliare"
+   ],
+   "gnews": [
+    "site:ilsole24ore.com casa24 condominio",
+    "site:ilsole24ore.com casa24 mercato immobiliare",
+    "site:ilsole24ore.com casa mutui affitti"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "pr-rics",
+   "nome": "RICS Italia (valutatori)",
+   "tipo": "ordine",
+   "home": "https://www.rics.org/",
+   "aree": [
+    "immobiliare"
+   ],
+   "prof": [
+    "immobiliare"
+   ],
+   "gnews": [
+    "RICS Italia valutazione immobiliare",
+    "valutatori immobiliari standard novità",
+    "Tecnoborsa valutazione immobiliare"
+   ],
+   "gnews_when": "60d"
+  },
+  {
+   "id": "pr-fm",
+   "nome": "Facility e property management",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "aree": [
+    "immobiliare"
+   ],
+   "prof": [
+    "immobiliare"
+   ],
+   "gnews": [
+    "facility management Italia novità",
+    "property management Italia novità",
+    "asset management immobiliare Italia fondi"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-arera",
+   "nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "home": "https://www.arera.it/",
+   "aree": [
+    "energia"
+   ],
+   "prof": [
+    "energia_prof",
+    "ingegnere"
+   ],
+   "gnews": [
+    "ARERA delibera bollette energia",
+    "ARERA comunicato reti gas idrico",
+    "ARERA novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-terna",
+   "nome": "Terna e reti elettriche",
+   "tipo": "ente",
+   "home": "https://www.terna.it/",
+   "aree": [
+    "energia"
+   ],
+   "prof": [
+    "energia_prof",
+    "ingegnere"
+   ],
+   "gnews": [
+    "Terna rete elettrica novità",
+    "Terna rinnovabili connessioni",
+    "Snam gas rete novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-qualenergia",
+   "nome": "QualEnergia e rinnovabili",
+   "tipo": "stampa",
+   "home": "https://www.qualenergia.it/",
+   "aree": [
+    "energia"
+   ],
+   "prof": [
+    "energia_prof"
+   ],
+   "gnews": [
+    "site:qualenergia.it fotovoltaico",
+    "site:qualenergia.it comunità energetiche",
+    "site:qualenergia.it efficienza energetica"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "pr-rinnovabili",
+   "nome": "Rinnovabili.it e Italia Solare",
+   "tipo": "stampa",
+   "home": "https://www.rinnovabili.it/",
+   "aree": [
+    "energia"
+   ],
+   "prof": [
+    "energia_prof"
+   ],
+   "gnews": [
+    "site:rinnovabili.it energia",
+    "Italia Solare fotovoltaico novità",
+    "eolico fotovoltaico autorizzazioni Italia novità"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "pr-fire",
+   "nome": "FIRE (energy manager ed EGE)",
+   "tipo": "ente",
+   "home": "https://fire-italia.org/",
+   "aree": [
+    "energia"
+   ],
+   "prof": [
+    "energia_prof"
+   ],
+   "gnews": [
+    "FIRE energy manager EGE novità",
+    "energy manager nomina obbligo",
+    "certificazione EGE UNI CEI 11339"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-staffetta",
+   "nome": "Staffetta Quotidiana (energia)",
+   "tipo": "stampa",
+   "home": "https://www.staffettaonline.com/",
+   "aree": [
+    "energia"
+   ],
+   "prof": [
+    "energia_prof"
+   ],
+   "gnews": [
+    "site:staffettaonline.com energia",
+    "prezzi gas elettricità mercato novità"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "pr-cer",
+   "nome": "Comunità energetiche e autoconsumo",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "aree": [
+    "energia"
+   ],
+   "prof": [
+    "energia_prof",
+    "ingegnere"
+   ],
+   "gnews": [
+    "comunità energetiche rinnovabili CER novità bando",
+    "autoconsumo collettivo GSE novità",
+    "certificazione energetica APE novità normativa"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-art",
+   "nome": "Autorità di Regolazione dei Trasporti",
+   "tipo": "ufficiale",
+   "home": "https://www.autorita-trasporti.it/",
+   "aree": [
+    "trasporti"
+   ],
+   "prof": [
+    "trasporti"
+   ],
+   "gnews": [
+    "Autorità Regolazione Trasporti delibera",
+    "ART trasporti pedaggi tariffe"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-confetra",
+   "nome": "Confetra, Assologistica e ALIS",
+   "tipo": "ordine",
+   "home": "https://www.confetra.com/",
+   "aree": [
+    "trasporti"
+   ],
+   "prof": [
+    "trasporti"
+   ],
+   "gnews": [
+    "Confetra logistica novità",
+    "Assologistica novità",
+    "ALIS trasporto logistica novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-shipping",
+   "nome": "Shipping Italy e porti",
+   "tipo": "stampa",
+   "home": "https://www.shippingitaly.it/",
+   "aree": [
+    "trasporti"
+   ],
+   "prof": [
+    "trasporti"
+   ],
+   "gnews": [
+    "site:shippingitaly.it porti",
+    "porto di Napoli Salerno traffico merci",
+    "ZES porti logistica Campania"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "pr-logistica",
+   "nome": "Logistica Management e Euromobility",
+   "tipo": "stampa",
+   "home": "https://www.logisticamanagement.it/",
+   "aree": [
+    "trasporti"
+   ],
+   "prof": [
+    "trasporti"
+   ],
+   "gnews": [
+    "site:logisticamanagement.it",
+    "Euromobility mobility manager novità",
+    "mobility manager aziendale obbligo novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-adr",
+   "nome": "Merci pericolose (ADR)",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "aree": [
+    "trasporti"
+   ],
+   "prof": [
+    "trasporti"
+   ],
+   "gnews": [
+    "ADR merci pericolose novità consulente",
+    "consulente sicurezza trasporti merci pericolose",
+    "trasporto merci pericolose normativa"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-fnomceo",
+   "nome": "Medici e Odontoiatri (FNOMCeO)",
+   "tipo": "ordine",
+   "home": "https://www.fnomceo.it/",
+   "aree": [
+    "sanita"
+   ],
+   "prof": [
+    "sanitari"
+   ],
+   "gnews": [
+    "FNOMCeO medici novità",
+    "Ordine dei medici novità",
+    "odontoiatri CAO novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-fofi",
+   "nome": "Farmacisti (FOFI) e Federfarma",
+   "tipo": "ordine",
+   "home": "https://www.fofi.it/",
+   "aree": [
+    "sanita"
+   ],
+   "prof": [
+    "sanitari"
+   ],
+   "gnews": [
+    "FOFI farmacisti novità",
+    "Federfarma farmacie novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-fnopi",
+   "nome": "Infermieri (FNOPI) e ostetriche",
+   "tipo": "ordine",
+   "home": "https://www.fnopi.it/",
+   "aree": [
+    "sanita"
+   ],
+   "prof": [
+    "sanitari"
+   ],
+   "gnews": [
+    "FNOPI infermieri novità",
+    "ostetriche FNOPO novità",
+    "infermieri contratto novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-psicologi",
+   "nome": "Psicologi (CNOP)",
+   "tipo": "ordine",
+   "home": "https://www.psy.it/",
+   "aree": [
+    "sanita"
+   ],
+   "prof": [
+    "sanitari"
+   ],
+   "gnews": [
+    "Consiglio Nazionale Ordine Psicologi novità",
+    "psicologi bonus psicologo novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-fisio",
+   "nome": "Fisioterapisti, dietisti e veterinari",
+   "tipo": "ordine",
+   "home": "https://www.fnofi.it/",
+   "aree": [
+    "sanita"
+   ],
+   "prof": [
+    "sanitari"
+   ],
+   "gnews": [
+    "fisioterapisti FNOFI novità",
+    "dietisti nutrizionisti professione novità",
+    "veterinari FNOVI novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-salute",
+   "nome": "Ministero della Salute, AIFA e ISS",
+   "tipo": "ufficiale",
+   "home": "https://www.salute.gov.it/",
+   "aree": [
+    "sanita"
+   ],
+   "prof": [
+    "sanitari"
+   ],
+   "gnews": [
+    "Ministero della Salute comunicato novità",
+    "AIFA comunicato farmaci novità",
+    "Istituto Superiore di Sanità novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-qs",
+   "nome": "Quotidiano Sanità",
+   "tipo": "stampa",
+   "home": "https://www.quotidianosanita.it/",
+   "aree": [
+    "sanita"
+   ],
+   "prof": [
+    "sanitari"
+   ],
+   "gnews": [
+    "site:quotidianosanita.it professioni",
+    "site:quotidianosanita.it Campania sanità",
+    "site:quotidianosanita.it contratto"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "pr-sanitainfo",
+   "nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "home": "https://www.sanitainformazione.it/",
+   "aree": [
+    "sanita"
+   ],
+   "prof": [
+    "sanitari"
+   ],
+   "gnews": [
+    "site:sanitainformazione.it",
+    "site:doctor33.it",
+    "site:nurse24.it novità"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "pr-aidp",
+   "nome": "AIDP e HR Online",
+   "tipo": "stampa",
+   "home": "https://www.aidp.it/",
+   "aree": [
+    "hr"
+   ],
+   "prof": [
+    "hr"
+   ],
+   "gnews": [
+    "AIDP risorse umane novità",
+    "HR Online risorse umane",
+    "mercato del lavoro recruiting tendenze"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-assolavoro",
+   "nome": "Assolavoro e agenzie per il lavoro",
+   "tipo": "ordine",
+   "home": "https://www.assolavoro.eu/",
+   "aree": [
+    "hr"
+   ],
+   "prof": [
+    "hr"
+   ],
+   "gnews": [
+    "Assolavoro agenzie per il lavoro dati",
+    "somministrazione lavoro novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-fondimpresa",
+   "nome": "Fondimpresa e fondi interprofessionali",
+   "tipo": "ente",
+   "home": "https://www.fondimpresa.it/",
+   "aree": [
+    "hr"
+   ],
+   "prof": [
+    "hr"
+   ],
+   "gnews": [
+    "Fondimpresa avviso formazione",
+    "fondi interprofessionali formazione bando",
+    "fondo nuove competenze novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-anpal",
+   "nome": "ANPAL e politiche attive",
+   "tipo": "ufficiale",
+   "home": "https://www.anpal.gov.it/",
+   "aree": [
+    "hr"
+   ],
+   "prof": [
+    "hr"
+   ],
+   "gnews": [
+    "ANPAL politiche attive novità",
+    "programma GOL novità",
+    "Sviluppo Lavoro Italia novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-agid",
+   "nome": "AgID e PA digitale",
+   "tipo": "ufficiale",
+   "home": "https://www.agid.gov.it/",
+   "aree": [
+    "digitale"
+   ],
+   "prof": [
+    "it"
+   ],
+   "gnews": [
+    "AgID novità linee guida",
+    "PA digitale novità PagoPA SPID",
+    "Agenda Digitale novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-acn",
+   "nome": "ACN, NIS2 e cybersecurity",
+   "tipo": "ufficiale",
+   "home": "https://www.acn.gov.it/",
+   "aree": [
+    "digitale"
+   ],
+   "prof": [
+    "it"
+   ],
+   "gnews": [
+    "Agenzia Cybersicurezza Nazionale NIS2",
+    "NIS2 obblighi imprese novità",
+    "cybersecurity novità attacchi Italia"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-cyber360",
+   "nome": "Cybersecurity360 e Red Hot Cyber",
+   "tipo": "stampa",
+   "home": "https://www.cybersecurity360.it/",
+   "aree": [
+    "digitale"
+   ],
+   "prof": [
+    "it"
+   ],
+   "gnews": [
+    "site:cybersecurity360.it",
+    "site:redhotcyber.com",
+    "data breach Italia novità"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "pr-agendadigit",
+   "nome": "Agenda Digitale e Wired Italia",
+   "tipo": "stampa",
+   "home": "https://www.agendadigitale.eu/",
+   "aree": [
+    "digitale"
+   ],
+   "prof": [
+    "it"
+   ],
+   "gnews": [
+    "site:agendadigitale.eu",
+    "site:wired.it intelligenza artificiale",
+    "AI Act novità imprese"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "pr-dev",
+   "nome": "Sviluppatori, dati e cloud",
+   "tipo": "stampa",
+   "home": "https://www.html.it/",
+   "aree": [
+    "digitale"
+   ],
+   "prof": [
+    "it"
+   ],
+   "gnews": [
+    "site:html.it",
+    "sviluppatori software novità open source",
+    "data science cloud novità Italia"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-fnsi",
+   "nome": "Giornalisti (FNSI e Ordine)",
+   "tipo": "ordine",
+   "home": "https://www.fnsi.it/",
+   "aree": [
+    "comunicazione"
+   ],
+   "prof": [
+    "comunicazione"
+   ],
+   "gnews": [
+    "FNSI giornalisti novità",
+    "Ordine dei giornalisti novità",
+    "giornalisti contratto editoria"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-agcom-cs",
+   "nome": "AGCOM e diritto d'autore (SIAE)",
+   "tipo": "ufficiale",
+   "home": "https://www.agcom.it/",
+   "aree": [
+    "comunicazione"
+   ],
+   "prof": [
+    "comunicazione"
+   ],
+   "gnews": [
+    "AGCOM diritto d'autore novità",
+    "SIAE diritto d'autore novità",
+    "editoria contributi novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-marketing",
+   "nome": "Marketing, social e pubblicità",
+   "tipo": "stampa",
+   "home": "https://www.engage.it/",
+   "aree": [
+    "comunicazione"
+   ],
+   "prof": [
+    "comunicazione"
+   ],
+   "gnews": [
+    "site:engage.it",
+    "site:primaonline.it pubblicità",
+    "social media marketing novità algoritmo"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "pr-design",
+   "nome": "Design, foto e video",
+   "tipo": "stampa",
+   "home": "https://www.domusweb.it/",
+   "aree": [
+    "comunicazione"
+   ],
+   "prof": [
+    "comunicazione"
+   ],
+   "gnews": [
+    "site:domusweb.it",
+    "ADI design novità",
+    "fotografia videomaker novità attrezzatura",
+    "FIAF fotografia novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-mim",
+   "nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "home": "https://www.mim.gov.it/",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "prof": [
+    "formazione_prof"
+   ],
+   "gnews": [
+    "Ministero Istruzione Merito comunicato novità",
+    "Valditara scuola novità",
+    "concorso docenti bando novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-mur",
+   "nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "home": "https://www.mur.gov.it/",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "prof": [
+    "formazione_prof"
+   ],
+   "gnews": [
+    "Ministero Università Ricerca novità",
+    "borse di studio università novità",
+    "concorsi università ricerca"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "pr-scuola",
+   "nome": "Orizzonte Scuola e Tecnica della Scuola",
+   "tipo": "stampa",
+   "home": "https://www.orizzontescuola.it/",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "prof": [
+    "formazione_prof"
+   ],
+   "gnews": [
+    "site:orizzontescuola.it",
+    "site:tecnicadellascuola.it",
+    "graduatorie docenti novità"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "pr-concorsi",
+   "nome": "Concorsi pubblici (inPA)",
+   "tipo": "ufficiale",
+   "home": "https://www.inpa.gov.it/",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "prof": [
+    "formazione_prof"
+   ],
+   "gnews": [
+    "concorsi pubblici bando novità",
+    "inPA concorsi novità",
+    "concorso Regione Campania bando",
+    "concorso Comune di Caserta bando"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "pr-traduttori",
+   "nome": "Traduttori e interpreti (AITI)",
+   "tipo": "ordine",
+   "home": "https://www.aiti.org/",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "prof": [
+    "formazione_prof"
+   ],
+   "gnews": [
+    "AITI traduttori interpreti novità",
+    "traduttori professione tariffe intelligenza artificiale",
+    "interpreti traduttori albo novità"
+   ],
+   "gnews_when": "60d"
+  },
+  {
+   "id": "pr-musei",
+   "nome": "Musei, biblioteche e archivi",
+   "tipo": "ente",
+   "home": "https://www.icom-italia.org/",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "prof": [
+    "formazione_prof"
+   ],
+   "gnews": [
+    "ICOM Italia musei novità",
+    "AIB biblioteche novità",
+    "archivisti ANAI novità",
+    "Ministero della Cultura musei novità"
+   ],
+   "gnews_when": "30d"
   }
  ]
 }
