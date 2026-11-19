@@ -724,6 +724,277 @@
    "gnews_when": "30d",
    "filtra": true,
    "nota": "Lettura indiretta: iso.org è in inglese e in gran parte a pagamento, per questo seguo UNI, Accredia e la stampa italiana."
+  },
+  {
+   "id": "mic",
+   "nome": "Ministero della Cultura",
+   "tipo": "ufficiale",
+   "home": "https://cultura.gov.it/",
+   "gnews": [
+    "site:cultura.gov.it autorizzazione paesaggistica vincoli",
+    "site:cultura.gov.it codice beni culturali decreto edilizia",
+    "Ministero della Cultura circolare paesaggio soprintendenze"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "sabap-ce",
+   "nome": "Soprintendenza Caserta e Benevento",
+   "tipo": "ente",
+   "home": "https://soprintendenza.caserta.beniculturali.it/",
+   "gnews": [
+    "Soprintendenza Caserta Benevento autorizzazione paesaggistica",
+    "Soprintendenza Caserta vincolo edificio",
+    "sabap Caserta Benevento circolare"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "ambiente"
+   ],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "arpac",
+   "nome": "ARPA Campania",
+   "tipo": "ente",
+   "home": "https://www.arpacampania.it/",
+   "gnews": [
+    "site:arpacampania.it ambiente rifiuti terre da scavo",
+    "ARPAC Campania novità ambiente",
+    "ARPA Campania rumore emissioni"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "ambiente"
+   ],
+   "luogo": "Campania"
+  },
+  {
+   "id": "adb-meridionale",
+   "nome": "Autorità di Bacino Appennino Meridionale",
+   "tipo": "ente",
+   "home": "https://www.distrettoappenninomeridionale.it/",
+   "gnews": [
+    "Autorità di Bacino Distrettuale Appennino Meridionale PAI aggiornamento",
+    "Autorità di Bacino Appennino Meridionale rischio frane alluvioni Campania"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "ambiente"
+   ],
+   "luogo": "Campania"
+  },
+  {
+   "id": "demanio",
+   "nome": "Agenzia del Demanio",
+   "tipo": "ente",
+   "home": "https://www.agenziademanio.it/",
+   "gnews": [
+    "site:agenziademanio.it bando immobili",
+    "Agenzia del Demanio bando lavori efficientamento"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "appalti"
+   ]
+  },
+  {
+   "id": "cslp",
+   "nome": "Consiglio Superiore dei Lavori Pubblici",
+   "tipo": "ufficiale",
+   "home": "https://www.cslp.it/",
+   "gnews": [
+    "Consiglio Superiore Lavori Pubblici linee guida parere",
+    "Consiglio Superiore Lavori Pubblici NTC circolare",
+    "site:cslp.it"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "strutture"
+   ]
+  },
+  {
+   "id": "casa-italia",
+   "nome": "Casa Italia e Protezione Civile",
+   "tipo": "ufficiale",
+   "home": "https://www.casaitalia.governo.it/",
+   "gnews": [
+    "Dipartimento Casa Italia sismabonus prevenzione sismica",
+    "Protezione Civile contributi prevenzione sismica ordinanza",
+    "Campi Flegrei misure edilizia sismica decreto"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "strutture"
+   ]
+  },
+  {
+   "id": "tar-camp",
+   "nome": "TAR Campania e Consiglio di Stato (edilizia)",
+   "tipo": "ufficiale",
+   "home": "https://www.giustizia-amministrativa.it/",
+   "gnews": [
+    "TAR Campania sentenza abuso edilizio demolizione",
+    "TAR Campania Napoli permesso di costruire sentenza",
+    "Consiglio di Stato sentenza edilizia sanatoria",
+    "Consiglio di Stato sentenza superbonus appalti",
+    "Cassazione abuso edilizio sentenza"
+   ],
+   "gnews_when": "14d",
+   "filtra": true,
+   "aree": [
+    "edilizia"
+   ]
+  },
+  {
+   "id": "rpt",
+   "nome": "Rete Professioni Tecniche",
+   "tipo": "ordine",
+   "home": "https://www.reteprofessionitecniche.it/",
+   "gnews": [
+    "Rete Professioni Tecniche equo compenso",
+    "Rete Professioni Tecniche superbonus catasto"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "norme"
+   ]
+  },
+  {
+   "id": "inarcassa",
+   "nome": "Inarcassa",
+   "tipo": "ordine",
+   "home": "https://www.inarcassa.it/",
+   "gnews": [
+    "Inarcassa novità iscritti contributi",
+    "site:inarcassa.it bando"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "norme"
+   ]
+  },
+  {
+   "id": "cng-geologi",
+   "nome": "Consiglio Nazionale Geologi",
+   "tipo": "ordine",
+   "home": "https://www.cngeologi.it/",
+   "gnews": [
+    "Consiglio Nazionale Geologi sismica microzonazione",
+    "geologi relazione geologica norme"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "strutture"
+   ]
+  },
+  {
+   "id": "cnpi",
+   "nome": "Periti Industriali (CNPI)",
+   "tipo": "ordine",
+   "home": "https://www.cnpi.it/",
+   "gnews": [
+    "periti industriali CNPI impianti antincendio",
+    "Consiglio Nazionale Periti Industriali novità"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "norme"
+   ]
+  },
+  {
+   "id": "regione-lp",
+   "nome": "Regione Campania: Lavori Pubblici e Protezione Civile",
+   "tipo": "ente",
+   "home": "https://www.regione.campania.it/",
+   "gnews": [
+    "Regione Campania Genio Civile circolare",
+    "Regione Campania lavori pubblici protezione civile decreto",
+    "Regione Campania prezzario opere pubbliche",
+    "Regione Campania urbanistica legge regionale"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "appalti"
+   ],
+   "luogo": "Campania"
+  },
+  {
+   "id": "anci-camp",
+   "nome": "ANCI Campania e Comuni",
+   "tipo": "ente",
+   "home": "https://www.ancicampania.it/",
+   "gnews": [
+    "ANCI Campania urbanistica edilizia comuni",
+    "ANCI Campania PNRR bandi comuni",
+    "Provincia di Caserta bando lavori pubblici edilizia scolastica"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "appalti"
+   ],
+   "luogo": "Campania"
+  },
+  {
+   "id": "camera-ce",
+   "nome": "Camera di Commercio Caserta",
+   "tipo": "ente",
+   "home": "https://www.ce.camcom.it/",
+   "gnews": [
+    "Camera di Commercio Caserta bando contributi imprese",
+    "Camera di Commercio Caserta voucher digitali"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "imprese"
+   ],
+   "luogo": "Caserta"
+  },
+  {
+   "id": "certifico",
+   "nome": "Certifico (sicurezza e norme)",
+   "tipo": "stampa",
+   "home": "https://www.certifico.com/",
+   "gnews": [
+    "site:certifico.com norma sicurezza novità",
+    "site:certifico.com decreto edilizia cantieri"
+   ],
+   "gnews_when": "14d",
+   "filtra": true,
+   "aree": [
+    "sicurezza"
+   ]
+  },
+  {
+   "id": "anmil",
+   "nome": "ANMIL e sicurezza lavoro",
+   "tipo": "ente",
+   "home": "https://www.anmil.it/",
+   "gnews": [
+    "ANMIL infortuni cantieri sicurezza novità"
+   ],
+   "gnews_when": "30d",
+   "filtra": true,
+   "aree": [
+    "sicurezza"
+   ]
   }
  ]
 }
