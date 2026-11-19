@@ -1,98 +1,373 @@
 {
- "ingegnere": {
-  "nome": "Ingegnere",
-  "emoji": "🛠️"
- },
- "architetto": {
-  "nome": "Architetto",
-  "emoji": "📐"
- },
- "geometra": {
-  "nome": "Geometra",
-  "emoji": "📏"
- },
- "perito": {
-  "nome": "Perito",
-  "emoji": "🔩"
- },
- "geologo": {
-  "nome": "Geologo",
-  "emoji": "🪨"
- },
- "agronomo": {
-  "nome": "Agronomo e forestale",
-  "emoji": "🌾"
- },
- "chimico_biologo": {
-  "nome": "Chimico, fisico, biologo",
-  "emoji": "🧪"
- },
- "dl_cantiere": {
-  "nome": "Direzione lavori e cantiere",
-  "emoji": "🏗️"
- },
- "bim": {
-  "nome": "BIM",
-  "emoji": "🧊"
- },
- "maestranze": {
-  "nome": "Maestranze e operatori",
-  "emoji": "👷"
- },
- "energia_prof": {
-  "nome": "Energia ed EGE",
-  "emoji": "⚡"
- },
- "commercialista": {
-  "nome": "Commercialista",
-  "emoji": "🧮"
- },
- "avvocato": {
-  "nome": "Avvocato",
-  "emoji": "⚖️"
- },
- "notaio": {
-  "nome": "Notaio",
-  "emoji": "📜"
- },
- "consulente_lavoro": {
-  "nome": "Consulente del lavoro",
-  "emoji": "🗂️"
- },
- "revisore_finanza": {
-  "nome": "Revisore, finanza, crisi",
-  "emoji": "📊"
- },
- "immobiliare": {
-  "nome": "Immobiliare e condominio",
-  "emoji": "🏠"
- },
- "trasporti": {
-  "nome": "Trasporti e logistica",
-  "emoji": "🚚"
- },
- "management": {
-  "nome": "Manager e consulenti",
-  "emoji": "💼"
- },
- "hr": {
-  "nome": "Risorse umane",
-  "emoji": "🧑‍💼"
- },
- "sanitari": {
-  "nome": "Professioni sanitarie",
-  "emoji": "🩺"
- },
- "it": {
-  "nome": "Digitale, IT e dati",
-  "emoji": "💻"
- },
- "comunicazione": {
-  "nome": "Comunicazione e design",
-  "emoji": "🎨"
- },
- "formazione_prof": {
-  "nome": "Formazione e cultura",
-  "emoji": "🎓"
+ "gruppi": [
+  {
+   "id": "prog",
+   "nome": "🔧 Progettazione e tecnica"
+  },
+  {
+   "id": "cant",
+   "nome": "🏗️ Cantiere e direzione lavori"
+  },
+  {
+   "id": "mae",
+   "nome": "👷 Maestranze e operatori"
+  },
+  {
+   "id": "eco",
+   "nome": "⚖️ Economia, fisco e legale"
+  },
+  {
+   "id": "imm",
+   "nome": "🏠 Immobiliare, energia e trasporti"
+  },
+  {
+   "id": "man",
+   "nome": "💼 Management e risorse umane"
+  },
+  {
+   "id": "san",
+   "nome": "🩺 Sanità e benessere"
+  },
+  {
+   "id": "dig",
+   "nome": "💻 Digitale, comunicazione e formazione"
+  }
+ ],
+ "professioni": {
+  "ingegnere": {
+   "nome": "Ingegnere",
+   "emoji": "🛠️",
+   "gruppo": "prog"
+  },
+  "architetto": {
+   "nome": "Architetto e paesaggista",
+   "emoji": "📐",
+   "gruppo": "prog"
+  },
+  "geometra": {
+   "nome": "Geometra",
+   "emoji": "📏",
+   "gruppo": "prog"
+  },
+  "perito": {
+   "nome": "Perito industriale e agrario",
+   "emoji": "🔩",
+   "gruppo": "prog"
+  },
+  "geologo": {
+   "nome": "Geologo",
+   "emoji": "🪨",
+   "gruppo": "prog"
+  },
+  "agronomo": {
+   "nome": "Agronomo e forestale",
+   "emoji": "🌾",
+   "gruppo": "prog"
+  },
+  "chimico": {
+   "nome": "Chimico",
+   "emoji": "⚗️",
+   "gruppo": "prog"
+  },
+  "fisico": {
+   "nome": "Fisico",
+   "emoji": "⚛️",
+   "gruppo": "prog"
+  },
+  "biologo": {
+   "nome": "Biologo",
+   "emoji": "🧬",
+   "gruppo": "prog"
+  },
+  "certificatore": {
+   "nome": "Certificatore energetico ed EGE",
+   "emoji": "🌡️",
+   "gruppo": "prog"
+  },
+  "bim": {
+   "nome": "BIM manager e specialist",
+   "emoji": "🧊",
+   "gruppo": "prog"
+  },
+  "topografo": {
+   "nome": "Topografo e rilevatore",
+   "emoji": "🛰️",
+   "gruppo": "prog"
+  },
+  "dl": {
+   "nome": "Direttore dei lavori",
+   "emoji": "📋",
+   "gruppo": "cant"
+  },
+  "cse": {
+   "nome": "Coordinatore sicurezza (CSP/CSE)",
+   "emoji": "🦺",
+   "gruppo": "cant"
+  },
+  "rspp": {
+   "nome": "RSPP e ASPP",
+   "emoji": "🛡️",
+   "gruppo": "cant"
+  },
+  "rup": {
+   "nome": "RUP e project manager di commessa",
+   "emoji": "🗂️",
+   "gruppo": "cant"
+  },
+  "capocantiere": {
+   "nome": "Capo cantiere e direttore tecnico",
+   "emoji": "🧰",
+   "gruppo": "cant"
+  },
+  "contabile": {
+   "nome": "Contabile di cantiere e preventivista",
+   "emoji": "🧾",
+   "gruppo": "cant"
+  },
+  "collaudatore": {
+   "nome": "Collaudatore",
+   "emoji": "✅",
+   "gruppo": "cant"
+  },
+  "muratore": {
+   "nome": "Muratore, carpentiere e ferraiolo",
+   "emoji": "🧱",
+   "gruppo": "mae"
+  },
+  "saldatore": {
+   "nome": "Saldatore e tubista",
+   "emoji": "🔥",
+   "gruppo": "mae"
+  },
+  "impiantista": {
+   "nome": "Elettricista, termoidraulico e impiantista",
+   "emoji": "🔌",
+   "gruppo": "mae"
+  },
+  "macchine": {
+   "nome": "Operatore macchine e ponteggista",
+   "emoji": "🚜",
+   "gruppo": "mae"
+  },
+  "commercialista": {
+   "nome": "Commercialista",
+   "emoji": "🧮",
+   "gruppo": "eco"
+  },
+  "tributarista": {
+   "nome": "Tributarista ed esperto fiscale",
+   "emoji": "💶",
+   "gruppo": "eco"
+  },
+  "avvocato": {
+   "nome": "Avvocato",
+   "emoji": "⚖️",
+   "gruppo": "eco"
+  },
+  "notaio": {
+   "nome": "Notaio",
+   "emoji": "📜",
+   "gruppo": "eco"
+  },
+  "consulente_lavoro": {
+   "nome": "Consulente del lavoro",
+   "emoji": "🗂️",
+   "gruppo": "eco"
+  },
+  "revisore": {
+   "nome": "Revisore legale",
+   "emoji": "🔍",
+   "gruppo": "eco"
+  },
+  "finanziario": {
+   "nome": "Consulente e promotore finanziario",
+   "emoji": "📈",
+   "gruppo": "eco"
+  },
+  "attuario": {
+   "nome": "Attuario",
+   "emoji": "📉",
+   "gruppo": "eco"
+  },
+  "curatore": {
+   "nome": "Curatore e gestore della crisi",
+   "emoji": "🧯",
+   "gruppo": "eco"
+  },
+  "agente_imm": {
+   "nome": "Agente e mediatore immobiliare",
+   "emoji": "🏷️",
+   "gruppo": "imm"
+  },
+  "condominio": {
+   "nome": "Amministratore di condominio",
+   "emoji": "🏢",
+   "gruppo": "imm"
+  },
+  "valutatore": {
+   "nome": "Valutatore e perito estimatore",
+   "emoji": "🔎",
+   "gruppo": "imm"
+  },
+  "facility": {
+   "nome": "Property e facility manager",
+   "emoji": "🏬",
+   "gruppo": "imm"
+  },
+  "mutui": {
+   "nome": "Broker ipotecario e mutui",
+   "emoji": "🏦",
+   "gruppo": "imm"
+  },
+  "energy": {
+   "nome": "Energy manager e rinnovabili",
+   "emoji": "⚡",
+   "gruppo": "imm"
+  },
+  "logistica": {
+   "nome": "Supply chain e logistica",
+   "emoji": "📦",
+   "gruppo": "imm"
+  },
+  "mobility": {
+   "nome": "Mobility e fleet manager",
+   "emoji": "🚐",
+   "gruppo": "imm"
+  },
+  "adr": {
+   "nome": "Consulente ADR e sicurezza trasporti",
+   "emoji": "☣️",
+   "gruppo": "imm"
+  },
+  "manager": {
+   "nome": "CEO, COO, CFO e direttori",
+   "emoji": "👔",
+   "gruppo": "man"
+  },
+  "consulente_az": {
+   "nome": "Consulente aziendale e temporary manager",
+   "emoji": "🧭",
+   "gruppo": "man"
+  },
+  "compliance": {
+   "nome": "Risk manager e compliance",
+   "emoji": "🧷",
+   "gruppo": "man"
+  },
+  "hr": {
+   "nome": "HR manager e recruiter",
+   "emoji": "🤝",
+   "gruppo": "man"
+  },
+  "formatore": {
+   "nome": "Formatore e learning",
+   "emoji": "🎒",
+   "gruppo": "man"
+  },
+  "medico": {
+   "nome": "Medico e specialista",
+   "emoji": "👨‍⚕️",
+   "gruppo": "san"
+  },
+  "odontoiatra": {
+   "nome": "Odontoiatra",
+   "emoji": "🦷",
+   "gruppo": "san"
+  },
+  "farmacista": {
+   "nome": "Farmacista",
+   "emoji": "💊",
+   "gruppo": "san"
+  },
+  "psicologo": {
+   "nome": "Psicologo e psicoterapeuta",
+   "emoji": "🧠",
+   "gruppo": "san"
+  },
+  "fisioterapista": {
+   "nome": "Fisioterapista",
+   "emoji": "🦵",
+   "gruppo": "san"
+  },
+  "infermiere": {
+   "nome": "Infermiere e ostetrica",
+   "emoji": "🩹",
+   "gruppo": "san"
+  },
+  "dietista": {
+   "nome": "Dietista e nutrizionista",
+   "emoji": "🥗",
+   "gruppo": "san"
+  },
+  "veterinario": {
+   "nome": "Veterinario",
+   "emoji": "🐾",
+   "gruppo": "san"
+  },
+  "sviluppatore": {
+   "nome": "Sviluppatore software",
+   "emoji": "👨‍💻",
+   "gruppo": "dig"
+  },
+  "data": {
+   "nome": "Data analyst e data scientist",
+   "emoji": "📊",
+   "gruppo": "dig"
+  },
+  "cyber": {
+   "nome": "Esperto di cybersecurity",
+   "emoji": "🔐",
+   "gruppo": "dig"
+  },
+  "ux": {
+   "nome": "UX/UI e product manager",
+   "emoji": "🧩",
+   "gruppo": "dig"
+  },
+  "giornalista": {
+   "nome": "Giornalista",
+   "emoji": "📰",
+   "gruppo": "dig"
+  },
+  "marketer": {
+   "nome": "Copywriter, social e digital marketing",
+   "emoji": "📣",
+   "gruppo": "dig"
+  },
+  "grafico": {
+   "nome": "Graphic designer e art director",
+   "emoji": "🎨",
+   "gruppo": "dig"
+  },
+  "fotovideo": {
+   "nome": "Fotografo e videomaker",
+   "emoji": "📷",
+   "gruppo": "dig"
+  },
+  "pubblicitario": {
+   "nome": "Pubblicitario e creativo",
+   "emoji": "💡",
+   "gruppo": "dig"
+  },
+  "docente": {
+   "nome": "Docente e insegnante",
+   "emoji": "🍎",
+   "gruppo": "dig"
+  },
+  "traduttore": {
+   "nome": "Traduttore e interprete",
+   "emoji": "🌍",
+   "gruppo": "dig"
+  },
+  "archivista": {
+   "nome": "Archivista e bibliotecario",
+   "emoji": "📚",
+   "gruppo": "dig"
+  },
+  "curatore_mus": {
+   "nome": "Curatore museale e storico dell'arte",
+   "emoji": "🏛️",
+   "gruppo": "dig"
+  }
  }
 }

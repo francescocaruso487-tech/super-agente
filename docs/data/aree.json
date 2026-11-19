@@ -561,6 +561,27 @@
    "cultura": "Traduzione, archivi e musei"
   }
  },
+ "gaming": {
+  "nome": "Gaming e console",
+  "colore": "#e11d48",
+  "nicchia": "tech",
+  "gruppo": null,
+  "sotto": {}
+ },
+ "casa_smart": {
+  "nome": "Smart home, TV e foto",
+  "colore": "#0ea5e9",
+  "nicchia": "tech",
+  "gruppo": null,
+  "sotto": {}
+ },
+ "telecom": {
+  "nome": "Telefonia, fibra e reti",
+  "colore": "#14b8a6",
+  "nicchia": "tech",
+  "gruppo": null,
+  "sotto": {}
+ },
  "locale": {
   "nome": "Locale · Campania e Caserta",
   "colore": "#c2185b",
