@@ -539,6 +539,109 @@
    ],
    "gnews_when": "7d",
    "filtra": true
+  },
+  {
+   "id": "ansa-eco",
+   "nome": "ANSA Economia",
+   "tipo": "stampa",
+   "home": "https://www.ansa.it/sito/notizie/economia/economia.shtml",
+   "filtra": true,
+   "feed": "https://www.ansa.it/sito/notizie/economia/economia_rss.xml",
+   "gnews": [
+    "site:ansa.it edilizia bonus casa",
+    "site:ansa.it superbonus detrazioni",
+    "site:ansa.it urbanistica decreto casa"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "ansa-camp",
+   "nome": "ANSA Campania",
+   "tipo": "stampa",
+   "home": "https://www.ansa.it/campania/",
+   "filtra": true,
+   "feed": "https://www.ansa.it/campania/notizie/campania_rss.xml",
+   "luogo": "Campania",
+   "gnews": [
+    "site:ansa.it/campania edilizia urbanistica",
+    "site:ansa.it/campania Caserta lavori pubblici"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "ansa-pol",
+   "nome": "ANSA Politica (leggi e decreti)",
+   "tipo": "stampa",
+   "home": "https://www.ansa.it/sito/notizie/politica/politica.shtml",
+   "filtra": true,
+   "feed": "https://www.ansa.it/sito/notizie/politica/politica_rss.xml",
+   "gnews": [
+    "site:ansa.it decreto edilizia bonus casa",
+    "site:ansa.it consiglio dei ministri decreto casa edilizia"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "adnkronos",
+   "nome": "Adnkronos (edilizia e fisco)",
+   "tipo": "stampa",
+   "home": "https://www.adnkronos.com/",
+   "filtra": true,
+   "gnews": [
+    "site:adnkronos.com superbonus bonus edilizi",
+    "site:adnkronos.com edilizia decreto casa"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "italiaoggi",
+   "nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "home": "https://www.italiaoggi.it/",
+   "filtra": true,
+   "gnews": [
+    "site:italiaoggi.it bonus edilizi detrazioni",
+    "site:italiaoggi.it edilizia catasto urbanistica"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "sole-norme",
+   "nome": "Il Sole 24 Ore (norme e edilizia)",
+   "tipo": "stampa",
+   "home": "https://www.ilsole24ore.com/",
+   "filtra": true,
+   "gnews": [
+    "site:ilsole24ore.com edilizia permesso di costruire sanatoria",
+    "site:ilsole24ore.com catasto voltura immobili",
+    "site:ilsole24ore.com appalti codice contratti"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "governo",
+   "nome": "Governo: Consiglio dei Ministri",
+   "tipo": "ufficiale",
+   "home": "https://www.governo.it/it/consiglio-dei-ministri",
+   "filtra": true,
+   "gnews": [
+    "site:governo.it consiglio dei ministri decreto edilizia",
+    "site:governo.it comunicato consiglio dei ministri casa bonus appalti"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "parlamento",
+   "nome": "Camera e Senato (disegni di legge)",
+   "tipo": "ufficiale",
+   "home": "https://www.camera.it/",
+   "filtra": true,
+   "gnews": [
+    "site:camera.it proposta di legge edilizia",
+    "site:senato.it disegno di legge edilizia urbanistica bonus",
+    "testo unico edilizia riforma Parlamento"
+   ],
+   "gnews_when": "30d"
   }
  ]
 }

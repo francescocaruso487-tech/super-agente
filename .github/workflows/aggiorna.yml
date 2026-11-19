@@ -2,7 +2,11 @@ name: Aggiorna notizie
 
 on:
   schedule:
-    - cron: "7 * * * *"   # ogni ora
+    # GitHub non garantisce l'orario preciso dei lavori programmati: ne metto tre per ora,
+    # così almeno uno parte (chi arriva dopo trova i dati già aggiornati)
+    - cron: "7 * * * *"
+    - cron: "27 * * * *"
+    - cron: "47 * * * *"
   workflow_dispatch:
 
 permissions:
