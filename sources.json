@@ -15,9 +15,14 @@
    "nome": "EUR-Lex (UE)",
    "tipo": "ufficiale",
    "home": "https://eur-lex.europa.eu/homepage.html?locale=it",
-   "feed": "",
    "filtra": true,
-   "nota": "Serve un feed RSS personalizzato creato su EUR-Lex: incollare qui l'URL in 'feed'."
+   "nota": "EUR-Lex non offre un feed semplice: seguo le novità UE su edilizia ed energia tramite Google News.",
+   "gnews": [
+    "direttiva UE efficienza energetica edifici Gazzetta ufficiale Unione europea",
+    "regolamento UE prodotti da costruzione",
+    "normativa europea edilizia case green"
+   ],
+   "gnews_when": "30d"
   },
   {
    "id": "vvf",
@@ -153,7 +158,14 @@
    "id": "ingenio",
    "nome": "Ingenio",
    "tipo": "stampa",
-   "home": "https://www.ingenio-web.it/"
+   "home": "https://www.ingenio-web.it/",
+   "gnews": [
+    "site:ingenio-web.it norme tecniche costruzioni",
+    "site:ingenio-web.it sismica",
+    "site:ingenio-web.it edilizia"
+   ],
+   "gnews_when": "30d",
+   "filtra": true
   },
   {
    "id": "puntosicuro",
@@ -281,10 +293,11 @@
     "strutture"
    ],
    "gnews": [
-    "Genio Civile Caserta sismica",
-    "Regione Campania circolare deposito sismico autorizzazione sismica"
+    "Genio Civile Caserta",
+    "Regione Campania sismica autorizzazione deposito",
+    "Campania genio civile circolare"
    ],
-   "gnews_when": "60d",
+   "gnews_when": "180d",
    "nota": "Circolari del Genio Civile (L.R. 9/83, Reg. 4/2010)."
   },
   {
@@ -747,11 +760,11 @@
    "tipo": "ente",
    "home": "https://soprintendenza.caserta.beniculturali.it/",
    "gnews": [
-    "Soprintendenza Caserta Benevento autorizzazione paesaggistica",
-    "Soprintendenza Caserta vincolo edificio",
-    "sabap Caserta Benevento circolare"
+    "Soprintendenza Caserta",
+    "Soprintendenza Caserta Benevento",
+    "soprintendenza archeologia belle arti paesaggio Caserta"
    ],
-   "gnews_when": "30d",
+   "gnews_when": "90d",
    "filtra": true,
    "aree": [
     "ambiente"
@@ -907,10 +920,10 @@
    "tipo": "ordine",
    "home": "https://www.cnpi.it/",
    "gnews": [
-    "periti industriali CNPI impianti antincendio",
-    "Consiglio Nazionale Periti Industriali novità"
+    "periti industriali",
+    "Consiglio Nazionale Periti Industriali CNPI"
    ],
-   "gnews_when": "30d",
+   "gnews_when": "90d",
    "filtra": true,
    "aree": [
     "norme"
@@ -1208,30 +1221,6 @@
    "aree": [
     "energia"
    ]
-  },
-  {
-   "id": "portale-tecnico",
-   "nome": "Il Portale del Tecnico",
-   "tipo": "stampa",
-   "home": "https://www.ilportaledeltecnico.it/",
-   "gnews": [
-    "site:ilportaledeltecnico.it normativa edilizia",
-    "site:ilportaledeltecnico.it bonus detrazioni"
-   ],
-   "gnews_when": "30d",
-   "filtra": true
-  },
-  {
-   "id": "tecnico-hub",
-   "nome": "Tecnico Hub",
-   "tipo": "stampa",
-   "home": "https://www.tecnico-hub.com/",
-   "gnews": [
-    "site:tecnico-hub.com normativa edilizia",
-    "site:tecnico-hub.com pratiche catasto"
-   ],
-   "gnews_when": "30d",
-   "filtra": true
   },
   {
    "id": "edilnet",
