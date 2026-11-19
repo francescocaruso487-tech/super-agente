@@ -173,7 +173,7 @@ function renderFonti() {
 
 function renderTutto() { renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "13";
+const VERSIONE_APP = "14";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
