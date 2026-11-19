@@ -80,7 +80,7 @@ function card(n) {
   const luogoB = n.luogo ? `<span class="badge luogo">📍 ${esc(n.luogo)}</span>` : "";
   const badge = luogoB + n.aree.filter((a) => a !== "altro" || !n.luogo).map((a) => `<span class="badge" style="--c:${colore(a)}">${esc(nome(a))}</span>`).join("");
   return `<article class="card${letta ? " letta" : ""}" data-id="${n.id}" style="--c:${colore(n.aree[0])}">
-    <div class="riga">${badge}${n.normativa ? `<span class="badge norm">${["edilizia", "fisco"].includes(n.nicchia || "edilizia") ? "Normativa" : "Ufficiale"}</span>` : ""}${nuovo ? '<span class="nuovo" title="Nuova"></span>' : ""}</div>
+    <div class="riga">${badge}${n.normativa ? `<span class="badge norm">${["edilizia"].includes(n.nicchia || "edilizia") ? "Normativa" : "Ufficiale"}</span>` : ""}${nuovo ? '<span class="nuovo" title="Nuova"></span>' : ""}</div>
     <h3 class="titolo">${esc(n.titolo)}</h3>
     ${n.sintesi ? `<p class="sintesi">${esc(n.sintesi)}</p>` : ""}
     <div class="piede"><span>${esc(n.fonte_nome)} · ${fa(dataDi(n))}</span>
@@ -88,6 +88,10 @@ function card(n) {
   </article>`;
 }
 
+// Suddivisione dell'Edilizia in gruppi (le aree dichiarano il proprio "gruppo" in aree.json)
+const GRUPPI = { edilizia: [["soldi", "💶 Bonus, fisco e CAF"], ["pratiche", "📑 Pratiche e burocrazia"], ["tecnica", "🔧 Tecnica e progetto"]] };
+const gruppoDi = (a) => (a === "locale" ? "pratiche" : state.aree[a]?.gruppo || null);
+const PRIMA = { soldi: ["bonus", "imprese"], pratiche: ["locale", "edilizia", "catasto", "appalti"] };
 const inNicchia = (n) => (n.nicchia || "edilizia") === state.nicchia;
 const areaNicchia = (a) => (state.aree[a]?.nicchia || "edilizia") === state.nicchia;
 
@@ -97,6 +101,7 @@ function filtra({ area, query, soloNorm }) {
     if (area !== "stelle" && !inNicchia(n)) return false;
     if (area === "stelle") { if (!state.stelle.has(n.id)) return false; }
     else if (area === "tutte") { if (n.aree.length === 1 && n.aree[0] === "altro" && !n.luogo) return false; }
+    else if (area.startsWith("g:")) { const g = area.slice(2); if (!n.aree.some((a) => gruppoDi(a) === g) && !(g === "pratiche" && n.luogo)) return false; }
     else if (area === "locale") { if (!n.luogo) return false; }
     else if (area === "altro") { if (n.luogo || !n.aree.includes("altro")) return false; }
     else if (!n.aree.includes(area)) return false;
@@ -111,6 +116,7 @@ function chips(el, corrente, onPick) {
   const conta = (a) => base.filter((n) => a === "locale" ? !!n.luogo : a === "altro" ? (!n.luogo && n.aree.includes("altro")) : n.aree.includes(a)).length;
   const voci = [["tutte", "Tutte", null, base.filter((n) => !(n.aree.length === 1 && n.aree[0] === "altro" && !n.luogo)).length],
     ["stelle", "★ Salvate", null, state.stelle.size]];
+  (GRUPPI[state.nicchia] || []).forEach(([g, l]) => voci.push(["g:" + g, l, null, base.filter((n) => n.aree.some((a) => gruppoDi(a) === g) || (g === "pratiche" && n.luogo)).length]));
   if (state.aree.locale && state.nicchia === "edilizia") voci.push(["locale", nome("locale"), colore("locale"), conta("locale")]);
   Object.keys(state.aree).filter((a) => a !== "altro" && a !== "locale" && areaNicchia(a)).forEach((a) => voci.push([a, nome(a), colore(a), conta(a)]));
   voci.push(["altro", "Altro", colore("altro"), conta("altro")]);
@@ -161,14 +167,27 @@ function sezione(k, listaTot) {
 function renderNovita() {
   const box = $("#lista-novita");
   if (!state.news.length) { box.innerHTML = vuoto("Ancora nessuna notizia", "Il primo aggiornamento automatico è in arrivo (ogni ora)."); return; }
-  const chiavi = state.nicchia === "edilizia"
-    ? ["stelle", "bonus", "imprese", "locale", ...Object.keys(state.aree).filter((a) => !["altro", "locale", "bonus", "imprese"].includes(a) && areaNicchia(a)), "altro"]
-    : ["stelle", ...Object.keys(state.aree).filter((a) => a !== "altro" && a !== "locale" && areaNicchia(a)), "altro"];
+  const tutteAree = Object.keys(state.aree).filter((a) => a !== "altro" && a !== "locale" && areaNicchia(a));
+  let chiavi = ["stelle"];
+  if (GRUPPI[state.nicchia]) {
+    for (const [g, l] of GRUPPI[state.nicchia]) {
+      const lista = [...(g === "pratiche" ? ["locale"] : []), ...tutteAree.filter((a) => gruppoDi(a) === g)];
+      const pri = PRIMA[g] || [];
+      lista.sort((a, b) => (pri.indexOf(a) < 0 ? 99 : pri.indexOf(a)) - (pri.indexOf(b) < 0 ? 99 : pri.indexOf(b)));
+      chiavi.push("#" + l, ...lista);
+    }
+    chiavi.push(...tutteAree.filter((a) => !gruppoDi(a)));
+  } else chiavi.push(...tutteAree);
+  chiavi.push("altro");
   let out = "";
+  let titoloPendente = "";
   for (const k of chiavi) {
+    if (k.startsWith("#")) { titoloPendente = k.slice(1); continue; }
     const lista = filtra({ area: k, query: "", soloNorm: state.soloNorm });
     if (!lista.length && k !== "stelle") { if (k === "altro") continue; }
     if (k === "stelle" && !state.stelle.size) continue;
+    if (k === "locale" && !state.aree.locale) continue;
+    if (titoloPendente && lista.length) { out += `<div class="gruppo-titolo">${esc(titoloPendente)}</div>`; titoloPendente = ""; }
     out += sezione(k, lista);
   }
   box.innerHTML = out || vuoto("Nessuna notizia", "Togli il filtro \"Solo novità normative\".");
@@ -209,7 +228,7 @@ function renderFonti() {
 
 function renderTutto() { renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "16";
+const VERSIONE_APP = "17";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -269,7 +288,7 @@ document.addEventListener("click", (e) => {
 });
 function aggiornaNicchie() {
   document.querySelectorAll("#nicchie button").forEach((b) => b.classList.toggle("on", b.dataset.n === state.nicchia));
-  $("#solo-norm-label").hidden = !["edilizia", "fisco"].includes(state.nicchia);
+  $("#solo-norm-label").hidden = !["edilizia"].includes(state.nicchia);
 }
 document.querySelectorAll("#nicchie button").forEach((b) => b.addEventListener("click", () => {
   state.nicchia = b.dataset.n; store.set("nicchia", state.nicchia);

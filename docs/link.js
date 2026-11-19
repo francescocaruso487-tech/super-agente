@@ -35,6 +35,16 @@
       ["Tecnico Hub", "Portale tecnici", "https://tecnico-hub.com"],
       ["Edilnet", "Rete operativa edilizia", "https://edilnet.it"],
     ]],
+    ["CAF, patronati e commercialisti", [
+      ["Consulta Nazionale CAF", "Coordinamento dei CAF", "https://www.consultanazionalecaf.it"],
+      ["CAF ACLI", "730, ISEE e servizi", "https://www.acli.it"],
+      ["CAF CGIL", "Assistenza fiscale", "https://www.cafcgil.it"],
+      ["CAF CISL", "Assistenza fiscale", "https://www.cafcisl.it"],
+      ["CAF UIL", "Assistenza fiscale", "https://www.cafuil.it"],
+      ["CNDCEC · Commercialisti", "Consiglio Nazionale", "https://www.commercialisti.it"],
+      ["Consulenti del Lavoro", "Fondazione Studi e news", "https://www.consulentidellavoro.it"],
+      ["Agenzia Entrate-Riscossione", "Cartelle, rottamazione e rate", "https://www.agenziaentrateriscossione.gov.it"],
+    ]],
     ["Campania e Caserta", [
       ["Comune di Caserta", "Albo, urbanistica, SUE/SUAP", "https://www.comune.caserta.it"],
       ["BURC · Regione Campania", "Bollettino Ufficiale regionale", "https://burc.regione.campania.it"],
@@ -64,32 +74,6 @@
     ["Offerte", [
       ["Amazon Offerte", "Offerte del giorno", "https://www.amazon.it/deals"],
       ["Trovaprezzi", "Confronto prezzi", "https://www.trovaprezzi.it"],
-    ]],
-  ];
-  const FISCO = [
-    ["Servizi fiscali e previdenziali", [
-      ["Agenzia delle Entrate", "730 precompilato, cassetto fiscale, F24", "https://www.agenziaentrate.gov.it"],
-      ["Agenzia Entrate-Riscossione", "Cartelle, rottamazione e rate", "https://www.agenziaentrateriscossione.gov.it"],
-      ["INPS", "ISEE, pensioni, assegno unico, NASpI", "https://www.inps.it"],
-      ["INAIL", "Infortuni e prestazioni", "https://www.inail.it"],
-      ["Ministero dell'Economia · Finanze", "Decreti, aliquote e documenti fiscali", "https://www.finanze.gov.it"],
-      ["Normattiva", "Testi di legge aggiornati", "https://www.normattiva.it"],
-      ["Gazzetta Ufficiale", "Atti dello Stato", "https://www.gazzettaufficiale.it"],
-    ]],
-    ["CAF e patronati", [
-      ["Consulta Nazionale CAF", "Coordinamento dei CAF", "https://www.consultanazionalecaf.it"],
-      ["CAF ACLI", "730, ISEE e servizi", "https://www.acli.it"],
-      ["CAF CGIL", "Assistenza fiscale", "https://www.cafcgil.it"],
-      ["CAF CISL", "Assistenza fiscale", "https://www.cafcisl.it"],
-      ["CAF UIL", "Assistenza fiscale", "https://www.cafuil.it"],
-    ]],
-    ["Commercialisti e consulenti", [
-      ["CNDCEC · Commercialisti", "Consiglio Nazionale", "https://www.commercialisti.it"],
-      ["Consulenti del Lavoro", "Fondazione Studi e news", "https://www.consulentidellavoro.it"],
-      ["IPSOA", "Fisco e lavoro", "https://www.ipsoa.it"],
-      ["Eutekne.info", "Fisco e bonus", "https://eutekne.info"],
-      ["Fisco e Tasse", "Guide fiscali", "https://fiscoetasse.com"],
-      ["Il Sole 24 Ore · Norme e Tributi", "Quotidiano economico", "https://www.ilsole24ore.com/norme-e-tributi"],
     ]],
   ];
   const POLITICA = [
@@ -128,8 +112,12 @@
       ["OmniAuto", "Notizie auto", "https://www.omniauto.it"],
       ["Automoto", "Notizie e prove", "https://www.automoto.it"],
     ]],
-    ["Moto e motorsport", [
+    ["Moto, bici e motorsport", [
       ["Moto.it", "Moto e scooter", "https://www.moto.it"],
+      ["Motociclismo", "Prove e novità moto", "https://www.motociclismo.it"],
+      ["Bike Channel", "Bici ed e-bike", "https://www.bikechannel.it"],
+      ["FIAB", "Bici e cicloturismo", "https://fiab-onlus.it"],
+      ["MotoGP", "Campionato mondiale", "https://www.motogp.com/it"],
       ["FormulaPassion", "Formula 1", "https://www.formulapassion.it"],
       ["Autosprint", "Motorsport", "https://www.autosprint.it"],
     ]],
@@ -140,7 +128,7 @@
     q = (q || "").trim().toLowerCase();
     let out = "";
     const nic = (function(){ try { return JSON.parse(localStorage.getItem('nicchia')) || 'edilizia'; } catch (e) { return localStorage.getItem('nicchia') || 'edilizia'; } })();
-    for (const [titolo, voci] of ({ tech: T, fisco: FISCO, politica: POLITICA, auto: AUTO }[nic] || G)) {
+    for (const [titolo, voci] of ({ tech: T, politica: POLITICA, auto: AUTO }[nic] || G)) {
       const v = voci.filter(([n, d, u]) => !q || (n + " " + d + " " + u).toLowerCase().includes(q));
       if (!v.length) continue;
       out += `<div class="gruppo">${esc(titolo)}</div>` + v.map(([n, d, u]) =>

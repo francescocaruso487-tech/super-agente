@@ -1509,7 +1509,6 @@
    "nome": "Agenzia delle Entrate: novità fiscali",
    "tipo": "ufficiale",
    "home": "https://www.agenziaentrate.gov.it/portale/",
-   "nicchia": "fisco",
    "aree": [
     "dichiarazioni"
    ],
@@ -1518,14 +1517,14 @@
     "site:agenziaentrate.gov.it risoluzione provvedimento",
     "Agenzia delle Entrate circolare risposta interpello novità"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "f-ader",
    "nome": "Agenzia Entrate-Riscossione",
    "tipo": "ufficiale",
    "home": "https://www.agenziaentrateriscossione.gov.it/",
-   "nicchia": "fisco",
    "aree": [
     "imprese_fisco"
    ],
@@ -1533,14 +1532,14 @@
     "rottamazione cartelle Agenzia Entrate Riscossione",
     "definizione agevolata cartelle scadenza rata"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "f-mef",
    "nome": "MEF Dipartimento Finanze",
    "tipo": "ufficiale",
    "home": "https://www.finanze.gov.it/",
-   "nicchia": "fisco",
    "aree": [
     "dichiarazioni"
    ],
@@ -1548,14 +1547,14 @@
     "site:finanze.gov.it decreto",
     "Dipartimento Finanze MEF comunicato fiscale"
    ],
-   "gnews_when": "30d"
+   "gnews_when": "30d",
+   "caf": true
   },
   {
    "id": "f-gdf",
    "nome": "Guardia di Finanza",
    "tipo": "ufficiale",
    "home": "https://www.gdf.gov.it/",
-   "nicchia": "fisco",
    "aree": [
     "imprese_fisco"
    ],
@@ -1563,14 +1562,14 @@
     "Guardia di Finanza controlli fiscali evasione",
     "Guardia di Finanza circolare"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "f-inps",
    "nome": "INPS: ISEE, pensioni e prestazioni",
    "tipo": "ente",
    "home": "https://www.inps.it/it/it.html",
-   "nicchia": "fisco",
    "aree": [
     "isee"
    ],
@@ -1582,14 +1581,14 @@
     "INPS bonus nuove domande",
     "INPS invalidità civile novità"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "f-minlav",
    "nome": "Ministero del Lavoro e Politiche Sociali",
    "tipo": "ufficiale",
    "home": "https://www.lavoro.gov.it/",
-   "nicchia": "fisco",
    "aree": [
     "lavoro"
    ],
@@ -1598,14 +1597,14 @@
     "Ministero del Lavoro contratti novità",
     "Ministero del Lavoro bonus decreto attuativo"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "f-inail",
    "nome": "INAIL: prestazioni e infortuni",
    "tipo": "ente",
    "home": "https://www.inail.it/",
-   "nicchia": "fisco",
    "aree": [
     "lavoro"
    ],
@@ -1613,14 +1612,14 @@
     "INAIL prestazioni infortuni novità",
     "INAIL premi autoliquidazione scadenza"
    ],
-   "gnews_when": "30d"
+   "gnews_when": "30d",
+   "caf": true
   },
   {
    "id": "f-ivass",
    "nome": "IVASS (assicurazioni)",
    "tipo": "ufficiale",
    "home": "https://www.ivass.it/",
-   "nicchia": "fisco",
    "aree": [
     "professione_fisco"
    ],
@@ -1628,14 +1627,14 @@
     "IVASS novità assicurazioni consumatori",
     "IVASS provvedimento"
    ],
-   "gnews_when": "30d"
+   "gnews_when": "30d",
+   "caf": true
   },
   {
    "id": "f-consap",
    "nome": "CONSAP e Fondo Garanzia Prima Casa",
    "tipo": "ente",
    "home": "https://www.consap.it/",
-   "nicchia": "fisco",
    "aree": [
     "casa_fisco"
    ],
@@ -1643,14 +1642,14 @@
     "Consap fondo garanzia prima casa novità",
     "mutuo prima casa under 36 garanzia Consap"
    ],
-   "gnews_when": "30d"
+   "gnews_when": "30d",
+   "caf": true
   },
   {
    "id": "f-notai",
    "nome": "Consiglio Nazionale del Notariato",
    "tipo": "ordine",
    "home": "https://www.notariato.it/",
-   "nicchia": "fisco",
    "aree": [
     "casa_fisco"
    ],
@@ -1658,14 +1657,14 @@
     "notariato successioni compravendita novità",
     "Consiglio Nazionale del Notariato studio"
    ],
-   "gnews_when": "30d"
+   "gnews_when": "30d",
+   "caf": true
   },
   {
    "id": "f-cndcec",
    "nome": "Commercialisti (CNDCEC)",
    "tipo": "ordine",
    "home": "https://www.commercialisti.it/",
-   "nicchia": "fisco",
    "aree": [
     "professione_fisco"
    ],
@@ -1674,14 +1673,14 @@
     "Consiglio Nazionale Commercialisti documento",
     "commercialisti Fondazione Nazionale Commercialisti"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "f-cdl",
    "nome": "Consulenti del Lavoro",
    "tipo": "ordine",
    "home": "https://www.consulentidellavoro.it/",
-   "nicchia": "fisco",
    "aree": [
     "lavoro"
    ],
@@ -1689,14 +1688,14 @@
     "Consulenti del Lavoro novità circolare",
     "Fondazione Studi Consulenti del Lavoro"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "f-caf",
    "nome": "Consulta Nazionale dei CAF",
    "tipo": "ente",
    "home": "https://www.consultanazionalecaf.it/",
-   "nicchia": "fisco",
    "aree": [
     "professione_fisco"
    ],
@@ -1705,14 +1704,14 @@
     "CAF assistenza fiscale 730 novità",
     "CAF scadenze ISEE 730 mancati"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "f-caf-acli",
    "nome": "CAF ACLI",
    "tipo": "ente",
    "home": "https://www.acli.it/",
-   "nicchia": "fisco",
    "aree": [
     "professione_fisco"
    ],
@@ -1720,14 +1719,14 @@
     "CAF ACLI novità fiscali",
     "CAF ACLI 730 ISEE"
    ],
-   "gnews_when": "30d"
+   "gnews_when": "30d",
+   "caf": true
   },
   {
    "id": "f-caf-cgil",
    "nome": "CAF CGIL e INCA",
    "tipo": "ente",
    "home": "https://www.cafcgil.it/",
-   "nicchia": "fisco",
    "aree": [
     "professione_fisco"
    ],
@@ -1735,14 +1734,14 @@
     "CAF CGIL novità 730",
     "INCA CGIL pensioni novità"
    ],
-   "gnews_when": "30d"
+   "gnews_when": "30d",
+   "caf": true
   },
   {
    "id": "f-caf-cisl",
    "nome": "CAF CISL",
    "tipo": "ente",
    "home": "https://www.cafcisl.it/",
-   "nicchia": "fisco",
    "aree": [
     "professione_fisco"
    ],
@@ -1750,14 +1749,14 @@
     "CAF CISL novità 730 ISEE",
     "CISL pensioni novità"
    ],
-   "gnews_when": "30d"
+   "gnews_when": "30d",
+   "caf": true
   },
   {
    "id": "f-caf-uil",
    "nome": "CAF UIL",
    "tipo": "ente",
    "home": "https://www.cafuil.it/",
-   "nicchia": "fisco",
    "aree": [
     "professione_fisco"
    ],
@@ -1765,14 +1764,14 @@
     "CAF UIL novità fiscali",
     "UIL ITAL pensioni novità"
    ],
-   "gnews_when": "30d"
+   "gnews_when": "30d",
+   "caf": true
   },
   {
    "id": "f-caf-altri",
    "nome": "CAF Coldiretti, CIA e Confartigianato",
    "tipo": "ente",
    "home": "https://www.coldiretti.it/",
-   "nicchia": "fisco",
    "aree": [
     "professione_fisco"
    ],
@@ -1781,14 +1780,14 @@
     "CAF Confartigianato fisco novità",
     "CAF CIA agricoltori fisco"
    ],
-   "gnews_when": "30d"
+   "gnews_when": "30d",
+   "caf": true
   },
   {
    "id": "f-patronati",
    "nome": "Patronati (ACLI, INCA, ITAL, INAS)",
    "tipo": "ente",
    "home": "https://www.patronatoacli.it/",
-   "nicchia": "fisco",
    "aree": [
     "pensioni"
    ],
@@ -1796,14 +1795,14 @@
     "patronato novità pensioni invalidità",
     "patronato INAS INCA ITAL novità prestazioni"
    ],
-   "gnews_when": "30d"
+   "gnews_when": "30d",
+   "caf": true
   },
   {
    "id": "f-sole",
    "nome": "Il Sole 24 Ore: Norme e Tributi",
    "tipo": "stampa",
    "home": "https://www.ilsole24ore.com/",
-   "nicchia": "fisco",
    "feed": "https://www.ilsole24ore.com/rss/norme-e-tributi.xml",
    "aree": [
     "dichiarazioni"
@@ -1815,14 +1814,14 @@
     "site:ilsole24ore.com rottamazione cartelle",
     "site:ilsole24ore.com forfettari partita iva"
    ],
-   "gnews_when": "7d"
+   "gnews_when": "7d",
+   "caf": true
   },
   {
    "id": "f-italiaoggi",
    "nome": "ItaliaOggi: fisco e lavoro",
    "tipo": "stampa",
    "home": "https://www.italiaoggi.it/",
-   "nicchia": "fisco",
    "aree": [
     "dichiarazioni"
    ],
@@ -1830,14 +1829,14 @@
     "site:italiaoggi.it fisco novità",
     "site:italiaoggi.it pensioni lavoro novità"
    ],
-   "gnews_when": "7d"
+   "gnews_when": "7d",
+   "caf": true
   },
   {
    "id": "f-altalex",
    "nome": "Altalex",
    "tipo": "stampa",
    "home": "https://www.altalex.com/",
-   "nicchia": "fisco",
    "aree": [
     "dichiarazioni"
    ],
@@ -1846,14 +1845,14 @@
     "site:altalex.com lavoro pensioni novità",
     "site:altalex.com locazioni successioni"
    ],
-   "gnews_when": "7d"
+   "gnews_when": "7d",
+   "caf": true
   },
   {
    "id": "f-ilfisco",
    "nome": "Il Fisco (Wolters Kluwer)",
    "tipo": "stampa",
    "home": "https://www.ilfisco.it/",
-   "nicchia": "fisco",
    "aree": [
     "dichiarazioni"
    ],
@@ -1861,14 +1860,14 @@
     "site:ilfisco.it novità fiscali",
     "site:ilfisco.it modello 730"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "f-fiscotoday",
    "nome": "Fisco Today",
    "tipo": "stampa",
    "home": "https://www.fiscotoday.it/",
-   "nicchia": "fisco",
    "aree": [
     "dichiarazioni"
    ],
@@ -1876,14 +1875,14 @@
     "site:fiscotoday.it novità",
     "site:fiscotoday.it risoluzione"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "f-commtel",
    "nome": "Commercialista Telematico",
    "tipo": "stampa",
    "home": "https://www.commercialistatelematico.com/",
-   "nicchia": "fisco",
    "aree": [
     "dichiarazioni"
    ],
@@ -1891,14 +1890,14 @@
     "site:commercialistatelematico.com novità fiscali",
     "site:commercialistatelematico.com scadenze"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "f-infofisc",
    "nome": "Informazione Fiscale",
    "tipo": "stampa",
    "home": "https://www.informazionefiscale.it/",
-   "nicchia": "fisco",
    "aree": [
     "dichiarazioni"
    ],
@@ -1906,14 +1905,14 @@
     "site:informazionefiscale.it novità",
     "site:informazionefiscale.it 730 ISEE"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "f-pmi",
    "nome": "PMI.it: fisco e lavoro",
    "tipo": "stampa",
    "home": "https://www.pmi.it/",
-   "nicchia": "fisco",
    "aree": [
     "imprese_fisco"
    ],
@@ -1922,14 +1921,14 @@
     "site:pmi.it partita iva forfettario",
     "site:pmi.it lavoro contratti"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "f-money",
    "nome": "Money.it: fisco e pensioni",
    "tipo": "stampa",
    "home": "https://www.money.it/",
-   "nicchia": "fisco",
    "aree": [
     "pensioni"
    ],
@@ -1939,14 +1938,14 @@
     "site:money.it fisco 730",
     "site:money.it bonus inps"
    ],
-   "gnews_when": "7d"
+   "gnews_when": "7d",
+   "caf": true
   },
   {
    "id": "f-cataldi",
    "nome": "Studio Cataldi",
    "tipo": "stampa",
    "home": "https://www.studiocataldi.it/",
-   "nicchia": "fisco",
    "aree": [
     "casa_fisco"
    ],
@@ -1955,14 +1954,14 @@
     "site:studiocataldi.it locazioni affitti",
     "site:studiocataldi.it successione"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "f-legge",
    "nome": "La Legge per Tutti",
    "tipo": "stampa",
    "home": "https://www.laleggepertutti.it/",
-   "nicchia": "fisco",
    "aree": [
     "pensioni"
    ],
@@ -1971,14 +1970,14 @@
     "site:laleggepertutti.it pensioni inps",
     "site:laleggepertutti.it lavoro"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "f-quifinanza",
    "nome": "QuiFinanza",
    "tipo": "stampa",
    "home": "https://quifinanza.it/",
-   "nicchia": "fisco",
    "aree": [
     "isee"
    ],
@@ -1986,14 +1985,14 @@
     "site:quifinanza.it fisco bonus pensioni",
     "site:quifinanza.it ISEE assegno unico"
    ],
-   "gnews_when": "7d"
+   "gnews_when": "7d",
+   "caf": true
   },
   {
    "id": "f-ansa-fisco",
    "nome": "ANSA: fisco, pensioni e lavoro",
    "tipo": "stampa",
    "home": "https://www.ansa.it/sito/notizie/economia/economia.shtml",
-   "nicchia": "fisco",
    "filtra": true,
    "gnews": [
     "site:ansa.it 730 dichiarazione redditi",
@@ -2002,28 +2001,28 @@
     "site:ansa.it rottamazione cartelle",
     "site:ansa.it bonus famiglie"
    ],
-   "gnews_when": "7d"
+   "gnews_when": "7d",
+   "caf": true
   },
   {
    "id": "f-adnk",
    "nome": "Adnkronos: fisco e pensioni",
    "tipo": "stampa",
    "home": "https://www.adnkronos.com/",
-   "nicchia": "fisco",
    "filtra": true,
    "gnews": [
     "site:adnkronos.com pensioni inps novità",
     "site:adnkronos.com fisco 730 isee",
     "site:adnkronos.com assegno unico"
    ],
-   "gnews_when": "7d"
+   "gnews_when": "7d",
+   "caf": true
   },
   {
    "id": "f-fiscooggi",
    "nome": "Fisco Oggi (rivista del Fisco)",
    "tipo": "stampa",
    "home": "https://www.fiscooggi.it/",
-   "nicchia": "fisco",
    "aree": [
     "dichiarazioni"
    ],
@@ -2032,7 +2031,8 @@
     "site:fiscooggi.it pensioni lavoro",
     "site:fiscooggi.it locazioni successioni"
    ],
-   "gnews_when": "14d"
+   "gnews_when": "14d",
+   "caf": true
   },
   {
    "id": "p-quirinale",
@@ -3199,7 +3199,7 @@
    "home": "https://www.moto.it/",
    "nicchia": "auto",
    "aree": [
-    "moto_sport"
+    "moto"
    ],
    "gnews": [
     "site:moto.it novità",
@@ -3215,7 +3215,7 @@
    "home": "https://www.formulapassion.it/",
    "nicchia": "auto",
    "aree": [
-    "moto_sport"
+    "motorsport"
    ],
    "gnews": [
     "site:formulapassion.it F1",
@@ -3232,7 +3232,7 @@
    "home": "https://www.autosprint.it/",
    "nicchia": "auto",
    "aree": [
-    "moto_sport"
+    "motorsport"
    ],
    "gnews": [
     "site:autosprint.it",
@@ -3240,6 +3240,421 @@
     "rally WRC risultati"
    ],
    "gnews_when": "3d"
+  },
+  {
+   "id": "a-motociclismo",
+   "nome": "Motociclismo",
+   "tipo": "stampa",
+   "home": "https://www.motociclismo.it/",
+   "nicchia": "auto",
+   "aree": [
+    "moto"
+   ],
+   "gnews": [
+    "site:motociclismo.it novità",
+    "site:motociclismo.it prove moto"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-dueruote",
+   "nome": "Dueruote",
+   "tipo": "stampa",
+   "home": "https://www.dueruote.it/",
+   "nicchia": "auto",
+   "aree": [
+    "moto"
+   ],
+   "gnews": [
+    "site:dueruote.it novità",
+    "site:dueruote.it moto scooter"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-inmoto",
+   "nome": "InMoto",
+   "tipo": "stampa",
+   "home": "https://www.inmoto.it/",
+   "nicchia": "auto",
+   "aree": [
+    "moto"
+   ],
+   "gnews": [
+    "site:inmoto.it novità",
+    "site:inmoto.it prove"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-motorionline-moto",
+   "nome": "Motorionline Moto",
+   "tipo": "stampa",
+   "home": "https://www.motorionline.com/moto/",
+   "nicchia": "auto",
+   "aree": [
+    "moto"
+   ],
+   "gnews": [
+    "site:motorionline.com moto",
+    "novità moto scooter nuovi modelli"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-ancma",
+   "nome": "ANCMA (moto, scooter e bici)",
+   "tipo": "ordine",
+   "home": "https://www.ancma.it/",
+   "nicchia": "auto",
+   "aree": [
+    "moto"
+   ],
+   "gnews": [
+    "ANCMA mercato moto scooter bici",
+    "ANCMA immatricolazioni moto"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "a-eicma",
+   "nome": "EICMA (salone della moto)",
+   "tipo": "ente",
+   "home": "https://www.eicma.it/",
+   "nicchia": "auto",
+   "aree": [
+    "moto"
+   ],
+   "gnews": [
+    "EICMA novità moto salone Milano",
+    "EICMA anteprime"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "a-moto-gazzetta",
+   "nome": "Gazzetta Moto e MotoGP",
+   "tipo": "stampa",
+   "home": "https://www.gazzetta.it/Moto/",
+   "nicchia": "auto",
+   "aree": [
+    "motorsport"
+   ],
+   "gnews": [
+    "site:gazzetta.it MotoGP",
+    "MotoGP gran premio risultati classifica",
+    "Superbike risultati"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "a-motogp",
+   "nome": "MotoGP.com",
+   "tipo": "stampa",
+   "home": "https://www.motogp.com/it",
+   "nicchia": "auto",
+   "aree": [
+    "motorsport"
+   ],
+   "gnews": [
+    "site:motogp.com it",
+    "MotoGP notizie piloti Bagnaia Marquez"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "a-formula1",
+   "nome": "Formula 1 (sito ufficiale)",
+   "tipo": "stampa",
+   "home": "https://www.formula1.com/",
+   "nicchia": "auto",
+   "aree": [
+    "motorsport"
+   ],
+   "gnews": [
+    "Formula 1 gran premio risultati classifica",
+    "Ferrari F1 Leclerc Hamilton news",
+    "site:it.motorsport.com F1"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "a-fia",
+   "nome": "FIA e ACI Sport",
+   "tipo": "ente",
+   "home": "https://www.fia.com/",
+   "nicchia": "auto",
+   "aree": [
+    "motorsport"
+   ],
+   "gnews": [
+    "FIA regolamento Formula 1 novità",
+    "ACI Sport rally campionato italiano"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "a-sky-f1",
+   "nome": "Sky Sport F1 e motori",
+   "tipo": "stampa",
+   "home": "https://sport.sky.it/",
+   "nicchia": "auto",
+   "aree": [
+    "motorsport"
+   ],
+   "gnews": [
+    "site:sport.sky.it formula 1",
+    "site:sport.sky.it motogp"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "a-bikechannel",
+   "nome": "Bike Channel",
+   "tipo": "stampa",
+   "home": "https://www.bikechannel.it/",
+   "nicchia": "auto",
+   "aree": [
+    "bici"
+   ],
+   "gnews": [
+    "site:bikechannel.it novità bici",
+    "site:bikechannel.it prove e-bike"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-tuttobici",
+   "nome": "TuttoBiciWeb (ciclismo)",
+   "tipo": "stampa",
+   "home": "https://www.tuttobiciweb.it/",
+   "nicchia": "auto",
+   "aree": [
+    "bici"
+   ],
+   "gnews": [
+    "site:tuttobiciweb.it ciclismo",
+    "ciclismo corse risultati classifica"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "a-cicloweb",
+   "nome": "Cicloweb e Bicisport",
+   "tipo": "stampa",
+   "home": "https://www.cicloweb.it/",
+   "nicchia": "auto",
+   "aree": [
+    "bici"
+   ],
+   "gnews": [
+    "site:cicloweb.it novità",
+    "site:bicisport.com novità"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-bikeitalia",
+   "nome": "Bikeitalia (mobilità ciclabile)",
+   "tipo": "stampa",
+   "home": "https://www.bikeitalia.it/",
+   "nicchia": "auto",
+   "aree": [
+    "bici"
+   ],
+   "gnews": [
+    "site:bikeitalia.it piste ciclabili",
+    "site:bikeitalia.it mobilità ciclabile"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "a-ebike-news",
+   "nome": "E-bike e mobilità leggera (Google News)",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "nicchia": "auto",
+   "aree": [
+    "bici"
+   ],
+   "gnews": [
+    "e-bike novità nuovi modelli",
+    "bici elettriche incentivi bonus bici",
+    "monopattini elettrici regole casco targa",
+    "piste ciclabili novità città"
+   ],
+   "gnews_when": "7d",
+   "nota": "Bici e micromobilità via Google News."
+  },
+  {
+   "id": "a-fiab",
+   "nome": "FIAB e cicloturismo",
+   "tipo": "ente",
+   "home": "https://fiab-onlus.it/",
+   "nicchia": "auto",
+   "aree": [
+    "bici"
+   ],
+   "gnews": [
+    "FIAB bici cicloturismo novità",
+    "ciclovie cicloturismo Italia novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "a-fci",
+   "nome": "Federazione Ciclistica Italiana",
+   "tipo": "ente",
+   "home": "https://www.federciclismo.it/",
+   "nicchia": "auto",
+   "aree": [
+    "bici"
+   ],
+   "gnews": [
+    "Federazione Ciclistica Italiana novità",
+    "Giro d'Italia novità percorso"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "a-uci",
+   "nome": "UCI (ciclismo mondiale)",
+   "tipo": "ente",
+   "home": "https://www.uci.org/",
+   "nicchia": "auto",
+   "aree": [
+    "bici"
+   ],
+   "gnews": [
+    "UCI ciclismo novità regole",
+    "Tour de France Giro d'Italia novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "a-trasporti",
+   "nome": "Trasporto merci e camion",
+   "tipo": "stampa",
+   "home": "https://www.uominietrasporti.it/",
+   "nicchia": "auto",
+   "aree": [
+    "mezzi"
+   ],
+   "gnews": [
+    "site:uominietrasporti.it novità",
+    "site:trasporto-europa.it novità",
+    "autotrasporto novità camion pedaggi"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-vietrasporti",
+   "nome": "Vie&Trasporti e Trasporti-Italia",
+   "tipo": "stampa",
+   "home": "https://www.vienetrasporti.it/",
+   "nicchia": "auto",
+   "aree": [
+    "mezzi"
+   ],
+   "gnews": [
+    "site:trasporti-italia.com novità",
+    "site:vietrasportinews.com OR site:vietrasporti.it camion"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-camper",
+   "nome": "Camper e caravan",
+   "tipo": "stampa",
+   "home": "https://www.pleinair.it/",
+   "nicchia": "auto",
+   "aree": [
+    "mezzi"
+   ],
+   "gnews": [
+    "site:pleinair.it novità",
+    "camper caravan novità nuovi modelli",
+    "camper norme codice della strada"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-agricoli",
+   "nome": "Trattori e macchine agricole",
+   "tipo": "stampa",
+   "home": "https://www.macchineagricole.it/",
+   "nicchia": "auto",
+   "aree": [
+    "mezzi"
+   ],
+   "gnews": [
+    "trattori macchine agricole novità",
+    "FederUnacoma macchine agricole mercato",
+    "trattore nuovo modello"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "a-epoca",
+   "nome": "Auto e moto d'epoca",
+   "tipo": "stampa",
+   "home": "https://www.ruoteclassiche.it/",
+   "nicchia": "auto",
+   "aree": [
+    "mezzi"
+   ],
+   "gnews": [
+    "site:ruoteclassiche.it auto d'epoca",
+    "auto storiche ASI novità",
+    "Mille Miglia auto storiche"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "a-aniasa",
+   "nome": "ANIASA (noleggio)",
+   "tipo": "ordine",
+   "home": "https://www.aniasa.it/",
+   "nicchia": "auto",
+   "aree": [
+    "mercato_auto"
+   ],
+   "gnews": [
+    "ANIASA noleggio auto dati",
+    "noleggio a lungo termine mercato"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "a-federauto",
+   "nome": "Federauto e ANIA",
+   "tipo": "ordine",
+   "home": "https://www.federauto.eu/",
+   "nicchia": "auto",
+   "aree": [
+    "mercato_auto"
+   ],
+   "gnews": [
+    "Federauto concessionari mercato",
+    "ANIA assicurazioni auto RC dati"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "a-assoutenti",
+   "nome": "Consumatori: auto, carburanti, RC",
+   "tipo": "ordine",
+   "home": "https://www.assoutenti.it/",
+   "nicchia": "auto",
+   "aree": [
+    "normativa_auto"
+   ],
+   "gnews": [
+    "prezzi carburanti benzina diesel oggi",
+    "accise carburanti novità",
+    "Codacons assicurazioni auto RC rincari"
+   ],
+   "gnews_when": "7d"
   }
  ]
 }

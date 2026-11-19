@@ -184,7 +184,8 @@
       "modulistica edilizia"
      ]
     }
-   }
+   },
+   "gruppo": "pratiche"
   },
   "antincendio": {
    "nome": "Antincendio (VVF)",
@@ -327,7 +328,8 @@
       "luoghi di lavoro antincendio"
      ]
     }
-   }
+   },
+   "gruppo": "tecnica"
   },
   "catasto": {
    "nome": "Catasto e volture",
@@ -440,7 +442,8 @@
       "mercato immobiliare"
      ]
     }
-   }
+   },
+   "gruppo": "pratiche"
   },
   "strutture": {
    "nome": "Strutture e sismica",
@@ -570,7 +573,8 @@
       "dissesto idrogeologico"
      ]
     }
-   }
+   },
+   "gruppo": "tecnica"
   },
   "energia": {
    "nome": "Impianti ed energia",
@@ -762,7 +766,8 @@
       "credito imposta"
      ]
     }
-   }
+   },
+   "gruppo": "tecnica"
   },
   "bonus": {
    "nome": "Bonus e incentivi",
@@ -1090,7 +1095,8 @@
       "graduatorie bando"
      ]
     }
-   }
+   },
+   "gruppo": "soldi"
   },
   "imprese": {
    "nome": "Incentivi alle imprese",
@@ -1224,7 +1230,8 @@
       "ance caserta"
      ]
     }
-   }
+   },
+   "gruppo": "soldi"
   },
   "sicurezza": {
    "nome": "Sicurezza e privacy",
@@ -1266,7 +1273,8 @@
     "patch tuesday",
     "bug",
     "falla"
-   ]
+   ],
+   "gruppo": "tecnica"
   },
   "appalti": {
    "nome": "Appalti e lavori pubblici",
@@ -1484,7 +1492,8 @@
       "trasporto pubblico"
      ]
     }
-   }
+   },
+   "gruppo": "pratiche"
   },
   "ambiente": {
    "nome": "Ambiente e paesaggio",
@@ -1705,7 +1714,8 @@
       "acque sotterranee"
      ]
     }
-   }
+   },
+   "gruppo": "tecnica"
   },
   "norme": {
    "nome": "Norme tecniche e UE",
@@ -1936,7 +1946,8 @@
       "responsabilita professionale"
      ]
     }
-   }
+   },
+   "gruppo": "tecnica"
   },
   "smartphone": {
    "nome": "Smartphone e Android",
@@ -2256,9 +2267,9 @@
    ]
   },
   "dichiarazioni": {
-   "nome": "Dichiarazioni e scadenze",
+   "nome": "Dichiarazioni e scadenze fiscali",
    "colore": "#2563eb",
-   "nicchia": "fisco",
+   "nicchia": "edilizia",
    "sotto": {
     "730": {
      "nome": "730 e redditi",
@@ -2308,12 +2319,14 @@
       "tassa rifiuti"
      ]
     }
-   }
+   },
+   "gruppo": "soldi",
+   "fonti_riservate": "caf"
   },
   "isee": {
-   "nome": "ISEE e prestazioni sociali",
+   "nome": "ISEE e prestazioni sociali (CAF)",
    "colore": "#16a34a",
-   "nicchia": "fisco",
+   "nicchia": "edilizia",
    "sotto": {
     "isee": {
      "nome": "ISEE e DSU",
@@ -2384,12 +2397,14 @@
       "adi "
      ]
     }
-   }
+   },
+   "gruppo": "soldi",
+   "fonti_riservate": "caf"
   },
   "pensioni": {
-   "nome": "Pensioni e previdenza",
+   "nome": "Pensioni e previdenza (CAF)",
    "colore": "#7c3aed",
-   "nicchia": "fisco",
+   "nicchia": "edilizia",
    "sotto": {
     "pensioni": {
      "nome": "Pensioni",
@@ -2447,12 +2462,14 @@
       "adepp"
      ]
     }
-   }
+   },
+   "gruppo": "soldi",
+   "fonti_riservate": "caf"
   },
   "lavoro": {
-   "nome": "Lavoro e contratti",
+   "nome": "Lavoro, colf e contratti (CAF)",
    "colore": "#ea580c",
-   "nicchia": "fisco",
+   "nicchia": "edilizia",
    "sotto": {
     "colf": {
      "nome": "Colf e badanti",
@@ -2504,12 +2521,14 @@
       "incentivo occupazione"
      ]
     }
-   }
+   },
+   "gruppo": "soldi",
+   "fonti_riservate": "caf"
   },
   "casa_fisco": {
-   "nome": "Casa, locazioni e successioni",
+   "nome": "Casa: affitti, successioni, mutui",
    "colore": "#0d9488",
-   "nicchia": "fisco",
+   "nicchia": "edilizia",
    "sotto": {
     "locazioni": {
      "nome": "Affitti e locazioni",
@@ -2576,12 +2595,14 @@
       "voltura catastale"
      ]
     }
-   }
+   },
+   "gruppo": "soldi",
+   "fonti_riservate": "caf"
   },
   "imprese_fisco": {
-   "nome": "Partite IVA e imprese",
+   "nome": "Partite IVA, cartelle e bilanci",
    "colore": "#be185d",
-   "nicchia": "fisco",
+   "nicchia": "edilizia",
    "sotto": {
     "forfettario": {
      "nome": "Forfettari e partite IVA",
@@ -2653,12 +2674,14 @@
       "composizione negoziata"
      ]
     }
-   }
+   },
+   "gruppo": "soldi",
+   "fonti_riservate": "caf"
   },
   "professione_fisco": {
    "nome": "CAF, commercialisti e professioni",
    "colore": "#475569",
-   "nicchia": "fisco",
+   "nicchia": "edilizia",
    "sotto": {
     "caf": {
      "nome": "CAF e patronati",
@@ -2720,7 +2743,9 @@
       "ivass"
      ]
     }
-   }
+   },
+   "gruppo": "soldi",
+   "fonti_riservate": "caf"
   },
   "governo": {
    "nome": "Governo e Parlamento",
@@ -3592,16 +3617,17 @@
     }
    }
   },
-  "moto_sport": {
-   "nome": "Moto e motorsport",
+  "moto": {
+   "nome": "Moto e scooter",
    "colore": "#ea580c",
    "nicchia": "auto",
    "sotto": {
-    "moto": {
-     "nome": "Moto e scooter",
+    "novita": {
+     "nome": "Novità e prove",
      "parole": [
       "moto",
       "motociclette",
+      "motocicletta",
       "scooter",
       "due ruote",
       "ducati",
@@ -3616,41 +3642,227 @@
       "harley",
       "benelli",
       "mv agusta",
+      "honda moto",
+      "royal enfield",
+      "bmw motorrad",
+      "suzuki moto",
+      "husqvarna",
       "eicma",
-      "motociclisti"
+      "motociclisti",
+      "maxi scooter",
+      "naked",
+      "enduro",
+      "custom"
      ]
     },
-    "motorsport": {
-     "nome": "Motorsport",
+    "normativa": {
+     "nome": "Norme e sicurezza moto",
+     "parole": [
+      "casco",
+      "patente a",
+      "patente a2",
+      "motociclisti",
+      "guard rail",
+      "limiti moto",
+      "assicurazione moto",
+      "bollo moto",
+      "ztl moto",
+      "parcheggio moto",
+      "incidenti moto",
+      "abs moto"
+     ]
+    }
+   }
+  },
+  "motorsport": {
+   "nome": "Motorsport",
+   "colore": "#0f766e",
+   "nicchia": "auto",
+   "sotto": {
+    "f1": {
+     "nome": "Formula 1",
      "parole": [
       "formula 1",
       "f1",
-      "gran premio",
-      "gp",
-      "motogp",
-      "wec",
-      "rally",
-      "wrc",
-      "pilota",
-      "qualifiche",
-      "pole position",
-      "podio",
-      "scuderia",
-      "ferrari f1",
       "verstappen",
       "leclerc",
       "hamilton",
       "norris",
       "antonelli",
       "sainz",
+      "ferrari f1",
+      "mclaren",
+      "red bull",
+      "mercedes f1",
+      "gran premio",
+      "qualifiche",
+      "pole position",
+      "paddock"
+     ]
+    },
+    "moto_gp": {
+     "nome": "MotoGP e moto",
+     "parole": [
+      "motogp",
+      "moto2",
+      "moto3",
+      "superbike",
+      "wsbk",
       "bagnaia",
       "marquez",
+      "martin",
+      "bezzecchi",
+      "mugello",
+      "ducati corse",
+      "misano"
+     ]
+    },
+    "altri": {
+     "nome": "Rally, endurance e altro",
+     "parole": [
+      "rally",
+      "wrc",
+      "wec",
       "le mans",
+      "24 ore",
+      "dtm",
+      "formula e",
+      "indycar",
+      "nascar",
+      "dakar",
+      "gt3",
       "imola",
       "monza",
-      "mugello",
-      "paddock",
+      "podio",
       "mondiale piloti"
+     ]
+    }
+   }
+  },
+  "bici": {
+   "nome": "Bici, e-bike e ciclismo",
+   "colore": "#65a30d",
+   "nicchia": "auto",
+   "sotto": {
+    "bici": {
+     "nome": "Bici e e-bike",
+     "parole": [
+      "bici",
+      "bicicletta",
+      "biciclette",
+      "e-bike",
+      "ebike",
+      "bici elettrica",
+      "bici elettriche",
+      "mountain bike",
+      "mtb",
+      "gravel",
+      "bici da corsa",
+      "pedalata assistita",
+      "bike",
+      "cargo bike",
+      "bici pieghevole",
+      "ciclista",
+      "ciclisti",
+      "trekking bike"
+     ]
+    },
+    "mobilita": {
+     "nome": "Mobilità leggera",
+     "parole": [
+      "pista ciclabile",
+      "piste ciclabili",
+      "ciclabili",
+      "bonus bici",
+      "monopattino",
+      "monopattini",
+      "micromobilità",
+      "mobilità dolce",
+      "ciclovia",
+      "ciclovie",
+      "bike sharing",
+      "sharing",
+      "fiab",
+      "ciclabile",
+      "zona 30",
+      "città 30"
+     ]
+    },
+    "ciclismo": {
+     "nome": "Ciclismo agonistico",
+     "parole": [
+      "ciclismo",
+      "giro d'italia",
+      "tour de france",
+      "vuelta",
+      "tappa",
+      "maglia rosa",
+      "pogacar",
+      "vingegaard",
+      "pantani",
+      "classica",
+      "milano-sanremo",
+      "uci",
+      "mondiali ciclismo",
+      "corridori",
+      "volata",
+      "pedale"
+     ]
+    }
+   }
+  },
+  "mezzi": {
+   "nome": "Camion, camper e altri mezzi",
+   "colore": "#78716c",
+   "nicchia": "auto",
+   "sotto": {
+    "pesanti": {
+     "nome": "Camion e trasporto",
+     "parole": [
+      "camion",
+      "tir",
+      "autotrasporto",
+      "autotrasportatori",
+      "veicoli commerciali",
+      "furgoni",
+      "furgone",
+      "van",
+      "autobus",
+      "bus elettrici",
+      "truck",
+      "trasporto merci",
+      "logistica",
+      "tachigrafo",
+      "patente c",
+      "patente ce",
+      "cqc",
+      "pedaggi",
+      "autostrade"
+     ]
+    },
+    "tempo_libero": {
+     "nome": "Camper, nautica e altro",
+     "parole": [
+      "camper",
+      "caravan",
+      "motorhome",
+      "roulotte",
+      "trattori",
+      "trattore",
+      "macchine agricole",
+      "quad",
+      "kart",
+      "go kart",
+      "nautica",
+      "barche",
+      "yacht",
+      "fuoribordo",
+      "micro car",
+      "minicar",
+      "auto d'epoca",
+      "auto storiche",
+      "asi",
+      "youngtimer"
      ]
     }
    }

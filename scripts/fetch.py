@@ -34,7 +34,7 @@ TIMEOUT = 20
 RETENTION_DAYS = 60
 MAX_ITEMS = 6000
 MAX_AGE_NEW_DAYS = 30        # alla prima lettura ignora notizie piu' vecchie di cosi'
-PUSH_NICCHIE = {"edilizia", "fisco", "tech"}   # politica e auto: solo riepilogo del mattino
+PUSH_NICCHIE = {"edilizia", "tech"}   # politica e auto: solo riepilogo del mattino
 MAX_PUSH_SINGLE = 6          # oltre, un solo messaggio riassuntivo
 AI_MAX_PER_RUN = int(os.environ.get("AI_MAX_PER_RUN", "15"))
 FEED_GUESSES = ["feed/", "feed", "rss", "rss.xml", "feed.rss", "index.xml", "atom.xml"]
@@ -328,7 +328,7 @@ def read_source(src):
 
 
 # ---------------------------------------------------------------- classificazione
-TASSONOMIA = "7"  # cambia questo valore per far riclassificare l'archivio
+TASSONOMIA = "8"  # cambia questo valore per far riclassificare l'archivio
 
 
 def _rx(kw):
@@ -359,8 +359,11 @@ def classify(item, src, matchers, urgenti, aree_cfg):
     text = (item["titolo"] + " " + item.get("sintesi", "")).lower()
     scored = []
     for area, rxs in area_rx.items():
-        if aree_cfg["aree"].get(area, {}).get("nicchia", "edilizia") != nicchia:
+        cfg_a = aree_cfg["aree"].get(area, {})
+        if cfg_a.get("nicchia", "edilizia") != nicchia:
             continue
+        if cfg_a.get("fonti_riservate") and not src.get(cfg_a["fonti_riservate"]):
+            continue   # aree riservate (es. CAF): solo dalle fonti che le seguono
         n = sum(1 for r in rxs if r.search(text))
         if n:
             scored.append((n, area))
@@ -386,7 +389,7 @@ def classify(item, src, matchers, urgenti, aree_cfg):
             if any(r.search(text) for r in luoghi.get(nome, [])):
                 luogo = nome
                 break
-    norm = (src["tipo"] == "ufficiale" or any(r.search(text) for r in urgenti)) if nicchia in ("edilizia", "fisco") else src["tipo"] == "ufficiale"
+    norm = (src["tipo"] == "ufficiale" or any(r.search(text) for r in urgenti)) if nicchia == "edilizia" else src["tipo"] == "ufficiale"
     return aree, norm, sotto, luogo
 
 
@@ -452,7 +455,7 @@ def notify_new(new_items, aree_cfg):
     for i in alerts:
         area = aree_cfg["aree"].get(i["aree"][0], {"nome": "Altro"})["nome"]
         msg = i["titolo"] + (f"\n{i['sintesi']}" if i.get("sintesi") else "")
-        sigla = {"tech": "📱 ", "fisco": "🧾 "}.get(i.get("nicchia"), "")
+        sigla = {"tech": "📱 "}.get(i.get("nicchia"), "")
         ntfy({"title": f"{sigla}{area} · {i['fonte_nome']}", "message": msg[:700], "click": i["link"],
               "priority": 4 if i["tipo"] == "ufficiale" else 3, "tags": ["rotating_light"] if i["tipo"] == "ufficiale" else ["newspaper"]})
     return len(alerts)
@@ -466,7 +469,7 @@ def send_digest(news, aree_cfg, ultimo=None):
         except Exception:  # noqa: BLE001
             pass
     recent = [i for i in news if parse_iso(i["visto"]) >= since]
-    etichette = {"edilizia": "Edilizia", "fisco": "Fisco e CAF", "politica": "Politica", "auto": "Auto", "tech": "Tecnologia"}
+    etichette = {"edilizia": "Edilizia", "tech": "Tecnologia", "politica": "Politica", "auto": "Motori"}
     totale = 0
     for nic, etichetta in etichette.items():
         rec = [i for i in recent if i.get("nicchia", "edilizia") == nic]
@@ -614,7 +617,7 @@ def main():
     allnews.sort(key=lambda i: i["pubblicata"] or i["visto"], reverse=True)
     allnews = allnews[:MAX_ITEMS]
 
-    aree_pub = {k: {"nome": v["nome"], "colore": v["colore"], "nicchia": v.get("nicchia", "edilizia"), "sotto": {sk: sv["nome"] for sk, sv in v.get("sotto", {}).items()}}
+    aree_pub = {k: {"nome": v["nome"], "colore": v["colore"], "nicchia": v.get("nicchia", "edilizia"), "gruppo": v.get("gruppo"), "sotto": {sk: sv["nome"] for sk, sv in v.get("sotto", {}).items()}}
                 for k, v in aree_cfg["aree"].items()}
     aree_pub["locale"] = {"nome": "Locale · Campania e Caserta", "colore": "#c2185b", "sotto": {}, "speciale": True}
     aree_pub["altro"] = {"nome": "Altro", "colore": "#7b8794"}
