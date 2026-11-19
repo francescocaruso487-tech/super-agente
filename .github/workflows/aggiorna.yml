@@ -30,7 +30,6 @@ jobs:
       - name: Leggi le fonti
         run: python scripts/fetch.py
         env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: Salva i dati
         run: |
@@ -39,6 +38,23 @@ jobs:
           git add docs/data
           if ! git diff --cached --quiet; then
             git commit -m "Aggiornamento notizie"
+            for i in 1 2 3; do
+              git pull --rebase -X theirs && git push && break
+              git rebase --abort 2>/dev/null || true
+              sleep 5
+            done
+          fi
+      - name: Invia le notifiche (solo novita' mai notificate)
+        run: python scripts/fetch.py --invia-notifiche
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      - name: Salva elenco notificate
+        run: |
+          git config user.name "super-agente-bot"
+          git config user.email "super-agente-bot@users.noreply.github.com"
+          git add docs/data
+          if ! git diff --cached --quiet; then
+            git commit -m "Elenco notifiche inviate"
             for i in 1 2 3; do
               git pull --rebase -X theirs && git push && break
               git rebase --abort 2>/dev/null || true

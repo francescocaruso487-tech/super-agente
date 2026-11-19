@@ -457,8 +457,13 @@ def notify_new(new_items, aree_cfg):
     return len(alerts)
 
 
-def send_digest(news, aree_cfg):
+def send_digest(news, aree_cfg, ultimo=None):
     since = now_utc() - timedelta(hours=24)
+    if ultimo:
+        try:
+            since = max(since, parse_iso(ultimo))
+        except Exception:  # noqa: BLE001
+            pass
     recent = [i for i in news if parse_iso(i["visto"]) >= since]
     etichette = {"edilizia": "Edilizia", "tech": "Tecnologia"}
     totale = 0
@@ -490,6 +495,7 @@ def send_digest(news, aree_cfg):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--digest", action="store_true", help="invia il riepilogo del mattino")
+    ap.add_argument("--invia-notifiche", action="store_true", help="invia le notifiche in coda (dopo che i dati sono stati salvati)")
     ap.add_argument("--data-dir", default=str(ROOT / "docs" / "data"))
     ap.add_argument("--sources", default=str(ROOT / "sources.json"))
     ap.add_argument("--aree", default=str(ROOT / "aree.json"))
@@ -501,8 +507,24 @@ def main():
     news_doc = load_json(news_file, {"notizie": []})
     news = news_doc["notizie"]
 
+    reg_file = data / "notificate.json"
+    reg = load_json(reg_file, {"ids": [], "ultimo_riepilogo": None})
+
+    if args.invia_notifiche:
+        # Si invia solo cio' che e' gia' salvato nell'archivio e mai notificato prima.
+        in_archivio = {i["id"] for i in news}
+        gia = set(reg["ids"])
+        coda = [i for i in load_json(ROOT / "da_notificare.json", []) if i["id"] in in_archivio and i["id"] not in gia]
+        n = notify_new(coda, aree_cfg) if coda else 0
+        reg["ids"] = (reg["ids"] + [i["id"] for i in coda])[-5000:]
+        save_json(reg_file, reg)
+        print(f"Notifiche inviate: {n}")
+        return 0
+
     if args.digest:
-        n = send_digest(news, aree_cfg)
+        n = send_digest(news, aree_cfg, reg.get("ultimo_riepilogo"))
+        reg["ultimo_riepilogo"] = iso(now_utc())
+        save_json(reg_file, reg)
         print(f"Digest inviato: {n} notizie")
         return 0
 
@@ -604,8 +626,9 @@ def main():
     if first_run:
         print("Prima esecuzione: nessuna notifica (per non inviare l'archivio intero).")
     else:
-        n = notify_new(new_items, aree_cfg)
-        print(f"Notifiche inviate: {n}")
+        # niente invio qui: le notifiche partono dopo il salvataggio dei dati (--invia-notifiche)
+        save_json(ROOT / "da_notificare.json", [i for i in new_items if i["normativa"]])
+        print(f"Notifiche in coda: {sum(1 for i in new_items if i['normativa'])}")
     return 0
 
 
