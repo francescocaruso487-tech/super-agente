@@ -3,6 +3,7 @@
   "nome": "Edilizia e titoli abilitativi",
   "colore": "#e07a1f",
   "nicchia": "edilizia",
+  "gruppo": "pratiche",
   "sotto": {
    "titoli": "Titoli: CILA, SCIA, permesso",
    "sanatorie": "Sanatorie, abusi, salva casa",
@@ -16,6 +17,7 @@
   "nome": "Antincendio (VVF)",
   "colore": "#d43f3f",
   "nicchia": "edilizia",
+  "gruppo": "tecnica",
   "sotto": {
    "pratiche": "Pratiche VVF: SCIA, CPI, SUAP",
    "codice": "Codice e regole tecniche",
@@ -28,6 +30,7 @@
   "nome": "Catasto e volture",
   "colore": "#2f7fd1",
   "nicchia": "edilizia",
+  "gruppo": "pratiche",
   "sotto": {
    "docfa": "Docfa, Pregeo, accatastamento",
    "volture": "Volture, visure, pubblicità immobiliare",
@@ -38,6 +41,7 @@
   "nome": "Strutture e sismica",
   "colore": "#7a5cc7",
   "nicchia": "edilizia",
+  "gruppo": "tecnica",
   "sotto": {
    "ntc": "NTC, calcolo e verifiche",
    "sismica": "Sismica: Genio Civile, deposito, autorizzazione",
@@ -49,6 +53,7 @@
   "nome": "Impianti ed energia",
   "colore": "#1f9d6b",
   "nicchia": "edilizia",
+  "gruppo": "tecnica",
   "sotto": {
    "rinnovabili": "Fotovoltaico e rinnovabili",
    "prestazioni": "Efficienza, APE, case green",
@@ -61,6 +66,7 @@
   "nome": "Bonus e incentivi",
   "colore": "#d4a017",
   "nicchia": "edilizia",
+  "gruppo": "soldi",
   "sotto": {
    "superbonus": "Superbonus e bonus edilizi",
    "detrazioni": "Detrazioni: ristrutturazioni, ecobonus, sismabonus",
@@ -75,6 +81,7 @@
   "nome": "Incentivi alle imprese",
   "colore": "#b5651d",
   "nicchia": "edilizia",
+  "gruppo": "soldi",
   "sotto": {
    "transizione": "Transizione 5.0 e 4.0, crediti d'imposta",
    "zes": "ZES Unica Mezzogiorno",
@@ -86,12 +93,14 @@
   "nome": "Sicurezza e privacy",
   "colore": "#e53935",
   "nicchia": "tech",
+  "gruppo": "tecnica",
   "sotto": {}
  },
  "appalti": {
   "nome": "Appalti e lavori pubblici",
   "colore": "#2b8a9e",
   "nicchia": "edilizia",
+  "gruppo": "pratiche",
   "sotto": {
    "codice": "Codice appalti e ANAC",
    "gare": "Gare, affidamenti e bandi",
@@ -103,6 +112,7 @@
   "nome": "Ambiente e paesaggio",
   "colore": "#3f8f4a",
   "nicchia": "edilizia",
+  "gruppo": "tecnica",
   "sotto": {
    "paesaggio": "Paesaggio e beni culturali",
    "via_vas": "VIA, VAS, AIA, valutazioni",
@@ -114,6 +124,7 @@
   "nome": "Norme tecniche e UE",
   "colore": "#2b6f9e",
   "nicchia": "edilizia",
+  "gruppo": "tecnica",
   "sotto": {
    "uni": "UNI, CEI, norme tecniche",
    "ue": "Direttive e regolamenti UE",
@@ -124,43 +135,317 @@
   "nome": "Smartphone e Android",
   "colore": "#e91e63",
   "nicchia": "tech",
+  "gruppo": null,
   "sotto": {}
  },
  "tablet": {
   "nome": "Tablet e wearable",
   "colore": "#9c27b0",
   "nicchia": "tech",
+  "gruppo": null,
   "sotto": {}
  },
  "pc": {
   "nome": "Computer e PC",
   "colore": "#3f51b5",
   "nicchia": "tech",
+  "gruppo": null,
   "sotto": {}
  },
  "ai": {
   "nome": "Intelligenza artificiale",
   "colore": "#009688",
   "nicchia": "tech",
+  "gruppo": null,
   "sotto": {}
  },
  "software": {
   "nome": "App e software",
   "colore": "#fb8c00",
   "nicchia": "tech",
+  "gruppo": null,
   "sotto": {}
  },
  "hardware": {
   "nome": "Chip, componenti e mercato",
   "colore": "#607d8b",
   "nicchia": "tech",
+  "gruppo": null,
   "sotto": {}
  },
  "offerte": {
   "nome": "Offerte e prezzi",
   "colore": "#43a047",
   "nicchia": "tech",
+  "gruppo": null,
   "sotto": {}
+ },
+ "dichiarazioni": {
+  "nome": "Dichiarazioni e scadenze fiscali",
+  "colore": "#2563eb",
+  "nicchia": "edilizia",
+  "gruppo": "soldi",
+  "sotto": {
+   "730": "730 e redditi",
+   "iva": "IVA e fatture",
+   "locali": "Tributi locali"
+  }
+ },
+ "isee": {
+  "nome": "ISEE e prestazioni sociali (CAF)",
+  "colore": "#16a34a",
+  "nicchia": "edilizia",
+  "gruppo": "soldi",
+  "sotto": {
+   "isee": "ISEE e DSU",
+   "famiglia": "Famiglia e bonus sociali",
+   "invalidita": "Invalidità e disabilità",
+   "sostegno": "Disoccupazione e sostegni"
+  }
+ },
+ "pensioni": {
+  "nome": "Pensioni e previdenza (CAF)",
+  "colore": "#7c3aed",
+  "nicchia": "edilizia",
+  "gruppo": "soldi",
+  "sotto": {
+   "pensioni": "Pensioni",
+   "contributi": "Contributi e INPS",
+   "complementare": "Previdenza complementare"
+  }
+ },
+ "lavoro": {
+  "nome": "Lavoro, colf e contratti (CAF)",
+  "colore": "#ea580c",
+  "nicchia": "edilizia",
+  "gruppo": "soldi",
+  "sotto": {
+   "colf": "Colf e badanti",
+   "contratti": "Contratti e stipendi",
+   "incentivi": "Incentivi alle assunzioni"
+  }
+ },
+ "casa_fisco": {
+  "nome": "Casa: affitti, successioni, mutui",
+  "colore": "#0d9488",
+  "nicchia": "edilizia",
+  "gruppo": "soldi",
+  "sotto": {
+   "locazioni": "Affitti e locazioni",
+   "compravendita": "Compravendita e mutui",
+   "successioni": "Successioni e donazioni",
+   "immobili": "Catasto e imposte sugli immobili"
+  }
+ },
+ "imprese_fisco": {
+  "nome": "Partite IVA, cartelle e bilanci",
+  "colore": "#be185d",
+  "nicchia": "edilizia",
+  "gruppo": "soldi",
+  "sotto": {
+   "forfettario": "Forfettari e partite IVA",
+   "riscossione": "Cartelle e riscossione",
+   "concordato": "Concordato e ISA",
+   "contabilita": "Bilancio e contabilità"
+  }
+ },
+ "professione_fisco": {
+  "nome": "CAF, commercialisti e professioni",
+  "colore": "#475569",
+  "nicchia": "edilizia",
+  "gruppo": "soldi",
+  "sotto": {
+   "caf": "CAF e patronati",
+   "ordini": "Commercialisti e consulenti",
+   "servizi": "Servizi online e accessi"
+  }
+ },
+ "governo": {
+  "nome": "Governo e Parlamento",
+  "colore": "#1d4ed8",
+  "nicchia": "politica",
+  "gruppo": null,
+  "sotto": {
+   "governo": "Governo",
+   "parlamento": "Parlamento",
+   "quirinale": "Quirinale"
+  }
+ },
+ "partiti": {
+  "nome": "Partiti ed elezioni",
+  "colore": "#be123c",
+  "nicchia": "politica",
+  "gruppo": null,
+  "sotto": {
+   "partiti": "Partiti e leader",
+   "elezioni": "Elezioni e sondaggi"
+  }
+ },
+ "economia_pol": {
+  "nome": "Economia e manovra",
+  "colore": "#15803d",
+  "nicchia": "politica",
+  "gruppo": null,
+  "sotto": {
+   "manovra": "Bilancio e conti pubblici",
+   "welfare": "Lavoro, sanità e scuola",
+   "pnrr": "PNRR, energia e infrastrutture"
+  }
+ },
+ "europa": {
+  "nome": "Europa e UE",
+  "colore": "#0369a1",
+  "nicchia": "politica",
+  "gruppo": null,
+  "sotto": {
+   "istituzioni": "Istituzioni UE",
+   "economia_ue": "Economia europea"
+  }
+ },
+ "esteri": {
+  "nome": "Esteri e difesa",
+  "colore": "#a16207",
+  "nicchia": "politica",
+  "gruppo": null,
+  "sotto": {
+   "esteri": "Esteri",
+   "difesa": "Difesa"
+  }
+ },
+ "giustizia": {
+  "nome": "Giustizia e diritti",
+  "colore": "#6d28d9",
+  "nicchia": "politica",
+  "gruppo": null,
+  "sotto": {
+   "giustizia": "Giustizia",
+   "diritti": "Diritti, immigrazione e sicurezza"
+  }
+ },
+ "territorio": {
+  "nome": "Regioni e Campania",
+  "colore": "#c2185b",
+  "nicchia": "politica",
+  "gruppo": null,
+  "sotto": {
+   "campania": "Campania",
+   "regioni": "Regioni e Comuni"
+  }
+ },
+ "novita_auto": {
+  "nome": "Novità e anteprime",
+  "colore": "#dc2626",
+  "nicchia": "auto",
+  "gruppo": null,
+  "sotto": {
+   "modelli": "Nuovi modelli",
+   "marchi": "Marchi"
+  }
+ },
+ "elettriche": {
+  "nome": "Elettriche e ibride",
+  "colore": "#16a34a",
+  "nicchia": "auto",
+  "gruppo": null,
+  "sotto": {
+   "ev": "Elettriche e ricarica",
+   "ibride": "Ibride e altri motori",
+   "incentivi": "Incentivi auto"
+  }
+ },
+ "mercato_auto": {
+  "nome": "Mercato e prezzi",
+  "colore": "#2563eb",
+  "nicchia": "auto",
+  "gruppo": null,
+  "sotto": {
+   "immatricolazioni": "Immatricolazioni e vendite",
+   "prezzi": "Prezzi, offerte e usato",
+   "industria": "Industria e lavoro"
+  }
+ },
+ "normativa_auto": {
+  "nome": "Normativa e codice della strada",
+  "colore": "#7c3aed",
+  "nicchia": "auto",
+  "gruppo": null,
+  "sotto": {
+   "codice": "Codice della strada",
+   "zone": "ZTL, emissioni e divieti",
+   "burocrazia": "Bollo, assicurazione e documenti"
+  }
+ },
+ "sicurezza_auto": {
+  "nome": "Richiami e sicurezza",
+  "colore": "#b91c1c",
+  "nicchia": "auto",
+  "gruppo": null,
+  "sotto": {
+   "richiami": "Richiami",
+   "crash": "Crash test e sicurezza stradale"
+  }
+ },
+ "prove": {
+  "nome": "Prove e recensioni",
+  "colore": "#0891b2",
+  "nicchia": "auto",
+  "gruppo": null,
+  "sotto": {
+   "prove": "Prove su strada",
+   "guide": "Guide all'acquisto"
+  }
+ },
+ "tecnica_auto": {
+  "nome": "Tecnica e guida autonoma",
+  "colore": "#475569",
+  "nicchia": "auto",
+  "gruppo": null,
+  "sotto": {
+   "tech": "Guida autonoma e software",
+   "motori": "Motori e manutenzione"
+  }
+ },
+ "moto": {
+  "nome": "Moto e scooter",
+  "colore": "#ea580c",
+  "nicchia": "auto",
+  "gruppo": null,
+  "sotto": {
+   "novita": "Novità e prove",
+   "normativa": "Norme e sicurezza moto"
+  }
+ },
+ "motorsport": {
+  "nome": "Motorsport",
+  "colore": "#0f766e",
+  "nicchia": "auto",
+  "gruppo": null,
+  "sotto": {
+   "f1": "Formula 1",
+   "moto_gp": "MotoGP e moto",
+   "altri": "Rally, endurance e altro"
+  }
+ },
+ "bici": {
+  "nome": "Bici, e-bike e ciclismo",
+  "colore": "#65a30d",
+  "nicchia": "auto",
+  "gruppo": null,
+  "sotto": {
+   "bici": "Bici e e-bike",
+   "mobilita": "Mobilità leggera",
+   "ciclismo": "Ciclismo agonistico"
+  }
+ },
+ "mezzi": {
+  "nome": "Camion, camper e altri mezzi",
+  "colore": "#78716c",
+  "nicchia": "auto",
+  "gruppo": null,
+  "sotto": {
+   "pesanti": "Camion e trasporto",
+   "tempo_libero": "Camper, nautica e altro"
+  }
  },
  "locale": {
   "nome": "Locale · Campania e Caserta",
