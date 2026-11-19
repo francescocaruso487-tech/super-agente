@@ -451,7 +451,8 @@ def notify_new(new_items, aree_cfg):
     for i in alerts:
         area = aree_cfg["aree"].get(i["aree"][0], {"nome": "Altro"})["nome"]
         msg = i["titolo"] + (f"\n{i['sintesi']}" if i.get("sintesi") else "")
-        ntfy({"title": f"{area} · {i['fonte_nome']}", "message": msg[:700], "click": i["link"],
+        sigla = "📱 " if i.get("nicchia") == "tech" else ""
+        ntfy({"title": f"{sigla}{area} · {i['fonte_nome']}", "message": msg[:700], "click": i["link"],
               "priority": 4 if i["tipo"] == "ufficiale" else 3, "tags": ["rotating_light"] if i["tipo"] == "ufficiale" else ["newspaper"]})
     return len(alerts)
 
@@ -459,23 +460,30 @@ def notify_new(new_items, aree_cfg):
 def send_digest(news, aree_cfg):
     since = now_utc() - timedelta(hours=24)
     recent = [i for i in news if parse_iso(i["visto"]) >= since]
-    if not recent:
-        ntfy({"title": "Super Agente · buongiorno", "message": "Nessuna novità nelle ultime 24 ore.", "priority": 2})
-        return 0
-    lines = []
-    for key, cfg in aree_cfg["aree"].items():
-        grp = [i for i in recent if key in i["aree"]]
-        grp.sort(key=lambda i: (not i["normativa"], i["visto"]))
-        if not grp:
+    etichette = {"edilizia": "Edilizia", "tech": "Tecnologia"}
+    totale = 0
+    for nic, etichetta in etichette.items():
+        rec = [i for i in recent if i.get("nicchia", "edilizia") == nic]
+        if not rec:
+            ntfy({"title": f"{etichetta} · buongiorno", "message": "Nessuna novità nelle ultime 24 ore.", "priority": 2})
             continue
-        lines.append(f"{cfg['nome'].upper()} ({len(grp)})")
-        lines += [f"• {i['titolo'][:85]}" for i in grp[:3]]
-    msg = "\n".join(lines)
-    while len(msg.encode()) > 3800:
-        msg = msg.rsplit("\n", 1)[0]
-    ntfy({"title": f"Buongiorno: {len(recent)} novità nelle ultime 24h", "message": msg, "priority": 3,
-          "tags": ["sunrise"], **({"click": app_url()} if app_url() else {})})
-    return len(recent)
+        lines = []
+        for key, cfg in aree_cfg["aree"].items():
+            if cfg.get("nicchia", "edilizia") != nic:
+                continue
+            grp = [i for i in rec if key in i["aree"]]
+            grp.sort(key=lambda i: (not i["normativa"], i["visto"]))
+            if not grp:
+                continue
+            lines.append(f"{cfg['nome'].upper()} ({len(grp)})")
+            lines += [f"• {i['titolo'][:85]}" for i in grp[:3]]
+        msg = "\n".join(lines) or "\n".join(f"• {i['titolo'][:85]}" for i in rec[:8])
+        while len(msg.encode()) > 3800:
+            msg = msg.rsplit("\n", 1)[0]
+        ntfy({"title": f"{etichetta}: {len(rec)} novità nelle ultime 24h", "message": msg, "priority": 3,
+              "tags": ["sunrise"], **({"click": app_url()} if app_url() else {})})
+        totale += len(rec)
+    return totale
 
 
 # ---------------------------------------------------------------- main
