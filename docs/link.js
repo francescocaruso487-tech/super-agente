@@ -66,13 +66,81 @@
       ["Trovaprezzi", "Confronto prezzi", "https://www.trovaprezzi.it"],
     ]],
   ];
+  const FISCO = [
+    ["Servizi fiscali e previdenziali", [
+      ["Agenzia delle Entrate", "730 precompilato, cassetto fiscale, F24", "https://www.agenziaentrate.gov.it"],
+      ["Agenzia Entrate-Riscossione", "Cartelle, rottamazione e rate", "https://www.agenziaentrateriscossione.gov.it"],
+      ["INPS", "ISEE, pensioni, assegno unico, NASpI", "https://www.inps.it"],
+      ["INAIL", "Infortuni e prestazioni", "https://www.inail.it"],
+      ["Ministero dell'Economia · Finanze", "Decreti, aliquote e documenti fiscali", "https://www.finanze.gov.it"],
+      ["Normattiva", "Testi di legge aggiornati", "https://www.normattiva.it"],
+      ["Gazzetta Ufficiale", "Atti dello Stato", "https://www.gazzettaufficiale.it"],
+    ]],
+    ["CAF e patronati", [
+      ["Consulta Nazionale CAF", "Coordinamento dei CAF", "https://www.consultanazionalecaf.it"],
+      ["CAF ACLI", "730, ISEE e servizi", "https://www.acli.it"],
+      ["CAF CGIL", "Assistenza fiscale", "https://www.cafcgil.it"],
+      ["CAF CISL", "Assistenza fiscale", "https://www.cafcisl.it"],
+      ["CAF UIL", "Assistenza fiscale", "https://www.cafuil.it"],
+    ]],
+    ["Commercialisti e consulenti", [
+      ["CNDCEC · Commercialisti", "Consiglio Nazionale", "https://www.commercialisti.it"],
+      ["Consulenti del Lavoro", "Fondazione Studi e news", "https://www.consulentidellavoro.it"],
+      ["IPSOA", "Fisco e lavoro", "https://www.ipsoa.it"],
+      ["Eutekne.info", "Fisco e bonus", "https://eutekne.info"],
+      ["Fisco e Tasse", "Guide fiscali", "https://fiscoetasse.com"],
+      ["Il Sole 24 Ore · Norme e Tributi", "Quotidiano economico", "https://www.ilsole24ore.com/norme-e-tributi"],
+    ]],
+  ];
+  const POLITICA = [
+    ["Istituzioni", [
+      ["Quirinale", "Presidenza della Repubblica", "https://www.quirinale.it"],
+      ["Governo", "Consiglio dei Ministri e comunicati", "https://www.governo.it"],
+      ["Camera dei Deputati", "Lavori e votazioni", "https://www.camera.it"],
+      ["Senato della Repubblica", "Lavori e votazioni", "https://www.senato.it"],
+      ["Corte Costituzionale", "Sentenze e comunicati", "https://www.cortecostituzionale.it"],
+      ["Parlamento europeo", "Notizie e plenarie", "https://www.europarl.europa.eu/italy/it/home"],
+      ["Regione Campania", "Giunta e consiglio regionale", "https://www.regione.campania.it"],
+    ]],
+    ["Agenzie e informazione", [
+      ["ANSA Politica", "Agenzia stampa", "https://www.ansa.it/sito/notizie/politica/politica.shtml"],
+      ["Adnkronos", "Agenzia stampa", "https://www.adnkronos.com/politica"],
+      ["AGI", "Agenzia Giornalistica Italia", "https://www.agi.it/politica/"],
+      ["Il Post", "Notizie e approfondimenti", "https://www.ilpost.it"],
+      ["Rai News", "Informazione pubblica", "https://www.rainews.it"],
+      ["Il Mattino", "Napoli e Campania", "https://www.ilmattino.it"],
+    ]],
+  ];
+  const AUTO = [
+    ["Servizi e normativa", [
+      ["ACI", "Bollo, PRA, passaggi di proprietà", "https://www.aci.it"],
+      ["Portale dell'Automobilista", "Motorizzazione: patente e veicoli", "https://www.ilportaledellautomobilista.it"],
+      ["IVASS · Preventivass", "Confronto RC auto", "https://www.ivass.it"],
+      ["Euro NCAP", "Crash test e sicurezza", "https://www.euroncap.com/it"],
+      ["UNRAE", "Immatricolazioni e mercato", "https://www.unrae.it"],
+      ["Motus-E", "Mobilità elettrica e ricarica", "https://www.motus-e.org"],
+    ]],
+    ["Riviste e portali", [
+      ["Quattroruote", "Novità, prove e listino", "https://www.quattroruote.it"],
+      ["Motor1 Italia", "Notizie e prove", "https://it.motor1.com"],
+      ["Alvolante", "Prove e guide", "https://www.alvolante.it"],
+      ["Autoblog", "Novità e mercato", "https://www.autoblog.it"],
+      ["OmniAuto", "Notizie auto", "https://www.omniauto.it"],
+      ["Automoto", "Notizie e prove", "https://www.automoto.it"],
+    ]],
+    ["Moto e motorsport", [
+      ["Moto.it", "Moto e scooter", "https://www.moto.it"],
+      ["FormulaPassion", "Formula 1", "https://www.formulapassion.it"],
+      ["Autosprint", "Motorsport", "https://www.autosprint.it"],
+    ]],
+  ];
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   function render(q) {
     const box = document.querySelector("#lista-link"); if (!box) return;
     q = (q || "").trim().toLowerCase();
     let out = "";
     const nic = (function(){ try { return JSON.parse(localStorage.getItem('nicchia')) || 'edilizia'; } catch (e) { return localStorage.getItem('nicchia') || 'edilizia'; } })();
-    for (const [titolo, voci] of (nic === 'tech' ? T : G)) {
+    for (const [titolo, voci] of ({ tech: T, fisco: FISCO, politica: POLITICA, auto: AUTO }[nic] || G)) {
       const v = voci.filter(([n, d, u]) => !q || (n + " " + d + " " + u).toLowerCase().includes(q));
       if (!v.length) continue;
       out += `<div class="gruppo">${esc(titolo)}</div>` + v.map(([n, d, u]) =>

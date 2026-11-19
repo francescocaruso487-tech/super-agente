@@ -1503,6 +1503,1743 @@
     "smartwatch novità Galaxy Watch"
    ],
    "gnews_when": "7d"
+  },
+  {
+   "id": "f-ade",
+   "nome": "Agenzia delle Entrate: novità fiscali",
+   "tipo": "ufficiale",
+   "home": "https://www.agenziaentrate.gov.it/portale/",
+   "nicchia": "fisco",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "gnews": [
+    "site:agenziaentrate.gov.it 730 precompilata",
+    "site:agenziaentrate.gov.it risoluzione provvedimento",
+    "Agenzia delle Entrate circolare risposta interpello novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "f-ader",
+   "nome": "Agenzia Entrate-Riscossione",
+   "tipo": "ufficiale",
+   "home": "https://www.agenziaentrateriscossione.gov.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "imprese_fisco"
+   ],
+   "gnews": [
+    "rottamazione cartelle Agenzia Entrate Riscossione",
+    "definizione agevolata cartelle scadenza rata"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "f-mef",
+   "nome": "MEF Dipartimento Finanze",
+   "tipo": "ufficiale",
+   "home": "https://www.finanze.gov.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "gnews": [
+    "site:finanze.gov.it decreto",
+    "Dipartimento Finanze MEF comunicato fiscale"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "f-gdf",
+   "nome": "Guardia di Finanza",
+   "tipo": "ufficiale",
+   "home": "https://www.gdf.gov.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "imprese_fisco"
+   ],
+   "gnews": [
+    "Guardia di Finanza controlli fiscali evasione",
+    "Guardia di Finanza circolare"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "f-inps",
+   "nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "home": "https://www.inps.it/it/it.html",
+   "nicchia": "fisco",
+   "aree": [
+    "isee"
+   ],
+   "gnews": [
+    "INPS ISEE novità messaggio",
+    "INPS pensioni circolare novità",
+    "INPS assegno unico novità",
+    "INPS NASpI messaggio",
+    "INPS bonus nuove domande",
+    "INPS invalidità civile novità"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "f-minlav",
+   "nome": "Ministero del Lavoro e Politiche Sociali",
+   "tipo": "ufficiale",
+   "home": "https://www.lavoro.gov.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "lavoro"
+   ],
+   "gnews": [
+    "Ministero del Lavoro decreto incentivi assunzioni",
+    "Ministero del Lavoro contratti novità",
+    "Ministero del Lavoro bonus decreto attuativo"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "f-inail",
+   "nome": "INAIL: prestazioni e infortuni",
+   "tipo": "ente",
+   "home": "https://www.inail.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "lavoro"
+   ],
+   "gnews": [
+    "INAIL prestazioni infortuni novità",
+    "INAIL premi autoliquidazione scadenza"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "f-ivass",
+   "nome": "IVASS (assicurazioni)",
+   "tipo": "ufficiale",
+   "home": "https://www.ivass.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "professione_fisco"
+   ],
+   "gnews": [
+    "IVASS novità assicurazioni consumatori",
+    "IVASS provvedimento"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "f-consap",
+   "nome": "CONSAP e Fondo Garanzia Prima Casa",
+   "tipo": "ente",
+   "home": "https://www.consap.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "casa_fisco"
+   ],
+   "gnews": [
+    "Consap fondo garanzia prima casa novità",
+    "mutuo prima casa under 36 garanzia Consap"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "f-notai",
+   "nome": "Consiglio Nazionale del Notariato",
+   "tipo": "ordine",
+   "home": "https://www.notariato.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "casa_fisco"
+   ],
+   "gnews": [
+    "notariato successioni compravendita novità",
+    "Consiglio Nazionale del Notariato studio"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "f-cndcec",
+   "nome": "Commercialisti (CNDCEC)",
+   "tipo": "ordine",
+   "home": "https://www.commercialisti.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "professione_fisco"
+   ],
+   "gnews": [
+    "CNDCEC commercialisti novità",
+    "Consiglio Nazionale Commercialisti documento",
+    "commercialisti Fondazione Nazionale Commercialisti"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "f-cdl",
+   "nome": "Consulenti del Lavoro",
+   "tipo": "ordine",
+   "home": "https://www.consulentidellavoro.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "lavoro"
+   ],
+   "gnews": [
+    "Consulenti del Lavoro novità circolare",
+    "Fondazione Studi Consulenti del Lavoro"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "f-caf",
+   "nome": "Consulta Nazionale dei CAF",
+   "tipo": "ente",
+   "home": "https://www.consultanazionalecaf.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "professione_fisco"
+   ],
+   "gnews": [
+    "Consulta nazionale CAF novità",
+    "CAF assistenza fiscale 730 novità",
+    "CAF scadenze ISEE 730 mancati"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "f-caf-acli",
+   "nome": "CAF ACLI",
+   "tipo": "ente",
+   "home": "https://www.acli.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "professione_fisco"
+   ],
+   "gnews": [
+    "CAF ACLI novità fiscali",
+    "CAF ACLI 730 ISEE"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "f-caf-cgil",
+   "nome": "CAF CGIL e INCA",
+   "tipo": "ente",
+   "home": "https://www.cafcgil.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "professione_fisco"
+   ],
+   "gnews": [
+    "CAF CGIL novità 730",
+    "INCA CGIL pensioni novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "f-caf-cisl",
+   "nome": "CAF CISL",
+   "tipo": "ente",
+   "home": "https://www.cafcisl.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "professione_fisco"
+   ],
+   "gnews": [
+    "CAF CISL novità 730 ISEE",
+    "CISL pensioni novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "f-caf-uil",
+   "nome": "CAF UIL",
+   "tipo": "ente",
+   "home": "https://www.cafuil.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "professione_fisco"
+   ],
+   "gnews": [
+    "CAF UIL novità fiscali",
+    "UIL ITAL pensioni novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "f-caf-altri",
+   "nome": "CAF Coldiretti, CIA e Confartigianato",
+   "tipo": "ente",
+   "home": "https://www.coldiretti.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "professione_fisco"
+   ],
+   "gnews": [
+    "CAF Coldiretti novità fiscali",
+    "CAF Confartigianato fisco novità",
+    "CAF CIA agricoltori fisco"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "f-patronati",
+   "nome": "Patronati (ACLI, INCA, ITAL, INAS)",
+   "tipo": "ente",
+   "home": "https://www.patronatoacli.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "pensioni"
+   ],
+   "gnews": [
+    "patronato novità pensioni invalidità",
+    "patronato INAS INCA ITAL novità prestazioni"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "f-sole",
+   "nome": "Il Sole 24 Ore: Norme e Tributi",
+   "tipo": "stampa",
+   "home": "https://www.ilsole24ore.com/",
+   "nicchia": "fisco",
+   "feed": "https://www.ilsole24ore.com/rss/norme-e-tributi.xml",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "gnews": [
+    "site:ilsole24ore.com 730 dichiarazione redditi",
+    "site:ilsole24ore.com pensioni novità",
+    "site:ilsole24ore.com ISEE assegno unico",
+    "site:ilsole24ore.com rottamazione cartelle",
+    "site:ilsole24ore.com forfettari partita iva"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "f-italiaoggi",
+   "nome": "ItaliaOggi: fisco e lavoro",
+   "tipo": "stampa",
+   "home": "https://www.italiaoggi.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "gnews": [
+    "site:italiaoggi.it fisco novità",
+    "site:italiaoggi.it pensioni lavoro novità"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "f-altalex",
+   "nome": "Altalex",
+   "tipo": "stampa",
+   "home": "https://www.altalex.com/",
+   "nicchia": "fisco",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "gnews": [
+    "site:altalex.com fisco novità",
+    "site:altalex.com lavoro pensioni novità",
+    "site:altalex.com locazioni successioni"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "f-ilfisco",
+   "nome": "Il Fisco (Wolters Kluwer)",
+   "tipo": "stampa",
+   "home": "https://www.ilfisco.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "gnews": [
+    "site:ilfisco.it novità fiscali",
+    "site:ilfisco.it modello 730"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "f-fiscotoday",
+   "nome": "Fisco Today",
+   "tipo": "stampa",
+   "home": "https://www.fiscotoday.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "gnews": [
+    "site:fiscotoday.it novità",
+    "site:fiscotoday.it risoluzione"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "f-commtel",
+   "nome": "Commercialista Telematico",
+   "tipo": "stampa",
+   "home": "https://www.commercialistatelematico.com/",
+   "nicchia": "fisco",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "gnews": [
+    "site:commercialistatelematico.com novità fiscali",
+    "site:commercialistatelematico.com scadenze"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "f-infofisc",
+   "nome": "Informazione Fiscale",
+   "tipo": "stampa",
+   "home": "https://www.informazionefiscale.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "gnews": [
+    "site:informazionefiscale.it novità",
+    "site:informazionefiscale.it 730 ISEE"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "f-pmi",
+   "nome": "PMI.it: fisco e lavoro",
+   "tipo": "stampa",
+   "home": "https://www.pmi.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "imprese_fisco"
+   ],
+   "gnews": [
+    "site:pmi.it fisco novità",
+    "site:pmi.it partita iva forfettario",
+    "site:pmi.it lavoro contratti"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "f-money",
+   "nome": "Money.it: fisco e pensioni",
+   "tipo": "stampa",
+   "home": "https://www.money.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "pensioni"
+   ],
+   "gnews": [
+    "site:money.it pensioni novità",
+    "site:money.it ISEE bonus",
+    "site:money.it fisco 730",
+    "site:money.it bonus inps"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "f-cataldi",
+   "nome": "Studio Cataldi",
+   "tipo": "stampa",
+   "home": "https://www.studiocataldi.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "casa_fisco"
+   ],
+   "gnews": [
+    "site:studiocataldi.it fisco novità",
+    "site:studiocataldi.it locazioni affitti",
+    "site:studiocataldi.it successione"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "f-legge",
+   "nome": "La Legge per Tutti",
+   "tipo": "stampa",
+   "home": "https://www.laleggepertutti.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "pensioni"
+   ],
+   "gnews": [
+    "site:laleggepertutti.it fisco",
+    "site:laleggepertutti.it pensioni inps",
+    "site:laleggepertutti.it lavoro"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "f-quifinanza",
+   "nome": "QuiFinanza",
+   "tipo": "stampa",
+   "home": "https://quifinanza.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "isee"
+   ],
+   "gnews": [
+    "site:quifinanza.it fisco bonus pensioni",
+    "site:quifinanza.it ISEE assegno unico"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "f-ansa-fisco",
+   "nome": "ANSA: fisco, pensioni e lavoro",
+   "tipo": "stampa",
+   "home": "https://www.ansa.it/sito/notizie/economia/economia.shtml",
+   "nicchia": "fisco",
+   "filtra": true,
+   "gnews": [
+    "site:ansa.it 730 dichiarazione redditi",
+    "site:ansa.it pensioni novità inps",
+    "site:ansa.it assegno unico ISEE",
+    "site:ansa.it rottamazione cartelle",
+    "site:ansa.it bonus famiglie"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "f-adnk",
+   "nome": "Adnkronos: fisco e pensioni",
+   "tipo": "stampa",
+   "home": "https://www.adnkronos.com/",
+   "nicchia": "fisco",
+   "filtra": true,
+   "gnews": [
+    "site:adnkronos.com pensioni inps novità",
+    "site:adnkronos.com fisco 730 isee",
+    "site:adnkronos.com assegno unico"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "f-fiscooggi",
+   "nome": "Fisco Oggi (rivista del Fisco)",
+   "tipo": "stampa",
+   "home": "https://www.fiscooggi.it/",
+   "nicchia": "fisco",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "gnews": [
+    "site:fiscooggi.it 730 dichiarazione",
+    "site:fiscooggi.it pensioni lavoro",
+    "site:fiscooggi.it locazioni successioni"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "p-quirinale",
+   "nome": "Quirinale",
+   "tipo": "ufficiale",
+   "home": "https://www.quirinale.it/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "Quirinale Mattarella comunicato",
+    "Mattarella discorso messaggio",
+    "site:quirinale.it"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "p-governo",
+   "nome": "Governo e Presidenza del Consiglio",
+   "tipo": "ufficiale",
+   "home": "https://www.governo.it/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "Palazzo Chigi comunicato stampa",
+    "Consiglio dei ministri approvato decreto",
+    "Meloni Presidenza del Consiglio comunicato"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "p-camera",
+   "nome": "Camera dei Deputati",
+   "tipo": "ufficiale",
+   "home": "https://www.camera.it/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "Camera dei deputati approva",
+    "Camera dei deputati aula voto"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "p-senato",
+   "nome": "Senato della Repubblica",
+   "tipo": "ufficiale",
+   "home": "https://www.senato.it/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "Senato approva ddl",
+    "Senato aula voto fiducia"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "p-consulta",
+   "nome": "Corte Costituzionale",
+   "tipo": "ufficiale",
+   "home": "https://www.cortecostituzionale.it/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "Corte costituzionale sentenza comunicato",
+    "Consulta decisione legge"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "p-pe",
+   "nome": "Parlamento europeo",
+   "tipo": "ufficiale",
+   "home": "https://www.europarl.europa.eu/italy/it/home",
+   "nicchia": "politica",
+   "aree": [
+    "europa"
+   ],
+   "gnews": [
+    "Parlamento europeo approva",
+    "Parlamento europeo Strasburgo plenaria",
+    "Metsola Parlamento europeo"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "p-ce",
+   "nome": "Commissione europea",
+   "tipo": "ufficiale",
+   "home": "https://italy.representation.ec.europa.eu/",
+   "nicchia": "politica",
+   "aree": [
+    "europa"
+   ],
+   "gnews": [
+    "Commissione europea von der Leyen annuncia",
+    "Commissione europea proposta regolamento",
+    "Consiglio europeo vertice conclusioni"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "p-esteri",
+   "nome": "Ministero degli Esteri (Farnesina)",
+   "tipo": "ufficiale",
+   "home": "https://www.esteri.it/",
+   "nicchia": "politica",
+   "aree": [
+    "esteri"
+   ],
+   "gnews": [
+    "Farnesina Tajani comunicato",
+    "Tajani ministro degli Esteri dichiarazioni"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "p-difesa",
+   "nome": "Ministero della Difesa",
+   "tipo": "ufficiale",
+   "home": "https://www.difesa.it/",
+   "nicchia": "politica",
+   "aree": [
+    "esteri"
+   ],
+   "gnews": [
+    "Crosetto ministro Difesa dichiarazioni",
+    "Difesa spese militari Italia"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "p-interno",
+   "nome": "Ministero dell'Interno",
+   "tipo": "ufficiale",
+   "home": "https://www.interno.gov.it/",
+   "nicchia": "politica",
+   "aree": [
+    "giustizia"
+   ],
+   "gnews": [
+    "Piantedosi Viminale dichiarazioni",
+    "Ministero dell'Interno decreto sicurezza immigrazione"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "p-giustizia",
+   "nome": "Ministero della Giustizia",
+   "tipo": "ufficiale",
+   "home": "https://www.giustizia.it/",
+   "nicchia": "politica",
+   "aree": [
+    "giustizia"
+   ],
+   "gnews": [
+    "Nordio ministro Giustizia riforma",
+    "separazione delle carriere riforma Nordio",
+    "Csm magistratura novità"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "p-mef",
+   "nome": "Ministero Economia (MEF)",
+   "tipo": "ufficiale",
+   "home": "https://www.mef.gov.it/",
+   "nicchia": "politica",
+   "aree": [
+    "economia_pol"
+   ],
+   "gnews": [
+    "Giorgetti MEF manovra",
+    "legge di bilancio Giorgetti conti pubblici",
+    "MEF comunicato stampa"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "p-istat",
+   "nome": "ISTAT",
+   "tipo": "ufficiale",
+   "home": "https://www.istat.it/",
+   "nicchia": "politica",
+   "aree": [
+    "economia_pol"
+   ],
+   "gnews": [
+    "Istat comunicato inflazione Pil occupati",
+    "Istat dati economia Italia"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "p-bankit",
+   "nome": "Banca d'Italia",
+   "tipo": "ufficiale",
+   "home": "https://www.bancaditalia.it/",
+   "nicchia": "politica",
+   "aree": [
+    "economia_pol"
+   ],
+   "gnews": [
+    "Banca d'Italia relazione governatore",
+    "Banca d'Italia Panetta economia"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "p-corteconti",
+   "nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "home": "https://www.corteconti.it/",
+   "nicchia": "politica",
+   "aree": [
+    "economia_pol"
+   ],
+   "gnews": [
+    "Corte dei conti relazione conti pubblici",
+    "Corte dei conti audizione"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "p-reg-camp",
+   "nome": "Regione Campania (giunta e consiglio)",
+   "tipo": "ente",
+   "home": "https://www.regione.campania.it/",
+   "nicchia": "politica",
+   "aree": [
+    "territorio"
+   ],
+   "gnews": [
+    "Regione Campania giunta regionale delibera",
+    "Consiglio regionale Campania approva",
+    "presidente Regione Campania Fico"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "p-anci",
+   "nome": "ANCI (Comuni italiani)",
+   "tipo": "ente",
+   "home": "https://www.anci.it/",
+   "nicchia": "politica",
+   "aree": [
+    "territorio"
+   ],
+   "gnews": [
+    "ANCI sindaci comuni governo",
+    "ANCI Campania Comuni"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "p-ansa-pol",
+   "nome": "ANSA Politica",
+   "tipo": "stampa",
+   "home": "https://www.ansa.it/sito/notizie/politica/politica.shtml",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:ansa.it politica governo",
+    "site:ansa.it parlamento ddl",
+    "site:ansa.it elezioni partiti"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-ansa-mondo",
+   "nome": "ANSA Mondo",
+   "tipo": "stampa",
+   "home": "https://www.ansa.it/sito/notizie/mondo/mondo.shtml",
+   "nicchia": "politica",
+   "aree": [
+    "esteri"
+   ],
+   "gnews": [
+    "site:ansa.it mondo esteri",
+    "site:ansa.it ucraina gaza medio oriente"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-ansa-ue",
+   "nome": "ANSA Europa",
+   "tipo": "stampa",
+   "home": "https://www.ansa.it/europa/",
+   "nicchia": "politica",
+   "aree": [
+    "europa"
+   ],
+   "gnews": [
+    "site:ansa.it europa unione europea",
+    "site:ansa.it bruxelles commissione"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-adnk",
+   "nome": "Adnkronos Politica",
+   "tipo": "stampa",
+   "home": "https://www.adnkronos.com/politica",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:adnkronos.com politica",
+    "site:adnkronos.com governo meloni"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-agi",
+   "nome": "AGI Politica",
+   "tipo": "stampa",
+   "home": "https://www.agi.it/politica/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:agi.it politica",
+    "site:agi.it governo parlamento"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-dire",
+   "nome": "Agenzia Dire",
+   "tipo": "stampa",
+   "home": "https://www.dire.it/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:dire.it politica",
+    "site:dire.it governo regioni"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-askanews",
+   "nome": "Askanews Politica",
+   "tipo": "stampa",
+   "home": "https://www.askanews.it/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:askanews.it politica",
+    "site:askanews.it governo"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-lapresse",
+   "nome": "LaPresse Politica",
+   "tipo": "stampa",
+   "home": "https://www.lapresse.it/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:lapresse.it politica",
+    "site:lapresse.it governo"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-rainews",
+   "nome": "Rai News Politica",
+   "tipo": "stampa",
+   "home": "https://www.rainews.it/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:rainews.it politica governo",
+    "site:rainews.it parlamento"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-sky",
+   "nome": "Sky TG24 Politica",
+   "tipo": "stampa",
+   "home": "https://tg24.sky.it/politica",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:tg24.sky.it politica",
+    "site:tg24.sky.it governo"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-tgcom",
+   "nome": "TGCom24 Politica",
+   "tipo": "stampa",
+   "home": "https://www.tgcom24.mediaset.it/politica/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:tgcom24.mediaset.it politica",
+    "site:tgcom24.mediaset.it governo"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-corriere",
+   "nome": "Corriere della Sera Politica",
+   "tipo": "stampa",
+   "home": "https://www.corriere.it/politica/",
+   "nicchia": "politica",
+   "feed": "https://xml2.corriereobjects.it/rss/politica.xml",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:corriere.it politica governo",
+    "site:corriere.it politica parlamento"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-repubblica",
+   "nome": "la Repubblica Politica",
+   "tipo": "stampa",
+   "home": "https://www.repubblica.it/politica/",
+   "nicchia": "politica",
+   "feed": "https://www.repubblica.it/rss/politica/rss2.0.xml",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:repubblica.it politica governo",
+    "site:repubblica.it politica opposizione"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-stampa",
+   "nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "home": "https://www.lastampa.it/politica",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:lastampa.it politica governo",
+    "site:lastampa.it politica partiti"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-sole",
+   "nome": "Il Sole 24 Ore Politica",
+   "tipo": "stampa",
+   "home": "https://www.ilsole24ore.com/",
+   "nicchia": "politica",
+   "aree": [
+    "economia_pol"
+   ],
+   "gnews": [
+    "site:ilsole24ore.com politica governo",
+    "site:ilsole24ore.com manovra parlamento"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-messaggero",
+   "nome": "Il Messaggero Politica",
+   "tipo": "stampa",
+   "home": "https://www.ilmessaggero.it/politica/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:ilmessaggero.it politica governo",
+    "site:ilmessaggero.it politica partiti"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-giornale",
+   "nome": "Il Giornale Politica",
+   "tipo": "stampa",
+   "home": "https://www.ilgiornale.it/sezioni/politica.html",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:ilgiornale.it politica governo",
+    "site:ilgiornale.it politica opposizione"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-libero",
+   "nome": "Libero Quotidiano Politica",
+   "tipo": "stampa",
+   "home": "https://www.liberoquotidiano.it/politica/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:liberoquotidiano.it politica",
+    "site:liberoquotidiano.it governo"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-fatto",
+   "nome": "Il Fatto Quotidiano Politica",
+   "tipo": "stampa",
+   "home": "https://www.ilfattoquotidiano.it/politica-palazzo/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:ilfattoquotidiano.it politica governo",
+    "site:ilfattoquotidiano.it politica partiti"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-foglio",
+   "nome": "Il Foglio",
+   "tipo": "stampa",
+   "home": "https://www.ilfoglio.it/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:ilfoglio.it politica",
+    "site:ilfoglio.it governo"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-domani",
+   "nome": "Domani",
+   "tipo": "stampa",
+   "home": "https://www.editorialedomani.it/politica",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:editorialedomani.it politica",
+    "site:editorialedomani.it governo"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-post",
+   "nome": "Il Post",
+   "tipo": "stampa",
+   "home": "https://www.ilpost.it/",
+   "nicchia": "politica",
+   "feed": "https://www.ilpost.it/feed/",
+   "aree": [
+    "governo"
+   ],
+   "filtra": true,
+   "gnews": [
+    "site:ilpost.it politica italia",
+    "site:ilpost.it governo parlamento"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-open",
+   "nome": "Open",
+   "tipo": "stampa",
+   "home": "https://www.open.online/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:open.online politica",
+    "site:open.online governo"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-fanpage",
+   "nome": "Fanpage Politica",
+   "tipo": "stampa",
+   "home": "https://www.fanpage.it/politica/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:fanpage.it politica",
+    "site:fanpage.it governo"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-huff",
+   "nome": "HuffPost Italia Politica",
+   "tipo": "stampa",
+   "home": "https://www.huffingtonpost.it/politica/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:huffingtonpost.it politica",
+    "site:huffingtonpost.it governo"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-formiche",
+   "nome": "Formiche",
+   "tipo": "stampa",
+   "home": "https://formiche.net/",
+   "nicchia": "politica",
+   "aree": [
+    "governo"
+   ],
+   "gnews": [
+    "site:formiche.net politica",
+    "site:formiche.net governo esteri"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "p-euractiv",
+   "nome": "Euractiv Italia",
+   "tipo": "stampa",
+   "home": "https://euractiv.it/",
+   "nicchia": "politica",
+   "aree": [
+    "europa"
+   ],
+   "gnews": [
+    "site:euractiv.it europa",
+    "site:euractiv.it commissione parlamento"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "p-mattino",
+   "nome": "Il Mattino (Napoli e Campania)",
+   "tipo": "stampa",
+   "home": "https://www.ilmattino.it/",
+   "nicchia": "politica",
+   "aree": [
+    "territorio"
+   ],
+   "gnews": [
+    "site:ilmattino.it politica Campania regione",
+    "site:ilmattino.it Caserta politica",
+    "site:ilmattino.it Napoli comune politica"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "p-casertanews",
+   "nome": "Casertanews e Caserta politica",
+   "tipo": "stampa",
+   "home": "https://www.casertanews.it/",
+   "nicchia": "politica",
+   "aree": [
+    "territorio"
+   ],
+   "gnews": [
+    "Caserta politica sindaco consiglio comunale",
+    "Caserta provincia politica",
+    "site:casertanews.it politica"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "p-campania-news",
+   "nome": "Politica Campania (Google News)",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "nicchia": "politica",
+   "aree": [
+    "territorio"
+   ],
+   "gnews": [
+    "Regione Campania politica Fico giunta",
+    "Campania politica consiglio regionale",
+    "Napoli Manfredi politica comune"
+   ],
+   "gnews_when": "3d",
+   "nota": "Novità politiche regionali via Google News."
+  },
+  {
+   "id": "a-aci",
+   "nome": "ACI (Automobile Club d'Italia)",
+   "tipo": "ente",
+   "home": "https://www.aci.it/",
+   "nicchia": "auto",
+   "aree": [
+    "normativa_auto"
+   ],
+   "gnews": [
+    "ACI Automobile Club novità",
+    "ACI bollo passaggio proprietà novità",
+    "ACI sicurezza stradale incidenti dati"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "a-mit",
+   "nome": "MIT e Motorizzazione",
+   "tipo": "ufficiale",
+   "home": "https://www.mit.gov.it/",
+   "nicchia": "auto",
+   "aree": [
+    "normativa_auto"
+   ],
+   "gnews": [
+    "Motorizzazione novità circolare patente",
+    "MIT codice della strada decreto",
+    "Ministero Trasporti Salvini codice della strada"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "a-polstrada",
+   "nome": "Polizia Stradale",
+   "tipo": "ufficiale",
+   "home": "https://www.poliziadistato.it/",
+   "nicchia": "auto",
+   "aree": [
+    "normativa_auto"
+   ],
+   "gnews": [
+    "Polizia Stradale controlli novità",
+    "Polizia Stradale codice della strada sanzioni"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "a-ivass",
+   "nome": "IVASS RC auto",
+   "tipo": "ufficiale",
+   "home": "https://www.ivass.it/",
+   "nicchia": "auto",
+   "aree": [
+    "normativa_auto"
+   ],
+   "gnews": [
+    "IVASS RC auto prezzi premi",
+    "IVASS assicurazione auto novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "a-unrae",
+   "nome": "UNRAE",
+   "tipo": "ordine",
+   "home": "https://www.unrae.it/",
+   "nicchia": "auto",
+   "aree": [
+    "mercato_auto"
+   ],
+   "gnews": [
+    "UNRAE immatricolazioni mercato auto",
+    "UNRAE incentivi auto"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "a-anfia",
+   "nome": "ANFIA",
+   "tipo": "ordine",
+   "home": "https://www.anfia.it/",
+   "nicchia": "auto",
+   "aree": [
+    "mercato_auto"
+   ],
+   "gnews": [
+    "ANFIA industria automotive",
+    "ANFIA mercato auto"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "a-motus",
+   "nome": "Motus-E (mobilità elettrica)",
+   "tipo": "ordine",
+   "home": "https://www.motus-e.org/",
+   "nicchia": "auto",
+   "aree": [
+    "elettriche"
+   ],
+   "gnews": [
+    "Motus-E mobilità elettrica",
+    "Motus-E colonnine ricarica dati"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "a-acea",
+   "nome": "ACEA (costruttori europei)",
+   "tipo": "ordine",
+   "home": "https://www.acea.auto/",
+   "nicchia": "auto",
+   "aree": [
+    "mercato_auto"
+   ],
+   "gnews": [
+    "ACEA immatricolazioni Europa auto",
+    "ACEA mercato auto elettriche Europa"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "a-euroncap",
+   "nome": "Euro NCAP",
+   "tipo": "ente",
+   "home": "https://www.euroncap.com/it",
+   "nicchia": "auto",
+   "aree": [
+    "sicurezza_auto"
+   ],
+   "gnews": [
+    "Euro NCAP crash test stelle",
+    "Euro NCAP risultati sicurezza"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "a-ansa",
+   "nome": "ANSA Motori",
+   "tipo": "stampa",
+   "home": "https://www.ansa.it/canale_motori/",
+   "nicchia": "auto",
+   "feed": "https://www.ansa.it/sito/notizie/motori/motori_rss.xml",
+   "aree": [
+    "novita_auto"
+   ],
+   "gnews": [
+    "site:ansa.it motori auto",
+    "site:ansa.it motori elettriche"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-quattroruote",
+   "nome": "Quattroruote",
+   "tipo": "stampa",
+   "home": "https://www.quattroruote.it/",
+   "nicchia": "auto",
+   "aree": [
+    "novita_auto"
+   ],
+   "gnews": [
+    "site:quattroruote.it novità auto",
+    "site:quattroruote.it prove",
+    "site:quattroruote.it normativa"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-motor1",
+   "nome": "Motor1 Italia",
+   "tipo": "stampa",
+   "home": "https://it.motor1.com/",
+   "nicchia": "auto",
+   "feed": "https://it.motor1.com/rss/articles/all/",
+   "aree": [
+    "novita_auto"
+   ],
+   "gnews": [
+    "site:it.motor1.com novità",
+    "site:it.motor1.com prove"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-automoto",
+   "nome": "Automoto.it",
+   "tipo": "stampa",
+   "home": "https://www.automoto.it/",
+   "nicchia": "auto",
+   "aree": [
+    "novita_auto"
+   ],
+   "gnews": [
+    "site:automoto.it novità",
+    "site:automoto.it prove"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-alvolante",
+   "nome": "Alvolante",
+   "tipo": "stampa",
+   "home": "https://www.alvolante.it/",
+   "nicchia": "auto",
+   "aree": [
+    "novita_auto"
+   ],
+   "gnews": [
+    "site:alvolante.it novità",
+    "site:alvolante.it prove"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-autoblog",
+   "nome": "Autoblog.it",
+   "tipo": "stampa",
+   "home": "https://www.autoblog.it/",
+   "nicchia": "auto",
+   "aree": [
+    "novita_auto"
+   ],
+   "gnews": [
+    "site:autoblog.it novità",
+    "site:autoblog.it elettriche"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-omniauto",
+   "nome": "OmniAuto.it",
+   "tipo": "stampa",
+   "home": "https://www.omniauto.it/",
+   "nicchia": "auto",
+   "aree": [
+    "novita_auto"
+   ],
+   "gnews": [
+    "site:omniauto.it novità",
+    "site:omniauto.it prove"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-motorionline",
+   "nome": "Motorionline",
+   "tipo": "stampa",
+   "home": "https://www.motorionline.com/",
+   "nicchia": "auto",
+   "aree": [
+    "novita_auto"
+   ],
+   "gnews": [
+    "site:motorionline.com novità",
+    "site:motorionline.com mercato"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-autoit",
+   "nome": "Auto.it",
+   "tipo": "stampa",
+   "home": "https://www.auto.it/",
+   "nicchia": "auto",
+   "aree": [
+    "novita_auto"
+   ],
+   "gnews": [
+    "site:auto.it novità",
+    "site:auto.it prove"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-infomotori",
+   "nome": "InfoMotori",
+   "tipo": "stampa",
+   "home": "https://www.infomotori.com/",
+   "nicchia": "auto",
+   "aree": [
+    "novita_auto"
+   ],
+   "gnews": [
+    "site:infomotori.com novità",
+    "site:infomotori.com elettriche"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-autopro",
+   "nome": "AutoPro e Automotive News Italia",
+   "tipo": "stampa",
+   "home": "https://www.automotive-news.it/",
+   "nicchia": "auto",
+   "aree": [
+    "mercato_auto"
+   ],
+   "gnews": [
+    "automotive industria Italia novità",
+    "Stellantis Italia stabilimenti lavoro",
+    "Automotive Italia mercato componentistica"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-sole-motori",
+   "nome": "Il Sole 24 Ore Motori",
+   "tipo": "stampa",
+   "home": "https://www.ilsole24ore.com/",
+   "nicchia": "auto",
+   "aree": [
+    "mercato_auto"
+   ],
+   "gnews": [
+    "site:ilsole24ore.com motori auto",
+    "site:ilsole24ore.com Stellantis auto elettriche"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-corriere-motori",
+   "nome": "Corriere della Sera Motori",
+   "tipo": "stampa",
+   "home": "https://www.corriere.it/motori/",
+   "nicchia": "auto",
+   "aree": [
+    "novita_auto"
+   ],
+   "gnews": [
+    "site:corriere.it motori auto",
+    "site:corriere.it motori elettriche"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-repubblica-motori",
+   "nome": "la Repubblica Motori",
+   "tipo": "stampa",
+   "home": "https://www.repubblica.it/motori/",
+   "nicchia": "auto",
+   "feed": "https://www.repubblica.it/rss/motori/rss2.0.xml",
+   "aree": [
+    "novita_auto"
+   ],
+   "gnews": [
+    "site:repubblica.it motori auto",
+    "site:repubblica.it motori elettriche"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-gazzetta-motori",
+   "nome": "Gazzetta dello Sport Motori",
+   "tipo": "stampa",
+   "home": "https://www.gazzetta.it/Motori/",
+   "nicchia": "auto",
+   "aree": [
+    "novita_auto"
+   ],
+   "gnews": [
+    "site:gazzetta.it motori auto",
+    "site:gazzetta.it motori novità"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-sicurauto",
+   "nome": "SicurAUTO.it (codice e assicurazioni)",
+   "tipo": "stampa",
+   "home": "https://www.sicurauto.it/",
+   "nicchia": "auto",
+   "aree": [
+    "normativa_auto"
+   ],
+   "gnews": [
+    "site:sicurauto.it codice della strada",
+    "site:sicurauto.it assicurazione",
+    "site:sicurauto.it bollo revisione"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "a-sicurezza-stradale",
+   "nome": "Sicurezza stradale e codice (Google News)",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "nicchia": "auto",
+   "aree": [
+    "normativa_auto"
+   ],
+   "gnews": [
+    "nuovo codice della strada novità multe",
+    "patente novità punti sospensione",
+    "RC auto prezzi assicurazione novità",
+    "bollo auto novità",
+    "incentivi auto elettriche novità 2026"
+   ],
+   "gnews_when": "7d",
+   "nota": "Normativa auto via Google News."
+  },
+  {
+   "id": "a-richiami",
+   "nome": "Richiami auto (Google News)",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "nicchia": "auto",
+   "aree": [
+    "sicurezza_auto"
+   ],
+   "gnews": [
+    "richiamo auto difetto airbag",
+    "richiamo veicoli ministero",
+    "recall auto Italia"
+   ],
+   "gnews_when": "14d",
+   "nota": "Richiami e difetti via Google News."
+  },
+  {
+   "id": "a-stellantis-ind",
+   "nome": "Stellantis e stabilimenti italiani",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "nicchia": "auto",
+   "aree": [
+    "mercato_auto"
+   ],
+   "gnews": [
+    "Stellantis Pomigliano stabilimento",
+    "Stellantis Italia Mirafiori Melfi Cassino",
+    "Stellantis piano industriale Italia",
+    "Fiat Panda Pomigliano produzione"
+   ],
+   "gnews_when": "7d",
+   "nota": "Notizie sull'industria auto italiana via Google News."
+  },
+  {
+   "id": "a-moto",
+   "nome": "Moto e scooter (Moto.it, Motociclismo)",
+   "tipo": "stampa",
+   "home": "https://www.moto.it/",
+   "nicchia": "auto",
+   "aree": [
+    "moto_sport"
+   ],
+   "gnews": [
+    "site:moto.it novità",
+    "site:motociclismo.it novità",
+    "Ducati Yamaha Piaggio novità moto"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-formula",
+   "nome": "Formula 1 e motorsport",
+   "tipo": "stampa",
+   "home": "https://www.formulapassion.it/",
+   "nicchia": "auto",
+   "aree": [
+    "moto_sport"
+   ],
+   "gnews": [
+    "site:formulapassion.it F1",
+    "Formula 1 gran premio risultati Ferrari",
+    "MotoGP gran premio risultati",
+    "site:motorsport.com it F1"
+   ],
+   "gnews_when": "3d"
+  },
+  {
+   "id": "a-autosprint",
+   "nome": "Autosprint e Motorsport.com",
+   "tipo": "stampa",
+   "home": "https://www.autosprint.it/",
+   "nicchia": "auto",
+   "aree": [
+    "moto_sport"
+   ],
+   "gnews": [
+    "site:autosprint.it",
+    "site:it.motorsport.com",
+    "rally WRC risultati"
+   ],
+   "gnews_when": "3d"
   }
  ]
 }

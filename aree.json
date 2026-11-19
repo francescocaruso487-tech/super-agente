@@ -2254,6 +2254,1406 @@
     "bonus pc",
     "voucher"
    ]
+  },
+  "dichiarazioni": {
+   "nome": "Dichiarazioni e scadenze",
+   "colore": "#2563eb",
+   "nicchia": "fisco",
+   "sotto": {
+    "730": {
+     "nome": "730 e redditi",
+     "parole": [
+      "730",
+      "modello 730",
+      "precompilata",
+      "dichiarazione dei redditi",
+      "modello redditi",
+      "scadenza fiscale",
+      "scadenze fiscali",
+      "f24",
+      "acconto irpef",
+      "saldo irpef",
+      "irpef",
+      "scadenzario fiscale"
+     ]
+    },
+    "iva": {
+     "nome": "IVA e fatture",
+     "parole": [
+      "iva",
+      "liquidazione iva",
+      "dichiarazione iva",
+      "fattura elettronica",
+      "fatturazione elettronica",
+      "corrispettivi",
+      "registratore telematico",
+      "scontrino elettronico",
+      "split payment",
+      "reverse charge",
+      "sdi"
+     ]
+    },
+    "locali": {
+     "nome": "Tributi locali",
+     "parole": [
+      "imu",
+      "tari",
+      "tasi",
+      "tributi locali",
+      "addizionale comunale",
+      "addizionale regionale",
+      "canone unico",
+      "cosap",
+      "tosap",
+      "tassa rifiuti"
+     ]
+    }
+   }
+  },
+  "isee": {
+   "nome": "ISEE e prestazioni sociali",
+   "colore": "#16a34a",
+   "nicchia": "fisco",
+   "sotto": {
+    "isee": {
+     "nome": "ISEE e DSU",
+     "parole": [
+      "isee",
+      "dsu",
+      "dichiarazione sostitutiva unica",
+      "isee corrente",
+      "isee precompilato",
+      "isee universitario",
+      "isee minorenni"
+     ]
+    },
+    "famiglia": {
+     "nome": "Famiglia e bonus sociali",
+     "parole": [
+      "assegno unico",
+      "bonus nido",
+      "bonus mamme",
+      "bonus asilo nido",
+      "bonus bebè",
+      "bonus nascita",
+      "carta dedicata a te",
+      "bonus psicologo",
+      "bonus sociali",
+      "bonus bollette",
+      "bonus idrico",
+      "bonus gas",
+      "bonus luce",
+      "congedo parentale",
+      "maternità",
+      "bonus famiglia",
+      "bonus giovani",
+      "carta acquisti",
+      "bonus cultura",
+      "bonus 18app"
+     ]
+    },
+    "invalidita": {
+     "nome": "Invalidità e disabilità",
+     "parole": [
+      "invalidità civile",
+      "invalidità",
+      "legge 104",
+      "indennità di accompagnamento",
+      "assegno di invalidità",
+      "disabilità",
+      "caregiver",
+      "carta europea della disabilità",
+      "contrassegno disabili",
+      "inps invalidi"
+     ]
+    },
+    "sostegno": {
+     "nome": "Disoccupazione e sostegni",
+     "parole": [
+      "naspi",
+      "dis-coll",
+      "disoccupazione",
+      "cassa integrazione",
+      "cigo",
+      "cigs",
+      "assegno di inclusione",
+      "supporto formazione lavoro",
+      "sostegno al reddito",
+      "reddito di cittadinanza",
+      "reddito di libertà",
+      "adi "
+     ]
+    }
+   }
+  },
+  "pensioni": {
+   "nome": "Pensioni e previdenza",
+   "colore": "#7c3aed",
+   "nicchia": "fisco",
+   "sotto": {
+    "pensioni": {
+     "nome": "Pensioni",
+     "parole": [
+      "pensione",
+      "pensioni",
+      "pensionamento",
+      "quota 103",
+      "quota 41",
+      "opzione donna",
+      "ape sociale",
+      "ape volontaria",
+      "riforma pensioni",
+      "età pensionabile",
+      "pensione anticipata",
+      "pensione di vecchiaia",
+      "pensione minima",
+      "rivalutazione pensioni",
+      "assegno sociale",
+      "pensione di reversibilità",
+      "ricostituzione",
+      "cedolino pensione"
+     ]
+    },
+    "contributi": {
+     "nome": "Contributi e INPS",
+     "parole": [
+      "contributi",
+      "estratto conto contributivo",
+      "riscatto laurea",
+      "riscatto",
+      "ricongiunzione",
+      "totalizzazione",
+      "versamenti volontari",
+      "gestione separata",
+      "inps circolare",
+      "inps messaggio",
+      "cumulo contributivo",
+      "contributi previdenziali"
+     ]
+    },
+    "complementare": {
+     "nome": "Previdenza complementare",
+     "parole": [
+      "tfr",
+      "fondo pensione",
+      "previdenza complementare",
+      "pensione integrativa",
+      "fondi pensione",
+      "inarcassa",
+      "cassa forense",
+      "enpam",
+      "cassa dottori commercialisti",
+      "casse previdenziali",
+      "adepp"
+     ]
+    }
+   }
+  },
+  "lavoro": {
+   "nome": "Lavoro e contratti",
+   "colore": "#ea580c",
+   "nicchia": "fisco",
+   "sotto": {
+    "colf": {
+     "nome": "Colf e badanti",
+     "parole": [
+      "colf",
+      "badanti",
+      "lavoro domestico",
+      "lavoratori domestici",
+      "contratto colf",
+      "inps colf",
+      "assistenti familiari"
+     ]
+    },
+    "contratti": {
+     "nome": "Contratti e stipendi",
+     "parole": [
+      "ccnl",
+      "contratto collettivo",
+      "rinnovo contratto",
+      "contratto a termine",
+      "apprendistato",
+      "tirocini",
+      "licenziamento",
+      "dimissioni",
+      "smart working",
+      "lavoro agile",
+      "cuneo fiscale",
+      "busta paga",
+      "stipendio",
+      "salario minimo",
+      "tredicesima",
+      "jobs act",
+      "contratti di lavoro"
+     ]
+    },
+    "incentivi": {
+     "nome": "Incentivi alle assunzioni",
+     "parole": [
+      "incentivi assunzioni",
+      "bonus assunzioni",
+      "decontribuzione",
+      "esonero contributivo",
+      "bonus giovani",
+      "bonus donne",
+      "bonus under 35",
+      "bonus sud",
+      "assunzioni agevolate",
+      "sgravi contributivi",
+      "incentivo occupazione"
+     ]
+    }
+   }
+  },
+  "casa_fisco": {
+   "nome": "Casa, locazioni e successioni",
+   "colore": "#0d9488",
+   "nicchia": "fisco",
+   "sotto": {
+    "locazioni": {
+     "nome": "Affitti e locazioni",
+     "parole": [
+      "locazione",
+      "locazioni",
+      "affitto",
+      "affitti",
+      "cedolare secca",
+      "canone concordato",
+      "contratto di locazione",
+      "registrazione contratto",
+      "sfratto",
+      "inquilini",
+      "locatori",
+      "affitti brevi",
+      "cin affitti",
+      "airbnb",
+      "locazione breve"
+     ]
+    },
+    "compravendita": {
+     "nome": "Compravendita e mutui",
+     "parole": [
+      "compravendita",
+      "prima casa",
+      "imposta di registro",
+      "bonus prima casa",
+      "mutuo",
+      "mutui",
+      "agevolazioni prima casa",
+      "under 36",
+      "mutuo giovani",
+      "fondo garanzia consap",
+      "consap",
+      "notaio",
+      "atto notarile"
+     ]
+    },
+    "successioni": {
+     "nome": "Successioni e donazioni",
+     "parole": [
+      "successione",
+      "successioni",
+      "eredità",
+      "dichiarazione di successione",
+      "donazione",
+      "donazioni",
+      "testamento",
+      "imposta di successione",
+      "eredi"
+     ]
+    },
+    "immobili": {
+     "nome": "Catasto e imposte sugli immobili",
+     "parole": [
+      "catasto",
+      "rendita catastale",
+      "revisione catasto",
+      "tassazione immobili",
+      "plusvalenza immobiliare",
+      "imposte sugli immobili",
+      "seconda casa",
+      "voltura catastale"
+     ]
+    }
+   }
+  },
+  "imprese_fisco": {
+   "nome": "Partite IVA e imprese",
+   "colore": "#be185d",
+   "nicchia": "fisco",
+   "sotto": {
+    "forfettario": {
+     "nome": "Forfettari e partite IVA",
+     "parole": [
+      "forfettario",
+      "regime forfettario",
+      "flat tax",
+      "partita iva",
+      "partite iva",
+      "regime fiscale",
+      "startup innovativa",
+      "regime dei minimi",
+      "lavoratori autonomi"
+     ]
+    },
+    "riscossione": {
+     "nome": "Cartelle e riscossione",
+     "parole": [
+      "rottamazione",
+      "cartelle",
+      "cartelle esattoriali",
+      "definizione agevolata",
+      "stralcio",
+      "riscossione",
+      "agenzia entrate riscossione",
+      "pignoramento",
+      "fermo amministrativo",
+      "dilazione",
+      "avvisi bonari",
+      "accertamento",
+      "controlli fiscali",
+      "avviso di accertamento",
+      "ravvedimento",
+      "sanzioni tributarie"
+     ]
+    },
+    "concordato": {
+     "nome": "Concordato e ISA",
+     "parole": [
+      "concordato preventivo",
+      "concordato preventivo biennale",
+      "cpb",
+      "adesione al concordato",
+      "isa",
+      "indici sintetici di affidabilità",
+      "pagelle fiscali"
+     ]
+    },
+    "contabilita": {
+     "nome": "Bilancio e contabilità",
+     "parole": [
+      "bilancio",
+      "bilanci",
+      "deposito bilancio",
+      "contabilità",
+      "ires",
+      "irap",
+      "ammortamento",
+      "super ammortamento",
+      "credito d'imposta",
+      "crediti d'imposta",
+      "compensazione",
+      "studi di settore",
+      "antiriciclaggio",
+      "registro imprese",
+      "camera di commercio",
+      "diritto annuale",
+      "crisi d'impresa",
+      "composizione negoziata"
+     ]
+    }
+   }
+  },
+  "professione_fisco": {
+   "nome": "CAF, commercialisti e professioni",
+   "colore": "#475569",
+   "nicchia": "fisco",
+   "sotto": {
+    "caf": {
+     "nome": "CAF e patronati",
+     "parole": [
+      "caf",
+      "patronato",
+      "patronati",
+      "centri di assistenza fiscale",
+      "consulta caf",
+      "assocaf",
+      "visto di conformità",
+      "visto conformità",
+      "asseverazione",
+      "assistenza fiscale",
+      "caf acli",
+      "caf cgil",
+      "caf cisl",
+      "caf uil",
+      "caf coldiretti",
+      "caf cia",
+      "inca cgil"
+     ]
+    },
+    "ordini": {
+     "nome": "Commercialisti e consulenti",
+     "parole": [
+      "commercialisti",
+      "commercialista",
+      "cndcec",
+      "odcec",
+      "dottori commercialisti",
+      "esperti contabili",
+      "revisori",
+      "revisione legale",
+      "consulenti del lavoro",
+      "intermediari",
+      "intermediari fiscali",
+      "studi professionali",
+      "parcelle",
+      "equo compenso"
+     ]
+    },
+    "servizi": {
+     "nome": "Servizi online e accessi",
+     "parole": [
+      "entratel",
+      "sister",
+      "civis",
+      "cassetto fiscale",
+      "spid",
+      "cie ",
+      "pec",
+      "sistema tessera sanitaria",
+      "comunicazioni agenzia",
+      "fisconline",
+      "area riservata",
+      "pagopa",
+      "app io",
+      "ivass"
+     ]
+    }
+   }
+  },
+  "governo": {
+   "nome": "Governo e Parlamento",
+   "colore": "#1d4ed8",
+   "nicchia": "politica",
+   "sotto": {
+    "governo": {
+     "nome": "Governo",
+     "parole": [
+      "governo",
+      "consiglio dei ministri",
+      "palazzo chigi",
+      "presidente del consiglio",
+      "premier",
+      "ministro",
+      "ministri",
+      "decreto legge",
+      "dpcm",
+      "rimpasto",
+      "sottosegretario",
+      "sottosegretari"
+     ]
+    },
+    "parlamento": {
+     "nome": "Parlamento",
+     "parole": [
+      "parlamento",
+      "camera dei deputati",
+      "senato",
+      "commissione",
+      "ddl",
+      "disegno di legge",
+      "proposta di legge",
+      "emendamento",
+      "emendamenti",
+      "voto di fiducia",
+      "fiducia",
+      "legge elettorale",
+      "question time",
+      "maxi emendamento",
+      "aula"
+     ]
+    },
+    "quirinale": {
+     "nome": "Quirinale",
+     "parole": [
+      "quirinale",
+      "mattarella",
+      "presidente della repubblica",
+      "capo dello stato",
+      "corte costituzionale",
+      "consulta"
+     ]
+    }
+   }
+  },
+  "partiti": {
+   "nome": "Partiti ed elezioni",
+   "colore": "#be123c",
+   "nicchia": "politica",
+   "sotto": {
+    "partiti": {
+     "nome": "Partiti e leader",
+     "parole": [
+      "fratelli d'italia",
+      "lega",
+      "forza italia",
+      "pd ",
+      "partito democratico",
+      "m5s",
+      "movimento 5 stelle",
+      "azione",
+      "italia viva",
+      "avs",
+      "sinistra italiana",
+      "noi moderati",
+      "schlein",
+      "meloni",
+      "salvini",
+      "tajani",
+      "conte",
+      "calenda",
+      "renzi",
+      "bonelli",
+      "fratoianni",
+      "opposizione",
+      "maggioranza",
+      "coalizione",
+      "centrodestra",
+      "centrosinistra",
+      "campo largo",
+      "segretario del pd",
+      "congresso"
+     ]
+    },
+    "elezioni": {
+     "nome": "Elezioni e sondaggi",
+     "parole": [
+      "elezioni",
+      "elettorale",
+      "urne",
+      "sondaggio",
+      "sondaggi",
+      "referendum",
+      "ballottaggio",
+      "candidato",
+      "candidati",
+      "amministrative",
+      "regionali",
+      "politiche",
+      "europee",
+      "affluenza",
+      "exit poll",
+      "primarie",
+      "legge elettorale",
+      "campagna elettorale"
+     ]
+    }
+   }
+  },
+  "economia_pol": {
+   "nome": "Economia e manovra",
+   "colore": "#15803d",
+   "nicchia": "politica",
+   "sotto": {
+    "manovra": {
+     "nome": "Bilancio e conti pubblici",
+     "parole": [
+      "legge di bilancio",
+      "manovra",
+      "def ",
+      "nadef",
+      "documento di economia",
+      "deficit",
+      "debito pubblico",
+      "spread",
+      "pil",
+      "patto di stabilità",
+      "giorgetti",
+      "mef",
+      "riforma fiscale",
+      "taglio tasse",
+      "tasse",
+      "flat tax",
+      "irpef",
+      "istat",
+      "banca d'italia",
+      "corte dei conti",
+      "rating"
+     ]
+    },
+    "welfare": {
+     "nome": "Lavoro, sanità e scuola",
+     "parole": [
+      "salario minimo",
+      "sanità",
+      "sanita",
+      "liste d'attesa",
+      "scuola",
+      "università",
+      "stipendi",
+      "sindacati",
+      "cgil",
+      "cisl",
+      "uil",
+      "sciopero",
+      "landini",
+      "pensioni",
+      "caro vita",
+      "povertà",
+      "contratti"
+     ]
+    },
+    "pnrr": {
+     "nome": "PNRR, energia e infrastrutture",
+     "parole": [
+      "pnrr",
+      "fondi europei",
+      "energia",
+      "bollette",
+      "nucleare",
+      "ponte sullo stretto",
+      "infrastrutture",
+      "transizione",
+      "gas",
+      "carburanti",
+      "accise",
+      "autostrade",
+      "trasporti",
+      "ilva",
+      "ex ilva"
+     ]
+    }
+   }
+  },
+  "europa": {
+   "nome": "Europa e UE",
+   "colore": "#0369a1",
+   "nicchia": "politica",
+   "sotto": {
+    "istituzioni": {
+     "nome": "Istituzioni UE",
+     "parole": [
+      "parlamento europeo",
+      "commissione europea",
+      "consiglio europeo",
+      "von der leyen",
+      "europarlamento",
+      "eurodeputati",
+      "bruxelles",
+      "strasburgo",
+      "metsola",
+      "unione europea",
+      "ue "
+     ]
+    },
+    "economia_ue": {
+     "nome": "Economia europea",
+     "parole": [
+      "bce",
+      "lagarde",
+      "eurozona",
+      "dazi",
+      "patto di stabilità",
+      "next generation eu",
+      "pnrr",
+      "fondi europei",
+      "green deal",
+      "mercato unico",
+      "euro",
+      "mes",
+      "bilancio ue"
+     ]
+    }
+   }
+  },
+  "esteri": {
+   "nome": "Esteri e difesa",
+   "colore": "#a16207",
+   "nicchia": "politica",
+   "sotto": {
+    "esteri": {
+     "nome": "Esteri",
+     "parole": [
+      "farnesina",
+      "ministro degli esteri",
+      "ambasciatore",
+      "diplomazia",
+      "vertice",
+      "g7",
+      "g20",
+      "nato",
+      "onu",
+      "trump",
+      "putin",
+      "zelensky",
+      "ucraina",
+      "gaza",
+      "medio oriente",
+      "israele",
+      "iran",
+      "cina",
+      "usa",
+      "stati uniti",
+      "russia",
+      "sanzioni",
+      "accordo di pace",
+      "cessate il fuoco",
+      "summit",
+      "casa bianca",
+      "kiev",
+      "mosca",
+      "hamas",
+      "libano",
+      "siria",
+      "libia",
+      "africa",
+      "piano mattei"
+     ]
+    },
+    "difesa": {
+     "nome": "Difesa",
+     "parole": [
+      "difesa",
+      "crosetto",
+      "forze armate",
+      "esercito",
+      "spese militari",
+      "missione",
+      "missioni",
+      "riarmo",
+      "arruolamento",
+      "leva",
+      "marina militare",
+      "aeronautica",
+      "militari italiani",
+      "industria della difesa"
+     ]
+    }
+   }
+  },
+  "giustizia": {
+   "nome": "Giustizia e diritti",
+   "colore": "#6d28d9",
+   "nicchia": "politica",
+   "sotto": {
+    "giustizia": {
+     "nome": "Giustizia",
+     "parole": [
+      "giustizia",
+      "nordio",
+      "csm",
+      "magistrati",
+      "magistratura",
+      "separazione delle carriere",
+      "riforma della giustizia",
+      "cassazione",
+      "tribunale",
+      "sentenza",
+      "processo",
+      "procura",
+      "intercettazioni",
+      "carceri",
+      "prescrizione",
+      "ddl nordio",
+      "inchiesta",
+      "indagato"
+     ]
+    },
+    "diritti": {
+     "nome": "Diritti, immigrazione e sicurezza",
+     "parole": [
+      "diritti",
+      "immigrazione",
+      "migranti",
+      "sbarchi",
+      "cittadinanza",
+      "ius scholae",
+      "ius soli",
+      "fine vita",
+      "unioni civili",
+      "aborto",
+      "autonomia differenziata",
+      "premierato",
+      "riforme costituzionali",
+      "decreto sicurezza",
+      "piantedosi",
+      "viminale",
+      "ong",
+      "cpr",
+      "albania"
+     ]
+    }
+   }
+  },
+  "territorio": {
+   "nome": "Regioni e Campania",
+   "colore": "#c2185b",
+   "nicchia": "politica",
+   "sotto": {
+    "campania": {
+     "nome": "Campania",
+     "parole": [
+      "campania",
+      "regione campania",
+      "consiglio regionale",
+      "napoli",
+      "caserta",
+      "salerno",
+      "avellino",
+      "benevento",
+      "manfredi",
+      "de luca",
+      "fico",
+      "cirielli",
+      "mezzogiorno",
+      "sud ",
+      "zes",
+      "bagnoli",
+      "terra dei fuochi",
+      "mattino",
+      "giunta campana",
+      "presidente della regione"
+     ]
+    },
+    "regioni": {
+     "nome": "Regioni e Comuni",
+     "parole": [
+      "regioni",
+      "conferenza stato-regioni",
+      "anci",
+      "comuni",
+      "sindaci",
+      "province",
+      "autonomia",
+      "federalismo",
+      "giunta regionale",
+      "governatore",
+      "governatori",
+      "sindaco",
+      "comune di"
+     ]
+    }
+   }
+  },
+  "novita_auto": {
+   "nome": "Novità e anteprime",
+   "colore": "#dc2626",
+   "nicchia": "auto",
+   "sotto": {
+    "modelli": {
+     "nome": "Nuovi modelli",
+     "parole": [
+      "nuova",
+      "nuovo modello",
+      "anteprima",
+      "debutto",
+      "presentata",
+      "presentato",
+      "svelata",
+      "svelato",
+      "restyling",
+      "facelift",
+      "concept",
+      "teaser",
+      "nuova generazione",
+      "model year",
+      "lancio",
+      "versione",
+      "allestimento",
+      "serie speciale",
+      "in arrivo",
+      "spiata",
+      "foto spia"
+     ]
+    },
+    "marchi": {
+     "nome": "Marchi",
+     "parole": [
+      "fiat",
+      "stellantis",
+      "alfa romeo",
+      "maserati",
+      "ferrari",
+      "lamborghini",
+      "lancia",
+      "jeep",
+      "peugeot",
+      "citroën",
+      "citroen",
+      "opel",
+      "volkswagen",
+      "audi",
+      "bmw",
+      "mercedes",
+      "porsche",
+      "toyota",
+      "honda",
+      "nissan",
+      "mazda",
+      "suzuki",
+      "hyundai",
+      "kia",
+      "dacia",
+      "renault",
+      "tesla",
+      "byd",
+      "mg ",
+      "volvo",
+      "skoda",
+      "seat",
+      "cupra",
+      "ford",
+      "mini",
+      "land rover",
+      "jaguar",
+      "smart",
+      "omoda",
+      "jaecoo",
+      "leapmotor",
+      "xpeng",
+      "nio",
+      "zeekr",
+      "geely",
+      "chery",
+      "panda",
+      "500e",
+      "tonale",
+      "giulia",
+      "stelvio"
+     ]
+    }
+   }
+  },
+  "elettriche": {
+   "nome": "Elettriche e ibride",
+   "colore": "#16a34a",
+   "nicchia": "auto",
+   "sotto": {
+    "ev": {
+     "nome": "Elettriche e ricarica",
+     "parole": [
+      "elettrica",
+      "elettriche",
+      "elettrico",
+      "ev ",
+      "bev",
+      "batteria",
+      "batterie",
+      "autonomia",
+      "ricarica",
+      "kwh",
+      "wallbox",
+      "colonnine",
+      "fast charge",
+      "ricarica rapida",
+      "supercharger",
+      "ionity",
+      "enel x",
+      "plenitude",
+      "be charge",
+      "v2g",
+      "allo stato solido",
+      "punti di ricarica"
+     ]
+    },
+    "ibride": {
+     "nome": "Ibride e altri motori",
+     "parole": [
+      "ibrida",
+      "ibride",
+      "hybrid",
+      "mild hybrid",
+      "plug-in",
+      "phev",
+      "gpl",
+      "metano",
+      "biocarburanti",
+      "e-fuel",
+      "idrogeno",
+      "fuel cell",
+      "diesel",
+      "benzina",
+      "euro 7",
+      "motore termico",
+      "2035"
+     ]
+    },
+    "incentivi": {
+     "nome": "Incentivi auto",
+     "parole": [
+      "incentivi auto",
+      "ecobonus auto",
+      "bonus auto elettriche",
+      "incentivi elettriche",
+      "rottamazione auto",
+      "bonus veicoli",
+      "contributo auto",
+      "incentivi veicoli",
+      "bonus colonnine",
+      "incentivi statali auto",
+      "incentivi 2026"
+     ]
+    }
+   }
+  },
+  "mercato_auto": {
+   "nome": "Mercato e prezzi",
+   "colore": "#2563eb",
+   "nicchia": "auto",
+   "sotto": {
+    "immatricolazioni": {
+     "nome": "Immatricolazioni e vendite",
+     "parole": [
+      "immatricolazioni",
+      "immatricolazione",
+      "vendite",
+      "mercato auto",
+      "quote di mercato",
+      "unrae",
+      "anfia",
+      "acea",
+      "classifica",
+      "best seller",
+      "top ten",
+      "segmento",
+      "registrazioni",
+      "mercato italiano"
+     ]
+    },
+    "prezzi": {
+     "nome": "Prezzi, offerte e usato",
+     "parole": [
+      "prezzo",
+      "prezzi",
+      "listino",
+      "sconto",
+      "sconti",
+      "offerta",
+      "offerte",
+      "promozione",
+      "promozioni",
+      "noleggio",
+      "noleggio a lungo termine",
+      "leasing",
+      "finanziamento",
+      "rata",
+      "usato",
+      "km0",
+      "km 0",
+      "valutazione usato",
+      "mercato dell'usato",
+      "costo",
+      "costi",
+      "tco"
+     ]
+    },
+    "industria": {
+     "nome": "Industria e lavoro",
+     "parole": [
+      "stellantis",
+      "fabbrica",
+      "stabilimento",
+      "produzione",
+      "cassa integrazione",
+      "mirafiori",
+      "pomigliano",
+      "melfi",
+      "cassino",
+      "termoli",
+      "fiom",
+      "fim cisl",
+      "uilm",
+      "dazi auto",
+      "filiera",
+      "componentistica",
+      "chip",
+      "semiconduttori",
+      "crisi auto",
+      "licenziamenti",
+      "indotto",
+      "gigafactory"
+     ]
+    }
+   }
+  },
+  "normativa_auto": {
+   "nome": "Normativa e codice della strada",
+   "colore": "#7c3aed",
+   "nicchia": "auto",
+   "sotto": {
+    "codice": {
+     "nome": "Codice della strada",
+     "parole": [
+      "codice della strada",
+      "nuovo codice",
+      "patente",
+      "patenti",
+      "punti patente",
+      "multe",
+      "multa",
+      "autovelox",
+      "limiti di velocità",
+      "tutor",
+      "sospensione patente",
+      "alcol",
+      "cellulare alla guida",
+      "monopattini",
+      "casco",
+      "cinture",
+      "neopatentati",
+      "velocità",
+      "sanzioni stradali",
+      "bodycam"
+     ]
+    },
+    "zone": {
+     "nome": "ZTL, emissioni e divieti",
+     "parole": [
+      "euro 7",
+      "ztl",
+      "zone a traffico limitato",
+      "area b",
+      "area c",
+      "blocco del traffico",
+      "blocchi del traffico",
+      "stop diesel",
+      "zone a basse emissioni",
+      "emissioni",
+      "co2",
+      "green deal",
+      "stop motori termici",
+      "divieto",
+      "limitazioni",
+      "blocco euro"
+     ]
+    },
+    "burocrazia": {
+     "nome": "Bollo, assicurazione e documenti",
+     "parole": [
+      "revisione",
+      "bollo",
+      "bollo auto",
+      "superbollo",
+      "tassa di possesso",
+      "assicurazione",
+      "rc auto",
+      "assicurazione auto",
+      "ivass",
+      "premi rc",
+      "frodi",
+      "targa",
+      "targhe",
+      "passaggio di proprietà",
+      "motorizzazione",
+      "libretto",
+      "carta di circolazione",
+      "patente digitale",
+      "pra",
+      "aci",
+      "visura"
+     ]
+    }
+   }
+  },
+  "sicurezza_auto": {
+   "nome": "Richiami e sicurezza",
+   "colore": "#b91c1c",
+   "nicchia": "auto",
+   "sotto": {
+    "richiami": {
+     "nome": "Richiami",
+     "parole": [
+      "richiamo",
+      "richiami",
+      "recall",
+      "difetto",
+      "difetti",
+      "airbag",
+      "campagna di richiamo",
+      "ritiro",
+      "guasto",
+      "segnalazione"
+     ]
+    },
+    "crash": {
+     "nome": "Crash test e sicurezza stradale",
+     "parole": [
+      "euroncap",
+      "euro ncap",
+      "crash test",
+      "sicurezza passiva",
+      "adas",
+      "frenata automatica",
+      "aeb",
+      "ncap",
+      "incidente",
+      "incidenti",
+      "incidenti stradali",
+      "morti sulla strada",
+      "sicurezza stradale",
+      "vittime della strada",
+      "pedoni",
+      "polizia stradale"
+     ]
+    }
+   }
+  },
+  "prove": {
+   "nome": "Prove e recensioni",
+   "colore": "#0891b2",
+   "nicchia": "auto",
+   "sotto": {
+    "prove": {
+     "nome": "Prove su strada",
+     "parole": [
+      "prova su strada",
+      "prova",
+      "test drive",
+      "recensione",
+      "provata",
+      "provato",
+      "al volante",
+      "come va",
+      "pro e contro",
+      "confronto",
+      "comparativa",
+      "consumi reali",
+      "giudizio",
+      "pagella",
+      "opinioni"
+     ]
+    },
+    "guide": {
+     "nome": "Guide all'acquisto",
+     "parole": [
+      "guida all'acquisto",
+      "quale scegliere",
+      "migliori auto",
+      "le migliori",
+      "top 10",
+      "consigli",
+      "cosa comprare",
+      "da comprare",
+      "usato sicuro",
+      "guida",
+      "quale comprare",
+      "meglio"
+     ]
+    }
+   }
+  },
+  "tecnica_auto": {
+   "nome": "Tecnica e guida autonoma",
+   "colore": "#475569",
+   "nicchia": "auto",
+   "sotto": {
+    "tech": {
+     "nome": "Guida autonoma e software",
+     "parole": [
+      "guida autonoma",
+      "self driving",
+      "fsd",
+      "autopilot",
+      "robotaxi",
+      "waymo",
+      "livello 2",
+      "livello 3",
+      "aggiornamento software",
+      "ota",
+      "infotainment",
+      "android auto",
+      "carplay",
+      "connected car",
+      "telemetria",
+      "lidar",
+      "radar",
+      "sensori",
+      "software defined vehicle",
+      "intelligenza artificiale",
+      "chip"
+     ]
+    },
+    "motori": {
+     "nome": "Motori e manutenzione",
+     "parole": [
+      "motore",
+      "motori",
+      "cambio",
+      "trasmissione",
+      "turbo",
+      "cilindrata",
+      "cavalli",
+      "potenza",
+      "coppia",
+      "consumi",
+      "telaio",
+      "sospensioni",
+      "freni",
+      "pneumatici",
+      "gomme",
+      "olio",
+      "tagliando",
+      "manutenzione",
+      "officina",
+      "ricambi",
+      "meccanico"
+     ]
+    }
+   }
+  },
+  "moto_sport": {
+   "nome": "Moto e motorsport",
+   "colore": "#ea580c",
+   "nicchia": "auto",
+   "sotto": {
+    "moto": {
+     "nome": "Moto e scooter",
+     "parole": [
+      "moto",
+      "motociclette",
+      "scooter",
+      "due ruote",
+      "ducati",
+      "yamaha",
+      "kawasaki",
+      "ktm",
+      "piaggio",
+      "vespa",
+      "aprilia",
+      "moto guzzi",
+      "triumph",
+      "harley",
+      "benelli",
+      "mv agusta",
+      "eicma",
+      "motociclisti"
+     ]
+    },
+    "motorsport": {
+     "nome": "Motorsport",
+     "parole": [
+      "formula 1",
+      "f1",
+      "gran premio",
+      "gp",
+      "motogp",
+      "wec",
+      "rally",
+      "wrc",
+      "pilota",
+      "qualifiche",
+      "pole position",
+      "podio",
+      "scuderia",
+      "ferrari f1",
+      "verstappen",
+      "leclerc",
+      "hamilton",
+      "norris",
+      "antonelli",
+      "sainz",
+      "bagnaia",
+      "marquez",
+      "le mans",
+      "imola",
+      "monza",
+      "mugello",
+      "paddock",
+      "mondiale piloti"
+     ]
+    }
+   }
   }
  },
  "luoghi": {

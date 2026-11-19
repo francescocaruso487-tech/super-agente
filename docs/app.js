@@ -80,7 +80,7 @@ function card(n) {
   const luogoB = n.luogo ? `<span class="badge luogo">📍 ${esc(n.luogo)}</span>` : "";
   const badge = luogoB + n.aree.filter((a) => a !== "altro" || !n.luogo).map((a) => `<span class="badge" style="--c:${colore(a)}">${esc(nome(a))}</span>`).join("");
   return `<article class="card${letta ? " letta" : ""}" data-id="${n.id}" style="--c:${colore(n.aree[0])}">
-    <div class="riga">${badge}${n.normativa ? '<span class="badge norm">Normativa</span>' : ""}${nuovo ? '<span class="nuovo" title="Nuova"></span>' : ""}</div>
+    <div class="riga">${badge}${n.normativa ? `<span class="badge norm">${["edilizia", "fisco"].includes(n.nicchia || "edilizia") ? "Normativa" : "Ufficiale"}</span>` : ""}${nuovo ? '<span class="nuovo" title="Nuova"></span>' : ""}</div>
     <h3 class="titolo">${esc(n.titolo)}</h3>
     ${n.sintesi ? `<p class="sintesi">${esc(n.sintesi)}</p>` : ""}
     <div class="piede"><span>${esc(n.fonte_nome)} · ${fa(dataDi(n))}</span>
@@ -209,7 +209,7 @@ function renderFonti() {
 
 function renderTutto() { renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "15";
+const VERSIONE_APP = "16";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -222,7 +222,7 @@ async function carica(forza) {
     const [news, aree, status] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null)]);
     if (!Array.isArray(news.notizie)) throw new Error("dati non validi");
     state.news = news.notizie; state.aree = aree; state.status = status;
-    $("#aggiornato").textContent = (news.aggiornato ? `Aggiornato ${fa(new Date(news.aggiornato))}` : "Edilizia e ingegneria") + ` · v${VERSIONE_APP}`;
+    $("#aggiornato").textContent = (news.aggiornato ? `Aggiornato ${fa(new Date(news.aggiornato))}` : "Super Agente") + ` · v${VERSIONE_APP}`;
     renderTutto();
   } catch (err) {
     if (!state.news.length) {
@@ -269,7 +269,7 @@ document.addEventListener("click", (e) => {
 });
 function aggiornaNicchie() {
   document.querySelectorAll("#nicchie button").forEach((b) => b.classList.toggle("on", b.dataset.n === state.nicchia));
-  $("#solo-norm-label").hidden = state.nicchia !== "edilizia";
+  $("#solo-norm-label").hidden = !["edilizia", "fisco"].includes(state.nicchia);
 }
 document.querySelectorAll("#nicchie button").forEach((b) => b.addEventListener("click", () => {
   state.nicchia = b.dataset.n; store.set("nicchia", state.nicchia);

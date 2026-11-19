@@ -32,8 +32,9 @@ ROOT = Path(__file__).resolve().parent.parent
 UA = "Mozilla/5.0 (compatible; SuperAgenteBot/1.0; uso personale)"
 TIMEOUT = 20
 RETENTION_DAYS = 60
-MAX_ITEMS = 2000
+MAX_ITEMS = 6000
 MAX_AGE_NEW_DAYS = 30        # alla prima lettura ignora notizie piu' vecchie di cosi'
+PUSH_NICCHIE = {"edilizia", "fisco", "tech"}   # politica e auto: solo riepilogo del mattino
 MAX_PUSH_SINGLE = 6          # oltre, un solo messaggio riassuntivo
 AI_MAX_PER_RUN = int(os.environ.get("AI_MAX_PER_RUN", "15"))
 FEED_GUESSES = ["feed/", "feed", "rss", "rss.xml", "feed.rss", "index.xml", "atom.xml"]
@@ -385,7 +386,7 @@ def classify(item, src, matchers, urgenti, aree_cfg):
             if any(r.search(text) for r in luoghi.get(nome, [])):
                 luogo = nome
                 break
-    norm = (src["tipo"] == "ufficiale" or any(r.search(text) for r in urgenti)) if nicchia == "edilizia" else src["tipo"] == "ufficiale"
+    norm = (src["tipo"] == "ufficiale" or any(r.search(text) for r in urgenti)) if nicchia in ("edilizia", "fisco") else src["tipo"] == "ufficiale"
     return aree, norm, sotto, luogo
 
 
@@ -440,7 +441,7 @@ def app_url():
 
 
 def notify_new(new_items, aree_cfg):
-    alerts = [i for i in new_items if i["normativa"]]
+    alerts = [i for i in new_items if i["normativa"] and i.get("nicchia", "edilizia") in PUSH_NICCHIE]
     if not alerts:
         return 0
     if len(alerts) > MAX_PUSH_SINGLE:
@@ -451,7 +452,7 @@ def notify_new(new_items, aree_cfg):
     for i in alerts:
         area = aree_cfg["aree"].get(i["aree"][0], {"nome": "Altro"})["nome"]
         msg = i["titolo"] + (f"\n{i['sintesi']}" if i.get("sintesi") else "")
-        sigla = "📱 " if i.get("nicchia") == "tech" else ""
+        sigla = {"tech": "📱 ", "fisco": "🧾 "}.get(i.get("nicchia"), "")
         ntfy({"title": f"{sigla}{area} · {i['fonte_nome']}", "message": msg[:700], "click": i["link"],
               "priority": 4 if i["tipo"] == "ufficiale" else 3, "tags": ["rotating_light"] if i["tipo"] == "ufficiale" else ["newspaper"]})
     return len(alerts)
@@ -465,7 +466,7 @@ def send_digest(news, aree_cfg, ultimo=None):
         except Exception:  # noqa: BLE001
             pass
     recent = [i for i in news if parse_iso(i["visto"]) >= since]
-    etichette = {"edilizia": "Edilizia", "tech": "Tecnologia"}
+    etichette = {"edilizia": "Edilizia", "fisco": "Fisco e CAF", "politica": "Politica", "auto": "Auto", "tech": "Tecnologia"}
     totale = 0
     for nic, etichetta in etichette.items():
         rec = [i for i in recent if i.get("nicchia", "edilizia") == nic]
@@ -627,8 +628,10 @@ def main():
         print("Prima esecuzione: nessuna notifica (per non inviare l'archivio intero).")
     else:
         # niente invio qui: le notifiche partono dopo il salvataggio dei dati (--invia-notifiche)
-        save_json(ROOT / "da_notificare.json", [i for i in new_items if i["normativa"]])
-        print(f"Notifiche in coda: {sum(1 for i in new_items if i['normativa'])}")
+        # le fonti appena aggiunte non fanno scattare avvisi alla prima lettura (sarebbe un'ondata di vecchie notizie)
+        coda = [i for i in new_items if i["normativa"] and i["fonte"] in prev_status]
+        save_json(ROOT / "da_notificare.json", coda)
+        print(f"Notifiche in coda: {len(coda)}")
     return 0
 
 
