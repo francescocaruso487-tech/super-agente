@@ -328,7 +328,7 @@ def read_source(src):
 
 
 # ---------------------------------------------------------------- classificazione
-TASSONOMIA = "9"  # cambia questo valore per far riclassificare l'archivio
+TASSONOMIA = "10"  # cambia questo valore per far riclassificare l'archivio
 
 
 def _rx(kw):
@@ -646,7 +646,7 @@ def main():
     aree_pub["locale"] = {"nome": "Locale · Campania e Caserta", "colore": "#c2185b", "sotto": {}, "speciale": True}
     aree_pub["altro"] = {"nome": "Altro", "colore": "#7b8794"}
     save_json(data / "aree.json", aree_pub)
-    save_json(data / "professioni.json", {k: {"nome": v["nome"], "emoji": v.get("emoji", "")} for k, v in aree_cfg.get("professioni", {}).items()})
+    save_json(data / "professioni.json", {"gruppi": aree_cfg.get("gruppi_professioni", []), "professioni": {k: {"nome": v["nome"], "emoji": v.get("emoji", ""), "gruppo": v.get("gruppo", "")} for k, v in aree_cfg.get("professioni", {}).items()}})
     save_json(news_file, {"aggiornato": iso(ts), "tassonomia": TASSONOMIA, "notizie": allnews})
     ok = sum(1 for s in statuses if s["stato"] in ("ok", "ok_scraping", "ok_indiretto"))
     save_json(status_file, {"aggiornato": iso(ts), "fonti_ok": ok, "fonti_totale": len(statuses), "fonti": statuses})

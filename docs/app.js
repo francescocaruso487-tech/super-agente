@@ -42,7 +42,7 @@ idb.open().then(async () => {
   if (cambiato && state.news.length) renderTutto();
 });
 const state = {
-  news: [], aree: {}, status: null, professioni: {}, prof: "tutte", nicchia: store.get("nicchia", "edilizia"),
+  news: [], aree: {}, status: null, professioni: {}, gruppiProf: [], vista: "prof", prof: "tutte", nicchia: store.get("nicchia", "edilizia"),
   aperte: new Set(), limiti: {}, sotto: {}, areaArchivio: "tutte", soloNorm: false, query: "", mostrati: 40,
   lette: new Set(store.get("lette", [])), stelle: new Set(store.get("stelle", [])),
   ultimaVisita: store.get("ultimaVisita", null),
@@ -70,8 +70,8 @@ function etichettaGiorno(d) {
   return `${GIORNI[d.getDay()]} ${d.getDate()} ${MESI[d.getMonth()]}`;
 }
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const nome = (a) => state.aree[a]?.nome || a;
-const colore = (a) => state.aree[a]?.colore || "#7b8794";
+const nome = (a) => (a.startsWith("p:") ? (state.professioni[a.slice(2)]?.emoji || "") + " " + (state.professioni[a.slice(2)]?.nome || a) : state.aree[a]?.nome || a);
+const colore = (a) => state.aree[a]?.colore || "#4a6fa5";
 
 function card(n) {
   const letta = state.lette.has(n.id);
@@ -92,7 +92,7 @@ function card(n) {
 const GRUPPI = { edilizia: [["soldi", "💶 Bonus, fisco e CAF"], ["pratiche", "📑 Pratiche e burocrazia"], ["tecnica", "🔧 Tecnica e cantiere"], ["mercato", "🏠 Immobiliare, energia e mobilità"], ["studi", "⚖️ Legale, management e lavoro"], ["altri", "🌐 Altri settori e professioni"]] };
 const gruppoDi = (a) => (a === "locale" ? "pratiche" : state.aree[a]?.gruppo || null);
 const PRIMA = { soldi: ["bonus", "imprese"], pratiche: ["locale", "edilizia", "catasto", "appalti"] };
-const profOk = (n) => state.prof === "tutte" || (n.prof || []).includes(state.prof);
+const profOk = (n) => state.vista === "prof" || state.prof === "tutte" || (n.prof || []).includes(state.prof);
 const inNicchia = (n) => (n.nicchia || "edilizia") === state.nicchia;
 const areaNicchia = (a) => (state.aree[a]?.nicchia || "edilizia") === state.nicchia;
 
@@ -103,6 +103,7 @@ function filtra({ area, query, soloNorm }) {
     if (area !== "stelle" && state.nicchia === "edilizia" && !profOk(n)) return false;
     if (area === "stelle") { if (!state.stelle.has(n.id)) return false; }
     else if (area === "tutte") { if (n.aree.length === 1 && n.aree[0] === "altro" && !n.luogo) return false; }
+    else if (area.startsWith("p:")) { if (!(n.prof || []).includes(area.slice(2))) return false; }
     else if (area.startsWith("g:")) { const g = area.slice(2); if (!n.aree.some((a) => gruppoDi(a) === g) && !(g === "pratiche" && n.luogo)) return false; }
     else if (area === "locale") { if (!n.luogo) return false; }
     else if (area === "altro") { if (n.luogo || !n.aree.includes("altro")) return false; }
@@ -135,7 +136,13 @@ function sezione(k, listaTot) {
   const selSotto = state.sotto[k] || "";
   let lista = listaTot;
   let chipsSotto = "";
-  if (aperta && Object.keys(sottoDef).length) {
+  if (aperta && k.startsWith("p:")) {
+    const sel = state.sotto[k] || "";
+    if (sel) lista = listaTot.filter((n) => n.aree.includes(sel));
+    const ar = {}; listaTot.forEach((n) => n.aree.forEach((a) => { if (a !== "altro" && state.aree[a]) ar[a] = (ar[a] || 0) + 1; }));
+    chipsSotto = `<div class="sotto"><button class="chip s${sel ? "" : " on"}" data-sotto="${k}|">Tutte <small>${listaTot.length}</small></button>` +
+      Object.entries(ar).sort((a, b) => b[1] - a[1]).map(([a, c]) => `<button class="chip s${sel === a ? " on" : ""}" data-sotto="${k}|${a}">${esc(nome(a))} <small>${c}</small></button>`).join("") + `</div>`;
+  } else if (aperta && Object.keys(sottoDef).length) {
     if (selSotto) lista = listaTot.filter((n) => (n.sotto || []).includes(`${k}.${selSotto}`));
     const cnt = (sid) => listaTot.filter((n) => (n.sotto || []).includes(`${k}.${sid}`)).length;
     chipsSotto = `<div class="sotto">` +
@@ -144,7 +151,7 @@ function sezione(k, listaTot) {
       `</div>`;
   }
   const nuovi = lista.filter((n) => !state.lette.has(n.id) && state.ultimaVisita && new Date(n.visto) > new Date(state.ultimaVisita)).length;
-  const titolo = k === "stelle" ? "★ Salvate" : nome(k);
+  const titolo = k === "stelle" ? "★ Salvate" : nome(k).trim();
   const col = k === "stelle" ? "#f0b429" : colore(k);
   let corpo = "";
   if (aperta) {
@@ -171,7 +178,11 @@ function renderNovita() {
   if (!state.news.length) { box.innerHTML = vuoto("Ancora nessuna notizia", "Il primo aggiornamento automatico è in arrivo (ogni ora)."); return; }
   const tutteAree = Object.keys(state.aree).filter((a) => a !== "altro" && a !== "locale" && areaNicchia(a));
   let chiavi = ["stelle"];
-  if (GRUPPI[state.nicchia]) {
+  if (state.nicchia === "edilizia" && state.vista === "prof" && state.gruppiProf.length) {
+    for (const g of state.gruppiProf) {
+      chiavi.push("#" + g.nome, ...Object.keys(state.professioni).filter((p) => state.professioni[p].gruppo === g.id).map((p) => "p:" + p));
+    }
+  } else if (GRUPPI[state.nicchia]) {
     for (const [g, l] of GRUPPI[state.nicchia]) {
       const lista = [...(g === "pratiche" ? ["locale"] : []), ...tutteAree.filter((a) => gruppoDi(a) === g)];
       const pri = PRIMA[g] || [];
@@ -180,13 +191,13 @@ function renderNovita() {
     }
     chiavi.push(...tutteAree.filter((a) => !gruppoDi(a)));
   } else chiavi.push(...tutteAree);
-  chiavi.push("altro");
+  if (!(state.nicchia === "edilizia" && state.vista === "prof")) chiavi.push("altro");
   let out = "";
   let titoloPendente = "";
   for (const k of chiavi) {
     if (k.startsWith("#")) { titoloPendente = k.slice(1); continue; }
     const lista = filtra({ area: k, query: "", soloNorm: state.soloNorm });
-    if (!lista.length && k !== "stelle") { if (k === "altro") continue; }
+    if (!lista.length && k !== "stelle" && (k === "altro" || k.startsWith("p:"))) continue;
     if (k === "stelle" && !state.stelle.size) continue;
     if (k === "locale" && !state.aree.locale) continue;
     if (titoloPendente && lista.length) { out += `<div class="gruppo-titolo">${esc(titoloPendente)}</div>`; titoloPendente = ""; }
@@ -233,14 +244,18 @@ function renderProf() {
   const ids = Object.keys(state.professioni);
   if (state.nicchia !== "edilizia" || !ids.length) { el.hidden = true; return; }
   el.hidden = false;
-  const base = state.news.filter(inNicchia);
-  const conta = (p) => base.filter((n) => (n.prof || []).includes(p)).length;
-  const voci = [["tutte", "👤 Tutte le professioni", base.length]].concat(ids.map((p) => [p, `${state.professioni[p].emoji} ${state.professioni[p].nome}`, conta(p)]).filter((v) => v[2] > 0 || v[0] === state.prof));
-  el.innerHTML = voci.map(([k, l, n]) => `<button class="chip${k === state.prof ? " on" : ""}" data-prof="${k}">${esc(l)} <small>${n}</small></button>`).join("");
+  let h = `<button class="chip${state.vista === "prof" ? " on" : ""}" data-vista="prof">👤 Per professione</button><button class="chip${state.vista === "arg" ? " on" : ""}" data-vista="arg">📚 Per argomento</button>`;
+  if (state.vista === "arg") {
+    const base = state.news.filter(inNicchia);
+    const conta = (p) => base.filter((n) => (n.prof || []).includes(p)).length;
+    h += [["tutte", "Tutte le professioni", base.length]].concat(ids.map((p) => [p, `${state.professioni[p].emoji} ${state.professioni[p].nome}`, conta(p)]).filter((v) => v[2] > 0 || v[0] === state.prof))
+      .map(([k, l, n]) => `<button class="chip${k === state.prof ? " on" : ""}" data-prof="${k}">${esc(l)} <small>${n}</small></button>`).join("");
+  }
+  el.innerHTML = h;
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "18";
+const VERSIONE_APP = "19";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -251,7 +266,7 @@ async function carica(forza) {
   };
   try {
     const [news, aree, status, prof] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({}))]);
-    state.professioni = prof || {};
+    state.professioni = prof.professioni || {}; state.gruppiProf = prof.gruppi || [];
     if (!Array.isArray(news.notizie)) throw new Error("dati non validi");
     state.news = news.notizie; state.aree = aree; state.status = status;
     $("#aggiornato").textContent = (news.aggiornato ? `Aggiornato ${fa(new Date(news.aggiornato))}` : "Super Agente") + ` · v${VERSIONE_APP}`;
@@ -265,6 +280,8 @@ async function carica(forza) {
 }
 
 document.addEventListener("click", (e) => {
+  const vi = e.target.closest("[data-vista]");
+  if (vi) { state.vista = vi.dataset.vista; state.prof = "tutte"; state.aperte.clear(); renderTutto(); return; }
   const pf = e.target.closest("[data-prof]");
   if (pf) { state.prof = pf.dataset.prof; state.mostrati = 40; renderTutto(); return; }
   const sez = e.target.closest("[data-sez]");
