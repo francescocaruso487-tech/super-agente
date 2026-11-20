@@ -1,4 +1,4 @@
-# Super Agente
+# Rassegna
 
 App personale (installabile su Android) che segue ogni giorno le novità normative e tecniche
 in **edilizia e ingegneria**: titoli abilitativi, antincendio, catasto, strutture, impianti/energia,

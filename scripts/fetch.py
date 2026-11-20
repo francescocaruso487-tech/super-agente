@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Super Agente - raccolta novita' (edilizia/ingegneria).
+"""Rassegna - raccolta novita' (edilizia/ingegneria).
 
 Ogni esecuzione:
   1. legge tutte le fonti di sources.json (RSS, con ricerca automatica del feed,

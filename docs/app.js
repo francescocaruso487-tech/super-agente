@@ -1,5 +1,5 @@
 "use strict";
-// Super Agente - interfaccia. Nessuna dipendenza esterna.
+// Rassegna - interfaccia. Nessuna dipendenza esterna.
 const $ = (s) => document.querySelector(s);
 // Salvataggio doppio (localStorage + IndexedDB) e richiesta di archivio "persistente",
 // cosi' il telefono non cancella le notizie lette/le stelle anche dopo giorni o settimane.
@@ -428,7 +428,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "25";
+const VERSIONE_APP = "26";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -445,7 +445,7 @@ async function carica(forza) {
     state.professioni = prof.professioni || {}; state.gruppiProf = prof.gruppi || [];
     if (!Array.isArray(news.notizie)) throw new Error("dati non validi");
     state.news = news.notizie; state.aree = aree; state.status = status;
-    $("#aggiornato").textContent = (news.aggiornato ? `Aggiornato ${fa(new Date(news.aggiornato))}` : "Super Agente") + ` · v${VERSIONE_APP}`;
+    $("#aggiornato").textContent = (news.aggiornato ? `Aggiornato ${fa(new Date(news.aggiornato))}` : "Rassegna") + ` · v${VERSIONE_APP}`;
     renderTutto();
   } catch (err) {
     if (!state.news.length) {
