@@ -582,6 +582,27 @@
   "gruppo": null,
   "sotto": {}
  },
+ "offerte_auto": {
+  "nome": "Super offerte e promozioni",
+  "colore": "#f59e0b",
+  "nicchia": "auto",
+  "gruppo": null,
+  "sotto": {
+   "sconti": "Sconti e promozioni",
+   "km0": "Km0 e usato garantito",
+   "noleggio": "Noleggio e rate"
+  }
+ },
+ "incentivi_auto": {
+  "nome": "Incentivi e bonus auto",
+  "colore": "#10b981",
+  "nicchia": "auto",
+  "gruppo": null,
+  "sotto": {
+   "bonus": "Bonus e rottamazione",
+   "agevolazioni": "Agevolazioni e fisco"
+  }
+ },
  "locale": {
   "nome": "Locale · Campania e Caserta",
   "colore": "#c2185b",
