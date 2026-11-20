@@ -1,7 +1,642 @@
 {
- "aggiornato": "2026-11-20T04:22:14Z",
+ "aggiornato": "2026-11-20T05:01:00Z",
  "tassonomia": "10",
  "notizie": [
+  {
+   "id": "a19e4b1a896a76b9",
+   "titolo": "Scuole temporanee post-calamità, Consip cerca progettisti e imprese",
+   "link": "https://www.edilportale.com/news/2026/11/appalti/scuole-temporanee-gara-consip-da-1314-milioni_112853_51.html",
+   "fonte": "edilportale",
+   "fonte_nome": "Edilportale",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": "2026-11-20T06:00:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "architetto"
+   ]
+  },
+  {
+   "id": "d6878f21a0c06ed8",
+   "titolo": "Oltre il riparo: l’ingegneria dei tetti a falde in alluminio",
+   "link": "https://www.edilportale.com/news/2026/11/tecnologie/tetto-a-falde-in-alluminio-posa-isolamento-e-prestazioni_112859_12.html",
+   "fonte": "edilportale",
+   "fonte_nome": "Edilportale",
+   "tipo": "stampa",
+   "aree": [
+    "norme"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": "2026-11-20T06:00:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [
+    "norme.professione"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "perito"
+   ]
+  },
+  {
+   "id": "70eb33258cda8a28",
+   "titolo": "Pavimento, parete o soffitto: quale sistema radiante conviene scegliere?",
+   "link": "https://www.edilportale.com/news/2026/11/progettazione/sistemi-radianti-meglio-a-pavimento-parete-o-soffitto_112863_17.html",
+   "fonte": "edilportale",
+   "fonte_nome": "Edilportale",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": "2026-11-20T06:00:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "62dd199d21d59e50",
+   "titolo": "Consultazioni catastali e ipotecarie Richiedi visure, planimetrie e ispezioni ipotecarie dei tuoi immobili",
+   "link": "https://telematici.agenziaentrate.gov.it/territorio/Dispatcher?type=D&func=TCP&menu=AGT",
+   "fonte": "ade",
+   "fonte_nome": "Agenzia delle Entrate",
+   "tipo": "ufficiale",
+   "aree": [
+    "catasto"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "catasto.volture"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "geometra",
+    "notaio",
+    "agente_imm",
+    "commercialista"
+   ]
+  },
+  {
+   "id": "7ea8c2eff813a15b",
+   "titolo": "agenzia delle entrate Casa, tutto quello che c'è da sapere Dalle agevolazioni per l’acquisto alla registrazione di un contratto, dai bonus fiscali alle consultazioni catastali e ipotecarie: qui trovi le informazioni sul mondo casa",
+   "link": "https://www.agenziaentrate.gov.it/portale/aree-tematiche/casa",
+   "fonte": "ade",
+   "fonte_nome": "Agenzia delle Entrate",
+   "tipo": "ufficiale",
+   "aree": [
+    "catasto"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "catasto.volture"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "tributarista",
+    "geometra",
+    "notaio",
+    "agente_imm",
+    "commercialista"
+   ]
+  },
+  {
+   "id": "73a43e0ca16228f5",
+   "titolo": "EU ETS verso il 2040: il MASE promuove a Milano un confronto su decarbonizzazione e competitività industriale",
+   "link": "https://www.mase.gov.it/portale/web/guest/-/eu-ets-verso-il-2040-il-mase-promuove-a-milano-un-confronto-su-decarbonizzazione-e-competitivita-industriale",
+   "fonte": "mase",
+   "fonte_nome": "Ministero Ambiente (MASE)",
+   "tipo": "ufficiale",
+   "aree": [
+    "energia",
+    "ambiente"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "energia.prestazioni",
+    "ambiente.via_vas"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista",
+    "geologo",
+    "agronomo",
+    "chimico"
+   ]
+  },
+  {
+   "id": "3fa151ebd28b26be",
+   "titolo": "FARE EFFICIENZA ENERGETICA SIGNIFICA ADOTTARE SISTEMI PER OTTENERE UNO STESSO RISULTATO UTILIZZANDO MENO ENERGIA",
+   "link": "https://www.efficienzaenergetica.enea.it/servizi-per/cittadini.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "60b62ad96e832d29",
+   "titolo": "L'ENEA E LA P.A. INSIEME PER MIGLIORARE L'EFFICIENZA ENERGETICA DEL PAESE",
+   "link": "https://www.efficienzaenergetica.enea.it/servizi-per/pubblica-amministrazione.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "3d61409b7102f985",
+   "titolo": "LE DETRAZIONI FISCALI PER IL RISPARMIO ENERGETICO",
+   "link": "https://www.efficienzaenergetica.enea.it/detrazioni-fiscali.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "bonus",
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "bonus.detrazioni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "geometra",
+    "ingegnere",
+    "architetto",
+    "agente_imm",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "715be1ea9f715deb",
+   "titolo": "EFFICIENZA ENERGETICA - PUBBLICAZIONI E MATERIALE INFORMATIVO",
+   "link": "https://www.efficienzaenergetica.enea.it/pubblicazioni.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "70ba60da12a0a6a8",
+   "titolo": "Diagnosi energetiche, dal MASE nuove istruzioni operative per le imprese",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/diagnosi-energetiche-dal-mase-nuove-istruzioni-operative-per-le-imprese.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia",
+    "ambiente"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "energia.prestazioni",
+    "ambiente.via_vas"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista",
+    "geologo",
+    "agronomo",
+    "chimico"
+   ]
+  },
+  {
+   "id": "531b8a6e5eb92d2a",
+   "titolo": "EU PEERS II, al via la seconda fase del progetto europeo per rafforzare gli Sportelli Unici della riqualificazione energetica",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/eu-peers-ii-al-via-la-seconda-fase-del-progetto-europeo-per-rafforzare-gli-sportelli-unici-della-riqualificazione-energetica.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "425eb14561ebec22",
+   "titolo": "COP31: campionato mondiale di risparmio energetico WCES, vince titolo quartiere residenziale della Guardia di Finanza selezionato da ENEA",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/cop31-campionato-mondiale-di-risparmio-energetico-wces-vince-titolo-quartiere-residenziale-della-guardia-di-finanza-selezionato-da-enea.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "management",
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "management.finanza"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "manager",
+    "consulente_az",
+    "compliance",
+    "finanziario",
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "d69b924f00990888",
+   "titolo": "Rigenerazione urbana e edilizia residenziale pubblica, l'esperienza ENEA al convegno di Bari organizzato da SAIE",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/rigenerazione-urbana-e-edilizia-residenziale-pubblica-lesperienza-enea-al-convegno-di-bari-organizzato-da-saie.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "edilizia",
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "edilizia.urbanistica"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "architetto",
+    "geometra",
+    "notaio",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "7e47683ce37d14a8",
+   "titolo": "National Hub italiano della European Energy Efficiency Financing Coalition",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/national-hub-italiano-della-european-energy-efficiency-financing-coalition.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "0f17d7fd8fcbd14b",
+   "titolo": "Save the date - Presentazione Rapporto Annuale sulla Certificazione Energetica degli Edifici 2026",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/save-the-date-presentazione-rapporto-annuale-sulla-certificazione-energetica-degli-edifici-2026.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "energia.prestazioni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "313a808e2073a079",
+   "titolo": "Energia: riscaldamenti, da ENEA quattro linee guida per l’inverno",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/energia-riscaldamenti-da-enea-quattro-linee-guida-per-linverno.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "4c98e221fb25f53e",
+   "titolo": "Energia: Ecobonus, ENEA aggiorna vademecum su interventi di efficientamento",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/energia-ecobonus-enea-aggiorna-vademecum-su-interventi-di-efficientamento.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia",
+    "bonus"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "energia.prestazioni",
+    "bonus.detrazioni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista",
+    "commercialista",
+    "geometra",
+    "architetto",
+    "agente_imm"
+   ]
+  },
+  {
+   "id": "1310eae5e5a04dc2",
+   "titolo": "Edilizia: ENEA al SAIE 2026 con le nuove sfide della riqualificazione energetica",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/edilizia-enea-al-saie-2026-con-le-nuove-sfide-della-riqualificazione-energetica.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia",
+    "cantiere"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "energia.prestazioni",
+    "cantiere.maestranze"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista",
+    "dl",
+    "cse",
+    "capocantiere",
+    "contabile"
+   ]
+  },
+  {
+   "id": "de091ada9144ea1e",
+   "titolo": "Energia: campagna ENEA - Italia in Classe A su efficienza, 22 milioni di italiani raggiunti e 1,5 TWh risparmiati in 3 anni",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/energia-campagna-enea-italia-in-classe-a-su-efficienza-22-milioni-di-italiani-raggiunti-e-1-5-twh-risparmiati-in-3-anni.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "0eeeb64de8e464c6",
+   "titolo": "Audizione in Commissione Ambiente alla Camera: Panci interviene sul Piano Casa Un consistente investimento a livello nazionale con procedure straordinarie e derogatorie che vanno ...",
+   "link": "https://www.awn.it/86-istituzione-1/10125-audizione-in-commissione-ambiente-alla-camera-panci-interviene-sul-piano-casa",
+   "fonte": "cnappc",
+   "fonte_nome": "Architetti Italiani (CNAPPC)",
+   "tipo": "ordine",
+   "aree": [
+    "edilizia",
+    "bonus"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "edilizia.urbanistica",
+    "bonus.bilancio"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "architetto",
+    "geometra",
+    "notaio",
+    "commercialista",
+    "agente_imm"
+   ]
+  },
+  {
+   "id": "451aafd9be886cfe",
+   "titolo": "Iscriviti alla newsletter: tutti gli articoli nella tua casella e-mail, quotidianamente!",
+   "link": "https://www.puntosicuro.it/newsletter-subscribe/",
+   "fonte": "puntosicuro",
+   "fonte_nome": "PuntoSicuro",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Iscriviti alla newsletter: tutti gli articoli nella tua casella e-mail, quotidianamente!",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "05050a68e1befd4b",
+   "titolo": "Idrogeno di origine rinnovabile: pubblicate le regole operative",
+   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/idrogeno-origine-rinnovabile-pubblicate-regole-operative",
+   "fonte": "teknoring",
+   "fonte_nome": "Teknoring",
+   "tipo": "stampa",
+   "aree": [
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "energia.rinnovabili"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
   {
    "id": "dcfd286d7e3a09ec",
    "titolo": "UIA Golden Cubes Awards: i vincitori Gli esiti della fase nazionale",
@@ -15,7 +650,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-20T04:22:14Z",
+   "visto": "2026-11-20T05:01:00Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -35,7 +670,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-20T04:22:14Z",
+   "visto": "2026-11-20T05:01:00Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -55,7 +690,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-20T04:22:14Z",
+   "visto": "2026-11-20T05:01:00Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -75,7 +710,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-20T04:22:14Z",
+   "visto": "2026-11-20T05:01:00Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -95,7 +730,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-20T04:22:14Z",
+   "visto": "2026-11-20T05:01:00Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -115,7 +750,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-20T04:22:14Z",
+   "visto": "2026-11-20T05:01:00Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -135,7 +770,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-20T04:22:14Z",
+   "visto": "2026-11-20T05:01:00Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -157,7 +792,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-20T04:22:14Z",
+   "visto": "2026-11-20T05:01:00Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -165,6 +800,763 @@
    "prof": [
     "geometra"
    ]
+  },
+  {
+   "id": "d1a95db7ced9e67d",
+   "titolo": "Trump’s trilateral draws backlash from Republicans and Ukraine allies",
+   "link": "https://news.google.com/read/CBMipAFBVV95cUxPYnhZLVp2Y25hNHlIRGk5TVpEUWlKcmFIN2xyUnZkWHFyTEJRTFhReVFmeENkdTJrMUxia2s5LVdzSnI1UHBmM2h1MVlRYUtCQW53MFdhWlFwb3NKTGpCaFNuV1piUjRSUl9kSWdic19ZaTIyVGdXRUFzS2ZiZXNoN09McmhuNHBoLWVkWlhIaWVKUEdkYVJUcHdrSS1ya1QwQ3RjcA?hl=en-US&gl=US&ceid=US%3Aen",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "254bfe8094d36680",
+   "titolo": "Cartoon: The meeting of Donald Trump, Xi Jinping and Vladimir Putin",
+   "link": "https://news.google.com/read/CBMivwFBVV95cUxNODdwZ0ZSZEdEN3VKc1luclBUSTdVZDBmVll2Ui1pUmNHU21UMjZ2b2VWbzNQbWo3MHpmT05acHRZZFlXaXpXa05tX0xpR1lLY0NyWHI1Y0ZpQTItTW9RSXRUVUZsV28zQmprUlljOUZ0ZXZ3d09NWEZPajBlTGR4bkZFcTRCWFN3cXFPTWJSdzQ5NlRERTYydkNOd1lfdjhSY214Ynd4T0RjaHFmaDVfdWFJWWlOOF9BUWNTYnNqQQ?hl=en-US&gl=US&ceid=US%3Aen",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "70d411fe96a28cce",
+   "titolo": "Mary Peltola defeats Dan Sullivan in Alaska Senate race chevron_right",
+   "link": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lfd2NxdUVoSElyTVJwVlBSZGFTZ0FQAQ?hl=en-US&gl=US&ceid=US%3Aen",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "0fa4dee733208600",
+   "titolo": "Justice Department seeks dismissal of its lawsuit in the Alaska Senate race",
+   "link": "https://news.google.com/read/CBMiwwFBVV95cUxPdmJMTTBzSmdyaWRqdHl2V1pjUnpsRklOVm5iUHhjWGpEbDhCSVBpbDFSUENJWDFKOFpXTTNSMGwtU2ZQZnY4cnVCMFAyOE10S1IxZmkyLWlVVllnOFRTZXhET1dSZllKSEZWeW1zbGxmemlReEJaVGF1MkdoNWx6Y1BXT0lZOXNJRTNSNFZ6dUh2RG1QRkZOMzBkSzhYc2FIQi1IUXVpVl81X2xHVmhPZUxkdUxMdExQTDZzaFZRLWlvN28?hl=en-US&gl=US&ceid=US%3Aen",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "317cb55f9e2cf19c",
+   "titolo": "With Alaska’s Senate Vote Counted, What Comes Next in the Last Frontier?",
+   "link": "https://news.google.com/read/CBMie0FVX3lxTFBvem5ibFhYZS1jRFA3VkxNV1lFRE0xb3BoalN3TEJYX2wtc2xaVjFKN19WdURPWEZwSG1CTUI4WkVrWGFUbGpPTkFoUFpnalplSEE4aEVUSnIwX1lSU0s5TUR4SUhIZHI5WFFTZWZleG5DRjlxbWdfYzl5Zw?hl=en-US&gl=US&ceid=US%3Aen",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "7289a818ec5d5b7a",
+   "titolo": "DOJ Drops ‘Decoy Dan’ Lawsuit Over Peltola’s Alaska Senate Win",
+   "link": "https://news.google.com/read/CBMipgFBVV95cUxQTVVaNm1ENW85VzJ0Ti1XaWEtNkthWWNxM2o0bURWX2ZHM09kOS1pZEI1VFBpM2Qzczk5UG1yRnBWQy1yS2FlM2UzNFV6RXdOeG1DdWUzQTRkbjlPa0Y0MzJsUHhTZ21qNzRlcWdZOEEzTjZvaXI4QVFaT0RiRWt6a1pOaVBIVjJtQlZMcm1Zbms5QXVMTGtwRTM4T1BudUhWbWRxZjB3?hl=en-US&gl=US&ceid=US%3Aen",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "ea5587799ad90588",
+   "titolo": "‘A new day in the Senate’: 56-44 majority gives Democrats fuel to take on Trump",
+   "link": "https://news.google.com/read/CBMikgFBVV95cUxPMWtMNDY5VzZpUGV1UmVERkRrNmpyRGNUQ05nSnlSR1NqaFBMMl96Q0dMUFF5VTJPdENhcE42VkZxOGIxOHVsdTVlNGxfSi1PVzMtRHRERUtSeWlXVGhGendFNHIxYVBEbkMtUHBFMkhxY3NpN3l4VVNLcE1mWXF3SjMwTGRmR1pyWkI3SEl2OXhxZw?hl=en-US&gl=US&ceid=US%3Aen",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "12583810bdf63398",
+   "titolo": "Senate passes BAAJA permitting reform bill backed by AI, energy sectors",
+   "link": "https://news.google.com/read/CBMihgFBVV95cUxOXzE4cVR3bDhHdFdNT2I5SVd6UEMzbnRkZFJPTC1kRXdVcnFoR21XZzd0WS1MYUJyOERZTjB6MUJISTljWU54OUIweTBrSnVlM21yQzIxaEU5ZlBXb1lNektac1RJU1FTOEhSdUs3N0lBbXhEdG5LWW9ocmpvbHFMV3ItRHRlUdIBiwFBVV95cUxNMGQyeHlqS0xvQ1NhNmg1SDJzcFBvbEJwbW1FRlFVYkFUeWVib3I2ZTBadjlsQ3QzSHRzVm5CYUNGb3ktMVJ6Z0VGOENWQ2ZYcFQtbThEZFY1SmNpc2dXcEstYU9WRVU4RDFfUS1DbHRBQmZsOGs5cVhVMEhpdFJ3c1UtVDBJVFJFZE9v?hl=en-US&gl=US&ceid=US%3Aen",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "9b291233ac2786a4",
+   "titolo": "White House cyber director ousted after US hit by wave of tech outages",
+   "link": "https://news.google.com/read/CBMiiAFBVV95cUxPNHZUWVAwNWYzSWs5SnRvdWZOUnBfQ0xZU2thbUVSRExIeVZqZG1IS0VVVmlodWlIaUlzX2VHam1qNHJyYURsa0JHUWJ5bm16M3pKQzdlQ2h4c0gtdWNQWTBObHVzYWpLcUx6Sk9WU0R2ZkNpcjRkaDRxcl9FdDJYTlZNU29udktr?hl=en-US&gl=US&ceid=US%3Aen",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "da54db7f746c91ea",
+   "titolo": "Sindaco Kiev, 'colpiti ponti cittadini, traffico interrotto'",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/20/sindaco-kiev-colpiti-ponti-cittadini-traffico-interrotto_8dab0e86-24c4-4921-9d24-1d9877343e71.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "territorio",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "territorio.regioni"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "7e6a213e83012241",
+   "titolo": "Sindaco Kiev, 'colpiti ponti cittadini, traffico interrotto'",
+   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/20/sindaco-kiev-colpiti-ponti-cittadini-traffico-interrotto_121712f3-0d83-4a66-9b16-83635f92f4ed.html",
+   "fonte": "p-ansa-mondo",
+   "fonte_nome": "ANSA Mondo",
+   "tipo": "stampa",
+   "aree": [
+    "territorio",
+    "esteri"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "territorio.regioni",
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "10d08437dd35f5b9",
+   "titolo": "L'antifascismo gridato da nemici della libertà",
+   "link": "https://www.ilfoglio.it/rubriche/preghiera/2026/11/20/news/lantifascismo-gridato-da-nemici-della-liberta--414196",
+   "fonte": "p-foglio",
+   "fonte_nome": "Il Foglio",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "45bfcbc22c76fdf2",
+   "titolo": "L’università processa il prof. Boggero, che ha difeso la libertà di insegnare. Ai violenti carezze",
+   "link": "https://www.ilfoglio.it/rubriche/contro-mastro-ciliegia/2026/11/20/news/luniversita-processa-il-prof-boggero-che-ha-difeso-la-liberta-di-insegnare-ai-violenti-carezze--414222",
+   "fonte": "p-foglio",
+   "fonte_nome": "Il Foglio",
+   "tipo": "stampa",
+   "aree": [
+    "economia_pol",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "economia_pol.welfare"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "351020b7d21e0a54",
+   "titolo": "Schlein ha rinnegato Emanuele Fiano per non scontentare le diverse anime della sua coalizione. Come l'antisemitismo storico, l'antisionismo tiene insieme gruppi e interessi in conflitto, offrendo loro un nemico comune",
+   "link": "https://www.ilfoglio.it/rubriche/il-bi-e-il-ba/2026/11/20/news/le-catene-che-elly-non-puo-spezzare--414174",
+   "fonte": "p-foglio",
+   "fonte_nome": "Il Foglio",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "partiti.partiti"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "49d7479ea450819e",
+   "titolo": "Alfa Romeo Giulia 2.0 t Intensa Q4 280cv auto",
+   "link": "https://www.automoto.it/auto-usate/alfa-romeo/giulia/20-t-intensa-q4-280cv-auto/16278401",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "17b94b3c75f4ee2a",
+   "titolo": "Maserati Levante Levante 2.0 mhev GT Ultima 330cv auto",
+   "link": "https://www.automoto.it/auto-usate/maserati/levante/levante-20-mhev-gt-ultima-330cv-auto/15930222",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "dc91a5c5d47d503b",
+   "titolo": "Antonelli, Bearman and Stroll set for penalties in Las Vegas",
+   "link": "https://www.formula1.com/en/latest/article/antonelli-bearman-and-stroll-set-for-grid-penalties-at-las-vegas-grand-prix.37Vixk6Mt1gvZlVXDsO8S",
+   "fonte": "a-formula1",
+   "fonte_nome": "Formula 1 (sito ufficiale)",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "motorsport.f1"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "06513d03dbf63b54",
+   "titolo": "Impresa Olimpia! Fener battuto con un ultimo quarto super Eurolega Seconda vittoria consecutiva in Eurolega per l'Olimpia Milano, che dopo il successo con la Stella... 19 nov - 22:30",
+   "link": "https://sport.sky.it/basket/eurolega/2026/11/19/olimpia-milano-fenerbahce-eurolega-risultato-highlights",
+   "fonte": "a-sky-f1",
+   "fonte_nome": "Sky Sport F1 e motori",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "c127cd1cc04a80ab",
+   "titolo": "GTA Las Vegas, giro onboard sul bagnato con Kimi video Sembra GTA, ma è Formula 1: saliamo a bordo con il campione del mondo Kimi Antonelli e godiamoci... 20 nov - 05:45",
+   "link": "https://sport.sky.it/formula-1/2026/11/20/kimi-antonelli-f1-gp-las-vegas-onboard-video",
+   "fonte": "a-sky-f1",
+   "fonte_nome": "Sky Sport F1 e motori",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [
+    "motorsport.f1"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "d29a1af7fc447be9",
+   "titolo": "Colapinto, salvataggio show nell'acqua a Las Vegas che numero! Prove libere bagnate a Las Vegas, con acquaplaning davvero pericoloso: ne sa qualcosa Franco... 20 nov - 05:18",
+   "link": "https://sport.sky.it/formula-1/2026/11/20/colapinto-f1-gp-las-vegas-acquaplaning-video",
+   "fonte": "a-sky-f1",
+   "fonte_nome": "Sky Sport F1 e motori",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "ae6043775eddbe62",
+   "titolo": "Come devono segnalare le pubblicità gli influencer?",
+   "link": "https://www.laleggepertutti.it/786401_come-devono-segnalare-le-pubblicita-gli-influencer",
+   "fonte": "f-legge",
+   "fonte_nome": "La Legge per Tutti",
+   "tipo": "stampa",
+   "aree": [
+    "comunicazione",
+    "pensioni"
+   ],
+   "normativa": true,
+   "sintesi": "Scopri le nuove regole AGCOM per i content creator: obblighi di trasparenza, limiti per i follower e sanzioni previste per la pubblicità occulta.",
+   "pubblicata": "2026-11-20T05:00:49Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [
+    "comunicazione.media"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "marketer",
+    "pubblicitario",
+    "giornalista",
+    "grafico",
+    "fotovideo",
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "94e67bc90663b4cd",
+   "titolo": "Stipendio pagato in contanti, quando scatta la multa fino a 5.000 euro",
+   "link": "https://quifinanza.it/lavoro/stipendio-contanti-multa-azienda-ministero-lavoro/1024711/",
+   "fonte": "f-quifinanza",
+   "fonte_nome": "QuiFinanza",
+   "tipo": "stampa",
+   "aree": [
+    "lavoro",
+    "isee"
+   ],
+   "normativa": true,
+   "sintesi": "Stipendio pagato in contanti: niente diffida amministrativa, la multa da 1.000 a 5.000 euro resta. Cosa dice l'interpello 3/2026 del Ministero",
+   "pubblicata": "2026-11-20T05:00:43Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [
+    "lavoro.contratti"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "consulente_lavoro",
+    "hr",
+    "formatore",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "b799a6d583de6ddf",
+   "titolo": "Piazza Italia cerca addetti vendita, store manager e capi reparto in diverse Regioni: come candidarsi",
+   "link": "https://quifinanza.it/lavoro/trova-lavoro/piazza-italia-assume-nord-sud/1024384/",
+   "fonte": "f-quifinanza",
+   "fonte_nome": "QuiFinanza",
+   "tipo": "stampa",
+   "aree": [
+    "management",
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "Piazza Italia assume per 200 nuovi negozi entro il 2030: oltre 1.000 posti in 12 regioni, requisiti richiesti e come inviare la candidatura",
+   "pubblicata": "2026-11-20T05:00:09Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [
+    "management.manager"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "manager",
+    "consulente_az",
+    "compliance",
+    "finanziario",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "cafd3941de955cfb",
+   "titolo": "Infortunio sul lavoro e colpa del dipendente",
+   "link": "https://www.studiocataldi.it/articoli/1000869-infortunio-sul-lavoro-e-colpa-del-dipendente",
+   "fonte": "f-cataldi",
+   "fonte_nome": "Studio Cataldi",
+   "tipo": "stampa",
+   "aree": [
+    "legale",
+    "casa_fisco"
+   ],
+   "normativa": true,
+   "sintesi": "La Cassazione esclude che la negligenza del lavoratore possa ridurre automaticamente la responsabilità del datore per carenze nella sicurezza",
+   "pubblicata": "2026-11-20T05:00:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [
+    "legale.avvocati"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "avvocato",
+    "notaio",
+    "curatore",
+    "agente_imm",
+    "condominio",
+    "valutatore",
+    "facility",
+    "mutui"
+   ]
+  },
+  {
+   "id": "8d0e8f3a4a43e6b2",
+   "titolo": "20/11 – Addio a Corrado Augias – Trilaterale “epocale” tra Trump, Xi e Putin – Dl scuola, bocciato l’emendamento di Fdi sugli ebook",
+   "link": "https://www.lapresse.it/podcast/2026/11/20/20-11-addio-a-corrado-augias-trilaterale-epocale-tra-trump-xi-e-putin-dl-scuola-bocciato-lemendamento-di-fdi-sugli-ebook/",
+   "fonte": "p-lapresse",
+   "fonte_nome": "LaPresse Politica",
+   "tipo": "stampa",
+   "aree": [
+    "esteri",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Questo articolo 20/11 – Addio a Corrado Augias – Trilaterale “epocale” tra Trump, Xi e Putin – Dl scuola, bocciato l’emendamento di Fdi sugli ebook proviene da LaPresse",
+   "pubblicata": "2026-11-20T05:00:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [
+    "esteri.esteri",
+    "governo.parlamento"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "d9a96186d76e15ae",
+   "titolo": "Palermo, Prezzemolo & Vitale punta a 70 milioni di fatturato nel 2026",
+   "link": "https://www.ilsole24ore.com/art/palermo-prezzemolo-vitale-punta-70-milioni-fatturato-2026-AJoFnDMC",
+   "fonte": "p-sole",
+   "fonte_nome": "Il Sole 24 Ore Politica",
+   "tipo": "stampa",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": false,
+   "sintesi": "Un’intera filiera dell’agroalimentare rappresentata plasticamente nelle sale di uno dei palazzi storici più belli di Palermo.",
+   "pubblicata": "2026-11-20T05:00:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "7a05f55f6a09cd88",
+   "titolo": "A Las Vegas fiera delle penalità in griglia: arretrati Antonelli, Stroll, Sainz, Piastri, Bearman",
+   "link": "https://www.formulapassion.it/f1/f1-news/a-las-vegas-fiera-delle-penalita-in-griglia-arretrati-antonelli-stroll-sainz-piastri-bearman",
+   "fonte": "a-formula",
+   "fonte_nome": "Formula 1 e motorsport",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport",
+    "tecnica_auto"
+   ],
+   "normativa": false,
+   "sintesi": "Tante sostituzione di elementi oltre il limite consentito, in particolare per i motorizzati Mercedes che useranno le specifiche ADUO",
+   "pubblicata": "2026-11-20T04:48:28Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [
+    "motorsport.f1",
+    "tecnica_auto.motori"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "28d6d7bd52c6d00f",
+   "titolo": "Prestiti estinti in anticipo, la Corte Ue riduce i rimborsi",
+   "link": "https://www.laleggepertutti.it/850520_prestiti-estinti-in-anticipo-la-corte-ue-riduce-i-rimborsi",
+   "fonte": "f-legge",
+   "fonte_nome": "La Legge per Tutti",
+   "tipo": "stampa",
+   "aree": [
+    "norme",
+    "pensioni"
+   ],
+   "normativa": true,
+   "sintesi": "Chi chiude prima il finanziamento potrebbe riavere meno di quanto ha ottenuto finora. La Corte di giustizia supera la sentenza Lexitor proprio il giorno prima che la…",
+   "pubblicata": "2026-11-20T04:46:33Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "perito",
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "6668df8760623adb",
+   "titolo": "I social network gratuiti si pagano con i dati personali?",
+   "link": "https://www.laleggepertutti.it/850490_i-social-network-gratuiti-si-pagano-con-i-dati-personali",
+   "fonte": "f-legge",
+   "fonte_nome": "La Legge per Tutti",
+   "tipo": "stampa",
+   "aree": [
+    "norme",
+    "pensioni"
+   ],
+   "normativa": false,
+   "sintesi": "Secondo l’avvocata generale della Corte di giustizia Ue, chi cede i propri dati a un social network in cambio del servizio sta pagando.",
+   "pubblicata": "2026-11-20T04:45:51Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "data",
+    "ingegnere",
+    "perito",
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "fed811244c69bbc1",
+   "titolo": "Leclerc e lo stupore per il famoso “piccolo bastardo subdolo”",
+   "link": "https://www.formulapassion.it/editoriale/leclerc-e-lo-stupore-per-il-famoso-piccolo-bastardo-subdolo",
+   "fonte": "a-formula",
+   "fonte_nome": "Formula 1 e motorsport",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "Charles si è tenuto a distanza dal caso del giornalista cacciato per il brutto appellativo che gli è stato affibbiato. Ma ora si dice “sorpreso per quelle parole”",
+   "pubblicata": "2026-11-20T04:42:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [
+    "motorsport.f1"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "f0468e4f007f31d2",
+   "titolo": "Xiaomi 19 series might have both flat and curved screens",
+   "link": "https://www.gsmarena.com/xiaomi_19_series_rumored_to_come_with_both_flat_and_curved_screens-news-75547.php",
+   "fonte": "t-gsmarena",
+   "fonte_nome": "GSMArena",
+   "tipo": "stampa",
+   "aree": [
+    "smartphone"
+   ],
+   "normativa": false,
+   "sintesi": "Xiaomi took the Xiaomi 18 Pro and 18 Pro Max to global markets earlier this week, and the vanilla Xiaomi 18 is expected to launch in China in December.",
+   "pubblicata": "2026-11-20T04:31:01Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "5efeab716e35f89d",
+   "titolo": "Il 70 per cento degli adolescenti non si sente capito dagli adulti, ma non sono loro ad aver smesso di parlare",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUll5emJUaWE2aWV4dWlBVnp1VGFMbGdCWkl4U0U1MzlhcTIwQlZkVUdQOFJkWUhiX0t3OW00azNhTkc3MW9va0Fua1hwUk1BT250Mk5TQUNYbVNRTkFpTDZZTVloNm83eEdmSHJCTXV2Z3hwUVZpNFZueWFTTHZTSnJXY0o4NENQNDE3Rk5rQTJQMnZLM2t0TFVRRHhxcUxjU2I0dG9XYk1XZ2pVck5TT0RwZXZYSjhFM3FBaUVROXJTU01wR1N1c21FN1luUWlBUHdIRUY0TFBQdms?oc=5",
+   "fonte": "p-fanpage",
+   "fonte_nome": "Fanpage Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Il 70 per cento degli adolescenti non si sente capito dagli adulti, ma non sono loro ad aver smesso di parlare Fanpage",
+   "pubblicata": "2026-11-20T04:30:23Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "4a5e2f689817d2d1",
+   "titolo": "«Noi mandiamo gli aiuti e ci trattano così?»: la telefonata di Salvini a Meloni sull’Ucraina",
+   "link": "https://www.open.online/2026/11/20/armi-ucraina-meloni-salvini-zelensky/",
+   "fonte": "p-open",
+   "fonte_nome": "Open",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Il leader della Lega attacca per il sito filogovernativo che lo mette tra i nemici di Kiev. La premier protesta con Zelensky e ottiene una nota dell'ambasciata.",
+   "pubblicata": "2026-11-20T04:27:03Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [
+    "partiti.partiti",
+    "governo.governo"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
   },
   {
    "id": "a6b972c82a2fd222",
@@ -303,6 +1695,98 @@
    "sintesi": "Vendo Voge Valico 525DSX (2023 - 26) usata a Guidonia Montecelio (codice 10174250) Moto.it",
    "pubblicata": "2026-11-20T04:13:00Z",
    "visto": "2026-11-20T04:22:14Z",
+   "metodo": "gnews",
+   "sotto": [
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "d119cb7f162c36b9",
+   "titolo": "Vendo Sym ADX 125 (2023 - 24) nuova a Guidonia Montecelio (codice 10174239)",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ocGFiSW5UX0p5N05VR3ZCNDZLNW5ydkJhZHl2SzFfMnVDRlIzcG53TWluWHY2X3dIX1dHMzdJX1ZFeFZMa2FzOXVuSUswYzBtX3dOZGNha2lxbUZiQ0hFQ3JGd0xPaFpnWkN0VXc3Ul82ZnFPWWc?oc=5",
+   "fonte": "a-moto",
+   "fonte_nome": "Moto e scooter (Moto.it, Motociclismo)",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Sym ADX 125 (2023 - 24) nuova a Guidonia Montecelio (codice 10174239) Moto.it",
+   "pubblicata": "2026-11-20T04:13:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.modelli",
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "5167c614ce5b452f",
+   "titolo": "Vendo Yamaha MT-09 (2021 - 23) usata a Guidonia Montecelio (codice 10174251)",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vTnl5WVBBSzdlREh3M2FjN3I5NXNQbnZ6TEFVbTV3OEdYWmJRUmh3U2U0Ym9PYWUtbkhSX2c2THJIajR4c01KTkN2RzFBYVgtUkt3aGhUSFV0VERhUkFXaENaZWtVYzAzeVUzcE9yb1M3bEhk?oc=5",
+   "fonte": "a-moto-it",
+   "fonte_nome": "Moto.it",
+   "tipo": "stampa",
+   "aree": [
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Yamaha MT-09 (2021 - 23) usata a Guidonia Montecelio (codice 10174251) Moto.it",
+   "pubblicata": "2026-11-20T04:13:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "6a19bc65a3355187",
+   "titolo": "Vendo Benelli Tornado 550 (2025 - 26) nuova a Guidonia Montecelio (codice 10174279)",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVmhiQTVKMWM5X1ZHVU92SEU1TzN1a3lUckQwSDNhbHEyWXZ6TGljUUIxXzZyUU5GRFlmbENxalM1VWpRVmJUUHZiRHp3XzY0UHlQSG55aWpxLVdfYnozZHpIRHRzckNXQ2F5Wk5LNlZpLTZ6Tkw5RGVOZnBMRVROM3NEU0ZqZw?oc=5",
+   "fonte": "a-moto-it",
+   "fonte_nome": "Moto.it",
+   "tipo": "stampa",
+   "aree": [
+    "moto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Benelli Tornado 550 (2025 - 26) nuova a Guidonia Montecelio (codice 10174279) Moto.it",
+   "pubblicata": "2026-11-20T04:13:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "moto.novita",
+    "novita_auto.modelli"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "ba6916f5f4b6f73c",
+   "titolo": "Vendo Piaggio Beverly 400 ABS-ASR (2021 - 24) usata a Guidonia Montecelio (codice 10174264)",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFlvUEMtOXVpbHV2V0pDcEl0OVhTc2FoaklNelppLXRXZWkxSVp5UTl1YzFoUlR0M2VyYXNmdjByZUhJdWduZmwtb3JEOWVoWXA0b0hXdFluR19VY3dqS0VyNG05RHZMSEdTZEQ4RzRiLWtUNkN1b3did3l1bXdsMUUxMzdWNXBqdXdNUzRPcDg?oc=5",
+   "fonte": "a-moto-it",
+   "fonte_nome": "Moto.it",
+   "tipo": "stampa",
+   "aree": [
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Piaggio Beverly 400 ABS-ASR (2021 - 24) usata a Guidonia Montecelio (codice 10174264) Moto.it",
+   "pubblicata": "2026-11-20T04:13:00Z",
+   "visto": "2026-11-20T05:01:00Z",
    "metodo": "gnews",
    "sotto": [
     "moto.novita"
@@ -470,6 +1954,100 @@
    "sintesi": "Vendo Honda SH 300 i ABS (2016 - 20) usata a Guidonia Montecelio (codice 10174204) Moto.it",
    "pubblicata": "2026-11-20T04:12:00Z",
    "visto": "2026-11-20T04:22:14Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.marchi",
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "afb6a7a7420ce7df",
+   "titolo": "Vendo Honda SH 150i (2020 - 23) usata a Guidonia Montecelio (codice 10174193)",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB1TTN4TWM2dUV6Y0t4ZWNIbmxTYlVzZU1QdDVSLXF0NlBRTE1DV25hMFNwLTcxRUJVT19scHdTT0F6Q1hPOWYyZUhYM3o0VlRoWHdrdFkweHdqanhOLXJkd1RySGQ4bFo3VUV1X0xUSEdmLWpZOTFB?oc=5",
+   "fonte": "a-moto",
+   "fonte_nome": "Moto e scooter (Moto.it, Motociclismo)",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Honda SH 150i (2020 - 23) usata a Guidonia Montecelio (codice 10174193) Moto.it",
+   "pubblicata": "2026-11-20T04:12:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.marchi",
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "92da1668e8878e30",
+   "titolo": "Vendo Honda SH 125i (2020 - 23) usata a Guidonia Montecelio (codice 10174190)",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1YR09ycnAteGppRTZ0amtmZTJxWHktNDA4UlZKSFlETWFQcVQ5dkxNVlY5V3QxU0k1eUFjSnQ2Qm0tdHlCQlg3ZW9mYmliWVlaTmpfUHhrU3lkcGk5SDFJNzFwWlpObmFIWFRIR0FqTjZCUUpzbFpn?oc=5",
+   "fonte": "a-moto",
+   "fonte_nome": "Moto e scooter (Moto.it, Motociclismo)",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Honda SH 125i (2020 - 23) usata a Guidonia Montecelio (codice 10174190) Moto.it",
+   "pubblicata": "2026-11-20T04:12:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.marchi",
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "7fc175d8e25356d9",
+   "titolo": "Vendo Kawasaki Versys 650 (2017 - 20) usata a Guidonia Montecelio (codice 10174219)",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeTBuei1IT0UtemFGcmFNR0pXZ0xVdnhkVTUyNmZCcXhrblo1U1JZbGRtd2NuUUNXN0ZCLVowNjFFZ3IwM0V5SlR2N2JwckJzY1BIeThVX1JPLXZqN0pyS1dYcFVTRlRYYjBhS2xjT1daYS1scS1HVHowOF9uOHIxU3V4bVg?oc=5",
+   "fonte": "a-moto-it",
+   "fonte_nome": "Moto.it",
+   "tipo": "stampa",
+   "aree": [
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Kawasaki Versys 650 (2017 - 20) usata a Guidonia Montecelio (codice 10174219) Moto.it",
+   "pubblicata": "2026-11-20T04:12:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "25dac10a42213178",
+   "titolo": "Vendo Honda CB 500 X (2022 - 23) usata a Guidonia Montecelio (codice 10174176)",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE16WkxwYUg1RlpSREsyQ2Y3N25WRlVZMGp5Q296MkhlQnpycE5EQUpfMDFSNENkOVVuemFuTWhLV2I0Tlg3QzZkVEJaeDZoenI2N1hLMEFtV2FqXzIwbm1jMDF3aHpQVkRzOEU5MGdBSXB1TXg4MDFydjlyZw?oc=5",
+   "fonte": "a-moto",
+   "fonte_nome": "Moto e scooter (Moto.it, Motociclismo)",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Honda CB 500 X (2022 - 23) usata a Guidonia Montecelio (codice 10174176) Moto.it",
+   "pubblicata": "2026-11-20T04:11:00Z",
+   "visto": "2026-11-20T05:01:00Z",
    "metodo": "gnews",
    "sotto": [
     "novita_auto.marchi",
@@ -1014,6 +2592,35 @@
    ]
   },
   {
+   "id": "b99e31970eb17f2b",
+   "titolo": "Riyadh’s tallest skyscraper hit in Houthi strike on Saudi wealth fund HQ - NBC News",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa2VHNWZ0cC16RTRrem5TYWkxMFYxMlVTb1JwM0xuTGdtS2pidkhEdkxjTGNHdjVzX1pyejhVRlAybFk2UndOcWw2VWdUcl9veFcySVF3RkZuNXBSbVlSTG40eUlDNHd5UU42MDNqWXpBM3FaLVIxYjZHYlZ2MmxXTVo5d0VMUmdSLWRILWRFYWFkSU9YSnpBbDBEUFRxMlhsX3pXM0ZYWGhLOG42NnFNR2tEVDJOdzMzWm93?oc=5",
+   "fonte": "pr-prezzari",
+   "fonte_nome": "Prezzari regionali e DEI",
+   "tipo": "stampa",
+   "aree": [
+    "cantiere"
+   ],
+   "normativa": false,
+   "sintesi": "Riyadh’s tallest skyscraper hit in Houthi strike on Saudi wealth fund HQ NBC News Houthi Attack Damages Saudi Capital’s Tallest Tower WSJ Iran war live: Houthis escalate…",
+   "pubblicata": "2026-11-20T03:46:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "dl",
+    "cse",
+    "capocantiere",
+    "contabile",
+    "geometra",
+    "collaudatore",
+    "bim",
+    "muratore"
+   ]
+  },
+  {
    "id": "2f4ff88b7bcd5022",
    "titolo": "F1 GP Las Vegas 2026, FP2: non piove ma la pista è umida, si riparte alle 5.00 – DIRETTA",
    "link": "https://www.formulapassion.it/f1/f1-live/diretta-f1-gp-las-vegas-2026-prove-libere-2-fp2-aggiornamenti-ferrari-leclerc-hamilton-antonelli",
@@ -1185,6 +2792,26 @@
    ],
    "luogo": null,
    "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "6966433f9783dbbf",
+   "titolo": "Colts-Texans highlights: Best plays, moments, touchdowns, more - ESPN",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUnBZQTBOSy1aM3Azbmw0eDhmZGtDcUhKcVl3U2NrYmFyQnB4ZTlzd0dUak5pYktGUTRQM0RBVGxXV1U2TGtrclg0dnQ0VFlKby1SM0h3eVp6WXlzTUZ3bmc4LVF4bW1fM0NMUE9ydkpaeEhCNy0zRUR4dGdPVkV6dm01c2VHUUxFWTNUVkVpV29Kck5OYy1VdW9YOXF1SFk?oc=5",
+   "fonte": "stampa-camp",
+   "fonte_nome": "Stampa Campania (edilizia)",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Colts-Texans highlights: Best plays, moments, touchdowns, more ESPN Colts vs. Texans live updates, inactives, where to watch: C.J.",
+   "pubblicata": "2026-11-20T03:15:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Campania",
+   "nicchia": "edilizia",
    "prof": []
   },
   {
@@ -1511,6 +3138,65 @@
    "metodo": "gnews",
    "sotto": [],
    "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": [
+    "agente_imm",
+    "condominio",
+    "valutatore",
+    "facility",
+    "mutui",
+    "notaio"
+   ]
+  },
+  {
+   "id": "419196c4f4528c92",
+   "titolo": "Quadrilocale all'asta in Via Avvocato Quaranta, Montecorvino Rovella",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyTjQwODNzSm5lU3R1N3hQSG1QbGcyVTN1cHRZa2N3UDJZTjhicXpab181OEQ1Mm5iOHVJLTRLbjkydXdmbjZSZEs1MV9FcjJfRC0wTDV3?oc=5",
+   "fonte": "pr-immobiliare-news",
+   "fonte_nome": "Immobiliare.it e Idealista News",
+   "tipo": "stampa",
+   "aree": [
+    "legale",
+    "immobiliare"
+   ],
+   "normativa": false,
+   "sintesi": "Quadrilocale all'asta in Via Avvocato Quaranta, Montecorvino Rovella Idealista",
+   "pubblicata": "2026-11-20T03:07:21Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "legale.avvocati"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "agente_imm",
+    "condominio",
+    "valutatore",
+    "facility",
+    "mutui",
+    "avvocato",
+    "notaio",
+    "curatore"
+   ]
+  },
+  {
+   "id": "eda0b5befbad3e47",
+   "titolo": "Bilocale all'asta in Via Artanavaz, 4, Grand Eyvia - Piccolo San Bernardo, Aosta",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHYUJaVnBKam0weDVEempXMWE3UlFyd2hOWGxPQ0IwbFY3aEk3NHRIMTg5ZzlUVVN3TnRJMllyamdaRXJHZnp6dHVyOUdyUmIyVS01NWRR?oc=5",
+   "fonte": "pr-immobiliare-news",
+   "fonte_nome": "Immobiliare.it e Idealista News",
+   "tipo": "stampa",
+   "aree": [
+    "immobiliare"
+   ],
+   "normativa": false,
+   "sintesi": "Bilocale all'asta in Via Artanavaz, 4, Grand Eyvia - Piccolo San Bernardo, Aosta Idealista",
+   "pubblicata": "2026-11-20T03:07:21Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
    "nicchia": "edilizia",
    "prof": [
     "agente_imm",
@@ -2308,6 +3994,33 @@
    "prof": []
   },
   {
+   "id": "a7ad2add23e80cb3",
+   "titolo": "Terreno all'asta a Porto Recanati, Recanati-Civitanova, Macerata",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nbmdUVk03X1RRQmRtVWJvZ1lRc1NBRWduT0Z6ME45QUJ6MTkxbTdPUlJDUlNUSTB6d3d1eUVxVGE0VU9wNnE1c0ZkaHhnMlBDVDYybHh3?oc=5",
+   "fonte": "pr-immobiliare-news",
+   "fonte_nome": "Immobiliare.it e Idealista News",
+   "tipo": "stampa",
+   "aree": [
+    "immobiliare"
+   ],
+   "normativa": false,
+   "sintesi": "Terreno all'asta a Porto Recanati, Recanati-Civitanova, Macerata Idealista",
+   "pubblicata": "2026-11-20T02:17:17Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "agente_imm",
+    "condominio",
+    "valutatore",
+    "facility",
+    "mutui",
+    "notaio"
+   ]
+  },
+  {
    "id": "35a2926bc06aeb65",
    "titolo": "Villa all'asta in Via Roma, Centro Storico, Cefalù",
    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tb29xSG83MWs5RTZaNXFESlJTaHBYRnhyNEQ4ZTdfMXFoRzI1SnJpVFllYXJmRXpHV2lyMWVid0lIWVhHem1icE1ka1R3SHo1VGdTb3V3?oc=5",
@@ -2884,6 +4597,30 @@
    "metodo": "rss",
    "sotto": [
     "motorsport.f1"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "85235b3f17383c33",
+   "titolo": "PEUGEOT 408 Usata prezzo e caratteristiche tecniche - Auto Usate",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOelVWMTNLN2FRbHJiMnhiUmtvdDVPYzRpUkpHWkR4T1J0WVJoMnlqNS1WUlhaQzd5WktCTTg2OVl2TjhBUEpNLV9RamEwWl85RXBvelNvNUNQQ3hLdC0wbHlhbUU5SGk0Q01iUUxNQWhJeUUteXRDaXAtbG1Fck1ZQ2pR?oc=5",
+   "fonte": "a-quattroruote",
+   "fonte_nome": "Quattroruote",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "PEUGEOT 408 Usata prezzo e caratteristiche tecniche - Auto Usate Quattroruote",
+   "pubblicata": "2026-11-20T01:59:16Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.marchi",
+    "mercato_auto.prezzi"
    ],
    "luogo": null,
    "nicchia": "auto",
@@ -4108,6 +5845,26 @@
    "prof": []
   },
   {
+   "id": "c8e462436f6ee751",
+   "titolo": "Experts have for decades wanted to diagnose CTE in living people. BU researchers may have found a way. - The Boston Globe",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5QQndwa25DMUdfRXpVVU9iUi1mQVQxYmt1WVhxcG84VmVmdnNGcWFhQWd6bGdRclRUSXU0cXNxQUYxbGE3V0dVS0FHRGxhVW5FdzlORVhueGZ1M2Y2UzNxNG9ncE9IQWRWbWVSZTEyRVU3SU9ZMUNjTnNrcWxPdw?oc=5",
+   "fonte": "stampa-camp",
+   "fonte_nome": "Stampa Campania (edilizia)",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Experts have for decades wanted to diagnose CTE in living people. BU researchers may have found a way.",
+   "pubblicata": "2026-11-20T00:50:03Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Campania",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
    "id": "4aacf31011a35eda",
    "titolo": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
    "link": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
@@ -4798,6 +6555,28 @@
    "sotto": [],
    "luogo": "Caserta",
    "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "4cc79d618ab3dd5c",
+   "titolo": "Vendo Yamaha T-Max 560 (2020 - 21) usata a Ravenna (codice 10174123)",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0Q1g5b05nTUI2UEM2aWUyZHh1c2xMdV85dGpyOEZWRndRVURjdTJJNEdud3VTbWRRVmlwRlRRWHFQYjhKamtHVGxaX01xdzA3dFFCV0FCSGtQcGlRUHJ0SmdLYTY3WG42WUhrYnlUUi10VFBmOWg3MWE5eHVYYVU?oc=5",
+   "fonte": "a-moto-it",
+   "fonte_nome": "Moto.it",
+   "tipo": "stampa",
+   "aree": [
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Yamaha T-Max 560 (2020 - 21) usata a Ravenna (codice 10174123) Moto.it",
+   "pubblicata": "2026-11-20T00:09:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
    "prof": []
   },
   {
@@ -5952,6 +7731,28 @@
    ]
   },
   {
+   "id": "a94933e5ec3e1009",
+   "titolo": "Vendo Yamaha T-Max 560 (2025 - 26) usata a Rende (codice 10174111)",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xNVNrQzZtNExHNFRNZ3ZJRFRvNmNKSjRkR3hIU2dtWHpLU1JraWpqckxvTVN6TjF1bzcteHcwRERJLVVpT28xOEt2UkR3bUxZME5La1VEMkZQd3RYb1NwdHZaRVdkbGNwUjZ0cTJUUklPcXMwQVNnbW1VSnpiX2c?oc=5",
+   "fonte": "a-moto-it",
+   "fonte_nome": "Moto.it",
+   "tipo": "stampa",
+   "aree": [
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Yamaha T-Max 560 (2025 - 26) usata a Rende (codice 10174111) Moto.it",
+   "pubblicata": "2026-11-19T23:49:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "97a4b44d2a7f7e00",
    "titolo": "Vendo Honda SH 150i (2024 - 25) usata a La Spezia (codice 10174090)",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41b0lIQkNSTmM4WDhCSXFGWUdWUi1hX2VJb1lJWm5GSzVRM3BLS3NDNXRLejBuc2dnczdXSEp6d1JwVnZRdzZMcnMtRHhtOC1SSGNrd0tadi0wQkJneDViMF9FN21Ga2lEc2hXaHU1UWVLZ2RuMV9R?oc=5",
@@ -5969,6 +7770,28 @@
    "metodo": "gnews",
    "sotto": [
     "novita_auto.marchi",
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "caafba4542a12a45",
+   "titolo": "Vendo Yamaha MT-125 (2021 - 24) usata a Villanova Mondovi' (codice 10174100)",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5VRlR4OEpWWmF0cUZ1MnBiYVFmRjZraGJLQ2JvRWtRVUphVmdKYU5jWnNmZFo1S19KNVhFRDJYRGVXbVZsMVdkZTNOTHR5QzhhU2NkUGo4M19lUWJYOGRxYl82ci1xdlg5a19wak8yRTlnZ0VFQXgw?oc=5",
+   "fonte": "a-moto-it",
+   "fonte_nome": "Moto.it",
+   "tipo": "stampa",
+   "aree": [
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Yamaha MT-125 (2021 - 24) usata a Villanova Mondovi' (codice 10174100) Moto.it",
+   "pubblicata": "2026-11-19T23:48:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
     "moto.novita"
    ],
    "luogo": null,
@@ -7364,6 +9187,29 @@
    "prof": []
   },
   {
+   "id": "8957c4c70ff249a2",
+   "titolo": "Gli esterni del concept Polestar Formula 2030",
+   "link": "https://www.electricmotornews.com/veicoli-ecologici/esterni-concept-polestar-formula-2030/",
+   "fonte": "a-electricmotor",
+   "fonte_nome": "Electric Motor News",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "elettriche"
+   ],
+   "normativa": false,
+   "sintesi": "Lo sportivo concept Polestar Formula 2030 compatto e pratico a quattro porte si colloca in un segmento tutto suo, posizionandosi tra la futura Polestar 2 e la Polestar…",
+   "pubblicata": "2026-11-19T23:11:35Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [
+    "novita_auto.modelli"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "a1b65b9ecdcc6660",
    "titolo": "Robot Neato bloccati senza cloud: ora puoi ottenere un robot Vorwerk gratis o un buono da 500 euro!",
    "link": "https://smarthome.hwupgrade.it/news/robot/robot-neato-bloccati-senza-cloud-ora-puoi-ottenere-un-robot-vorwerk-gratis-o-un-buono-da-500-euro_162343.html",
@@ -7462,6 +9308,29 @@
     "archivista",
     "curatore_mus"
    ]
+  },
+  {
+   "id": "4ecb729a9f04820c",
+   "titolo": "Polestar svela il futuro del design con il concept car Formula 2030",
+   "link": "https://www.electricmotornews.com/veicoli-ecologici/polestar-concept-formula-2030/",
+   "fonte": "a-electricmotor",
+   "fonte_nome": "Electric Motor News",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "elettriche"
+   ],
+   "normativa": false,
+   "sintesi": "Polestar anticipa la propria futura direzione stilistica con la presentazione ufficiale del concept car Formula 2030.",
+   "pubblicata": "2026-11-19T23:10:12Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [
+    "novita_auto.modelli"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
   },
   {
    "id": "729fd0010c2c29e3",
@@ -27911,6 +29780,26 @@
    "sintesi": "Please don't be let down by cameras that don't exist yet.",
    "pubblicata": "2026-11-19T21:00:30Z",
    "visto": "2026-11-19T22:10:58Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "8c535f41890c3c46",
+   "titolo": "Australia PM and China’s Xi Jinping hail ‘turnaround’ despite iron ore tensions - Financial Times",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkRjb0Rma1lqX0xiWEJGMGNfWXpZaEJPR0pkQmI5WTdJek50SkpSTm80S0ljN0tGaG80R0ZZZXU1bktzLXVMeDg1ZW5KNTR5bDV1YmdlM2VsSmF3RFZmdF9FTGJuVnBOalFwcUp0QXV1TU5ycVJ5REp1cWladVlFRjdpa0E?oc=5",
+   "fonte": "offerte-tech",
+   "fonte_nome": "Offerte tecnologia",
+   "tipo": "stampa",
+   "aree": [
+    "offerte"
+   ],
+   "normativa": false,
+   "sintesi": "Australia PM and China’s Xi Jinping hail ‘turnaround’ despite iron ore tensions Financial Times Xi Jinping declares 'complete turnaround' in China's relations with…",
+   "pubblicata": "2026-11-19T21:00:10Z",
+   "visto": "2026-11-20T05:01:00Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -62435,6 +64324,27 @@
    "prof": []
   },
   {
+   "id": "d339a56dfb94dadf",
+   "titolo": "Black Friday: drone DJI Neo a 132 euro, decolla dalla mano, vola da solo e ti segue",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTnItWENkb3ZOaV9JVXhncV9iR2doajVjN2hRQjBaLVlMcjZxcEh2Ukd1N3dJakRWQ1pCYmJqX2dLcHdySU43MnpFVDhQXzJNSjd5NzdGQ0ZRUkdQOG9NR2ZJNkVBSDU4WVhvZXVQWVJLSERmaDU5T3ZtdTNEdVZka1JuZ1NfRzU2YzFzQTlaeXFNOFZHc0t1aldJdk5kZFk5Zk82UWYyY3cyQQ?oc=5",
+   "fonte": "t-foto",
+   "fonte_nome": "Fotografia e droni",
+   "tipo": "stampa",
+   "aree": [
+    "offerte",
+    "casa_smart"
+   ],
+   "normativa": false,
+   "sintesi": "Black Friday: drone DJI Neo a 132 euro, decolla dalla mano, vola da solo e ti segue macitynet.it",
+   "pubblicata": "2026-11-19T19:16:22Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
    "id": "ea9ab4ec3b46947b",
    "titolo": "Materie prime critiche, il primo sito pilota europeo sarà a Porto Marghera",
    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQMkgzTU82YnFFNE8wQ2ZyVWYtS3MxZHlqNUNjemNJUWxmc3h2SDFHRWV4TWZuUXgtLVUwMUd2cXlhQmdtUkJFaGNJc1Rva180cGUzM1gtVTdsV2JwdU5LQ3I3UDVBQW1GWHVJSWVyRkswTkFQSnZmMng3VnUwcUozeE9HT1JmcDRXcy1vTXA0bmVuTXc2NHgzNm9Ed0ZWa3hEaWpQQnhiRkx6Y3lJWXlWeko2cWEtUkJUYzdFVzA1cUw1VWF6MnNmZW4tdzhJSDFiVWktRjZEd09wY0VJVVRaRXM3ME1MN3l1ZEdFTTlEQmJObE5EV0RiQ1J6WdIBgAJBVV95cUxQTWNaNFpDV2xSVmNSWUd0bVM2SGEwLVVzMDAyTl9DNGdCT2E3UV9qcTd4Qk0yVzN1ZlFrdm5PVjhKLXVwV3I4YnVuNktOSWNmb1ZtQnVEVUJHQlVROGNTSHdCOGZfdzRYVGNCZExRaHk0ei1kMTV6SURtRDAwVUJXQjdnbndQZnpzNmk2bnFYV0hhallOalFwYUo5MUlpVUIzVEpmWGRDX0VrdDZyZlNabl92YVdxREdoNUJLOUROa0FfaUpabk50OFRTYk9UV3JJd0tqZ0tuTTRSMlBNZXNGNF8tV0NTMVIyOE1yc3FKdVZNVlV5TXdEVUxWQUZ3cGI0?oc=5",
@@ -62733,6 +64643,26 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "17706f4e08b375ab",
+   "titolo": "Politica: news, video, foto e ultime notizie",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOUpKQUVHdUktQ1RfZm9GOVRMZ3dGbE5xNmF6Smx4c2QyeHpHY3RJQnAzWm9UTGQwWTVUd1M5eG1oeTkyZU0wakxjbkZGSXJSMGU0MmJKVC1OWEgtMnVCY1ZZVWhPYzZ2WUNVMVoybmpKREI0QU1TdjlfTDdHQmZCdjNvbVV6MXotWlRSRWxVeEExdFE3MGhGWFJ6S2I2SWZrZjZ6bjBzTDNkNGI0cXZpSDFzbzFDU3YtLVpLQWxrTEVKTjRxcU9fcU5TS29vOEVYM2Y0WlA0Q2FJdC1aTDZlYWkxa1k?oc=5",
+   "fonte": "p-giornale",
+   "fonte_nome": "Il Giornale Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Politica: news, video, foto e ultime notizie il Giornale",
+   "pubblicata": "2026-11-19T19:09:02Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
    "prof": []
   },
   {
@@ -66926,6 +68856,26 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "647ec611613499b0",
+   "titolo": "Google will launch Android app verification requirement globally in January 2027 - Ars Technica",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQX1FsWEZxOEVLQ3JlRjZCcHhXRzlCN0Z0aFNpNW11ZlYzN0Q0ejFUTFJ4dFV3bFBkVUhvQ1ROZGh4RG9fNjBUb1dXTWsyT3E5SWRWSFRPbG1ndV9IM3BxSjZoQi1WaE9rdUxuWWs2bmRZTThzNjJtNVdLaTYtVnBKbkdJV1d3TDl2WnhYa21mR2tqX2FRUThfSTQ0eFlqUVNRRG9USk9BSTJMVmlxSlRTcEFTSjhZQURHQ2lPLUdR?oc=5",
+   "fonte": "stampa-camp",
+   "fonte_nome": "Stampa Campania (edilizia)",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Google will launch Android app verification requirement globally in January 2027 Ars Technica Android's sideloading freedom is about to get a lot more complicated…",
+   "pubblicata": "2026-11-19T18:00:33Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Campania",
+   "nicchia": "edilizia",
    "prof": []
   },
   {
@@ -71443,6 +73393,28 @@
    "sotto": [],
    "luogo": "Caserta",
    "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "f1b6f37dc067ecdc",
+   "titolo": "Vendo Yamaha T-Max 500 (2004 - 07) usata a Rapallo (codice 10173956)",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkWklpMjczZzFnX0RrOUNQQ08tYkJRdnIwdWg1MXZrVWsyYmxkaXpaTEgzMW8zUEhNSU5yQ1I4Rzk5QkZ5THhtSjdFU0lSbm1HLXlXcjFOaEdrRE1HcDFuU09ZR1JlMjd5WHVNLXo4WWM0R0YwME9VZWxYMVNyNjQ?oc=5",
+   "fonte": "a-moto-it",
+   "fonte_nome": "Moto.it",
+   "tipo": "stampa",
+   "aree": [
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Yamaha T-Max 500 (2004 - 07) usata a Rapallo (codice 10173956) Moto.it",
+   "pubblicata": "2026-11-19T17:05:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
    "prof": []
   },
   {
@@ -79762,6 +81734,33 @@
    "prof": []
   },
   {
+   "id": "5f665bb5c1988652",
+   "titolo": "Roma, l’illusione nascosta sotto la Chiesa di Trinità dei Monti",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUTVQZ3ZvVXZsdFZlVFFpdjFGZzY2WC1leXRRWWJoRUhqckpiLXQyNFYxbktIUUtpNWRzMXBxenRNNnFEN2tmTVdtRThzLVJqalBqczVJalZtME9jbjZUV0NwLUhFc05PVTBjbVMyNDIwR2RPb0F4dFVKQ2VHY3hTcnhsS0xlV3FLbUppdkhKQkRXVjFCVDZZMWF1Z0Z4UlVWRmVZRFNUN2hxcG9SU0RobnV6NHhJOEFGX1psN1FJUEc5dmRJX3JVM2d2UW5uV1XSAdQBQVVfeXFMTjdMUTlFaS1FUjlCVk5tN0lIVW9xUDZXMV9XMURXTWRZNEhDVEFsSmU0b1hWNWJnYUM2S3V3Y0ZKWVd1X2ZUd1ZOc1NRZVZUTk1qWjcxUzJfbEpoeUZhRkRHSmxtSU9VY1ZMMEYzdVo5TnFySUJCN3MtWVZva1RSRkUtQUJWY2tDcjRFcExpYXluQ1UtQnoxSHIzWTREbUNJTGJTNmxnQ0wtZkExaV9OZGNXcGl6bWI5S0FYNUxtMm9aRFJDUlhmSmZiOElPSlRLQjQzdWc?oc=5",
+   "fonte": "pr-immobiliare-news",
+   "fonte_nome": "Immobiliare.it e Idealista News",
+   "tipo": "stampa",
+   "aree": [
+    "immobiliare"
+   ],
+   "normativa": false,
+   "sintesi": "Roma, l’illusione nascosta sotto la Chiesa di Trinità dei Monti Idealista",
+   "pubblicata": "2026-11-19T15:51:48Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "agente_imm",
+    "condominio",
+    "valutatore",
+    "facility",
+    "mutui",
+    "notaio"
+   ]
+  },
+  {
    "id": "e73433f43c9d54cb",
    "titolo": "Tg Politico Parlamentare, l’edizione di giovedì 19 novembre 2026",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaGk3VFM4Snk0RE0xSXhCUjJaREx6R2N4ZTEtV05qQWc1bEhRdy11ckFpbWlXeTlZMVR6ZWpYSWktMDF6U3FualNJbExmLTUzT0VqVnBwRnFIdTVoMlBvSkNyd3NfczEzc2lxd3VZMGlWOTF3Z0EzakZwUUMxbDZBdjBSZmR3TDNBQTN5ZGp3UkdPbm5RMXJPYWtIbnh4TndibnItdQ?oc=5",
@@ -80972,6 +82971,27 @@
    ],
    "luogo": null,
    "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "281c1233baa146ad",
+   "titolo": "Instagram, ora le Storie si correggono: c'è un quarto d'ora",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZZ3FGQjhjY01GaG54YXlzdmhPQmx2TS11cDJOUVBROFJNcV85dmt3MmVMMEpRdWhZYjkxb3daUUZ5WVBJeVk3ZUZweGFiQkxIR3YzN05DZl9SbnJDNm1qS2RWa094Q3prN2xqVg?oc=5",
+   "fonte": "t-foto",
+   "fonte_nome": "Fotografia e droni",
+   "tipo": "stampa",
+   "aree": [
+    "software",
+    "casa_smart"
+   ],
+   "normativa": false,
+   "sintesi": "Instagram, ora le Storie si correggono: c'è un quarto d'ora Techzilla.it",
+   "pubblicata": "2026-11-19T15:40:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
    "prof": []
   },
   {
@@ -85641,6 +87661,26 @@
    "prof": []
   },
   {
+   "id": "75ac219a449329ce",
+   "titolo": "Boston’s Beloved Citgo Sign Returns After Rebuild, 30 Feet Higher - The New York Times",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ac2tUVjVaVkZzSzNKaERqZUlJcU8yemJfNnNKY0I5NWh5WkJlV2VMdDlickF2Sm1zYjRSUDNxUGVWa0JkY21Qa1AwUGp0ZldWWWdXcWJaT2JkUmd6S3hRazZYZGptQ1YtOUF3OGxLbkNXM0Eyb0lFTDFnbS0?oc=5",
+   "fonte": "stampa-camp",
+   "fonte_nome": "Stampa Campania (edilizia)",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Boston’s Beloved Citgo Sign Returns After Rebuild, 30 Feet Higher The New York Times Photos: Citgo sign has weathered plenty over the years The Boston Globe Boston's…",
+   "pubblicata": "2026-11-19T14:57:07Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Campania",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
    "id": "77ee9b27d79b42c3",
    "titolo": "Black Friday Amazon 2026: Alexa Tablet in offerta a partire da 139€",
    "link": "https://www.iphoneitalia.com/850501/black-friday-amazon-2026-alexa-tablet-in-offerta-a-partire-da-139e",
@@ -87254,6 +89294,33 @@
    "luogo": null,
    "nicchia": "tech",
    "prof": []
+  },
+  {
+   "id": "160168b8995fe3cb",
+   "titolo": "Dove cadde Cesare, a Roma, ora si entra con la realtà virtuale",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTkpHSVFRb3lERFB6Q0JNYXhjUG92VXdHOW9mbnM0bk9DRkJrdzhRbm9GdHJ4Qzdtdm1BTzgwd3haVXJDeWFab1JGOXlLTDdEclg5SXZfZk1kOVFocEkybHFsQWtySkpOZklaRkowcTI5YzhUemNCU2FSX1VwOGRFaHloakJQUXlfSkhNU2VyTDVKTWhxQXpKLUdJVm9JSGdTNjNOUlBLYzBJWGJ1OXAxOThuYzQtTmZUemtUV0lROW85WUtjTUhabU9HcEzSAdIBQVVfeXFMT3dlS1BGVzA2QTAwTWhwcWthR1NXTFlTRGRycWdjQXExSElCWm00S2lESy1yZGIwR2R6OGQ4bUJoVkFpb1UxcGxpQ2FOeVFsS3JZN0REYWQ3VF9jY1hvS3lFdG9RdnlkUC1sVnJ5QnVmbV9FZi1QTVJEbW1lSjhEYlJKWUNMZHBVTFB5MWJhRnhjaVIzcFpiSWNNMUdSZWlGTXhsaUU0bC1oTGJtUnZ5SlRWY1ZJQlkyQnhvUGVIM05FNjdueC1NVjhCYW1DYzVMdU9R?oc=5",
+   "fonte": "pr-immobiliare-news",
+   "fonte_nome": "Immobiliare.it e Idealista News",
+   "tipo": "stampa",
+   "aree": [
+    "immobiliare"
+   ],
+   "normativa": false,
+   "sintesi": "Dove cadde Cesare, a Roma, ora si entra con la realtà virtuale Idealista",
+   "pubblicata": "2026-11-19T14:40:56Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "agente_imm",
+    "condominio",
+    "valutatore",
+    "facility",
+    "mutui",
+    "notaio"
+   ]
   },
   {
    "id": "b79d614cad543247",
@@ -89233,6 +91300,27 @@
    ],
    "luogo": null,
    "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "4f6dfbf98718eac8",
+   "titolo": "Cina, droni con ali battenti e intelligenza artificiale: la nuova frontiera del volo autonomo",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVVgwbkdPSWp5N0g3VjhIcFVlSnhCV0dvbHp1bWZkemRfeF9IY2FPMTZ6TFp2LUtUakNxRUNkM0RDUC1zdnRwdUx6SXFvSzJMT0RvandsUUFwSnRPRGRNX2ZlcW94UFBoX0RzOEtNNkRmcFU5V3N0djh1MjRaRFlxQU9LUVNIRWRJZWxSZjVuLXRHM1ZMN1BGcUV6NE9Nem5VdDR2MUhpT2NyajdZR0I3cVJYLXY1OGlNVnZz?oc=5",
+   "fonte": "t-foto",
+   "fonte_nome": "Fotografia e droni",
+   "tipo": "stampa",
+   "aree": [
+    "pc",
+    "casa_smart"
+   ],
+   "normativa": false,
+   "sintesi": "Cina, droni con ali battenti e intelligenza artificiale: la nuova frontiera del volo autonomo Drone Blog News",
+   "pubblicata": "2026-11-19T14:17:03Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
    "prof": []
   },
   {
@@ -91787,6 +93875,27 @@
    "prof": []
   },
   {
+   "id": "46606c6cec626606",
+   "titolo": "Nikon Z30, la fotocamera mirrorless per vlog oggi a un prezzo stracciato",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9nc0NpUnF0dkVwN1JodFhfdm01YXlVblNkMEVjbG9MTXBuTkFGT2l2ZnVNYW4tYmlHMFV2cjRCOG12a2JuaEdSMWhlamlzYmZrMDZmYkswRzJnYWpxTzJOYkItSGY2TFpVOTRGVU5FeE9Bc2xLOFJJcUVn0gF6QVVfeXFMT2dzQ2lScXR2RXA3Umh0WF92bTVheVVuU2QwRWNsb0xNcG5OQUZPaXZmdU1hbi1iaUcwVXZyNEI4bXZrYm5oR1IxaGVqaXNiZmswNmZiSzBHMmdhanFPMk5iQi1IZjZMWlU5NEZVTkV4T0FzbEs4UklxRWc?oc=5",
+   "fonte": "t-foto",
+   "fonte_nome": "Fotografia e droni",
+   "tipo": "stampa",
+   "aree": [
+    "casa_smart",
+    "smartphone"
+   ],
+   "normativa": false,
+   "sintesi": "Nikon Z30, la fotocamera mirrorless per vlog oggi a un prezzo stracciato Libero",
+   "pubblicata": "2026-11-19T13:45:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
    "id": "e530d6a54a40451e",
    "titolo": "Black Friday Eve: gestire temperatura, finestre e sicurezza con Matter",
    "link": "https://www.macitynet.it/black-friday-2026-eve-systems/",
@@ -93915,6 +96024,26 @@
    ],
    "luogo": null,
    "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "2a9f63c4985e12c2",
+   "titolo": "Droni in cielo e 278 agenti a terra: maxi blitz tra Rogoredo, Corvetto e San Donato",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORUVnSXQxd0FxZ1JSZ3o5cGM5NkZZbkhfbnRueGQ1d1JwVlZzMjkzdnBVVDhrWklxakZkTWEwS2ZMU293YzF1TTlBUXpqSEFwNjQ1ZG9Vakt3TXFNVktRWWg4eFlrb0FReUZ5ZlM4TWdUczdMTjBLSVVvN25kZFYtZGhzRFExeGRaYkg3T0gtampoRkM1aHdCX08zVGZVVkg2VTMxYXpUYm9IZmhuaUE?oc=5",
+   "fonte": "t-foto",
+   "fonte_nome": "Fotografia e droni",
+   "tipo": "stampa",
+   "aree": [
+    "casa_smart"
+   ],
+   "normativa": false,
+   "sintesi": "Droni in cielo e 278 agenti a terra: maxi blitz tra Rogoredo, Corvetto e San Donato Drone Blog News",
+   "pubblicata": "2026-11-19T13:17:11Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
    "prof": []
   },
   {
@@ -96792,6 +98921,28 @@
    "metodo": "gnews",
    "sotto": [
     "mezzi.tempo_libero"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "89c6fa028419e921",
+   "titolo": "Vendo Yamaha T-Max 560 Tech Max (2020) usata a Roma (codice 10173652)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONVJSVVRXS2FKaDJZTjZYVTI5MXRLMUFfbkNJMVUzWWhCbWc1SERXanNmOHI2blVyS1dlM3pDRHBBSXEtUXM1b1EwamJFUnAxNk00aWdpNkQ1OXIyamowQlhqMkVaTEFRbkdXMlNXT1lQVGEzZlRQR3RkUXY5aVBnWU1Bd0czaG8?oc=5",
+   "fonte": "a-moto-it",
+   "fonte_nome": "Moto.it",
+   "tipo": "stampa",
+   "aree": [
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Yamaha T-Max 560 Tech Max (2020) usata a Roma (codice 10173652) Moto.it",
+   "pubblicata": "2026-11-19T12:37:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "moto.novita"
    ],
    "luogo": null,
    "nicchia": "auto",
@@ -100659,6 +102810,26 @@
    "prof": []
   },
   {
+   "id": "55b8e2f5ca2c15db",
+   "titolo": "Thor in pre-serie: Voltrac porta i robot autonomi nei campi",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfbHBJX2hJZ1N4ekJ5aTZCSko2QmtwdlNEU25XODhTdGkwbm1ONmtWcDRSNVNlVmZsNmxBRjd2S3pEZHBIQ1VPQnl5M1RTeGdxRlZEcGNmdVhJSjFCNkpxUlFBNXRhRFdod3FBNGl6Z2NqSEFKUTFvNDJoUDZxOHc?oc=5",
+   "fonte": "a-agricoli",
+   "fonte_nome": "Trattori e macchine agricole",
+   "tipo": "stampa",
+   "aree": [
+    "mezzi"
+   ],
+   "normativa": false,
+   "sintesi": "Thor in pre-serie: Voltrac porta i robot autonomi nei campi OmniTrattore.it",
+   "pubblicata": "2026-11-19T11:49:56Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "fd74f9963e18407f",
    "titolo": "Questa moto elettrica si piega e diventa un trolley. Ma quanti difetti…",
    "link": "https://www.insella.it/news/questa-moto-elettrica-si-piega-diventa-un-trolley-quanti-difetti-80751",
@@ -100918,6 +103089,32 @@
    "luogo": null,
    "nicchia": "politica",
    "prof": []
+  },
+  {
+   "id": "a4e2a3ed91c7f8a5",
+   "titolo": "Flat tax a 100mila euro: l'avvocato può guadagnare, ma non assumere",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWjZtOWZwNnpRV0hteTBUVWRRaTFoY2hSbEZQcWUySG1qTnpVRS05cWdMM2xYSTlYVEM0LUJwZmc0SmxOQnVOOXNtQW5tYkFDdnIxbmZEVkdpVWVIN1VSU2RNcnhPUUNrYURvaTljODlSNFRyaEJPOTRTZmpBRXd1WGkwRTU0dmNKbTJEMEJDX0FiaHVFdkFvc0tMSDJaMTZxZ0FKN9IBqgFBVV95cUxQZzAzQjdRc2N4andYRjNlY19HMVdRclBzcEROdkNGR1NTQS1BbzJiNHhmdk95MVhYMlNTWTZUN0RKUFFTR2R0cW45ejZKaE1GLVg0aFhZdjlxVk44UEpKSHlaQ0ZRejlhS3N6VllsZkpnblFhTFBMXzJxQTFtZ0c1ek82eWthaDRQRC1BYXlXN19zb29BRUQ5cTVFU09mUHFmLUVNSVdITWpDdw?oc=5",
+   "fonte": "pr-cassaforense",
+   "fonte_nome": "Cassa Forense",
+   "tipo": "ente",
+   "aree": [
+    "legale"
+   ],
+   "normativa": true,
+   "sintesi": "Flat tax a 100mila euro: l'avvocato può guadagnare, ma non assumere La Legge per tutti",
+   "pubblicata": "2026-11-19T11:46:23Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "legale.avvocati"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "avvocato",
+    "notaio",
+    "curatore"
+   ]
   },
   {
    "id": "a0f10eba68e6723a",
@@ -101275,6 +103472,37 @@
     "facility",
     "mutui",
     "notaio"
+   ]
+  },
+  {
+   "id": "42657f20be6b7096",
+   "titolo": "Ordinanza Corte di Cassazione 6 giugno 2026, n. 18285",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOby1VTldJNVNkQ0E2UGJNeFduT1BKUklxV3VmMy13a0NZenpQb3BtVS12VzJXMWZwQm1EcHBFSkJMZGMwcEo0NlU2QTlVNDNicTl0NmZRNE1IZEhxNFlOdmVtYnVmWEM0eEg5QzVzSXF3UVhFX1hhVExPbEZvcGVjU2Z6M1JTU3NYXzMyVThTeDZCZTJtVkhIN2RNVUhiSm5TR1hBSVN6M1JsbW5QckM3UdIBvAFBVV95cUxPU3FnRHJxNzdFNmd4VjVJbk5yTVN6ZEtFWHM2eHNvdGNyaU9vM0pOdHE5VmdrZ3d3M1YzUXlxR1ZkZ0pyTl90TC1tZEJubHFxLU5qNWxxRjY1VzlFNVZyR3hFemNGcnNRdEtNSUYxZUhDUXluU0tUcERnaWVVaTFHTmE1b3M2Ulc0djhGNXVhY3FrcUJJZ1hCaUNDSmVndDhaS2VRRUlXQlRsemtEb2V5VjZmY3VLdWxHRUJ0Mg?oc=5",
+   "fonte": "lavoripubblici",
+   "fonte_nome": "LavoriPubblici",
+   "tipo": "stampa",
+   "aree": [
+    "legale",
+    "appalti"
+   ],
+   "normativa": true,
+   "sintesi": "Ordinanza Corte di Cassazione 6 giugno 2026, n. 18285 Lavori Pubblici",
+   "pubblicata": "2026-11-19T11:42:45Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "legale.avvocati",
+    "appalti.opere"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "avvocato",
+    "notaio",
+    "curatore",
+    "rup",
+    "ingegnere",
+    "contabile"
    ]
   },
   {
@@ -116393,6 +118621,30 @@
    "prof": []
   },
   {
+   "id": "1dbacd577c3fa369",
+   "titolo": "Vendo Bmw F 800 GS (2008 - 15) usata a Firenze (codice 10173486)",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zQ1lIUzlhVjV2N2RkOC1hczhzOVNVSnpPRFNZbmtrLXR5UUF2RFpGWjNneUVmalVHeFljWVd5VFFvVkhPdkdTYmVicFdPSmZ1ZmFfd3BXYy1nWHAzdExMazYyOHd0MFM0NHlpaER1Rm96N0EtdWxhaA?oc=5",
+   "fonte": "a-moto-it",
+   "fonte_nome": "Moto.it",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Bmw F 800 GS (2008 - 15) usata a Firenze (codice 10173486) Moto.it",
+   "pubblicata": "2026-11-19T09:37:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.marchi",
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "377b0dd3d7c8065d",
    "titolo": "Flash point, perché abbiamo un problema con i controlli di Dogane e Gdf",
    "link": "https://www.staffettaonline.com/articolo.aspx?id=409223",
@@ -117064,6 +119316,37 @@
    "luogo": null,
    "nicchia": "auto",
    "prof": []
+  },
+  {
+   "id": "56328f873fdb0326",
+   "titolo": "Agenti AI, il 55% non controlla i costi: l’allarme Cisco",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb1NCUTFBUDVIbEFjbXo3S21qV2ZwcHFHX1JnZGRVVzVUU0V3dFlaNlQtbnM5NVhSYWYwYTNqRDFENF9YYmJPa2pIZTJCbmJmU0NQLVd5OE13S2hReEdWREh5WnVTRVZWcHhIZHBuWGdhTTlBY1Rsd0xkY2xwckdGaWNUckVPWmRQZ0o0QnZ2QkRUX1p3WXdqeQ?oc=5",
+   "fonte": "pr-cassaforense",
+   "fonte_nome": "Cassa Forense",
+   "tipo": "ente",
+   "aree": [
+    "management",
+    "legale"
+   ],
+   "normativa": false,
+   "sintesi": "Agenti AI, il 55% non controlla i costi: l’allarme Cisco PMI.it",
+   "pubblicata": "2026-11-19T09:30:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "management.manager"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "avvocato",
+    "consulente_az",
+    "manager",
+    "compliance",
+    "finanziario",
+    "notaio",
+    "curatore"
+   ]
   },
   {
    "id": "9b7f7ce368e7c01e",
@@ -122369,6 +124652,28 @@
    "prof": []
   },
   {
+   "id": "044145804afe7a0b",
+   "titolo": "Vendo Kawasaki Z 750 (2003 - 06) usata a San Donato Milanese (codice 10173407)",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9Pa0w2WUl5ME5pRmx6VHdEalcyUDRWVUFVNFp4NDh6SjBqZlVaRFdzelN3U21wWFA3NThwMVdkeGd0dGd2ZUNxOU9WQllwN0lMd3VDTWRPZU9kSlZaZWhvOGZSb2g0VnRZTzN6MWRPVHhnWi1hZllR?oc=5",
+   "fonte": "a-moto-it",
+   "fonte_nome": "Moto.it",
+   "tipo": "stampa",
+   "aree": [
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Kawasaki Z 750 (2003 - 06) usata a San Donato Milanese (codice 10173407) Moto.it",
+   "pubblicata": "2026-11-19T08:30:00Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "ae0b0e991f16b45e",
    "titolo": "La canzone con cui la Cina potrebbe aver stuzzicato la prima ministra giapponese",
    "link": "https://www.ilpost.it/flashes/canzone-cina-takaichi/",
@@ -126896,6 +129201,26 @@
    ]
   },
   {
+   "id": "98bb3f0b080cf929",
+   "titolo": "Segovia protegge i suoi monumenti con i droni: dall’acquedotto romano alla città in 3D",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01XzRhR3lXNHNtNU82ZjdIRlZZaGtTT0VrYWtVUnp6UlVRWkFPSmd3b2FaZjNMRnBENUdMOUY1Q2xhSFJOSE50MkRfLS0wMklhOFdvM0tQWXZCLU8tdjB6cktydV93TjFUWWs1TnRUTFV5VUNF0gF6QVVfeXFMT3ladE9OcENZTFZXTVQ0YzJaVnU0MlVSR0FrbW40V0s0NFRKNmpndDZMbm5CcEkxaGNhR19zV1dkcFl5aHVFTWxoRVFRdjhzQm9mZmJKR1d0SDRGWUxUOEFHd0FkNHFaZHVoQUNZWndnbjlPTy1NVVcxNEE?oc=5",
+   "fonte": "t-foto",
+   "fonte_nome": "Fotografia e droni",
+   "tipo": "stampa",
+   "aree": [
+    "casa_smart"
+   ],
+   "normativa": false,
+   "sintesi": "Segovia protegge i suoi monumenti con i droni: dall’acquedotto romano alla città in 3D Techprincess",
+   "pubblicata": "2026-11-19T06:51:50Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
    "id": "22e2a17d6456a9c9",
    "titolo": "Postepay Evolution, nuovo IBAN dal 2027 con BancoPosta: cosa fare per stipendio e bollette",
    "link": "https://www.pmi.it/tecnologia/prodotti-e-servizi-ict/279598/postepay-nuovo-iban.html",
@@ -129457,6 +131782,26 @@
     "formatore",
     "consulente_lavoro"
    ]
+  },
+  {
+   "id": "e4ba5e12f0bbed8f",
+   "titolo": "L’aula del Nuti vista dall’occhio di un drone",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYkE1cmtabXdrNk9GMEhraEpIbEZua2p1SUhmYUQ0QXNkVW82dzBSV253TmE5M0dJZDN6dUtHcjlvN1ViWDNVSGhQOFNMV0JFOUs0VFppdXIyN0NqQkp4Z2hiYVgtVHc5R29Gc05IWjdnc01yVGNMNmRLeGJIendqdDlKanZxcXFXQmZBS2RQblpuQQ?oc=5",
+   "fonte": "t-foto",
+   "fonte_nome": "Fotografia e droni",
+   "tipo": "stampa",
+   "aree": [
+    "casa_smart"
+   ],
+   "normativa": false,
+   "sintesi": "L’aula del Nuti vista dall’occhio di un drone Il Resto del Carlino",
+   "pubblicata": "2026-11-19T05:54:56Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
   },
   {
    "id": "cced9a96cb3c7766",
@@ -132127,6 +134472,26 @@
    "pubblicata": "2026-11-19T03:40:00Z",
    "visto": "2026-11-19T10:54:48Z",
    "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "e5bcb40ecadd6a9c",
+   "titolo": "I giochi più popolari nei casinò online in Italia: la guida completa ai grandi classici e alle novità del momento",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxObXN2THlRd2xncUJkN01lVnVvZ2JYeHVpLUZqdWtvV1ZFRkRyNmttdkZXdlFjNnNOZmV3VmVoOFJZWHNRYWNMU0FsVzZUeE9MR3RyVE9yY0FpOHo1SU8yLVlPTFpHeFluTnNrVnlHOXlhakR0SmUzMEpHZ2ZROEMzeFlsdm5kQnlObGtsS0diN0JmRG94QnNNS3d2OHdLbUhvY0I4ZjlGTy1VUVpPVjQ3SldNWlo0S29FdjZldGpZV21WenRfd2dkdVkyaU1KV2FpWWNMN3FOREt5enN5bjFrOGQyejhfektSUWxQV2dDR2xKTDJkQXBCYVNyVQ?oc=5",
+   "fonte": "t-foto",
+   "fonte_nome": "Fotografia e droni",
+   "tipo": "stampa",
+   "aree": [
+    "casa_smart"
+   ],
+   "normativa": false,
+   "sintesi": "I giochi più popolari nei casinò online in Italia: la guida completa ai grandi classici e alle novità del momento tuttotek.it",
+   "pubblicata": "2026-11-19T03:38:09Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
    "sotto": [],
    "luogo": null,
    "nicchia": "tech",
@@ -135859,6 +138224,33 @@
    "prof": []
   },
   {
+   "id": "109e3ab482d53537",
+   "titolo": "Appartamento all'asta in Contrada Malvicino, Capo d'Orlando",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCVXJYdEVwV1k2MXJkVnhtNGhhSmZCTHFWa3Nkd21LSzFPWmppd3FNVFl5SkkySV9GUVpFOXRGNmZUVHFXbVdxQWFSMWM4VDlMWXF2V2lR?oc=5",
+   "fonte": "pr-immobiliare-news",
+   "fonte_nome": "Immobiliare.it e Idealista News",
+   "tipo": "stampa",
+   "aree": [
+    "immobiliare"
+   ],
+   "normativa": false,
+   "sintesi": "Appartamento all'asta in Contrada Malvicino, Capo d'Orlando Idealista",
+   "pubblicata": "2026-11-19T00:42:05Z",
+   "visto": "2026-11-20T05:01:00Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "agente_imm",
+    "condominio",
+    "valutatore",
+    "facility",
+    "mutui",
+    "notaio"
+   ]
+  },
+  {
    "id": "843c25e84b385ec8",
    "titolo": "Elon Musk says: ‘I’m not MAGA’",
    "link": "https://techcrunch.com/2026/11/18/elon-musk-says-im-not-maga/",
@@ -139355,2319 +141747,6 @@
    "luogo": null,
    "nicchia": "politica",
    "prof": []
-  },
-  {
-   "id": "a330ccf1c4d6cf0c",
-   "titolo": "Google Pixel officially re-releases App Lock in beta, Samsung Galaxy gets it too",
-   "link": "https://9to5google.com/2026/11/18/google-pixel-app-lock-release-beta/",
-   "fonte": "t-9to5",
-   "fonte_nome": "9to5Google / 9to5Mac",
-   "tipo": "stampa",
-   "aree": [
-    "smartphone",
-    "software"
-   ],
-   "normativa": false,
-   "sintesi": "It’s been a wild ride for Google Pixel’s App Lock feature, but the company is officially re-releasing the feature today, right alongside its debut on Samsung Galaxy…",
-   "pubblicata": "2026-11-18T21:20:00Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "b1cbfb8e8866c2a0",
-   "titolo": "What the Crimean bridge attack means for Russia - DW.com",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVWNJeU52cmNIWXVxYXloM1RVdm5SQWdTd3pFWUd6QzhXYmhNeWx4enlkSjNENHBLcnBDY240aV96SEdiTnFVOUtuTWJ4ZmVIUHYySmJaczR6NzJLXzQwc2p0Y1lfSnpNaUdfOEdHLUwyZDdGVkVFODZFZjRtVVVXUjNVdWl5REXSAYcBQVVfeXFMTWR5dF9IVHRBaVhOc2RKbGpGR193aDhrRHRwSFRDZzVLeV9EdnloLTFHRU9CRi01TU5VV09iSXJ0V2VBTGJndFo0R3BSdDhmcXpraFhlSllSREJLVEZYcDVfT3NDQXRLTVdyWEpRNEw3YUY1TVJQT09KWEowOHVWSkFMeHlRVVhB?oc=5",
-   "fonte": "stampa-ce",
-   "fonte_nome": "Stampa locale Caserta",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "What the Crimean bridge attack means for Russia DW.com Ukraine Attacks Kerch Bridge Linking Russia to Occupied Crimea The New York Times Russian Offensive Campaign…",
-   "pubblicata": "2026-11-18T21:18:54Z",
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "98c6d4aa232eb7d1",
-   "titolo": "The Galaxy Z Fold 8 series just got a special edition that celebrates GTA VI - Android Authority",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5WSEZqQW4xVkZPdG1wZWVBdktTaHREeW5MQVhvT3lmUHhUdmpNb2UwYUNNVFVoaGlScVFpVS1qeHRXWS1UeG1HRjc0TFc5WlZDcms0R1lrS2NMcTdfU0RFZEdITlhrTklYa3NsZnYwaUk2WTNDWjlzNjFSdGQ?oc=5",
-   "fonte": "offerte-tech",
-   "fonte_nome": "Offerte tecnologia",
-   "tipo": "stampa",
-   "aree": [
-    "smartphone",
-    "offerte"
-   ],
-   "normativa": false,
-   "sintesi": "The Galaxy Z Fold 8 series just got a special edition that celebrates GTA VI Android Authority Apple iPhone and Samsung Galaxy get GTA VI Limited Editions Notebookcheck…",
-   "pubblicata": "2026-11-18T21:17:00Z",
-   "visto": "2026-11-19T16:06:11Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "11e983a99c9abb19",
-   "titolo": "12+ inches of rain possible by Friday night along coast; 18 inches in isolated areas - WESH",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMHliLXRKZGNweFdqMXFpVmFWTHktOHNmMUVaTjRhbWR6RWxnVlQzX0RlamRkVUJBU0J6MU5FaWQ3TUk1bU5Edmt4OWhSN0NZeHB6M1RvYkpxb1hwdHVJTk9TdjRmeFZzaU5yaWFwMHBHaDh1Sng3cmVhT2xMejNIRXJjQVJ3YnJwNTRzc3Y1aW5hSGNSNENN?oc=5",
-   "fonte": "stampa-ce",
-   "fonte_nome": "Stampa locale Caserta",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "12+ inches of rain possible by Friday night along coast; 18 inches in isolated areas WESH Intense flooding slams Florida from a developing storm that could snarl early…",
-   "pubblicata": "2026-11-18T21:16:00Z",
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "b851beb82bc022ed",
-   "titolo": "Tolto il telo alla 3^ edizione di Monselice in Rosa Cross. Domenica prossima la 2^ prova del Selle Smp Master Cross",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOR0hBUFViSTdtN1JRY3AwOGFSWDYwN3BEOGhFQm02Y0hfTTVDcHdnanJ0OFNNXzlsWTZ0cFI3UFZHcnR0MTJxNG9OVU1PNTNMWWFOVlVFUlMzRDBKd2pZcVRLOTdKLXlOVnllQktqenNHZUJucl9xYzhER1RuSHNXcnI4anRvRS1sTzRiaVo3UlpEWVRQMjd2N09lRVZUVWxpS0Q3bU14T0F3UEE3cXZHdnhwRlA5VGJsRmdMTGQ4WE1NcURWUXJUZGJvSXNBaGJJWVZv?oc=5",
-   "fonte": "a-mtb",
-   "fonte_nome": "MTB Mag / Mtb-Vtt",
-   "tipo": "stampa",
-   "aree": [
-    "prove",
-    "bici"
-   ],
-   "normativa": false,
-   "sintesi": "Tolto il telo alla 3^ edizione di Monselice in Rosa Cross. Domenica prossima la 2^ prova del Selle Smp Master Cross Solobike.it",
-   "pubblicata": "2026-11-18T21:15:41Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "gnews",
-   "sotto": [
-    "prove.prove"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "3ad26423f747e485",
-   "titolo": "Posso ottenere una supplenza anche a metà anno scolastico?",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU3hySUZHN1NCSkRNYkhuTVh0U0tQYlAyMVlxSlhFNEUzeDZFUjR5NnZ4UVYtSW9CazRnQV9qTnBXQlhSYzExSTYwRDVOQVBheDlqRW1FY0tHcFVkQXdhZ0cxcWwtcnhPeUVOQU44Qm5FcmhXV2lUV0RhNGQwMk5UempZMlVyN3lkUjFzc1c1enlRU2s5SXc?oc=5",
-   "fonte": "pr-scuola",
-   "fonte_nome": "Orizzonte Scuola e Tecnica della Scuola",
-   "tipo": "stampa",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": false,
-   "sintesi": "Posso ottenere una supplenza anche a metà anno scolastico? Tecnica della Scuola",
-   "pubblicata": "2026-11-18T21:14:51Z",
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "gnews",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "956f9aaa871246d6",
-   "titolo": "Decreto Scuola, più ore di educazione motoria e programmi ad hoc per gli alunni con disabilità. Sì all'ODG di Forza Italia",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRGRvZEh0S2g4X3VNX2gwZ0phWnp6UW5Zc2x1WVFmcHlYMTRYaUxMTDRjdUVHLW5WeEpqWkRPSHZSU3hnQWNRVTRYNGxmM3pBQi1LNGhBUEtHdXNEb09qTVdNREc5YVZsb0NyTXl4bTd3TW1wX1ozNjJFQ0NabFg4VjJYUGw3OGNjLUpESnFNcjFWNWpSUlZhTlBlS0VjS19WQmhCNFdKdXlIRm1ZcnB1NFB1NE5HUTBsSlZfdUtsZ1I1M0tXV3ExQzZoWVROaUlrNnJSaDlUeWFOWVJ3TE1DOFozZVZ6dw?oc=5",
-   "fonte": "pr-scuola",
-   "fonte_nome": "Orizzonte Scuola e Tecnica della Scuola",
-   "tipo": "stampa",
-   "aree": [
-    "formazione_cultura",
-    "comunicazione"
-   ],
-   "normativa": true,
-   "sintesi": "Decreto Scuola, più ore di educazione motoria e programmi ad hoc per gli alunni con disabilità. Sì all'ODG di Forza Italia Orizzonte Scuola Notizie",
-   "pubblicata": "2026-11-18T21:11:00Z",
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "gnews",
-   "sotto": [
-    "formazione_cultura.scuola",
-    "comunicazione.media"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus",
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo"
-   ]
-  },
-  {
-   "id": "da0fc178c0d322c9",
-   "titolo": "5 locali o capannoni fino a 500 mq in affitto, Via D. Gregorio Portanova, Mercato San Severino",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcF9QVUREWGwteVJWYnA0d0xUOG5pTUdrd09oRDVsaklBUWg4Q3dFc2NqSTYwTDk5T0RXVGdoYno4dGlvVWhYa1ljVTlIUGQ1RDBsZlN1VnhSTVlzQUd4ODZ0UXpFcjN1RmoteFRpR01SZmx5d2w5bk5EU2cyNkF6eERRV2xHa3FaRVZHTUpOaFQ2LVlWWHg2VjE1VzNwd1NnWGdfTkpmM09yY253UDZVWmg4ZDVrNDd6N2RMdEhn?oc=5",
-   "fonte": "pr-immobiliare-news",
-   "fonte_nome": "Immobiliare.it e Idealista News",
-   "tipo": "stampa",
-   "aree": [
-    "edilizia",
-    "immobiliare"
-   ],
-   "normativa": false,
-   "sintesi": "5 locali o capannoni fino a 500 mq in affitto, Via D. Gregorio Portanova, Mercato San Severino Idealista",
-   "pubblicata": "2026-11-18T21:08:17Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "gnews",
-   "sotto": [
-    "edilizia.produttivo"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "agente_imm",
-    "condominio",
-    "valutatore",
-    "facility",
-    "mutui",
-    "ingegnere",
-    "architetto",
-    "geometra"
-   ]
-  },
-  {
-   "id": "46e58faecc474882",
-   "titolo": "Elden Ring, il gioco base a meno di 20 euro con il Black Friday anticipato di Amazon",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOM2FUdjMybEtiSjVYMWw2VWlUQlVTMXp3OHo3RGlvMks4dU5HYjZITVp3T3U3Qm5Yc2trVm11V1B6cjZpazJwTkdYVnN1LUhUcjFNWDNQQkdNUkxJdl9QTGNyS0J4enE3V2h2V3VDMDdtczExT3pWUjZQN3g0bHZCeGZfM3gxRThySTFZQ1hCelkwUjZJSm84UlVwOGpCNFNNMWo4UGFOSDFGbU90eV9BTjhNTQ?oc=5",
-   "fonte": "t-prezzi-gaming",
-   "fonte_nome": "Offerte gaming",
-   "tipo": "stampa",
-   "aree": [
-    "offerte",
-    "hardware"
-   ],
-   "normativa": false,
-   "sintesi": "Elden Ring, il gioco base a meno di 20 euro con il Black Friday anticipato di Amazon Everyeye.it",
-   "pubblicata": "2026-11-18T21:06:00Z",
-   "visto": "2026-11-19T23:15:21Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "7e9265cd3bc5ca01",
-   "titolo": "Anci Giovani Campania, Anna D’Aliasi nominata Vicepresidente Vicaria",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNUV4OG1lT1pCWFA5WmJwVklaTmxFUW41N25RU0hTQjBYb1B2dWM1cUx5bGN1R3g2T1I0dlpJOEI3ZlZ2MTV3bjF0QzZ1cGg3QVhMOG5lYVp2c1lFWjBidldIcEVPd2M3TkRPVWR1VEN1ZTkwWWUtMXE1eVpjcnkxU3dzb1FvUG96akVyMkRGMUowU1Vrdk93?oc=5",
-   "fonte": "p-anci",
-   "fonte_nome": "ANCI (Comuni italiani)",
-   "tipo": "ente",
-   "aree": [
-    "territorio"
-   ],
-   "normativa": false,
-   "sintesi": "Anci Giovani Campania, Anna D’Aliasi nominata Vicepresidente Vicaria Orticalab",
-   "pubblicata": "2026-11-18T21:05:55Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [
-    "territorio.regioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "57ff983cd4eadc02",
-   "titolo": "House Democrats Cast Wide Net as They Prepare Trump Investigations - The New York Times",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWlJQTWo5ek5SZGlUalR6SFI1U3JNeTI3RVNkOVQydjZUcjM1YWc1cEhEUWtROHB6OEk2c3pNUkNhUTEzQU1iYXFFd3BMZl9MS2JFVmM0Rlk1cXo0UEl3Z3U5V2drZDEyVHhWMmh3aXVzRXhSSzc5TFppZTRxT2tJNFVFM2lkdDN2bUNSU3BvYWM?oc=5",
-   "fonte": "stampa-ce",
-   "fonte_nome": "Stampa locale Caserta",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "House Democrats Cast Wide Net as They Prepare Trump Investigations The New York Times House Democrat warns 13 Trump allies to save their records for upcoming…",
-   "pubblicata": "2026-11-18T21:03:47Z",
-   "visto": "2026-11-19T08:44:19Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "5a665c72a7fa6b79",
-   "titolo": "Remo Morzenti Pellegrini verso la presidenza dell'Anac",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQnpfQklabFplZkI5N1J0bXJFUTZmMWtnMWZSZkJGaFRiWjZHUlNBYnpGZEVwX196WnUwaVUwRlcwUE55R2tUSkdyaXNQWV9hTXA0bWdYaS11NVVzVjJaTGN3SjNoV25GYWZpLTFuSlMxQ3ZubWliMWswTlVSMUpxODlIRDFYV0lONEl6aDQyMEpNaXUySmpsTUJHTEV0c19tenNPcndJZ3AtMVc2bFBhNmM2YVdOdWF4dm9RXy1aQ2lERllPM1hrYWVIVzVOUm9JTlVKZWswS2Y0bVZxOHFXWXVpY9IB6AFBVV95cUxQMmxDaEhTSG1BemVEVER3VG9VdFlwbWlBVW9oWFA0UVBuaFVrT0dFZXhoY05ua2NvWC1qTjduR29STHRoalMtSUczeTUtamp1Mk5PSTI3dzlGUGo0VmM0R2xPOWhNT3R5a0l0aWR6cl9ueV9sd1pkWC0tMHVVT0tORk5RYmVQU1c4bjQ0eUd1ZFpYeThWZENic0dJSVRlekZka0ZLaDRBNXVSVUVGMG11SGxUNlZscHR0NjY1eWdVd205LVI0MEFNQkgzQWg1VE85d0M5WHNnXzlOME9zZTVZVG03dlk3UVNp?oc=5",
-   "fonte": "p-rainews",
-   "fonte_nome": "Rai News Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Remo Morzenti Pellegrini verso la presidenza dell'Anac RaiNews",
-   "pubblicata": "2026-11-18T21:03:14Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "0002f4bc98eddce8",
-   "titolo": "Infanzia, il Garante Terragni: \"Ignora differenza sessuale chi fa politiche fallimentare su minori\"",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOEZVZ0pBR1J2ZUxoeFozM0Y2Q3NPUG5PMnpRbDZFUy16NXkteUZ5MVlrOVNlY1k4VU9ydXZiZ3YtZGV5bnNZOEtrS3FLdjFHeWJXN3FfWHVDNDdfcU9yNG8wUEpkY09QcW9CRzc4OGdsZDE3NVFDQXhfYnB2Z2RhQklENE5oS2JIMVlrVXNrNXc3QlE5M2RId2N5SzdCcnBIdW40cDZtQlNBWU5EcURobEhOOENzdDAwWVhtRzVXdmMyZXFIdnc?oc=5",
-   "fonte": "pr-scuola",
-   "fonte_nome": "Orizzonte Scuola e Tecnica della Scuola",
-   "tipo": "stampa",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": false,
-   "sintesi": "Infanzia, il Garante Terragni: \"Ignora differenza sessuale chi fa politiche fallimentare su minori\" Orizzonte Scuola Notizie",
-   "pubblicata": "2026-11-18T21:02:19Z",
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "gnews",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "09d4bc2acf052222",
-   "titolo": "Gli psicologi sono chiari: chi ha la foto del partner come sfondo del telefono evidenzia un lato della relazione",
-   "link": "https://www.webnews.it/gli-psicologi-sono-chiari-chi-ha-la-foto-del-partner-come-sfondo-del-telefono-evidenzia-un-lato-della-relazione/",
-   "fonte": "webnews",
-   "fonte_nome": "Webnews",
-   "tipo": "stampa",
-   "aree": [
-    "smartphone",
-    "software"
-   ],
-   "normativa": false,
-   "sintesi": "Una ricerca pubblicata sul Journal of Personality and Social Psychology e firmata dagli psicologi Karl E. Conroy e R.",
-   "pubblicata": "2026-11-18T21:00:38Z",
-   "visto": "2026-11-19T10:54:48Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "a837d539774f7cc1",
-   "titolo": "Exclusive | Palo Alto Networks to Buy AI-Startup Applied Compute for $4.5 Billion - WSJ",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYzJMRVRpMDh6UlVrLWNaa0JYTmZhMkUxWWdweFJuWDdJZWE2NmVsSFczcFMwT3FVYzRxVV93TXlrSVhfWDBnRTBsSTNRcjMxUF9KMnp5UVNYOTRKSlJPa0tRMC1Mc2FTN3I4RGpZRVJxZ3FCOUVkaEZkQTlDUzNpZ1V2VS1UOXZRdEkyODVCMTJuMC1pSWd2QnN1Skw1eTFWS0Z3dzd1enk?oc=5",
-   "fonte": "stampa-ce",
-   "fonte_nome": "Stampa locale Caserta",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "Exclusive | Palo Alto Networks to Buy AI-Startup Applied Compute for $4.5 Billion WSJ Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 8% on…",
-   "pubblicata": "2026-11-18T21:00:00Z",
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "rss",
-   "sotto": [
-    "management.manager"
-   ],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": [
-    "consulente_az",
-    "manager",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "720353fd94af9581",
-   "titolo": "Review: Amazon’s Alexa Tablet 8 is a Fire Tablet with Google Play for $150 – what’s not to love?",
-   "link": "https://9to5google.com/2026/11/18/amazon-alexa-tablet-8-review/",
-   "fonte": "t-9to5",
-   "fonte_nome": "9to5Google / 9to5Mac",
-   "tipo": "stampa",
-   "aree": [
-    "hardware",
-    "smartphone"
-   ],
-   "normativa": false,
-   "sintesi": "Amazon shocked everyone in October when it launched its new Alexa Tablet series with Google Play support built-in, addressing the biggest shortcoming of its older Fire…",
-   "pubblicata": "2026-11-18T21:00:00Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "b466d2651ef75bd3",
-   "titolo": "BELLINO. «TAPPA DEL GIRO DI NAPOLI? ARRIVO A BAGNOLI, \"CONTAMINAZIONE\" CON AMERICA'S CUP PER RACCONTARE L'ITALIA»",
-   "link": "https://www.tuttobiciweb.it/article/2026/11/18/1795035495/rcs-sport-giro-d-italia-2027-tappa-napoli-arrivo-bagnoli-paolo-bellino",
-   "fonte": "a-tuttobici",
-   "fonte_nome": "TuttoBiciWeb (ciclismo)",
-   "tipo": "stampa",
-   "aree": [
-    "bici",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "Che l'ottava tappa del prossimo Giro d'Italia arriverà a Napoli non è certo un mistero, lo si sa da quando è stato presentato il percorso.",
-   "pubblicata": "2026-11-18T20:58:00Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "rss",
-   "sotto": [
-    "bici.ciclismo",
-    "novita_auto.modelli"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "7da09863d9d9c956",
-   "titolo": "Spara e uccide il cugino per errore, poi si suicida. Il padre di Emilio era col gruppo: chi erano le vittime",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNjg0ekNsTnJ3Rk81OXpzd1B1aGQwLU9UdldnQ0pwZ0dSa1RjbEpURWpJZkFaSDFvTHNOYlBkek5CMUhFOHduaUtQMnVzejdqWkp4MUJnUUtqVktyNURxekNXNUZxLTFuUmN2V3FLN19zSHJZR2dzbUpXcXpzX2QyZmRSa3BLM0RnSGRNM2kxMTh0WnZEQlBFZmNfZGxPMjZRZ0xsdUhUUGozdjk5ZUFtaDhvOVM1enZqUFRJaEJudVJPT0plbkxEUE0zQW42Mld0MHB1bGxB?oc=5",
-   "fonte": "p-fanpage",
-   "fonte_nome": "Fanpage Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Spara e uccide il cugino per errore, poi si suicida. Il padre di Emilio era col gruppo: chi erano le vittime Fanpage",
-   "pubblicata": "2026-11-18T20:53:21Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "1939677fe4fe6eb7",
-   "titolo": "Casa indipendente all'asta in Via del Barco s.n.c, Calzolari - Padule - San Marco, Gubbio",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04VTI4eGxIaE5aX1dySmZzOW1hSi04LTR2cU1xWHU3bFBPRWhveEgyMXJoT3VnUnI1Y3hscDhZMXNrVlRjTDN5cEkxSE1FTUlhU01sRkdB?oc=5",
-   "fonte": "pr-immobiliare-news",
-   "fonte_nome": "Immobiliare.it e Idealista News",
-   "tipo": "stampa",
-   "aree": [
-    "immobiliare"
-   ],
-   "normativa": false,
-   "sintesi": "Casa indipendente all'asta in Via del Barco s.n.c, Calzolari - Padule - San Marco, Gubbio Idealista",
-   "pubblicata": "2026-11-18T20:52:09Z",
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "agente_imm",
-    "condominio",
-    "valutatore",
-    "facility",
-    "mutui",
-    "notaio"
-   ]
-  },
-  {
-   "id": "0c70667cae70a4e9",
-   "titolo": "Villetta bifamiliare in vendita in Via Belvedere s.n.c, Lurago Marinone",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVRzJrcUZmZHYxTkxWak50b2pFaEM4WXkwZFk3ajc5TGVFM25UM3ZFSjZKTllXQ1ZQaC1tQ1Y1WTQtaURpeFB2cTFweEt2YldfcExtUE13?oc=5",
-   "fonte": "pr-immobiliare-news",
-   "fonte_nome": "Immobiliare.it e Idealista News",
-   "tipo": "stampa",
-   "aree": [
-    "immobiliare"
-   ],
-   "normativa": false,
-   "sintesi": "Villetta bifamiliare in vendita in Via Belvedere s.n.c, Lurago Marinone Idealista",
-   "pubblicata": "2026-11-18T20:50:51Z",
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "agente_imm",
-    "condominio",
-    "valutatore",
-    "facility",
-    "mutui",
-    "notaio"
-   ]
-  },
-  {
-   "id": "8bd79f5dc4775d7e",
-   "titolo": "Duffy keeps blaming L3Harris after FAA ground stop, even as cause remains unknown - PBS",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQM1RGd3FRYVZKaDRCWmo4ZzJZeEZ1LXVRUl9UUDl0M0xjSl8xaGM2SGwzZXZQOGNQRDh3SlRhR2V4V2U0Y1FKd0p1UzFUa05PbDBPUldzbDRwOVdTMWVXejRJQ2oydHBQbU1YZnIzUDdVaHNSM0JhSjZIM1NHMUZQaDR2QzlGcVJoRzBzdkkwbzRuZTd3aXYtenhSSGw5Rm10ZVVvTElBeDRIeTNPN3Bjek9zcDVLNUZ4RmN0RTBYSWdvTnN2WG1DeDFJYTh0elR5b1g0?oc=5",
-   "fonte": "stampa-ce",
-   "fonte_nome": "Stampa locale Caserta",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "Duffy keeps blaming L3Harris after FAA ground stop, even as cause remains unknown PBS Exclusive: ‘There was no monitoring.’ Sources say FAA had little oversight of work…",
-   "pubblicata": "2026-11-18T20:50:38Z",
-   "visto": "2026-11-19T08:44:19Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "5a893a6528997144",
-   "titolo": "U.S. Army is scheduled to detonate lead azide near Middletown, elevating risk for lead in air - Iowa Capital Dispatch",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY2RkM2pmaXV6czd1akRUcUtnV25pc19NV2loMHpDcVJGbUcyVUl1bm96cW01R1NkeGlHTGVXMTZnWmtmbzR0TmN0ODZsYk9EaGFPYkpmWUVMbjJocjdxTE9HeFdzUHdaZ3ZOVDI1VzU2WWg2MkVCOGVUakxPV1NzTHhXRmdIc3EwSExqNmo0eXNQOXMzbU8zdlZtcXhXSFhNUG10WG83YTdMWmRIQ0pVNlJTS2FxSUpwREMwM09DT2tMNkxQc0JtMzV2RFAwemNp?oc=5",
-   "fonte": "stampa-ce",
-   "fonte_nome": "Stampa locale Caserta",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "U.S. Army is scheduled to detonate lead azide near Middletown, elevating risk for lead in air Iowa Capital Dispatch Army releases new maps showing potential locations of…",
-   "pubblicata": "2026-11-18T20:49:27Z",
-   "visto": "2026-11-19T08:44:19Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "9e67967ca7ef2570",
-   "titolo": "Instagram finally lets users edit Stories after publishing, but there’s a catch - 9to5Mac",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYVZkZnlsSEpDdElSZGdQYTBPaW5SU3dERHd1ZGtRVzRBQzd3Qk1fUnVHcERodFlOVHl0LWRUaVVGbm5FYXY3dkdYdkJVUHg4RXRHd3VpdVItVVZoTkRDelVSVmFoZEQ1SHNHelVEZk9FNVJPejNWUlN0VFpMVEUtRUtkWTgteXRQMVp4U043SklkT2Fxdkg2MWphTzhERkw2T1FGTTMzRlhaZVBYelE?oc=5",
-   "fonte": "stampa-ce",
-   "fonte_nome": "Stampa locale Caserta",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "Instagram finally lets users edit Stories after publishing, but there’s a catch 9to5Mac Instagram now lets you edit your stories after you post them The Verge You Can…",
-   "pubblicata": "2026-11-18T20:48:00Z",
-   "visto": "2026-11-19T10:54:48Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "17a129e4edadc6d8",
-   "titolo": "Boyd: Taylor, McGowan to see heavy usage vs. HOU - NBC Sports",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZUNRc0sxQTB1VV9aUWZDRGVxZGotREgyU2lHU1h2U05NVWNsZDZXQ2FWeGt0VFVIT25jcUFNWDc3R0xRWFRlUERkemtET2lWeDBIMW83ekc0MnlNQlBDbWU0WlRIVXVNLXhvdXpYZTk1cjNtUGZ1NmFuYVl3VUQyV19IaGVLbmJ4d0ljM1V2ZmN4R3ZrLXdORWlIYmViR1BCMUZUWE1UcmV5VFVvby1oUQ?oc=5",
-   "fonte": "stampa-ce",
-   "fonte_nome": "Stampa locale Caserta",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "Boyd: Taylor, McGowan to see heavy usage vs. HOU NBC Sports Texans vs. Colts: Houston looks to bounce back vs.",
-   "pubblicata": "2026-11-18T20:44:27Z",
-   "visto": "2026-11-19T16:06:11Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "ebc1d416786ba303",
-   "titolo": "Windows Server 2028 trades compatibility for out-of-the-box security",
-   "link": "https://arstechnica.com/gadgets/2026/11/windows-server-2028-public-preview-bets-on-a-security-first-approach/",
-   "fonte": "t-arstechnica",
-   "fonte_nome": "Ars Technica",
-   "tipo": "stampa",
-   "aree": [
-    "pc",
-    "hardware"
-   ],
-   "normativa": false,
-   "sintesi": "Hardened defaults align with DoD standards, but there may be growing pains.",
-   "pubblicata": "2026-11-18T20:41:12Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "3ec4072200dc0d4f",
-   "titolo": "Garlasco, nuovi colpi di scena su revisione condanna di Stasi",
-   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSzFQV3lCWXEweV92OFNiWTU2em5vOTZWWVNIdVBQQTJnT0dRemlBR3RyN0hUQlhPUnlXMm1xemd6RW82bE1pRjBEMmF6LWdkRzhlU1JmcC1ocm9ta3FVX2o3ZXlkSk95X0FvMXQ5WnBEX3FSdi11UElxbjFjQXFUWFRPdkpkUGFPZU5NQTF4T1NVblRXeVplZGIwcXBtTHhPcUQ5NUx5MWdNYk83NExjY2hLajhqMVRCRU1mY0FvRFJGRkxhTmxucGNmTFFOMnpCWW9TSjFYZF93Sk9nempwUERJZk5mN01VNEdLVFY5WUVzVXVHT2lEX1hkUEk?oc=5",
-   "fonte": "a-codice-strada",
-   "fonte_nome": "Codice della strada",
-   "tipo": "stampa",
-   "aree": [
-    "normativa_auto"
-   ],
-   "normativa": false,
-   "sintesi": "Garlasco, nuovi colpi di scena su revisione condanna di Stasi https://www.lacapitalenews.it/",
-   "pubblicata": "2026-11-18T20:40:11Z",
-   "visto": "2026-11-19T23:01:06Z",
-   "metodo": "gnews",
-   "sotto": [
-    "normativa_auto.burocrazia"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "3e1b95f997a5b3ab",
-   "titolo": "Vendo CFMOTO 1000MT-X High Seat (2026) usata a Bologna (codice 10173074)",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbnNEdGo3cWtxQk9DcTI2Nm9HR2E5TUcybDBEV29OUzJORHVvdmVKMTZvUFl4NlB4MUxoTmd1S01uaFVRTFlGOF9tTWFrRzRsdERoaTRWenZCLVNRdW9TM3Y1ZzVqNVBoU2IzZXhxUWZmYTEzMXpTd04zLUFscnNGZ1hNLWZSZw?oc=5",
-   "fonte": "a-moto-it",
-   "fonte_nome": "Moto.it",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "moto"
-   ],
-   "normativa": false,
-   "sintesi": "Vendo CFMOTO 1000MT-X High Seat (2026) usata a Bologna (codice 10173074) Moto.it",
-   "pubblicata": "2026-11-18T20:40:00Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "gnews",
-   "sotto": [
-    "novita_auto.marchi",
-    "moto.novita"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "b6a4353e964a2571",
-   "titolo": "Sicurezza antincendio, impiantistica e sul lavoro: approfondimenti tecnici",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5mOEJTU1ZNS2ZvX01MaDlrd1hPcE5JdERJU1Y0NjNBNkJ0QkYzcWdKeWt1ZzBmeF8yR3ZRNzV3Ym9veXl4b0ZPRUZuSVc2aFQwbFhHaGdXamxrb1JsNDBQRmVFbzNkeERma0dN?oc=5",
-   "fonte": "ingenio",
-   "fonte_nome": "Ingenio",
-   "tipo": "stampa",
-   "aree": [
-    "antincendio"
-   ],
-   "normativa": false,
-   "sintesi": "Sicurezza antincendio, impiantistica e sul lavoro: approfondimenti tecnici Ingenio",
-   "pubblicata": "2026-11-18T20:39:57Z",
-   "visto": "2026-11-19T21:01:15Z",
-   "metodo": "gnews",
-   "sotto": [
-    "antincendio.codice"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "impiantista",
-    "ingegnere",
-    "perito",
-    "dl"
-   ]
-  },
-  {
-   "id": "e05c7069b2758736",
-   "titolo": "Vendo Terminale di scarico yoshimura per Suzuki Gsr 750 Yoshimura a Castellammare di Stabia (cod. 10173073)",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aX3FYbmpvTWhrekVqaHhScnUwYnlfbExTR0RmVXVfNG1LUDJHeXdoMFdnVlBFSm10YmZqWll6YWFTQTd1RG41c1gwWTJaWUE4M1FfRUp0blBTQUhXbE9vQ3d2aXBPZw?oc=5",
-   "fonte": "a-moto",
-   "fonte_nome": "Moto e scooter (Moto.it, Motociclismo)",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "moto"
-   ],
-   "normativa": false,
-   "sintesi": "Vendo Terminale di scarico yoshimura per Suzuki Gsr 750 Yoshimura a Castellammare di Stabia (cod. 10173073) Moto.it",
-   "pubblicata": "2026-11-18T20:37:00Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [
-    "novita_auto.marchi",
-    "moto.novita"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "9067e139caa94bc1",
-   "titolo": "Spinaceto, inaugurata nuova sede dell'Associazione della Repubblica: uno spazio per la memoria e la Costituzione",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQU2FKaGhQeS1MbDZNZHpJRjExRDh1WUhMVXRMckpuNkVvenNGXzlvamhPQ3J4a0xudWdEaFpLOUw2cEQxTDhwMnFmU0F4dHh3VkVKeUxZSjJxT1hudVVBYURWSW1FTTVLbl9WZ1UwaEo1TEE0NWh0TEFOYnQ1US1UVzlDWVVWaURlNWd4LXQ4Q2tsT0RTOWk4OVIxanF6OXFKcFJiZWV5TjFPZVZIRTR2eHRNYWk5Q1ZFOHE3ZC1KXzZub1IyX1VKXzEzbUh4WWdieVlHUg?oc=5",
-   "fonte": "p-fanpage",
-   "fonte_nome": "Fanpage Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Spinaceto, inaugurata nuova sede dell'Associazione della Repubblica: uno spazio per la memoria e la Costituzione Fanpage",
-   "pubblicata": "2026-11-18T20:32:34Z",
-   "visto": "2026-11-19T20:01:01Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "a892cb8978467a8d",
-   "titolo": "Assunzioni Docenti dalle GPS di Prima Fascia Anche su Materia? Cosa Prevedono i 2 Emendamenti",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcGdOT2ZSek1sXzlrX3ljVGpoN3FjNktOS05fb09Bbi1ZeXBUVUtzU0Z4NFM5ekhXSzlBSGY0a0psaGJnTDM2OVViUEl4Z1pRNGNuVDN0bjJNQ05fQTMtNEhfQXZGeGppdkFGVTBWV1ctRlB6Qjh0Q1Z2QmlBY2EwcUtjQ1NmQW8tbjlpaDJ1cVU4cVVpU1RObThZa3pfRXNQWUczUEpUa08tOGRYOFJ1UkRpeEZEZkl2QWNvc3VNY1lTTF80WlFWMA?oc=5",
-   "fonte": "pr-scuola",
-   "fonte_nome": "Orizzonte Scuola e Tecnica della Scuola",
-   "tipo": "stampa",
-   "aree": [
-    "formazione_cultura",
-    "hr"
-   ],
-   "normativa": false,
-   "sintesi": "Assunzioni Docenti dalle GPS di Prima Fascia Anche su Materia? Cosa Prevedono i 2 Emendamenti TuttoLavoro24",
-   "pubblicata": "2026-11-18T20:30:40Z",
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "gnews",
-   "sotto": [
-    "formazione_cultura.scuola",
-    "hr.hr"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus",
-    "hr",
-    "formatore",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "b5ffb6c9fda32b76",
-   "titolo": "FOTO | VIDEO | Si è chiusa a Napoli la 12esima edizione di Gustus: oltre 13mila gli spettatori",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNV1lna1JZRE52SXlzYW8wTXUwazBUY2hrZGFZczVRVnRueUJUNkc5TEIwUDJmS2JKU1lwbzNYSzVON1p4V0ZDYVdNMFVRSUZ3U1Q5SUFhb3MyZVBjcEp5RDhQdXcydEdJaW01Z3FLZlNveTZqX0ZGak9aWHBKb3Z3RTN5czBUOWQwRTRVcVlETVJaVWk4ZXozSmhvVzRScGlwdkdZMGwtdk4ydGxJYVFMMWJCOUFuV0syQVdkS0RVV1BJbGV0V3VHVzNjbw?oc=5",
-   "fonte": "p-dire",
-   "fonte_nome": "Agenzia Dire",
-   "tipo": "stampa",
-   "aree": [
-    "territorio",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "FOTO | VIDEO | Si è chiusa a Napoli la 12esima edizione di Gustus: oltre 13mila gli spettatori Agenzia Dire",
-   "pubblicata": "2026-11-18T20:30:00Z",
-   "visto": "2026-11-19T21:01:15Z",
-   "metodo": "gnews",
-   "sotto": [
-    "territorio.campania"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "acb57d713fb9b12e",
-   "titolo": "Decreto Scuola, in bilico il \"mini doppio canale\" con assunzioni da GPS su posti residui. Giovedì giornata decisiva con voto in Commissione Bilancio",
-   "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPRS1HUE44d2E1aVJISjBOUFhmeUpRWVZkQXFRZGY5bUhLRk56RUdyTndTeFU1NXM3eGV6TWJzMUcwS2o1VWdHTHhhWG4zb09tUXU0VF9WNzJFQWhlRlNKTzNDYUxuckM1UkFrMTNmRFFOS25tS3hIbTNyU3B4dHlkZnRBM05QZFgxVDhvUW5Qdk1udDNiaXRqMGpmNHFHNm1oREl5UkVzUUFnRzB2R3EzeWtsUGQ1MFBXcnA0ZUdidy1Kb0p3Z3lTMXoxMW9OSm1MMU5XTllPWXBGYy1ZMHpCT0hZOEJ0RXRyS1FHTHl5QnFkTmc4TXpFY3V3eVpqcnFUUTNMREJzdw?oc=5",
-   "fonte": "pr-scuola",
-   "fonte_nome": "Orizzonte Scuola e Tecnica della Scuola",
-   "tipo": "stampa",
-   "aree": [
-    "formazione_cultura",
-    "hr"
-   ],
-   "normativa": true,
-   "sintesi": "Decreto Scuola, in bilico il \"mini doppio canale\" con assunzioni da GPS su posti residui.",
-   "pubblicata": "2026-11-18T20:28:57Z",
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "gnews",
-   "sotto": [
-    "formazione_cultura.scuola",
-    "hr.hr"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus",
-    "hr",
-    "formatore",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "8dcb8aaea8cd0248",
-   "titolo": "Permessi diritto allo studio, a breve la pubblicazione delle graduatorie: l'ultimo passaggio per ottenere le 150 ore. Anief: \"Consultare costantemente i siti degli ambiti territoriali\"",
-   "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPRFM3RXZJd243ZTJibW5PZks3OXp2MWpwQV9Jb0xsNS1wMkl1V01ha1piY2xiSFNyS0J4UGdnYlZENjRfVHBONW5GaUxubUV1TDdLcGhnWUlhbER5d1AxTGNNTnFKOTlkdDJ3RERFY0ZqUlVWUkRRYmdoZk5PdGxQaFQ1eVdIRWpxZFNpdTlrZFVuRFJSQTdVMG1nMjlsM3VOeXZOM0QySHVudl8wdnpkRU9qdXA0d01IdUFiRlYyY19SbHVIbC1EcHhONEVnVmIyNlUzQ1hBMWx5a2RlbTZiX1FaTEI5MlU3bklESHFqVExtdlhSbURZVXNPY1FpZjRPd1Y0Nkw3VUIzelNISWQwRDBxOExjWER0Y2V0WEU0RzZxU1dXSmNwY1lWWDlWRnVIcDNB?oc=5",
-   "fonte": "pr-scuola",
-   "fonte_nome": "Orizzonte Scuola e Tecnica della Scuola",
-   "tipo": "stampa",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": false,
-   "sintesi": "Permessi diritto allo studio, a breve la pubblicazione delle graduatorie: l'ultimo passaggio per ottenere le 150 ore.",
-   "pubblicata": "2026-11-18T20:23:55Z",
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "gnews",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "cd8658fa0ea6923c",
-   "titolo": "KJ Biermann Faced 16 Alleged Sex Offenses, Including Incest and Child Molestation, in Prior Case - E! News",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLXVPd083enRBMHhNcndSZFNJWktZVW9weGxfZWJQb2RFanZRWWhubzhKc1MzOW1zLUV1LTdubFhaYkY2Y0JTYjVWM0EzaV9QUVJ4S0R2MWxNZ1RGNU0xeG5HS1hwWUNEMnVuN2c1WVRjMENRZjdXMTdVaVoyVTh1NnQ0V0w1RjUxdG5kM1JnNGFTM043dGx6cVloazU5M3JK?oc=5",
-   "fonte": "stampa-ce",
-   "fonte_nome": "Stampa locale Caserta",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "KJ Biermann Faced 16 Alleged Sex Offenses, Including Incest and Child Molestation, in Prior Case E! News Shocking new details emerge in previous KJ Biermann case USA…",
-   "pubblicata": "2026-11-18T20:21:00Z",
-   "visto": "2026-11-19T08:44:19Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "0f0529f00b21f90c",
-   "titolo": "Omicidio Avallone ad Agropoli: oltre a giornalista e moglie sarebbe coinvolta terza persona, movente economico",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVlBHUldmQlJ2WndhZlJncV84aEFPYUdwZkZNeFI0dVVhN2xzMkdQX1BDTXZHLWw4SzVPb0hmMmxFUzVsWWcybGFid3N2UmdfdENrZDRidElYeVY4c296eVZZcV9iRzhad1pwQm96d2JpWEpqYkU5eld5d04tTTBwM29Ta0o5OUtQZGpfbm9BcUg1S3RBZzBpSTc0VTNfS0tmQkMtNEF3aGM4M1NJWloyaERfckNYRDVEMWZ0VXpGc2NQcG5ZNGFlS2tvWk1xNldvY0tjWldn?oc=5",
-   "fonte": "p-fanpage",
-   "fonte_nome": "Fanpage Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Omicidio Avallone ad Agropoli: oltre a giornalista e moglie sarebbe coinvolta terza persona, movente economico Fanpage",
-   "pubblicata": "2026-11-18T20:20:50Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "eff91e8fdc5e8b14",
-   "titolo": "Morta in terapia intensiva, il padre presenta esposto all'Ordine dei Medici",
-   "link": "https://www.ansa.it/campania/notizie/2026/11/18/morta-in-terapia-intensiva-il-padre-presenta-esposto-allordine-dei-medici_87aa7f29-7097-41bf-81cb-37ad667c2a1a.html",
-   "fonte": "ansa-camp",
-   "fonte_nome": "ANSA Campania",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "\"Valutare procedimento disciplinare per dottore-consulente che pubblicò articolo\"",
-   "pubblicata": "2026-11-18T20:14:05Z",
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "rss",
-   "sotto": [
-    "sanita.professioni"
-   ],
-   "luogo": "Campania",
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "farmacista",
-    "infermiere",
-    "psicologo"
-   ]
-  },
-  {
-   "id": "facc92ac36766f87",
-   "titolo": "Manovra: dal condono al Superbonus, le misure che potrebbero cambiare",
-   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/18/manovra-dal-condono-al-superbonus-le-misure-che-potrebbero-cambiare_238c3a05-adc8-4cb5-aa9b-0c85bb2a6524.html",
-   "fonte": "ansa-eco",
-   "fonte_nome": "ANSA Economia",
-   "tipo": "stampa",
-   "aree": [
-    "bonus",
-    "edilizia"
-   ],
-   "normativa": true,
-   "sintesi": "Arriva la pensione dedicata per forze dell'ordine. Cambia il Superbonus",
-   "pubblicata": "2026-11-18T20:13:32Z",
-   "visto": "2026-11-19T08:44:19Z",
-   "metodo": "rss",
-   "sotto": [
-    "bonus.superbonus",
-    "edilizia.sanatorie"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "geometra",
-    "ingegnere",
-    "architetto",
-    "agente_imm",
-    "notaio"
-   ]
-  },
-  {
-   "id": "cf0f4c3194178b87",
-   "titolo": "- Domus Web",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOb183dXpEOElReXhOX1VwOWdTa0QxNG5tVTJFcXlCMWU2bm5FVThFMVFRX1k2Z0piT1hIMjV2VTRVUGtDSHlBSVppRjlwUHpmTG9nbnBGNkV5OFA1Mm1JNW1ocWdBdUhMejRfY1hVVmV0UkFBS200M0tCdVJham42THdNbnZRcFViSm1WeFBSeTY2QllQN0FXRHYweDhUNW5CUEp1aWE4WkR6eElMUkFkbEdWbUJ0Z243eHdFTUNWS3YwaUQ5YWlLOVNVR3l3cTdMX3ZMR29IT3R4OHZWOHc?oc=5",
-   "fonte": "pr-design",
-   "fonte_nome": "Design, foto e video",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "Domus Web",
-   "pubblicata": "2026-11-18T20:12:20Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "35b701fc73e09c8b",
-   "titolo": "Alvaro Bautista tra MotoAmerica e BSB: \"Correrò anche nel 2027\"",
-   "link": "https://www.corsedimoto.com/superbike/sbk-alvaro-bautista-motoamerica-bsb-2027",
-   "fonte": "a-corsedimoto",
-   "fonte_nome": "Corsedimoto",
-   "tipo": "stampa",
-   "aree": [
-    "sicurezza_auto",
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "Il due volte campione del mondo Superbike non pensa al fatto al ritiro: contatti in corso per gareggiare negli Stati Uniti o in Gran Bretagna.",
-   "pubblicata": "2026-11-18T20:12:00Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "rss",
-   "sotto": [
-    "sicurezza_auto.richiami",
-    "motorsport.moto_gp"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "baabaebd28e706e2",
-   "titolo": "Morta in terapia intensiva, il padre presenta esposto all'Ordine dei Medici",
-   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWGUzblhwZGxrYTFpRTVBV2NMaFRJZmtwdVIzWkozVkIyVm9tOWdMZ2lEWXg4dGtzQzh4VU9NSFVjc0R2alZlSWxrVjhQM1lKaFI3bjN0MmZIRlR2UjRKaUIwcHhxMTNyQlNhcTJpRHF5bDdDaFFaMmMxc1NGcmZKSXRJeFJyRkVEaFdZaVUyWkp4WjRhNE5WTUZwMUJJUUozSnVXWS1JbVJKblVyc2ctVThQc0ltSExPY2VhVDJkZXlsVFJLcnlPbnNOVXRaYzZxZklnZFRCc215N3NOOGpGbERlc3ptZGdQV0RmMjZjdmU0T2pDWVHSAfsBQVVfeXFMTTVsTzl2N25BNktoTnQ5QW1IQUdIalpwZk1TX1F1VktKZ3lsSkxCNThLV1F3R0x6WVhwOFptZUZFU0JsUktTTzd6UHV5OWhCQ1p5S2x3Y29qT0FrSGprMldDanpWcXUxREtabU5mNzM5cl9MRlpsSmZid3hkYzB4dFNVVmt2VF9KN01ramJsc3Y0MUZ6S3VOc2dzd3VQQjlWZUkzZ2I1U00tRE4yTnlaYlNsLVlzeUw2T2xiMzdLenphcGdoZ0J1eUNnLWpscUloQnpBT2NoeWlKTWNPUVRMSkU1OG9sNnRjaXlwR2lZY3lxQTBvalV4a2RtbjA?oc=5",
-   "fonte": "pr-fnomceo",
-   "fonte_nome": "Medici e Odontoiatri (FNOMCeO)",
-   "tipo": "ordine",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "Morta in terapia intensiva, il padre presenta esposto all'Ordine dei Medici ANSA",
-   "pubblicata": "2026-11-18T20:12:00Z",
-   "visto": "2026-11-20T04:01:07Z",
-   "metodo": "gnews",
-   "sotto": [
-    "sanita.professioni"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "3ffe4c9eb84448c0",
-   "titolo": "Uè PaiSA', il nuovo gioco da tavolo sui 158 Comuni della provincia di Salerno: come funziona -",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQzl1Z0swaEtOS2dzX0lyeWhoVUZwYVhUYU9aTWZuMVNVODNXaHRKNHpxdFpJUG12eHlqb3JKUFMwQWp0MDBXSDllVnVrLW91UjBWMm8xMk9Zd1J4NFZRX1VZMms4a2YzZkxMaEZGZjdyNzJDWktON0FxU29jX292LXdFQkUyTUJjY3N2bHM1TjZra0I0TXpPZTAySDM4c2NQbUxHalJzc290M1htYzY1dnltSE9SdWxlTjlHc1Y0c05fLXhUVE1zTFNmNmI5Wklk0gHQAUFVX3lxTE1DOXVnSzBoS05LZ3NfSXJ5aGhVRnBhWFRhT1pNZm4xU1U4M1dodEo0enF0WklQbXZ4eWpvckpQUzBBanQwMFdIOWVWdWstb3VSMFYybzEyT1l3Ung0VlFfVVkyazhrZjNmTExoRkZmN3I3MkNaS043QXFTb2Nfb3Ytd0VCRTJNQmNjc3ZsczVONmtrQjRNek9lMDJIMzhzY1BtTEdqUnNzb3QzWG1jNjV2eW1IT1J1bGVOOUdzVjRzTl8teFRUTXNMU2Y2YjlaSWQ?oc=5",
-   "fonte": "p-anci",
-   "fonte_nome": "ANCI (Comuni italiani)",
-   "tipo": "ente",
-   "aree": [
-    "territorio"
-   ],
-   "normativa": false,
-   "sintesi": "Uè PaiSA', il nuovo gioco da tavolo sui 158 Comuni della provincia di Salerno: come funziona - Salerno Notizie",
-   "pubblicata": "2026-11-18T20:11:04Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [
-    "territorio.regioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "1f9d7d5d04073a40",
-   "titolo": "golden record Archivi",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81MVhVLUlKX3pBQjdrMjBuQ2x1Vm9iRE43cy1lQTJLdEVhSXhJU2paY09DV0NSdkgzUWhtMDFiWThBOGtFLVFLTVpZWEVsRms?oc=5",
-   "fonte": "p-dire",
-   "fonte_nome": "Agenzia Dire",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "golden record Archivi Agenzia Dire",
-   "pubblicata": "2026-11-18T20:10:40Z",
-   "visto": "2026-11-20T04:01:07Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "437febb3845bb953",
-   "titolo": "Polonia, accordi per fornire Gnl a Ucraina, Slovacchia e Ungheria",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaQ0laYVExVTRIcEg3Y3lPT3I0bUJFU0pfV252WjVkdmR3TzY2c1N5Mm5IRmJrSkxJMW1OekgtT3VzQlNobV9LQW9IeG1WSEN4VnNEcXBneVhYRHBxWnJTRldsYW9aZw?oc=5",
-   "fonte": "pr-terna",
-   "fonte_nome": "Terna e reti elettriche",
-   "tipo": "ente",
-   "aree": [
-    "energia"
-   ],
-   "normativa": false,
-   "sintesi": "Polonia, accordi per fornire Gnl a Ucraina, Slovacchia e Ungheria Staffetta Quotidiana",
-   "pubblicata": "2026-11-18T20:10:31Z",
-   "visto": "2026-11-20T01:01:06Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "energy",
-    "certificatore",
-    "ingegnere",
-    "impiantista"
-   ]
-  },
-  {
-   "id": "d27856b9d6e11f72",
-   "titolo": "SmallRig SC18 in offerta: il power bank compatto con batteria sostituibile - Tuttoapp-android",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX25kMUkySXRtX2lTQ0FJbWx3Q3o3VGlRSHAxNFk5WENtaGRKUm55ZUlxYndWU216OFRjcjJZN0ViZUQwRUNEcU00cGxONHkzbzhFVHVaZDdkbnVvTHU0UFpTS2JJUkZFNzlBTVc4cklCbnlsTVJCOWF6ckRub3IwQnpNZXl0b3pGVUdDMW9lMUhhdjFYRDJuLU9mM0p2enNsUktiSHhjSkFSYWFyVWNjczdxUQ?oc=5",
-   "fonte": "t-android-auth",
-   "fonte_nome": "Android Authority",
-   "tipo": "stampa",
-   "aree": [
-    "smartphone",
-    "offerte"
-   ],
-   "normativa": false,
-   "sintesi": "SmallRig SC18 in offerta: il power bank compatto con batteria sostituibile Tuttoapp-android",
-   "pubblicata": "2026-11-18T20:10:00Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "bfa8d4087d9b9450",
-   "titolo": "Mid-week Android app deals and freebies: Dungeon Merge!, ISLANDERS, LEGO Bricktales, more",
-   "link": "https://9to5toys.com/2026/11/18/todays-highlight-google-play-deals-51/",
-   "fonte": "t-9to5",
-   "fonte_nome": "9to5Google / 9to5Mac",
-   "tipo": "stampa",
-   "aree": [
-    "software",
-    "smartphone"
-   ],
-   "normativa": false,
-   "sintesi": "Joining the updated Amazon early Black Friday sale, ongoing all-time low on Google Home Speaker , lowest prices ever on Android Alexa tablets , and the $350 price drop…",
-   "pubblicata": "2026-11-18T20:07:39Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "74d0975350e0f9e1",
-   "titolo": "Black Friday 2026, previsti 44 milioni di pacchi: come ottimizzare trasporti e logistica - Trasporti-Italia.com",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYjJHYkNGck1KYWw2Yi1BRGxQbWFDREpqTnQwYXctZzViZU9XZ1JuN0dRQVVwXzVRR01kYlNBTDY4S3hranRYdERkejFjMHlORVNLaGpCM2tQbE4tZWEzMWRCel9rUmx2Q0JDRmNYLS10MXAzdU9yVU5wWHdMWWU5am9oT3JQQTJDZHVBNmZNTko4ZTJPalNCWDdBcXlXSXJkWUdIczhJYVRhNnp4Q0hJcHRlaWltTXdQdjBPU3BWRU9Qdk9obEHSAc4BQVVfeXFMTzFmRDFlNXhtNzJkazZ4SlVJRFN6SThuQjJ3aExvRmlrX2hwRUNzVVFZQkppQmxWaVFGU2p5NHNodVFiMWpWS1MxcGQ0VFVIbEUyRGdzTmFHUTg3Z1gtU3dSSWFJb1lTZ0JybEZ0VXBCSHJ3YndaUklkbjVoYUc1MmxtVlJfYkFqajdEaElSLXZKXzE3Z1hhYlJ3YjByRHdEU0xSdjdnNGhjaUxLWXhfaVpsMkI5ejVwTXpsdmtubG5HU25TVGFQVUtwYVFvWlE?oc=5",
-   "fonte": "a-vietrasporti",
-   "fonte_nome": "Vie&Trasporti e Trasporti-Italia",
-   "tipo": "stampa",
-   "aree": [
-    "mezzi"
-   ],
-   "normativa": false,
-   "sintesi": "Black Friday 2026, previsti 44 milioni di pacchi: come ottimizzare trasporti e logistica Trasporti-Italia.com",
-   "pubblicata": "2026-11-18T20:05:05Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [
-    "mezzi.pesanti"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "282cae486b65d157",
-   "titolo": "Teens say AI surveillance system at Baltimore school mistook Doritos bag for a gun - NBC News",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYjhncHZEanhZT1N3aEtyem4xX0tDMzJOb3d2WUtQcW4wNjlYZUh0ZlRuanJQdDRnMGhTVExHUWtGQWNtZm1xZDhBbFN2SldqVGJULXlDLTJLbUxob1hobmcyZFhtNkJCeHNMbi1ZSllDaDFyVFRhTF81TjJRcDYzSmxOZ0o0VURTWmstc2lhNXBhdzROakZ4S2VVOHU2bGNSLU14U3doOXhBbjdHZGc4R09jOTdSYWt1NHc?oc=5",
-   "fonte": "stampa-ce",
-   "fonte_nome": "Stampa locale Caserta",
-   "tipo": "stampa",
-   "aree": [
-    "edilizia"
-   ],
-   "normativa": false,
-   "sintesi": "Teens say AI surveillance system at Baltimore school mistook Doritos bag for a gun NBC News Four Maryland high school students sue after AI mistakes Doritos bag for gun…",
-   "pubblicata": "2026-11-18T20:04:58Z",
-   "visto": "2026-11-19T16:06:11Z",
-   "metodo": "rss",
-   "sotto": [
-    "edilizia.urbanistica"
-   ],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": [
-    "ingegnere",
-    "architetto",
-    "geometra",
-    "notaio"
-   ]
-  },
-  {
-   "id": "6fdbd1a879bffba6",
-   "titolo": "La prefetta Lattarulo nominata dal Consiglio dei ministri a Cagliari",
-   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOOGNKZlFSdE1FcWFHME9mSWlkbDhlNFk3TURjS3JGMnJDckhCTS14WlVlSWttTTFqVGMzMmdMSVcwTmZrZkUwZ25kdXRQOU1HckZ2TV8zWTR4ZUZPR0l5V0ZrSHFEZnM1c3FmRnJHRzBBMXhkbkZvTi1MY2x4cTNkbVZPMWF4VWtZajlEbTFtTDEtWHA5VTNvelJxa0FaSjM4VEZ2Rk5pakszdkpXaHFXUVh5ZGptQ3lFN0w3cHVjbG5RYlFxSTJQcU9ORUg3TDVRNFJjN0FiY24tTkFQNkV6UjY3S3NmSERrVkRhb19fMWg5X3oyNnlTN0VnT1FFT3BXWVF4UtIBhAJBVV95cUxOOGNKZlFSdE1FcWFHME9mSWlkbDhlNFk3TURjS3JGMnJDckhCTS14WlVlSWttTTFqVGMzMmdMSVcwTmZrZkUwZ25kdXRQOU1HckZ2TV8zWTR4ZUZPR0l5V0ZrSHFEZnM1c3FmRnJHRzBBMXhkbkZvTi1MY2x4cTNkbVZPMWF4VWtZajlEbTFtTDEtWHA5VTNvelJxa0FaSjM4VEZ2Rk5pakszdkpXaHFXUVh5ZGptQ3lFN0w3cHVjbG5RYlFxSTJQcU9ORUg3TDVRNFJjN0FiY24tTkFQNkV6UjY3S3NmSERrVkRhb19fMWg5X3oyNnlTN0VnT1FFT3BXWVF4Ug?oc=5",
-   "fonte": "p-rainews",
-   "fonte_nome": "Rai News Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "La prefetta Lattarulo nominata dal Consiglio dei ministri a Cagliari RaiNews",
-   "pubblicata": "2026-11-18T20:03:00Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [
-    "governo.governo"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "b00568e99d8f87d9",
-   "titolo": "- Domus Web",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMzZoYXh5dk9mdjhGR2p6TG8zTC1nbXZaUzRvbllkMDNtOVVOeGNDNlZWa0dUZU44cmh5ZVR6aWc2c0hmaGNOeHdQOVRLU2ZSNVJSdzhkQTloamVqYjJKc002bC1TOU5rX09xZjFwSUVlVTg2VlBiZ2hMeDBrSE9Eam1mZnNOMWVNYXo1M0xaMzhDSnliLVhaNEdEdXNoR29KdWVCdlNTWW1aa3lZR1M1Zzk4blRrMTEyQ185SmY1ZTNJZFlRbHVzUDBpTWcwRlN2TkV3SGVmZ3R5RHlSc1BKMU14eXJZVWYwcE02S1FYMA?oc=5",
-   "fonte": "pr-design",
-   "fonte_nome": "Design, foto e video",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "Domus Web",
-   "pubblicata": "2026-11-18T20:02:05Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "27be6a20d8f0cd0e",
-   "titolo": "Valtteri Bottas beats Colton Herta to 2027 Cadillac F1 seat - Motorsport.com",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSzFMZm1yY2JseTJTMWY3NDFtNjY1eS1XeldBY1NJRVBMWnpQN19XbzFDR1BhVHVxZzh1bm9LMURmTEo3S29aM3lpdHpnMG1wNWtydW9uZmNnaTRHQ1NVMGpQbzhpdzk1VFBvWlFaQ0Jucl9hWENQY1BEcHNMajJUb0UxOVhFRnZMX1ZpVkRMS05FRU16TGpnWG5oZktEYjVjZU80VzNXeDlWWWxONzcyUE5EX1pJNkU?oc=5",
-   "fonte": "stampa-ce",
-   "fonte_nome": "Stampa locale Caserta",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "Valtteri Bottas beats Colton Herta to 2027 Cadillac F1 seat Motorsport.com Cadillac confirm Bottas will remain with the team in 2027 Formula 1 Cadillac F1 confirms…",
-   "pubblicata": "2026-11-18T20:00:46Z",
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "7883053b84f9d97c",
-   "titolo": "Giardino e ingresso indipendente da 60mila euro, la villetta a schiera è un affare",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPOW9pOEExdEZ6Q0NkZlpKZ0NXX2ltOE1tbXlUT18yNURKQldEUGlnR3FUdjhQOGo5TnhLdUtwVWZKZGlBN3hyODcxcVRUakJ0eTFJaWFabGFJcDJlb2ZFNC03Y1N6QzJHV1JycFQ2cHdiVVBQbTlmMU9sTkZKTDVQcEpSbWc1ZGstRXJXTU1XdmdScnNEZzBjbExfUnJjMXF1cHNVVVRHM1VOVTk5bHh3ZHFWSXlJcU9EUlBhY2NyU2t0RzFkOVoxOXV4Rm1xS1c3eWxLMk13SXhEUlFnTnRMRtIB5gFBVV95cUxOdHgyb2N2blNnUmQ2VTlYdExCYThKSXZBQlJtaTd1MXpOOV9DdEZVM2NtdVRWY056OUpSU0l4LTVPM3FEeDZJeGpUblpjVHpNNVhWNEhLckM3UkNacTlHQVA5UlBDWjcyQUYtV3g2ZjUyN2UtNENCVnNwUVhYUDg2bml5WktVNE56aEZZX2ZEWUhzMFc2cnp5ejVKclJ1cmtWNW5EWmw0SXJBbGNMU1JhTHBuM2c2QUpJWDBSRG4yNkFsMnBsTmtsSmt2YlRoT3VyZUlzRHYxX0FmelNyUWZYWXl1WnhhQQ?oc=5",
-   "fonte": "pr-immobiliare-news",
-   "fonte_nome": "Immobiliare.it e Idealista News",
-   "tipo": "stampa",
-   "aree": [
-    "immobiliare"
-   ],
-   "normativa": false,
-   "sintesi": "Giardino e ingresso indipendente da 60mila euro, la villetta a schiera è un affare Idealista",
-   "pubblicata": "2026-11-18T20:00:01Z",
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "agente_imm",
-    "condominio",
-    "valutatore",
-    "facility",
-    "mutui",
-    "notaio"
-   ]
-  },
-  {
-   "id": "acb8379c51f3468f",
-   "titolo": "One UI 9.5 beta Galaxy S26: quando arriva in Italia?",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WRmk0aDlhOEp4Ul9NSm5TclRPM2llZnFyMVpVeXJHYXhPWXlKM0tEd25mS3BMcGJORmZlQWQ2QTJsZlVxUHRRQjFrTFZPWkZaSzNqRGQyeUQ1bnJOV0FYQ3V0azh6cE9HM2xJSA?oc=5",
-   "fonte": "sammobile",
-   "fonte_nome": "SamMobile (Samsung)",
-   "tipo": "stampa",
-   "aree": [
-    "smartphone",
-    "software"
-   ],
-   "normativa": false,
-   "sintesi": "One UI 9.5 beta Galaxy S26: quando arriva in Italia? tech.icrewplay.com",
-   "pubblicata": "2026-11-18T20:00:00Z",
-   "visto": "2026-11-20T01:01:06Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "2e30ef09289ca616",
-   "titolo": "Nuova invasione a Gaza dell’Idf, Hamas: «Tregua violata»",
-   "link": "https://www.editorialedomani.it/politica/mondo/nuova-invasione-gaza-idf-israele-hamas-tregua-violata-morti-wb59cu69",
-   "fonte": "p-domani",
-   "fonte_nome": "Domani",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Carri armati e raid con droni con tanto di ordine di evacuazione: sette morti e quindici feriti.",
-   "pubblicata": "2026-11-18T19:59:22Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "rss",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "7c67c6dcd74a4812",
-   "titolo": "NGINX, falla HTTP/2 CVE-2026-123007 e come difendersi",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVkYtcXdvRURUeTJVTDhpU1RHQVBmMFRCMk50ZmJRZUw2b1lMT0xDLUJCVmNGYjlPV0xzcnNMbUpvNFdySVdneWc5VjJ5TEV5aG85bmdTSFJ3M0haYlBFbDczSnI2d3Y2YjByLVh2djMwUHIxekR3RHJqUlktbkJwSjNUcXFJV3piZEg2b1JUMl9xbURDMFdUMkt5QVlGVDZz?oc=5",
-   "fonte": "t-android-auth",
-   "fonte_nome": "Android Authority",
-   "tipo": "stampa",
-   "aree": [
-    "sicurezza",
-    "smartphone"
-   ],
-   "normativa": false,
-   "sintesi": "NGINX, falla HTTP/2 CVE-2026-123007 e come difendersi Meteora Web",
-   "pubblicata": "2026-11-18T19:56:58Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "41623d68ebef062e",
-   "titolo": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor - TechCrunch",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbUpvMjV0Ul9PZEo2OWRRcVdPeVRBQTkxZUtlUndoZllpRVlua2ZXWlpzbFZHMVVPWWVvWXhYTlhDQ2o5WEVVQ2l6U1ZwRTNTd21zNTg4S0tWZzFDWVlzNl9tRTQzcVg4MmJpQzJqdFRNU3JzLW1QeFlnN0FTQlBUYWw4SjU0bGxaY2owYkdDOHJpSTVMcFYtSTNvYzdvelk3N0tTSHhBd09qU1haZnY2dVRud2dqa3NmU3Zrd2YzY0xBRHNDLTJDNGN2c3htQQ?oc=5",
-   "fonte": "stampa-ce",
-   "fonte_nome": "Stampa locale Caserta",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor TechCrunch Introducing Easy Lens CLI: Create Snapchat Lenses with the AI…",
-   "pubblicata": "2026-11-18T19:56:39Z",
-   "visto": "2026-11-19T18:11:06Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "cb503229cdde1a4f",
-   "titolo": "La provocazione di Guercilena | Meglio vincere il Giro d' Italia che piazzarsi al Tour",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPamxVYmkwc3dxRkVBRElraDZVU0lUTGhmbXNZOW1HSDVJaHhwenpPd1VzNmdGdmc1RmpUQXYwS2oydncwVG1Zc3ZGOWVnWHBLWnZadjRnRTVzcEFMR0xDOWFQZUhlcFdoOWpHUkloM1p5Q1FsSkhRaWNxQ0hmWFQxTS05WGszZWVkSklLYTM4YV9XSVowUk9PbGcyT3BLanU5Nk40ZVZfQkFIUlJWZmNZN2pkQkh0NG1tMHd0UGNXOEhrLWM?oc=5",
-   "fonte": "a-uci",
-   "fonte_nome": "UCI (ciclismo mondiale)",
-   "tipo": "ente",
-   "aree": [
-    "prove",
-    "bici"
-   ],
-   "normativa": false,
-   "sintesi": "La provocazione di Guercilena | Meglio vincere il Giro d' Italia che piazzarsi al Tour Zazoom Social News",
-   "pubblicata": "2026-11-18T19:55:43Z",
-   "visto": "2026-11-19T23:15:21Z",
-   "metodo": "gnews",
-   "sotto": [
-    "prove.guide"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "a03bc3a62e4b959c",
-   "titolo": "Von der Leyen annuncia altri 45 miliardi per l’Ucraina. E mette nell’angolo Kallas",
-   "link": "https://www.editorialedomani.it/politica/europa/ue-ucraina-45-miliardi-kiev-kallas-netanyahu-von-der-leyen-vtxcrnt0",
-   "fonte": "p-domani",
-   "fonte_nome": "Domani",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "La presidente della Commissione europea moltiplica gli stanziamenti destinati a Kiev assecondando le richieste di Zelensky e le pressioni di Merz.",
-   "pubblicata": "2026-11-18T19:54:55Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "rss",
-   "sotto": [
-    "esteri.esteri",
-    "governo.parlamento"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "1e8858e5f019b11f",
-   "titolo": "Von der Leyen annuncia altri 45 miliardi per l’Ucraina. E mette nell’angolo Kallas",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMEFUdkxEY3hWZGhOM29FWmdxT0NRZ3c4Mmc1bks1ZFF6SVZ3WThjekFPV1huSldjTUg1bnFnOW9WMUxSSHRnblY4SUI0dTJRbjZoTUw3Y2JleFBQZUdNTXdBX1RIQjdWdU9oWlZ4OUVoQTNNc04zRi1kdmMtellqTmZNcGFjY1ZfWG5RdEt3VzNIeEU5Z21lRzdWd1JrS3MwbndWQzgxWmNfaTBJZGJIdGd4eS1KUQ?oc=5",
-   "fonte": "p-ce",
-   "fonte_nome": "Commissione europea",
-   "tipo": "ufficiale",
-   "aree": [
-    "europa",
-    "esteri"
-   ],
-   "normativa": true,
-   "sintesi": "Von der Leyen annuncia altri 45 miliardi per l’Ucraina. E mette nell’angolo Kallas Domani",
-   "pubblicata": "2026-11-18T19:54:00Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [
-    "europa.istituzioni",
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "1ab8e986242794bd",
-   "titolo": "Nello spazio da 49 anni, la sonda Voyager va avanti con un messaggio speciale",
-   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQeDdsZnFYdlNQdU1RV2VycXpHS2l5VTdYazdLS1NYdXlYVnY5dmNOcEFLdkJ1SHBndWpEQlNJdnl3N2tSM3FqYnJHTDFUVlMwREtzRjFxY3hPMXdzUUR2dUpqekJqRFhHajZadFloS0Q1eTVsem5RdVhKWnJtR2dZQkFnS25DcktMRFRiLW5Gb3M1QURId3BuZWRla3NnWHI5R3dnd2RLTDFiMzNoODNEZ0Z5VlM3bzNaNGhDTUs2SjBYblVER1hCVzB5ZUxxemdPam1wdld4MkFacFQtcS12dUlJVy02bmdkWElV0gHwAUFVX3lxTFBrdnZ6UnBmallsME1laV9ud3AtNzAtaTY2VXlvcWVqWS03UHByVWhvVmNISlJwdjNkUXppWXhGajI0aGFIS190Q0xXdWVnbGRaRHBPV0t0YkxJT0NvYXdpeElQQVZ4Y2FNRWlNUDBPZ1I2UnlGMVlkSjRFZU5pZ194NFUxalVaUmlheTg2QzY1eW90Y3lZQ2lwaDdGajB3NG1DNElDSUIwX0Z5cVZfNG9OT1YzSUlSVFprVlY4Nlk1c3dPX3NjNzktRW5NMzRoZXhTbGRoenVmdGlTaXBVZkg1YjlnU1dEcDFqdTU3TE9IZQ?oc=5",
-   "fonte": "p-rainews",
-   "fonte_nome": "Rai News Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Nello spazio da 49 anni, la sonda Voyager va avanti con un messaggio speciale RaiNews",
-   "pubblicata": "2026-11-18T19:54:00Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "d4f1b04219877833",
-   "titolo": "Sneijder si sfoga dopo la partita delle vecchie glorie: sostituito dopo mezzora l'ha presa malissimo",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONHVJSG5wZ29FQTd6Ynh3ZGYyLWhQMU11NmFlLTZSaHN0ODBGTl8xd0xPQUZZakgzOEtPVWNPbkdYTmpHbU9EYTZwd1RlM0xUb3I2Mzl0VnhuZ2Utc2NiWG8zTlB5ZmxoM015VXNaYkQxQllvbWdZYTQtQ09ZdzVJY0RzVjhhbEtiQnUxUExlcjZaMUdfUXRRemVVaV9La3dUeUF1dU9WY3NvX2ptR3ZMWnBRbjB6ekZZMzdIRnVNTndqVXJhNEFwMzBDOGlQMU92?oc=5",
-   "fonte": "p-fanpage",
-   "fonte_nome": "Fanpage Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Sneijder si sfoga dopo la partita delle vecchie glorie: sostituito dopo mezzora l'ha presa malissimo Fanpage",
-   "pubblicata": "2026-11-18T19:53:28Z",
-   "visto": "2026-11-20T01:12:29Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "7ec1c1d32c3acc61",
-   "titolo": "Sei manifesti ironici per chiedere percorsi strutturati e ascolto per i giovani, We World lascia la campagna \"Dis_educazione sessuoaffettiva\"",
-   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPYk5YLXhTZnhRMGxEeUw2QU9uNURib1lTWE1QcWwyVU9GSWViNXpVcVZxTmFmQk1ybHN3RmRqajNLalI5ME1OcTdJSnBhaUVZU0dQakhPRUxhSVZhNk1aeVo2U0NxT2JtenpwTWZXeUdkUE5BRloxOTVUSmQ5Y0tXbDZfRjBMeFVXM0J4VVFTRXcxTTNJdHhWRVl2MmhnbUhuS0ZOZmhNMjBIRE1Sd3NNQVZOZFBIQ3hPLVFyU1hsWTZGN1JRSGpoeU05RVgtVm83ekdvNDh6bldfTlBaTndlckM3UUZGX0JvajduZzEtRTZpYVRkaTJCcm5jTkI5NEk?oc=5",
-   "fonte": "pr-scuola",
-   "fonte_nome": "Orizzonte Scuola e Tecnica della Scuola",
-   "tipo": "stampa",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": false,
-   "sintesi": "Sei manifesti ironici per chiedere percorsi strutturati e ascolto per i giovani, We World lascia la campagna \"Dis_educazione sessuoaffettiva\" Orizzonte Scuola Notizie",
-   "pubblicata": "2026-11-18T19:52:31Z",
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "gnews",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "139ec44d581d40f4",
-   "titolo": "Anche l’Alaska ora è blu: la straordinaria vittoria di Mary Peltola, nativa yup’ik",
-   "link": "https://www.editorialedomani.it/politica/mondo/anche-lalaska-ora-e-blu-la-straordinaria-vittoria-di-mary-peltola-nativa-yupik-x29tcfqf",
-   "fonte": "p-domani",
-   "fonte_nome": "Domani",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Un’altra vittoria dei democratici: dopo un conteggio lunghissimo, anche lo Stato dell’estremo nord viene strappato ai repubblicani.",
-   "pubblicata": "2026-11-18T19:47:47Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "rss",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "f601d58f23d632a8",
-   "titolo": "New leaks detail next year’s iPhone Pro redesign and iPhone Duo 2 - 9to5Mac",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPU3lZSXhKZGFZcTlTSGxDcTFMeWRJMmpZSHJCVjd5c0U0WHNjSjBLaHkzQ0JyV3ZBOEFnVS13MnBOLXdtY1E3WDdPaUZOd1FZTEVFOVBHcEd4cTVfMWo4cXh3Wk5fTk9rYnktVVd4WGh5ZGVLQTZyR3dxVWtEcW1EUFpNbDZqSDVYQUlaaUhiU3ZDeXluZzVsblJHTVg?oc=5",
-   "fonte": "offerte-tech",
-   "fonte_nome": "Offerte tecnologia",
-   "tipo": "stampa",
-   "aree": [
-    "smartphone",
-    "offerte"
-   ],
-   "normativa": false,
-   "sintesi": "New leaks detail next year’s iPhone Pro redesign and iPhone Duo 2 9to5Mac iPhone 20 Pro Rumored to Return to Titanium MacRumors The 20th anniversary iPhone is reportedly…",
-   "pubblicata": "2026-11-18T19:47:00Z",
-   "visto": "2026-11-19T18:01:01Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "e4fba290aa0abcb6",
-   "titolo": "Stretta sui social: \"stop ai minori di 13 anni in Italia\"",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOakgwSFFjZXVSSmQ5QUpvTTZDNDFMM0ZTR192Wk4zcGwxZVFFbUpUeGM2blRwc1BnWlRUUUhmWDFlWVktNzNqM0RpcFNvS0ZRUVZRT29TUjBjd1NVUmxYYnR4NUZPaDFrZy1YWkVZNXF6OXZ5NXVPelphQkhYUFhGcklNQTdKeUVtSUtZRm5nalpiVmhReGVkendRRlpCM2VwanVkOFlQeDM3TnJBOWN1Ry1ZWW9lajdVMXdNa0pzUElWVnU4ZV9KWU8wcEFlZU0ta0d6YTlFdlBpZFVYN1HSAeMBQVVfeXFMUHVYX0tOZFlFS2tKeTNGSk5aN2NxNGRZMVFJMEVzRlFpanMzcG1qQUxYZUU5aG9jcVh2QkNILWtQTzVDa21CLXdkcFVkQlFKUHhudUNIUFdBN203azNZVUxicUJweGwyaHhpVkJlcG1pMkpEY3V0alRjY3Z4cFBZdEtlUndmczVSZERxN0dhaXFEXzM1eFF5WmFta3dGSll3Q2RIYVluQ0oxaUQ1Q1hjVWh0S2U4UnMxS3JIVXB6RWJaM0dnS0wtOVhVRHBtZ09JZEVuaUdxM0hIaUMyVVJwamxHV2c?oc=5",
-   "fonte": "p-rainews",
-   "fonte_nome": "Rai News Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Stretta sui social: \"stop ai minori di 13 anni in Italia\" RaiNews",
-   "pubblicata": "2026-11-18T19:47:00Z",
-   "visto": "2026-11-20T03:01:00Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "4fd510de1c8f72b9",
-   "titolo": "Nazionale Ciclocross – Tintoni, Camiciottoli, Grini e Peretti primi nel Tr. Valbisenzio",
-   "link": "https://www.federciclismo.it/articoli/ciclocross-articoli/nazionale-ciclocross-tintoni-camiciottoli-grini-e-peretti-primi-nel-tr-valbisenzio/",
-   "fonte": "a-fci",
-   "fonte_nome": "Federazione Ciclistica Italiana",
-   "tipo": "ente",
-   "aree": [
-    "bici"
-   ],
-   "normativa": false,
-   "sintesi": "Circa 150 concorrenti hanno dato vita a Vaiano alla gara nazionale di ciclocross organizzata dalla Vaiano Bike e svoltasi sul circuito del Parco Ferri – Giardini di…",
-   "pubblicata": "2026-11-18T19:43:31Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "rss",
-   "sotto": [
-    "bici.bici"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "f1638ba29033befa",
-   "titolo": "La provocazione di Guercilena: \"Meglio vincere il Giro d'Italia che piazzarsi al Tour\"",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQLXVSMGJwemdLU3cyTndXN0EyTm9idWV5SGxqOWItd3prMEVQR1djOXdaREdUZEgxOFdJUmE0V19OMk9sYjdSa1VEU05aZUNKQVlsVERWSjgwNmR5cDR1UDdONDJwbFNTMjFzWFpsMTYwdlNqczQ3aVFBWVpqWGVJSmlmY0VJLWVybDY4?oc=5",
-   "fonte": "a-uci",
-   "fonte_nome": "UCI (ciclismo mondiale)",
-   "tipo": "ente",
-   "aree": [
-    "prove",
-    "bici"
-   ],
-   "normativa": false,
-   "sintesi": "La provocazione di Guercilena: \"Meglio vincere il Giro d'Italia che piazzarsi al Tour\" QS Quotidiano Sportivo",
-   "pubblicata": "2026-11-18T19:41:14Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [
-    "prove.guide",
-    "bici.ciclismo"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "eed1ab6e0a4950fe",
-   "titolo": "- RaiNews",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CQ01oZ1ppRW5FX09LWndoMUQwTGxkYXJRaktVOUp6TTc4aXRlZDlFakxqZVFncHdPLVQ0ems5eHN1elUxelZyZFNzWmltdzRGaVVvLVUwbUE5ek5u?oc=5",
-   "fonte": "p-rainews",
-   "fonte_nome": "Rai News Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "RaiNews",
-   "pubblicata": "2026-11-18T19:40:23Z",
-   "visto": "2026-11-20T04:01:07Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "cccc802704755d4e",
-   "titolo": "Scure su turismo e reti idriche, è una manovra tagli&condoni",
-   "link": "https://www.editorialedomani.it/politica/italia/manovra-scure-turismo-reti-idriche-tagli-condoni-legge-bilancio-anac-ekltwwm6",
-   "fonte": "p-domani",
-   "fonte_nome": "Domani",
-   "tipo": "stampa",
-   "aree": [
-    "economia_pol",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Tagliati 20 milioni sulle infrastrutture dell’acqua, meno fondi per i passeggeri sullo Stretto. I paletti di Salvini alla sanatoria edilizia: «Solo per piccoli abusi».",
-   "pubblicata": "2026-11-18T19:38:27Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "rss",
-   "sotto": [
-    "economia_pol.pnrr"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "d2540b5f36b8debb",
-   "titolo": "Maxi operazione dell’esercito israeliano a Gaza, l’Idf: “Uccisi due membri di Hamas”",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQ3JqYXRlWnJNajVQSTJDNjEyVFZYUnZPQWFiQndyWWdlUTlLSllDd2lsX1VwazY4S2lidFczV043WmsxTlJ3aUhWd1BDX1NvQnQxb01WdkViVzl3MzhYdmdzR01nRlFoeTlqNXJnTTA0OHNrZndEMElkMjJoeEZxM3hiVDUwcGJJNlVkQTFVNlQwa0FwTURYeFNrNGpxWEdiaERBM3pkYmkxakZORXVvbFpZeEV3ZUw1R2c?oc=5",
-   "fonte": "p-dire",
-   "fonte_nome": "Agenzia Dire",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Maxi operazione dell’esercito israeliano a Gaza, l’Idf: “Uccisi due membri di Hamas” Agenzia Dire",
-   "pubblicata": "2026-11-18T19:38:00Z",
-   "visto": "2026-11-19T21:01:15Z",
-   "metodo": "gnews",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "f5199f413298929b",
-   "titolo": "Lee Cougan 2027: la Rampage Innova e la Crossfire Trail cambiano look",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBPamVaSm9yTW44ZWpBT3NFUU1SNHE4dUtmejZCaEJnV1NtbGY2YmthckVRcEZHTXdCRFRVaUE0Y0NheVNMX1M4RXAzWGxaZy1SR1E1TnE5NENTbTBXUGZ0V0tvMU7SAWRBVV95cUxQT2plWkpvck1uOGVqQU9zRVFNUjRxOHVLZno2QmhCZ1dTbWxmNmJrYXJFUXBGR013QkRUVWlBNGNDYXlTTF9TOEVwM1hsWmctUkdRNU5xOTRDU20wV1BmdFdLbzFO?oc=5",
-   "fonte": "a-mtb",
-   "fonte_nome": "MTB Mag / Mtb-Vtt",
-   "tipo": "stampa",
-   "aree": [
-    "bici"
-   ],
-   "normativa": false,
-   "sintesi": "Lee Cougan 2027: la Rampage Innova e la Crossfire Trail cambiano look Pianeta MTB",
-   "pubblicata": "2026-11-18T19:38:00Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "gnews",
-   "sotto": [
-    "bici.bici"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "ad6cb3c9afc6e961",
-   "titolo": "Lee Cougan 2027: la Rampage Innova e la Crossfire Trail cambiano look",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcTJ0STVOX1VaVWxsbTdzbkN2M0lMQ1o2RzJobG1Zd3VpVXpGelpiNHI4eFh4ZDVMTHJGVG1MdnhDb1lHb1FEcmgxWlpJcW15al9IZFVtOGhnSmNjcEpBRWlkZk53SGppUF8tT1M1dzhQOFRHRnZvUHdpVzVYX1BEYnFzUFVLS0FfRnlaY1VMRV9vY3ZFN1pnSTlqeDdyT3RzWkRoYzRqenRIWk9FaHkzTkxucVVuRTNrb1NQa1EzcG1paVhzeGZCQUdCY2RucjU2QUhQRURn0gFkQVVfeXFMUE9qZVpKb3JNbjhlakFPc0VRTVI0cTh1S2Z6NkJoQmdXU21sZjZia2FyRVFwRkdNd0JEVFVpQTRjQ2F5U0xfUzhFcDNYbFpnLVJHUTVOcTk0Q1NtMFdQZnRXS28xTg?oc=5",
-   "fonte": "a-mtb",
-   "fonte_nome": "MTB Mag / Mtb-Vtt",
-   "tipo": "stampa",
-   "aree": [
-    "bici"
-   ],
-   "normativa": false,
-   "sintesi": "Lee Cougan 2027: la Rampage Innova e la Crossfire Trail cambiano look Pianeta MTB",
-   "pubblicata": "2026-11-18T19:38:00Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "gnews",
-   "sotto": [
-    "bici.bici"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "794bebaa72cd53ff",
-   "titolo": "Digital Fairness Act e sfide del digitale, la voce dei Consumatori",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQazA2V2o4cHplT19wQmM5cEduSU1QbWRackVGOERmb1ZDdG5OSlpGTzRaWENKaUhsUk1KcVZtYm9PUE50VGxqNHhtWkxZRWhLYUNsaTZHUE82bF80b1VqT05QVlQ3UF9tbS1OSVY3NnJlakt5WWIwbnZEWUVaMUxaaV9VbURBbkdwMDR2M2paUmxqWXhuTW1TRlpjSnU1ZDB1eDNNd2h2cER0a2pLUXc4dXRsZ2hSRkJrN3NXdUxqOA?oc=5",
-   "fonte": "p-ce",
-   "fonte_nome": "Commissione europea",
-   "tipo": "ufficiale",
-   "aree": [
-    "europa"
-   ],
-   "normativa": true,
-   "sintesi": "Digital Fairness Act e sfide del digitale, la voce dei Consumatori Help Consumatori",
-   "pubblicata": "2026-11-18T19:35:30Z",
-   "visto": "2026-11-20T01:01:06Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "577f7b10c29200a3",
-   "titolo": "Formazione, vero motore di sussidiarietà",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYWpYUmxfRXVlS3NWUDl3eXZlUjF6cFp3RjZPX3YzeHU3ZFBnbkxVMUdKeVNKT01RRUR2ZnlSaHpoWkdhWFozREFwZ1FrTkxsU2NpUVowSTByaGtVYVBpaHg4ZnJuWlczeXk5YzRPbno2UWlXZkRGeXJlMDhZbmt0ZktwMDNDMFRoMThxOVVPR2J6RkxZSUJEaGFMQy1Vdw?oc=5",
-   "fonte": "pr-fondimpresa",
-   "fonte_nome": "Fondimpresa e fondi interprofessionali",
-   "tipo": "ente",
-   "aree": [
-    "hr"
-   ],
-   "normativa": false,
-   "sintesi": "Formazione, vero motore di sussidiarietà Conquiste del Lavoro",
-   "pubblicata": "2026-11-18T19:35:20Z",
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "hr",
-    "formatore",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "08c81639a9b5a87c",
-   "titolo": "Tassare i ricchi non è un problema tecnico ma una volontà politica",
-   "link": "https://www.editorialedomani.it/idee/commenti/tassare-i-ricchi-non-e-un-problema-tecnico-ma-una-volonta-politica-esnj4dn2",
-   "fonte": "p-domani",
-   "fonte_nome": "Domani",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Il campo largo discute finalmente dell'idea di fa concorrere alle spese pubbliche “chi ha di più”.",
-   "pubblicata": "2026-11-18T19:34:16Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "rss",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "1a8da7c9dcafd72d",
-   "titolo": "Ritrova dopo 47 anni l'anello perso dal fratello in mare: sconosciuto vola per 3.000 km per restituirglielo",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWnVFR1RGcWpMVzNaeFg3TFQ5Rjh4WHpfQXhGTk0tWEJWVG4wekZtYTlUc1JQUWMyaDJyVUJSYnBwbTRvVnZIQVdiY0hka0ZIa1MyN0h3MlVhX3VaNmJDbkIyNDA4aVhyRlR1enFKblZPUmMzbk1XdG1SMEE2YjQ2bjZHR1JfdHRiYjZUNDhPWG9GQi1jakFSVW1UY3JOT0pWaXRqQlp5TlVwX0dRdUN1N21pTFpwNWhnWWxpczR3dVF5MEE5T29DaDgweS1LRDNSdWc?oc=5",
-   "fonte": "p-fanpage",
-   "fonte_nome": "Fanpage Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Ritrova dopo 47 anni l'anello perso dal fratello in mare: sconosciuto vola per 3.000 km per restituirglielo Fanpage",
-   "pubblicata": "2026-11-18T19:32:01Z",
-   "visto": "2026-11-19T21:01:15Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "def89ba6e7998ba4",
-   "titolo": "Best Buy sells Blu-rays online and in-store again",
-   "link": "https://arstechnica.com/gadgets/2026/11/best-buy-sells-blu-rays-again-after-quitting-the-business-in-2024/",
-   "fonte": "t-arstechnica",
-   "fonte_nome": "Ars Technica",
-   "tipo": "stampa",
-   "aree": [
-    "hardware"
-   ],
-   "normativa": false,
-   "sintesi": "Popular titles like The Odyssey are being “sold & shipped by Best Buy.\"",
-   "pubblicata": "2026-11-18T19:31:17Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "ce222b687f363062",
-   "titolo": "Xreal Aura Review: Solid AR Glasses Hampered By Google's Half-Baked Android XR - Engadget",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wYjktenJrZlpNSXExYklhWE9Eem15TnNGOWk5UGxQaTJxYTVlSUF1alE4N1dJenJRb1BGRUNodW0xNURtVXl6VVhpMVhzeFhhRlpEbVRJVWJhRm5EemsyUw?oc=5",
-   "fonte": "stampa-ce",
-   "fonte_nome": "Stampa locale Caserta",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "Xreal Aura Review: Solid AR Glasses Hampered By Google's Half-Baked Android XR Engadget Google's Xreal Aura, Reviewed: The Weird Evolution of VR Into Glasses Is Already…",
-   "pubblicata": "2026-11-18T19:30:00Z",
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "12f306fcfeda45ef",
-   "titolo": "Il sindaco di Genzano attacca Fanpage su Lobby Nera e Gioventù Meloniana: \"Inchieste montate per gettare fango\"",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeTlyUHRIWHBwS0tUeGNmVW9idkc1YV9zSWdKSk9mYlY0TmVJNUJwbXQxQ1d4eXRSNXpoNjJXeWtKUmZ2b0ZVc2pLdkpxVlB5WFJiWkt4a1dVZFFXN05aNnVBWDViVmNFQjRqVzNCdlFUWERZanZlUnJJZEZzcDJqZ2pMN0lSVURJQ1VhM1pMX3p4YmVmVWRGTm42X20zakU0Nk9Jb2xTaVBGS2REM3Y0SGN5Wml1b1RKNG5DQWdUdlE5TE9VUEt2THJXODZEWEJ4ZlVB?oc=5",
-   "fonte": "p-fanpage",
-   "fonte_nome": "Fanpage Politica",
-   "tipo": "stampa",
-   "aree": [
-    "territorio",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Il sindaco di Genzano attacca Fanpage su Lobby Nera e Gioventù Meloniana: \"Inchieste montate per gettare fango\" Fanpage",
-   "pubblicata": "2026-11-18T19:29:14Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [
-    "territorio.regioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "4eaba287f40cf945",
-   "titolo": "Vannacci, faro dei pm: «Futuro Nazionale viola la legge Scelba»",
-   "link": "https://www.editorialedomani.it/politica/italia/vannacci-indagine-futuro-nazionale-legge-sceba-bqxp568u",
-   "fonte": "p-domani",
-   "fonte_nome": "Domani",
-   "tipo": "stampa",
-   "aree": [
-    "giustizia",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Dopo gli esposti, aperta l’inchiesta sul movimento di Vannacci. Denunce arrivate anche nei ministeri. Ecco il ruolo di Barboni",
-   "pubblicata": "2026-11-18T19:28:53Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "rss",
-   "sotto": [
-    "giustizia.giustizia"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "1623a9e1290c6293",
-   "titolo": "YouTube co-views sulla TV, cosa cambia per i creator",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTkl3dU52R2ZORjB4UDVod0x2SDAteGtQMUl0UmkzYjF1azJJT29tQ05QVS1qWm9jcVVGTnljT3pLbFpfOEE3OFVoV2MyNFh2ak80T3ItNTNIVFRWVWFIWFNpN2tFTklZNU9iX29aV0dMakNTSjVKZzN4UnNaajNrSHB3empUdFpmTmFKSUdfZHVnazV5bDdNR0NrdmdUaGZScE5HMjBBVQ?oc=5",
-   "fonte": "t-android-auth",
-   "fonte_nome": "Android Authority",
-   "tipo": "stampa",
-   "aree": [
-    "software",
-    "smartphone"
-   ],
-   "normativa": false,
-   "sintesi": "YouTube co-views sulla TV, cosa cambia per i creator Meteora Web",
-   "pubblicata": "2026-11-18T19:27:32Z",
-   "visto": "2026-11-19T23:01:06Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "e7aea19dc56e1967",
-   "titolo": "Lo scandalo dei De Gennaro: «Avvisa Crosetto e Mantovano». Il sottosegretario a Domani: «Valuto denunce per calunnia»",
-   "link": "https://www.editorialedomani.it/fatti/de-gennaro-scandalo-indagine-caltanissetta-avvisati-crosetto-mantovano-opyq7ume",
-   "fonte": "p-domani",
-   "fonte_nome": "Domani",
-   "tipo": "stampa",
-   "aree": [
-    "governo",
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "I pm di Caltanissetta: «De Gennaro influenzò nel 2023 la nomina del fratello a capo della Finanza».",
-   "pubblicata": "2026-11-18T19:27:22Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "rss",
-   "sotto": [
-    "governo.governo",
-    "esteri.difesa"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "4eafe4374e4c073c",
-   "titolo": "Tutto sull'Abuso edilizio",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10ellTNG13YU9yVWV3dVQzODkydkJtTThRY1kwbnZyLVRBNnhqT3FVejAzNG5qakowbEtsRk80UmtqRmxjcjIxWTh1T0M4YmJxanEyTnJkWWdzX2FlWC1iTjFOZ3V4X0xOaTVqREhLQklrZGs?oc=5",
-   "fonte": "ingenio",
-   "fonte_nome": "Ingenio",
-   "tipo": "stampa",
-   "aree": [
-    "edilizia",
-    "cantiere"
-   ],
-   "normativa": false,
-   "sintesi": "Tutto sull'Abuso edilizio Ingenio",
-   "pubblicata": "2026-11-18T19:22:16Z",
-   "visto": "2026-11-19T18:01:01Z",
-   "metodo": "gnews",
-   "sotto": [
-    "edilizia.sanatorie",
-    "cantiere.maestranze"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "ingegnere",
-    "architetto",
-    "geometra",
-    "notaio",
-    "dl",
-    "cse",
-    "capocantiere",
-    "contabile"
-   ]
-  },
-  {
-   "id": "5666eadb9dbf98de",
-   "titolo": "Due morti in cantieri edili a Treviso e Palermo",
-   "link": "https://www.ilsole24ore.com/art/due-morti-cantieri-edili-treviso-e-palermo-AJn2XCLC",
-   "fonte": "bonus-sole",
-   "fonte_nome": "Bonus: Il Sole 24 Ore (casa e fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "edilizia",
-    "cantiere"
-   ],
-   "normativa": false,
-   "sintesi": "Doveva essere un ordinario sopralluogo su uno stabile destinato alla demolizione ma le prime operazioni di verifica della staticità di un solaio ne hanno provocato il…",
-   "pubblicata": "2026-11-18T19:20:54Z",
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "rss",
-   "sotto": [
-    "edilizia.interventi",
-    "cantiere.maestranze"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "ingegnere",
-    "architetto",
-    "geometra",
-    "notaio",
-    "dl",
-    "cse",
-    "capocantiere",
-    "contabile"
-   ]
-  },
-  {
-   "id": "ef3e81a809376821",
-   "titolo": "Juventus, inaugurato il nuovo Club al Parlamento Europeo. Chiellini: \"La luce si vede sempre\". E su Yildiz...",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcVRvTmllcy03RnR2azVmbkllNVg4aEJlWF9EYUNnWEJTclYwTUJZZEo5OFkzWnpqRkxLRjdmWUlsU05BdGZtSi0zVXloUXg4VGVZRm5aOEV0eFlhT1RyMGcwMDEwbzA2VnhTMUMzbWFwdjEySVljNDJkZVByTEI2bUw3RE5oaUdBaEt1RUEzbHBFODE2ZWR0alV2VlJGNHNSTFBUb0k0c0ZzYzZNdzlMSTFSMFlHQQ?oc=5",
-   "fonte": "p-pe",
-   "fonte_nome": "Parlamento europeo",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo",
-    "europa"
-   ],
-   "normativa": true,
-   "sintesi": "Juventus, inaugurato il nuovo Club al Parlamento Europeo. Chiellini: \"La luce si vede sempre\". E su Yildiz... Il BiancoNero",
-   "pubblicata": "2026-11-18T19:20:00Z",
-   "visto": "2026-11-20T00:01:01Z",
-   "metodo": "gnews",
-   "sotto": [
-    "governo.parlamento",
-    "europa.istituzioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "0cefd4c68688efb5",
-   "titolo": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
-   "link": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-   "fonte": "t-arstechnica",
-   "fonte_nome": "Ars Technica",
-   "tipo": "stampa",
-   "aree": [
-    "sicurezza",
-    "hardware"
-   ],
-   "normativa": false,
-   "sintesi": "Erratic Muse outputs sharing random bank, bitcoin balances aren’t real, Meta says.",
-   "pubblicata": "2026-11-18T19:19:33Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "56512d4aef37a921",
-   "titolo": "La Commissione Europea ha proposto un nuovo prestito da un massimo di 45 miliardi di euro per l’Ucraina",
-   "link": "https://www.ilpost.it/2026/11/18/commissione-europea-prestito-ucraina/",
-   "fonte": "p-post",
-   "fonte_nome": "Il Post",
-   "tipo": "stampa",
-   "aree": [
-    "europa",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": "2026-11-18T19:18:27Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "rss",
-   "sotto": [
-    "europa.istituzioni",
-    "governo.parlamento"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "9eec3c0804799215",
-   "titolo": "Xi Jinping abbraccia Trump e Putin insulta l’Ue: «Umiliante declino»",
-   "link": "https://www.editorialedomani.it/politica/mondo/xi-jinping-trump-putin-shenzhen-ue-trilaterale-x0a2e4c2",
-   "fonte": "p-domani",
-   "fonte_nome": "Domani",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Trionfale accoglienza all’aeroporto, ma l’obiettivo di Pechino è approfittare della debolezza del tycoon. Intanto il leader cinese “riabilita” lo zar.",
-   "pubblicata": "2026-11-18T19:17:22Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "rss",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "9169137d2eaf352e",
-   "titolo": "Fifa, è ufficiale la candidatura alla presidenza del giapponese Tashima",
-   "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPTUFxbG1PdS0ySm5rQ3cyRG5WSW5IdmpOMUVLU0llQXY4XzdlY2tWWWs3MmFHSFc5NWI5ZWtKSnVGNmVGaVdRMjJTNWt2QmFoaHYtWDR0QTI3MXNidnRlb2s0VFlVT1FCcGxXUUtSM053X1lJaG5xckFnQ0FwSXFjcm1hRThqQTZ3eURaLXdVYm1lbDU0dGtyZTJFSUhrZFJMSEd5UGlpVW9kNU01QVhPVVpzTzAxVEdlQV9FT2h2MHljSHVGdVBMa3JrUS14WHhvaGpLcVBPbVdyY2pDTkNEcHZBMm1waDlLeE1CeVJBRU03RUItTmNQOS03M0JvcFV5TkNGNGl2YXBpUdIBjwJBVV95cUxPaGYyU2d2b2FyUGtMVFFpYWJ1aU0yakdVa1BHNkNfOW1aU2YwdEtSdFJEWEVIZVpSeUI3X3FVZF9rWUdDTjYyUWNIVXRaNldnMXZBZjBrNFRvRVVBVTVvbTlNRV9FVjltSmpTY1VoOWtJUzhUejVUa1FjOXEtNlRiLUM1elFkZjV6Mlg2R2Mya01sdWtpeE9qVnI2cFNkejNkXzJVUW5EU0FXWXpUa2RHOFNZZG15c2dROUxuYWFPZ3dIcTRfelA4dTJCVmNhTngwWHh5WnBKdTBuZXptRExvNUE1M0ZZUzBfNkVBNlZaaWNYcnpzY25XZjFoUXJ1NnJudmxzX3h1MUIwV3JkbjBV?oc=5",
-   "fonte": "p-rainews",
-   "fonte_nome": "Rai News Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Fifa, è ufficiale la candidatura alla presidenza del giapponese Tashima RaiNews",
-   "pubblicata": "2026-11-18T19:16:00Z",
-   "visto": "2026-11-20T04:01:07Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "1ff50a29b017946c",
-   "titolo": "Google Foto: in arrivo novità legate ai widget e alla funzione Guardaroba",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZlZGSnlsV2E2MFpGYldXT3VtV1BfeFlLbHhaMG0xQmw4Zk5aZ2FhWFlMRVR2MTl2aVZicjFYX09yc3c0djdpRFRBb21ob2NWUGFqclpyZmxCaGstM1ZucW5TeVNQRExIaHZ3UXJicFZwQnBJbndtNHdmSllPNWJuRXM2dkt0ZFdyTG1KejZ5ejhrN0hoUnR3ZmRlWU1FdTJaUTVZeA?oc=5",
-   "fonte": "t-android-auth",
-   "fonte_nome": "Android Authority",
-   "tipo": "stampa",
-   "aree": [
-    "smartphone",
-    "hardware"
-   ],
-   "normativa": false,
-   "sintesi": "Google Foto: in arrivo novità legate ai widget e alla funzione Guardaroba TuttoAndroid",
-   "pubblicata": "2026-11-18T19:15:59Z",
-   "visto": "2026-11-19T22:10:58Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "0e9528941f14070f",
-   "titolo": "Volkswagen T-Roc R 2027: 333 CV e modalità Drift - VIDEO | Quattroruote.it",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS1hFNnVrWlItWmU1WnVzbFVCU2F3c20tWW0tZ2EwT0pTNTZjM2pWcEpINE5qQ3J6LWJJM2taMlBIeTUyTk42cGZDY0hHbkxnUXV2ODdhU01QcEJQdDAwY1gzQmdTendZZF8xc080ZzRlaktVZFFROGNZS0ZCa2JZVGxudjlrMzVDQ3NhcGpB0gGOAUFVX3lxTE9LWEU2dWtaUi1aZTVadXNsVUJTYXdzbS1ZbS1nYTBPSlM1NmMzalZwSkg0TmpDcnotYkkza1oyUEh5NTJOTjZwZkNjSEduTGdRdXY4N2FTTVBwQlB0MDBjWDNCZ1N6d1lkXzFzTzRnNGVqS1VkUVE4Y1lLRkJrYllUbG52OWszNUNDc2FwakE?oc=5",
-   "fonte": "a-quattroruote",
-   "fonte_nome": "Quattroruote",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "Volkswagen T-Roc R 2027: 333 CV e modalità Drift - VIDEO | Quattroruote.it Quattroruote",
-   "pubblicata": "2026-11-18T19:15:00Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [
-    "novita_auto.marchi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "c8a2f6f764db2f4f",
-   "titolo": "La nuova Volkswagen T-Roc R mette sul piatto 333 CV",
-   "link": "https://it.motor1.com/news/815403/volkswagen-t-roc-r-2027/",
-   "fonte": "a-motor1",
-   "fonte_nome": "Motor1 Italia",
-   "tipo": "stampa",
-   "aree": [
-    "tecnica_auto",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "Il 2.0 turbo EA888 evo5 guadagna potenza e debutta con il mild hybrid a 48 Volt, senza rinunciare alla modalità Drift",
-   "pubblicata": "2026-11-18T19:15:00Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "rss",
-   "sotto": [
-    "tecnica_auto.motori",
-    "novita_auto.modelli"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "22d1ca1ab907ab38",
-   "titolo": "GPS prima e seconda fascia: chi può iscriversi e quali requisiti servono?",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMGhid2F4ZXFmMnc0bk1HNGVlUmc4dGRBX1dBSE94MUI1cGxvSDZKVkRwRkNKTTd1YzhkSDBYalZsS1E5UTBLWjNPSTlrellZRklMclpSTVFVaW9uVUQxbkZ3SGpkTE1rd2VHUUVtblZoZ01FaGZVd0RaZDRiUnhrZHgzVzYtTVAtbEhVM0lodUtzMDBrbl91REM4R1VlLUFNd0U2N1Y1OWs?oc=5",
-   "fonte": "pr-scuola",
-   "fonte_nome": "Orizzonte Scuola e Tecnica della Scuola",
-   "tipo": "stampa",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": false,
-   "sintesi": "GPS prima e seconda fascia: chi può iscriversi e quali requisiti servono? Tecnica della Scuola",
-   "pubblicata": "2026-11-18T19:14:48Z",
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "gnews",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "e5b0d5156d0b3106",
-   "titolo": "Anac: Lussana, Pres. CPGT: “Con Morzenti Pellegrini competenza ed esperienza al servizio delle istituzioni”",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxONG5kM3MtN0J5M2FXNkZmNC1lQXZaNUZHck43c0p5bGxNVFk3OTdXXzRwMEFOQ2Y3bklzOU9iWmM0X2p3Xzd3VUpPZW5GN2RrZU95allSd1ZvOWZFOXRXa29yLVBvMjFEQWdkZGpnS3AwcWtSamRHXy1vM1FYdmtZZnhnd1hHdzZZaURjNXhvZldoUGRqQi01OFNnWlJuLTBhcHVzWmE2M0NiTXFVVHRxMnhpWWJhazdSZFZJUTRGU3hnWERER0t1WTBPeXR4bnFicjV3U0RTMHJGQzN4OFZ4Z3lwS0Jib3c?oc=5",
-   "fonte": "p-giornale",
-   "fonte_nome": "Il Giornale Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Anac: Lussana, Pres. CPGT: “Con Morzenti Pellegrini competenza ed esperienza al servizio delle istituzioni” il Giornale",
-   "pubblicata": "2026-11-18T19:14:23Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "2ffac3a1feaf3f39",
-   "titolo": "A TV host announced she's pregnant at 59. How motherhood is changing - USA Today",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPemVfcU9vNGk3SUY2Y2hsLU9JODlTUDZpZXA1YTZSMTdTQ21DMUZCUWlJOC1RR0o4U05sOXA3UklTSXFaNERtQkI4aDZUNHl1cWZubzdJLXM0ZEx0ZjdLazR5V2FoTHVqUWZmSi1aeGpjbkljY1VoeXN1U1ZJRW9NQjRlYlVrWGJVeVBERnpqS3kyTHY5SVVqNXBsN2dkWGZja3NJY3N1RGsxS0JWYlYtci1CaEY2NWRWRFZ0SHdfTmlsN0dhbHFQOWtuMTNSUQ?oc=5",
-   "fonte": "stampa-ce",
-   "fonte_nome": "Stampa locale Caserta",
-   "tipo": "stampa",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "A TV host announced she's pregnant at 59. How motherhood is changing USA Today TV Host, 59, Announces Pregnancy Nearly 40 Years After Giving Birth to Her First Baby…",
-   "pubblicata": "2026-11-18T19:14:00Z",
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "fde0eb95c865ec85",
-   "titolo": "Combustibili di ritorno: al Parlamento europeo si apre una porta ai carburanti bio e sintetici",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbWVXRmd4anRBSm5ZU3VyXzF0THZDeEtmZG54Y2x6eWJhUGpjRVhDX1dYRW9iOGZvdFhUM3N0bWxydjA3TVBwUGQ0RVUtZHVRb3RWMWNFbFhCRFJOSTVWYWdkb0tCUWVYZ241NkF2OFhVQkREUXJoTjh3cmRIVlk0U1dxellxUUVlR2cwcDFULTNZZw?oc=5",
-   "fonte": "p-pe",
-   "fonte_nome": "Parlamento europeo",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo",
-    "europa"
-   ],
-   "normativa": true,
-   "sintesi": "Combustibili di ritorno: al Parlamento europeo si apre una porta ai carburanti bio e sintetici L'Espresso",
-   "pubblicata": "2026-11-18T19:13:23Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [
-    "governo.parlamento",
-    "europa.istituzioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "cf939c05fdee6bf5",
-   "titolo": "Allarme bomba a scuola, lo scambio d'identità: l'incredibile equivoco social",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVnhubWdaSUp4V0p4VEtHMUVzaUo2dHN2bDZ2ZXpuSFB0bW0tVFkzSEVfSzBZdjFROVdSbDBTTEd0VzQzaUE1a2o2NVJpcEo3cmJMQmx1ZWJwV2pwbzNocU5UZ0l0VGRqWTY3Qmh5SVNuWTU4OXgtWXRGMEVmS1Q0TlM3MjFyOXlYTHZpMVBMZ1k2Uno5MXV2SUQ1dFZTeW1wQVhOX0VCM0lwN3AwUHEySllOV2xnWEFjR18yNFhoX2JXdGvSAcgBQVVfeXFMTUFFYzdvMmZ5OVNzeHFkWmxWVjhkWndRWW5uRFUwVkhQUUV4VEFzZEh3UVR3bWNsc2RmRHl1QUIwYnJPbTY2TmFRalRKTjFVZEt0V2w2UHM2SzRfRGRuTDRnWXJHeFIzZ1c1U1J2cjdlNTNKVFJkaUdrckp1U3gySmdOQUxycmd5NlJJbFQ1cXlidzd3d1Q4eFo3TzhabmFGbllPQ2ZIM2hJNEphMDdZWDl0UlFBWTZ5NUcyb1VhUWNJWVdjMG5SUlI?oc=5",
-   "fonte": "p-rainews",
-   "fonte_nome": "Rai News Politica",
-   "tipo": "stampa",
-   "aree": [
-    "economia_pol",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Allarme bomba a scuola, lo scambio d'identità: l'incredibile equivoco social RaiNews",
-   "pubblicata": "2026-11-18T19:11:00Z",
-   "visto": "2026-11-19T19:18:07Z",
-   "metodo": "gnews",
-   "sotto": [
-    "economia_pol.welfare"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "ab62186f5856acbe",
-   "titolo": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit - CNBC",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUHlsTnZZSU9BNjZuZUZvQXBGUkZnc2hxZ2U4cE5WWkE2OG81eUZxVTVsRHdaMTVGdFBTWnBSQUZhS0lBOEhJdVhCNjJ5ZURrOGlCekFWU010bWRjRXJQd1JuVFRSbGRtYWl4STNlVFNrREdVV3BXYW4zRDlMNGFoek5TbkVLaVlaWGpCcjJrVXJzb2xHQ0xNUm50U2V2YUVPRlJrYdIBqgFBVV95cUxNNzZwUmstbGVkVFNDZ3FfTkNYRHZmUlhMRGJvbENlNG1sRl9MZjJjSVpORzVvRTZ2ZWNJWWRTQ2pkYlY4ZTdpMzhfN1AwVzZzSWUxR1hPR2pCWDJPLTIxZGdMT0JMLVdZUUlyWWVxT2ZsNXFwZ2VEZ2czRl9Ya3NDVEFBZF9wb0lOMVlnczBIazh1OHdJTFRCYXVNTWU1RVVjQnBWREQxQ005Zw?oc=5",
-   "fonte": "stampa-ce",
-   "fonte_nome": "Stampa locale Caserta",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit CNBC Nvidia’s Interim C.E.O.",
-   "pubblicata": "2026-11-18T19:09:18Z",
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "rss",
-   "sotto": [
-    "management.manager"
-   ],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "b0506e06ad53cea8",
-   "titolo": "Dati catastali e consultazioni ipotecarie: sul sito delle Entrate la nuova guida",
-   "link": "https://www.ilsole24ore.com/art/dati-catastali-e-consultazioni-ipotecarie-sito-entrate-nuova-guida-AJWKMyKC",
-   "fonte": "bonus-sole",
-   "fonte_nome": "Bonus: Il Sole 24 Ore (casa e fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "catasto"
-   ],
-   "normativa": false,
-   "sintesi": "Visure, planimetrie e altri dati relativi agli immobili sono accessibili nell’area riservata del sito dell’Agenzia",
-   "pubblicata": "2026-11-18T19:09:12Z",
-   "visto": "2026-11-19T01:06:11Z",
-   "metodo": "rss",
-   "sotto": [
-    "catasto.volture"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "data",
-    "geometra",
-    "notaio",
-    "agente_imm",
-    "commercialista"
-   ]
   }
  ]
 }
