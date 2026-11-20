@@ -16,6 +16,7 @@ import argparse
 import hashlib
 import html
 import json
+import time
 import unicodedata
 import urllib.request
 import os
@@ -306,6 +307,9 @@ def read_source(src):
             errors.append(f"gazzetta: {type(ex).__name__}")
     else:
         items, metodo, err = read_direct(src)
+        if not items and err and any(k in err for k in ("Timeout", "ConnectionError", "SSL")):
+            time.sleep(2)  # un secondo tentativo: spesso e' un problema passeggero
+            items, metodo, err = read_direct(src)
         if items:
             return items, metodo, None
         errors.append(err)
@@ -326,6 +330,21 @@ def read_source(src):
             errors.append("riserva vuota")
         except Exception as ex:  # noqa: BLE001
             errors.append(f"riserva: {type(ex).__name__}")
+    # ultima spiaggia: cerco il nome della fonte stessa (anche se il sito non e' indicizzato)
+    nome = re.sub(r"\s*\(.*?\)", "", src.get("nome", "")).strip()
+    if nome:
+        items, seen = [], set()
+        for q in (nome, nome + " novità"):
+            try:
+                for it in read_gnews(q, "60d"):
+                    if it["link"] not in seen:
+                        seen.add(it["link"])
+                        items.append(it)
+            except Exception:  # noqa: BLE001
+                continue
+        if items:
+            return items, "gnews", None
+        errors.append("ricerca per nome vuota")
     return [], "nessuno", "; ".join(e for e in errors if e) or "sconosciuto"
 
 
