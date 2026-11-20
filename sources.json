@@ -5521,100 +5521,6 @@
    "gnews_when": "7d"
   },
   {
-   "id": "t-gsmarena",
-   "nome": "GSMArena",
-   "tipo": "stampa",
-   "home": "https://www.gsmarena.com/",
-   "nicchia": "tech",
-   "aree": [
-    "smartphone"
-   ],
-   "gnews": [
-    "GSMArena new phone launch",
-    "GSMArena Galaxy S25 Ultra"
-   ],
-   "gnews_when": "7d"
-  },
-  {
-   "id": "t-9to5",
-   "nome": "9to5Google / 9to5Mac",
-   "tipo": "stampa",
-   "home": "https://9to5google.com/",
-   "nicchia": "tech",
-   "aree": [
-    "smartphone",
-    "software"
-   ],
-   "gnews": [
-    "9to5google Android update",
-    "9to5mac iOS update"
-   ],
-   "gnews_when": "7d"
-  },
-  {
-   "id": "t-theverge",
-   "nome": "The Verge",
-   "tipo": "stampa",
-   "home": "https://www.theverge.com/",
-   "nicchia": "tech",
-   "aree": [
-    "ai",
-    "smartphone"
-   ],
-   "gnews": [
-    "The Verge tech news",
-    "The Verge AI"
-   ],
-   "gnews_when": "7d"
-  },
-  {
-   "id": "t-techcrunch",
-   "nome": "TechCrunch",
-   "tipo": "stampa",
-   "home": "https://techcrunch.com/",
-   "nicchia": "tech",
-   "aree": [
-    "ai",
-    "software"
-   ],
-   "gnews": [
-    "TechCrunch AI startup"
-   ],
-   "gnews_when": "7d"
-  },
-  {
-   "id": "t-arstechnica",
-   "nome": "Ars Technica",
-   "tipo": "stampa",
-   "home": "https://arstechnica.com/",
-   "nicchia": "tech",
-   "aree": [
-    "hardware",
-    "software"
-   ],
-   "gnews": [
-    "Ars Technica gadgets",
-    "Ars Technica security"
-   ],
-   "gnews_when": "7d"
-  },
-  {
-   "id": "t-openai",
-   "nome": "OpenAI e Anthropic news",
-   "tipo": "stampa",
-   "home": "https://openai.com/news/",
-   "nicchia": "tech",
-   "aree": [
-    "ai"
-   ],
-   "gnews": [
-    "OpenAI novità",
-    "Anthropic Claude novità",
-    "Google Gemini novità"
-   ],
-   "gnews_when": "7d"
-  },
-  {
    "id": "t-samsungnews",
    "nome": "Samsung Newsroom",
    "tipo": "stampa",
@@ -5625,8 +5531,8 @@
     "tablet"
    ],
    "gnews": [
-    "Samsung Galaxy S25 Ultra aggiornamento One UI",
-    "Samsung Galaxy novità"
+    "Samsung Galaxy S25 Ultra aggiornamento One UI novità",
+    "Samsung Galaxy novità italia"
    ],
    "gnews_when": "7d"
   },
@@ -5803,7 +5709,7 @@
    ],
    "gnews": [
     "fotocamera mirrorless novità",
-    "drone DJI novità"
+    "drone DJI novità recensione"
    ],
    "gnews_when": "7d"
   },
@@ -5819,22 +5725,6 @@
    "gnews": [
     "attacco informatico vulnerabilità aggiornamento sicurezza",
     "cybersecurity news Italia"
-   ],
-   "gnews_when": "7d"
-  },
-  {
-   "id": "t-android-auth",
-   "nome": "Android Authority",
-   "tipo": "stampa",
-   "home": "https://www.androidauthority.com/",
-   "nicchia": "tech",
-   "aree": [
-    "smartphone",
-    "software"
-   ],
-   "gnews": [
-    "Android Authority news",
-    "One UI update"
    ],
    "gnews_when": "7d"
   },
@@ -6026,21 +5916,6 @@
    ],
    "gnews": [
     "site:it.motorsport.com news"
-   ],
-   "gnews_when": "7d"
-  },
-  {
-   "id": "a-wrc",
-   "nome": "WRC e rally",
-   "tipo": "stampa",
-   "home": "https://www.wrc.com/",
-   "nicchia": "auto",
-   "aree": [
-    "motorsport"
-   ],
-   "gnews": [
-    "WRC rally news",
-    "Mondiale rally"
    ],
    "gnews_when": "7d"
   },
@@ -7797,6 +7672,37 @@
    ],
    "gnews_when": "7d",
    "caf": true
+  },
+  {
+   "id": "t-ai-it",
+   "nome": "Intelligenza artificiale (stampa italiana)",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "nicchia": "tech",
+   "aree": [
+    "ai"
+   ],
+   "gnews": [
+    "OpenAI ChatGPT novità",
+    "Anthropic Claude novità",
+    "Google Gemini novità italia"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "a-wrc-it",
+   "nome": "Rally e WRC (italiano)",
+   "tipo": "stampa",
+   "home": "https://news.google.com/",
+   "nicchia": "auto",
+   "aree": [
+    "motorsport"
+   ],
+   "gnews": [
+    "rally WRC Italia novità",
+    "campionato italiano rally"
+   ],
+   "gnews_when": "7d"
   }
  ]
 }

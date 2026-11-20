@@ -328,7 +328,7 @@ def read_source(src):
 
 
 # ---------------------------------------------------------------- classificazione
-TASSONOMIA = "10"  # cambia questo valore per far riclassificare l'archivio
+TASSONOMIA = "11"  # cambia questo valore per far riclassificare l'archivio
 
 
 def _rx(kw):
@@ -353,7 +353,27 @@ def build_matchers(aree_cfg):
     return area_rx, sotto_rx, [_rx(k) for k in aree_cfg["urgenti"]], luoghi
 
 
+_EN = set("the of to and is for on with as at by after from its his her says how why what about will over into are be has have this that not more than new could would who when your you their they was were been but or an it us up out amid ahead against".split())
+_IT = set("il lo la le gli i di del della dei delle degli da con per su un una uno e che non si è al alla alle ai nel nella nei nelle come più sul sulla sui sono dopo anche dal dalla tra fra ha hanno ma o se cosa quando già solo ecco nuovo nuova nuovi nuove contro verso".split())
+
+
+def is_italiano(titolo, sintesi=""):
+    """Scarta le notizie in inglese (o altre lingue): l'app deve essere solo in italiano."""
+    words = re.findall(r"[a-zàèéìòù']+", (titolo + " " + sintesi[:200]).lower())
+    if len(words) < 3:
+        return True
+    en = sum(w in _EN for w in words)
+    it = sum(w in _IT for w in words)
+    if en >= 2 and en > it:
+        return False
+    if it == 0 and ((en >= 1 and len(words) >= 5) or len(words) >= 8):
+        return False
+    return True
+
+
 def classify(item, src, matchers, urgenti, aree_cfg):
+    if not is_italiano(item["titolo"], item.get("sintesi", "")):
+        return None
     area_rx, sotto_rx, luoghi = matchers
     nicchia = src.get("nicchia", "edilizia")
     text = (item["titolo"] + " " + item.get("sintesi", "")).lower()
