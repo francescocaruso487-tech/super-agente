@@ -7528,6 +7528,275 @@
     "mostre novità"
    ],
    "gnews_when": "14d"
+  },
+  {
+   "id": "f-normattiva",
+   "nome": "Normattiva (leggi e decreti vigenti)",
+   "tipo": "ufficiale",
+   "home": "https://www.normattiva.it/",
+   "aree": [
+    "norme"
+   ],
+   "prof": [
+    "avvocato",
+    "commercialista"
+   ],
+   "gnews": [
+    "site:normattiva.it decreto legislativo",
+    "site:normattiva.it legge aggiornamento",
+    "Normattiva testo vigente decreto novità"
+   ],
+   "gnews_when": "14d",
+   "nota": "Banca dati ufficiale delle norme: lettura indiretta."
+  },
+  {
+   "id": "f-gu-serie",
+   "nome": "Gazzetta Ufficiale: leggi, decreti e concorsi",
+   "tipo": "ufficiale",
+   "home": "https://www.gazzettaufficiale.it/",
+   "aree": [
+    "norme"
+   ],
+   "prof": [
+    "avvocato",
+    "commercialista",
+    "notaio"
+   ],
+   "gnews": [
+    "site:gazzettaufficiale.it decreto-legge",
+    "site:gazzettaufficiale.it decreto legislativo",
+    "Gazzetta Ufficiale 4ª serie speciale concorsi",
+    "Gazzetta Ufficiale legge pubblicata"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "f-entratel",
+   "nome": "Entratel e servizi telematici (Entrate)",
+   "tipo": "ufficiale",
+   "home": "https://www.agenziaentrate.gov.it/portale/web/guest/entratel",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ],
+   "gnews": [
+    "Entratel novità software controllo",
+    "Entratel specifiche tecniche provvedimento",
+    "servizi telematici Agenzia Entrate novità"
+   ],
+   "gnews_when": "30d",
+   "caf": true
+  },
+  {
+   "id": "f-fisconline",
+   "nome": "Fisconline e Cassetto fiscale (Entrate)",
+   "tipo": "ufficiale",
+   "home": "https://www.agenziaentrate.gov.it/portale/web/guest/fisconline",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "gnews": [
+    "Fisconline novità",
+    "cassetto fiscale novità",
+    "Agenzia Entrate SPID delega servizi online novità",
+    "dichiarazione precompilata novità"
+   ],
+   "gnews_when": "30d",
+   "caf": true
+  },
+  {
+   "id": "f-ade-provv",
+   "nome": "Agenzia Entrate: provvedimenti e circolari",
+   "tipo": "ufficiale",
+   "home": "https://www.agenziaentrate.gov.it/portale/",
+   "aree": [
+    "dichiarazioni",
+    "imprese_fisco"
+   ],
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ],
+   "gnews": [
+    "Agenzia delle Entrate provvedimento direttore",
+    "Agenzia delle Entrate circolare",
+    "Agenzia delle Entrate risoluzione",
+    "Agenzia delle Entrate risposta interpello"
+   ],
+   "gnews_when": "14d",
+   "caf": true
+  },
+  {
+   "id": "f-inps-circ",
+   "nome": "INPS: circolari e messaggi",
+   "tipo": "ufficiale",
+   "home": "https://www.inps.it/it/it/dettaglio-approfondimento.html",
+   "aree": [
+    "lavoro",
+    "pensioni"
+   ],
+   "prof": [
+    "consulente_lavoro"
+   ],
+   "gnews": [
+    "INPS circolare",
+    "INPS messaggio novità",
+    "site:inps.it circolare",
+    "INPS bonus novità domanda"
+   ],
+   "gnews_when": "14d",
+   "caf": true
+  },
+  {
+   "id": "f-inps-isee",
+   "nome": "INPS: ISEE, assegno unico e bonus",
+   "tipo": "ufficiale",
+   "home": "https://www.inps.it/",
+   "aree": [
+    "isee"
+   ],
+   "gnews": [
+    "INPS assegno unico novità",
+    "INPS ISEE novità",
+    "INPS bonus nuovi nati domanda"
+   ],
+   "gnews_when": "14d",
+   "caf": true
+  },
+  {
+   "id": "f-wk",
+   "nome": "Wolters Kluwer Italia",
+   "tipo": "stampa",
+   "home": "https://www.wolterskluwer.com/it-it",
+   "aree": [
+    "dichiarazioni",
+    "imprese_fisco"
+   ],
+   "prof": [
+    "commercialista",
+    "avvocato"
+   ],
+   "gnews": [
+    "Wolters Kluwer Italia fisco",
+    "Wolters Kluwer Italia novità normative",
+    "Ipsoa Quotidiano novità",
+    "Quotidiano Giuridico novità"
+   ],
+   "gnews_when": "14d",
+   "caf": true,
+   "nota": "Include Ipsoa, Il Fisco, Altalex e Quotidiano Giuridico."
+  },
+  {
+   "id": "f-eutekne",
+   "nome": "Eutekne: fisco e dichiarazioni",
+   "tipo": "stampa",
+   "home": "https://www.eutekne.info/",
+   "aree": [
+    "dichiarazioni",
+    "imprese_fisco"
+   ],
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ],
+   "gnews": [
+    "site:eutekne.info 730 dichiarazione redditi",
+    "site:eutekne.info scadenze fiscali",
+    "site:eutekne.info IVA imposte",
+    "site:eutekne.info lavoro contributi"
+   ],
+   "gnews_when": "14d",
+   "caf": true
+  },
+  {
+   "id": "f-euroconference",
+   "nome": "Euroconference News",
+   "tipo": "stampa",
+   "home": "https://www.euroconference.it/",
+   "aree": [
+    "dichiarazioni",
+    "imprese_fisco"
+   ],
+   "prof": [
+    "commercialista",
+    "consulente_lavoro"
+   ],
+   "gnews": [
+    "site:euroconference.it novità fiscali",
+    "Euroconference News fisco",
+    "Euroconference commercialisti novità",
+    "site:euroconference.it formazione professionisti"
+   ],
+   "gnews_when": "14d",
+   "caf": true
+  },
+  {
+   "id": "f-zucchetti",
+   "nome": "Zucchetti (software e novità normative)",
+   "tipo": "stampa",
+   "home": "https://www.zucchetti.it/",
+   "aree": [
+    "dichiarazioni",
+    "imprese_fisco"
+   ],
+   "prof": [
+    "commercialista",
+    "consulente_lavoro"
+   ],
+   "gnews": [
+    "Zucchetti novità fiscali",
+    "Zucchetti fatturazione elettronica",
+    "Zucchetti software paghe novità",
+    "Zucchetti studi professionali"
+   ],
+   "gnews_when": "30d",
+   "caf": true
+  },
+  {
+   "id": "f-teamsystem",
+   "nome": "TeamSystem (software e novità normative)",
+   "tipo": "stampa",
+   "home": "https://www.teamsystem.com/",
+   "aree": [
+    "dichiarazioni",
+    "imprese_fisco"
+   ],
+   "prof": [
+    "commercialista",
+    "consulente_lavoro"
+   ],
+   "gnews": [
+    "TeamSystem novità fiscali",
+    "TeamSystem fatturazione elettronica",
+    "TeamSystem software commercialisti",
+    "TeamSystem Digital novità"
+   ],
+   "gnews_when": "30d",
+   "caf": true
+  },
+  {
+   "id": "f-sole-fisco",
+   "nome": "Il Sole 24 Ore: Fisco e Quotidiano del Fisco",
+   "tipo": "stampa",
+   "home": "https://www.ilsole24ore.com/",
+   "aree": [
+    "dichiarazioni",
+    "imprese_fisco"
+   ],
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ],
+   "gnews": [
+    "site:ilsole24ore.com fisco dichiarazione redditi",
+    "Il Sole 24 Ore scadenze fiscali",
+    "Il Sole 24 Ore Norme e Tributi circolare Entrate"
+   ],
+   "gnews_when": "7d",
+   "caf": true
   }
  ]
 }
