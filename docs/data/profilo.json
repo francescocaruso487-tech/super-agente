@@ -6,11 +6,12 @@
  "giorni_anno": 300,
  "km_anno": 15000,
  "alimentazione_preferita": "plug-in",
- "ricarica_casa": null,
+ "ricarica_casa": true,
  "modelli": [
   "Audi A3",
   "Volkswagen Golf",
   "Mini Cooper"
  ],
- "avvisi_modelli": "offerte"
+ "avvisi_modelli": "offerte",
+ "ricarica_nota": "Garage con wallbox"
 }

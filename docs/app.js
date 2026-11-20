@@ -312,6 +312,51 @@ function renderOfferte() {
   h += lista.length ? lista.slice(0, lim).map(card).join("") + (lista.length > lim ? `<button class="more" data-piu="off">Mostra altre</button>` : "") : vuoto("Ancora nessuna offerta", "Compaiono dopo il prossimo aggiornamento.");
   return h;
 }
+
+// ---- Confronto modelli (dati verificati in docs/data/confronto.json)
+function costoModello(m, ip, kmAnno) {
+  const q = (m.quota || 0) / 100;
+  const energia = kmAnno * q / 100 * m.kwh100 * ip.kwh_prezzo + kmAnno * (1 - q) / 100 * m.l100 * ip.benz_prezzo;
+  const perdita = m.prezzo * (1 - ip.residuo / 100);
+  const tot = perdita + (energia + ip.assic + ip.manut + ip.bollo) * ip.anni;
+  return { tot, mese: tot / (ip.anni * 12), km: tot / (kmAnno * ip.anni), energia };
+}
+function renderConfronto() {
+  const c = state.confronto;
+  if (!c || !c.modelli) return "";
+  const ip = Object.assign({}, c.ipotesi, store.get("ipotesi", {}));
+  const prezzi = store.get("prezziModelli", {});
+  const km = (state.profilo && state.profilo.km_anno) || 15000;
+  const M = c.modelli.map((m) => Object.assign({}, m, { prezzo: prezzi[m.id] || m.prezzo }));
+  const righe = [["Tipo", "tipo"], ["Potenza", "potenza"], ["Batteria", "batteria"], ["Autonomia WLTP", "wltp"], ["Autonomia reale", "reale"], ["Ricarica AC", "ac"], ["Ricarica rapida", "dc"], ["Bagagliaio", "bagagliaio"]];
+  let h = `<div class="gruppo-titolo">🔍 Confronto modelli</div><p class="calc-n">Verificato il ${esc(c.verificato)}. ${esc(c.nota)}</p>
+    <div class="tab-scroll"><table class="conf"><thead><tr><th></th>${M.map((m) => `<th>${esc(m.nome)}</th>`).join("")}</tr></thead><tbody>
+    <tr><th>Prezzo (modifica)</th>${M.map((m) => `<td><input type="number" inputmode="numeric" data-prezzo="${m.id}" value="${m.prezzo}"><small>${esc(m.prezzo_nota)}</small></td>`).join("")}</tr>
+    ${righe.map(([l, k]) => `<tr><th>${l}</th>${M.map((m) => `<td>${esc(m[k])}</td>`).join("")}</tr>`).join("")}
+    <tr><th>Punti di forza</th>${M.map((m) => `<td><ul>${m.pro.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></td>`).join("")}</tr>
+    <tr><th>Da considerare</th>${M.map((m) => `<td><ul>${m.contro.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></td>`).join("")}</tr>
+    <tr><th>Fonti</th>${M.map((m) => `<td>${m.fonti.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${i + 1}</a>`).join(" · ")}</td>`).join("")}</tr>
+    </tbody></table></div>
+    <div class="gruppo-titolo">💶 Costo reale in ${ip.anni} anni (${km.toLocaleString("it-IT")} km/anno, ricarica a casa)</div>
+    <div class="calc">${[["anni", "Anni di possesso"], ["kwh_prezzo", "Costo energia a casa (€/kWh)"], ["benz_prezzo", "Benzina (€/l)"], ["residuo", "Valore a fine periodo (%)"], ["assic", "Assicurazione (€/anno)"], ["manut", "Manutenzione (€/anno)"], ["bollo", "Bollo (€/anno)"]].map(([k, l]) => `<label>${l}<input type="number" inputmode="decimal" data-ip="${k}" value="${ip[k]}"></label>`).join("")}</div>
+    <div id="conf-out">${tabellaCosti(M, ip, km)}</div>
+    <p class="calc-n"><small>Stime modificabili: consumo elettrico reale circa 16-17 kWh/100 km, 90% dei km in elettrico sulle plug-in (con 50 km al giorno e wallbox), benzina 5,5 l/100 km nel resto. Il valore residuo è un'ipotesi: sulle elettriche può essere più incerto.</small></p>`;
+  return h;
+}
+function tabellaCosti(M, ip, km) {
+  const R = M.map((m) => [m, costoModello(m, ip, km)]).sort((a, b) => a[1].tot - b[1].tot);
+  return `<div class="tab-scroll"><table class="conf"><thead><tr><th>Modello</th><th>Totale ${ip.anni} anni</th><th>Al mese</th><th>€/km</th></tr></thead><tbody>${R.map(([m, r], i) => `<tr><th>${i === 0 ? "🏆 " : ""}${esc(m.nome)}</th><td>${eur(r.tot)}</td><td>${eur(r.mese)}</td><td>${r.km.toFixed(2).replace(".", ",")} €</td></tr>`).join("")}</tbody></table></div>`;
+}
+document.addEventListener("input", (e) => {
+  const ipEl = e.target.closest("[data-ip]"), pz = e.target.closest("[data-prezzo]");
+  if (!ipEl && !pz) return;
+  if (ipEl) { const cur = store.get("ipotesi", {}); cur[ipEl.dataset.ip] = parseFloat(String(ipEl.value).replace(",", ".")) || 0; store.set("ipotesi", cur); }
+  if (pz) { const cur = store.get("prezziModelli", {}); cur[pz.dataset.prezzo] = parseFloat(pz.value) || 0; store.set("prezziModelli", cur); }
+  const c = state.confronto, ip = Object.assign({}, c.ipotesi, store.get("ipotesi", {})), prezzi = store.get("prezziModelli", {});
+  const M = c.modelli.map((m) => Object.assign({}, m, { prezzo: prezzi[m.id] || m.prezzo }));
+  $("#conf-out").innerHTML = tabellaCosti(M, ip, (state.profilo && state.profilo.km_anno) || 15000);
+});
+
 const GUIDA = [
   ["📅 Quando comprare", ["Fine mese, fine trimestre e dicembre sono di solito i momenti in cui i concessionari trattano di più.", "Le auto dell'anno precedente ancora in stock (gennaio-febbraio) tendono a essere scontate.", "Chiedi sempre la disponibilità immediata: pronta consegna spesso significa sconto maggiore."]],
   ["🆕 Nuova, km0 o usato?", ["Nuova: garanzia piena e scelta di allestimento, ma la svalutazione dei primi anni è alta.", "Km0 / aziendale: già immatricolata (la prima svalutazione l'ha fatta qualcun altro) ma quasi nuova.", "Usato: controlla storico tagliandi e chilometri; dal professionista c'è la garanzia legale di conformità (2 anni, riducibile a 1 sull'usato se pattuito).", "Elettrica usata: fai verificare lo stato di salute della batteria."]],
@@ -338,7 +383,7 @@ function calcolaAuto() {
 function renderStrumenti() {
   const c = Object.assign({}, CALC_DEF, state.profilo && state.profilo.km_anno ? { km: state.profilo.km_anno } : {}, store.get("calc", {}));
   return cardSemaforo(true) +
-    `<div class="gruppo-titolo">🧮 Comprare o noleggiare?</div><div class="calc">${CALC_CAMPI.map(([k, l]) => `<label>${l}<input type="number" inputmode="decimal" data-calc="${k}" value="${c[k]}"></label>`).join("")}</div><div id="calc-out">${calcolaAuto()}</div>
+    renderConfronto() + `<div class="gruppo-titolo">🧮 Comprare o noleggiare?</div><div class="calc">${CALC_CAMPI.map(([k, l]) => `<label>${l}<input type="number" inputmode="decimal" data-calc="${k}" value="${c[k]}"></label>`).join("")}</div><div id="calc-out">${calcolaAuto()}</div>
      <div class="gruppo-titolo">📖 Guida all'acquisto</div>` +
     GUIDA.map(([t, voci]) => `<details class="guida"><summary>${t}</summary><ul>${voci.map((v) => `<li>${esc(v)}</li>`).join("")}</ul></details>`).join("");
 }
@@ -383,7 +428,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "23";
+const VERSIONE_APP = "24";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -393,7 +438,8 @@ async function carica(forza) {
     return r.json();
   };
   try {
-    const [news, aree, status, prof, profilo] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({})), j("profilo").catch(() => ({}))]);
+    const [news, aree, status, prof, profilo, confronto] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({})), j("profilo").catch(() => ({})), j("confronto").catch(() => null)]);
+    state.confronto = confronto;
     state.profilo = profilo || {};
     if (!Array.isArray(state.modelli)) state.modelli = [...(state.profilo.modelli || [])];
     state.professioni = prof.professioni || {}; state.gruppiProf = prof.gruppi || [];

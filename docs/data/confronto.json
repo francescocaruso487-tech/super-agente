@@ -1,0 +1,142 @@
+{
+ "verificato": "20/11/2026",
+ "nota": "Dati da listini e prove giornalistiche italiane; i prezzi cambiano: confermali sempre dal concessionario. Le voci 'stima' sono ipotesi tue modificabili.",
+ "modelli": [
+  {
+   "id": "golf",
+   "nome": "VW Golf eHybrid",
+   "tipo": "Plug-in",
+   "potenza": "204 CV",
+   "prezzo": 42900,
+   "prezzo_nota": "listino 2024-25 (da verificare)",
+   "batteria": "19,7 kWh",
+   "wltp": "143 km",
+   "reale": "circa 120 km (prova Al Volante)",
+   "ac": "11 kW (circa 2 h)",
+   "dc": "50 kW (10-80% in 25 min)",
+   "bagagliaio": "273 litri",
+   "kwh100": 17,
+   "l100": 5.5,
+   "quota": 90,
+   "pro": [
+    "Autonomia reale oltre 100 km",
+    "Molto silenziosa",
+    "Ricarica rapida in corrente continua"
+   ],
+   "contro": [
+    "Bagagliaio ridotto (273 l)",
+    "Freno poco modulabile",
+    "Prezzo alto"
+   ],
+   "fonti": [
+    "https://www.alvolante.it/primo_contatto/volkswagen-golf-15-tsi-ehybrid",
+    "https://it.motor1.com/news/721416/volkswagen-golf-gte-plug-in-prezzi/",
+    "https://www.auto.it/news/anteprime/primo-test/2024/12/12-7789432/volkswagen_golf_ehybrid_prova_della_plug-in_da_1_000_km_di_autonomia"
+   ]
+  },
+  {
+   "id": "a3",
+   "nome": "Audi A3 Sportback 40 TFSI e",
+   "tipo": "Plug-in",
+   "potenza": "204 CV",
+   "prezzo": 48400,
+   "prezzo_nota": "listino 06/2025; allestimento Design da 43.100 €",
+   "batteria": "19,7 kWh",
+   "wltp": "141 km",
+   "reale": "oltre 100 km (stima prove)",
+   "ac": "11 kW (circa 2,5 h)",
+   "dc": "50 kW (10-80% in meno di 30 min)",
+   "bagagliaio": "280 litri",
+   "kwh100": 17,
+   "l100": 5.5,
+   "quota": 90,
+   "pro": [
+    "Finiture e marchio premium",
+    "Scattante e ben fatta",
+    "Stessa tecnica della Golf"
+   ],
+   "contro": [
+    "Dura sulle buche",
+    "Prezzo tra i più alti della categoria"
+   ],
+   "fonti": [
+    "https://it.motor1.com/news/739438/audi-a3-2024-ibrida-plug-in/",
+    "https://asset.moto.it/pricelist/auto/e832b4d95adaa6a47a2b467dc0d20662/listino-tfsi-giu-25.pdf",
+    "https://it.motor1.com/news/809642/audi-a3-sportback-design-prezzo/",
+    "https://www.alvolante.it/primo_contatto/audi-a3-sportback-45-tfsi-e"
+   ]
+  },
+  {
+   "id": "mini",
+   "nome": "MINI Cooper E (elettrica)",
+   "tipo": "100% elettrica",
+   "potenza": "184 CV",
+   "prezzo": 32300,
+   "prezzo_nota": "prezzo al lancio 2023: da verificare",
+   "batteria": "40,7 kWh lordi",
+   "wltp": "305 km",
+   "reale": "da verificare",
+   "ac": "11 kW",
+   "dc": "fino a 95 kW (versione SE)",
+   "bagagliaio": "non verificato",
+   "kwh100": 16,
+   "l100": 0,
+   "quota": 100,
+   "pro": [
+    "Adatta a città e pendolarismo",
+    "Consumi bassi",
+    "Nessuna benzina"
+   ],
+   "contro": [
+    "Ricarica rapida più lenta",
+    "Fascia di prezzo premium",
+    "Non è plug-in: la Cooper piccola è benzina o elettrica"
+   ],
+   "fonti": [
+    "https://www.press.bmwgroup.com/italy/article/detail/T0439720IT/nuova-mini-cooper-e-in-allestimento-classic:-elettrica-efficiente-emozionale",
+    "https://auto.everyeye.it/notizie/costa-mini-cooper-elettrica-modello-precedente-677897.html",
+    "https://evkx.net/it/models/mini/cooper/cooper_se/"
+   ]
+  },
+  {
+   "id": "leon",
+   "nome": "Cupra Leon e-Hybrid (suggerita)",
+   "tipo": "Plug-in",
+   "potenza": "204 CV",
+   "prezzo": 43500,
+   "prezzo_nota": "listino 2026; in vendita anche da 35.800-39.800 € in pronta consegna",
+   "batteria": "19,7 kWh",
+   "wltp": "fino a 125 km",
+   "reale": "da verificare",
+   "ac": "11 kW",
+   "dc": "ricarica rapida (da 26 min)",
+   "bagagliaio": "da verificare",
+   "kwh100": 17,
+   "l100": 5.5,
+   "quota": 90,
+   "pro": [
+    "Stessa batteria e tecnica del gruppo VW",
+    "Prezzo spesso molto più basso di Golf e A3",
+    "Promozioni e rate da 185 €/mese con anticipo"
+   ],
+   "contro": [
+    "Autonomia dichiarata un po' più bassa",
+    "Marchio meno 'premium' dell'Audi"
+   ],
+   "fonti": [
+    "https://www.cupraofficial.it/content/dam/countries/it/cupra-website/listini/2026/Cars-models-pricelist-KUG-NA-NA-2026.pdf",
+    "https://topgearitalia.com/car-news/news/fino-125-km-elettrico-cupra-rivoluziona-librido-plug",
+    "https://www.autoscout24.it/annunci/cupra-leon-sportstourer-1-5-e-hybrid-elettrica-benzina-grigio-cat_ma51802mo75435-c69b41fd-9493-48b1-9ff9-220fcd2789ce"
+   ]
+  }
+ ],
+ "ipotesi": {
+  "anni": 5,
+  "kwh_prezzo": 0.25,
+  "benz_prezzo": 1.9,
+  "residuo": 40,
+  "assic": 700,
+  "manut": 400,
+  "bollo": 200
+ }
+}

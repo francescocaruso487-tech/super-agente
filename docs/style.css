@@ -144,3 +144,13 @@ body.in-chat .chat-form{display:flex}
 .calc-ris b{font-size:20px}.calc-ris small{color:var(--mute);font-size:12px}.calc-n{font-size:14px;margin:10px 2px}
 .guida{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:8px}
 .guida summary{font-weight:700;cursor:pointer}.guida ul{margin:8px 0 0;padding-left:20px;font-size:14px}.guida li{margin-bottom:4px}
+
+.tab-scroll{overflow-x:auto;margin:0 -4px 10px;padding:0 4px}
+table.conf{border-collapse:collapse;font-size:13px;min-width:100%}
+table.conf th,table.conf td{border:1px solid var(--line);padding:7px 8px;vertical-align:top;text-align:left;min-width:128px;background:var(--card)}
+table.conf th{background:var(--chip);font-weight:700}
+table.conf thead th{position:sticky;top:0}
+table.conf tbody th{position:sticky;left:0;min-width:96px;z-index:1}
+table.conf td ul{margin:0;padding-left:16px}table.conf td small{display:block;color:var(--mute);font-size:11px;margin-top:3px}
+table.conf input{width:92px;padding:6px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:14px}
+table.conf a{color:var(--accent);font-weight:700}
