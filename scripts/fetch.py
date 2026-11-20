@@ -600,22 +600,44 @@ def app_url():
     return None
 
 
+def avvisi_modelli(new_items):
+    """Avvisi push solo per offerte/ribassi sui modelli del profilo personale (docs/data/profilo.json)."""
+    prof = load_json(ROOT / "docs" / "data" / "profilo.json", {})
+    modelli = [m.lower() for m in prof.get("modelli", [])]
+    if not modelli or prof.get("avvisi_modelli") not in ("offerte", "tutto"):
+        return 0, set()
+    inviati = set()
+    for i in new_items:
+        if i.get("nicchia") != "auto":
+            continue
+        testo = (i["titolo"] + " " + i.get("sintesi", "")).lower()
+        trovati = [m for m in modelli if m in testo]
+        offerta = "offerte_auto" in i.get("aree", []) or "incentivi_auto" in i.get("aree", [])
+        if trovati and (offerta or prof.get("avvisi_modelli") == "tutto"):
+            pz = f" · {i['prezzo']}" if i.get("prezzo") else ""
+            ntfy({"title": f"🚗 Offerta su {trovati[0].title()}{pz}", "message": i["titolo"][:300], "click": i["link"], "priority": 4, "tags": ["moneybag"]})
+            inviati.add(i["id"])
+    return len(inviati), inviati
+
+
 def notify_new(new_items, aree_cfg):
+    n_mod, gia_mod = avvisi_modelli(new_items)
+    new_items = [i for i in new_items if i["id"] not in gia_mod]
     alerts = [i for i in new_items if i["normativa"] and i.get("nicchia", "edilizia") in PUSH_NICCHIE]
     if not alerts:
-        return 0
+        return n_mod
     if len(alerts) > MAX_PUSH_SINGLE:
         body = "\n".join(f"• {i['titolo'][:90]}" for i in alerts[:8])
         ntfy({"title": f"{len(alerts)} nuove novità normative", "message": body, "priority": 3,
               "tags": ["rotating_light"], **({"click": app_url()} if app_url() else {})})
-        return len(alerts)
+        return len(alerts) + n_mod
     for i in alerts:
         area = aree_cfg["aree"].get(i["aree"][0], {"nome": "Altro"})["nome"]
         msg = i["titolo"] + (f"\n{i['sintesi']}" if i.get("sintesi") else "")
         sigla = {"tech": "📱 "}.get(i.get("nicchia"), "")
         ntfy({"title": f"{sigla}{area} · {i['fonte_nome']}", "message": msg[:700], "click": i["link"],
               "priority": 4 if i["tipo"] == "ufficiale" else 3, "tags": ["rotating_light"] if i["tipo"] == "ufficiale" else ["newspaper"]})
-    return len(alerts)
+    return len(alerts) + n_mod
 
 
 def send_digest(news, aree_cfg, ultimo=None):

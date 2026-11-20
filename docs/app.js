@@ -284,12 +284,17 @@ function cardSemaforo(completo) {
     ${completo ? `<ul>${s.motivi.map((m) => `<li>${esc(m)}</li>`).join("") || "<li>Nessun fattore particolare in questi giorni.</li>"}</ul>` : ""}
     ${prox ? `<p>${prox}</p>` : ""}</div>`;
 }
-state.vistaAuto = "offerte"; state.offFiltro = "tutte"; state.modelli = store.get("modelli", []);
+state.vistaAuto = "offerte"; state.offFiltro = "tutte"; state.modelli = store.get("modelli", null); state.profilo = {};
 const OFF_FILTRI = [["tutte", "Tutte"], ["sconti", "Sconti"], ["km0", "Km0 e usato"], ["noleggio", "Noleggio e rate"], ["incentivi", "Incentivi"]];
 const eOfferta = (n) => n.nicchia === "auto" && (n.aree.includes("offerte_auto") || n.aree.includes("incentivi_auto"));
+function cardProfilo() {
+  const p = state.profilo || {};
+  if (!p.zona) return "";
+  return `<div class="mod-box"><b>📌 Il tuo profilo d'uso</b><p class="calc-n">${esc(p.zona)} · ${esc(p.uso || "")} · circa ${p.km_giorno || "?"} km al giorno (${(p.km_anno || 0).toLocaleString("it-IT")} km/anno) · motore preferito: ${esc(p.alimentazione_preferita || "—")}${p.ricarica_casa === null || p.ricarica_casa === undefined ? " · ricarica a casa: da definire" : p.ricarica_casa ? " · ricarica a casa: sì" : " · ricarica a casa: no"}.<br><small>Il calcolatore e gli avvisi usano questi dati. Per cambiarli dimmelo in chat.</small></p></div>`;
+}
 function renderOfferte() {
-  const mod = state.modelli;
-  let h = cardSemaforo(false);
+  const mod = state.modelli || [];
+  let h = cardSemaforo(false) + cardProfilo();
   h += `<div class="mod-box"><b>⭐ I tuoi modelli</b><div class="mod-add"><input id="mod-in" type="text" placeholder="Es. Panda, Clio, Tesla Model 3" autocomplete="off"><button class="chip on" data-mod-add>Aggiungi</button></div>
     <div class="mod-list">${mod.map((x, i) => `<button class="chip" data-mod-del="${i}">${esc(x)} ✕</button>`).join("") || "<small>Aggiungi i modelli che ti interessano: qui compaiono tutte le notizie e offerte che li citano.</small>"}</div></div>`;
   if (mod.length) {
@@ -314,11 +319,11 @@ const GUIDA = [
   ["💳 Finanziamento e noleggio", ["Guarda il TAEG, non solo la rata. Attenzione a maxi-rata finale, assicurazioni e servizi abbinati.", "Noleggio lungo termine: verifica franchigie, chilometri inclusi, penali di uscita e cosa succede a fine contratto.", "Confronta sempre il costo totale (usa il calcolatore qui sotto) e non solo il costo mensile."]],
   ["🔎 Prima di firmare", ["Rileggi il contratto: data di consegna, penali, garanzie, accessori inclusi.", "Verifica incentivi e bonus ancora attivi e i requisiti (ISEE, rottamazione, fondi disponibili).", "Non farti mettere fretta da 'offerta valida solo oggi': a fine mese ne trovi di simili."]],
 ];
-const CALC_DEF = { prezzo: 22000, anticipo: 3000, mesi: 48, tan: 6.5, km: 12000, consumo: 6, carb: 1.9, assic: 700, bollo: 200, manut: 400, residuo: 45, canone: 320, antNol: 3000 };
+const CALC_DEF = { prezzo: 22000, anticipo: 3000, mesi: 48, tan: 6.5, km: 15000, consumo: 6, carb: 1.9, assic: 700, bollo: 200, manut: 400, residuo: 45, canone: 320, antNol: 3000 };
 const CALC_CAMPI = [["prezzo", "Prezzo auto (€)"], ["anticipo", "Anticipo (€)"], ["mesi", "Durata (mesi)"], ["tan", "TAN finanziamento (%)"], ["km", "Km all'anno"], ["consumo", "Consumo (l/100 km)"], ["carb", "Carburante (€/l)"], ["assic", "Assicurazione (€/anno)"], ["bollo", "Bollo (€/anno)"], ["manut", "Manutenzione (€/anno)"], ["residuo", "Valore a fine periodo (%)"], ["canone", "NOLEGGIO: canone (€/mese)"], ["antNol", "NOLEGGIO: anticipo (€)"]];
 const eur = (v) => Math.round(v).toLocaleString("it-IT") + " €";
 function calcolaAuto() {
-  const c = Object.assign({}, CALC_DEF, store.get("calc", {}));
+  const c = Object.assign({}, CALC_DEF, state.profilo && state.profilo.km_anno ? { km: state.profilo.km_anno } : {}, store.get("calc", {}));
   const n = Math.max(1, c.mesi), anni = n / 12, fin = Math.max(0, c.prezzo - c.anticipo), r = c.tan / 1200;
   const rata = r > 0 ? fin * r / (1 - Math.pow(1 + r, -n)) : fin / n;
   const carb = c.km * c.consumo / 100 * c.carb * anni;
@@ -331,7 +336,7 @@ function calcolaAuto() {
     <p class="calc-n">${acq < nol ? "Con questi numeri conviene <b>comprare</b>" : "Con questi numeri conviene il <b>noleggio</b>"}: differenza di ${eur(Math.abs(acq - nol))} sull'intero periodo. Nell'acquisto è sottratto il valore dell'auto che ti resta a fine periodo.</p>`;
 }
 function renderStrumenti() {
-  const c = Object.assign({}, CALC_DEF, store.get("calc", {}));
+  const c = Object.assign({}, CALC_DEF, state.profilo && state.profilo.km_anno ? { km: state.profilo.km_anno } : {}, store.get("calc", {}));
   return cardSemaforo(true) +
     `<div class="gruppo-titolo">🧮 Comprare o noleggiare?</div><div class="calc">${CALC_CAMPI.map(([k, l]) => `<label>${l}<input type="number" inputmode="decimal" data-calc="${k}" value="${c[k]}"></label>`).join("")}</div><div id="calc-out">${calcolaAuto()}</div>
      <div class="gruppo-titolo">📖 Guida all'acquisto</div>` +
@@ -378,7 +383,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "22";
+const VERSIONE_APP = "23";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -388,7 +393,9 @@ async function carica(forza) {
     return r.json();
   };
   try {
-    const [news, aree, status, prof] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({}))]);
+    const [news, aree, status, prof, profilo] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({})), j("profilo").catch(() => ({}))]);
+    state.profilo = profilo || {};
+    if (!Array.isArray(state.modelli)) state.modelli = [...(state.profilo.modelli || [])];
     state.professioni = prof.professioni || {}; state.gruppiProf = prof.gruppi || [];
     if (!Array.isArray(news.notizie)) throw new Error("dati non validi");
     state.news = news.notizie; state.aree = aree; state.status = status;

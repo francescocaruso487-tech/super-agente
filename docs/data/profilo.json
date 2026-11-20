@@ -1,0 +1,16 @@
+{
+ "_note": "Profilo d'uso personale: guida la sezione Motori (calcolatore, modelli seguiti, avvisi). Per un'altra persona basta cambiare questi valori.",
+ "zona": "Caserta",
+ "uso": "Pendolare quotidiano tra città (extraurbano/misto)",
+ "km_giorno": 50,
+ "giorni_anno": 300,
+ "km_anno": 15000,
+ "alimentazione_preferita": "plug-in",
+ "ricarica_casa": null,
+ "modelli": [
+  "Audi A3",
+  "Volkswagen Golf",
+  "Mini Cooper"
+ ],
+ "avvisi_modelli": "offerte"
+}
