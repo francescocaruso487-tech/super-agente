@@ -349,7 +349,7 @@ def read_source(src):
 
 
 # ---------------------------------------------------------------- classificazione
-TASSONOMIA = "12"  # cambia questo valore per far riclassificare l'archivio
+TASSONOMIA = "13"  # cambia questo valore per far riclassificare l'archivio
 
 
 def _rx(kw):
@@ -464,6 +464,27 @@ def rimuovi_doppioni(known):
         for w in k:
             indice.setdefault(w, []).append(len(tenuti) - 1)
     return tolti
+
+
+_PREZZO = re.compile(r"(?:da\s+)?(\d{1,3}(?:[.\s]\d{3})+|\d{2,6})(?:,\d{1,2})?\s?(?:€|euro)(?:\s?(?:/|al\s)?(?:mese|mensili))?", re.I)
+
+
+def estrai_prezzo(titolo, sintesi=""):
+    """Primo prezzo/rata citato (es. '199 €/mese', '17.900 €'), per metterlo in evidenza nelle offerte."""
+    m = _PREZZO.search(titolo + " " + sintesi[:240])
+    if not m:
+        return None
+    t = m.group(0).strip()
+    t = re.sub(r"\s+", " ", t)
+    mese = re.search(r"mese|mensili", t, re.I)
+    num = re.search(r"\d{1,3}(?:[.\s]\d{3})+|\d+", t).group(0).replace(" ", ".")
+    try:
+        v = int(num.replace(".", ""))
+    except ValueError:
+        return None
+    if v < 20 or v > 400000:
+        return None
+    return f"{num} €{'/mese' if mese else ''}"
 
 
 def classify(item, src, matchers, urgenti, aree_cfg):
@@ -696,6 +717,12 @@ def main():
                 continue
             rec["aree"], rec["normativa"], rec["sotto"], rec["luogo"] = cls
             rec["nicchia"] = src.get("nicchia", "edilizia")
+            if rec["nicchia"] == "auto":
+                pz = estrai_prezzo(rec["titolo"], rec.get("sintesi", ""))
+                if pz:
+                    rec["prezzo"] = pz
+                else:
+                    rec.pop("prezzo", None)
             rec["prof"] = profili({"titolo": rec["titolo"], "sintesi": rec.get("sintesi", "")}, src, rec["aree"], aree_cfg, prof_rx)
         print(f"Archivio riclassificato (tassonomia {TASSONOMIA}): {len(known)} notizie")
 
@@ -733,6 +760,10 @@ def main():
                    "prof": profili(it, src, aree, aree_cfg, prof_rx)}
             if tradotto:
                 rec["tradotto"] = True
+            if rec["nicchia"] == "auto":
+                pz = estrai_prezzo(it["titolo"], it.get("sintesi", ""))
+                if pz:
+                    rec["prezzo"] = pz
             known[iid] = rec
             new_items.append(rec)
             added += 1

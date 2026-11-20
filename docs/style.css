@@ -126,3 +126,21 @@ body.in-chat .chat-form{display:flex}
 .profbar{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:0 0 10px;margin:-2px 0 4px}.profbar::-webkit-scrollbar{display:none}.profbar .chip{flex:0 0 auto;white-space:nowrap}.badge.pf{background:transparent;border:1px solid var(--line,#d5dbe3);color:var(--mute);font-weight:500}
 
 .profbar[hidden]{display:none}
+
+.badge.prezzo{background:#f59e0b;color:#1a1205}
+.semaforo{border-radius:14px;padding:12px 14px;margin:0 0 12px;border:1px solid var(--line);background:var(--card)}
+.semaforo.sem-v{border-color:#1f9d6b}.semaforo.sem-g{border-color:#d99a00}.semaforo.sem-r{border-color:#d43f3f}
+.sem-top{display:flex;gap:12px;align-items:center}.sem-ico{font-size:30px}.sem-top b{display:block;font-size:17px}.sem-top small{color:var(--mute);font-size:12px}
+.semaforo ul{margin:10px 0 0;padding-left:20px;font-size:14px}.semaforo p{margin:8px 0 0;font-size:14px}
+.mod-box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:12px}
+.mod-add{display:flex;gap:8px;margin:8px 0}.mod-add input{flex:1;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:15px;min-width:0}
+.mod-list{display:flex;flex-wrap:wrap;gap:6px}.mod-list small{color:var(--mute)}
+.chips.fil{display:flex;gap:6px;overflow-x:auto;margin:6px 0 4px;scrollbar-width:none}
+.calc{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}
+.calc label{display:flex;flex-direction:column;font-size:12px;color:var(--mute);gap:3px}
+.calc input{padding:9px 10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-size:15px;width:100%;box-sizing:border-box}
+.calc-ris{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.calc-ris>div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;flex-direction:column;gap:2px}
+.calc-ris b{font-size:20px}.calc-ris small{color:var(--mute);font-size:12px}.calc-n{font-size:14px;margin:10px 2px}
+.guida{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:8px}
+.guida summary{font-weight:700;cursor:pointer}.guida ul{margin:8px 0 0;padding-left:20px;font-size:14px}.guida li{margin-bottom:4px}

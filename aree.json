@@ -4800,6 +4800,163 @@
     "router",
     "portabilità"
    ]
+  },
+  "offerte_auto": {
+   "nome": "Super offerte e promozioni",
+   "colore": "#f59e0b",
+   "nicchia": "auto",
+   "sotto": {
+    "sconti": {
+     "nome": "Sconti e promozioni",
+     "parole": [
+      "sconto",
+      "sconti",
+      "scontata",
+      "scontato",
+      "promozione",
+      "promozioni",
+      "promo",
+      "offerta",
+      "offerte",
+      "superofferta",
+      "prezzo scontato",
+      "ribasso",
+      "ribassi",
+      "taglio prezzo",
+      "tagli di prezzo",
+      "black friday",
+      "saldi",
+      "campagna",
+      "fine serie",
+      "stock",
+      "pronta consegna",
+      "pronta consegna",
+      "chiavi in mano"
+     ]
+    },
+    "km0": {
+     "nome": "Km0 e usato garantito",
+     "parole": [
+      "km0",
+      "km 0",
+      "chilometro zero",
+      "aziendale",
+      "auto aziendali",
+      "usato garantito",
+      "semestrale",
+      "ex demo",
+      "auto di cortesia",
+      "usato recente",
+      "usato sicuro",
+      "certificato",
+      "certificata"
+     ]
+    },
+    "noleggio": {
+     "nome": "Noleggio e rate",
+     "parole": [
+      "noleggio a lungo termine",
+      "nlt",
+      "noleggio",
+      "leasing",
+      "rata",
+      "rate",
+      "al mese",
+      "€/mese",
+      "anticipo zero",
+      "zero anticipo",
+      "canone",
+      "canoni",
+      "finanziamento",
+      "tasso zero",
+      "tan",
+      "taeg",
+      "formula",
+      "subentro",
+      "subentri",
+      "ald",
+      "arval",
+      "leasys",
+      "drivalia",
+      "ayvens"
+     ]
+    }
+   },
+   "parole": [
+    "offerta auto",
+    "offerte auto",
+    "affare",
+    "occasione",
+    "occasioni",
+    "conviene",
+    "è il momento",
+    "momento giusto",
+    "trattativa",
+    "trattare",
+    "prezzo più basso",
+    "minimo storico",
+    "prezzo shock",
+    "sconto fino",
+    "fino a",
+    "consegna immediata"
+   ]
+  },
+  "incentivi_auto": {
+   "nome": "Incentivi e bonus auto",
+   "colore": "#10b981",
+   "nicchia": "auto",
+   "sotto": {
+    "bonus": {
+     "nome": "Bonus e rottamazione",
+     "parole": [
+      "incentivi auto",
+      "incentivo",
+      "incentivi",
+      "ecobonus",
+      "bonus auto",
+      "bonus veicoli",
+      "bonus elettriche",
+      "bonus colonnine",
+      "rottamazione",
+      "rottamare",
+      "contributo statale",
+      "contributi",
+      "voucher",
+      "click day",
+      "fondi esauriti",
+      "fondi",
+      "plafond",
+      "pnrr auto",
+      "mimit incentivi",
+      "decreto incentivi"
+     ]
+    },
+    "agevolazioni": {
+     "nome": "Agevolazioni e fisco",
+     "parole": [
+      "bollo",
+      "esenzione bollo",
+      "iva",
+      "detrazione",
+      "detrazioni",
+      "deducibilità",
+      "fringe benefit",
+      "auto aziendale",
+      "superammortamento",
+      "ammortamento",
+      "legge 104",
+      "iva agevolata",
+      "agevolazioni disabili",
+      "neopatentati"
+     ]
+    }
+   },
+   "parole": [
+    "incentivi statali",
+    "bonus statale",
+    "aiuti auto",
+    "sostegno all'auto"
+   ]
   }
  },
  "luoghi": {

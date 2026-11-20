@@ -7835,6 +7835,252 @@
    "gnews_when": "7d",
    "lingua": "en",
    "nota": "Fonte inglese: titoli tradotti in italiano automaticamente."
+  },
+  {
+   "id": "ao-sconti",
+   "nome": "Offerte auto nuove",
+   "tipo": "stampa",
+   "home": "https://www.quattroruote.it/",
+   "nicchia": "auto",
+   "gnews": [
+    "offerte auto nuove sconto",
+    "auto nuove sconti concessionari",
+    "promozioni auto nuove",
+    "auto in pronta consegna offerta",
+    "superofferta auto"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "ao-km0",
+   "nome": "Km0 e auto aziendali",
+   "tipo": "stampa",
+   "home": "https://www.autoscout24.it/",
+   "nicchia": "auto",
+   "gnews": [
+    "auto km0 offerte",
+    "auto km0 prezzi migliori",
+    "auto aziendali usate offerta",
+    "usato garantito offerta"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "ao-noleggio",
+   "nome": "Noleggio lungo termine",
+   "tipo": "stampa",
+   "home": "https://www.fleetandmobility.it/",
+   "nicchia": "auto",
+   "gnews": [
+    "noleggio lungo termine offerta",
+    "noleggio a lungo termine rata al mese",
+    "noleggio auto privati anticipo zero",
+    "leasing auto privati offerta"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "ao-elettriche",
+   "nome": "Offerte auto elettriche e ibride",
+   "tipo": "stampa",
+   "home": "https://www.motus-e.org/",
+   "nicchia": "auto",
+   "aree": [
+    "elettriche"
+   ],
+   "gnews": [
+    "auto elettriche offerta sconto",
+    "auto elettrica prezzo ribasso",
+    "ibrida offerta sconto",
+    "auto elettrica noleggio offerta"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "ao-citycar",
+   "nome": "Offerte citycar e utilitarie",
+   "tipo": "stampa",
+   "home": "https://www.automobile.it/",
+   "nicchia": "auto",
+   "gnews": [
+    "utilitaria offerta sotto 15000 euro",
+    "citycar offerta prezzo",
+    "auto economiche migliori offerte",
+    "auto sotto 20000 euro"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "ao-suv",
+   "nome": "Offerte SUV e familiari",
+   "tipo": "stampa",
+   "home": "https://www.autoblog.it/",
+   "nicchia": "auto",
+   "gnews": [
+    "suv offerta sconto",
+    "station wagon offerta",
+    "auto famiglia offerta",
+    "crossover offerta prezzo"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "ao-moto",
+   "nome": "Offerte moto e scooter",
+   "tipo": "stampa",
+   "home": "https://www.moto.it/",
+   "nicchia": "auto",
+   "aree": [
+    "moto"
+   ],
+   "gnews": [
+    "moto offerta sconto",
+    "scooter offerta promozione",
+    "moto km0 offerta",
+    "moto prezzo promozione"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "ao-bici",
+   "nome": "Offerte e-bike e bici",
+   "tipo": "stampa",
+   "home": "https://www.bikeitalia.it/",
+   "nicchia": "auto",
+   "aree": [
+    "bici"
+   ],
+   "gnews": [
+    "e-bike offerta sconto",
+    "bici elettrica promozione",
+    "mountain bike offerta",
+    "monopattino elettrico offerta"
+   ],
+   "gnews_when": "7d"
+  },
+  {
+   "id": "ao-camper",
+   "nome": "Offerte camper e altri mezzi",
+   "tipo": "stampa",
+   "home": "https://www.camperonline.it/",
+   "nicchia": "auto",
+   "aree": [
+    "mezzi"
+   ],
+   "gnews": [
+    "camper offerta",
+    "caravan offerta usato",
+    "furgone offerta",
+    "camper noleggio offerta"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "ao-momento",
+   "nome": "Quando conviene comprare",
+   "tipo": "stampa",
+   "home": "https://www.quattroruote.it/",
+   "nicchia": "auto",
+   "gnews": [
+    "quando conviene comprare auto",
+    "momento giusto comprare auto",
+    "comprare auto fine anno sconti",
+    "trattare prezzo auto concessionario"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "ao-finanz",
+   "nome": "Finanziamenti e tassi auto",
+   "tipo": "stampa",
+   "home": "https://www.assofin.it/",
+   "nicchia": "auto",
+   "aree": [
+    "mercato_auto"
+   ],
+   "gnews": [
+    "finanziamento auto tasso zero",
+    "tassi finanziamento auto",
+    "prestito auto offerta",
+    "Assofin finanziamenti auto"
+   ],
+   "gnews_when": "14d"
+  },
+  {
+   "id": "ai-incentivi",
+   "nome": "Incentivi auto in vigore",
+   "tipo": "stampa",
+   "home": "https://www.mimit.gov.it/",
+   "nicchia": "auto",
+   "gnews": [
+    "incentivi auto elettriche",
+    "bonus rottamazione auto",
+    "incentivi auto Mimit",
+    "incentivi veicoli novità"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "ai-fondi",
+   "nome": "Fondi incentivi e scadenze",
+   "tipo": "stampa",
+   "home": "https://www.unrae.it/",
+   "nicchia": "auto",
+   "gnews": [
+    "incentivi auto fondi esauriti",
+    "incentivi auto click day",
+    "incentivi auto scadenza domanda",
+    "bonus auto aziendali fisco"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "ai-bollo",
+   "nome": "Bollo, IVA e agevolazioni",
+   "tipo": "stampa",
+   "home": "https://www.aci.it/",
+   "nicchia": "auto",
+   "gnews": [
+    "bollo auto esenzione",
+    "auto disabili agevolazioni IVA",
+    "auto aziendale fringe benefit",
+    "detrazione auto"
+   ],
+   "gnews_when": "60d"
+  },
+  {
+   "id": "am-prezzi",
+   "nome": "Prezzi usato e svalutazione",
+   "tipo": "stampa",
+   "home": "https://www.autoscout24.it/",
+   "nicchia": "auto",
+   "aree": [
+    "mercato_auto"
+   ],
+   "gnews": [
+    "prezzi auto usate andamento",
+    "svalutazione auto elettriche",
+    "valore residuo auto",
+    "mercato usato Italia prezzi"
+   ],
+   "gnews_when": "30d"
+  },
+  {
+   "id": "am-carburanti",
+   "nome": "Prezzi carburanti e energia",
+   "tipo": "stampa",
+   "home": "https://www.mimit.gov.it/",
+   "nicchia": "auto",
+   "aree": [
+    "mercato_auto"
+   ],
+   "gnews": [
+    "prezzi benzina gasolio oggi",
+    "prezzo carburante Italia",
+    "costo ricarica auto elettrica",
+    "accise carburanti"
+   ],
+   "gnews_when": "3d"
   }
  ]
 }

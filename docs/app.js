@@ -80,7 +80,7 @@ function card(n) {
   const luogoB = n.luogo ? `<span class="badge luogo">📍 ${esc(n.luogo)}</span>` : "";
   const badge = luogoB + n.aree.filter((a) => a !== "altro" || !n.luogo).map((a) => `<span class="badge" style="--c:${colore(a)}">${esc(nome(a))}</span>`).join("");
   return `<article class="card${letta ? " letta" : ""}" data-id="${n.id}" style="--c:${colore(n.aree[0])}">
-    <div class="riga">${badge}${(n.prof || []).slice(0, 3).map((p) => state.professioni[p] ? `<span class="badge pf" title="${esc(state.professioni[p].nome)}">${state.professioni[p].emoji} ${esc(state.professioni[p].nome)}</span>` : "").join("")}${n.tradotto ? '<span class="badge pf" title="Fonte straniera, titolo tradotto automaticamente">🌐 Tradotto</span>' : ""}${n.normativa ? `<span class="badge norm">${["edilizia"].includes(n.nicchia || "edilizia") ? "Normativa" : "Ufficiale"}</span>` : ""}${nuovo ? '<span class="nuovo" title="Nuova"></span>' : ""}</div>
+    <div class="riga">${badge}${n.prezzo ? `<span class="badge prezzo">${esc(n.prezzo)}</span>` : ""}${(n.prof || []).slice(0, 3).map((p) => state.professioni[p] ? `<span class="badge pf" title="${esc(state.professioni[p].nome)}">${state.professioni[p].emoji} ${esc(state.professioni[p].nome)}</span>` : "").join("")}${n.tradotto ? '<span class="badge pf" title="Fonte straniera, titolo tradotto automaticamente">🌐 Tradotto</span>' : ""}${n.normativa ? `<span class="badge norm">${["edilizia"].includes(n.nicchia || "edilizia") ? "Normativa" : "Ufficiale"}</span>` : ""}${nuovo ? '<span class="nuovo" title="Nuova"></span>' : ""}</div>
     <h3 class="titolo">${esc(n.titolo)}</h3>
     ${n.sintesi ? `<p class="sintesi">${esc(n.sintesi)}</p>` : ""}
     <div class="piede"><span>${esc(n.fonte_nome)}${(n.altre_fonti || []).length ? ` +${n.altre_fonti.length}` : ""} · ${fa(dataDi(n))}</span>
@@ -184,6 +184,7 @@ function sezione(k, listaTot) {
 
 function renderNovita() {
   const box = $("#lista-novita");
+  if (state.nicchia === "auto" && state.vistaAuto !== "notizie" && state.news.length) { box.innerHTML = state.vistaAuto === "strumenti" ? renderStrumenti() : renderOfferte(); return; }
   if (!state.news.length) { box.innerHTML = vuoto("Ancora nessuna notizia", "Il primo aggiornamento automatico è in arrivo (ogni ora)."); return; }
   const tutteAree = Object.keys(state.aree).filter((a) => a !== "altro" && a !== "locale" && areaNicchia(a));
   let chiavi = ["stelle"];
@@ -249,9 +250,121 @@ function renderFonti() {
   s.fonti = tutte;
 }
 
+
+// ============ Motori: momento giusto, super offerte, strumenti ============
+const MESI_AUTO = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"];
+function valutaGiorno(d) {
+  const g = d.getDate(), m = d.getMonth() + 1, ult = new Date(d.getFullYear(), m, 0).getDate();
+  let p = 0; const motivi = [];
+  if (g >= ult - 6) { p += 2; motivi.push("Fine mese: i concessionari chiudono gli obiettivi mensili e trattano di più."); }
+  else if (g <= 3) { p -= 1; motivi.push("Inizio mese: gli obiettivi ripartono da zero, di solito c'è meno margine."); }
+  if ([3, 6, 9, 12].includes(m) && g >= ult - 14) { p += 1; motivi.push("Fine trimestre: chiusura degli obiettivi trimestrali delle case auto."); }
+  if (m === 12) { p += g >= 15 ? 3 : 2; motivi.push("Dicembre: fine anno, ultime immatricolazioni da fare e auto dell'anno in corso da smaltire."); }
+  if (m === 1 || m === 2) { p += 1; motivi.push("Gennaio-febbraio: domanda debole e stock dell'anno precedente da vendere."); }
+  if (m === 7) { p += 1; motivi.push("Luglio: chiusura del semestre e promozioni estive."); }
+  if (m === 11 && g >= 20) { p += 1; motivi.push("Black Friday: molte promozioni su auto in pronta consegna."); }
+  if ([3, 4, 5].includes(m)) { p -= 1; motivi.push("Primavera: la domanda è più alta, i margini di sconto di solito si riducono."); }
+  return { p, motivi };
+}
+function semaforoAuto(oggi = new Date()) {
+  const { p, motivi } = valutaGiorno(oggi);
+  const voto = p >= 3 ? ["🟢", "Ottimo momento per trattare"] : p >= 1 ? ["🟡", "Momento discreto"] : ["🔴", "Di solito meglio aspettare"];
+  let prossimo = null;
+  for (let i = 1; i <= 150 && !prossimo; i++) {
+    const d = new Date(oggi.getFullYear(), oggi.getMonth(), oggi.getDate() + i);
+    if (valutaGiorno(d).p >= 3) prossimo = d;
+  }
+  return { p, voto, motivi, prossimo };
+}
+function cardSemaforo(completo) {
+  const s = semaforoAuto();
+  const prox = s.prossimo && s.p < 3 ? `Prossima finestra buona: da <b>${s.prossimo.getDate()} ${MESI_AUTO[s.prossimo.getMonth()]}</b>.` : "";
+  return `<div class="semaforo sem-${s.p >= 3 ? "v" : s.p >= 1 ? "g" : "r"}">
+    <div class="sem-top"><span class="sem-ico">${s.voto[0]}</span><div><b>${s.voto[1]}</b><small>Indicazione dal calendario (tendenze del mercato, non una garanzia)</small></div></div>
+    ${completo ? `<ul>${s.motivi.map((m) => `<li>${esc(m)}</li>`).join("") || "<li>Nessun fattore particolare in questi giorni.</li>"}</ul>` : ""}
+    ${prox ? `<p>${prox}</p>` : ""}</div>`;
+}
+state.vistaAuto = "offerte"; state.offFiltro = "tutte"; state.modelli = store.get("modelli", []);
+const OFF_FILTRI = [["tutte", "Tutte"], ["sconti", "Sconti"], ["km0", "Km0 e usato"], ["noleggio", "Noleggio e rate"], ["incentivi", "Incentivi"]];
+const eOfferta = (n) => n.nicchia === "auto" && (n.aree.includes("offerte_auto") || n.aree.includes("incentivi_auto"));
+function renderOfferte() {
+  const mod = state.modelli;
+  let h = cardSemaforo(false);
+  h += `<div class="mod-box"><b>⭐ I tuoi modelli</b><div class="mod-add"><input id="mod-in" type="text" placeholder="Es. Panda, Clio, Tesla Model 3" autocomplete="off"><button class="chip on" data-mod-add>Aggiungi</button></div>
+    <div class="mod-list">${mod.map((x, i) => `<button class="chip" data-mod-del="${i}">${esc(x)} ✕</button>`).join("") || "<small>Aggiungi i modelli che ti interessano: qui compaiono tutte le notizie e offerte che li citano.</small>"}</div></div>`;
+  if (mod.length) {
+    const limite = Date.now() - 30 * 864e5;
+    const mie = state.news.filter((n) => n.nicchia === "auto" && new Date(n.pubblicata || n.visto) > limite && mod.some((x) => (n.titolo + " " + (n.sintesi || "")).toLowerCase().includes(x.toLowerCase()))).slice(0, 15);
+    h += `<div class="gruppo-titolo">⭐ Sui tuoi modelli (${mie.length})</div>` + (mie.length ? mie.map(card).join("") : vuoto("Nessuna notizia sui tuoi modelli", "negli ultimi 30 giorni"));
+  }
+  h += `<div class="chips fil">${OFF_FILTRI.map(([k, l]) => `<button class="chip${state.offFiltro === k ? " on" : ""}" data-off="${k}">${l}</button>`).join("")}</div>`;
+  let lista = state.news.filter(eOfferta);
+  const f = state.offFiltro;
+  if (f === "incentivi") lista = lista.filter((n) => n.aree.includes("incentivi_auto"));
+  else if (f !== "tutte") lista = lista.filter((n) => (n.sotto || []).includes("offerte_auto." + f));
+  const lim = state.limiti.off || 25;
+  h += `<div class="gruppo-titolo">💸 Offerte e incentivi (${lista.length})</div>`;
+  h += lista.length ? lista.slice(0, lim).map(card).join("") + (lista.length > lim ? `<button class="more" data-piu="off">Mostra altre</button>` : "") : vuoto("Ancora nessuna offerta", "Compaiono dopo il prossimo aggiornamento.");
+  return h;
+}
+const GUIDA = [
+  ["📅 Quando comprare", ["Fine mese, fine trimestre e dicembre sono di solito i momenti in cui i concessionari trattano di più.", "Le auto dell'anno precedente ancora in stock (gennaio-febbraio) tendono a essere scontate.", "Chiedi sempre la disponibilità immediata: pronta consegna spesso significa sconto maggiore."]],
+  ["🆕 Nuova, km0 o usato?", ["Nuova: garanzia piena e scelta di allestimento, ma la svalutazione dei primi anni è alta.", "Km0 / aziendale: già immatricolata (la prima svalutazione l'ha fatta qualcun altro) ma quasi nuova.", "Usato: controlla storico tagliandi e chilometri; dal professionista c'è la garanzia legale di conformità (2 anni, riducibile a 1 sull'usato se pattuito).", "Elettrica usata: fai verificare lo stato di salute della batteria."]],
+  ["🤝 Come trattare", ["Chiedi il prezzo chiavi in mano (messa su strada, imposta di trascrizione, spese): è l'unico confrontabile.", "Fai 3-4 preventivi scritti in concessionarie diverse, anche via email.", "Tratta la permuta a parte: fatti una valutazione indipendente del tuo usato prima.", "Gli optional e i pacchetti 'obbligatori' sono spesso il punto dove si recupera margine: chiedi cosa si può togliere."]],
+  ["💳 Finanziamento e noleggio", ["Guarda il TAEG, non solo la rata. Attenzione a maxi-rata finale, assicurazioni e servizi abbinati.", "Noleggio lungo termine: verifica franchigie, chilometri inclusi, penali di uscita e cosa succede a fine contratto.", "Confronta sempre il costo totale (usa il calcolatore qui sotto) e non solo il costo mensile."]],
+  ["🔎 Prima di firmare", ["Rileggi il contratto: data di consegna, penali, garanzie, accessori inclusi.", "Verifica incentivi e bonus ancora attivi e i requisiti (ISEE, rottamazione, fondi disponibili).", "Non farti mettere fretta da 'offerta valida solo oggi': a fine mese ne trovi di simili."]],
+];
+const CALC_DEF = { prezzo: 22000, anticipo: 3000, mesi: 48, tan: 6.5, km: 12000, consumo: 6, carb: 1.9, assic: 700, bollo: 200, manut: 400, residuo: 45, canone: 320, antNol: 3000 };
+const CALC_CAMPI = [["prezzo", "Prezzo auto (€)"], ["anticipo", "Anticipo (€)"], ["mesi", "Durata (mesi)"], ["tan", "TAN finanziamento (%)"], ["km", "Km all'anno"], ["consumo", "Consumo (l/100 km)"], ["carb", "Carburante (€/l)"], ["assic", "Assicurazione (€/anno)"], ["bollo", "Bollo (€/anno)"], ["manut", "Manutenzione (€/anno)"], ["residuo", "Valore a fine periodo (%)"], ["canone", "NOLEGGIO: canone (€/mese)"], ["antNol", "NOLEGGIO: anticipo (€)"]];
+const eur = (v) => Math.round(v).toLocaleString("it-IT") + " €";
+function calcolaAuto() {
+  const c = Object.assign({}, CALC_DEF, store.get("calc", {}));
+  const n = Math.max(1, c.mesi), anni = n / 12, fin = Math.max(0, c.prezzo - c.anticipo), r = c.tan / 1200;
+  const rata = r > 0 ? fin * r / (1 - Math.pow(1 + r, -n)) : fin / n;
+  const carb = c.km * c.consumo / 100 * c.carb * anni;
+  const gestione = (c.assic + c.bollo + c.manut) * anni;
+  const residuo = c.prezzo * c.residuo / 100;
+  const acq = c.anticipo + rata * n + carb + gestione - residuo;
+  const nol = c.antNol + c.canone * n + carb;
+  return `<div class="calc-ris"><div><small>Comprare (finanziato)</small><b>${eur(acq)}</b><small>${eur(acq / n)} al mese · rata ${eur(rata)}</small></div>
+    <div><small>Noleggio lungo termine</small><b>${eur(nol)}</b><small>${eur(nol / n)} al mese · assicurazione e manutenzione incluse</small></div></div>
+    <p class="calc-n">${acq < nol ? "Con questi numeri conviene <b>comprare</b>" : "Con questi numeri conviene il <b>noleggio</b>"}: differenza di ${eur(Math.abs(acq - nol))} sull'intero periodo. Nell'acquisto è sottratto il valore dell'auto che ti resta a fine periodo.</p>`;
+}
+function renderStrumenti() {
+  const c = Object.assign({}, CALC_DEF, store.get("calc", {}));
+  return cardSemaforo(true) +
+    `<div class="gruppo-titolo">🧮 Comprare o noleggiare?</div><div class="calc">${CALC_CAMPI.map(([k, l]) => `<label>${l}<input type="number" inputmode="decimal" data-calc="${k}" value="${c[k]}"></label>`).join("")}</div><div id="calc-out">${calcolaAuto()}</div>
+     <div class="gruppo-titolo">📖 Guida all'acquisto</div>` +
+    GUIDA.map(([t, voci]) => `<details class="guida"><summary>${t}</summary><ul>${voci.map((v) => `<li>${esc(v)}</li>`).join("")}</ul></details>`).join("");
+}
+document.addEventListener("input", (e) => {
+  const c = e.target.closest("[data-calc]");
+  if (!c) return;
+  const cur = store.get("calc", {}); cur[c.dataset.calc] = parseFloat(String(c.value).replace(",", ".")) || 0; store.set("calc", cur);
+  $("#calc-out").innerHTML = calcolaAuto();
+});
+document.addEventListener("click", (e) => {
+  const va = e.target.closest("[data-vauto]");
+  if (va) { state.vistaAuto = va.dataset.vauto; renderTutto(); window.scrollTo(0, 0); return; }
+  const of = e.target.closest("[data-off]");
+  if (of) { state.offFiltro = of.dataset.off; state.limiti.off = 25; renderNovita(); return; }
+  if (e.target.closest("[data-mod-add]")) {
+    const v = ($("#mod-in").value || "").trim();
+    if (v && !state.modelli.some((x) => x.toLowerCase() === v.toLowerCase())) { state.modelli.push(v); store.set("modelli", state.modelli); }
+    renderNovita(); return;
+  }
+  const md = e.target.closest("[data-mod-del]");
+  if (md) { state.modelli.splice(+md.dataset.modDel, 1); store.set("modelli", state.modelli); renderNovita(); }
+}, true);
+
 function renderProf() {
   const el = $("#prof-bar");
   const ids = Object.keys(state.professioni);
+  if (state.nicchia === "auto") {
+    el.hidden = false;
+    el.innerHTML = [["offerte", "💸 Offerte e momento"], ["notizie", "📰 Notizie"], ["strumenti", "🧮 Strumenti"]].map(([k, l]) => `<button class="chip${state.vistaAuto === k ? " on" : ""}" data-vauto="${k}">${l}</button>`).join("");
+    return;
+  }
   if (state.nicchia !== "edilizia" || !ids.length) { el.hidden = true; return; }
   el.hidden = false;
   let h = `<button class="chip${state.vista === "prof" ? " on" : ""}" data-vista="prof">👤 Per professione</button><button class="chip${state.vista === "arg" ? " on" : ""}" data-vista="arg">📚 Per argomento</button>`;
@@ -265,7 +378,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "21";
+const VERSIONE_APP = "22";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
