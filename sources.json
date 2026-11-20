@@ -7674,35 +7674,145 @@
    "caf": true
   },
   {
-   "id": "t-ai-it",
-   "nome": "Intelligenza artificiale (stampa italiana)",
+   "id": "t-gsmarena",
+   "nome": "GSMArena",
    "tipo": "stampa",
-   "home": "https://news.google.com/",
+   "home": "https://www.gsmarena.com/",
+   "nicchia": "tech",
+   "aree": [
+    "smartphone"
+   ],
+   "gnews": [
+    "GSMArena new phone launch",
+    "GSMArena Galaxy S25 Ultra"
+   ],
+   "gnews_when": "7d",
+   "lingua": "en",
+   "nota": "Fonte inglese: titoli tradotti in italiano automaticamente."
+  },
+  {
+   "id": "t-9to5",
+   "nome": "9to5Google / 9to5Mac",
+   "tipo": "stampa",
+   "home": "https://9to5google.com/",
+   "nicchia": "tech",
+   "aree": [
+    "smartphone",
+    "software"
+   ],
+   "gnews": [
+    "9to5google Android update",
+    "9to5mac iOS update"
+   ],
+   "gnews_when": "7d",
+   "lingua": "en",
+   "nota": "Fonte inglese: titoli tradotti in italiano automaticamente."
+  },
+  {
+   "id": "t-theverge",
+   "nome": "The Verge",
+   "tipo": "stampa",
+   "home": "https://www.theverge.com/",
+   "nicchia": "tech",
+   "aree": [
+    "ai",
+    "smartphone"
+   ],
+   "gnews": [
+    "The Verge tech news",
+    "The Verge AI"
+   ],
+   "gnews_when": "7d",
+   "lingua": "en",
+   "nota": "Fonte inglese: titoli tradotti in italiano automaticamente."
+  },
+  {
+   "id": "t-techcrunch",
+   "nome": "TechCrunch",
+   "tipo": "stampa",
+   "home": "https://techcrunch.com/",
+   "nicchia": "tech",
+   "aree": [
+    "ai",
+    "software"
+   ],
+   "gnews": [
+    "TechCrunch AI startup"
+   ],
+   "gnews_when": "7d",
+   "lingua": "en",
+   "nota": "Fonte inglese: titoli tradotti in italiano automaticamente."
+  },
+  {
+   "id": "t-arstechnica",
+   "nome": "Ars Technica",
+   "tipo": "stampa",
+   "home": "https://arstechnica.com/",
+   "nicchia": "tech",
+   "aree": [
+    "hardware",
+    "software"
+   ],
+   "gnews": [
+    "Ars Technica gadgets",
+    "Ars Technica security"
+   ],
+   "gnews_when": "7d",
+   "lingua": "en",
+   "nota": "Fonte inglese: titoli tradotti in italiano automaticamente."
+  },
+  {
+   "id": "t-openai",
+   "nome": "OpenAI e Anthropic news",
+   "tipo": "stampa",
+   "home": "https://openai.com/news/",
    "nicchia": "tech",
    "aree": [
     "ai"
    ],
    "gnews": [
-    "OpenAI ChatGPT novità",
+    "OpenAI novità",
     "Anthropic Claude novità",
-    "Google Gemini novità italia"
+    "Google Gemini novità"
    ],
-   "gnews_when": "7d"
+   "gnews_when": "7d",
+   "lingua": "en",
+   "nota": "Fonte inglese: titoli tradotti in italiano automaticamente."
   },
   {
-   "id": "a-wrc-it",
-   "nome": "Rally e WRC (italiano)",
+   "id": "t-android-auth",
+   "nome": "Android Authority",
    "tipo": "stampa",
-   "home": "https://news.google.com/",
+   "home": "https://www.androidauthority.com/",
+   "nicchia": "tech",
+   "aree": [
+    "smartphone",
+    "software"
+   ],
+   "gnews": [
+    "Android Authority news",
+    "One UI update"
+   ],
+   "gnews_when": "7d",
+   "lingua": "en",
+   "nota": "Fonte inglese: titoli tradotti in italiano automaticamente."
+  },
+  {
+   "id": "a-wrc",
+   "nome": "WRC e rally",
+   "tipo": "stampa",
+   "home": "https://www.wrc.com/",
    "nicchia": "auto",
    "aree": [
     "motorsport"
    ],
    "gnews": [
-    "rally WRC Italia novità",
-    "campionato italiano rally"
+    "WRC rally news",
+    "Mondiale rally"
    ],
-   "gnews_when": "7d"
+   "gnews_when": "7d",
+   "lingua": "en",
+   "nota": "Fonte inglese: titoli tradotti in italiano automaticamente."
   }
  ]
 }

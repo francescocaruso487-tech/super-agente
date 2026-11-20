@@ -16,6 +16,7 @@ import argparse
 import hashlib
 import html
 import json
+import urllib.request
 import os
 import re
 import sys
@@ -371,8 +372,23 @@ def is_italiano(titolo, sintesi=""):
     return True
 
 
+def traduci(testo):
+    """Traduce in italiano (servizio gratuito di Google, senza chiave). None se non riesce."""
+    if not testo:
+        return testo
+    try:
+        url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=it&dt=t&q=" + quote_plus(testo[:900])
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=12) as r:
+            dati = json.loads(r.read().decode("utf-8"))
+        out = "".join(p[0] for p in dati[0] if p and p[0]).strip()
+        return out or None
+    except Exception:
+        return None
+
+
 def classify(item, src, matchers, urgenti, aree_cfg):
-    if not is_italiano(item["titolo"], item.get("sintesi", "")):
+    if src.get("lingua") != "en" and not is_italiano(item["titolo"], item.get("sintesi", "")):
         return None
     area_rx, sotto_rx, luoghi = matchers
     nicchia = src.get("nicchia", "edilizia")
@@ -618,6 +634,13 @@ def main():
                 continue
             if it["pubblicata"] and parse_iso(it["pubblicata"]) < ts - timedelta(days=MAX_AGE_NEW_DAYS):
                 continue
+            tradotto = False
+            if src.get("lingua") == "en":
+                t_it = traduci(it["titolo"])
+                if not t_it or not is_italiano(t_it):
+                    continue
+                it = dict(it, titolo=t_it, sintesi=(traduci(it.get("sintesi", "")[:300]) or t_it))
+                tradotto = True
             cls = classify(it, src, matchers, urgenti, aree_cfg)
             if cls is None:
                 continue
@@ -629,6 +652,8 @@ def main():
                    "sintesi": it["sintesi"], "pubblicata": it["pubblicata"], "visto": iso(ts), "metodo": metodo,
                    "sotto": sotto, "luogo": luogo, "nicchia": src.get("nicchia", "edilizia"),
                    "prof": profili(it, src, aree, aree_cfg, prof_rx)}
+            if tradotto:
+                rec["tradotto"] = True
             known[iid] = rec
             new_items.append(rec)
             added += 1
