@@ -265,7 +265,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "20";
+const VERSIONE_APP = "21";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;

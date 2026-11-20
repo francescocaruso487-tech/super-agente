@@ -35,10 +35,12 @@
    ],
    "filtra": true,
    "gnews": [
-    "site:vigilfuoco.it",
-    "circolare Dipartimento Vigili del Fuoco prevenzione incendi"
+    "Vigili del Fuoco prevenzione incendi circolare",
+    "Vigili del Fuoco regola tecnica verticale",
+    "Dipartimento Vigili del Fuoco nota prevenzione incendi",
+    "CPI SCIA antincendio novità"
    ],
-   "gnews_when": "30d",
+   "gnews_when": "60d",
    "nota": "Il sito dei VVF blocca i lettori automatici: uso titoli indicizzati dal sito e dalla stampa che riporta le circolari."
   },
   {
@@ -178,7 +180,14 @@
    "id": "edilportale",
    "nome": "Edilportale",
    "tipo": "stampa",
-   "home": "https://www.edilportale.com/"
+   "home": "https://www.edilportale.com/",
+   "gnews": [
+    "Edilportale edilizia novità",
+    "Edilportale bonus edilizi",
+    "Edilportale normativa tecnica costruzioni",
+    "Edilportale appalti"
+   ],
+   "gnews_when": "14d"
   },
   {
    "id": "teknoring",
@@ -248,10 +257,12 @@
    ],
    "filtra": true,
    "gnews": [
-    "site:comune.caserta.it urbanistica",
-    "site:comune.caserta.it edilizia lavori pubblici"
+    "Comune di Caserta urbanistica",
+    "Comune di Caserta lavori pubblici",
+    "Comune di Caserta edilizia permessi",
+    "Caserta PUC piano urbanistico comunale"
    ],
-   "gnews_when": "30d",
+   "gnews_when": "60d",
    "nota": "Notizie e avvisi del Comune filtrati su urbanistica, edilizia, lavori pubblici."
   },
   {
@@ -262,10 +273,12 @@
    "luogo": "Campania",
    "filtra": true,
    "gnews": [
-    "site:burc.regione.campania.it edilizia urbanistica",
-    "BURC Campania sismica urbanistica"
+    "BURC Campania urbanistica",
+    "Regione Campania edilizia legge regionale",
+    "Regione Campania sismica bando",
+    "Bollettino Ufficiale Regione Campania edilizia"
    ],
-   "gnews_when": "30d",
+   "gnews_when": "60d",
    "nota": "Bollettino Ufficiale: lettura indiretta, il sito non ha un feed pubblico semplice."
   },
   {
@@ -1857,10 +1870,12 @@
     "dichiarazioni"
    ],
    "gnews": [
-    "site:ilfisco.it novità fiscali",
-    "site:ilfisco.it modello 730"
+    "Il Fisco novità fiscali Wolters Kluwer",
+    "ilfisco.it modello 730",
+    "ilfisco.it circolare Agenzia Entrate",
+    "Il Fisco rivista fiscale novità"
    ],
-   "gnews_when": "14d",
+   "gnews_when": "30d",
    "caf": true
   },
   {
@@ -2701,10 +2716,11 @@
     "europa"
    ],
    "gnews": [
-    "site:euractiv.it europa",
-    "site:euractiv.it commissione parlamento"
+    "Euractiv Italia Commissione europea",
+    "Euractiv Italia Parlamento europeo",
+    "Euractiv Italia Consiglio UE"
    ],
-   "gnews_when": "7d"
+   "gnews_when": "14d"
   },
   {
    "id": "p-mattino",
@@ -2995,10 +3011,11 @@
     "novita_auto"
    ],
    "gnews": [
-    "site:omniauto.it novità",
-    "site:omniauto.it prove"
+    "OmniAuto novità auto",
+    "OmniAuto prova su strada",
+    "OmniAuto.it"
    ],
-   "gnews_when": "7d"
+   "gnews_when": "14d"
   },
   {
    "id": "a-motorionline",
@@ -3251,10 +3268,11 @@
     "moto"
    ],
    "gnews": [
-    "site:motociclismo.it novità",
-    "site:motociclismo.it prove moto"
+    "Motociclismo novità moto",
+    "Motociclismo prova moto",
+    "Motociclismo.it"
    ],
-   "gnews_when": "7d"
+   "gnews_when": "14d"
   },
   {
    "id": "a-dueruote",
@@ -5439,9 +5457,11 @@
     "pc"
    ],
    "gnews": [
-    "site:notebookitalia.it notebook recensioni"
+    "Notebook Italia recensione notebook",
+    "Notebook Italia novità portatili",
+    "notebookitalia.it"
    ],
-   "gnews_when": "7d"
+   "gnews_when": "14d"
   },
   {
    "id": "t-wired",
@@ -5943,9 +5963,11 @@
     "moto"
    ],
    "gnews": [
-    "site:superbike-news.it novità"
+    "Superbike Italia novità moto",
+    "Superbike-news novità",
+    "superbike-news.it"
    ],
-   "gnews_when": "7d"
+   "gnews_when": "14d"
   },
   {
    "id": "a-insella",

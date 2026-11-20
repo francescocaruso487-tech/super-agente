@@ -124,3 +124,5 @@ body.in-chat .chat-form{display:flex}
 .gruppo-titolo{margin:18px 4px 6px;font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--mute)}
 
 .profbar{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:0 0 10px;margin:-2px 0 4px}.profbar::-webkit-scrollbar{display:none}.profbar .chip{flex:0 0 auto;white-space:nowrap}.badge.pf{background:transparent;border:1px solid var(--line,#d5dbe3);color:var(--mute);font-weight:500}
+
+.profbar[hidden]{display:none}
