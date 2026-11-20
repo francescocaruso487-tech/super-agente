@@ -16,6 +16,7 @@ import argparse
 import hashlib
 import html
 import json
+import unicodedata
 import urllib.request
 import os
 import re
@@ -329,7 +330,7 @@ def read_source(src):
 
 
 # ---------------------------------------------------------------- classificazione
-TASSONOMIA = "11"  # cambia questo valore per far riclassificare l'archivio
+TASSONOMIA = "12"  # cambia questo valore per far riclassificare l'archivio
 
 
 def _rx(kw):
@@ -385,6 +386,65 @@ def traduci(testo):
         return out or None
     except Exception:
         return None
+
+
+_STOP = set("il lo la le gli i di del della dei delle degli da con per su un una uno e che non si è al alla alle ai nel nella nei nelle come più sul sulla sui sono dopo anche dal dalla tra fra ha hanno ma o se the of to and in for on a".split())
+_RANK = {"ufficiale": 0, "ente": 1, "ordine": 2, "stampa": 3}
+
+
+def _titolo_chiave(t):
+    t = re.sub(r"\s+[-|–—]\s+[^-|–—]{2,40}$", "", t.strip())  # toglie " - Testata" finale
+    t = unicodedata.normalize("NFKD", t.lower())
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    return frozenset(w for w in re.findall(r"[a-z0-9]+", t) if len(w) > 2 and w not in _STOP)
+
+
+def rimuovi_doppioni(known):
+    """Stessa notizia da fonti diverse = una sola voce (resta la fonte piu' autorevole, poi la piu' vecchia)."""
+    recs = []
+    for r in known.values():
+        k = _titolo_chiave(r["titolo"])
+        if len(k) >= 4:
+            recs.append((r, k))
+    recs.sort(key=lambda x: (_RANK.get(x[0].get("tipo"), 3), x[0].get("pubblicata") or x[0]["visto"]))
+    indice, tenuti, tolti = {}, [], 0
+    for r, k in recs:
+        cand = {}
+        for w in k:
+            for j in indice.get(w, ()):
+                cand[j] = cand.get(j, 0) + 1
+        doppione = None
+        for j, comuni in cand.items():
+            r2, k2 = tenuti[j]
+            if r2.get("nicchia") != r.get("nicchia"):
+                continue
+            if comuni / len(k | k2) >= 0.7 or (comuni >= 5 and comuni / min(len(k), len(k2)) >= 0.9):
+                try:
+                    if abs((parse_iso(r["pubblicata"] or r["visto"]) - parse_iso(r2["pubblicata"] or r2["visto"])).days) > 7:
+                        continue
+                except Exception:
+                    pass
+                doppione = r2
+                break
+        if doppione is not None:
+            altre = doppione.setdefault("altre_fonti", [])
+            if r["fonte_nome"] != doppione["fonte_nome"] and r["fonte_nome"] not in altre and len(altre) < 5:
+                altre.append(r["fonte_nome"])
+            for a in r.get("aree", []):
+                if a not in doppione["aree"] and a != "altro" and len(doppione["aree"]) < 3:
+                    doppione["aree"].append(a)
+            for pf in r.get("prof", []):
+                if pf not in doppione.get("prof", []) and len(doppione.get("prof", [])) < 8:
+                    doppione.setdefault("prof", []).append(pf)
+            if r.get("normativa"):
+                doppione["normativa"] = True
+            del known[r["id"]]
+            tolti += 1
+            continue
+        tenuti.append((r, k))
+        for w in k:
+            indice.setdefault(w, []).append(len(tenuti) - 1)
+    return tolti
 
 
 def classify(item, src, matchers, urgenti, aree_cfg):
@@ -672,6 +732,11 @@ def main():
             "falliti_di_fila": (prev.get("falliti_di_fila", 0) + 1) if stato in ("errore", "vuoto") else 0,
         })
         print(f"  [{stato:11}] {src['nome']}: letti {len(items)}, nuovi {added}" + (f" ({err})" if err else ""))
+
+    # una notizia = una sola voce, anche se la danno piu' fonti
+    tolti = rimuovi_doppioni(known)
+    new_items = [i for i in new_items if i["id"] in known]
+    print(f"Doppioni rimossi: {tolti}")
 
     # sintesi IA solo per novita' normative (se chiave presente)
     if os.environ.get("ANTHROPIC_API_KEY") and not first_run:

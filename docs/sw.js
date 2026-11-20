@@ -1,5 +1,5 @@
 // Service worker: l'app si apre anche offline con le ultime notizie salvate.
-const VERSIONE = "v19";
+const VERSIONE = "v20";
 const SHELL = ["./", "index.html", "style.css", "app.js", "link.js", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", (e) => {

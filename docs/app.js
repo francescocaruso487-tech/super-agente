@@ -70,7 +70,7 @@ function etichettaGiorno(d) {
   return `${GIORNI[d.getDay()]} ${d.getDate()} ${MESI[d.getMonth()]}`;
 }
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const nome = (a) => (a.startsWith("p:") ? (state.professioni[a.slice(2)]?.emoji || "") + " " + (state.professioni[a.slice(2)]?.nome || a) : state.aree[a]?.nome || a);
+const nome = (a) => (a === "p:_altre" ? "Notizie generali" : a.startsWith("p:") ? (state.professioni[a.slice(2)]?.emoji || "") + " " + (state.professioni[a.slice(2)]?.nome || a) : state.aree[a]?.nome || a);
 const colore = (a) => state.aree[a]?.colore || "#4a6fa5";
 
 function card(n) {
@@ -83,7 +83,7 @@ function card(n) {
     <div class="riga">${badge}${(n.prof || []).slice(0, 3).map((p) => state.professioni[p] ? `<span class="badge pf" title="${esc(state.professioni[p].nome)}">${state.professioni[p].emoji} ${esc(state.professioni[p].nome)}</span>` : "").join("")}${n.tradotto ? '<span class="badge pf" title="Fonte straniera, titolo tradotto automaticamente">🌐 Tradotto</span>' : ""}${n.normativa ? `<span class="badge norm">${["edilizia"].includes(n.nicchia || "edilizia") ? "Normativa" : "Ufficiale"}</span>` : ""}${nuovo ? '<span class="nuovo" title="Nuova"></span>' : ""}</div>
     <h3 class="titolo">${esc(n.titolo)}</h3>
     ${n.sintesi ? `<p class="sintesi">${esc(n.sintesi)}</p>` : ""}
-    <div class="piede"><span>${esc(n.fonte_nome)} · ${fa(dataDi(n))}</span>
+    <div class="piede"><span>${esc(n.fonte_nome)}${(n.altre_fonti || []).length ? ` +${n.altre_fonti.length}` : ""} · ${fa(dataDi(n))}</span>
       <button class="stella${stella ? " on" : ""}" data-star="${n.id}" aria-label="Salva">${stella ? "★" : "☆"}</button></div>
   </article>`;
 }
@@ -96,18 +96,27 @@ const profOk = (n) => state.vista === "prof" || state.prof === "tutte" || (n.pro
 const inNicchia = (n) => (n.nicchia || "edilizia") === state.nicchia;
 const areaNicchia = (a) => (state.aree[a]?.nicchia || "edilizia") === state.nicchia;
 
-function filtra({ area, query, soloNorm }) {
+// Ogni notizia compare in UNA sola sezione di Novità: la sua "sezione principale"
+function sezPrincipale(n) {
+  if (state.nicchia === "edilizia" && state.vista === "prof") return "p:" + ((n.prof || [])[0] || "_altre");
+  if (n.luogo && state.aree.locale && state.nicchia === "edilizia") return "locale";
+  const a = (n.aree || []).find((x) => x !== "altro" && state.aree[x]);
+  return a || "altro";
+}
+
+function filtra({ area, query, soloNorm, primario }) {
   const q = query.trim().toLowerCase();
   return state.news.filter((n) => {
     if (area !== "stelle" && !inNicchia(n)) return false;
     if (area !== "stelle" && state.nicchia === "edilizia" && !profOk(n)) return false;
     if (area === "stelle") { if (!state.stelle.has(n.id)) return false; }
     else if (area === "tutte") { if (n.aree.length === 1 && n.aree[0] === "altro" && !n.luogo) return false; }
-    else if (area.startsWith("p:")) { if (!(n.prof || []).includes(area.slice(2))) return false; }
+    else if (area.startsWith("p:")) { const id = area.slice(2); if (id === "_altre" ? (n.prof || []).length : !(n.prof || []).includes(id)) return false; }
     else if (area.startsWith("g:")) { const g = area.slice(2); if (!n.aree.some((a) => gruppoDi(a) === g) && !(g === "pratiche" && n.luogo)) return false; }
     else if (area === "locale") { if (!n.luogo) return false; }
     else if (area === "altro") { if (n.luogo || !n.aree.includes("altro")) return false; }
     else if (!n.aree.includes(area)) return false;
+    if (primario && area !== "stelle" && sezPrincipale(n) !== area) return false;
     if (soloNorm && !n.normativa) return false;
     if (q && !(n.titolo + " " + (n.sintesi || "") + " " + n.fonte_nome).toLowerCase().includes(q)) return false;
     return true;
@@ -182,6 +191,7 @@ function renderNovita() {
     for (const g of state.gruppiProf) {
       chiavi.push("#" + g.nome, ...Object.keys(state.professioni).filter((p) => state.professioni[p].gruppo === g.id).map((p) => "p:" + p));
     }
+    chiavi.push("#📰 Generali", "p:_altre");
   } else if (GRUPPI[state.nicchia]) {
     for (const [g, l] of GRUPPI[state.nicchia]) {
       const lista = [...(g === "pratiche" ? ["locale"] : []), ...tutteAree.filter((a) => gruppoDi(a) === g)];
@@ -196,7 +206,7 @@ function renderNovita() {
   let titoloPendente = "";
   for (const k of chiavi) {
     if (k.startsWith("#")) { titoloPendente = k.slice(1); continue; }
-    const lista = filtra({ area: k, query: "", soloNorm: state.soloNorm });
+    const lista = filtra({ area: k, query: "", soloNorm: state.soloNorm, primario: true });
     if (!lista.length && k !== "stelle" && (k === "altro" || k.startsWith("p:"))) continue;
     if (k === "stelle" && !state.stelle.size) continue;
     if (k === "locale" && !state.aree.locale) continue;
@@ -255,7 +265,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "19";
+const VERSIONE_APP = "20";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
