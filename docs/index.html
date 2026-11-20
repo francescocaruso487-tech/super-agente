@@ -9,7 +9,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
-<link rel="stylesheet" href="style.css?v=24">
+<link rel="stylesheet" href="style.css?v=25">
 </head>
 <body>
 <header class="top">
@@ -20,7 +20,7 @@
       <p id="aggiornato" class="sub">Edilizia e ingegneria</p>
     </div>
   </div>
-  <button id="btn-refresh" class="icon-btn" aria-label="Aggiorna">⟳</button>
+  <div class="top-az"><button id="btn-tema" class="icon-btn" aria-label="Colori e tema">🎨</button><button id="btn-refresh" class="icon-btn" aria-label="Aggiorna">⟳</button></div>
 </header>
 
 <main>
@@ -56,7 +56,21 @@
   <button data-tab="fonti"><span>📡</span>Fonti</button>
 </nav>
 
-<script src="app.js?v=24"></script>
-<script src="link.js?v=24"></script>
+
+<div id="tema-sheet" class="sheet" hidden>
+  <div class="sheet-bg"></div>
+  <div class="sheet-box" role="dialog" aria-label="Colori e tema">
+    <div class="sheet-grip"></div>
+    <h2>Colori e tema</h2>
+    <p class="sw-t">Tema</p><div class="sw-mode seg"></div>
+    <p class="sw-t">Colore</p><div class="sw-col"></div>
+    <label class="sw-sfondo">🖼️ Prendi i colori dal mio sfondo<input id="tema-file" type="file" accept="image/*" hidden></label>
+    <p class="sw-nota">Scegli uno screenshot o la foto del tuo sfondo: l'app ne ricava i colori, come i colori dinamici di Android.</p>
+    <button class="sheet-x">Fatto</button>
+  </div>
+</div>
+<script src="theme.js?v=25"></script>
+<script src="app.js?v=25"></script>
+<script src="link.js?v=25"></script>
 </body>
 </html>
