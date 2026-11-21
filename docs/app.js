@@ -242,8 +242,8 @@ function renderFonti() {
     const gruppo = s.fonti.filter((f) => f.tipo === tipo);
     if (!gruppo.length) continue;
     out += `<div class="gruppo">${ETICHETTE_TIPO[tipo]}</div>`;
-    out += gruppo.map((f) => `<div class="fonte"><span class="dot ${f.stato}"></span><div>
-      <a href="${esc(f.home)}" target="_blank" rel="noopener">${esc(f.nome)}</a>
+    out += gruppo.map((f) => `<div class="fonte tap" ${reg(`<h2 class="pop-t">${esc(f.nome)}</h2><div class="pop-box">${pRiga("Stato", esc(ETICHETTE_STATO[f.stato] || f.stato))}${pRiga("Articoli letti", f.letti)}${pRiga("Ultima novità", f.ultimo_nuovo ? fa(new Date(f.ultimo_nuovo)) : "mai")}${pRiga("Tipo", esc(ETICHETTE_TIPO[f.tipo] || f.tipo || ""))}</div>${f.errore ? `<p class="pop-p mute">Problema rilevato: ${esc(f.errore)}</p>` : ""}${f.nota ? `<p class="pop-p">${esc(f.nota)}</p>` : ""}<div class="pop-az">${pBtn(f.home, "Apri il sito ↗")}</div>`)}><span class="dot ${f.stato}"></span><div>
+      <b>${esc(f.nome)}</b>
       <div class="m">${ETICHETTE_STATO[f.stato] || f.stato} · letti ${f.letti} · ultima novità: ${f.ultimo_nuovo ? fa(new Date(f.ultimo_nuovo)) : "mai"}</div>
       ${f.errore ? `<div class="m err">${esc(f.errore)}${f.falliti_di_fila > 3 ? ` (da ${f.falliti_di_fila} controlli)` : ""}</div>` : ""}
       ${f.nota ? `<div class="m">${esc(f.nota)}</div>` : ""}</div></div>`).join("");
@@ -414,6 +414,54 @@ document.addEventListener("click", (e) => {
 }, true);
 
 
+
+// ============ Pop-up (bottom sheet) per tutta l'app ============
+const dec = (s) => { const t = document.createElement("textarea"); t.innerHTML = String(s ?? ""); return t.value; };
+const te = (s) => esc(dec(s));
+state.pop = {}; let popN = 0;
+const reg = (html) => { const k = "p" + (++popN); state.pop[k] = html; return `data-pop="${k}" role="button" tabindex="0"`; };
+let popAperto = false;
+function chiudiPop(daStorico) {
+  const ov = document.getElementById("pop"); if (!ov || !popAperto) return;
+  popAperto = false; ov.classList.remove("on"); document.body.classList.remove("pop-open");
+  if (!daStorico && history.state && history.state.pop) history.back();
+}
+function apriPop(html) {
+  let ov = document.getElementById("pop");
+  if (!ov) {
+    ov = document.createElement("div"); ov.id = "pop"; ov.className = "pop";
+    ov.innerHTML = `<div class="pop-bg" data-pop-x></div><div class="pop-sh" role="dialog" aria-modal="true"><div class="pop-top"><i class="pop-h"></i><button class="pop-x" data-pop-x aria-label="Chiudi">✕</button></div><div class="pop-c"></div></div>`;
+    document.body.appendChild(ov);
+    const sh = ov.querySelector(".pop-sh"), c = ov.querySelector(".pop-c"); let y0 = null, dy = 0;
+    sh.addEventListener("touchstart", (e) => { if (c.scrollTop <= 0) { y0 = e.touches[0].clientY; dy = 0; sh.style.transition = "none"; } }, { passive: true });
+    sh.addEventListener("touchmove", (e) => { if (y0 === null) return; dy = Math.max(0, e.touches[0].clientY - y0); sh.style.transform = `translateY(${dy}px)`; }, { passive: true });
+    sh.addEventListener("touchend", () => { if (y0 === null) return; sh.style.transition = ""; sh.style.transform = ""; if (dy > 110) chiudiPop(); y0 = null; });
+  }
+  ov.querySelector(".pop-c").innerHTML = html; ov.querySelector(".pop-c").scrollTop = 0;
+  if (!popAperto) { history.pushState({ pop: 1 }, ""); }
+  popAperto = true; document.body.classList.add("pop-open");
+  requestAnimationFrame(() => ov.classList.add("on"));
+}
+window.addEventListener("popstate", () => chiudiPop(true));
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") chiudiPop(); if ((e.key === "Enter" || e.key === " ") && e.target.dataset && e.target.dataset.pop) { e.preventDefault(); apriPop(state.pop[e.target.dataset.pop] || ""); } });
+document.addEventListener("click", (e) => {
+  if (e.target.closest("[data-pop-x]")) { chiudiPop(); return; }
+  if (e.target.closest("#pop a, #pop button")) return;
+  const d = e.target.closest("[data-pop]");
+  if (d && !e.target.closest("[data-star]")) { e.stopPropagation(); e.preventDefault(); apriPop(state.pop[d.dataset.pop] || ""); }
+}, true);
+const pBtn = (u, t) => `<a class="pop-btn" href="${esc(u)}" target="_blank" rel="noopener">${t}</a>`;
+const pRiga = (k, v) => v ? `<div class="pop-r"><span>${k}</span><b>${v}</b></div>` : "";
+function apriNews(n) {
+  const stella = state.stelle.has(n.id);
+  const badge = (n.luogo ? `<span class="badge luogo">📍 ${esc(n.luogo)}</span>` : "") + n.aree.map((a) => `<span class="badge" style="--c:${colore(a)}">${esc(nome(a))}</span>`).join("");
+  apriPop(`<div class="riga">${badge}${n.normativa ? '<span class="badge norm">Ufficiale</span>' : ""}</div>
+    <h2 class="pop-t">${te(n.titolo)}</h2>
+    ${n.sintesi ? `<p class="pop-p">${te(n.sintesi)}</p>` : '<p class="pop-p mute">Questa fonte non fornisce un riassunto: apri l\'articolo per leggerlo.</p>'}
+    <div class="pop-box">${pRiga("Fonte", esc(n.fonte_nome))}${(n.altre_fonti || []).length ? pRiga("Riportata anche da", esc(n.altre_fonti.join(", "))) : ""}${pRiga("Pubblicata", fa(dataDi(n)))}${n.tradotto ? pRiga("Titolo", "tradotto automaticamente") : ""}</div>
+    <div class="pop-az">${pBtn(n.link, "Apri la fonte ↗")}<button class="pop-btn sec" data-star="${n.id}">${stella ? "★ Salvata" : "☆ Salva"}</button></div>`);
+}
+
 // ============ Politica: quadro grafico (dati in data/politica.json) ============
 state.vistaPol = "quadro"; state.politica = null; state.politicaAuto = {}; state.politicaStato = {};
 function hemi(gruppi, W) {
@@ -435,15 +483,65 @@ function hemi(gruppi, W) {
   return `<svg viewBox="0 0 ${W} ${H}" class="hemi" role="img" aria-label="Seggi">${dots}</svg>`;
 }
 function legenda(gruppi) {
-  return `<div class="leg">${gruppi.slice().reverse().map((g) => `<span title="${esc(g.nome)}"><i style="background:${g.colore}"></i>${esc(g.sigla)} <b>${g.n}</b></span>`).join("")}</div>`;
+  const tot = gruppi.reduce((a, g) => a + g.n, 0) || 1;
+  return `<div class="leg">${gruppi.slice().reverse().map((g) => `<span class="tap" ${reg(`<h2 class="pop-t">${esc(g.nome || g.sigla)}</h2><div class="pop-box">${pRiga("Seggi", g.n + " su " + tot)}${pRiga("Quota", Math.round((g.n / tot) * 1000) / 10 + "%")}${g.blocco ? pRiga("Posizione", g.blocco === "magg" ? "Maggioranza di governo" : g.blocco === "opp" ? "Opposizione" : "Altri") : ""}</div>`)}><i style="background:${g.colore}"></i>${esc(g.sigla)} <b>${g.n}</b></span>`).join("")}</div>`;
 }
 const nomeGruppoVoto = (s) => { const l = String(s).toLowerCase(); const m = [["fdi", "Fratelli d'Italia"], ["pd", "Partito Democratico"], ["lega", "Lega"], ["fi", "Forza Italia"], ["m5s", "Movimento 5 Stelle"], ["avs", "AVS"], ["a-", "Azione"], ["az", "Azione"], ["iv", "Italia Viva"], ["nm", "Noi Moderati"], ["misto", "Misto"]].find(([k]) => l.startsWith(k)); return m ? m[1] : String(s); };
+
+const BLOCCO_VOTO = { FDI: "magg", LEGA: "magg", "FI-PPE": "magg", "NM-M-C": "magg", "PD-IDP": "opp", M5S: "opp", AVS: "opp", "IV-CR": "opp", APERRE: "opp", "M-+E-S": "opp" };
+function cosaE(titolo, atto) {
+  const T = dec(atto || ""), V = dec(titolo || "");
+  let tipo = "";
+  if (/conversione in legge.*decreto-legge/i.test(T)) tipo = "È la conversione di un <b>decreto-legge</b>: un provvedimento d'urgenza che il Governo ha già emanato e che è già in vigore. Il Parlamento deve trasformarlo in legge entro 60 giorni, altrimenti decade.";
+  else if (/ratifica ed esecuzione|ratifica/i.test(T)) tipo = "Il Parlamento <b>autorizza la ratifica</b> di un accordo o trattato internazionale firmato dall'Italia.";
+  else if (/delega al governo|deleg[ah]/i.test(T)) tipo = "È una <b>legge di delega</b>: il Parlamento fissa i principi e incarica il Governo di scrivere le norme di dettaglio (decreti legislativi).";
+  else if (/bilancio|rendiconto|assestamento/i.test(T)) tipo = "Riguarda i <b>conti dello Stato</b> (bilancio, entrate e spese).";
+  else if (/^\s*(modifica|modifiche|disposizioni|norme|istituzione|introduzione)/i.test(T)) tipo = "È una proposta di <b>legge ordinaria</b>: se approvata da entrambe le Camere nello stesso testo, diventa legge.";
+  const fin = /voto finale/i.test(V) ? "È il <b>voto finale</b>: dopo l'esame degli articoli e degli emendamenti, l'Aula vota il testo nel suo insieme. Se passa, il testo va all'altra Camera; se l'ha già approvato identico, diventa legge." : "";
+  return [tipo, fin].filter(Boolean).map((x) => `<p class="pop-p">${x}</p>`).join("");
+}
+function popVoto(x) {
+  const t = x.fav + x.con + x.ast || 1, ok = x.esito === "approvata";
+  const gr = (x.gruppi || []).filter((g) => g.fav + g.con + g.ast > 0);
+  const lista = (k) => gr.filter((g) => g[k] > 0 && g[k] >= (g.fav + g.con + g.ast) / 2);
+  const riga = (g, k) => `<span class="pop-chip ${BLOCCO_VOTO[g.sigla] || ""}">${esc(nomeGruppoVoto(g.sigla))} <b>${g[k]}</b></span>`;
+  const sez = (tit, k) => { const l = lista(k); return l.length ? `<div class="pop-sub">${tit}</div><div class="pop-chips">${l.map((g) => riga(g, k)).join("")}</div>` : ""; };
+  const magg = gr.filter((g) => BLOCCO_VOTO[g.sigla] === "magg"), opp = gr.filter((g) => BLOCCO_VOTO[g.sigla] === "opp");
+  const somma = (a, k) => a.reduce((s, g) => s + g[k], 0);
+  const lettura = magg.length && opp.length ? `<p class="pop-p">Maggioranza di governo: <b>${somma(magg, "fav")}</b> sì, <b>${somma(magg, "con")}</b> no. Opposizioni: <b>${somma(opp, "fav")}</b> sì, <b>${somma(opp, "con")}</b> no.</p>` : "";
+  return `<div class="riga"><span class="esito ${ok ? "si" : "no"}">${ok ? "✅ Approvata" : "❌ Respinta"}</span><span class="mute">${esc(x.data)}</span></div>
+    <h2 class="pop-t">${te(x.titolo)}</h2>
+    <div class="pop-sub">Di cosa si tratta</div>
+    ${x.atto ? `<p class="pop-p"><b>Titolo ufficiale:</b> ${te(x.atto.titolo)}</p>` : '<p class="pop-p mute">Il titolo esteso non è stato letto in automatico: lo trovi nella scheda ufficiale qui sotto.</p>'}
+    ${cosaE(x.titolo, x.atto && x.atto.titolo)}
+    ${x.atto && x.atto.iniziativa ? `<p class="pop-p mute">Presentato da: ${te(x.atto.iniziativa)}</p>` : ""}
+    <div class="pop-sub">Com'è andata</div>
+    <div class="barra"><span style="flex:${x.fav};background:#1f9d6b">${x.fav}</span><span style="flex:${x.ast || 0.0001};background:#94a3b8"></span><span style="flex:${x.con};background:#dc2626">${x.con}</span></div>
+    <div class="voto-l"><span>👍 Sì ${Math.round((x.fav / t) * 100)}%</span><span>Astenuti ${x.ast}</span><span>👎 No ${Math.round((x.con / t) * 100)}%</span></div>
+    <p class="pop-p mute">Votanti ${x.votanti}. I voti sono quelli registrati dalla Camera; chi era in missione o assente non è contato.</p>
+    ${gr.length ? `<div class="pop-sub">Chi ha votato cosa</div>${lettura}${sez("👍 A favore", "fav")}${sez("👎 Contro", "con")}${sez("⚪ Astenuti", "ast")}<p class="pop-leg"><i class="magg"></i>maggioranza <i class="opp"></i>opposizione</p>` : ""}
+    <div class="pop-sub">Perché hanno votato così</div>
+    <p class="pop-p mute">Le motivazioni sono nelle <b>dichiarazioni di voto</b> che ogni gruppo pronuncia in Aula: non le riassumo in automatico per non attribuire ai partiti intenzioni non verificate. Le trovi nel resoconto della seduta, collegato alla scheda ufficiale.</p>
+    <div class="pop-az">${x.scheda ? pBtn(x.scheda, "Scheda ufficiale del voto ↗") : ""}${x.scheda_atto ? pBtn(x.scheda_atto, "Scheda dell'atto ↗") : ""}</div>
+    <p class="pop-fonte">Fonte: Camera dei deputati, dati aperti (dati.camera.it)</p>`;
+}
+function popProposta(x, link) {
+  const g = x.iniziativa === "Governo";
+  const spiega = g ? "Presentata dal <b>Governo</b>." : /region/i.test(x.iniziativa) ? "Proposta da un <b>Consiglio regionale</b>." : "Presentata da <b>parlamentari</b>.";
+  return `<div class="riga"><span class="esito ${g ? "si" : ""}">${g ? "🏛️ Governo" : "👥 " + esc(x.iniziativa)}</span><span class="mute">${esc(x.data)}</span></div>
+    <h2 class="pop-t">${te(x.titolo)}</h2><p class="pop-p">${spiega}</p>${cosaE("", x.titolo)}
+    <div class="pop-box">${pRiga("Stato", te(x.stato || "non indicato"))}${pRiga("Presentata il", esc(x.data))}</div>
+    <p class="pop-p mute">Una proposta di legge diventa legge solo se entrambe le Camere approvano lo stesso testo.</p>
+    <div class="pop-az">${pBtn(link, "Atti della Camera ↗")}</div><p class="pop-fonte">Fonte: Camera dei deputati, dati aperti (dati.camera.it)</p>`;
+}
+
 function renderPolitica() {
+  state.pop = {}; popN = 0;
   const p = state.politica;
   if (!p) return vuoto("Dati non disponibili", "Il quadro politico non si è caricato: riprova tra poco.");
   const link = (u, t) => `<a class="lk" href="${esc(u)}" target="_blank" rel="noopener">${t}</a>`;
   const fonti = (arr) => (arr && arr.length ? `<div class="fon">Fonti: ${arr.map((u, i) => link(u, i + 1)).join(" · ")}</div>` : "");
-  const pers = (x) => `<div class="pers"><b>${esc(x.nome)}</b><span>${esc(x.ruolo || "")}</span>${x.partito ? `<em>${esc(x.partito)}</em>` : ""}</div>`;
+  const pers = (x, url) => `<div class="pers tap" ${reg(`<h2 class="pop-t">${esc(x.nome)}</h2><p class="pop-p">${esc(x.ruolo || "")}</p><div class="pop-box">${pRiga("Partito", esc(x.partito || "non indicato"))}</div>${url ? `<div class="pop-az">${pBtn(url, "Pagina ufficiale ↗")}</div>` : ""}`)}><b>${esc(x.nome)}</b><span>${esc(x.ruolo || "")}</span>${x.partito ? `<em>${esc(x.partito)}</em>` : ""}</div>`;
   const A = state.politicaAuto || {}, S = state.politicaStato || {};
   const stampa = (b) => {
     const au = A[b], st = S[b] || {};
@@ -467,7 +565,7 @@ function renderPolitica() {
   }
   const mg = c.gruppi.filter((x) => x.blocco === "magg").reduce((s, x) => s + x.n, 0), op = c.gruppi.filter((x) => x.blocco === "opp").reduce((s, x) => s + x.n, 0), al = c.totale - mg - op;
   let h = `<p class="calc-n">Aggiornato al ${esc(p.verificato)}. ${esc(p.nota)}</p>`;
-  h += `<div class="gruppo-titolo">🏛️ ${esc(g.nome)}</div><div class="pcard"><div class="premier">${pers(Object.assign({}, g.premier))}</div><div class="pgrid">${g.persone.map(pers).join("")}</div>
+  h += `<div class="gruppo-titolo">🏛️ ${esc(g.nome)}</div><div class="pcard"><div class="premier">${pers(Object.assign({}, g.premier), g.link)}</div><div class="pgrid">${g.persone.map((x) => pers(x, g.link)).join("")}</div>
     <ul class="nov">${g.novita.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>${segnali(/(ministr[oa]|governo|meloni).*(dimission|rimpasto|giura|nuovo ministro|nuova ministra|sfiducia|crisi di governo)/i)}${stampa("governo")}${link(g.link, "Elenco completo dei ministri →")}${fonti(g.fonti)}</div>`;
   h += `<div class="gruppo-titolo">📊 ${esc(c.titolo)} (${c.totale} seggi)</div><div class="pcard">${hemi(c.gruppi, 340)}
     <div class="soglia">Maggioranza assoluta: ${c.maggioranza_soglia} seggi</div>${legenda(c.gruppi)}
@@ -489,7 +587,9 @@ function renderPolitica() {
   };
   const PT = state.partiti;
   if (PT && PT.partiti && PT.partiti.length) {
-    h += `<div class="gruppo-titolo">🎙️ Chi guida i partiti</div><div class="pcard"><div class="pgrid">${PT.partiti.map((x) => { const gd = x.guida.map((g) => (typeof g === "string" ? { nome: g, ruolo: "" } : g)); return `<div class="pers"><b>${esc(gd.map((g) => g.nome).join(" · "))}</b><span>${esc([...new Set(gd.map((g) => g.ruolo).filter(Boolean))].join(" · "))}${gd.some((g) => g.ruolo) ? " – " : ""}${esc(x.nome)}</span></div>`; }).join("")}</div>${(PT.mancanti || []).length ? `<p class="calc-n">Non trovati in automatico: ${esc(PT.mancanti.join(", "))}.</p>` : ""}<p class="calc-n">Fonte: Wikipedia (letta dalla pagina Wikipedia di ogni partito: un cambio può comparire con qualche giorno di ritardo).</p>${stampa("segretari")}</div>`;
+    h += `<div class="gruppo-titolo">🎙️ Chi guida i partiti</div><div class="pcard"><div class="pgrid">${PT.partiti.map((x) => { const gd = x.guida.map((g) => (typeof g === "string" ? { nome: g, ruolo: "" } : g)); const gdep = ((state.deputati && state.deputati.gruppi) || []).find((q) => String(q.sigla || "").toLowerCase() === x.sigla.toLowerCase() || String(q.gruppo).toLowerCase().startsWith(x.nome.toLowerCase().slice(0, 8)));
+      const pp = reg(`<h2 class="pop-t">${esc(x.nome)}</h2><p class="pop-p">${gd.map((g) => `<b>${esc(g.nome)}</b>${g.ruolo ? " – " + esc(g.ruolo) : ""}`).join("<br>")}</p><div class="pop-box">${gdep ? pRiga("Deputati alla Camera", gdep.n) + pRiga("Capogruppo alla Camera", esc(gdep.presidente || "non rilevato")) : pRiga("Deputati alla Camera", "gruppo non individuato")}</div><p class="pop-fonte">Fonte del vertice: Wikipedia (pagina del partito), può avere qualche giorno di ritardo. Deputati e capogruppo: Camera dei deputati.</p>`);
+      return `<div class="pers tap" ${pp}><b>${esc(gd.map((g) => g.nome).join(" · "))}</b><span>${esc([...new Set(gd.map((g) => g.ruolo).filter(Boolean))].join(" · "))}${gd.some((g) => g.ruolo) ? " – " : ""}${esc(x.nome)}</span></div>`; }).join("")}</div>${(PT.mancanti || []).length ? `<p class="calc-n">Non trovati in automatico: ${esc(PT.mancanti.join(", "))}.</p>` : ""}<p class="calc-n">Fonte: Wikipedia (letta dalla pagina Wikipedia di ogni partito: un cambio può comparire con qualche giorno di ritardo).</p>${stampa("segretari")}</div>`;
   }
   h += elencoGruppi(state.deputati, "👥 Partiti e deputati", "deputati", "deputato");
   h += elencoGruppi(state.senatori, "👥 Partiti e senatori", "senatori", "senatore");
@@ -497,18 +597,18 @@ function renderPolitica() {
   if (VT && VT.voti && VT.voti.length) {
     h += `<div class="gruppo-titolo">🗳️ Ultime votazioni della Camera</div><div class="pcard">${VT.voti.slice(0, 8).map((x) => {
       const t = x.fav + x.con + x.ast || 1, ok = x.esito === "approvata";
-      return `<div class="voto"><div class="voto-t">${esc(x.titolo)}</div><div class="voto-m"><span class="esito ${ok ? "si" : "no"}">${ok ? "✅ Approvata" : "❌ Respinta"}</span><span class="mute">${esc(x.data)}</span></div><div class="barra"><span style="flex:${x.fav};background:#1f9d6b">${x.fav}</span><span style="flex:${x.ast || 0.0001};background:#94a3b8"></span><span style="flex:${x.con};background:#dc2626">${x.con}</span></div><div class="voto-l"><span>👍 Favorevoli ${Math.round((x.fav / t) * 100)}%</span><span>Astenuti ${x.ast}</span><span>👎 Contrari ${Math.round((x.con / t) * 100)}%</span></div>${(x.gruppi || []).length ? `<details class="vg"><summary>Come hanno votato i gruppi</summary>${x.gruppi.map((g) => `<div class="vgr"><span class="vgn">${esc(nomeGruppoVoto(g.sigla))}</span><span class="vg1">👍 ${g.fav}</span><span class="vg2">👎 ${g.con}</span><span class="vg3">⚪ ${g.ast}</span>${g.altro ? `<span class="mute">assenti ${g.altro}</span>` : ""}</div>`).join("")}</details>` : ""}</div>`;
+      return `<div class="voto tap" ${reg(popVoto(x))}><div class="voto-t">${te(x.titolo)}</div><div class="voto-m"><span class="esito ${ok ? "si" : "no"}">${ok ? "✅ Approvata" : "❌ Respinta"}</span><span class="mute">${esc(x.data)}</span></div><div class="barra"><span style="flex:${x.fav};background:#1f9d6b">${x.fav}</span><span style="flex:${x.ast || 0.0001};background:#94a3b8"></span><span style="flex:${x.con};background:#dc2626">${x.con}</span></div><div class="voto-l"><span>👍 Favorevoli ${Math.round((x.fav / t) * 100)}%</span><span>Astenuti ${x.ast}</span><span>👎 Contrari ${Math.round((x.con / t) * 100)}%</span></div><div class="tocca">Tocca per spiegazione e voti dei gruppi ›</div></div>`;
     }).join("")}${stampa("votazioni")}${link(VT.link, "Votazioni sul sito della Camera →")}</div>`;
   }
   const PR = state.proposte;
   if (PR && PR.proposte && PR.proposte.length) {
-    h += `<div class="gruppo-titolo">📜 Ultime proposte di legge</div><div class="pcard">${PR.proposte.slice(0, 8).map((x) => `<div class="voto"><div class="voto-t">${esc(x.titolo)}</div><div class="voto-m"><span class="esito ${x.iniziativa === "Governo" ? "si" : ""}">${x.iniziativa === "Governo" ? "🏛️ Governo" : "👥 " + esc(x.iniziativa)}</span><span class="mute">${esc(x.data)}</span></div>${x.stato ? `<div class="calc-n" style="margin:0">Stato: ${esc(x.stato)}</div>` : ""}</div>`).join("")}${stampa("proposte")}${link(PR.link, "Atti della Camera →")}</div>`;
+    h += `<div class="gruppo-titolo">📜 Ultime proposte di legge</div><div class="pcard">${PR.proposte.slice(0, 8).map((x) => `<div class="voto tap" ${reg(popProposta(x, PR.link))}><div class="voto-t">${te(x.titolo)}</div><div class="voto-m"><span class="esito ${x.iniziativa === "Governo" ? "si" : ""}">${x.iniziativa === "Governo" ? "🏛️ Governo" : "👥 " + esc(x.iniziativa)}</span><span class="mute">${esc(x.data)}</span></div>${x.stato ? `<div class="calc-n" style="margin:0">Stato: ${te(x.stato)}</div>` : ""}<div class="tocca">Tocca per i dettagli ›</div></div>`).join("")}${stampa("proposte")}${link(PR.link, "Atti della Camera →")}</div>`;
   }
   h += `<div class="gruppo-titolo">📍 ${esc(rc.titolo)}</div><div class="pcard">${pers({ nome: rc.presidente.nome, ruolo: "Presidente della Regione", partito: rc.presidente.partito })}<p class="calc-n">${esc(rc.presidente.nota)}</p>
     ${hemi([{ n: rc.consiglio.maggioranza, colore: "#dc2626" }, { n: rc.consiglio.opposizione, colore: "#1e40af" }], 280)}
     <div class="barra"><span style="flex:${rc.consiglio.maggioranza};background:#dc2626">Maggioranza ${rc.consiglio.maggioranza}</span><span style="flex:${rc.consiglio.opposizione};background:#1e40af">Opposizione ${rc.consiglio.opposizione}</span></div>
     <p class="calc-n">Presidente del Consiglio regionale: ${esc(rc.consiglio.presidente)}. Capo dell'opposizione: ${esc(rc.consiglio.capo_opposizione)}.</p>
-    <div class="pgrid">${rc.giunta.map(pers).join("")}</div><p class="calc-n">${esc(rc.giunta_nota)}</p>${segnali(/(fico|giunta regionale|consiglio regionale|regione campania).*(dimission|nuov[oa] assessor|rimpasto|azzerat|decad)/i)}<div class="stamp">✋ Dato inserito a mano il ${esc(p.verificato)}, controllato con le notizie</div>${link(rc.link, "Sito della Regione →")}${fonti(rc.fonti)}</div>`;
+    <div class="pgrid">${rc.giunta.map((x) => pers(x, rc.link)).join("")}</div><p class="calc-n">${esc(rc.giunta_nota)}</p>${segnali(/(fico|giunta regionale|consiglio regionale|regione campania).*(dimission|nuov[oa] assessor|rimpasto|azzerat|decad)/i)}<div class="stamp">✋ Dato inserito a mano il ${esc(p.verificato)}, controllato con le notizie</div>${link(rc.link, "Sito della Regione →")}${fonti(rc.fonti)}</div>`;
   h += `<div class="gruppo-titolo">🏙️ ${esc(ce.titolo)}</div><div class="pcard"><b>${esc(ce.stato)}</b><p class="calc-n">${esc(ce.testo)}</p>${segnali(/caserta.*(commissari|elezioni comunali|sindaco|scioglimento)/i)}<div class="stamp">✋ Dato inserito a mano il ${esc(p.verificato)}, controllato con le notizie</div>${link(ce.link, "Sito del Comune →")}${fonti(ce.fonti)}</div>`;
   h += `<div class="gruppo-titolo">🇪🇺 ${esc(eu.titolo)} (${eu.totale} eletti)</div><div class="pcard">${hemi(eu.gruppi, 340)}${legenda(eu.gruppi)}<p class="calc-n">${esc(eu.partiti)}</p><div class="stamp">Risultato delle elezioni 2024: cambia solo con subentri o cambi di gruppo</div>${link(eu.link, "Risultati ufficiali →")}</div>`;
   h += `<div class="gruppo-titolo">Prossimamente</div><div class="pcard"><ul class="nov">${p.prossimi.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>`;
@@ -541,7 +641,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "38";
+const VERSIONE_APP = "39";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -604,7 +704,7 @@ document.addEventListener("click", (e) => {
     if (!n) return;
     state.lette.add(n.id); store.set("lette", [...state.lette].slice(-20000));
     c.classList.add("letta");
-    window.open(n.link, "_blank", "noopener");
+    apriNews(n);
   }
 });
 function aggiornaNicchie() {
