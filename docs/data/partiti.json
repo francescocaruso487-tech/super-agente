@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-21T13:32:21Z",
+ "aggiornato": "2026-11-21T13:37:29Z",
  "fonte": "Wikipedia e Wikidata",
  "partiti": [
   {
@@ -29,10 +29,6 @@
     {
      "ruolo": "Leader",
      "nome": "Matteo Salvini"
-    },
-    {
-     "ruolo": "Segretario",
-     "nome": "Alberto Di Rubba"
     }
    ]
   },
@@ -43,14 +39,16 @@
     {
      "ruolo": "Segretario",
      "nome": "Antonio Tajani"
-    },
+    }
+   ]
+  },
+  {
+   "sigla": "M5S",
+   "nome": "Movimento 5 Stelle",
+   "guida": [
     {
-     "ruolo": "Presidente",
-     "nome": "Stefano Benigni"
-    },
-    {
-     "ruolo": "Portavoce",
-     "nome": "Raffaele Nevi"
+     "ruolo": "Guida",
+     "nome": "Beppe Grillo"
     }
    ]
   },
@@ -59,16 +57,8 @@
    "nome": "Azione",
    "guida": [
     {
-     "ruolo": "Presidente",
-     "nome": "Elena Bonetti"
-    },
-    {
      "ruolo": "Segretario",
      "nome": "Carlo Calenda"
-    },
-    {
-     "ruolo": "Coordinatore",
-     "nome": "Andrea Mazziotti di Celso"
     }
    ]
   },
@@ -79,10 +69,6 @@
     {
      "ruolo": "Presidente",
      "nome": "Matteo Renzi"
-    },
-    {
-     "ruolo": "Coordinatore",
-     "nome": "Raffaella Paita"
     }
    ]
   },
@@ -103,10 +89,6 @@
     {
      "ruolo": "Segretario",
      "nome": "Riccardo Magi"
-    },
-    {
-     "ruolo": "Presidente",
-     "nome": "Matteo Hallissey"
     }
    ]
   },
@@ -122,7 +104,6 @@
   }
  ],
  "mancanti": [
-  "M5S",
   "AVS"
  ]
 }

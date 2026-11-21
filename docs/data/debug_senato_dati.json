@@ -1,661 +1,630 @@
 {
- "senatore": [
-  [
-   "type",
-   "http://xmlns.com/foaf/0.1/Person"
-  ],
-  [
-   "type",
-   "http://xmlns.com/foaf/0.1/Person"
-  ],
-  [
-   "type",
-   "http://xmlns.com/foaf/0.1/Person"
-  ],
-  [
-   "type",
-   "http://xmlns.com/foaf/0.1/Person"
-  ],
-  [
-   "type",
-   "http://xmlns.com/foaf/0.1/Person"
-  ],
-  [
-   "type",
-   "http://dati.senato.it/osr/Senatore"
-  ],
-  [
-   "type",
-   "http://dati.senato.it/osr/Senatore"
-  ],
-  [
-   "type",
-   "http://dati.senato.it/osr/Senatore"
-  ],
-  [
-   "type",
-   "http://dati.senato.it/osr/Senatore"
-  ],
-  [
-   "type",
-   "http://dati.senato.it/osr/Senatore"
-  ],
-  [
-   "label",
-   "Antonio Azzollini"
-  ],
-  [
-   "birth",
-   "nodeID://b328519597"
-  ],
-  [
-   "aderisce",
-   "nodeID://b326970292"
-  ],
-  [
-   "aderisce",
-   "nodeID://b328512995"
-  ],
-  [
-   "aderisce",
-   "nodeID://b328514733"
-  ],
-  [
-   "aderisce",
-   "nodeID://b328516248"
-  ],
-  [
-   "aderisce",
-   "nodeID://b328516249"
-  ],
-  [
-   "aderisce",
-   "nodeID://b328517538"
-  ],
-  [
-   "aderisce",
-   "nodeID://b328519742"
-  ],
-  [
-   "aderisce",
-   "nodeID://b328519743"
-  ],
-  [
-   "aderisce",
-   "nodeID://b328519744"
-  ],
-  [
-   "aderisce",
-   "nodeID://b328519745"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_cons-23011-60069-2"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_cons-23011-60080-3"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_prim-23011-49887-1"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_prim-23011-49892-1"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_prim-23011-49901-3"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_prim-23011-49902-1"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_prim-23011-49872-1"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_aula-23011-19251-7"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_prim-23011-49873-1"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_prim-23011-49903-1"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_cons-23011-60226-10"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_prim-23011-50515-2"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_prim-23011-50382-1"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_prim-23011-50423-2"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_cons-23011-61158-3"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_cons-23011-62598-1"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_cons-23011-62634-1"
-  ],
-  [
-   "interviene",
-   "http://dati.senato.it/intervento/int_prim-23011-52187-6"
-  ]
+ "senato_adesione_attuale": "nessuna adesione attuale leg.19",
+ "senato_conteggio": [
+  "0"
  ],
- "mandatoSenato": [
+ "senato_ddl_recente": [
   [
-   "type",
-   "http://dati.camera.it/ocd/mandatoSenato"
-  ],
-  [
-   "label",
-   "Mandato Senato XVI Leg. (29/04/2008 - 14/03/2013)"
-  ],
-  [
-   "inizio",
-   "2008-04-29"
-  ],
-  [
-   "tipoMandato",
-   "elettivo"
-  ],
-  [
-   "fine",
-   "2013-03-14"
-  ],
-  [
-   "tipoElezione",
-   "eletto proporzionale dalla XV legislatura"
-  ],
-  [
-   "legislatura",
-   "16"
-  ],
-  [
-   "regioneElezione",
-   "Lombardia"
-  ]
- ],
- "adesioneGruppo": [
-  [
-   "type",
-   "http://dati.camera.it/ocd/adesioneGruppo"
-  ],
-  [
-   "inizio",
-   "2008-05-06"
-  ],
-  [
-   "gruppo",
-   "http://dati.senato.it/gruppo/49"
-  ],
-  [
-   "fine",
-   "2013-03-14"
-  ],
-  [
-   "carica",
-   "Membro"
-  ],
-  [
-   "legislatura",
-   "16"
-  ]
- ],
- "gruppoSenato": [
-  [
-   "type",
-   "http://dati.camera.it/ocd/gruppoParlamentare"
-  ],
-  [
-   "type",
-   "http://dati.camera.it/ocd/gruppoParlamentare"
-  ],
-  [
-   "type",
-   "http://dati.camera.it/ocd/gruppoParlamentare"
-  ],
-  [
-   "type",
-   "http://dati.camera.it/ocd/gruppoParlamentare"
-  ],
-  [
-   "type",
-   "http://dati.camera.it/ocd/gruppoParlamentare"
-  ],
-  [
-   "denominazione",
-   "nodeID://b326972265"
-  ],
-  [
-   "denominazione",
-   "nodeID://b328517437"
-  ],
-  [
-   "denominazione",
-   "nodeID://b328517438"
-  ],
-  [
-   "denominazione",
-   "nodeID://b328519520"
-  ],
-  [
-   "denominazione",
-   "nodeID://b328523753"
-  ],
-  [
-   "denominazione",
-   "nodeID://b328527363"
-  ],
-  [
-   "denominazione",
-   "nodeID://b329885156"
-  ]
- ],
- "ddl": [
-  [
-   "type",
+   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
    "http://dati.senato.it/osr/Ddl"
   ],
   [
-   "type",
+   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
    "http://dati.senato.it/osr/Atto"
   ],
   [
-   "assegnazione",
-   "nodeID://b188344453"
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329850559"
   ],
   [
-   "assegnazione",
-   "nodeID://b188344454"
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329850560"
   ],
   [
-   "assegnazione",
-   "nodeID://b188344455"
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329850561"
   ],
   [
-   "assegnazione",
-   "nodeID://b188344456"
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329850562"
   ],
   [
-   "assegnazione",
-   "nodeID://b188344457"
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329850563"
   ],
   [
-   "statoDdl",
-   "esame in comm."
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329850564"
   ],
   [
-   "ramo",
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329850565"
+  ],
+  [
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329850566"
+  ],
+  [
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329850567"
+  ],
+  [
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329894341"
+  ],
+  [
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329894342"
+  ],
+  [
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329894343"
+  ],
+  [
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329894344"
+  ],
+  [
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329894345"
+  ],
+  [
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329894346"
+  ],
+  [
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329894347"
+  ],
+  [
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329894348"
+  ],
+  [
+   "http://dati.senato.it/osr/assegnazione",
+   "nodeID://b329894349"
+  ],
+  [
+   "http://dati.senato.it/osr/statoDdl",
+   "assegnato (no esame)"
+  ],
+  [
+   "http://dati.senato.it/osr/ramo",
    "S"
   ],
   [
-   "dataPresentazione",
-   "2006-06-09"
+   "http://dati.senato.it/osr/dataPresentazione",
+   "2026-11-20"
   ],
   [
-   "titolo",
-   "Norme per la valorizzazione e la salvaguardia dei prodotti agroalimentari \" tradizionali \" ai sensi dell' articolo 8, co"
+   "http://dati.senato.it/osr/titolo",
+   "Conversione in legge, con modificazioni, del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgent"
   ],
   [
-   "fase",
-   "S.601"
+   "http://dati.senato.it/osr/fase",
+   "S.2098"
   ],
   [
-   "descrIniziativa",
-   "Sen.  DIVINA SERGIO"
+   "http://dati.senato.it/osr/descrIniziativa",
+   "Gov. Meloni-I: Pres. Consiglio Meloni, Ministro transizione ecologica Pichetto Fratin"
   ],
   [
-   "relatore",
-   "nodeID://b188344480"
+   "http://dati.senato.it/osr/titoloBreve",
+   "d-l 177/2026 - Istruttorie ambientali"
   ],
   [
-   "iniziativa",
-   "http://dati.senato.it/iniziativa/INIZ-DDL-23295-22735"
+   "http://dati.senato.it/osr/iniziativa",
+   "http://dati.senato.it/iniziativa/INIZ-DDL-55700-23006"
   ],
   [
-   "iniziativa",
-   "http://dati.senato.it/iniziativa/INIZ-DDL-23295-17632"
+   "http://dati.senato.it/osr/iniziativa",
+   "http://dati.senato.it/iniziativa/INIZ-DDL-55700-25199"
   ],
   [
-   "iniziativa",
-   "http://dati.senato.it/iniziativa/INIZ-DDL-23295-4519"
+   "http://dati.senato.it/osr/presentatoTrasmesso",
+   "trasmesso"
   ],
   [
-   "presentatoTrasmesso",
-   "presentato"
+   "http://dati.senato.it/osr/natura",
+   "di conversione di decreto-legge"
   ],
   [
-   "natura",
-   "ordinaria"
+   "http://dati.senato.it/osr/idDdl",
+   "55700"
   ],
   [
-   "idDdl",
-   "23295"
+   "http://dati.senato.it/osr/dataStatoDdl",
+   "2026-11-20"
   ],
   [
-   "dataStatoDdl",
-   "2007-04-11"
+   "http://dati.senato.it/osr/numeroFase",
+   "2098"
   ],
   [
-   "numeroFase",
-   "601"
+   "http://dati.senato.it/osr/legislatura",
+   "19"
   ],
   [
-   "legislatura",
-   "15"
-  ],
-  [
-   "progressivoIter",
+   "http://dati.senato.it/osr/progressivoIter",
    "1"
   ],
   [
-   "idFase",
-   "25597"
+   "http://dati.senato.it/osr/idFase",
+   "60613"
   ],
   [
-   "testoPresentato",
-   "urn:nir:senato.repubblica:disegno.legge:15.legislatura;601"
+   "http://dati.senato.it/osr/testoPresentato",
+   "urn:nir:senato.repubblica:disegno.legge:19.legislatura;2098"
   ],
   [
-   "numeroFaseCompatto",
-   "006010000100"
+   "http://dati.senato.it/osr/numeroFaseCompatto",
+   "020980000100"
   ],
   [
-   "classificazione",
-   "http://dati.senato.it/classificazione/25597-GEN-1"
+   "http://dati.senato.it/osr/classificazione",
+   "http://dati.senato.it/classificazione/60613-GEN-2"
   ],
   [
-   "classificazione",
-   "http://dati.senato.it/classificazione/25597-GEN-2"
+   "http://dati.senato.it/osr/classificazione",
+   "http://dati.senato.it/classificazione/60613-ART-4"
   ],
   [
-   "classificazione",
-   "http://dati.senato.it/classificazione/25597-ART-2"
+   "http://dati.senato.it/osr/classificazione",
+   "http://dati.senato.it/classificazione/60613-ART-6"
   ],
   [
-   "classificazione",
-   "http://dati.senato.it/classificazione/25597-ART-3"
+   "http://dati.senato.it/osr/classificazione",
+   "http://dati.senato.it/classificazione/60613-ART-8"
   ],
   [
-   "classificazione",
-   "http://dati.senato.it/classificazione/25597-ART-4"
+   "http://dati.senato.it/osr/classificazione",
+   "http://dati.senato.it/classificazione/60613-ART-10"
   ],
   [
-   "classificazione",
-   "http://dati.senato.it/classificazione/25597-ART-5"
-  ],
-  [
-   "classificazione",
-   "http://dati.senato.it/classificazione/25597-ART-6"
+   "http://dati.senato.it/osr/classificazione",
+   "http://dati.senato.it/classificazione/60613-ART-12"
   ]
  ],
- "iniziativa": [
+ "camera_incarico_gruppo": [
   [
-   "type",
-   "http://dati.senato.it/osr/Iniziativa"
+   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+   "http://dati.camera.it/ocd/incarico"
   ],
   [
-   "label",
-   "Corte Costituzionale (XVI Leg. - Iniziativa Doc. non leg.)"
+   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+   "http://dati.camera.it/ocd/incarico"
   ],
   [
-   "tipoIniziativa",
-   "di ente"
+   "http://www.w3.org/2000/01/rdf-schema#label",
+   "TESORIERE del gruppo FRATELLI D'ITALIA, ANGELO ROSSI (18.10.2022)"
   ],
   [
-   "presentatore",
-   "Corte Costituzionale"
-  ]
- ],
- "atto_camera": [
-  [
-   "type",
-   "http://dati.camera.it/ocd/atto"
+   "http://dati.camera.it/ocd/rif_deputato",
+   "http://dati.camera.it/ocd/deputato.rdf/d308848_19"
   ],
   [
-   "label",
-   "\"Per istituire una Commissione permanente di codificazione civile\""
+   "http://dati.camera.it/ocd/rif_gruppoParlamentare",
+   "http://dati.camera.it/ocd/gruppoParlamentare.rdf/gr4133"
   ],
   [
-   "iniziativa",
-   "Parlamentare"
-  ],
-  [
-   "primo_firmatario",
-   "http://dati.camera.it/ocd/persona.rdf/pr1212"
-  ],
-  [
-   "rif_leg",
-   "http://dati.camera.it/ocd/legislatura.rdf/regno_18"
-  ],
-  [
-   "date",
-   "18930203"
-  ],
-  [
-   "description",
-   "relazione e testo del proponente. Presa in considerazione il 15 febbraio 1893."
-  ],
-  [
-   "title",
-   "\"Per istituire una Commissione permanente di codificazione civile\""
-  ],
-  [
-   "type",
-   "Progetto di Legge"
-  ],
-  [
-   "isReferencedBy",
-   "https://archivio.camera.it/inventari/scheda/disegni-e-proposte-legge-e-incarti-commissioni-1848-1943/CD1100053292/"
-  ],
-  [
-   "identifier",
-   "25"
-  ],
-  [
-   "creator",
-   "Bianchi Emilio"
-  ],
-  [
-   "isPartOf",
-   "Legislatura XVIII - Sessione I - Iniziativa parlamentare"
-  ],
-  [
-   "provenance",
-   "Archivio storico della Camera dei deputati - Fondo Disegni e proposte di legge e incarti delle commissioni 1848 - 1943"
-  ]
- ],
- "gruppo_camera_fdi": [
-  [
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/gruppoParlamentare"
-  ],
-  [
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/gruppoParlamentare"
-  ],
-  [
-   "rdf-schema#label",
-   "FRATELLI D'ITALIA (FDI) (18.10.2022"
-  ],
-  [
-   "rif_incarico",
-   "http://dati.camera.it/ocd/incarico.rdf/i4133_308848_15_20221018"
-  ],
-  [
-   "rif_incarico",
-   "http://dati.camera.it/ocd/incarico.rdf/i4133_307463_10_20221018"
-  ],
-  [
-   "rif_incarico",
-   "http://dati.camera.it/ocd/incarico.rdf/i4133_50204_12_20221018"
-  ],
-  [
-   "rif_incarico",
-   "http://dati.camera.it/ocd/incarico.rdf/i4133_307298_10_20241203"
-  ],
-  [
-   "rif_incarico",
-   "http://dati.camera.it/ocd/incarico.rdf/i4133_308825_19_20250311"
-  ],
-  [
-   "rif_incarico",
-   "http://dati.camera.it/ocd/incarico.rdf/i4133_308883_19_20221109"
-  ],
-  [
-   "rif_incarico",
-   "http://dati.camera.it/ocd/incarico.rdf/i4133_307334_19_20221109"
-  ],
-  [
-   "rif_incarico",
-   "http://dati.camera.it/ocd/incarico.rdf/i4133_301558_11_20221109"
-  ],
-  [
-   "rif_incarico",
-   "http://dati.camera.it/ocd/incarico.rdf/i4133_308908_19_20221109"
-  ],
-  [
-   "rif_incarico",
-   "http://dati.camera.it/ocd/incarico.rdf/i4133_308909_11_20221109"
-  ],
-  [
-   "rif_incarico",
-   "http://dati.camera.it/ocd/incarico.rdf/i4133_307889_11_20221109"
-  ],
-  [
-   "rif_incarico",
-   "http://dati.camera.it/ocd/incarico.rdf/i4133_308897_12_20221109"
-  ],
-  [
-   "rif_incarico",
-   "http://dati.camera.it/ocd/incarico.rdf/i4133_50204_10_20221109"
-  ],
-  [
-   "rif_incarico",
-   "http://dati.camera.it/ocd/incarico.rdf/i4133_308885_11_20260128"
-  ],
-  [
-   "rif_incarico",
-   "http://dati.camera.it/ocd/incarico.rdf/i4133_307464_11_20230420"
-  ],
-  [
-   "rif_leg",
+   "http://dati.camera.it/ocd/rif_leg",
    "http://dati.camera.it/ocd/legislatura.rdf/repubblica_19"
   ],
   [
-   "siComponeDi",
-   "nodeID://b51393666034747109"
+   "http://dati.camera.it/ocd/ruolo",
+   "TESORIERE"
   ],
   [
-   "siComponeDi",
-   "nodeID://b51393666034754312"
+   "http://dati.camera.it/ocd/startDate",
+   "20221018"
   ],
   [
-   "siComponeDi",
-   "nodeID://b51393666034755751"
+   "http://purl.org/dc/elements/1.1/date",
+   "20221018"
   ],
   [
-   "siComponeDi",
-   "nodeID://b51393666034756824"
+   "http://purl.org/dc/elements/1.1/title",
+   "TESORIERE del gruppo FRATELLI D'ITALIA, ANGELO ROSSI (18.10.2022)"
   ],
   [
-   "siComponeDi",
-   "nodeID://b51393666034757852"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034758953"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034760251"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034762022"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034763140"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034764664"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034765908"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034767351"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034768398"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034770342"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034771325"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034772399"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034773591"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034774693"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034775377"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034776123"
-  ],
-  [
-   "siComponeDi",
-   "nodeID://b51393666034776864"
+   "http://lod.xdams.org/ontologies/ods/modified",
+   "2022-10-20T12:02:44Z"
   ]
  ],
- "rimandi_al_gruppo_fdi": [
+ "camera_incarichi_etichette": [
+  "SBARDELLA LUCA (FDI) ha votato contrario",
+  "DONDI DANIELA (FDI) ha votato favorevole",
+  "GIORGIANNI CARMEN LETIZIA (FDI) ha votato favorevole",
+  "CIANCITTO FRANCESCO MARIA SALVATORE (FDI) ha votato contrario",
+  "COMBA FABRIZIO (FDI) ha votato contrario",
+  "TREMAGLIA ANDREA (FDI) ha votato contrario",
+  "CANGIANO GEROLAMO (FDI) ha votato favorevole",
+  "AMICH ENZO (FDI) ha votato contrario",
+  "DONZELLI GIOVANNI (FDI) in missione",
+  "MURA FRANCESCO (FDI) ha votato contrario",
+  "ANTONIOZZI ALFREDO (FDI) ha votato favorevole",
+  "CANNATA GIOVANNI LUCA (FDI) non ha partecipato",
+  "DI GIUSEPPE ANDREA (FDI) ha votato favorevole",
+  "CONGEDO SAVERIO (FDI) ha votato contrario",
+  "GIORDANO ANTONIO (FDI) ha votato contrario",
+  "MATTIA ALDO (FDI) ha votato favorevole",
+  "POZZOLO EMANUELE (FDI) non ha partecipato",
+  "DELMASTRO DELLE VEDOVE ANDREA (FDI) non ha partecipato",
+  "ANTONIOZZI ALFREDO (FDI) ha votato contrario",
+  "MALAGUTI MAURO (FDI) ha votato favorevole",
+  "CIABURRO MONICA (FDI) ha votato contrario",
+  "PALOMBI ALESSANDRO (FDI) ha votato contrario",
+  "BUONGUERRIERI ALICE (FDI) ha votato favorevole",
+  "LONGI ELIANA (FDI) non ha partecipato",
+  "BENVENUTI GOSTOLI STEFANO MARIA (FDI) ha votato contrario",
+  "VIETRI IMMA (FDI) ha votato favorevole",
+  "MANTOVANI LUCREZIA MARIA BENEDETTA (FDI) ha votato contrario",
+  "MESSINA MANLIO (FDI) ha votato favorevole",
+  "DONZELLI GIOVANNI (FDI) ha votato favorevole",
+  "VIETRI IMMA (FDI) ha votato contrario",
+  "BIGNAMI GALEAZZO (FDI) in missione",
+  "CHIESA PAOLA MARIA (FDI) ha votato contrario",
+  "MAERNA NOVO UMBERTO (FDI) non ha partecipato",
+  "GARDINI ELISABETTA (FDI) ha votato favorevole",
+  "FRIJIA MARIA GRAZIA (FDI) ha votato contrario",
+  "SCHIANO DI VISCONTI MICHELE (FDI) ha votato contrario",
+  "MASCARETTI ANDREA (FDI) ha votato contrario",
+  "COLOSIMO CHIARA (FDI) ha votato contrario",
+  "SCHIFONE MARTA (FDI) ha votato contrario",
+  "LANCELLOTTA ELISABETTA CHRISTIANA (FDI) ha votato contrario"
+ ],
+ "camera_atto_leg19": [
   [
-   "voto",
-   "rif_gruppoParlamentare"
+   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+   "http://dati.camera.it/ocd/atto"
   ],
   [
-   "incarico",
-   "rif_gruppoParlamentare"
+   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+   "http://dati.camera.it/ocd/atto"
+  ],
+  [
+   "http://www.w3.org/2000/01/rdf-schema#label",
+   " S. 2053. - \\\"Conversione in legge, con modificazioni, del decreto-legge 30 settembre 2026, n. 170, recante mi"
+  ],
+  [
+   "http://dati.camera.it/ocd/iniziativa",
+   "Governo"
+  ],
+  [
+   "http://dati.camera.it/ocd/primo_firmatario",
+   "nodeID://b51393207013905556"
+  ],
+  [
+   "http://dati.camera.it/ocd/primo_firmatario",
+   "nodeID://b51393207013910683"
+  ],
+  [
+   "http://dati.camera.it/ocd/primo_firmatario",
+   "nodeID://b51393207013911800"
+  ],
+  [
+   "http://dati.camera.it/ocd/primo_firmatario",
+   "nodeID://b51393207013912616"
+  ],
+  [
+   "http://dati.camera.it/ocd/primo_firmatario",
+   "nodeID://b51393207013922165"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_assegnazione",
+   "http://dati.camera.it/ocd/assegnazione.rdf/a19_46840"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_dibattito",
+   "http://dati.camera.it/ocd/dibattito.rdf/dib208472_19"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_governo",
+   "http://dati.camera.it/ocd/governo.rdf/g202"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_leg",
+   "http://dati.camera.it/ocd/legislatura.rdf/repubblica_19"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_natura",
+   "http://dati.camera.it/ocd/natura.rdf/disegno_legge_ordinario"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_statoIter",
+   "http://dati.camera.it/ocd/statoIter.rdf/si19_95780"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_statoIter",
+   "http://dati.camera.it/ocd/statoIter.rdf/si19_95781"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_statoIter",
+   "http://dati.camera.it/ocd/statoIter.rdf/si19_95782"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_versioneTestoAtto",
+   "http://dati.camera.it/ocd/versioneTestoAtto.rdf/vta19_leg.19.pdl.camera.3189.19PDL0224080"
+  ],
+  [
+   "http://purl.org/dc/elements/1.1/date",
+   "20261119"
+  ],
+  [
+   "http://purl.org/dc/elements/1.1/title",
+   " S. 2053. - \"Conversione in legge, con modificazioni, del decreto-legge 30 settembre 2026, n. 170, recante mis"
+  ],
+  [
+   "http://purl.org/dc/elements/1.1/type",
+   "Progetto di Legge"
+  ],
+  [
+   "http://purl.org/dc/terms/isReferencedBy",
+   "http://www.camera.it/uri-res/N2Ls?urn:camera-it:parlamento:scheda.progetto.legge:camera;19.legislatura;3189"
+  ],
+  [
+   "http://lod.xdams.org/ontologies/ods/modified",
+   "2026-11-21T13:47:34Z"
+  ],
+  [
+   "http://purl.org/dc/elements/1.1/identifier",
+   "3189"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_relatore",
+   "http://dati.camera.it/ocd/relatore.rdf/rel19_17478"
+  ],
+  [
+   "http://purl.org/dc/elements/1.1/creator",
+   "BERNINI Anna Maria"
+  ],
+  [
+   "http://purl.org/dc/elements/1.1/creator",
+   "FOTI Tommaso"
+  ],
+  [
+   "http://purl.org/dc/elements/1.1/creator",
+   "MELONI Giorgia"
+  ],
+  [
+   "http://purl.org/dc/elements/1.1/creator",
+   "VALDITARA Giuseppe"
+  ],
+  [
+   "http://purl.org/dc/elements/1.1/creator",
+   "ZANGRILLO Paolo"
+  ],
+  [
+   "http://dati.camera.it/ocd/diConcertoCon",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg307492_6_202_545_20221023"
+  ],
+  [
+   "http://purl.org/dc/elements/1.1/relation",
+   "http://documenti.camera.it/_dati/leg19/lavori/stampati/pdf/19PDL0224080.pdf"
   ]
  ],
- "camera": "errore: ReadTimeout: HTTPSConnectionPool(host='dati.camera.it', port=443): Read timed out. (read timeout=60)"
+ "camera_membro_governo": [
+  [
+   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+   "http://dati.camera.it/ocd/membroGoverno"
+  ],
+  [
+   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+   "http://dati.camera.it/ocd/membroGoverno"
+  ],
+  [
+   "http://www.w3.org/2000/01/rdf-schema#label",
+   "Vice Ministro dell'Economia e delle finanze (26.04.2021)"
+  ],
+  [
+   "http://dati.camera.it/ocd/interim",
+   "0"
+  ],
+  [
+   "http://dati.camera.it/ocd/membroGoverno",
+   "VICE MINISTRO"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_governo",
+   "http://dati.camera.it/ocd/governo.rdf/g182"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_leg",
+   "http://dati.camera.it/ocd/legislatura.rdf/repubblica_18"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_organoGoverno",
+   "http://dati.camera.it/ocd/organoGoverno.rdf/og182_52"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_persona",
+   "http://dati.camera.it/ocd/persona.rdf/p305525"
+  ],
+  [
+   "http://dati.camera.it/ocd/startDate",
+   "20210426"
+  ],
+  [
+   "http://purl.org/dc/elements/1.1/date",
+   "20210426"
+  ],
+  [
+   "http://purl.org/dc/elements/1.1/title",
+   "Vice Ministro dell'Economia e delle finanze (26.04.2021)"
+  ],
+  [
+   "http://xmlns.com/foaf/0.1/firstName",
+   "LAURA"
+  ],
+  [
+   "http://lod.xdams.org/ontologies/ods/modified",
+   "2021-04-27T13:03:09Z"
+  ],
+  [
+   "http://xmlns.com/foaf/0.1/surname",
+   "CASTELLI"
+  ]
+ ],
+ "camera_governo": [
+  [
+   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+   "http://dati.camera.it/ocd/governo"
+  ],
+  [
+   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+   "http://dati.camera.it/ocd/governo"
+  ],
+  [
+   "http://www.w3.org/2000/01/rdf-schema#label",
+   "V Governo De Gasperi (23.05.1948 - 27.01.1950)"
+  ],
+  [
+   "http://www.w3.org/2002/07/owl#sameAs",
+   "http://dati.acs.beniculturali.it/governi.owl/G069R"
+  ],
+  [
+   "http://dati.camera.it/ocd/endDate",
+   "19500127"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_leg",
+   "http://dati.camera.it/ocd/legislatura.rdf/repubblica_01"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg10200_5_1_34_19480527"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg11660_5_1_115_19480527"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg11780_3_1_9_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg13230_1_1_1_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg13230_3_1_87_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg18060_5_1_7_19480527"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg18290_5_1_9_19480527"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg18910_3_1_16_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg18970_3_1_10_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg19600_2_1_1_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg19600_6_1_1_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg19910_2_1_1_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg19910_3_1_34_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg19990_3_1_15_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg25590_5_1_12_19480527"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg26070_6_1_1_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg26300_5_1_15_19480527"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg26680_31_1_145_19480527"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg26930_3_1_78_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg27320_3_1_117_19491107"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg27320_3_1_5_19490401"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg27450_5_1_78_19480527"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg28370_2_1_1_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg28370_6_1_1_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg28500_3_1_7_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg28590_3_1_17_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg28610_5_1_10_19480527"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg28640_3_1_8_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg300646_3_1_5_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg300649_31_1_146_19480527"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg300655_31_1_150_19490921"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg8530_5_1_12_19490405"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg8930_3_1_117_19480523"
+  ],
+  [
+   "http://dati.camera.it/ocd/rif_membroGoverno",
+   "http://dati.camera.it/ocd/membroGoverno.rdf/mg10650_6_1_1_19480523"
+  ]
+ ]
 }
