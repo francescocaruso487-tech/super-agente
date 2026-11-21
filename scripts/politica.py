@@ -573,7 +573,7 @@ def guida_da_wikidata(etichette):
     nomi = []
     for b in r.json()["results"]["bindings"]:
         n = norm(b["personaLabel"]["value"])
-        if n and not re.fullmatch(r"Q\d+", n) and n not in nomi:
+        if n and not re.fullmatch(r"Q\d+", n) and n not in nomi and n not in ESCLUSI_GUIDA:
             nomi.append(n)
     return [{"ruolo": "Guida", "nome": n} for n in nomi[:1]] or None
 
