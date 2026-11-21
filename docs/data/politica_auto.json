@@ -1,0 +1,98 @@
+{
+ "camera": {
+  "totale": 398,
+  "maggioranza_soglia": 200,
+  "gruppi": [
+   {
+    "sigla": "AVS",
+    "nome": "Alleanza Verdi e Sinistra",
+    "n": 9,
+    "blocco": "opp",
+    "colore": "#be185d"
+   },
+   {
+    "sigla": "M5S",
+    "nome": "Movimento 5 Stelle",
+    "n": 48,
+    "blocco": "opp",
+    "colore": "#f59e0b"
+   },
+   {
+    "sigla": "PD",
+    "nome": "Partito Democratico",
+    "n": 68,
+    "blocco": "opp",
+    "colore": "#dc2626"
+   },
+   {
+    "sigla": "+Eu",
+    "nome": "+Europa (Misto)",
+    "n": 3,
+    "blocco": "opp",
+    "colore": "#6366f1"
+   },
+   {
+    "sigla": "IV",
+    "nome": "Italia Viva",
+    "n": 7,
+    "blocco": "opp",
+    "colore": "#c084fc"
+   },
+   {
+    "sigla": "Az",
+    "nome": "Azione",
+    "n": 10,
+    "blocco": "opp",
+    "colore": "#8b5cf6"
+   },
+   {
+    "sigla": "Altri",
+    "nome": "Altri: minoranze, non iscritti",
+    "n": 14,
+    "blocco": "altri",
+    "colore": "#94a3b8"
+   },
+   {
+    "sigla": "FN",
+    "nome": "Futuro Nazionale - Vannacci (Misto)",
+    "n": 9,
+    "blocco": "altri",
+    "colore": "#64748b"
+   },
+   {
+    "sigla": "NM",
+    "nome": "Noi Moderati - MAIE",
+    "n": 8,
+    "blocco": "magg",
+    "colore": "#7dd3fc"
+   },
+   {
+    "sigla": "FI",
+    "nome": "Forza Italia",
+    "n": 50,
+    "blocco": "magg",
+    "colore": "#0ea5e9"
+   },
+   {
+    "sigla": "FdI",
+    "nome": "Fratelli d'Italia",
+    "n": 117,
+    "blocco": "magg",
+    "colore": "#1e40af"
+   },
+   {
+    "sigla": "Lega",
+    "nome": "Lega",
+    "n": 55,
+    "blocco": "magg",
+    "colore": "#0d9488"
+   }
+  ],
+  "link": "https://www.camera.it/leg19/46",
+  "aggiornato": "2026-11-21T12:39:55Z"
+ },
+ "deputati": {
+  "totale": 398,
+  "aggiornato": "2026-11-21T12:40:18Z"
+ }
+}

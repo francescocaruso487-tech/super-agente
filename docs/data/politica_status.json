@@ -1,0 +1,22 @@
+{
+ "camera": {
+  "ok": true,
+  "ok_il": "2026-11-21T12:39:55Z",
+  "errore": null
+ },
+ "senato": {
+  "ok": false,
+  "ultimo_tentativo": "2026-11-21T12:39:55Z",
+  "errore": "ValueError: gruppo non trovato: PD"
+ },
+ "governo": {
+  "ok": false,
+  "ultimo_tentativo": "2026-11-21T12:39:57Z",
+  "errore": "HTTPError: 404 Client Error: Not Found for url: https://www.governo.it/it/i-ministri"
+ },
+ "deputati": {
+  "ok": true,
+  "ok_il": "2026-11-21T12:40:18Z",
+  "errore": null
+ }
+}
