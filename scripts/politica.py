@@ -287,6 +287,8 @@ def leggi_capigruppo():
     n = 0
     for g in d["gruppi"]:
         nome = g["gruppo"].lower()
+        if nome.startswith("misto-"):  # le componenti del Misto non hanno un proprio capogruppo
+            continue
         # i gruppi Misto/componenti: si confronta con la parte prima del trattino
         for chiave, (_, persona) in capi.items():
             if chiave == nome or chiave.startswith(nome) or nome.startswith(chiave):
@@ -523,7 +525,7 @@ CAMPI_GUIDA = ["segretario generale", "segretario", "leader", "presidente", "por
 ETICHETTE_WD = {"FdI": ["Fratelli d'Italia"], "M5S": ["Movimento 5 Stelle"], "AVS": ["Alleanza Verdi e Sinistra"], "FN": ["Futuro Nazionale"], "NM": ["Noi Moderati"]}
 
 
-def guida_da_wikipedia(titolo_pagina):
+def guida_da_wikipedia(titolo_pagina, prima=None):
     r = requests.get("https://it.wikipedia.org/w/api.php", headers={"User-Agent": UA}, timeout=30, params={
         "action": "query", "prop": "revisions", "rvprop": "content", "rvslots": "main", "titles": titolo_pagina,
         "redirects": 1, "format": "json", "formatversion": 2})
@@ -549,7 +551,7 @@ def guida_da_wikipedia(titolo_pagina):
                 voce = {"ruolo": chiave.capitalize(), "nome": nome}
                 if voce not in out:
                     out.append(voce)
-    ordine = ["leader", "segretario generale", "segretario", "presidente", "coordinatore", "portavoce", "reggente", "capo politico"]
+    ordine = prima or ["leader", "segretario generale", "segretario", "presidente", "coordinatore", "portavoce", "reggente", "capo politico"]
     out.sort(key=lambda v: ordine.index(v["ruolo"].lower()) if v["ruolo"].lower() in ordine else 99)
     return out[:1] or None
 
@@ -579,7 +581,7 @@ def leggi_segretari():
         guida = None
         for t in titoli:
             try:
-                guida = guida_da_wikipedia(t)
+                guida = guida_da_wikipedia(t, ["presidente", "leader", "segretario generale", "segretario", "coordinatore", "portavoce", "reggente", "capo politico"] if sig == "M5S" else None)
             except requests.RequestException:
                 guida = None
             if guida:
