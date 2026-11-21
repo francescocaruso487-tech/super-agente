@@ -1,7 +1,216 @@
 {
- "aggiornato": "2026-11-21T03:01:05Z",
+ "aggiornato": "2026-11-21T04:01:05Z",
  "tassonomia": "13",
  "notizie": [
+  {
+   "id": "ef631ff3e4d5a128",
+   "titolo": "AI, l’obbligo di trasparenza non vale verso li sviluppatori",
+   "link": "https://www.ilsole24ore.com/art/ai-l-obbligo-trasparenza-non-vale-li-sviluppatori-AJafroNC",
+   "fonte": "a-sole-motori",
+   "fonte_nome": "Il Sole 24 Ore Motori",
+   "tipo": "stampa",
+   "aree": [
+    "tecnica_auto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "Pubblicati gli orientamenti sull’articolo 50 della legge sull’intelligenza artificiale. Le competenze acquisite in questo caso evitano il rischio di fraintendimento",
+   "pubblicata": "2026-11-21T04:06:27Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "tecnica_auto.tech"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "e25ba96f3db93939",
+   "titolo": "Amministratore di sostegno, la gestione familiare esclude il peculato",
+   "link": "https://www.ilsole24ore.com/art/amministratore-sostegno-gestione-familiare-esclude-peculato-AJAvvkNC",
+   "fonte": "f-sole",
+   "fonte_nome": "Il Sole 24 Ore: Norme e Tributi",
+   "tipo": "stampa",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "normativa": false,
+   "sintesi": "Prosciolta la figlia per i prelievi dal conto cointestato",
+   "pubblicata": "2026-11-21T04:04:14Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista",
+    "consulente_lavoro"
+   ]
+  },
+  {
+   "id": "076ad0950c4adb80",
+   "titolo": "Come si fattura all’ente pubblico che perde la causa?",
+   "link": "https://www.laleggepertutti.it/811213_come-si-fattura-allente-pubblico-che-perde-la-causa",
+   "fonte": "f-legge",
+   "fonte_nome": "La Legge per Tutti",
+   "tipo": "stampa",
+   "aree": [
+    "dichiarazioni",
+    "pensioni"
+   ],
+   "normativa": false,
+   "sintesi": "Il giudice condanna la Pa a pagare le spese legali. La fattura va al cliente privato con Iva e cassa. Regole precise per la ritenuta d’acconto.",
+   "pubblicata": "2026-11-21T04:02:54Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "dichiarazioni.iva"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista",
+    "consulente_lavoro"
+   ]
+  },
+  {
+   "id": "222aa0e5602e40ee",
+   "titolo": "Figli dell’adulterio, diritto a essere mantenuti dall’entrata in vigore della Costituzione",
+   "link": "https://www.ilsole24ore.com/art/figli-dell-adulterio-diritto-essere-mantenuti-dall-entrata-vigore-costituzione-AJrEuXNC",
+   "fonte": "p-sole",
+   "fonte_nome": "Il Sole 24 Ore Politica",
+   "tipo": "stampa",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": false,
+   "sintesi": "I figli nati fuori dal matrimonio sono tutelati anche prima del 1975, anno della riforma del diritto di famiglia",
+   "pubblicata": "2026-11-21T04:02:01Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "0b4c372fa97a99f5",
+   "titolo": "Energia: ENEA presenta lo sportello digitale Deciwatt per l’efficienza degli edifici",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/energia-enea-presenta-lo-sportello-digitale-deciwatt-per-lefficienza-degli-edifici.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "0042553c4b8e3454",
+   "titolo": "ENEA sviluppa metodo per calcolare effetto raffrescante dei tetti verdi",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/enea-sviluppa-metodo-per-calcolare-effetto-raffrescante-dei-tetti-verdi.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "70ba60da12a0a6a8",
+   "titolo": "Diagnosi energetiche, dal MASE nuove istruzioni operative per le imprese",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/diagnosi-energetiche-dal-mase-nuove-istruzioni-operative-per-le-imprese.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia",
+    "ambiente"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "energia.prestazioni",
+    "ambiente.via_vas"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista",
+    "geologo",
+    "agronomo",
+    "chimico"
+   ]
+  },
+  {
+   "id": "b698b2cd7f0f9731",
+   "titolo": "Legge di Bilancio 2027: dai bonus assunzioni, ai congedi e alle pensioni. Cosa cambia",
+   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/16/legge-bilancio-2027-bonus-assunzioni-congedi-pensioni-cambia",
+   "fonte": "teknoring",
+   "fonte_nome": "Teknoring",
+   "tipo": "stampa",
+   "aree": [
+    "bonus",
+    "hr"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "bonus.bilancio",
+    "hr.hr"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "geometra",
+    "ingegnere",
+    "architetto",
+    "agente_imm",
+    "hr",
+    "formatore",
+    "consulente_lavoro"
+   ]
+  },
   {
    "id": "dcfd286d7e3a09ec",
    "titolo": "UIA Golden Cubes Awards: i vincitori Gli esiti della fase nazionale",
@@ -15,7 +224,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T03:01:05Z",
+   "visto": "2026-11-21T04:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -35,7 +244,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T03:01:05Z",
+   "visto": "2026-11-21T04:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -55,7 +264,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T03:01:05Z",
+   "visto": "2026-11-21T04:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -75,7 +284,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T03:01:05Z",
+   "visto": "2026-11-21T04:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -95,7 +304,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T03:01:05Z",
+   "visto": "2026-11-21T04:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -115,7 +324,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T03:01:05Z",
+   "visto": "2026-11-21T04:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -135,7 +344,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T03:01:05Z",
+   "visto": "2026-11-21T04:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -157,7 +366,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T03:01:05Z",
+   "visto": "2026-11-21T04:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -165,6 +374,1322 @@
    "prof": [
     "geometra"
    ]
+  },
+  {
+   "id": "6541d107c64ce137",
+   "titolo": "Leggi di più su: Consiglio di presidenza della giustizia tributaria",
+   "link": "https://www.fiscooggi.it/portale/glossario?parola=Consiglio di presidenza della giustizia tributaria",
+   "fonte": "bonus-fiscooggi",
+   "fonte_nome": "Fisco Oggi (rivista Agenzia Entrate)",
+   "tipo": "ufficiale",
+   "aree": [
+    "legale"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "legale.avvocati"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "avvocato",
+    "notaio",
+    "curatore"
+   ]
+  },
+  {
+   "id": "d4ab6ef27b8afbc2",
+   "titolo": "Scuola, Valditara: «Con la Manovra più risorse nel 2027 che nel 2026». Saltano i tagli",
+   "link": "https://www.italiaoggi.it/settori/scuola/scuola-valditara-con-la-manovra-piu-risorse-nel-2027-che-nel-2026-saltano-i-tagli-owqczk4w",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "formazione_cultura",
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola",
+    "bonus.bilancio"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus",
+    "commercialista",
+    "geometra",
+    "ingegnere",
+    "architetto"
+   ]
+  },
+  {
+   "id": "87004c7db8a22002",
+   "titolo": "Indotto ex ILVA e ADI Servizi Marittimi: nuova integrazione al reddito",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.indotto-ex-ilva-e-adi-servizi-marittimi-nuova-integrazione-al-reddito.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "isee.sostegno"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "ddfd9d793ec83950",
+   "titolo": "Fondo Bolzano-Alto Adige: contributo ridotto anche nel 2027",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.fondo-bolzano-alto-adige-contributo-ridotto-anche-nel-2027.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "7439a7638781589f",
+   "titolo": "Emma Bonino nelle istituzioni europee: una presenza eccezionale 13-11-2026 10:14 - 13-11-2026 10:14",
+   "link": "https://rome.europarl.europa.eu/home/pagecontent/Notizie/main/notizie/emma-bonino-nelle-istituzioni-europee-una-presenza-eccezionale.html",
+   "fonte": "p-pe",
+   "fonte_nome": "Parlamento europeo",
+   "tipo": "ufficiale",
+   "aree": [
+    "partiti",
+    "europa"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "partiti.elezioni"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "fac5665e389df745",
+   "titolo": "L'EUROPA CHE FA NOTIZIA - venerdì 16 ottobre ore 10:00 - Briefing pre-plenaria 15-10-2026 16:40 - 15-10-2026 16:40",
+   "link": "https://rome.europarl.europa.eu/preplenary-briefing-16-10-2026",
+   "fonte": "p-pe",
+   "fonte_nome": "Parlamento europeo",
+   "tipo": "ufficiale",
+   "aree": [
+    "europa"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "5d870c138bd191af",
+   "titolo": "Giovani, diritti e sicurezza: il 2 ottobre a Roma la premiazione italiana del Premio Carlo Magno 2026 30-09-2026 10:08",
+   "link": "https://rome.europarl.europa.eu/la-premiazione-italiana-del-premio-carlo-magno-2026",
+   "fonte": "p-pe",
+   "fonte_nome": "Parlamento europeo",
+   "tipo": "ufficiale",
+   "aree": [
+    "giustizia",
+    "europa"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "giustizia.diritti"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "ec7d4e82a1c793e9",
+   "titolo": "Viterbo Half Marathon 2026: tre giorni di sport, inclusione e cittadinanza europea 30-07-2026 11:44 - 18-09-2026 17:00",
+   "link": "https://rome.europarl.europa.eu/viterbo-mezza-maratona-2026",
+   "fonte": "p-pe",
+   "fonte_nome": "Parlamento europeo",
+   "tipo": "ufficiale",
+   "aree": [
+    "giustizia",
+    "europa"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "giustizia.diritti"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "cd35f4ff045b0f6c",
+   "titolo": "Spazio e autonomia strategica europea 27-11-2026 15:00 Vieni a scoprire l’Europa dallo spazio tramite un tavolo multimediale dedicato alle immagini satellitari dell’Agenzia Spaziale Europea",
+   "link": "https://rome.europarl.europa.eu/home/pagecontent/grid-4/main/grid-1/main/story-list/spazio-e-autonomia-strategica-europea.html",
+   "fonte": "p-pe",
+   "fonte_nome": "Parlamento europeo",
+   "tipo": "ufficiale",
+   "aree": [
+    "territorio",
+    "europa"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "territorio.regioni"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "877413bf2e7362dc",
+   "titolo": "La Giornata dell'Europa illumina Roma: migliaia di giovani con Metsola al Campidoglio 08-05-2026 20:30 Giornata dell'Europa 2026 migliaia di giovani protagonisti delle celebrazioni a Roma l’8 e 9 maggio",
+   "link": "https://rome.europarl.europa.eu/home/pagecontent/grid-4/main/grid-1/main/eventi-1/giornata-dell-europa-2026.html",
+   "fonte": "p-pe",
+   "fonte_nome": "Parlamento europeo",
+   "tipo": "ufficiale",
+   "aree": [
+    "europa"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "europa.istituzioni"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "57610a91e661686b",
+   "titolo": "Programma Scuola Ambasciatrice del Parlamento europeo (EPAS) – anno scolastico 2026-2027",
+   "link": "https://rome.europarl.europa.eu/it/dossiers/youth/epas-2026-2027",
+   "fonte": "p-pe",
+   "fonte_nome": "Parlamento europeo",
+   "tipo": "ufficiale",
+   "aree": [
+    "governo",
+    "europa"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "governo.parlamento",
+    "europa.istituzioni"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "22dced5469ca1797",
+   "titolo": "Tajani, 'da Napoli messaggio di pace, ora si lavori a Stato palestinese'",
+   "link": "https://www.ansa.it/sito/notizie/mondo/news_dalle_ambasciate/2026/11/19/tajani-da-napoli-messaggio-di-pace-ora-si-lavori-a-stato-palestinese_268352a0-7a35-462d-b8ee-251b71ac3d63.html",
+   "fonte": "p-ansa-mondo",
+   "fonte_nome": "ANSA Mondo",
+   "tipo": "stampa",
+   "aree": [
+    "territorio",
+    "esteri"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "territorio.campania"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "4b8bbc5bfd3bcaf4",
+   "titolo": "Melania Trump attacca il cerchio magico di Donald: 'Troppi yes men'",
+   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/20/melania-trump-intorno-a-donald-troppi-yes-people_65029810-31b8-43bb-b40c-86863b7edb2a.html",
+   "fonte": "p-ansa-mondo",
+   "fonte_nome": "ANSA Mondo",
+   "tipo": "stampa",
+   "aree": [
+    "esteri"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "a2650665a8ab30af",
+   "titolo": "Libri digitali, Forza Italia pensa al blitz alla Camera: emendamento \"soppressivo\" degli sconti. Il segnale a FdI",
+   "link": "https://www.ilmessaggero.it/politica/partito_tajani_forza_italia_meloni_governo_blitz-9900629.html",
+   "fonte": "p-messaggero",
+   "fonte_nome": "Il Messaggero Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "partiti.partiti",
+    "governo.parlamento"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "89e1aa54efcd379c",
+   "titolo": "“Ciò che distingue la sinistra dalla destra”. Fratoianni e Bonelli da ridere: la sparata a corteo in corso",
+   "link": "https://www.liberoquotidiano.it/news/politica/fratoianni-e-bonelli-da-ridere-cio-che-distingue-la-sinistra-dalla-destra-la-sparata-a-corteo-in-corso/",
+   "fonte": "p-libero",
+   "fonte_nome": "Libero Quotidiano Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "partiti.partiti"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "5a0a2490b445b2d1",
+   "titolo": "5 Prezzi carburanti oggi: benzina e diesel ancora in calo, ecco quanto costano di Alessandra Marchetti",
+   "link": "https://www.automoto.it/news/prezzi-carburanti-oggi-benzina-e-diesel-ancora-in-calo-ecco-quanto-costano.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "elettriche",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "elettriche.ibride"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "ad7dae05a149de91",
+   "titolo": "Nuovo Codice della Strada, svolta per le dashcam: i video degli incidenti diventano prove valide",
+   "link": "https://www.automoto.it/news/nuovo-codice-della-strada-svolta-per-le-dashcam-i-video-degli-incidenti-diventano-prove-valide.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "normativa_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "normativa_auto.codice"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "042e1a4333e2828d",
+   "titolo": "Lamborghini Temerario Spyder: per la prima volta con il tetto rigido retrattile",
+   "link": "https://www.alvolante.it/news/lamborghini-temerario-spyder-prima-volta-il-tetto-rigido-retrattile-422115",
+   "fonte": "a-alvolante",
+   "fonte_nome": "Alvolante",
+   "tipo": "stampa",
+   "aree": [
+    "offerte_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "La aperta mantiene il V8 biturbo plug-in da 920 CV della coupé. Per la prima volta debutta un tetto rigido retrattile, che si apre in movimento fino a 50 km/h.",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "4a8ae5741e9dd888",
+   "titolo": "Auto: dal nuovo Codice della Strada a The Car of The Year, tutte le novità in edicola Sarà un 2027 ricco di novità, sia riguardo i modelli in arrivo che per le regole di ingaggio per emissioni e automobilisti. Finaliste del COTY saranno in prova a Milano",
+   "link": "https://www.auto.it/news/edicola/2026/11/16-9295490/auto_dal_nuovo_codice_della_strada_a_the_car_of_the_year_tutte_le_novit_in_edicola",
+   "fonte": "a-autoit",
+   "fonte_nome": "Auto.it",
+   "tipo": "stampa",
+   "aree": [
+    "normativa_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "normativa_auto.codice",
+    "novita_auto.modelli"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "altre_fonti": []
+  },
+  {
+   "id": "41b5708c4e66bbe0",
+   "titolo": "Auto nuove troppo care per gli italiani, il 75% vuole spendere meno di 30 mila euro",
+   "link": "https://www.corriere.it/motori/26_novembre_17/auto-nuove-troppo-care-per-gli-italiani-il-75-vuole-spendere-meno-di-30-mila-euro-3a052d4e-a30a-4a4a-a829-4dd6f892bxlk.shtml",
+   "fonte": "a-corriere-motori",
+   "fonte_nome": "Corriere della Sera Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "e707d34a92de024f",
+   "titolo": "LIVE F1 Las Vegas, si lotta per la pole: Russell e Antonelli super nelle libere 3",
+   "link": "https://www.gazzetta.it/Formula-1/21-11-2026/live-f1-las-vegas-la-diretta-delle-qualifiche.shtml",
+   "fonte": "a-gazzetta-motori",
+   "fonte_nome": "Gazzetta dello Sport Motori",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "motorsport.f1"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "1e03fe43dbe2475a",
+   "titolo": "Gli 883 e quella generazione cresciuta a pane, benzina e 125. E quanta strada con un \"deca\"...",
+   "link": "https://www.inmoto.it/news/epoca/2026/11/19-9309987/gli_883_e_quella_generazione_cresciuta_a_pane_benzina_e_125_e_quanta_strada_con_un_deca_",
+   "fonte": "a-inmoto",
+   "fonte_nome": "InMoto",
+   "tipo": "stampa",
+   "aree": [
+    "elettriche",
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "elettriche.ibride"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "f816fad1ce180432",
+   "titolo": "Triumph Bonneville T40 e T40 Black: svelati prezzo e arrivo in Italia",
+   "link": "https://www.inmoto.it/news/attualita/2026/11/19-9308829/triumph_bonneville_t40_e_t40_black_svelati_prezzo_e_arrivo_in_italia",
+   "fonte": "a-inmoto",
+   "fonte_nome": "InMoto",
+   "tipo": "stampa",
+   "aree": [
+    "moto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "moto.novita",
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "4be1af20e2567271",
+   "titolo": "Bezzecchi e quel rimpianto chiamato Sprint: senza i mini GP sarebbe in testa al Mondiale",
+   "link": "https://www.gazzetta.it/Moto/moto-GP/18-11-2026/bezzecchi-senza-sprint-in-testa-al-mondiale-motogp.shtml",
+   "fonte": "a-moto-gazzetta",
+   "fonte_nome": "Gazzetta Moto e MotoGP",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.marchi",
+    "motorsport.moto_gp"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "238b064432167995",
+   "titolo": "Ferrari vince Gara 1 a Las Vegas con Alba Larsen f1 academy Alba Larsen (MP Motorsport e Ferrari Academy) vince Gara 1 a Las Vegas al termine di una... 21 nov - 04:18",
+   "link": "https://sport.sky.it/formula-1/2026/11/21/f1-academy-gp-las-vegas-gara-1-ultimo-giro-video",
+   "fonte": "a-sky-f1",
+   "fonte_nome": "Sky Sport F1 e motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.marchi",
+    "motorsport.f1"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "fd8acbbdb92e93c2",
+   "titolo": "Tumore del pancreas, AIFA accelera sul daraxonrasib. Alert dalle associazioni",
+   "link": "https://www.sanitainformazione.it/tumore-del-pancreas-aifa-accelera-sul-daraxonrasib-alert-dalle-associazioni/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "sanita.sistema"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "163c012cb9c52cbe",
+   "titolo": "Antibiotico-resistenza, AIFA lancia la campagna 2026: “Te lo direbbe anche un bambino”",
+   "link": "https://www.sanitainformazione.it/antibiotico-resistenza-aifa-lancia-la-campagna-2026-te-lo-direbbe-anche-un-bambino/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "sanita.sistema"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "31fb4010a6c3bb87",
+   "titolo": "Muro di Berlino, Valditara: “Il 9 novembre 1989 crollò il simbolo del comunismo. Nessuna indulgenza verso le nostalgie totalitarie”",
+   "link": "https://www.mim.gov.it/web/guest/-/muro-di-berlino-valditara-il-9-novembre-1989-crollo-il-simbolo-del-comunismo-nessuna-indulgenza-verso-le-nostalgie-totalitarie-",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "37939a0e73d710d1",
+   "titolo": "05/09/2026 - Valditara: “Più fondi per fronteggiare l’emergenza caldo”",
+   "link": "https://www.mim.gov.it/web/guest/-/valditara-piu-fondi-per-fronteggiare-l-emergenza-caldo-",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "c18fea2ec8465852",
+   "titolo": "04/08/2026 - Valditara: pronta la circolare per mettere un tetto agli stranieri in classe",
+   "link": "https://www.mim.gov.it/web/guest/-/valditara-pronta-la-circolare-per-mettere-un-tetto-agli-stranieri-in-classe-",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "1f9616fcb2407c1a",
+   "titolo": "17/07/2026 - Valditara: meno tablet, più letture e grammatica",
+   "link": "https://www.mim.gov.it/web/guest/-/valditara-meno-tablet-piu-letture-e-grammatica",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "0d5b6fe29fbca09c",
+   "titolo": "14/07/2026 - L’Eco di Bergamo «Il 4+2 una risposta ai bisogni di Bergamo»",
+   "link": "https://www.mim.gov.it/web/guest/-/-piu-metal-detector-ma-la-prevenzione-si-fa-in-famiglia-",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "e8f9aa4cf3e9980a",
+   "titolo": "24/06/2026 - Valditara: i nuovi programmi dei licei puntano a valorizzare la centralità dell'Occidente",
+   "link": "https://www.mim.gov.it/web/guest/-/valditara-i-nuovi-programmi-dei-licei-puntano-a-valorizzare-la-centralita-dell-occidente",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "83a069117f4fdb75",
+   "titolo": "22/01/2024 - Intervento del Ministro Giuseppe Valditara presso la Sinagoga Kupa di Cracovia",
+   "link": "https://www.mim.gov.it/web/guest/-/intervento-del-ministro-giuseppe-valditara-presso-la-sinagoga-kupa-di-cracovia",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "f04f4b3da91a9dd8",
+   "titolo": "03/09/2023 - Forum Ambrosetti di Cernobbio, intervento del Ministro dell'Istruzione e del Merito Giuseppe Valditara",
+   "link": "https://www.mim.gov.it/web/guest/-/forum-ambrosetti-di-cernobbio-intervento-del-ministro-dell-istruzione-e-del-merito-giuseppe-valditara",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "2db8205c6d4cb850",
+   "titolo": "28/01/2025 - “Celebrazione del Giorno della Memoria al Quirinale. Il discorso del Ministro Giuseppe Valditara”",
+   "link": "https://www.mim.gov.it/web/guest/-/celebrazione-del-giorno-della-memoria-al-quirinale-il-discorso-del-ministro-giuseppe-valditara",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "8923adf7aaf8d1d3",
+   "titolo": "02/07/2024 - “Elementari e medie stop ai cellulari. Promossi dal G7”",
+   "link": "https://www.mim.gov.it/web/guest/-/elementari-e-medie-stop-ai-cellulari-promossi-dal-g7",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "1ce2dc647fee4bbb",
+   "titolo": "23/05/2024 - Valditara: “Partendo dalla scuola costruiamo una società che metta al bando la mafia”",
+   "link": "https://www.mim.gov.it/web/guest/-/23-maggio-valditara-partendo-dalla-scuola-costruiamo-una-societa-che-metta-al-bando-la-mafia-",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "6acee0d8388c8338",
+   "titolo": "21/09/2026 - Intervento del Ministro Valditara alla cerimonia di inaugurazione dell’Anno Scolastico 2026/2027",
+   "link": "https://www.mim.gov.it/web/guest/-/intervento-del-ministro-valditara-alla-cerimonia-di-inaugurazione-dell-anno-scolastico-2026-2027",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ],
+   "altre_fonti": []
+  },
+  {
+   "id": "1325cce5e66ba7fc",
+   "titolo": "31/07/2025 - Intervento del Ministro Giuseppe Valditara al Senato sulle misure di prevenzione e contrasto dei femminicidi in età adolescenziale",
+   "link": "https://www.mim.gov.it/web/guest/-/intervento-del-ministro-giuseppe-valditara-al-senato-sulle-misure-di-prevenzione-e-contrasto-dei-femminicidi-in-eta-adolescenziale",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "362248f60dc4aca5",
+   "titolo": "08/07/2025 - Intervento del Ministro Giuseppe Valditara alla cerimonia istituzionale dell’evento “Scuola Futura” a Pesaro",
+   "link": "https://www.mim.gov.it/web/guest/-/intervento-del-ministro-giuseppe-valditara-alla-cerimonia-istituzionale-dell-evento-scuola-futura-a-pesaro",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "a241b2b6b94dc78b",
+   "titolo": "12/06/2025 - Intervento del Ministro Giuseppe Valditara all’VIII Congresso della CISL Scuola",
+   "link": "https://www.mim.gov.it/web/guest/-/intervento-del-ministro-giuseppe-valditara-all-viii-congresso-della-cisl-scuola",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "fa40f32b49edfe69",
+   "titolo": "Rilevazione \"Dati generali\" A.S. 2026/2027 - scuole statali e non statali e Cpia",
+   "link": "https://www.mim.gov.it/web/guest/-/rilevazione-dati-generali-a-s-2026-2027-scuole-statali-e-non-statali-e-cpia",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus",
+    "data"
+   ]
+  },
+  {
+   "id": "1a02d9f70311261b",
+   "titolo": "Milano, il 18 e 19 novembre il Ministero dell’Istruzione e del Merito partecipa a ExpoTraining 2026",
+   "link": "https://www.mim.gov.it/web/guest/-/milano-il-18-e-19-novembre-il-ministero-dell-istruzione-e-del-merito-partecipa-a-expotraining-2026",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "73f0bfdcdc1230a1",
+   "titolo": "Scuola, il MIM ha ospitato il meeting autunnale della European Agency for Special Needs and Inclusive Education (EASNIE): al centr ...",
+   "link": "https://www.mim.gov.it/web/guest/-/scuola-il-mim-ha-ospitato-il-meeting-autunnale-della-european-agency-for-special-needs-and-inclusive-education-easnie-al-centro-il-confronto-europeo-s",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "e6f5b959b77ec46b",
+   "titolo": "Comparto e Area Istruzione e Ricerca - settore scuola: azioni di sciopero previste per l'intera giornata del 20 novembre 2026",
+   "link": "https://www.mim.gov.it/web/guest/-/comparto-e-area-istruzione-e-ricerca-settore-scuola-azioni-di-sciopero-previste-per-l-intera-giornata-del-20-novembre-2026",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "37d9e5fa24bbdcbc",
+   "titolo": "Comparto e Area Istruzione e Ricerca - settore scuola: dati definitivi di adesione allo sciopero del 30 ottobre 2026.",
+   "link": "https://www.mim.gov.it/web/guest/-/comparto-e-area-istruzione-e-ricerca-settore-scuola-dati-definitivi-di-adesione-allo-sciopero-del-30-ottobre-2026-",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus",
+    "data"
+   ]
+  },
+  {
+   "id": "86bc5c90a92537e0",
+   "titolo": "Corri Libera 2026: attraverso lo sport il MIM promuove la cultura del rispetto e il contrasto alla violenza contro le donne",
+   "link": "https://www.mim.gov.it/web/guest/-/corri-libera-2026-attraverso-lo-sport-il-mim-promuove-la-cultura-del-rispetto-e-il-contrasto-alla-violenza-contro-le-donne-1",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "0c2f7f3b9357530c",
+   "titolo": "Milano, il MIM a OrientaTalenti 2026 con un programma di iniziative per gli studenti",
+   "link": "https://www.mim.gov.it/web/guest/-/milano-il-mim-a-orientatalenti-2026-con-un-programma-di-iniziative-per-gli-studenti",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "637db99359f01d48",
+   "titolo": "Decreto Dipartimentale n. 2559 del 9 novembre 2026",
+   "link": "https://www.mim.gov.it/web/guest/-/decreto-dipartimentale-n-2559-del-9-novembre-2026",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "4f0384ddaa4c80d6",
+   "titolo": "Decreto Dirigenziale n. 199298 del 5 novembre 2026",
+   "link": "https://www.mim.gov.it/web/guest/-/decreto-dirigenziale-n-199298-del-5-novembre-2026",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "7a4b477fe18ef3e4",
+   "titolo": "Decreto Direttoriale n. 1515 del 13 novembre 2026",
+   "link": "https://www.mim.gov.it/web/guest/-/decreto-direttoriale-n-1515-del-13-novembre-2026",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "49328811fd986537",
+   "titolo": "Emoji 3D Noto di Google: servono Android 17 e 6 GB di RAM, ma Samsung e WhatsApp restano fuori",
+   "link": "https://www.smartworld.it/news/emoji-3d-noto-google-requisiti-android-17.html",
+   "fonte": "androidworld",
+   "fonte_nome": "AndroidWorld",
+   "tipo": "stampa",
+   "aree": [
+    "smartphone",
+    "software"
+   ],
+   "normativa": false,
+   "sintesi": "Google ha pubblicato i requisiti minimi per le emoji 3D Noto su Android: servono Android 17, 6 GB di RAM, 128 GB di storage e 10 GB liberi.",
+   "pubblicata": "2026-11-21T03:30:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
   },
   {
    "id": "50cd348145dd2a2f",
@@ -549,6 +2074,466 @@
     "archivista",
     "curatore_mus"
    ]
+  },
+  {
+   "id": "251ea068536333bb",
+   "titolo": "Lo Zar bombarda i ponti ma torna a mani vuote dal vertice. E adesso è costretto a trattare",
+   "link": "https://www.lastampa.it/esteri/2026/11/21/news/lo_zar_bombarda_i_ponti_ma_torna_a_mani_vuote_dal_vertice_e_adesso_e_costretto_a_trattare-15804763/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "esteri",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Vendetta dopo i raid in Crimea. L’allarme arriva da Borsa ed economia",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "2feac028f4d698e3",
+   "titolo": "Con gli Apachi, i dronisti che spazzano le retrovie russe. “Musk, ridacci Starlink”",
+   "link": "https://www.lastampa.it/esteri/2026/11/21/news/con_gli_apachi_i_dronisti_che_spazzano_le_retrovie_russe_musk_ridacci_starlink-15804787/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "esteri",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "I limiti all’uso dei satelliti Usa frenano la controffensiva a Zaporizhzhia",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "fbd34f69929b9a66",
+   "titolo": "Scuola, lavoro e meno armi. Cgil e giovani in piazza: “Siamo un milione e mezzo”",
+   "link": "https://www.lastampa.it/cronaca/2026/11/21/news/scuola_lavoro_e_meno_armi_cgil_e_giovani_in_piazza_siamo_un_milione_e_mezzo-15804794/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "economia_pol",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Sciopero generale, cortei in cento città: «Difendiamo il nostro futuro». Assalto al ministero dell’Istruzione, bruciate foto di Crosetto e Trump",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "economia_pol.welfare"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "b960d02e7facb267",
+   "titolo": "Sciopero, Landini sul camion parla da leader: “Questa manovra fa schifo”",
+   "link": "https://www.lastampa.it/politica/2026/11/20/news/landini_sul_camion_parla_da_leader_questa_manovra_fa_schifo-15804804/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "economia_pol",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Il segretario parla poco di contratti, molto di politica. In prima fila il Campo Largo",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "economia_pol.welfare"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "0836bce7748150c5",
+   "titolo": "Sciopero generale, la frattura tra Cgil e la Generazione Z: “Noi non siamo il sindacato”",
+   "link": "https://www.lastampa.it/cronaca/2026/11/21/news/sciopero_generale_la_frattura_tra_cgil_e_la_generazione_z_noi_non_siamo_il_sindacato-15804791/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "economia_pol",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "A Torino e Milano percorsi separati degli studenti. Manifesto con le sigle bruciato a Napoli",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "economia_pol.welfare"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "a9e8b7c31a16b9d2",
+   "titolo": "Manovra, più fondi alla Sanità ma le coperture sono un rebus: ipotesi risparmi del Pnrr",
+   "link": "https://www.lastampa.it/economia/2026/11/21/news/manovra_piu_fondi_alla_sanita_le_coperture_sono_un_rebus-15804704/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "economia_pol",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Schillaci preme sul taglio della card anziani di Forza Italia, Tajani respinge le modifiche.",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "economia_pol.welfare"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "36ea5304f279ed85",
+   "titolo": "Manovra, Francesco Rocca: “Servono più risorse per la salute. Il governo saprà come reperirle”",
+   "link": "https://www.lastampa.it/economia/2026/11/21/news/manovra_rocca_piu_risorse_per_la_salute_il_governo_sapra_come_reperirle-15804737/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Il presidente del Lazio: «Da Meloni 20 miliardi, ma a rischio le tutele per tutti»",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "partiti.partiti",
+    "governo.governo"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "cc9d1ee470011028",
+   "titolo": "Il disgelo Londra-Ue ora è possibile, ma per il rientro servirà un referendum",
+   "link": "https://www.lastampa.it/esteri/2026/11/21/news/il_disgelo_londra-ue_ora_e_possibile_ma_per_il_rientro_servira_un_referendum-15804816/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "europa",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Il diplomatico Joao Vale de Almeida: «Burnham sta accelerando, le aziende inglesi hanno bisogno del mercato unico»",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "europa.istituzioni"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "1b0c031a183d8b6f",
+   "titolo": "Arrestato 23 anni dopo per femminicidio: “Potrebbe farlo ancora”",
+   "link": "https://www.lastampa.it/cronaca/2026/11/21/news/arrestato_23_anni_dopo_per_femminicidio_potrebbe_farlo_ancora-15804741/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Colpo di scena nel cold case di Maria Rita Valerio, fermato l’ex Anche l’attuale moglie lo temeva. “Povera me, mi farà a pezzi”",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "a02bff384990f792",
+   "titolo": "Le armi spuntate degli 007 contro gli hacker, il grande disordine della cyber-sicurezza",
+   "link": "https://www.lastampa.it/cronaca/2026/11/21/news/armi_spuntate_007_contro_hacker_grande_disordine_cyber-sicurezza-15804709/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Scontro sull’Agenzia creata dal governo Draghi. FdI: «Meccanismo barocco». Gabrielli: «Esecutivo inefficiente»",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "governo.governo"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "5a898612aed39e42",
+   "titolo": "Stefano Cobolli: “Il mio Flavio e la Roma. Non piangeva mai, ora lo fa ed è un bene”",
+   "link": "https://www.lastampa.it/sport/speciali/atp-finals-2026/2026/11/21/news/stefano_cobolli_il_mio_flavio_e_la_roma_non_piangeva_mai_ora_lo_fa_ed_e_un_bene-15804721/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Il papà e coach dell’azzurro: «Noi militari in campo e casinisti in curva»",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "df39fda5a1cbce26",
+   "titolo": "Alcaraz e Shelton, talento e potenza. Una sfida che va oltre le Finals",
+   "link": "https://www.lastampa.it/sport/speciali/atp-finals-2026/2026/11/21/news/alcaraz_e_shelton_talento_e_potenza_una_sfida_oltre_le_finals-15804726/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Nella prima semifinale Carlitos, che ha battuto Cobolli 6-4 6-1 e superato il test, affronta l’americano",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "fe3615e4bb3c44eb",
+   "titolo": "Forza Italia non cede sugli e-book a scuola. L’ipotesi della fiducia",
+   "link": "https://www.lastampa.it/politica/2026/11/21/news/forza_italia_non_cede_e-book_scuola_ipotesi_fiducia-15804822/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Emendamento degli Azzurri per cancellare lo sconto sui libri elettronici. Le contromosse di Fratelli d’Italia e Lega. La strategia per blindare il testo",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "partiti.partiti",
+    "governo.parlamento"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "a72ab201b9ef5d36",
+   "titolo": "Marina Berlusconi e i contatti con Renzi. Il fastidio di Meloni: “Lei sogna il pareggio”",
+   "link": "https://www.lastampa.it/politica/2026/11/21/news/marina_berlusconi_e_i_contatti_con_renzi_il_fastidio_di_meloni_lei_sogna_il_pareggio-15804817/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "I forzisti pronti ad aprire il fronte dello stop al reintegro dei medici No vax: «In nome di Silvio»",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "partiti.partiti"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "fc3a529fd7db741b",
+   "titolo": "Di Liberatore: “Dispiaciuto per l’incidente a Ballando, lavoro per un ritmo diverso in Rai”",
+   "link": "https://www.lastampa.it/spettacoli/2026/11/21/news/williams_di_liberatore_dispiaciuto_per_l_incidente_a_ballando_lavoro_per_una_rai_con_ritmo_diverso-15804467/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Il direttore dell’Intrattenimento Prime Time: progetti musicali con Sal Da Vinci e Achille Lauro",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "0791e337e4cb6af9",
+   "titolo": "Mathieu Jouvin: “La lirica è un gioco per ragazzi Osiamo, il pubblico è intelligente”",
+   "link": "https://www.lastampa.it/torino/2026/11/21/news/mathieu_jouvin_la_lirica_e_un_gioco_per_ragazzi_osiamo_il_pubblico_e_intelligente-15804692/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Il sovrintendente del Teatro Regio di Torino: «Con un progetto sul canto avvicineremo altre persone»",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "3da514219d35bf61",
+   "titolo": "Il ritorno di Tommy Lee Jones, padre imbroglione dell’inflessibile Ethan Hawke",
+   "link": "https://www.lastampa.it/spettacoli/2026/11/21/news/il_ritorno_di_tommy_lee_jones_padre_imbroglione_dell_inflessibile_ethan_hawke-15804457/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "esteri",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "“The Lowdown”, serie noir che scoperchia i segreti di una città Usa, Tulsa in Oklahoma",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "e86c82f4dd314934",
+   "titolo": "Serie gol, quasi 100 reti in più rispetto alla scorsa stagione. Ecco perché",
+   "link": "https://www.lastampa.it/sport/2026/11/21/news/serie_gol_quasi_100_reti_in_piu_rispetto_alla_scorsa_stagione_ecco_perche-15804768/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Riparte un campionato emozionante e aperto. Le regole contro le perdite di tempo funzionano. Rimesse rapide e meno interruzioni. Cresce il gioco effettivo: +23% di tiri",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "562499d769511b10",
+   "titolo": "La Juve segna poco e va sul mercato",
+   "link": "https://www.lastampa.it/sport/2026/11/21/news/la_juve_segna_poco_e_va_sul_mercato-15804781/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Il capocannoniere è Bremer con 3 reti, Kolo Muani e Woltemade fermi a quota 1: Spalletti si aspetta di più da loro",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "1f60ec8feb6bc24c",
+   "titolo": "Toro, lo strano scontro diretto: vedi Napoli e prova il sorpasso",
+   "link": "https://www.lastampa.it/sport/2026/11/21/news/toro_napoli_classifica_tabu_maradona-15804778/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "territorio",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Stasera la sfida allo stadio Maradona contro Allegri in crisi: i granata sono a -1 dai rivali e Abate insegue una vittoria che manca da oltre 17 anni",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [
+    "territorio.campania"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "e287612ba4086d19",
+   "titolo": "La strage del cinema a luci rosse e i frati uccisi a martellate: che cos'è Ludwig",
+   "link": "https://www.lastampa.it/plus/rubriche/coordinate-criminali/2026/11/21/video/ludwig_gruppo_neonazista_strage_cinema_frati_uccisi-15804284/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Un cinema a luci rosse devastato dalle fiamme, due frati aggrediti a martellate, una serie di delitti che sconvolge il Nord Italia tra la fine degli anni Settanta e i…",
+   "pubblicata": "2026-11-21T03:00:00Z",
+   "visto": "2026-11-21T04:01:05Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
   },
   {
    "id": "336ccb4531be6533",
@@ -36368,30 +38353,6 @@
     "archivista",
     "curatore_mus"
    ]
-  },
-  {
-   "id": "29edda60ce931dd3",
-   "titolo": "Libri di testo digitali, il Senato approva l’emendamento di FdI. Forza Italia vota contro",
-   "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNajJYaWoyWG1Sa2lsckM5Nm42UUxlV3d6QzJzLVd4WWIxYkRlYlpBTUFiWWxQakVFTkhCZW1VQllicVVFR1JqakFMa0VMTnZEVjllcnBxNy1Rd3FiOTlsZ0psWExLVVp0VHpGT2R5MjI2Tmc1Q05lM3BmQTlYX0JwcjVobWlnMUIwNW9XTmE1S3pLZVlzVDdEZVU3a0VyZHY2cjZPWjlyT2VtZzkwWE1tUVc4NkFuYlNDOEpyYUl4eWVJbWNsY1BsTnpPNWZJZTkxZnJVN0tPZmhpd2NPdmRLcWZZeXhtbF9sYXBGMkx3WmxweUJQSkg4TmdfWDZDcFhWUms3VjBtZ9IBjAJBVV95cUxOOTZBNkRlSGJVRzhHZFNwZldkakNiWEpkRG9VZnF6LXljQmlrQlZTWjNGR1dMeFBkdjYzc2g2OHptSmREVkJQTUpNOTMtRTZPanVlZUxNUi0tRVhEcmtreWliaVRicVRDWlFacVRZVU51YVByVVVFSGxZcGpCbXI3Nm9sSDJPbU5vdTRHWGlxZFAwM3N4TmY1TnRpVnV5YlkzTUlKRUxDZHVBSzN2S1RIUnpEYWtnZVhKQjFYcXkzQ0k4Qmh4aDlBRk9ETGxrQ1JVYk9ncUkzRHVvT1JoU1lvRl9HRjN3SEU3QS1jZmt6X19PWjFQTkUtN0FoQWVkcm93TENOczZNR2NzYUda?oc=5",
-   "fonte": "p-rainews",
-   "fonte_nome": "Rai News Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo",
-    "partiti"
-   ],
-   "normativa": false,
-   "sintesi": "Libri di testo digitali, il Senato approva l’emendamento di FdI. Forza Italia vota contro RaiNews",
-   "pubblicata": "2026-11-20T17:21:00Z",
-   "visto": "2026-11-21T02:01:00Z",
-   "metodo": "gnews",
-   "sotto": [
-    "governo.parlamento",
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
   },
   {
    "id": "006f331552f00bd3",
@@ -140283,2288 +142244,6 @@
     "infermiere",
     "dietista",
     "veterinario"
-   ]
-  },
-  {
-   "id": "bfaf00ce9ddfd757",
-   "titolo": "Disabilità intellettiva, il CBD non migliora i problemi comportamentali nei bambini",
-   "link": "https://www.sanitainformazione.it/disabilita-intellettiva-il-cbd-non-migliora-i-problemi-comportamentali-nei-bambini/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "35e3ab7e69934b30",
-   "titolo": "Antibiotico-resistenza, allarme ECDC: aumentano in Europa i batteri resistenti ai carbapenemi",
-   "link": "https://www.sanitainformazione.it/antibiotico-resistenza-allarme-ecdc-aumentano-in-europa-i-batteri-resistenti-ai-carbapenemi/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "1f763dd33e29df9d",
-   "titolo": "“La salute è di tutte”, il progetto che porta la prevenzione nei centri antiviolenza: 75 visite nel 2026",
-   "link": "https://www.sanitainformazione.it/la-salute-e-di-tutte-il-progetto-che-porta-la-prevenzione-nei-centri-antiviolenza-75-visite-nel-2026/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "7da876779b833fef",
-   "titolo": "Alcol, nicotina e caffeina: il DNA determina come reagiscono le cellule",
-   "link": "https://www.sanitainformazione.it/alcol-nicotina-e-caffeina-il-dna-determina-come-reagiscono-le-cellule/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "98b5aa2487ec0cb6",
-   "titolo": "Giornata mondiale della toilet 2026, ONU: “3,4 miliardi di persone senza servizi igienici sicuri”",
-   "link": "https://www.sanitainformazione.it/giornata-mondiale-della-toilet-2026-onu-3-4-miliardi-di-persone-senza-servizi-igienici-sicuri/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "3690ee08d5d3071d",
-   "titolo": "Tumore polmonare, identificata una firma di 16 batteri associata alla prognosi",
-   "link": "https://www.sanitainformazione.it/tumore-polmonare-identificata-una-firma-di-16-batteri-associata-alla-prognosi/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "36018e0f98f2ca15",
-   "titolo": "Attività fisica, solo il 9% degli adolescenti raggiunge un’ora al giorno",
-   "link": "https://www.sanitainformazione.it/attivit-fisica-solo-il-9-degli-adolescenti-raggiunge-un-ora-al-giorno/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "f40b0204e7768eea",
-   "titolo": "Interferenti endocrini, l’esposizione inizia prima della nascita: l’allarme di OMS e UNEP",
-   "link": "https://www.sanitainformazione.it/interferenti-endocrini-lesposizione-inizia-prima-della-nascita-lallarme-di-oms-e-unep/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "2088c889151342d7",
-   "titolo": "Commissione Covid, la SItI difende Rezza: “Accertare gli errori è necessario, delegittimare chi ha servito il Paese, no”",
-   "link": "https://www.sanitainformazione.it/commissione-covid-la-siti-difende-rezza-accertare-gli-errori-e-necessario-delegittimare-chi-ha-servito-il-paese-no/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "8262cd051639ac6d",
-   "titolo": "Tumore al seno, alcune varianti di BRCA2 sono associate a un rischio inferiore",
-   "link": "https://www.sanitainformazione.it/tumore-al-seno-alcune-varianti-di-brca2-sono-associate-a-un-rischio-inferiore/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "82014102d2314ee1",
-   "titolo": "Intelligenza artificiale in ambulatorio, quali sono i limiti legali?",
-   "link": "https://www.sanitainformazione.it/intelligenza-artificiale-in-ambulatorio-quali-sono-i-limiti-legali/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "norme",
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "norme.ue"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "039e3090ec11ec27",
-   "titolo": "Tubercolosi, lo Spallanzani aggiorna il PDTA: nuove indicazioni su diagnosi, terapie e isolamento",
-   "link": "https://www.sanitainformazione.it/tubercolosi-lo-spallanzani-aggiorna-il-pdta-nuove-indicazioni-su-diagnosi-terapie-e-isolamento/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "6abdacdd08685dae",
-   "titolo": "Morbillo: Bolivia, Messico e Stati Uniti perdono lo status di Paesi liberi dalla trasmissione endemica",
-   "link": "https://www.sanitainformazione.it/morbillo-bolivia-messico-e-stati-uniti-perdono-lo-status-di-paesi-liberi-dalla-trasmissione-endemica/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "afbcbf4918e9d03e",
-   "titolo": "Ospedali ed energia, Damiani (Maugeri): “Costi in aumento e tariffe non applicate compromettono investimenti in sanità e futuro”",
-   "link": "https://www.sanitainformazione.it/ospedali-ed-energia-damiani-maugeri-costi-in-aumento-e-tariffe-non-applicate-compromettono-investimenti-in-sanit-e-futuro/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita",
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "sanita.sistema",
-    "management.finanza"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "5a954eaabe858ef8",
-   "titolo": "Zucca e diabete: crepes con ricotta e torta al cioccolato per bilanciare gusto e glicemia",
-   "link": "https://www.sanitainformazione.it/zucca-e-diabete-crepes-con-ricotta-e-torta-al-cioccolato-per-bilanciare-gusto-e-glicemia/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "0c25cebe6f93b9b0",
-   "titolo": "Birra e superalcolici aumentano il rischio di danno renale acuto, il vino no",
-   "link": "https://www.sanitainformazione.it/birra-e-superalcolici-aumentano-il-rischio-di-danno-renale-acuto-il-vino-no/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "916c1a0e271605d1",
-   "titolo": "Dipendenza da cannabis, il rischio di pensieri suicidi è più alto del 57%",
-   "link": "https://www.sanitainformazione.it/dipendenza-da-cannabis-il-rischio-di-pensieri-suicidi-e-piu-alto-del-57/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "56a39038531522e9",
-   "titolo": "Antibiotico-resistenza, Oms: “Un’infezione batterica su sei è resistente: solo il 22% dei Paesi attua i piani nazionali”",
-   "link": "https://www.sanitainformazione.it/antibiotico-resistenza-oms-un-infezione-batterica-su-sei-resistente-solo-il-22-dei-paesi-attua-i-piani-nazionali/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "208219289db25c35",
-   "titolo": "Farmaci e tumori, i rischi dell’MFN sull’Europa. Le riflessioni al Policy & Practice Forum di Quotidiano Oncologia",
-   "link": "https://www.sanitainformazione.it/farmaci-e-tumori-i-rischi-dellmfn-sulleuropa-le-riflessioni-al-policy-practice-forum-di-quotidiano-oncologia/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "sanita.sistema"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "cbeead629635ea60",
-   "titolo": "Girovita troppo ampio o troppo stretto? In ogni caso, aumenta il rischio di morte",
-   "link": "https://www.sanitainformazione.it/girovita-troppo-ampio-o-troppo-stretto-in-ogni-caso-aumenta-il-rischio-di-morte/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "2a29755decb2b532",
-   "titolo": "Microbioma intestinale, scoperti oltre 116mila gruppi di virus finora sconosciuti",
-   "link": "https://www.sanitainformazione.it/microbioma-intestinale-scoperti-oltre-116mila-gruppi-di-virus-finora-sconosciuti/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "221eeba85967fe3e",
-   "titolo": "SafeTeen, sei strutture sanitarie in rete per la salute mentale degli adolescenti",
-   "link": "https://www.sanitainformazione.it/safeteen-sei-strutture-sanitarie-in-rete-per-la-salute-mentale-degli-adolescenti/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "sanita.sistema"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "cea888f701a758cd",
-   "titolo": "Sangue cordonale, al via la campagna “Il tuo secondo gesto d’amore”: in Italia dona solo il 2,8% delle coppie",
-   "link": "https://www.sanitainformazione.it/sangue-cordonale-al-via-la-campagna-il-tuo-secondo-gesto-damore-in-italia-dona-solo-il-28-delle-coppie/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "2fb490aa24847c8b",
-   "titolo": "Antibiotico-resistenza, Iss: “In Italia i tassi restano alti e un batterio resistente si diffonde in 5 Paesi europei”",
-   "link": "https://www.sanitainformazione.it/antibiotico-resistenza-iss-in-italia-i-tassi-restano-alti-e-un-batterio-resistente-si-diffonde-in-5-paesi-europei/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "0c163be9181887af",
-   "titolo": "Diabete di tipo 2, la qualità della vita cambia con l’età: i più giovani stanno peggio",
-   "link": "https://www.sanitainformazione.it/diabete-di-tipo-2-la-qualita-della-vita-cambia-con-leta-i-piu-giovani-stanno-peggio/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "3e3b606ecde5e618",
-   "titolo": "Tumore della cervice uterina, le Associazioni: “Eliminare la malattia entro il 2030”",
-   "link": "https://www.sanitainformazione.it/tumore-della-cervice-uterina-le-associazioni-eliminare-la-malattia-entro-il-2030/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "cf99322cc86749f0",
-   "titolo": "Disforia di genere. Ame denuncia: “Attese troppo lunghe per la presa in carico”",
-   "link": "https://www.sanitainformazione.it/disforia-di-genere-ame-denuncia-attese-troppo-lunghe-per-la-presa-in-carico/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "c038103909558bf7",
-   "titolo": "Depressione, l’allenamento con i pesi può ridurre i sintomi",
-   "link": "https://www.sanitainformazione.it/depressione-lallenamento-con-i-pesi-puo-ridurre-i-sintomi/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "351ab7c4e69f055b",
-   "titolo": "Glomerulopatie rare, 6 pediatri su 10 non le conoscono: accordo FIMP-SINePe",
-   "link": "https://www.sanitainformazione.it/glomerulopatie-rare-6-pediatri-su-10-non-le-conoscono-accordo-fimp-sinepe/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "d059522d0e279322",
-   "titolo": "Anziani ricoverati, un programma per favorire il movimento non migliora l’autonomia a 30 giorni",
-   "link": "https://www.sanitainformazione.it/anziani-ricoverati-un-programma-per-favorire-il-movimento-non-migliora-lautonomia-a-30-giorni/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "685254eaebee7f20",
-   "titolo": "Daiichi Sankyo Italia, nasce Feel Positive, piattaforma digitale per informazione e supporto ai pazienti oncologici",
-   "link": "https://www.sanitainformazione.it/daiichi-sankyo-italia-nasce-feel-positive-piattaforma-digitale-per-informazione-e-supporto-ai-pazienti-oncologici/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "f97f22c04f6debfe",
-   "titolo": "Legge 104 e permessi durante il ricovero del familiare: quando spettano e quali documenti servono",
-   "link": "https://www.sanitainformazione.it/legge-104-e-permessi-durante-il-ricovero-del-familiare-quando-spettano-e-quali-documenti-servono/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "3fba318453f7e8cf",
-   "titolo": "Tumore e gravidanza, aumentano i parti tra le donne che hanno superato un cancro",
-   "link": "https://www.sanitainformazione.it/tumore-e-gravidanza-aumentano-i-parti-tra-le-donne-che-hanno-superato-un-cancro/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "f938a503bea0cb60",
-   "titolo": "Diabete, il 73% non viene mai interpellato sul proprio benessere emotivo",
-   "link": "https://www.sanitainformazione.it/diabete-il-73-non-viene-mai-interpellato-sul-proprio-benessere-emotivo/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "6329504b78ca2239",
-   "titolo": "Alcol e mortalità, non tutte le bevande hanno gli stessi rischi",
-   "link": "https://www.sanitainformazione.it/alcol-e-mortalita-non-tutte-le-bevande-hanno-gli-stessi-rischi/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "7e06cdbfcceba88d",
-   "titolo": "Depressione, un videogioco per smartphone riduce i sintomi e migliora l’aderenza agli antidepressivi",
-   "link": "https://www.sanitainformazione.it/depressione-un-videogioco-per-smartphone-riduce-i-sintomi-e-migliora-laderenza-agli-antidepressivi/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione",
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.design"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "436da213c5169b97",
-   "titolo": "Tumore al seno, le difficoltà sociali possono ostacolare le cure. Lo studio",
-   "link": "https://www.sanitainformazione.it/tumore-al-seno-le-difficolta-sociali-possono-ostacolare-le-cure-lo-studio/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "54086c51fba41339",
-   "titolo": "Novembre 19 BOLOGNA HR TRENDS - Gestire la F.O.B.O. (Fear Of Becoming Obsolete) nell’era dell’AI",
-   "link": "https://register.aidp.it/events/5184",
-   "fonte": "pr-aidp",
-   "fonte_nome": "AIDP e HR Online",
-   "tipo": "stampa",
-   "aree": [
-    "hr"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "hr.hr"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "hr",
-    "formatore",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "944e15d3cf3f2ad7",
-   "titolo": "Novembre 19 UNIVERSITà DEGLI STUDI G. D'ANNUNZIO DI PESCARA - VIALE PINDARO 42 INGRESSO B- AULA 31 “Ascolta-te: come aprirsi al cambiamento”",
-   "link": "https://register.aidp.it/events/5289",
-   "fonte": "pr-aidp",
-   "fonte_nome": "AIDP e HR Online",
-   "tipo": "stampa",
-   "aree": [
-    "formazione_cultura",
-    "hr"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "hr",
-    "formatore",
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "0155732bd6207976",
-   "titolo": "Novembre 20 PERUGIA - ONAOSI – VIA DELLA CUPA 52, PERUGIA AIDP e ONAOSI – Simulazioni di incontri di colloquio e approfondimenti",
-   "link": "https://register.aidp.it/events/5228",
-   "fonte": "pr-aidp",
-   "fonte_nome": "AIDP e HR Online",
-   "tipo": "stampa",
-   "aree": [
-    "hr"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "hr",
-    "formatore",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "974c4cd59adfd368",
-   "titolo": "Iper La Grande i raddoppia gli investimenti media per il Natale e prepara una gara creativa per la campagna 2027",
-   "link": "https://www.engage.it/brand-e-aziende/iper-la-grande-i-spot-natale-2026.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "management",
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "management.finanza"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario",
-    "finanziario",
-    "manager",
-    "consulente_az"
-   ]
-  },
-  {
-   "id": "bac87729f884bcbd",
-   "titolo": "Rai celebra la Giornata della Televisione con un palinsesto dedicato e l’on air di uno spot",
-   "link": "https://www.engage.it/media-industry/rai-celebra-la-giornata-della-televisione-con-un-palinsesto-dedicato-e-lon-air-di-uno-spot.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "56d2524d81a75984",
-   "titolo": "Extera punta sull'e-commerce B2B: «Per le imprese la sfida è ripensare i processi»",
-   "link": "https://www.engage.it/agenzie/extera-punta-sull-e-commerce-b2b-per-le-imprese-la-sfida-e-ripensare-i-processi.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "digitale",
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "digitale.sviluppo"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario",
-    "ux",
-    "sviluppatore",
-    "data"
-   ]
-  },
-  {
-   "id": "f5ed0ee4a5365e71",
-   "titolo": "Comunicazione, nel 2026 il settore vale 21,3 miliardi di euro (+3,3%). I primi dati dell'Osservatorio di UNA",
-   "link": "https://www.engage.it/dati-e-ricerche/comunicazione-il-settore-vale-213-miliardi-di-euro-e-cresce-del-33-i-primi-dati-dell-osservatorio-una.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario",
-    "data"
-   ]
-  },
-  {
-   "id": "ec0ad02bdbbb4b9e",
-   "titolo": "Anthropic sbarca a Wall Street: IPO record da 1.500 miliardi di dollari",
-   "link": "https://www.engage.it/tecnologia/anthropic-sbarca-a-wall-street-ipo-record-da-1500-miliardi-di-dollari.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "bef44debaa984731",
-   "titolo": "The Insight Club: Elisa Cavestro racconta la nutrizione che parte dall’ascolto",
-   "link": "https://www.engage.it/rubrica/the-insight-club-elisa-cavestro-racconta-la-nutrizione-che-parte-dallascolto.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "b7bfdeedbb196069",
-   "titolo": "Relationship Economy: perché cambia il modo in cui il tuo brand crea valore",
-   "link": "https://www.engage.it/rubrica/relationship-economy-perche-cambia-il-modo-in-cui-il-tuo-brand-crea-valore.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.media"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "178583d58396dd64",
-   "titolo": "GEO, per farsi citare bisogna farsi (ri)conoscere",
-   "link": "https://www.engage.it/rubrica/geo-per-farsi-citare-bisogna-farsi-riconoscere.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "e212ca5053615c68",
-   "titolo": "Retail nell’era dell’AI: dalla ricerca dell’efficienza alla conquista della rilevanza",
-   "link": "https://www.engage.it/rubrica/retail-nellera-dellai-dalla-ricerca-dellefficienza-alla-conquista-della-rilevanza.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "d636dcec16378739",
-   "titolo": "Valeria Tornaghi a Radiocom Café racconta su quali pillar si fonda il successo di Folletto",
-   "link": "https://www.engage.it/rubrica/valeria-tornaghi-a-radiocom-cafe-racconta-su-quali-pillar-si-fonda-il-successo-di-folletto.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "5a4dedf4304c9654",
-   "titolo": "Zero Click Search: perché il brand è la tua unica difesa contro l’oblio dell’AI",
-   "link": "https://www.engage.it/rubrica/zero-click-search-perche-il-brand-e-la-tua-unica-difesa-contro-loblio-dellai.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.media"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "8b41d079aec05a7d",
-   "titolo": "Website & Search Optimization nell’era dell’AI: Gioiellerie online",
-   "link": "https://www.engage.it/rubrica/website-e-search-optimization-nellera-dellai-gioillerie-online.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "78531977f512e5ad",
-   "titolo": "Email Marketing: il canale che libera PMI, agenzie e creator italiani dagli algoritmi",
-   "link": "https://www.engage.it/rubrica/email-marketing-il-canale-che-libera-pmi-agenzie-e-creator-italiani-dagli-algoritmi.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "management",
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "management.manager"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario",
-    "consulente_az",
-    "manager",
-    "compliance"
-   ]
-  },
-  {
-   "id": "cfcb149eaac2c7bb",
-   "titolo": "Oltre il carrello: come l’intrattenimento sta trasformando l’ecommerce. Intervista a Marianna Chillau, Head of b.live in b2x",
-   "link": "https://www.engage.it/rubrica/oltre-il-carrello-come-lintrattenimento-sta-trasformando-lecommerce-intervista-a-marianna-chillau-head-of-blive-in-b2x.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "08fa830dde544c26",
-   "titolo": "Politica 2.0: il ruolo di media digitali, social e podcast",
-   "link": "https://www.engage.it/rubrica/politica-20-il-ruolo-di-media-digitali-social-e-podcast-.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "b3e8c8b785294ec3",
-   "titolo": "Fidelity Card digitale: come è cambiata la raccolta punti",
-   "link": "https://www.engage.it/rubrica/fidelity-card-digitale-come-e-cambiata-la-raccolta-punti.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "08b2e477ed92893e",
-   "titolo": "Singles’ Day 2024: tra utilità e lusso, la parola d’ordine è “premiumness”",
-   "link": "https://www.engage.it/rubrica/singles-day-2024-tra-utilita-e-lusso-la-parola-dordine-e-premiumness.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "4a6090b33e78a153",
-   "titolo": "Video Marketing 2024: trend e strategie per conquistare il pubblico",
-   "link": "https://www.engage.it/rubrica/video-marketing-2024-trend-e-strategie-per-conquistare-il-pubblico-.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.design"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "257f75c9c1c58d0b",
-   "titolo": "The Fool presenta i trend TikTok del settore grocery",
-   "link": "https://www.engage.it/rubrica/the-fool-presenta-i-trend-tiktok-del-settore-grocery.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "644750332f3f73b5",
-   "titolo": "Alimentare il fandom: cosa cercano gli appassionati di sport?",
-   "link": "https://www.engage.it/rubrica/alimentare-il-fandom-cosa-cercano-gli-appassionati-di-sport.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "b9239cf8be951c76",
-   "titolo": "Animali domestici: gli acquisti di cibo e prodotti sono un affare online e integrato nella routine",
-   "link": "https://www.engage.it/rubrica/animali-domestici-gli-acquisti-di-cibo-e-prodotti-sono-un-affare-online-e-integrato-nella-routine.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "ab1da47b8787347e",
-   "titolo": "Educare intrattenendo? La soluzione per i brand è su TikTok: edutainment",
-   "link": "https://www.engage.it/rubrica/educare-intrattenendo-la-soluzione-per-i-brand-e-su-tiktok-edutainment.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.media"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "568767a729c559c0",
-   "titolo": "Integratori alimentari: l’analisi di Witailer e Connexia su acquisti online e trend dai social media",
-   "link": "https://www.engage.it/rubrica/integratori-alimentari-lanalisi-di-witailer-e-connexia-su-acquisti-online-e-trend-dai-social-media.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.media"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "0b35e41bce1b542f",
-   "titolo": "Raggiungere nuove audience su TikTok: la strategia di Magneto per Marcapiuma nella Giornata Mondiale del Sonno",
-   "link": "https://www.engage.it/rubrica/raggiungere-nuove-audience-su-tiktok-la-strategia-di-magneto-per-marcapiuma-nella-giornata-mondiale-del-sonno.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "4a107c584bdf6d5e",
-   "titolo": "Tecnologie cookieless e campagne a performance: funzionano veramente?",
-   "link": "https://www.engage.it/rubrica/tecnologie-cookieless-e-campagne-a-performance-funzionano-veramente.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "9689abc081027bcc",
-   "titolo": "Witor’s torna on air con una campagna su radio e outdoor a Milano",
-   "link": "https://www.engage.it/campagne/witors-torna-on-air-con-una-campagna-su-radio-e-outdoor-a-milano.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "6d58399bcdac0341",
-   "titolo": "Mediaset, una campagna istituzionale per la Giornata mondiale dei diritti dei bambini",
-   "link": "https://www.engage.it/campagne/mediaset-una-campagna-istituzionale-per-la-giornata-mondiale-dei-diritti-dei-bambini.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "b79d219eb092261b",
-   "titolo": "Orogel affida a Life la strategia digital della campagna \"Pronto a tutto\"",
-   "link": "https://www.engage.it/campagne/orogel-affida-a-life-la-strategia-digital-della-campagna-pronto-a-tutto-.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "a16ebe07cedfccb6",
-   "titolo": "Pubblicità, Pan di Stelle accende la magia del Natale con Piccolo Babbo. Firma Armando Testa",
-   "link": "https://www.engage.it/campagne/natale-pan-di-stelle-torna-ad-accendere-i-sogni-nel-nuovo-spot-per-le-festivita-firma-armando-testa.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.media"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "ed3776ab3f81fd7f",
-   "titolo": "Nuovo bando di gara per la promozione dei prodotti agroalimentari in USA e Canada",
-   "link": "https://www.engage.it/agenzie/nuovo-bando-di-gara-per-la-promozione-dei-prodotti-agroalimentari-in-usa-e-canada.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "appalti",
-    "comunicazione"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "appalti.gare"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario",
-    "rup",
-    "ingegnere",
-    "avvocato"
-   ]
-  },
-  {
-   "id": "5e19c0e91ef180ca",
-   "titolo": "MFE Advertising e Publitalia ’80 celebrano il World Tv Day",
-   "link": "https://www.engage.it/media-industry/mfe-advertising-e-publitalia-80-celebrano-il-world-tv-day-al-centro-della-campagna--.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "3bf8d8297274662e",
-   "titolo": "Advanced TV verso il miliardo: la sfida è capire chi ci guarda",
-   "link": "https://www.engage.it/blog/advanced-tv-verso-il-miliardo-la-sfida-e-capire-chi-ci-guarda.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "15a3de5efae7ada7",
-   "titolo": "Come trasformare l’AI in un motore di valori condivisi",
-   "link": "https://www.engage.it/blog/come-trasformare-lai-in-un-motore-di-valori-condivisi.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "ee520e76793bfaff",
-   "titolo": "Dopo l’Attention le Emotion Metrics: come l’AI e l'AR stanno aprendo nuove dimensioni di raccolta dati di prima parte",
-   "link": "https://www.engage.it/blog/dopo-lattention-le-emotion-metrics-come-lai-e-l-ar-stanno-aprendo-nuove-dimensioni-di-raccolta-dati-di-prima-parte.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario",
-    "data"
-   ]
-  },
-  {
-   "id": "135dac558fa3e572",
-   "titolo": "La metrica dell'attenzione per scoprire come la pubblicità impatta sulla memoria degli individui",
-   "link": "https://www.engage.it/blog/attenzione.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.media"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "1798d1ee8a95f074",
-   "titolo": "Metaverso & Business Growth: come cogliere al meglio le opportunità generate dalle nuove frontiere digitali",
-   "link": "https://www.engage.it/blog/metaverso-e-business-growth-come-cogliere-al-meglio-le-opportunita-generate-dalle-nuove-frontiere-digitali.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "5793f1efd996c093",
-   "titolo": "Caffè e digitalizzazione di impresa: il punto di vista di Luca Carbonelli",
-   "link": "https://www.engage.it/blog/caffe-e-digitalizzazione-di-impresa-il-punto-di-vista-di-luca-carbonelli.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "50d61fc94eab88c4",
-   "titolo": "Hypercast: originalità ed eccellenza nel podcast",
-   "link": "https://www.engage.it/blog/hypercast-originalita-ed-eccellenza-nel-podcast.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "18a052383f08afe4",
-   "titolo": "Un manager su quattro ammette di investire troppo sui social. Lo dice uno studio di The Trade Desk",
-   "link": "https://www.engage.it/dati-e-ricerche/un-manager-su-quattro-ammette-di-investire-troppo-sui-social-lo-dice-uno-studio-di-the-trade-desk.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "management",
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "management.manager"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario",
-    "manager",
-    "consulente_az",
-    "compliance"
-   ]
-  },
-  {
-   "id": "57fcee93a7b63edf",
-   "titolo": "BBDO Italy firma il lancio della nuova Kawasaki KLE650 con la campagna \"Life is an adventure. Challenge it.\"",
-   "link": "https://www.engage.it/campagne/bbdo-italy-firma-il-lancio-della-nuova-kawasaki-kle650-con-la-campagna-life-is-an-adventure-challenge-it.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "edd2202013eb3359",
-   "titolo": "Underdogs Group acquisisce il ramo Digital Marketing di MotorK",
-   "link": "https://www.engage.it/agenzie/underdogs-group-acquisisce-il-ramo-di-digital-marketing-di-motork.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.media"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
    ]
   }
  ]
