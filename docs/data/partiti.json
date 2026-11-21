@@ -1,7 +1,17 @@
 {
- "aggiornato": "2026-11-21T13:46:53Z",
+ "aggiornato": "2026-11-21T13:48:58Z",
  "fonte": "Wikipedia e Wikidata",
  "partiti": [
+  {
+   "sigla": "FdI",
+   "nome": "Fratelli d'Italia",
+   "guida": [
+    {
+     "ruolo": "Guida",
+     "nome": "Giorgia Meloni"
+    }
+   ]
+  },
   {
    "sigla": "PD",
    "nome": "Partito Democratico",
@@ -29,6 +39,16 @@
     {
      "ruolo": "Segretario",
      "nome": "Antonio Tajani"
+    }
+   ]
+  },
+  {
+   "sigla": "M5S",
+   "nome": "Movimento 5 Stelle",
+   "guida": [
+    {
+     "ruolo": "Guida",
+     "nome": "Giuseppe Conte"
     }
    ]
   },
@@ -84,8 +104,6 @@
   }
  ],
  "mancanti": [
-  "FdI",
-  "M5S",
   "AVS"
  ]
 }
