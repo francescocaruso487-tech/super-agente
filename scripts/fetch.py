@@ -154,6 +154,22 @@ def in_chrome(a):
     return False
 
 
+
+def titolo_vuoto(titolo, sintesi=""):
+    """Voci senza notizia: solo il nome della fonte ('- ACCA software'), nomi di file immagine, titoli generici."""
+    t = clean(titolo)
+    nudo = re.sub(r"^[\W_]+|[\W_]+$", "", t)
+    if len(nudo) < 8:
+        return True
+    if re.search(r"\.(jpe?g|png|gif|webp|pdf)\s*$", t, re.I):
+        return True
+    if re.match(r"^\s*[-\u2013\u2014|]\s*\S+(?:\s+\S+){0,3}\s*$", t):  # inizia con un trattino e sono poche parole: e' solo il nome del sito
+        return True
+    if nudo.lower() in {"newsletter", "home", "homepage", "news", "notizie", "comunicati stampa", "ultime notizie", "senza titolo"}:
+        return True
+    return False
+
+
 def quality_ok(title):
     """Un titolo da notizia: abbastanza lungo e con almeno 6 parole (esclude voci di menu)."""
     t = clean(title)
@@ -726,6 +742,11 @@ def main():
         if m == "scraping" and (not quality_ok(rec["titolo"]) or rec["aree"] == ["altro"]):
             del known[iid]
 
+    # pulizia: voci senza notizia (solo nome della fonte, immagini, titoli generici)
+    for iid, rec in list(known.items()):
+        if titolo_vuoto(rec["titolo"], rec.get("sintesi", "")) or (not rec.get("tradotto") and not is_italiano(rec["titolo"], rec.get("sintesi", ""))):
+            del known[iid]  # vuota, oppure in inglese e non tradotta
+
     # nuova classificazione dell'archivio quando cambia la tassonomia
     if news_doc.get("tassonomia") != TASSONOMIA:
         by_id = {x["id"]: x for x in sources}
@@ -761,6 +782,8 @@ def main():
             if iid in known:
                 continue
             if it["pubblicata"] and parse_iso(it["pubblicata"]) < ts - timedelta(days=MAX_AGE_NEW_DAYS):
+                continue
+            if titolo_vuoto(it["titolo"], it.get("sintesi", "")):
                 continue
             tradotto = False
             if src.get("lingua") == "en":
