@@ -481,11 +481,15 @@ function renderPolitica() {
     const sg = (s) => esc(String(s).replace(/ - .*/, "").replace(/-(Berlusconi|Salvini|Italia Democratica).*$/i, "").replace(/^MISTO-/i, "Misto · ").replace(/\(.*$/, "").trim());
     const vt = (v) => v.tipo === "passaggio" ? `${esc(v.nome)}: da ${sg(v.da)} a ${sg(v.a)}` : v.tipo === "subentro" ? `${esc(v.nome)} subentra (${sg(v.a)})` : `${esc(v.nome)} non è più ${ruolo} (${sg(v.da)})`;
     return `<div class="gruppo-titolo">${titolo} (${D.totale})</div><div class="pcard">`
-      + D.gruppi.map((g) => `<details class="grp"><summary><i style="background:${esc(g.colore)}"></i><span>${sg(g.gruppo)}</span><b>${g.n}</b></summary><p class="dep">${g.deputati.map((d) => esc(d.nome)).join(" · ")}</p></details>`).join("")
+      + D.gruppi.map((g) => `<details class="grp"><summary><i style="background:${esc(g.colore)}"></i><span>${sg(g.gruppo)}</span><b>${g.n}</b></summary>${g.presidente ? `<p class="dep" style="padding-bottom:0"><b>Capogruppo:</b> ${esc(g.presidente)}</p>` : ""}<p class="dep">${g.deputati.map((d) => esc(d.nome)).join(" · ")}</p></details>`).join("")
       + `<div class="calc-n"><b>🔄 Ultimi cambiamenti</b></div>`
       + ((D.variazioni || []).length ? `<ul class="nov">${D.variazioni.slice(0, 8).map((v) => `<li>${vt(v)} <span class="mute">· ${esc(v.data)}</span></li>`).join("")}</ul>` : `<p class="calc-n">Nessun passaggio di gruppo registrato dall'avvio del controllo automatico.</p>`)
       + stampa(chiave) + link(D.link, "Elenco ufficiale →") + `</div>`;
   };
+  const PT = state.partiti;
+  if (PT && PT.partiti && PT.partiti.length) {
+    h += `<div class="gruppo-titolo">🎙️ Chi guida i partiti</div><div class="pcard"><div class="pgrid">${PT.partiti.map((x) => `<div class="pers"><b>${esc(x.guida.join(" · "))}</b><span>${esc(x.nome)}</span></div>`).join("")}</div>${(PT.mancanti || []).length ? `<p class="calc-n">Non trovati in automatico: ${esc(PT.mancanti.join(", "))}.</p>` : ""}<p class="calc-n">Fonte: Wikidata (aggiornata dai volontari: un cambio di segretario può comparire con qualche giorno di ritardo).</p>${stampa("segretari")}</div>`;
+  }
   h += elencoGruppi(state.deputati, "👥 Partiti e deputati", "deputati", "deputato");
   h += elencoGruppi(state.senatori, "👥 Partiti e senatori", "senatori", "senatore");
   h += `<div class="gruppo-titolo">📍 ${esc(rc.titolo)}</div><div class="pcard">${pers({ nome: rc.presidente.nome, ruolo: "Presidente della Regione", partito: rc.presidente.partito })}<p class="calc-n">${esc(rc.presidente.nota)}</p>
@@ -525,7 +529,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "33";
+const VERSIONE_APP = "34";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -535,8 +539,8 @@ async function carica(forza) {
     return r.json();
   };
   try {
-    const [news, aree, status, prof, profilo, confronto, politica, politicaAuto, politicaStato, deputati, senatori] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({})), j("profilo").catch(() => ({})), j("confronto").catch(() => null), j("politica").catch(() => null), j("politica_auto").catch(() => ({})), j("politica_status").catch(() => ({})), j("deputati").catch(() => null), j("senatori").catch(() => null)]);
-    state.confronto = confronto; state.politica = politica; state.politicaAuto = politicaAuto || {}; state.politicaStato = politicaStato || {}; state.deputati = deputati; state.senatori = senatori;
+    const [news, aree, status, prof, profilo, confronto, politica, politicaAuto, politicaStato, deputati, senatori, partiti] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({})), j("profilo").catch(() => ({})), j("confronto").catch(() => null), j("politica").catch(() => null), j("politica_auto").catch(() => ({})), j("politica_status").catch(() => ({})), j("deputati").catch(() => null), j("senatori").catch(() => null), j("partiti").catch(() => null)]);
+    state.confronto = confronto; state.politica = politica; state.politicaAuto = politicaAuto || {}; state.politicaStato = politicaStato || {}; state.deputati = deputati; state.senatori = senatori; state.partiti = partiti;
     state.profilo = profilo || {};
     if (!Array.isArray(state.modelli)) state.modelli = [...(state.profilo.modelli || [])];
     state.professioni = prof.professioni || {}; state.gruppiProf = prof.gruppi || [];

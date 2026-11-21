@@ -255,15 +255,17 @@ def leggi_senatori():
                 gruppi_url.setdefault(nome, requests.compat.urljoin(URL_SENATO, a["href"]))
     if len(gruppi_url) < 5:
         raise ValueError(f"gruppi del Senato trovati: {len(gruppi_url)}")
-    attivi, per_gruppo = {}, {}
+    attivi, per_gruppo, capi = {}, {}, {}
     for nome, url in gruppi_url.items():
         soup = BeautifulSoup(scarica(url), "lxml")
-        nomi = {}
+        nomi, primo = {}, None
         for img in soup.find_all("img", alt=True):
             m = re.match(r"\s*Foto sen\.\s+(.+)", img["alt"])
             if m:
                 n = titolo(m.group(1))
                 nomi[n.lower()] = n
+                primo = primo or n
+        capi[nome] = primo if primo and "presidente" in soup.get_text(" ").lower() else None
         per_gruppo[nome] = sorted(nomi.values())
         for n in nomi.values():
             attivi[n.lower()] = (n, nome)
@@ -276,7 +278,7 @@ def leggi_senatori():
         low = nome.lower()
         riga = trova(SENATO, low)
         elenco.append({"gruppo": nome, "sigla": riga[1] if riga else nome[:8], "blocco": riga[2] if riga else "altri",
-                       "colore": riga[3] if riga else "#94a3b8", "n": len(persone),
+                       "colore": riga[3] if riga else "#94a3b8", "n": len(persone), "presidente": capi.get(nome),
                        "deputati": [{"id": x.lower(), "nome": x} for x in persone]})
     elenco.sort(key=lambda g: -g["n"])
     f = DATA / "senatori.json"
@@ -298,7 +300,47 @@ def leggi_senatori():
     return {"totale": len(attivi)}
 
 
-BLOCCHI = {"camera": leggi_camera, "senato": leggi_senato, "governo": leggi_governo, "deputati": leggi_deputati, "senatori": leggi_senatori}
+PARTITI = [  # (etichette in italiano su Wikidata, sigla)
+    (["Fratelli d'Italia"], "FdI"), (["Partito Democratico"], "PD"),
+    (["Lega per Salvini Premier", "Lega"], "Lega"), (["Forza Italia"], "FI"),
+    (["Movimento 5 Stelle"], "M5S"), (["Alleanza Verdi e Sinistra"], "AVS"),
+    (["Azione"], "Az"), (["Italia Viva"], "IV"), (["Noi Moderati"], "NM"),
+    (["+Europa"], "+Eu"), (["Futuro Nazionale"], "FN"),
+]
+
+
+def leggi_segretari():
+    """Chi guida ogni partito (segretario/presidente) da Wikidata: incarichi senza data di fine."""
+    etichette = {e: sig for lab, sig in PARTITI for e in lab}
+    valori = " ".join(f'"{e}"@it' for e in etichette)
+    q = f"""SELECT ?lab ?personaLabel WHERE {{
+      VALUES ?lab {{ {valori} }}
+      ?p rdfs:label ?lab ; wdt:P31/wdt:P279* wd:Q7278 ; wdt:P17 wd:Q38 .
+      ?p p:P488 ?st . ?st ps:P488 ?persona .
+      FILTER NOT EXISTS {{ ?st pq:P582 ?fine }}
+      SERVICE wikibase:label {{ bd:serviceParam wikibase:language "it,en". }} }}"""
+    r = requests.get("https://query.wikidata.org/sparql", params={"query": q, "format": "json"},
+                     headers={"User-Agent": UA, "Accept": "application/sparql-results+json"}, timeout=60)
+    r.raise_for_status()
+    trovati = {}
+    for b in r.json()["results"]["bindings"]:
+        sig = etichette.get(b["lab"]["value"])
+        nome = norm(b["personaLabel"]["value"])
+        if sig and nome and not re.fullmatch(r"Q\d+", nome):
+            trovati.setdefault(sig, [])
+            if nome not in trovati[sig]:
+                trovati[sig].append(nome)
+    if len(trovati) < 6:
+        raise ValueError(f"partiti con un capo trovati: {len(trovati)} su {len(PARTITI)}")
+    nomi = {sig: lab[0] for lab, sig in PARTITI}
+    (DATA / "partiti.json").write_text(json.dumps({
+        "aggiornato": ora(), "fonte": "Wikidata",
+        "partiti": [{"sigla": sig, "nome": nomi[sig], "guida": trovati[sig]} for _, sig in PARTITI if sig in trovati],
+        "mancanti": [sig for _, sig in PARTITI if sig not in trovati]}, ensure_ascii=False, indent=1), "utf-8")
+    return {"totale": len(trovati)}
+
+
+BLOCCHI = {"camera": leggi_camera, "senato": leggi_senato, "governo": leggi_governo, "deputati": leggi_deputati, "senatori": leggi_senatori, "segretari": leggi_segretari}
 
 
 def main():
