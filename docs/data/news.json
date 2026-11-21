@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-21T02:51:26Z",
+ "aggiornato": "2026-11-21T03:01:05Z",
  "tassonomia": "13",
  "notizie": [
   {
@@ -15,7 +15,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T02:51:26Z",
+   "visto": "2026-11-21T03:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -35,7 +35,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T02:51:26Z",
+   "visto": "2026-11-21T03:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -55,7 +55,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T02:51:26Z",
+   "visto": "2026-11-21T03:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -75,7 +75,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T02:51:26Z",
+   "visto": "2026-11-21T03:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -95,7 +95,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T02:51:26Z",
+   "visto": "2026-11-21T03:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -115,7 +115,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T02:51:26Z",
+   "visto": "2026-11-21T03:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -135,7 +135,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T02:51:26Z",
+   "visto": "2026-11-21T03:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -157,13 +157,397 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-21T02:51:26Z",
+   "visto": "2026-11-21T03:01:05Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
    "nicchia": "edilizia",
    "prof": [
     "geometra"
+   ]
+  },
+  {
+   "id": "50cd348145dd2a2f",
+   "titolo": "Scegliere il percorso di scuola superiore La scuola secondaria di secondo grado - Il secondo ciclo di istruzione prevede due tipologie di percorsi",
+   "link": "https://www.mim.gov.it/web/guest/scegliere-il-percorso-di-scuola-superiore",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "9bf9067c7685b085",
+   "titolo": "Come funziona il sistema scolastico ? La scelta dell’istituto, i percorsi di studio, l’iscrizione, la valutazione, gli esami finali: tutto quello che devi sapere.",
+   "link": "https://www.mim.gov.it/web/guest/come-funziona-il-sistema-scolastico",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "f15735aef3e37d54",
+   "titolo": "Diventare docente nella scuola Dal titolo di accesso all’abilitazione per insegnare: una panoramica per scegliere e procedere.",
+   "link": "https://www.mim.gov.it/web/guest/diventare-docente-nella-scuola",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura",
+    "norme"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola",
+    "norme.professione"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus",
+    "ingegnere",
+    "perito"
+   ]
+  },
+  {
+   "id": "eb87ec6884d6d0ca",
+   "titolo": "Formazione post diploma: scegli in modo consapevole",
+   "link": "https://www.mim.gov.it/web/guest/formazione-post-diploma-scegli-in-modo-consapevole",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "bonus",
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "bonus.contributi"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus",
+    "mutui",
+    "commercialista",
+    "geometra",
+    "ingegnere"
+   ]
+  },
+  {
+   "id": "cedc037132c56b62",
+   "titolo": "Ricerca: dal MUR oltre 366 milioni per 268 progetti tra università, enti e imprese",
+   "link": "https://www.mur.gov.it/it/news/giovedi-19112026/ricerca-dal-mur-oltre-366-milioni-268-progetti-tra-universita-enti-e-imprese",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "97bdccadc834d8b2",
+   "titolo": "Università: borse di studio, dal MUR 845,8 milioni di euro per l'anno accademico 2026/2027",
+   "link": "https://www.mur.gov.it/it/news/giovedi-12112026/universita-borse-di-studio-dal-mur-8458-milioni-di-euro-lanno-accademico",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "5cf0402373f88dde",
+   "titolo": "Università, a Caivano al via Next Academy. Formazione e lavoro per 40 giovani: due poli dedicati al Green e al Food",
+   "link": "https://www.mur.gov.it/it/news/lunedi-09112026/universita-caivano-al-next-academy-formazione-e-lavoro-40-giovani-due-poli",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "560b2eea7d62b5b9",
+   "titolo": "Einstein Telescope: i Ministri Bernini e Gemkow e la Presidente Todde a Sos Enattos per rafforzare la candidatura Italia-Sassonia",
+   "link": "https://www.mur.gov.it/it/news/martedi-03112026/einstein-telescope-i-ministri-bernini-e-gemkow-e-la-presidente-todde-sos",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "1fe1dc4fcb514c7a",
+   "titolo": "Housing universitario: dal MUR altri 200 milioni di euro per oltre 2.500 posti letto",
+   "link": "https://www.mur.gov.it/it/news/venerdi-23102026/housing-universitario-dal-mur-altri-200-milioni-di-euro-oltre-2500-posti",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "c9a4a4f31e839016",
+   "titolo": "Università telematiche: MUR sollecita verifiche su modalità svolgimento esami",
+   "link": "https://www.mur.gov.it/it/news/venerdi-13112026/universita-telematiche-mur-sollecita-verifiche-su-modalita-svolgimento-esami",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "9021d0ba493239af",
+   "titolo": "RICERCA: Italia e India rafforzano la cooperazione scientifica, incontro tra i Ministri Bernini e Singh",
+   "link": "https://www.mur.gov.it/it/news/giovedi-12112026/ricerca-italia-e-india-rafforzano-la-cooperazione-scientifica-incontro-tra-i",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "abe112f2b1505bd2",
+   "titolo": "Cybersicurezza, Dal MUR 12 milioni di euro per finanziare progetti proposti da Atenei e Enti di Ricerca",
+   "link": "https://www.mur.gov.it/it/news/mercoledi-11112026/cybersicurezza-dal-mur-12-milioni-di-euro-finanziare-progetti-proposti-da",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "81da9994ebb993da",
+   "titolo": "FAQ del Garante per la protezione dei dati personali in materia di trattamento di dati personali dei partecipanti alle procedure concorsuali per finalità di pubblicità e trasparenza alla luce delle recenti disposizioni normative",
+   "link": "https://www.inpa.gov.it/faq-del-garante-per-la-protezione-dei-dati-personali/",
+   "fonte": "pr-concorsi",
+   "fonte_nome": "Concorsi pubblici (inPA)",
+   "tipo": "ufficiale",
+   "aree": [
+    "legale",
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "scraping",
+   "sotto": [
+    "legale.crisi"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus",
+    "curatore",
+    "data",
+    "pubblicitario",
+    "avvocato"
+   ]
+  },
+  {
+   "id": "1e988626f63213fb",
+   "titolo": "Commissariato del Governo per la provincia di Bolzano – Procedura di mobilità per 18 posti nei ruoli locali Amm.ne dell’Interno",
+   "link": "https://www.inpa.gov.it/commissariato-del-govern-provincia-bolzano-mobilita-18-posti-ruoli-locali-amm-ne-dellinterno/",
+   "fonte": "pr-concorsi",
+   "fonte_nome": "Concorsi pubblici (inPA)",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
    ]
   },
   {
@@ -674,6 +1058,27 @@
    "nicchia": "tech",
    "prof": [],
    "tradotto": true
+  },
+  {
+   "id": "f2e595250b6803ba",
+   "titolo": "Usa, l’intelligence avverte le compagnie aeree: “Al Qaeda pronta a compiere attacchi”",
+   "link": "https://www.repubblica.it/esteri/2026/11/21/news/usa_allerta_intelligence_al_qaeda_attacchi_aerei-425739361/",
+   "fonte": "t-repubblica-tech",
+   "fonte_nome": "Repubblica Tecnologia",
+   "tipo": "stampa",
+   "aree": [
+    "pc",
+    "ai"
+   ],
+   "normativa": false,
+   "sintesi": "L'allarme alla vigilia del Thanksgiving, quando sono attesi circa 6 milioni di passeggeri sui voli interni.",
+   "pubblicata": "2026-11-21T02:30:37Z",
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
   },
   {
    "id": "29f575aa6f5721cd",
@@ -3750,6 +4155,28 @@
    "prof": []
   },
   {
+   "id": "315d9b461275ef52",
+   "titolo": "EICMA 2026. NIU si potenzia con l’FQiX 500",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1rZTZYMjNJLXVIRjJHT1NCNHprMnZIcVc1MUlWUGFPbGw4ZXpjcjBId2FDUG85RlZtcWRlTnRSV29udEVnSURFeVU1LW1ZTzVMeklrRUZxVG5XSFJDMEdfYVA5MlFlZW8xODBXLUFxbTUwc2JyY2RzXw?oc=5",
+   "fonte": "a-scooter",
+   "fonte_nome": "Scooter e 125",
+   "tipo": "stampa",
+   "aree": [
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "EICMA 2026. NIU si potenzia con l’FQiX 500 Vaielettrico",
+   "pubblicata": "2026-11-21T01:55:51Z",
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "gnews",
+   "sotto": [
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "e725b1531d9e83c9",
    "titolo": "F1 GP Las Vegas 2026 – Classifica FP3: Russell vola, poi Antonelli, Norris e Leclerc",
    "link": "https://www.formulapassion.it/f1/f1-risultati/classifica-f1-gp-las-vegas-2026-prove-libere-3-fp3-russell-vola-antonelli-norris-leclerc",
@@ -3840,6 +4267,29 @@
    "altre_fonti": [
     "Android Authority"
    ]
+  },
+  {
+   "id": "e3f8c7b1cb2ed967",
+   "titolo": "I proprietari di veicoli elettrici non devono preoccuparsi troppo delle batterie, ma permangono ancora molti luoghi comuni.",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMkUwS3JrcTlWaHhNVDVHZnNIQmYtVjBWTDNoZlIxRTZMWEFLZzF5RWZjRFhpWnd5XzlqNXotakxWRGtWUDdNb1V3M3A1VlNIWjIyTklhd3hyc1oxNlRpWkdodXQxZUlQS0xsNkhLSVZqSXF3VUxDX1lKRmxQeUdWQ080Z081YUptM2JRZ3R4U2M2aHVN?oc=5",
+   "fonte": "am-carburanti",
+   "fonte_nome": "Prezzi carburanti e energia",
+   "tipo": "stampa",
+   "aree": [
+    "elettriche",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "I proprietari di veicoli elettrici non devono preoccuparsi troppo delle batterie, ma permangono ancora molti luoghi comuni. Vietnam.vn",
+   "pubblicata": "2026-11-21T01:10:31Z",
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "gnews",
+   "sotto": [
+    "elettriche.ev"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
   },
   {
    "id": "7b2a7974cb29ed4f",
@@ -22176,6 +22626,26 @@
    "prof": []
   },
   {
+   "id": "376275d7ce63470e",
+   "titolo": "Anthropic, dopo il debutto record perde l'8,5% nel secondo giorno",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVUtpN3lJakZKR191eG1Da3czV2w3RTU5S1l4UmNwRlFKZW0yeFczRkFPaUNTUEpQYmR1SmJoRmJZVDBodjRsRkhEZ0ZzWW9YSmhZYUN1aWgzb3Y3QjJjWXg2M3RXRUVVOGRJOFRxUXB1ZFJ6NmtaTFF3bW44cU55endCX3B6Y1hvMnRLUHo5Y1I0RWFTVVF4ZHctSk84a3drVndiZzFsak5mVUpTNnBVa1BlWGF4MUdycHFGRUJyTkxwUGJnWU1PdWY2SDM0QjBhSUhMQTY5VDJHX05I0gHiAUFVX3lxTFBDMVZqd0p0aGFpNmU4NXlyakVoOW12TnN3OWN0LVRmb0pTS21FSVlHWHdrNWpoaHFnZEhrS2JHSXNpZ1d1T1otVU1WQlF2SGpkWlFVZ1U3MXh3WHZRcDZMbVFXODEtRXJaOFhtQ2tOOGZ6ejlUOWFMQU05R0ljSjE3dldITTAweDAtYnN3ZHhkTE53NXVMeUZ0dTA5dkR3ZDNURkpwLUVOTHhmOVJITWl6UE4tLUVyOUpKZFQtOVpXZFI3UTdTamtmRXpMV04yOHViT0E3d3gzM18taTNUa2hqbUE?oc=5",
+   "fonte": "p-rainews",
+   "fonte_nome": "Rai News Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Anthropic, dopo il debutto record perde l'8,5% nel secondo giorno RaiNews",
+   "pubblicata": "2026-11-20T21:31:00Z",
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
    "id": "9f8f5c2aaa1bb1e4",
    "titolo": "Trump nomina amici e nemici, elogio di Putin e attacco alla giustizia internazionale",
    "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPMXdhbVYtaE1Iai1KcGRaUzZSazBVWWY4S2Z0dDVIUlBkdUJwUWJYVEM1Y2U1SzdySExSZmgxdjdzUmU4ZUR5RXVsU3lLT0dtRWJiTTNnVll3Z3ZLYlJLUG1ZZ3BiZWJhRDhrclNPMndsNXF6TzktekgyMFBrUzJ4QmVwVFd4NTc1eFJPc0dGMVpNR3NibFZGOTd3Um15ZkFaN1JOeGttajAtTFE3X001MGpyRXJwSXRBd0pGZ0dXUDRPZ2Q4bHZjam8wN1JMVVFTMHB4dGExalpSNWs5eWFzMDFTRm1fQUFIQzZMazBVYzR6LUZTQmQwdnJKN0lNYVd0ZjN3NGcwWHQ2dXJhTTN2ZdIBlgJBVV95cUxOYS1yOEtwWHgya1ZIUHZtU3FpSlVjS05mVVI0VHJOb2lhRnpIM2ZfMFh5V2l0eTFCNndhemtVZ1R3a0dIV1hTb3oxQWdMWVBFaGtVTnRlVVNDdGVBMTV4dWdzblJjV2JiZmZwOGRWaHk2eWljQW9qdUt1d0xoX05UeWFYbzE5akl5eEtYc0N6bkpNS0VMTk1qLVR6RmdtSEkyanIyblE1RDFlbmsxakNWRXRlUmZkMlFMMWg1VS1fZEhzQ1NKQ3lTU1VXb0JIQzd2bjc4Y0xZNy1qSktjRkFDY1hZUGdySmpEUDB1cmtDbmtkMHFVTDFwajBzTlRiaGp4Mm9reWVPTXV2SjVJYWtnUjl3ZkRFZw?oc=5",
@@ -24365,7 +24835,8 @@
    "tipo": "stampa",
    "aree": [
     "offerte",
-    "gaming"
+    "gaming",
+    "pc"
    ],
    "normativa": false,
    "sintesi": "L'SSD Acer da 1TB per PS5 è protagonista di un prezzo particolarmente basso al Black Friday: un'occasione per ampliare lo spazio della console.",
@@ -24375,7 +24846,10 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "tech",
-   "prof": []
+   "prof": [],
+   "altre_fonti": [
+    "Offerte gaming"
+   ]
   },
   {
    "id": "a3ba94fba9d30fd1",
@@ -26027,6 +26501,32 @@
    "nicchia": "tech",
    "prof": [],
    "tradotto": true
+  },
+  {
+   "id": "449ac8a94ac28862",
+   "titolo": "Autotrasporto, Mit: attiva la piattaforma per i ristori sul carburante",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQOU9DODFjc1pRYmdjSmstb2RCSHN1YWFQNXc3MS1kSEF6eGFlbzRNMWQwUzRqY29xaEE2Tm9sTjNOclZadDhTYTVBTnBNSWlhYzNacDZHaXdYZ1FpVHV0WkJoR0NrblJwR3pGZHBvQ0pPXzhDcGRuYzR5X3k0blBxZGkta0hSU0NJUDVFR1hnVDV3T3hUMkxyZFFWbHR0V3ZWMHVZZ2tyVUpXTENmeE1VQTExQjhpWkRvazY3RER4Tm5EeE44R2FLSW4tZVBmaDBFVFJlYTJlWUFsTWpiajRWc3dPUlR3Nm1ueU1Ga3hoZGY1cDRrOWRCcEtNY9IBgAJBVV95cUxObW1mVXpEaU0zb25oZk11Qm9vaWV6MlhWcGhHN3EyN1NxVkV3WlA2RmQ4MVAxbF9FLWRoZDNmM1B5TG44Z1F2Z0daSGpNNUQ5N2xXWGRMR1FuNmszUVlPMHNma0tuMnA5QWJMdDZwYXZGRUNUZy1vM0VqaVNhRHBkZExiSFhkbnR4Z2c2a1RLUDlOS2RYUS0tSjdMYWYySGhDazZNQTA2QW5RYTJMQnZGS2xSME5Oc1dwLWNKcUxVQjgxNUFrZ3RDVllfZDFaVHVyZUZRMnVBbk1kdTYweGhzT0NrUGlIQ1ZtaW1yVE5EUU9YWEx5ODg4TmxBbHh6dVhw?oc=5",
+   "fonte": "mit",
+   "fonte_nome": "Ministero Infrastrutture (MIT)",
+   "tipo": "ufficiale",
+   "aree": [
+    "trasporti"
+   ],
+   "normativa": true,
+   "sintesi": "Autotrasporto, Mit: attiva la piattaforma per i ristori sul carburante ANSA",
+   "pubblicata": "2026-11-20T19:51:00Z",
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "gnews",
+   "sotto": [
+    "trasporti.logistica"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "logistica",
+    "mobility",
+    "adr"
+   ]
   },
   {
    "id": "688a78e66ed1d8f2",
@@ -32367,6 +32867,31 @@
    "prof": []
   },
   {
+   "id": "1605f968eb188f57",
+   "titolo": "RENAULT Captur 2ª serie Usata prezzo e caratteristiche tecniche - Auto Usate",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeWNiMjF5Q184MzZ6eHc4R2FYVUhPblV4NUdDWDVfR0dtZEtaWm5TMnZ2NEFwajJ5WS1FYk9QSUVBWkhrbnBBNDhHd29nM1VFOGM2UHhQS3FSUWk5aTBkU2RMdjZSVWdSNFcxdnBkcW9Xc1Uxal9ibFFCWUVPRm0yMXlPcy1RcGhiZHpxWG81S3ZZdw?oc=5",
+   "fonte": "a-quattroruote",
+   "fonte_nome": "Quattroruote",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "RENAULT Captur 2ª serie Usata prezzo e caratteristiche tecniche - Auto Usate Quattroruote",
+   "pubblicata": "2026-11-20T18:19:59Z",
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.marchi",
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "altre_fonti": []
+  },
+  {
    "id": "90166dd75654b05e",
    "titolo": "Mezzi pesanti, tiene il Gnl",
    "link": "https://www.staffettaonline.com/articolo.aspx?id=409284",
@@ -34339,6 +34864,52 @@
    ],
    "luogo": null,
    "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "ee78f83d03b50bfd",
+   "titolo": "CITROEN C3 Aircross 1ª s. Usata prezzo e caratteristiche tecniche - Auto Usate",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSnJ5X2E1X09JYUY2Y1gxcFluRnhkRktPX29wbU1uMk1sc3FVX1VEWm0zZF9sbktjSHV5QW9abC1WU1RPQXJpc3o0bjNxdWpubGJuU3A4eEgtajB3aXJIakNNTmpUeGVxc29JVXZzQkhRMDZReUFoNTVLc3RXa2xXajh5ZjVoVFo3a3c?oc=5",
+   "fonte": "a-quattroruote",
+   "fonte_nome": "Quattroruote",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "CITROEN C3 Aircross 1ª s. Usata prezzo e caratteristiche tecniche - Auto Usate Quattroruote",
+   "pubblicata": "2026-11-20T17:46:07Z",
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.marchi",
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "b29b720062719e8a",
+   "titolo": "Moto Morini Rumble: V-Twin, cinghia e navigatore, ma c'è un dettaglio da valutare",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNallULTNVSGtheTcyd2xKdk9taWd6YnBYdzRpNG5MSi1iMmE3eUtUUFdfVlNiU1VtVHRqSXdvOEFsXzduVzNoVWJjZXBabTlGV2piMnBCZ2VmWDRQVUNYS0ZfVThVZE5GbGMtb0xfanB5Wnh1WXdjUzVyRkZQZG50RVp1ZWFCTVd5RXVraHE2T0VEaDR3SW5KR05mQ25OZWNLek1ialJ5OFNyX1HSAbABQVVfeXFMT285WGZ1eDd4ejNYa21mdHhCMmdhVGxpcVpmMVJIS1dOZk50a01JTmlLekY2SjBKTU5YMWxXajZZeW4zSFpsUkRpenRrY2t1Z3VucVlRaWdEX0M5UXRIZnN6NHhjMzZ5MG5sN051THQzem9vUjNXLWtyT1padER3VUhicklHd0lZdU9DS1lsVWhiUUZobENBa2l5SXFNRmlWcEItM21aM1NLNlpMbER1REY?oc=5",
+   "fonte": "a-scooter",
+   "fonte_nome": "Scooter e 125",
+   "tipo": "stampa",
+   "aree": [
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Moto Morini Rumble: V-Twin, cinghia e navigatore, ma c'è un dettaglio da valutare CrazyWheels.it",
+   "pubblicata": "2026-11-20T17:46:00Z",
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "gnews",
+   "sotto": [
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
    "prof": []
   },
   {
@@ -38213,7 +38784,8 @@
    "tipo": "stampa",
    "aree": [
     "offerte",
-    "gaming"
+    "gaming",
+    "hardware"
    ],
    "normativa": false,
    "sintesi": "Da Gamelife è possibile acquistare alcuni splendidi controller Xbox con sconti fino al 20%, anche su alcune edizioni limitate.",
@@ -38223,7 +38795,10 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "tech",
-   "prof": []
+   "prof": [],
+   "altre_fonti": [
+    "Offerte gaming"
+   ]
   },
   {
    "id": "81fe9de012102554",
@@ -47264,7 +47839,8 @@
    "tipo": "stampa",
    "aree": [
     "offerte",
-    "gaming"
+    "gaming",
+    "hardware"
    ],
    "normativa": false,
    "sintesi": "Su Amazon è attivo uno sconto per acquistare l'edizione fisica di Control Resonant per PS5 e Xbox Series X ad un prezzo promozionale.",
@@ -47274,7 +47850,10 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "tech",
-   "prof": []
+   "prof": [],
+   "altre_fonti": [
+    "Offerte gaming"
+   ]
   },
   {
    "id": "f2f868d618edb73e",
@@ -47413,6 +47992,30 @@
    ],
    "luogo": null,
    "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "f412a4ec945a8e68",
+   "titolo": "VOLKSWAGEN T-Roc 1ª serie Usata prezzo e caratteristiche tecniche - Auto Usate",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ1JHbWRNNG9EZEJZRkxWc1VJYi1jbTlaTHNzQ1RjTXM1OXJkbWZNWmhLWDkyUU5xLVpLMXlZNmlXUmN2bllVbWV4WXJZR3N6ZURpVnF5NC1VdzlXRGVmWDNiYURLeGpmRzE3d1pidzl5UTVKVlIxRlV5RWxuSjZrUEowN0RwYUZrZmJhUjZOSU5hUzFa?oc=5",
+   "fonte": "a-quattroruote",
+   "fonte_nome": "Quattroruote",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "VOLKSWAGEN T-Roc 1ª serie Usata prezzo e caratteristiche tecniche - Auto Usate Quattroruote",
+   "pubblicata": "2026-11-20T15:28:19Z",
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.marchi",
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
    "prof": []
   },
   {
@@ -47771,6 +48374,39 @@
     "traduttore",
     "archivista",
     "curatore_mus"
+   ]
+  },
+  {
+   "id": "d41001c453fc8f7c",
+   "titolo": "Pnrr scuola, transizione digitale: scadenza il 23 novembre. I corsi della Tecnica della Scuola",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLTFJZU9xM282Rmo1c0xRTFFLRU5pTzc3ZnpwUHQybFpUeFg4T2R4blVnSS1FT2lrUDJVTVB2aXJXWno2THZzaGQ0b0p6M2xTRUp5UUpuUXVtODNxTXZla2JmZ19ENG5LNy00ZmRQRkF3al9sN3NjbjI2NlpQNjNYZW1FT05CZUtwRHAtOWQyWUNNcWVEQ0J0R0tHTWJ0THhtQm16ME50clVNWmw4SG9XelZCQS1fUzVzSlIzcUpkRGVVZkk?oc=5",
+   "fonte": "pr-scuola",
+   "fonte_nome": "Orizzonte Scuola e Tecnica della Scuola",
+   "tipo": "stampa",
+   "aree": [
+    "formazione_cultura",
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "Pnrr scuola, transizione digitale: scadenza il 23 novembre. I corsi della Tecnica della Scuola Tecnica della Scuola",
+   "pubblicata": "2026-11-20T15:21:41Z",
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "gnews",
+   "sotto": [
+    "formazione_cultura.scuola",
+    "bonus.contributi"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus",
+    "formatore",
+    "commercialista",
+    "geometra",
+    "ingegnere"
    ]
   },
   {
@@ -56425,6 +57061,26 @@
    "prof": []
   },
   {
+   "id": "3bb0aad8c7de4931",
+   "titolo": "Nadella: la strategia di capacità IA di Microsoft",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMW5WMVNnc2NnNnpsUV9kamItMzd0bGJjajdhRk15UkpsZF9vN1FvdGRrZGhkYUNQcmJiRDNZcDRtV1lsMC1jbndiejR5QWlKU1E2UEVEYjY3QmdhVENCYkh3RUhBYnhUTGxtejA0TzJYbWpLNS1jTW1XWmNyYmg5blozNXBSN2JMeDhxM3VxS1UwSGh4cTVmUDBlSzRYdw?oc=5",
+   "fonte": "a-fleet",
+   "fonte_nome": "Fleet&Mobility",
+   "tipo": "stampa",
+   "aree": [
+    "mezzi"
+   ],
+   "normativa": false,
+   "sintesi": "Nadella: la strategia di capacità IA di Microsoft NeoTeo",
+   "pubblicata": "2026-11-20T13:59:23Z",
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "86d09d92360546f7",
    "titolo": "Lufthansa-ITA, l’ombra dei tagli sul fronte italiano",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOa2JaZW5FRjJnRWpUa1RWTW44RzNzSEpZNDNxcGdKeVVhOE1MVmtMSmdrZ1NTUkZkUkpVRGVRSmcwanI0YWE2NmxydzRKZ0tQbUlZUnZTMkpGUnNtUmYySHV4U3hpeW9sOEhTanB0T0xKZVBLQXRoUVVmMnFsWkJfTGIzUzBhanNWeFhoUk5hYm9mTUZNNTg4dTVoVHM?oc=5",
@@ -61164,6 +61820,37 @@
    "prof": []
   },
   {
+   "id": "3af66460497a8123",
+   "titolo": "Ministero Trasporti dà ok a sistema guida assistita Tesla prima di via libera Ue Da Reuters - Investing.com",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQnZoT3hYVmhTVFVlVmZtcVhWTHVubW1Ga0Z0VWxBN25oUy1Gbl9aVHA4OUVfeXJRUGF0VFJRR0hUOXo1emtXTE5RcWcwRlVpOUpxM3lfelRLdDNJd1NtNDJ0QTNPMGJ0R3RUOS11RS1udmpPeWxhMjE3LXdUX256ZmE0R2hPX3JraVRpdEZjNW9VQTFkTmptaTlzWVptX1U2TVlYU0VWSlRfVlM4Y3VMTkpvYXNyYTFpcnJIUG5Mb0JGODc5bUZqM0YyODJvMURNeHc?oc=5",
+   "fonte": "mit",
+   "fonte_nome": "Ministero Infrastrutture (MIT)",
+   "tipo": "ufficiale",
+   "aree": [
+    "norme",
+    "management"
+   ],
+   "normativa": true,
+   "sintesi": "Ministero Trasporti dà ok a sistema guida assistita Tesla prima di via libera Ue Da Reuters Investing.com - Quotazioni, Borsa, Economia e Finanza",
+   "pubblicata": "2026-11-20T13:04:00Z",
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "gnews",
+   "sotto": [
+    "norme.ue",
+    "management.finanza"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "perito",
+    "manager",
+    "consulente_az",
+    "compliance",
+    "finanziario"
+   ]
+  },
+  {
    "id": "143a1039e63f74ba",
    "titolo": "Energia, Podini (Eneco): “Prezzi stabili per l’industria e strategia per i prossimi 20 anni”",
    "link": "https://www.dire.it/20-11-2026/1291575-energia-podini-eneco-prezzi-stabili-per-lindustria-e-strategia-per-i-prossimi-20-anni/",
@@ -65848,6 +66535,31 @@
    "prof": []
   },
   {
+   "id": "1923cfb627acc1e9",
+   "titolo": "Chiusure settimanali dei mercati del 20 novembre",
+   "link": "https://www.staffettaonline.com/articolo.aspx?id=409275",
+   "fonte": "pr-staffetta",
+   "fonte_nome": "Staffetta Quotidiana (energia)",
+   "tipo": "stampa",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "Mercato internazionale. Greggi e prodotti in forte calo nella settimana in cui si è svolta a Shenzhen la riunione trilaterale tra Usa, Cina e Russia per la pace.",
+   "pubblicata": "2026-11-20T12:20:00Z",
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "impiantista"
+   ]
+  },
+  {
    "id": "2e3de013b8dd2974",
    "titolo": "Nel Regno Unito sono aumentati gli acquisti di alimenti a lunga scadenza, dopo l’invito del governo a fare scorte di emergenza",
    "link": "https://www.ilpost.it/2026/11/20/regno-unito-scorte-beni-alimentari-campagna-governo-emergenze/",
@@ -69060,6 +69772,39 @@
    "prof": []
   },
   {
+   "id": "1ced0ec904f74240",
+   "titolo": "MIT - MINISTERO INFRASTRUTTURE E TRASPORTI * : «FERROVIE: AL VIA IL SESTUPLICAMENTO DI GENOVA, PIÙ CAPACITÀ E NUOVI TRENI PER LA LIGURIA",
+   "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNeEVaSnoxVW5HVzJTanJvWkExV1lWcDViMmg1OHlndWxXTkxRUjdIWWVSV2YzVmo4Smk1QzdGVldPc0pZaThxREtPYjhId0hOMmU2OHk0QW9lVU9RM2VwNUgzdWtaT0dTY2lJeTJlcERmTHVhOXRGNFlpeHdKMVlua0ZQX2NrM2UwLWd1SjZNTjRpQ2RKT3BWV2ZNZW44NUpfNzMyWHJWUXA5UVpOWDg2UnU4aldFSlVOSW0wOW90TndwalF0TjNvdlNFWXVoalVBZWNqdF9jQi1pWW5BNHhYZkFIcnl2R3NZa1ZZU1FrUF9wd0djX1FkWTF1MU0xanNfU28wYXdId2tLOGVNX21rNw?oc=5",
+   "fonte": "mit",
+   "fonte_nome": "Ministero Infrastrutture (MIT)",
+   "tipo": "ufficiale",
+   "aree": [
+    "comunicazione",
+    "appalti"
+   ],
+   "normativa": true,
+   "sintesi": "MIT - MINISTERO INFRASTRUTTURE E TRASPORTI * : «FERROVIE: AL VIA IL SESTUPLICAMENTO DI GENOVA, PIÙ CAPACITÀ E NUOVI TRENI PER LA LIGURIA agenzia giornalistica opinione",
+   "pubblicata": "2026-11-20T12:00:35Z",
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "gnews",
+   "sotto": [
+    "comunicazione.media",
+    "appalti.opere"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "giornalista",
+    "marketer",
+    "grafico",
+    "fotovideo",
+    "rup",
+    "ingegnere",
+    "avvocato",
+    "contabile"
+   ]
+  },
+  {
    "id": "05e1f4b9a468ea19",
    "titolo": "Rammstein, lo show kolossal di Città del Messico arriva in home video e album live",
    "link": "https://www.adnkronos.com/spettacoli/rammstein-lo-show-kolossal-di-citta-del-messico-arriva-in-home-video-e-album-live_6jeykFNGqoTYkUTEQOYns4",
@@ -69411,7 +70156,8 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "tech",
-   "prof": []
+   "prof": [],
+   "altre_fonti": []
   },
   {
    "id": "f53f1f0bc764b8c5",
@@ -79186,29 +79932,6 @@
    "altre_fonti": []
   },
   {
-   "id": "8bae9dc4c319fe16",
-   "titolo": "Al via la quinta edizione della mostra fotografica \"Donne e motori? Gioie e basta\"",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdVBjX0phTmZwczh1N0JDR0VKN3QzZUZrMkV0TnJxVjVZQUJtcWhKeXVFaEwzOHZ3TW1VbFB0aGxQUDBKd2J6eU4xTXZ4Y0I2OTE5amVyYXRwVVl1V3IyNWx0RGs0WklZWXlLUXh3eUQwXzZISzIxRGtaWVNHcEt3TXV3c0s1M09zRTJFbW9rY3NHa1g3NTRYSm5fS3lLWEtkalhzeWw2TVhubGF5anVJcHFUV0I0RTVVUjJPdk0wcHVrNUZKa1cwR1dYYW1aMnV5SjVsbElLVGpXNkw4MG53NDNnOFlEMms?oc=5",
-   "fonte": "a-classiche",
-   "fonte_nome": "Auto e moto d'epoca",
-   "tipo": "stampa",
-   "aree": [
-    "tecnica_auto",
-    "mezzi"
-   ],
-   "normativa": false,
-   "sintesi": "Al via la quinta edizione della mostra fotografica \"Donne e motori? Gioie e basta\" LegnanoNews",
-   "pubblicata": "2026-11-20T11:00:30Z",
-   "visto": "2026-11-20T19:08:57Z",
-   "metodo": "gnews",
-   "sotto": [
-    "tecnica_auto.motori"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
    "id": "a9c53972d954fc15",
    "titolo": "Il Black Friday arriva anche su Prime Video: sconti fino al 75% sui canali e al 50% su noleggi e acquisti",
    "link": "https://www.tuttotech.net/news/2026/11/20/amazon-prime-video-offerte-black-friday-2026-film-serie.html",
@@ -79963,7 +80686,8 @@
     "infermiere",
     "dietista",
     "veterinario"
-   ]
+   ],
+   "altre_fonti": []
   },
   {
    "id": "d7d204c673788e27",
@@ -121230,6 +121954,29 @@
    "prof": []
   },
   {
+   "id": "1aa4e6e508e10f3a",
+   "titolo": "Dal noleggio di locali a una piattaforma di crescita: una svolta per la sopravvivenza delle imprese industriali.",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQem56YU1YMnJMUUZNcW8zMkcxX0RNczgtUnhQcHNjSk1LeHdCTUtXQTM3RUdNUXdvSHRCcTN4OTE0cExaNVFCelNQYkxQY2dVRjZtYUhSQ3J4b2NUMXVTNHhfcEpXaEwtMnhqbjlMWktpYmRVYXBqWXlZWGFvWUJGRzUxNVd3SERYRlhFSUZoUXRrLTQyQUhCUnZ3b1F5UnBHNVNBaExqSXRNMkFPUXNsX0F1VVRrSUk?oc=5",
+   "fonte": "a-fleet",
+   "fonte_nome": "Fleet&Mobility",
+   "tipo": "stampa",
+   "aree": [
+    "offerte_auto",
+    "mezzi"
+   ],
+   "normativa": false,
+   "sintesi": "Dal noleggio di locali a una piattaforma di crescita: una svolta per la sopravvivenza delle imprese industriali. Vietnam.vn",
+   "pubblicata": "2026-11-20T02:13:17Z",
+   "visto": "2026-11-21T03:01:05Z",
+   "metodo": "gnews",
+   "sotto": [
+    "offerte_auto.noleggio"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "3d0a7b1e119ac8db",
    "titolo": "- Domus Web",
    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOY2pWRTF3OXJTWXlmN0NSTzlPTGdYdVZodGhxVEw4bWtnQjg5b3FucktCWWZzVXI2alRWWjNjME4yM0g3bVVZVk9oek41MVh4anZ2ZURka3JRV19HWWVpYlhUQWd2N3FfTlRLVk9OVTJlWTJ3dnUtWlVGV0hBMFNrTi0xTjRMNTdyNkJCTjlIRlg4VjExTFlJRTRXMDF0S2FSTjRCWFNLV212cGNvbEZ5Xy1ESktDRTJMV2NWNkEtWDdLS01pMXA1VjBVal9hdmJsQjlEZkNJRUFtbk5zMHZpU0RqVHFaVmc?oc=5",
@@ -127978,39 +128725,6 @@
    "luogo": null,
    "nicchia": "tech",
    "prof": []
-  },
-  {
-   "id": "48a895883c171540",
-   "titolo": "Salute, da igiene orale domiciliare opportunità per la sostenibilità del SSN",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWjBhZFRYY0FfR2JYcVFzRDFnQ0RpWWtBX3ozdDlEMlVuejFHMUpRaVFtSlMwQUlicjR0Z2JyT1BOLXI3SnFtQzNrTHo3QzdIZEV0S2stbGxMOExCQkFWYWMzYU1TZnQ3RFdtcEF0bkYyelBhLWJwZDJfZDRoZ1pQNUE1ZmtWYXhqYjVoLXJCWlZXN3ZMdzBCb2k3MWJpNUdMWFpoZWpsbndzUmNmNnlwMkFuXzdrZw?oc=5",
-   "fonte": "pr-salute",
-   "fonte_nome": "Ministero della Salute, AIFA e ISS",
-   "tipo": "ufficiale",
-   "aree": [
-    "sanita",
-    "management"
-   ],
-   "normativa": true,
-   "sintesi": "Salute, da igiene orale domiciliare opportunità per la sostenibilità del SSN www.quinewsfirenze.it",
-   "pubblicata": "2026-11-19T22:15:00Z",
-   "visto": "2026-11-20T03:01:00Z",
-   "metodo": "gnews",
-   "sotto": [
-    "sanita.sistema",
-    "management.governance"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
   },
   {
    "id": "5ab1eb2aa9bc63ed",
@@ -141851,704 +142565,6 @@
     "grafico",
     "fotovideo",
     "pubblicitario"
-   ]
-  },
-  {
-   "id": "cb06caddec6bbef6",
-   "titolo": "Caffeina, partnership con Refinea per portare i brand nelle risposte di ChatGPT, Gemini e Perplexity",
-   "link": "https://www.engage.it/agenzie/caffeina-partnership-con-refinea-per-portare-i-brand-nelle-risposte-di-chatgpt-gemini-e-perplexity.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.media"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "7637fd98c76e3e01",
-   "titolo": "MediaWorld apre il primo Smart Store a Milano: focus su prossimità, servizi e omnicanalità",
-   "link": "https://www.engage.it/brand-e-aziende/mediaworld-apre-il-primo-smart-store-a-milano.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "31fb4010a6c3bb87",
-   "titolo": "Muro di Berlino, Valditara: “Il 9 novembre 1989 crollò il simbolo del comunismo. Nessuna indulgenza verso le nostalgie totalitarie”",
-   "link": "https://www.mim.gov.it/web/guest/-/muro-di-berlino-valditara-il-9-novembre-1989-crollo-il-simbolo-del-comunismo-nessuna-indulgenza-verso-le-nostalgie-totalitarie-",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "37939a0e73d710d1",
-   "titolo": "05/09/2026 - Valditara: “Più fondi per fronteggiare l’emergenza caldo”",
-   "link": "https://www.mim.gov.it/web/guest/-/valditara-piu-fondi-per-fronteggiare-l-emergenza-caldo-",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "c18fea2ec8465852",
-   "titolo": "04/08/2026 - Valditara: pronta la circolare per mettere un tetto agli stranieri in classe",
-   "link": "https://www.mim.gov.it/web/guest/-/valditara-pronta-la-circolare-per-mettere-un-tetto-agli-stranieri-in-classe-",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "1f9616fcb2407c1a",
-   "titolo": "17/07/2026 - Valditara: meno tablet, più letture e grammatica",
-   "link": "https://www.mim.gov.it/web/guest/-/valditara-meno-tablet-piu-letture-e-grammatica",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "0d5b6fe29fbca09c",
-   "titolo": "14/07/2026 - L’Eco di Bergamo «Il 4+2 una risposta ai bisogni di Bergamo»",
-   "link": "https://www.mim.gov.it/web/guest/-/-piu-metal-detector-ma-la-prevenzione-si-fa-in-famiglia-",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "e8f9aa4cf3e9980a",
-   "titolo": "24/06/2026 - Valditara: i nuovi programmi dei licei puntano a valorizzare la centralità dell'Occidente",
-   "link": "https://www.mim.gov.it/web/guest/-/valditara-i-nuovi-programmi-dei-licei-puntano-a-valorizzare-la-centralita-dell-occidente",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "83a069117f4fdb75",
-   "titolo": "22/01/2024 - Intervento del Ministro Giuseppe Valditara presso la Sinagoga Kupa di Cracovia",
-   "link": "https://www.mim.gov.it/web/guest/-/intervento-del-ministro-giuseppe-valditara-presso-la-sinagoga-kupa-di-cracovia",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "f04f4b3da91a9dd8",
-   "titolo": "03/09/2023 - Forum Ambrosetti di Cernobbio, intervento del Ministro dell'Istruzione e del Merito Giuseppe Valditara",
-   "link": "https://www.mim.gov.it/web/guest/-/forum-ambrosetti-di-cernobbio-intervento-del-ministro-dell-istruzione-e-del-merito-giuseppe-valditara",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "2db8205c6d4cb850",
-   "titolo": "28/01/2025 - “Celebrazione del Giorno della Memoria al Quirinale. Il discorso del Ministro Giuseppe Valditara”",
-   "link": "https://www.mim.gov.it/web/guest/-/celebrazione-del-giorno-della-memoria-al-quirinale-il-discorso-del-ministro-giuseppe-valditara",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "8923adf7aaf8d1d3",
-   "titolo": "02/07/2024 - “Elementari e medie stop ai cellulari. Promossi dal G7”",
-   "link": "https://www.mim.gov.it/web/guest/-/elementari-e-medie-stop-ai-cellulari-promossi-dal-g7",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "1ce2dc647fee4bbb",
-   "titolo": "23/05/2024 - Valditara: “Partendo dalla scuola costruiamo una società che metta al bando la mafia”",
-   "link": "https://www.mim.gov.it/web/guest/-/23-maggio-valditara-partendo-dalla-scuola-costruiamo-una-societa-che-metta-al-bando-la-mafia-",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "6acee0d8388c8338",
-   "titolo": "21/09/2026 - Intervento del Ministro Valditara alla cerimonia di inaugurazione dell’Anno Scolastico 2026/2027",
-   "link": "https://www.mim.gov.it/web/guest/-/intervento-del-ministro-valditara-alla-cerimonia-di-inaugurazione-dell-anno-scolastico-2026-2027",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ],
-   "altre_fonti": []
-  },
-  {
-   "id": "1325cce5e66ba7fc",
-   "titolo": "31/07/2025 - Intervento del Ministro Giuseppe Valditara al Senato sulle misure di prevenzione e contrasto dei femminicidi in età adolescenziale",
-   "link": "https://www.mim.gov.it/web/guest/-/intervento-del-ministro-giuseppe-valditara-al-senato-sulle-misure-di-prevenzione-e-contrasto-dei-femminicidi-in-eta-adolescenziale",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "362248f60dc4aca5",
-   "titolo": "08/07/2025 - Intervento del Ministro Giuseppe Valditara alla cerimonia istituzionale dell’evento “Scuola Futura” a Pesaro",
-   "link": "https://www.mim.gov.it/web/guest/-/intervento-del-ministro-giuseppe-valditara-alla-cerimonia-istituzionale-dell-evento-scuola-futura-a-pesaro",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "a241b2b6b94dc78b",
-   "titolo": "12/06/2025 - Intervento del Ministro Giuseppe Valditara all’VIII Congresso della CISL Scuola",
-   "link": "https://www.mim.gov.it/web/guest/-/intervento-del-ministro-giuseppe-valditara-all-viii-congresso-della-cisl-scuola",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "fa40f32b49edfe69",
-   "titolo": "Rilevazione \"Dati generali\" A.S. 2026/2027 - scuole statali e non statali e Cpia",
-   "link": "https://www.mim.gov.it/web/guest/-/rilevazione-dati-generali-a-s-2026-2027-scuole-statali-e-non-statali-e-cpia",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus",
-    "data"
-   ]
-  },
-  {
-   "id": "1a02d9f70311261b",
-   "titolo": "Milano, il 18 e 19 novembre il Ministero dell’Istruzione e del Merito partecipa a ExpoTraining 2026",
-   "link": "https://www.mim.gov.it/web/guest/-/milano-il-18-e-19-novembre-il-ministero-dell-istruzione-e-del-merito-partecipa-a-expotraining-2026",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "73f0bfdcdc1230a1",
-   "titolo": "Scuola, il MIM ha ospitato il meeting autunnale della European Agency for Special Needs and Inclusive Education (EASNIE): al centr ...",
-   "link": "https://www.mim.gov.it/web/guest/-/scuola-il-mim-ha-ospitato-il-meeting-autunnale-della-european-agency-for-special-needs-and-inclusive-education-easnie-al-centro-il-confronto-europeo-s",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "e6f5b959b77ec46b",
-   "titolo": "Comparto e Area Istruzione e Ricerca - settore scuola: azioni di sciopero previste per l'intera giornata del 20 novembre 2026",
-   "link": "https://www.mim.gov.it/web/guest/-/comparto-e-area-istruzione-e-ricerca-settore-scuola-azioni-di-sciopero-previste-per-l-intera-giornata-del-20-novembre-2026",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "37d9e5fa24bbdcbc",
-   "titolo": "Comparto e Area Istruzione e Ricerca - settore scuola: dati definitivi di adesione allo sciopero del 30 ottobre 2026.",
-   "link": "https://www.mim.gov.it/web/guest/-/comparto-e-area-istruzione-e-ricerca-settore-scuola-dati-definitivi-di-adesione-allo-sciopero-del-30-ottobre-2026-",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus",
-    "data"
-   ]
-  },
-  {
-   "id": "86bc5c90a92537e0",
-   "titolo": "Corri Libera 2026: attraverso lo sport il MIM promuove la cultura del rispetto e il contrasto alla violenza contro le donne",
-   "link": "https://www.mim.gov.it/web/guest/-/corri-libera-2026-attraverso-lo-sport-il-mim-promuove-la-cultura-del-rispetto-e-il-contrasto-alla-violenza-contro-le-donne-1",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "0c2f7f3b9357530c",
-   "titolo": "Milano, il MIM a OrientaTalenti 2026 con un programma di iniziative per gli studenti",
-   "link": "https://www.mim.gov.it/web/guest/-/milano-il-mim-a-orientatalenti-2026-con-un-programma-di-iniziative-per-gli-studenti",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "637db99359f01d48",
-   "titolo": "Decreto Dipartimentale n. 2559 del 9 novembre 2026",
-   "link": "https://www.mim.gov.it/web/guest/-/decreto-dipartimentale-n-2559-del-9-novembre-2026",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "4f0384ddaa4c80d6",
-   "titolo": "Decreto Dirigenziale n. 199298 del 5 novembre 2026",
-   "link": "https://www.mim.gov.it/web/guest/-/decreto-dirigenziale-n-199298-del-5-novembre-2026",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "7a4b477fe18ef3e4",
-   "titolo": "Decreto Direttoriale n. 1515 del 13 novembre 2026",
-   "link": "https://www.mim.gov.it/web/guest/-/decreto-direttoriale-n-1515-del-13-novembre-2026",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-19T22:00:59Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
    ]
   }
  ]
