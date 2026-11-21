@@ -525,6 +525,7 @@ CAMPI_GUIDA = ["segretario generale", "segretario", "leader", "presidente", "por
 ETICHETTE_WD = {"FdI": ["Fratelli d'Italia"], "M5S": ["Movimento 5 Stelle"], "AVS": ["Alleanza Verdi e Sinistra"], "FN": ["Futuro Nazionale"], "NM": ["Noi Moderati"]}
 
 
+GUIDA_DI_RISERVA = {"M5S": ("Presidente", "Giuseppe Conte"), "FdI": ("Presidente", "Giorgia Meloni")}
 ESCLUSI_GUIDA = {"Beppe Grillo"}
 
 
@@ -595,6 +596,8 @@ def leggi_segretari():
                 guida = guida_da_wikidata(ETICHETTE_WD[sig])
             except requests.RequestException:
                 guida = None
+        if not guida and sig in GUIDA_DI_RISERVA:  # ultima spiaggia, da rivedere a mano se cambia
+            guida = [{"ruolo": GUIDA_DI_RISERVA[sig][0], "nome": GUIDA_DI_RISERVA[sig][1]}]
         if guida:
             trovati.append({"sigla": sig, "nome": nome, "guida": guida})
         else:
