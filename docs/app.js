@@ -184,7 +184,7 @@ function sezione(k, listaTot) {
 
 function renderNovita() {
   const box = $("#lista-novita");
-  if (state.nicchia === "auto" && state.vistaAuto !== "notizie" && state.news.length) { box.innerHTML = state.vistaAuto === "strumenti" ? renderStrumenti() : renderOfferte(); return; }
+  if (state.nicchia === "auto" && state.vistaAuto !== "notizie" && state.news.length) { box.innerHTML = renderOfferte(); return; }
   if (!state.news.length) { box.innerHTML = vuoto("Ancora nessuna notizia", "Il primo aggiornamento automatico è in arrivo (ogni ora)."); return; }
   const tutteAree = Object.keys(state.aree).filter((a) => a !== "altro" && a !== "locale" && areaNicchia(a));
   let chiavi = ["stelle"];
@@ -296,7 +296,8 @@ function renderOfferte() {
   const mod = state.modelli || [];
   let h = cardSemaforo(false) + cardProfilo();
   h += `<div class="mod-box"><b>⭐ I tuoi modelli</b><div class="mod-add"><input id="mod-in" type="text" placeholder="Es. Panda, Clio, Tesla Model 3" autocomplete="off"><button class="chip on" data-mod-add>Aggiungi</button></div>
-    <div class="mod-list">${mod.map((x, i) => `<button class="chip" data-mod-del="${i}">${esc(x)} ✕</button>`).join("") || "<small>Aggiungi i modelli che ti interessano: qui compaiono tutte le notizie e offerte che li citano.</small>"}</div></div>`;
+    <div class="mod-list">${mod.map((x, i) => `<button class="chip" data-mod-del="${i}">${esc(x)} ✕</button>`).join("") || "<small>Aggiungi i modelli che ti interessano: qui compaiono tutte le notizie e offerte che li citano.</small>"}</div>
+    ${(state.profilo.modelli || []).length ? `<button class="mini" data-mod-reset>↺ Ripristina i miei modelli</button>` : ""}</div>`;
   if (mod.length) {
     const limite = Date.now() - 30 * 864e5;
     const mie = state.news.filter((n) => n.nicchia === "auto" && new Date(n.pubblicata || n.visto) > limite && mod.some((x) => (n.titolo + " " + (n.sintesi || "")).toLowerCase().includes(x.toLowerCase()))).slice(0, 15);
@@ -403,6 +404,7 @@ document.addEventListener("click", (e) => {
     if (v && !state.modelli.some((x) => x.toLowerCase() === v.toLowerCase())) { state.modelli.push(v); store.set("modelli", state.modelli); }
     renderNovita(); return;
   }
+  if (e.target.closest("[data-mod-reset]")) { state.modelli = [...(state.profilo.modelli || [])]; store.set("modelli", state.modelli); renderNovita(); return; }
   const md = e.target.closest("[data-mod-del]");
   if (md) { state.modelli.splice(+md.dataset.modDel, 1); store.set("modelli", state.modelli); renderNovita(); }
 }, true);
@@ -412,7 +414,7 @@ function renderProf() {
   const ids = Object.keys(state.professioni);
   if (state.nicchia === "auto") {
     el.hidden = false;
-    el.innerHTML = [["offerte", "💸 Offerte e momento"], ["notizie", "📰 Notizie"], ["strumenti", "🧮 Strumenti"]].map(([k, l]) => `<button class="chip${state.vistaAuto === k ? " on" : ""}" data-vauto="${k}">${l}</button>`).join("");
+    el.innerHTML = [["offerte", "💸 Offerte e momento"], ["notizie", "📰 Notizie"]].map(([k, l]) => `<button class="chip${state.vistaAuto === k ? " on" : ""}" data-vauto="${k}">${l}</button>`).join("");
     return;
   }
   if (state.nicchia !== "edilizia" || !ids.length) { el.hidden = true; return; }
@@ -428,7 +430,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "27";
+const VERSIONE_APP = "28";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
