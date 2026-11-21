@@ -478,7 +478,7 @@ function renderPolitica() {
   }
   const elencoGruppi = (D, titolo, chiave, ruolo) => {
     if (!D || !D.gruppi || !D.gruppi.length) return "";
-    const sg = (s) => esc(String(s).replace(/ - .*/, "").replace(/-(Berlusconi|Salvini|Italia Democratica).*$/i, "").replace(/^MISTO-/i, "Misto · ").replace(/\(.*$/, "").trim());
+    const sg = (s) => { let t = String(s).replace(/^MISTO-/i, "Misto · ").replace(/ - .*/, "").replace(/-[A-Z].*$/, "").replace(/\(.*$/, "").trim(); if (t === t.toUpperCase()) t = t.toLowerCase().replace(/(^|\s)\S/g, (c) => c.toUpperCase()); return esc(t); };
     const vt = (v) => v.tipo === "passaggio" ? `${esc(v.nome)}: da ${sg(v.da)} a ${sg(v.a)}` : v.tipo === "subentro" ? `${esc(v.nome)} subentra (${sg(v.a)})` : `${esc(v.nome)} non è più ${ruolo} (${sg(v.da)})`;
     return `<div class="gruppo-titolo">${titolo} (${D.totale})</div><div class="pcard">`
       + D.gruppi.map((g) => `<details class="grp"><summary><i style="background:${esc(g.colore)}"></i><span>${sg(g.gruppo)}</span><b>${g.n}</b></summary>${g.presidente ? `<p class="dep" style="padding-bottom:0"><b>Capogruppo:</b> ${esc(g.presidente)}</p>` : ""}<p class="dep">${g.deputati.map((d) => esc(d.nome)).join(" · ")}</p></details>`).join("")
@@ -488,7 +488,7 @@ function renderPolitica() {
   };
   const PT = state.partiti;
   if (PT && PT.partiti && PT.partiti.length) {
-    h += `<div class="gruppo-titolo">🎙️ Chi guida i partiti</div><div class="pcard"><div class="pgrid">${PT.partiti.map((x) => `<div class="pers"><b>${esc(x.guida.join(" · "))}</b><span>${esc(x.nome)}</span></div>`).join("")}</div>${(PT.mancanti || []).length ? `<p class="calc-n">Non trovati in automatico: ${esc(PT.mancanti.join(", "))}.</p>` : ""}<p class="calc-n">Fonte: Wikidata (aggiornata dai volontari: un cambio di segretario può comparire con qualche giorno di ritardo).</p>${stampa("segretari")}</div>`;
+    h += `<div class="gruppo-titolo">🎙️ Chi guida i partiti</div><div class="pcard"><div class="pgrid">${PT.partiti.map((x) => { const gd = x.guida.map((g) => (typeof g === "string" ? { nome: g, ruolo: "" } : g)); return `<div class="pers"><b>${esc(gd.map((g) => g.nome).join(" · "))}</b><span>${esc([...new Set(gd.map((g) => g.ruolo).filter(Boolean))].join(" · "))}${gd.some((g) => g.ruolo) ? " – " : ""}${esc(x.nome)}</span></div>`; }).join("")}</div>${(PT.mancanti || []).length ? `<p class="calc-n">Non trovati in automatico: ${esc(PT.mancanti.join(", "))}.</p>` : ""}<p class="calc-n">Fonte: Wikipedia (letta dalla pagina Wikipedia di ogni partito: un cambio può comparire con qualche giorno di ritardo).</p>${stampa("segretari")}</div>`;
   }
   h += elencoGruppi(state.deputati, "👥 Partiti e deputati", "deputati", "deputato");
   h += elencoGruppi(state.senatori, "👥 Partiti e senatori", "senatori", "senatore");
@@ -536,7 +536,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "35";
+const VERSIONE_APP = "36";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
