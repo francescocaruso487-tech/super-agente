@@ -167,44 +167,47 @@ def leggi_camera():
     return {"totale": tot, "maggioranza_soglia": tot // 2 + 1, "gruppi": lista, "link": URL_CAMERA}
 
 
-def _sonda(endpoint, q):
+def _sonda(endpoint, q, tempo=90):
     r = requests.get(endpoint, params={"query": q, "format": "application/sparql-results+json"},
-                     headers={"User-Agent": UA, "Accept": "application/sparql-results+json"}, timeout=60)
+                     headers={"User-Agent": UA, "Accept": "application/sparql-results+json"}, timeout=tempo)
     r.raise_for_status()
     return r.json()["results"]["bindings"]
 
 
-def _campioni(endpoint, classe):
-    """Una risorsa d'esempio della classe, con tutte le sue proprieta' (per scoprire lo schema)."""
-    x = _sonda(endpoint, f"SELECT ?x WHERE {{ ?x a <{classe}> }} LIMIT 1")
-    if not x:
-        return []
-    return [[b["p"]["value"].rsplit("/", 1)[-1].rsplit("#", 1)[-1], b["o"]["value"][:120]] for b in
-            _sonda(endpoint, f"SELECT ?p ?o WHERE {{ <{x[0]['x']['value']}> ?p ?o }} LIMIT 40")]
+def _props(endpoint, uri, n=40):
+    return [[b["p"]["value"], b["o"]["value"][:110]] for b in _sonda(endpoint, f"SELECT ?p ?o WHERE {{ <{uri}> ?p ?o }} LIMIT {n}")]
 
 
 def _debug_senato_dati():
-    """Solo diagnostica: schema dei dati aperti (Senato e Camera) per leggere senatori, gruppi, governo, atti."""
+    """Solo diagnostica: schema dei dati aperti (Senato e Camera). Nomi completi dei campi."""
     out = {}
     S, C = "https://dati.senato.it/sparql", "https://dati.camera.it/sparql"
-    for nome, ep, classe in (("senatore", S, "http://dati.senato.it/osr/Senatore"), ("mandatoSenato", S, "http://dati.camera.it/ocd/mandatoSenato"),
-                             ("adesioneGruppo", S, "http://dati.camera.it/ocd/adesioneGruppo"), ("gruppoSenato", S, "http://dati.camera.it/ocd/gruppoParlamentare"),
-                             ("ddl", S, "http://dati.senato.it/osr/Ddl"), ("iniziativa", S, "http://dati.senato.it/osr/Iniziativa"),
-                             ("atto_camera", C, "http://dati.camera.it/ocd/atto")):
+    OCD = "http://dati.camera.it/ocd/"
+
+    def prova(nome, fn):
         try:
-            out[nome] = _campioni(ep, classe)
+            out[nome] = fn()
         except Exception as e:  # noqa: BLE001
-            out[nome] = f"errore: {type(e).__name__}: {e}"[:200]
-    try:
-        out["gruppo_camera_fdi"] = [[b["p"]["value"].rsplit("/", 1)[-1], b["o"]["value"][:120]] for b in
-                                    _sonda(C, "SELECT ?p ?o WHERE { <http://dati.camera.it/ocd/gruppoParlamentare.rdf/gr4133> ?p ?o } LIMIT 40")]
-        out["rimandi_al_gruppo_fdi"] = [[b["c"]["value"].rsplit("/", 1)[-1], b["q"]["value"].rsplit("/", 1)[-1]] for b in
-                                        _sonda(C, "SELECT DISTINCT ?c ?q WHERE { ?x ?q <http://dati.camera.it/ocd/gruppoParlamentare.rdf/gr4133> . ?x a ?c } LIMIT 30")]
-        out["classi_camera_governo"] = [b["c"]["value"].rsplit("/", 1)[-1] for b in
-                                        _sonda(C, "SELECT DISTINCT ?c WHERE { ?s a ?c . FILTER(REGEX(STR(?c), 'overn|inistr|ncarico|ufficio', 'i')) } LIMIT 30")]
-        out["tipi_voto"] = [b["t"]["value"] for b in _sonda(C, "SELECT DISTINCT ?t WHERE { ?x a <http://dati.camera.it/ocd/voto> ; <http://purl.org/dc/elements/1.1/type> ?t } LIMIT 20")]
-    except Exception as e:  # noqa: BLE001
-        out["camera"] = f"errore: {type(e).__name__}: {e}"[:200]
+            out[nome] = f"errore: {type(e).__name__}: {e}"[:220]
+
+    def adesione():
+        x = _sonda(S, f'SELECT ?a ?g WHERE {{ ?a a <{OCD}adesioneGruppo> ; <{OCD}legislatura> ?l ; <{OCD}gruppo> ?g . '
+                      f'FILTER(STR(?l) = "19") FILTER NOT EXISTS {{ ?a <{OCD}fine> ?f }} }} LIMIT 1')
+        return {"adesione": _props(S, x[0]["a"]["value"]), "gruppo": _props(S, x[0]["g"]["value"])} if x else "nessuna adesione attuale leg.19"
+    prova("senato_adesione_attuale", adesione)
+    prova("senato_conteggio", lambda: [b["n"]["value"] for b in _sonda(S, f'SELECT (COUNT(DISTINCT ?s) AS ?n) WHERE {{ ?s <{OCD}aderisce> ?a . ?a <{OCD}legislatura> ?l . '
+                                                                      f'FILTER(STR(?l) = "19") FILTER NOT EXISTS {{ ?a <{OCD}fine> ?f }} }}')])
+    prova("senato_ddl_recente", lambda: (lambda d: _props(S, d[0]["d"]["value"], 45) if d else "nessuno")(_sonda(
+        S, "SELECT ?d WHERE { ?d a <http://dati.senato.it/osr/Ddl> ; <http://dati.senato.it/osr/legislatura> ?l ; <http://dati.senato.it/osr/dataPresentazione> ?dt . FILTER(STR(?l) = \"19\") } ORDER BY DESC(?dt) LIMIT 1")))
+    prova("camera_incarico_gruppo", lambda: _props(C, "http://dati.camera.it/ocd/incarico.rdf/i4133_308848_15_20221018"))
+    prova("camera_incarichi_etichette", lambda: [b["l"]["value"] for b in _sonda(
+        C, "SELECT DISTINCT ?l WHERE { ?i <http://dati.camera.it/ocd/rif_gruppoParlamentare> <http://dati.camera.it/ocd/gruppoParlamentare.rdf/gr4133> ; <http://www.w3.org/2000/01/rdf-schema#label> ?l } LIMIT 40")])
+    prova("camera_atto_leg19", lambda: (lambda d: _props(C, d[0]["a"]["value"], 45) if d else "nessuno")(_sonda(
+        C, "SELECT ?a WHERE { ?a a <http://dati.camera.it/ocd/atto> ; <http://dati.camera.it/ocd/rif_leg> <http://dati.camera.it/ocd/legislatura.rdf/repubblica_19> ; <http://purl.org/dc/elements/1.1/date> ?d } ORDER BY DESC(?d) LIMIT 1")))
+    prova("camera_membro_governo", lambda: (lambda d: _props(C, d[0]["x"]["value"]) if d else "nessuno")(_sonda(
+        C, "SELECT ?x WHERE { ?x a <http://dati.camera.it/ocd/membroGoverno> } LIMIT 1")))
+    prova("camera_governo", lambda: (lambda d: _props(C, d[0]["x"]["value"]) if d else "nessuno")(_sonda(
+        C, "SELECT ?x WHERE { ?x a <http://dati.camera.it/ocd/governo> } LIMIT 1")))
     (DATA / "debug_senato_dati.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), "utf-8")
 
 
