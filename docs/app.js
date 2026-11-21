@@ -416,7 +416,7 @@ document.addEventListener("click", (e) => {
 
 
 // ============ Pop-up (bottom sheet) per tutta l'app ============
-const dec = (s) => { const t = document.createElement("textarea"); t.innerHTML = String(s ?? ""); return t.value; };
+const dec = (s) => { const t = document.createElement("textarea"); t.innerHTML = String(s ?? ""); return t.value.replace(/\\"/g, '"').replace(/\s*\^\^\S+\s*$/, "").replace(/\s*\(\d{1,5}\)\s*$/, "").replace(/^\s*"(.*)"\s*$/, "$1"); };
 const te = (s) => esc(dec(s));
 state.pop = {}; let popN = 0;
 const reg = (html) => { const k = "p" + (++popN); state.pop[k] = html; return `data-pop="${k}" role="button" tabindex="0"`; };
@@ -486,7 +486,8 @@ function legenda(gruppi) {
   const tot = gruppi.reduce((a, g) => a + g.n, 0) || 1;
   return `<div class="leg">${gruppi.slice().reverse().map((g) => `<span class="tap" ${reg(`<h2 class="pop-t">${esc(g.nome || g.sigla)}</h2><div class="pop-box">${pRiga("Seggi", g.n + " su " + tot)}${pRiga("Quota", Math.round((g.n / tot) * 1000) / 10 + "%")}${g.blocco ? pRiga("Posizione", g.blocco === "magg" ? "Maggioranza di governo" : g.blocco === "opp" ? "Opposizione" : "Altri") : ""}</div>`)}><i style="background:${g.colore}"></i>${esc(g.sigla)} <b>${g.n}</b></span>`).join("")}</div>`;
 }
-const nomeGruppoVoto = (s) => { const l = String(s).toLowerCase(); const m = [["fdi", "Fratelli d'Italia"], ["pd", "Partito Democratico"], ["lega", "Lega"], ["fi", "Forza Italia"], ["m5s", "Movimento 5 Stelle"], ["avs", "AVS"], ["a-", "Azione"], ["az", "Azione"], ["iv", "Italia Viva"], ["nm", "Noi Moderati"], ["misto", "Misto"]].find(([k]) => l.startsWith(k)); return m ? m[1] : String(s); };
+const NOMI_VOTO = { "m-fnvf": "Futuro Nazionale (Misto)", "m-scn": "Sud chiama Nord (Misto)", "m-alt": "Alternativa (Misto)", "m-+e-s": "+Europa (Misto)", "m-min": "Minoranze linguistiche (Misto)", aperre: "Azione", "nm-m-c": "Noi Moderati", "iv-cr": "Italia Viva", "pd-idp": "Partito Democratico", "fi-ppe": "Forza Italia" };
+const nomeGruppoVoto = (s) => { const l = String(s).toLowerCase(); if (NOMI_VOTO[l]) return NOMI_VOTO[l]; const m = [["fdi", "Fratelli d'Italia"], ["pd", "Partito Democratico"], ["lega", "Lega"], ["fi", "Forza Italia"], ["m5s", "Movimento 5 Stelle"], ["avs", "AVS"], ["a-", "Azione"], ["az", "Azione"], ["iv", "Italia Viva"], ["nm", "Noi Moderati"], ["misto", "Misto"]].find(([k]) => l.startsWith(k)); return m ? m[1] : String(s); };
 
 const BLOCCO_VOTO = { FDI: "magg", LEGA: "magg", "FI-PPE": "magg", "NM-M-C": "magg", "PD-IDP": "opp", M5S: "opp", AVS: "opp", "IV-CR": "opp", APERRE: "opp", "M-+E-S": "opp" };
 function cosaE(titolo, atto) {
