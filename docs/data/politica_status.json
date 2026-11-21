@@ -4,25 +4,15 @@
   "ok_il": "2026-11-21T13:37:02Z",
   "errore": null
  },
- "senato": {
-  "ok": false,
-  "ultimo_tentativo": "2026-11-21T13:37:07Z",
-  "errore": "ValueError: gruppo non trovato: Lega. Righe lette (0): "
- },
  "governo": {
-  "ok": false,
-  "ultimo_tentativo": "2026-11-21T13:37:07Z",
-  "errore": "ValueError: sezione 'Ministri' non trovata. Estratto: JavaScript is disabled | In order to continue, we need to verify that you're not a robot. | This requires JavaScript. Enable JavaScript and then reload the page."
+  "ok": null,
+  "ok_il": null,
+  "errore": null
  },
  "deputati": {
   "ok": true,
   "ok_il": "2026-11-21T13:37:23Z",
   "errore": null
- },
- "senatori": {
-  "ok": false,
-  "ultimo_tentativo": "2026-11-21T13:37:23Z",
-  "errore": "ValueError: numero di senatori incoerente: 0 (via regioni; gruppi: )"
  },
  "segretari": {
   "ok": true,
@@ -33,6 +23,16 @@
  "votazioni": {
   "ok": true,
   "ok_il": "2026-11-21T13:37:38Z",
+  "errore": null
+ },
+ "capigruppo": {
+  "ok": null,
+  "ok_il": null,
+  "errore": null
+ },
+ "proposte": {
+  "ok": null,
+  "ok_il": null,
   "errore": null
  }
 }

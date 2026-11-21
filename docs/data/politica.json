@@ -250,8 +250,79 @@
   "partiti": "FdI 24 · PD 21 · M5S 8 · Forza Italia-Noi Moderati 8 · Lega 8 · AVS 6"
  },
  "prossimi": [
-  "Capigruppo della Camera (fonte da individuare)",
-  "Voto di ogni gruppo sulle singole votazioni (chi è a favore e chi contro)",
-  "Proposte di legge: chi le presenta e a che punto sono"
- ]
+  "Senato: lettura automatica non possibile (il sito blocca i programmi)",
+  "Proposte di legge: quale partito le firma (oggi si vede se vengono da Governo o Parlamento)"
+ ],
+ "senato": {
+  "titolo": "Senato della Repubblica",
+  "totale": 205,
+  "maggioranza_soglia": 103,
+  "gruppi": [
+   {
+    "sigla": "Misto",
+    "nome": "Misto (include AVS e Azione)",
+    "n": 8,
+    "blocco": "altri",
+    "colore": "#94a3b8"
+   },
+   {
+    "sigla": "M5S",
+    "nome": "Movimento 5 Stelle",
+    "n": 26,
+    "blocco": "opp",
+    "colore": "#f59e0b"
+   },
+   {
+    "sigla": "PD",
+    "nome": "Partito Democratico",
+    "n": 36,
+    "blocco": "opp",
+    "colore": "#dc2626"
+   },
+   {
+    "sigla": "IV",
+    "nome": "Italia Viva - Casa Riformista",
+    "n": 8,
+    "blocco": "opp",
+    "colore": "#c084fc"
+   },
+   {
+    "sigla": "Aut",
+    "nome": "Per le Autonomie",
+    "n": 7,
+    "blocco": "altri",
+    "colore": "#a3a3a3"
+   },
+   {
+    "sigla": "NM",
+    "nome": "Civici d'Italia - Noi Moderati - MAIE",
+    "n": 8,
+    "blocco": "magg",
+    "colore": "#7dd3fc"
+   },
+   {
+    "sigla": "FI",
+    "nome": "Forza Italia",
+    "n": 20,
+    "blocco": "magg",
+    "colore": "#0ea5e9"
+   },
+   {
+    "sigla": "FdI",
+    "nome": "Fratelli d'Italia",
+    "n": 63,
+    "blocco": "magg",
+    "colore": "#1e40af"
+   },
+   {
+    "sigla": "Lega",
+    "nome": "Lega - Partito Sardo d'Azione",
+    "n": 29,
+    "blocco": "magg",
+    "colore": "#0d9488"
+   }
+  ],
+  "nota": "Il totale comprende i senatori a vita. Dato del riepilogo ufficiale dei gruppi; il sito del Senato non si lascia leggere in automatico, quindi qui l'aggiornamento è manuale.",
+  "link": "https://www.senato.it/composizione/gruppi-parlamentari/riepilogo-della-composizione"
+ }
 }

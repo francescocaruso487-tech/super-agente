@@ -473,8 +473,8 @@ function renderPolitica() {
     <div class="soglia">Maggioranza assoluta: ${c.maggioranza_soglia} seggi</div>${legenda(c.gruppi)}
     <div class="barra"><span style="flex:${mg};background:#1e40af">Maggioranza ${mg}</span><span style="flex:${al};background:#94a3b8"></span><span style="flex:${op};background:#dc2626">Opposizione ${op}</span></div>
     <p class="calc-n">Altri/non allineati: ${al}. ${esc(c.nota || "")}</p>${stampa("camera")}${link(c.link, "Composizione ufficiale →")}</div>`;
-  if (A.senato && A.senato.gruppi) {
-    const sn = A.senato, sm = sn.gruppi.filter((x) => x.blocco === "magg").reduce((s, x) => s + x.n, 0), so = sn.gruppi.filter((x) => x.blocco === "opp").reduce((s, x) => s + x.n, 0), sa = sn.totale - sm - so;
+  if ((A.senato || p.senato) && (A.senato || p.senato).gruppi) {
+    const sn = A.senato || p.senato, sm = sn.gruppi.filter((x) => x.blocco === "magg").reduce((s, x) => s + x.n, 0), so = sn.gruppi.filter((x) => x.blocco === "opp").reduce((s, x) => s + x.n, 0), sa = sn.totale - sm - so;
     h += `<div class="gruppo-titolo">📊 Senato della Repubblica (${sn.totale} seggi)</div><div class="pcard">${hemi(sn.gruppi, 340)}<div class="soglia">Maggioranza assoluta: ${sn.maggioranza_soglia} seggi</div>${legenda(sn.gruppi)}<div class="barra"><span style="flex:${sm};background:#1e40af">Maggioranza ${sm}</span><span style="flex:${sa};background:#94a3b8"></span><span style="flex:${so};background:#dc2626">Opposizione ${so}</span></div><p class="calc-n">${esc(sn.nota || "")}</p>${stampa("senato")}${link(sn.link, "Composizione ufficiale →")}</div>`;
   }
   const elencoGruppi = (D, titolo, chiave, ruolo) => {
@@ -499,6 +499,10 @@ function renderPolitica() {
       const t = x.fav + x.con + x.ast || 1, ok = x.esito === "approvata";
       return `<div class="voto"><div class="voto-t">${esc(x.titolo)}</div><div class="voto-m"><span class="esito ${ok ? "si" : "no"}">${ok ? "✅ Approvata" : "❌ Respinta"}</span><span class="mute">${esc(x.data)}</span></div><div class="barra"><span style="flex:${x.fav};background:#1f9d6b">${x.fav}</span><span style="flex:${x.ast || 0.0001};background:#94a3b8"></span><span style="flex:${x.con};background:#dc2626">${x.con}</span></div><div class="voto-l"><span>👍 Favorevoli ${Math.round((x.fav / t) * 100)}%</span><span>Astenuti ${x.ast}</span><span>👎 Contrari ${Math.round((x.con / t) * 100)}%</span></div>${(x.gruppi || []).length ? `<details class="vg"><summary>Come hanno votato i gruppi</summary>${x.gruppi.map((g) => `<div class="vgr"><span class="vgn">${esc(nomeGruppoVoto(g.sigla))}</span><span class="vg1">👍 ${g.fav}</span><span class="vg2">👎 ${g.con}</span><span class="vg3">⚪ ${g.ast}</span>${g.altro ? `<span class="mute">assenti ${g.altro}</span>` : ""}</div>`).join("")}</details>` : ""}</div>`;
     }).join("")}${stampa("votazioni")}${link(VT.link, "Votazioni sul sito della Camera →")}</div>`;
+  }
+  const PR = state.proposte;
+  if (PR && PR.proposte && PR.proposte.length) {
+    h += `<div class="gruppo-titolo">📜 Ultime proposte di legge</div><div class="pcard">${PR.proposte.slice(0, 8).map((x) => `<div class="voto"><div class="voto-t">${esc(x.titolo)}</div><div class="voto-m"><span class="esito ${x.iniziativa === "Governo" ? "si" : ""}">${x.iniziativa === "Governo" ? "🏛️ Governo" : "👥 " + esc(x.iniziativa)}</span><span class="mute">${esc(x.data)}</span></div>${x.stato ? `<div class="calc-n" style="margin:0">Stato: ${esc(x.stato)}</div>` : ""}</div>`).join("")}${stampa("proposte")}${link(PR.link, "Atti della Camera →")}</div>`;
   }
   h += `<div class="gruppo-titolo">📍 ${esc(rc.titolo)}</div><div class="pcard">${pers({ nome: rc.presidente.nome, ruolo: "Presidente della Regione", partito: rc.presidente.partito })}<p class="calc-n">${esc(rc.presidente.nota)}</p>
     ${hemi([{ n: rc.consiglio.maggioranza, colore: "#dc2626" }, { n: rc.consiglio.opposizione, colore: "#1e40af" }], 280)}
@@ -537,7 +541,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "37";
+const VERSIONE_APP = "38";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -547,8 +551,8 @@ async function carica(forza) {
     return r.json();
   };
   try {
-    const [news, aree, status, prof, profilo, confronto, politica, politicaAuto, politicaStato, deputati, senatori, partiti, votazioni] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({})), j("profilo").catch(() => ({})), j("confronto").catch(() => null), j("politica").catch(() => null), j("politica_auto").catch(() => ({})), j("politica_status").catch(() => ({})), j("deputati").catch(() => null), j("senatori").catch(() => null), j("partiti").catch(() => null), j("votazioni").catch(() => null)]);
-    state.confronto = confronto; state.politica = politica; state.politicaAuto = politicaAuto || {}; state.politicaStato = politicaStato || {}; state.deputati = deputati; state.senatori = senatori; state.partiti = partiti; state.votazioni = votazioni;
+    const [news, aree, status, prof, profilo, confronto, politica, politicaAuto, politicaStato, deputati, senatori, partiti, votazioni, proposte] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({})), j("profilo").catch(() => ({})), j("confronto").catch(() => null), j("politica").catch(() => null), j("politica_auto").catch(() => ({})), j("politica_status").catch(() => ({})), j("deputati").catch(() => null), j("senatori").catch(() => null), j("partiti").catch(() => null), j("votazioni").catch(() => null), j("proposte").catch(() => null)]);
+    state.confronto = confronto; state.politica = politica; state.politicaAuto = politicaAuto || {}; state.politicaStato = politicaStato || {}; state.deputati = deputati; state.senatori = senatori; state.partiti = partiti; state.votazioni = votazioni; state.proposte = proposte;
     state.profilo = profilo || {};
     if (!Array.isArray(state.modelli)) state.modelli = [...(state.profilo.modelli || [])];
     state.professioni = prof.professioni || {}; state.gruppiProf = prof.gruppi || [];

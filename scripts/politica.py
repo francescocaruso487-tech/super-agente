@@ -235,7 +235,97 @@ def _nome_senato(riga):
     return norm(f"{m.group(2)} {m.group(1).title()}")
 
 
+LEG19 = "<http://dati.camera.it/ocd/legislatura.rdf/repubblica_19>"
+FOAF = "http://xmlns.com/foaf/0.1/"
+
+
+def _nome_proprio(nome, cognome):
+    return norm(f"{nome} {cognome}").title().replace("'S ", "'s ")
+
+
 def leggi_governo():
+    """Governo in carica dai dati aperti della Camera: presidente, vicepresidenti, ministri (l'ultimo per ogni dicastero)."""
+    g = sparql(f"SELECT ?g WHERE {{ ?g a ocd:governo ; ocd:rif_leg {LEG19} . FILTER NOT EXISTS {{ ?g ocd:endDate ?e }} }}")
+    if not g:
+        raise ValueError("governo in carica non trovato nei dati aperti")
+    righe = sparql(f"""SELECT ?t ?fn ?sn ?sd WHERE {{ ?m a ocd:membroGoverno ; ocd:rif_governo <{g[0]['g']['value']}> ;
+        dc:title ?t ; <{FOAF}firstName> ?fn ; <{FOAF}surname> ?sn ; ocd:startDate ?sd .
+        FILTER NOT EXISTS {{ ?m ocd:endDate ?e }} }}""")
+    ultimi = {}
+    for b in righe:
+        t = re.sub(r"\s*\(\d{2}\.\d{2}\.\d{4}\)\s*$", "", norm(b["t"]["value"]))
+        if not re.match(r"(vice )?presidente del consiglio|ministr", t, re.I) or re.match(r"vice ?ministr", t, re.I):
+            continue
+        nome = _nome_proprio(b["fn"]["value"], b["sn"]["value"])
+        chiave = (t, nome) if re.match(r"vice ?presidente", t, re.I) else (t,)  # i vicepresidenti sono piu' di uno
+        if chiave not in ultimi or b["sd"]["value"] > ultimi[chiave][0]:
+            ultimi[chiave] = (b["sd"]["value"], t, nome)
+    persone = [{"nome": n, "ruolo": t} for _, t, n in sorted(ultimi.values(), key=lambda x: (not x[1].lower().startswith("presidente"), x[1]))]
+    uniche = {x["nome"] for x in persone}
+    if len(uniche) < 18 or not any(re.match(r"presidente del consiglio", x["ruolo"], re.I) for x in persone):
+        raise ValueError(f"governo non riconosciuto: {len(uniche)} nomi, ruoli: " + "; ".join(x["ruolo"][:40] for x in persone[:6]))
+    return {"persone": persone, "link": "https://www.governo.it/it/i-ministri"}
+
+
+def leggi_capigruppo():
+    """Presidente (capogruppo) di ogni gruppo della Camera, dagli incarichi dei dati aperti; li scrive in deputati.json."""
+    righe = sparql(f"""SELECT ?lab ?sd WHERE {{ ?i a ocd:incarico ; ocd:rif_leg {LEG19} ; ocd:ruolo ?r ; rdfs:label ?lab ;
+        ocd:rif_gruppoParlamentare ?g ; ocd:startDate ?sd .
+        FILTER(UCASE(STR(?r)) = "PRESIDENTE") FILTER NOT EXISTS {{ ?i ocd:endDate ?e }} }}""".replace("rdfs:label", "<http://www.w3.org/2000/01/rdf-schema#label>"))
+    if not righe:
+        ruoli = sparql(f"SELECT DISTINCT ?r WHERE {{ ?i a ocd:incarico ; ocd:rif_leg {LEG19} ; ocd:ruolo ?r }} LIMIT 25")
+        raise ValueError("nessun presidente di gruppo trovato; ruoli presenti: " + ", ".join(b["r"]["value"] for b in ruoli))
+    capi = {}
+    for b in righe:
+        m = re.match(r"(?i)presidente del gruppo (.+?),\s*(.+?)\s*\(", norm(b["lab"]["value"]))
+        if m and (m.group(1).lower() not in capi or b["sd"]["value"] > capi[m.group(1).lower()][0]):
+            capi[m.group(1).lower()] = (b["sd"]["value"], norm(m.group(2)).title())
+    f = DATA / "deputati.json"
+    if not f.exists():
+        raise ValueError("deputati.json non ancora disponibile")
+    d = json.loads(f.read_text("utf-8"))
+    n = 0
+    for g in d["gruppi"]:
+        nome = g["gruppo"].lower()
+        # i gruppi Misto/componenti: si confronta con la parte prima del trattino
+        for chiave, (_, persona) in capi.items():
+            if chiave == nome or chiave.startswith(nome) or nome.startswith(chiave):
+                g["presidente"] = persona
+                n += 1
+                break
+    f.write_text(json.dumps(d, ensure_ascii=False, indent=1), "utf-8")
+    return {"totale": n}
+
+
+def leggi_proposte():
+    """Ultimi atti (proposte e disegni di legge) con chi li presenta e a che punto sono."""
+    righe = sparql(f"""SELECT ?a ?lab ?ini ?dt WHERE {{ ?a a ocd:atto ; ocd:rif_leg {LEG19} ; dc:date ?dt ;
+        <http://www.w3.org/2000/01/rdf-schema#label> ?lab ; ocd:iniziativa ?ini }} ORDER BY DESC(?dt) LIMIT 40""")
+    out, visti = [], set()
+    for b in righe:
+        titolo_atto = norm(b["lab"]["value"]).strip(' "')
+        if titolo_atto in visti:
+            continue
+        visti.add(titolo_atto)
+        voce = {"data": data_it(b["dt"]["value"]), "titolo": titolo_atto[:260], "iniziativa": norm(b["ini"]["value"])}
+        try:
+            st = sparql(f"""SELECT ?l WHERE {{ <{b['a']['value']}> ocd:rif_statoIter ?si . ?si <http://www.w3.org/2000/01/rdf-schema#label> ?l ;
+                dc:date ?d }} ORDER BY DESC(?d) LIMIT 1""")
+            if st:
+                voce["stato"] = norm(st[0]["l"]["value"])[:120]
+        except Exception:  # noqa: BLE001
+            pass
+        out.append(voce)
+        if len(out) >= 15:
+            break
+    if not out:
+        raise ValueError("nessun atto leggibile")
+    (DATA / "proposte.json").write_text(json.dumps({"aggiornato": ora(), "proposte": out,
+        "link": "https://www.camera.it/leg19/126"}, ensure_ascii=False, indent=1), "utf-8")
+    return {"totale": len(out)}
+
+
+def _leggi_governo_senato_non_usato():
     """Ministri in carica dalla pagina 'Il Governo' del Senato (con le date di inizio/fine incarico)."""
     soup = BeautifulSoup(scarica(URL_GOVERNO), "lxml")
     righe = [norm(r) for r in soup.get_text("\n").split("\n") if norm(r)]
@@ -593,7 +683,9 @@ def leggi_votazioni():
     return {"totale": len(voti)}
 
 
-BLOCCHI = {"camera": leggi_camera, "senato": leggi_senato, "governo": leggi_governo, "deputati": leggi_deputati, "senatori": leggi_senatori, "segretari": leggi_segretari, "votazioni": leggi_votazioni}
+# Il sito del Senato mostra una verifica anti-robot e i suoi dati aperti non hanno i gruppi attuali: Senato a mano (politica.json).
+BLOCCHI = {"camera": leggi_camera, "governo": leggi_governo, "deputati": leggi_deputati, "capigruppo": leggi_capigruppo,
+           "segretari": leggi_segretari, "votazioni": leggi_votazioni, "proposte": leggi_proposte}
 
 
 def main():
