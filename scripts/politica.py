@@ -176,7 +176,68 @@ def leggi_governo():
     return {"persone": trovati, "link": URL_GOVERNO}
 
 
-BLOCCHI = {"camera": leggi_camera, "senato": leggi_senato, "governo": leggi_governo}
+LETTERE = "ABCDEFGIKLMNOPQRSTUVZ"
+
+
+def titolo(nome):
+    return norm(nome).title().replace("'S", "'s")
+
+
+def leggi_deputati():
+    """Elenco dei deputati in carica con il loro gruppo (pagine 'Elenco deputati' della Camera).
+    Confronta con la lettura precedente e registra i passaggi di gruppo."""
+    persone = {}
+    for lt in LETTERE:
+        html = scarica(f"https://www.camera.it/deputati/elenco?leg=19&lettera={lt}")
+        corrente = None
+        for a in BeautifulSoup(html, "lxml").find_all("a", href=True):
+            m = re.search(r"/deputati/elenco/19-(\d+)", a["href"])
+            testo = norm(a.get_text(" "))
+            if m and testo and not testo.lower().startswith(("immagine", "scrivi")):
+                if corrente is None or corrente["id"] != m.group(1):
+                    corrente = {"id": m.group(1), "nome": titolo(testo), "gruppo": None}
+                    persone[corrente["id"]] = corrente
+            elif "shadow_gruppi_parlamentari" in a["href"] and corrente and not corrente["gruppo"] and testo:
+                corrente["gruppo"] = testo
+    attivi = {k: v for k, v in persone.items() if v["gruppo"]}
+    if not 380 <= len(attivi) <= 405:
+        raise ValueError(f"numero di deputati incoerente: {len(attivi)} (trovati {len(persone)} nomi)")
+    gruppi = {}
+    for v in attivi.values():
+        g = gruppi.setdefault(v["gruppo"], {"gruppo": v["gruppo"], "deputati": []})
+        g["deputati"].append({"id": v["id"], "nome": v["nome"]})
+    elenco = []
+    for g in gruppi.values():
+        low = g["gruppo"].lower()
+        riga = next((r for r in CAMERA if r[0] in low), None)
+        g.update({"sigla": riga[1] if riga else g["gruppo"][:8], "blocco": riga[2] if riga else "altri",
+                  "colore": riga[3] if riga else "#94a3b8", "ordine": riga[4] if riga else 75})
+        g["n"] = len(g["deputati"])
+        g["deputati"].sort(key=lambda d: d["nome"])
+        elenco.append(g)
+    elenco.sort(key=lambda g: -g["n"])
+    # passaggi di gruppo rispetto alla lettura precedente
+    f = DATA / "deputati.json"
+    prec = json.loads(f.read_text("utf-8")) if f.exists() else {}
+    vecchi = {d["id"]: (d["nome"], g["gruppo"]) for g in prec.get("gruppi", []) for d in g["deputati"]}
+    variazioni = list(prec.get("variazioni", []))
+    oggi = datetime.now(timezone.utc).strftime("%d/%m/%Y")
+    if vecchi:
+        for k, v in attivi.items():
+            if k in vecchi and vecchi[k][1] != v["gruppo"]:
+                variazioni.insert(0, {"data": oggi, "nome": v["nome"], "tipo": "passaggio", "da": vecchi[k][1], "a": v["gruppo"]})
+            elif k not in vecchi:
+                variazioni.insert(0, {"data": oggi, "nome": v["nome"], "tipo": "subentro", "a": v["gruppo"]})
+        for k, (nome, gr) in vecchi.items():
+            if k not in attivi:
+                variazioni.insert(0, {"data": oggi, "nome": nome, "tipo": "cessato", "da": gr})
+    f.write_text(json.dumps({"aggiornato": ora(), "totale": len(attivi), "gruppi": elenco,
+                             "variazioni": variazioni[:40], "link": "https://www.camera.it/deputati/elenco?leg=19"},
+                            ensure_ascii=False, indent=1), "utf-8")
+    return {"totale": len(attivi)}
+
+
+BLOCCHI = {"camera": leggi_camera, "senato": leggi_senato, "governo": leggi_governo, "deputati": leggi_deputati}
 
 
 def main():
