@@ -476,16 +476,18 @@ function renderPolitica() {
     const sn = A.senato, sm = sn.gruppi.filter((x) => x.blocco === "magg").reduce((s, x) => s + x.n, 0), so = sn.gruppi.filter((x) => x.blocco === "opp").reduce((s, x) => s + x.n, 0), sa = sn.totale - sm - so;
     h += `<div class="gruppo-titolo">📊 Senato della Repubblica (${sn.totale} seggi)</div><div class="pcard">${hemi(sn.gruppi, 340)}<div class="soglia">Maggioranza assoluta: ${sn.maggioranza_soglia} seggi</div>${legenda(sn.gruppi)}<div class="barra"><span style="flex:${sm};background:#1e40af">Maggioranza ${sm}</span><span style="flex:${sa};background:#94a3b8"></span><span style="flex:${so};background:#dc2626">Opposizione ${so}</span></div><p class="calc-n">${esc(sn.nota || "")}</p>${stampa("senato")}${link(sn.link, "Composizione ufficiale →")}</div>`;
   }
-  const D = state.deputati;
-  if (D && D.gruppi && D.gruppi.length) {
-    const sg = (s) => esc(String(s).replace(/ - .*/, "").replace(/^MISTO-/i, "Misto · ").replace(/\(.*$/, "").trim());
-    const vt = (v) => v.tipo === "passaggio" ? `${esc(v.nome)}: da ${sg(v.da)} a ${sg(v.a)}` : v.tipo === "subentro" ? `${esc(v.nome)} subentra (${sg(v.a)})` : `${esc(v.nome)} non è più deputato (${sg(v.da)})`;
-    h += `<div class="gruppo-titolo">👥 Partiti e deputati (${D.totale})</div><div class="pcard">`
+  const elencoGruppi = (D, titolo, chiave, ruolo) => {
+    if (!D || !D.gruppi || !D.gruppi.length) return "";
+    const sg = (s) => esc(String(s).replace(/ - .*/, "").replace(/-(Berlusconi|Salvini|Italia Democratica).*$/i, "").replace(/^MISTO-/i, "Misto · ").replace(/\(.*$/, "").trim());
+    const vt = (v) => v.tipo === "passaggio" ? `${esc(v.nome)}: da ${sg(v.da)} a ${sg(v.a)}` : v.tipo === "subentro" ? `${esc(v.nome)} subentra (${sg(v.a)})` : `${esc(v.nome)} non è più ${ruolo} (${sg(v.da)})`;
+    return `<div class="gruppo-titolo">${titolo} (${D.totale})</div><div class="pcard">`
       + D.gruppi.map((g) => `<details class="grp"><summary><i style="background:${esc(g.colore)}"></i><span>${sg(g.gruppo)}</span><b>${g.n}</b></summary><p class="dep">${g.deputati.map((d) => esc(d.nome)).join(" · ")}</p></details>`).join("")
       + `<div class="calc-n"><b>🔄 Ultimi cambiamenti</b></div>`
       + ((D.variazioni || []).length ? `<ul class="nov">${D.variazioni.slice(0, 8).map((v) => `<li>${vt(v)} <span class="mute">· ${esc(v.data)}</span></li>`).join("")}</ul>` : `<p class="calc-n">Nessun passaggio di gruppo registrato dall'avvio del controllo automatico.</p>`)
-      + stampa("deputati") + link(D.link, "Elenco ufficiale →") + `</div>`;
-  }
+      + stampa(chiave) + link(D.link, "Elenco ufficiale →") + `</div>`;
+  };
+  h += elencoGruppi(state.deputati, "👥 Partiti e deputati", "deputati", "deputato");
+  h += elencoGruppi(state.senatori, "👥 Partiti e senatori", "senatori", "senatore");
   h += `<div class="gruppo-titolo">📍 ${esc(rc.titolo)}</div><div class="pcard">${pers({ nome: rc.presidente.nome, ruolo: "Presidente della Regione", partito: rc.presidente.partito })}<p class="calc-n">${esc(rc.presidente.nota)}</p>
     ${hemi([{ n: rc.consiglio.maggioranza, colore: "#dc2626" }, { n: rc.consiglio.opposizione, colore: "#1e40af" }], 280)}
     <div class="barra"><span style="flex:${rc.consiglio.maggioranza};background:#dc2626">Maggioranza ${rc.consiglio.maggioranza}</span><span style="flex:${rc.consiglio.opposizione};background:#1e40af">Opposizione ${rc.consiglio.opposizione}</span></div>
@@ -523,7 +525,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "32";
+const VERSIONE_APP = "33";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -533,8 +535,8 @@ async function carica(forza) {
     return r.json();
   };
   try {
-    const [news, aree, status, prof, profilo, confronto, politica, politicaAuto, politicaStato, deputati] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({})), j("profilo").catch(() => ({})), j("confronto").catch(() => null), j("politica").catch(() => null), j("politica_auto").catch(() => ({})), j("politica_status").catch(() => ({})), j("deputati").catch(() => null)]);
-    state.confronto = confronto; state.politica = politica; state.politicaAuto = politicaAuto || {}; state.politicaStato = politicaStato || {}; state.deputati = deputati;
+    const [news, aree, status, prof, profilo, confronto, politica, politicaAuto, politicaStato, deputati, senatori] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({})), j("profilo").catch(() => ({})), j("confronto").catch(() => null), j("politica").catch(() => null), j("politica_auto").catch(() => ({})), j("politica_status").catch(() => ({})), j("deputati").catch(() => null), j("senatori").catch(() => null)]);
+    state.confronto = confronto; state.politica = politica; state.politicaAuto = politicaAuto || {}; state.politicaStato = politicaStato || {}; state.deputati = deputati; state.senatori = senatori;
     state.profilo = profilo || {};
     if (!Array.isArray(state.modelli)) state.modelli = [...(state.profilo.modelli || [])];
     state.professioni = prof.professioni || {}; state.gruppiProf = prof.gruppi || [];

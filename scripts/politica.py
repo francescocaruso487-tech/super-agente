@@ -176,6 +176,12 @@ def leggi_governo():
     return {"persone": trovati, "link": URL_GOVERNO}
 
 
+def trova(tabella, low):
+    """Riga della tabella la cui parola chiave compare per prima nel nome (a parita': la piu' lunga)."""
+    c = [(low.index(r[0]), -len(r[0]), i) for i, r in enumerate(tabella) if r[0] in low]
+    return tabella[min(c)[2]] if c else None
+
+
 LETTERE = "ABCDEFGIKLMNOPQRSTUVZ"
 
 
@@ -209,7 +215,7 @@ def leggi_deputati():
     elenco = []
     for g in gruppi.values():
         low = g["gruppo"].lower()
-        riga = next((r for r in CAMERA if r[0] in low), None)
+        riga = trova(CAMERA, low)
         g.update({"sigla": riga[1] if riga else g["gruppo"][:8], "blocco": riga[2] if riga else "altri",
                   "colore": riga[3] if riga else "#94a3b8", "ordine": riga[4] if riga else 75})
         g["n"] = len(g["deputati"])
@@ -237,7 +243,62 @@ def leggi_deputati():
     return {"totale": len(attivi)}
 
 
-BLOCCHI = {"camera": leggi_camera, "senato": leggi_senato, "governo": leggi_governo, "deputati": leggi_deputati}
+def leggi_senatori():
+    """Senatori per gruppo: parte dalla pagina riepilogo e legge la pagina di ogni gruppo.
+    Registra i passaggi rispetto alla lettura precedente."""
+    home = BeautifulSoup(scarica(URL_SENATO), "lxml")
+    gruppi_url = {}
+    for a in home.find_all("a", href=True):
+        if "composizione?did=" in a["href"]:
+            nome = re.sub(r"\s+\d+$", "", norm(a.get_text(" ")))
+            if nome:
+                gruppi_url.setdefault(nome, requests.compat.urljoin(URL_SENATO, a["href"]))
+    if len(gruppi_url) < 5:
+        raise ValueError(f"gruppi del Senato trovati: {len(gruppi_url)}")
+    attivi, per_gruppo = {}, {}
+    for nome, url in gruppi_url.items():
+        soup = BeautifulSoup(scarica(url), "lxml")
+        nomi = {}
+        for img in soup.find_all("img", alt=True):
+            m = re.match(r"\s*Foto sen\.\s+(.+)", img["alt"])
+            if m:
+                n = titolo(m.group(1))
+                nomi[n.lower()] = n
+        per_gruppo[nome] = sorted(nomi.values())
+        for n in nomi.values():
+            attivi[n.lower()] = (n, nome)
+    if not 190 <= len(attivi) <= 206:
+        raise ValueError(f"numero di senatori incoerente: {len(attivi)}")
+    elenco = []
+    for nome, persone in per_gruppo.items():
+        if not persone:
+            continue
+        low = nome.lower()
+        riga = trova(SENATO, low)
+        elenco.append({"gruppo": nome, "sigla": riga[1] if riga else nome[:8], "blocco": riga[2] if riga else "altri",
+                       "colore": riga[3] if riga else "#94a3b8", "n": len(persone),
+                       "deputati": [{"id": x.lower(), "nome": x} for x in persone]})
+    elenco.sort(key=lambda g: -g["n"])
+    f = DATA / "senatori.json"
+    prec = json.loads(f.read_text("utf-8")) if f.exists() else {}
+    vecchi = {d["id"]: (d["nome"], g["gruppo"]) for g in prec.get("gruppi", []) for d in g["deputati"]}
+    variazioni = list(prec.get("variazioni", []))
+    oggi = datetime.now(timezone.utc).strftime("%d/%m/%Y")
+    if vecchi:
+        for k, (n, gr) in attivi.items():
+            if k in vecchi and vecchi[k][1] != gr:
+                variazioni.insert(0, {"data": oggi, "nome": n, "tipo": "passaggio", "da": vecchi[k][1], "a": gr})
+            elif k not in vecchi:
+                variazioni.insert(0, {"data": oggi, "nome": n, "tipo": "subentro", "a": gr})
+        for k, (n, gr) in vecchi.items():
+            if k not in attivi:
+                variazioni.insert(0, {"data": oggi, "nome": n, "tipo": "cessato", "da": gr})
+    f.write_text(json.dumps({"aggiornato": ora(), "totale": len(attivi), "gruppi": elenco, "variazioni": variazioni[:40],
+                             "link": URL_SENATO}, ensure_ascii=False, indent=1), "utf-8")
+    return {"totale": len(attivi)}
+
+
+BLOCCHI = {"camera": leggi_camera, "senato": leggi_senato, "governo": leggi_governo, "deputati": leggi_deputati, "senatori": leggi_senatori}
 
 
 def main():
