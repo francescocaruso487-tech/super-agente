@@ -675,7 +675,7 @@ def leggi_votazioni():
         pass
     for v in voti[:10]:  # come ha votato ciascun gruppo (voti individuali dei deputati, raggruppati)
         try:
-            righe_g = sparql(f"SELECT ?sg ?t (COUNT(?x) AS ?n) WHERE {{ ?x a ocd:voto ; ocd:rif_votazione <{v['uri']}> ; "
+            righe_g = sparql(f"SELECT ?sg ?t (COUNT(DISTINCT ?x) AS ?n) WHERE {{ ?x a ocd:voto ; ocd:rif_votazione <{v['uri']}> ; "
                              f"ocd:siglaGruppo ?sg ; dc:type ?t }} GROUP BY ?sg ?t")
             g = {}
             for b in righe_g:
@@ -685,6 +685,32 @@ def leggi_votazioni():
             v["gruppi"] = sorted(({"sigla": k, **x} for k, x in g.items()), key=lambda x: -(x["fav"] + x["con"] + x["ast"] + x["altro"]))
         except Exception:  # noqa: BLE001
             pass
+    for v in voti[:10]:  # scheda ufficiale della votazione e titolo ufficiale dell'atto votato
+        try:
+            r = sparql(f"SELECT ?r WHERE {{ <{v['uri']}> dc:relation ?r }} LIMIT 1")
+            if r:
+                v["scheda"] = r[0]["r"]["value"]
+        except Exception:  # noqa: BLE001
+            pass
+        m = re.match(r"(?i)(?:DDL|PDL|DL|DOC\.?)\s*(\d{1,5})", v["titolo"])
+        if not m:
+            continue
+        num = m.group(1)
+        for filtro in (f'?a dc:identifier "{num}"', f'?a dc:identifier "C.{num}"', ""):
+            try:
+                if filtro:
+                    q = f"SELECT ?lab ?ini WHERE {{ ?a a ocd:atto ; ocd:rif_leg {LEG19} ; <http://www.w3.org/2000/01/rdf-schema#label> ?lab . {filtro} . OPTIONAL {{ ?a ocd:iniziativa ?ini }} }} LIMIT 3"
+                else:
+                    q = (f"SELECT ?lab ?ini WHERE {{ ?a a ocd:atto ; ocd:rif_leg {LEG19} ; <http://www.w3.org/2000/01/rdf-schema#label> ?lab . "
+                         f"OPTIONAL {{ ?a ocd:iniziativa ?ini }} FILTER(CONTAINS(STR(?lab), \"C. {num}.\") || STRSTARTS(STR(?lab), \"{num}.\")) }} LIMIT 3")
+                rr = sparql(q)
+                if rr:
+                    v["atto"] = {"titolo": norm(rr[0]["lab"]["value"]).strip(' "')[:500],
+                                 "iniziativa": norm(rr[0]["ini"]["value"]) if "ini" in rr[0] else ""}
+                    break
+            except Exception:  # noqa: BLE001
+                continue
+        v["scheda_atto"] = f"https://www.camera.it/leg19/126?leg=19&idDocumento={num}"
     for v in voti:
         v.pop("uri", None)
     (DATA / "votazioni.json").write_text(json.dumps({"aggiornato": ora(), "voti": voti[:20],
