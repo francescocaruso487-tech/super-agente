@@ -1,7 +1,963 @@
 {
- "aggiornato": "2026-11-21T19:49:26Z",
+ "aggiornato": "2026-11-21T20:01:14Z",
  "tassonomia": "13",
  "notizie": [
+  {
+   "id": "df6f9ccc233a2aad",
+   "titolo": "Quadrilocale all'asta in Via della Vergine, Pozzilli",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SN0x1SzE1ekh6d3BNeUVrOW0yZkpERHAyV0hjMlg3a0g4bFVDLW11WVIwdUFJMllWc2V2b0FyTTlUdFRQMDh1aDJEZGFLZExjY3pjeU93?oc=5",
+   "fonte": "pr-immobiliare-news",
+   "fonte_nome": "Immobiliare.it e Idealista News",
+   "tipo": "stampa",
+   "aree": [
+    "immobiliare"
+   ],
+   "normativa": false,
+   "sintesi": "Quadrilocale all'asta in Via della Vergine, Pozzilli Idealista",
+   "pubblicata": "2026-11-21T20:04:30Z",
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "agente_imm",
+    "condominio",
+    "valutatore",
+    "facility",
+    "mutui",
+    "notaio"
+   ]
+  },
+  {
+   "id": "da1980938dfd7b17",
+   "titolo": "Amazon Black Friday: sconti su set economici alternativi ai LEGO, alcuni sono assurdi!",
+   "link": "https://www.everyeye.it/notizie/amazon-black-friday-sconti-set-economici-alternativi-lego-assurdi-912965.html",
+   "fonte": "t-everyeye",
+   "fonte_nome": "Everyeye",
+   "tipo": "stampa",
+   "aree": [
+    "offerte",
+    "gaming"
+   ],
+   "normativa": false,
+   "sintesi": "Su Amazon, in occasione della Settimana del Black Friday 2026, sono arrivati anche ottimi sconti su assurdi set economici alternativi ai LEGO.",
+   "pubblicata": "2026-11-21T20:03:00Z",
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "dcfd286d7e3a09ec",
+   "titolo": "UIA Golden Cubes Awards: i vincitori Gli esiti della fase nazionale",
+   "link": "https://www.awn.it/news/cnappc-informa/10040-uia-golden-cubes-awards-i-vincitori",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "d6909c99371c4b60",
+   "titolo": "UIA: Call for Projects Atlante degli ambienti di apprendimento Le candidature entro il 15 aprile",
+   "link": "https://www.awn.it/news/cnappc-informa/10038-uia-call-for-projects-atlante-degli-ambienti-di-apprendimento",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "1ca858f2328f087d",
+   "titolo": "Progetto Think Tank: 2 FAD asincroni per la formazione Dialoghi con personalità di fama internazionale sul ruolo della professione",
+   "link": "https://www.awn.it/news/cnappc-informa/10033-think-tank-serbatoio-di-pensiero",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "445c4d5bb2eaf022",
+   "titolo": "03 novembre 2026 ABITARE IL PAESE – IX EDIZIONE / 2026-2027 La nuova edizione",
+   "link": "https://www.awn.it/attivita/abitare-il-paese/10201-abitare-il-paese-9",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "81ee98be532bc73e",
+   "titolo": "08 maggio 2026 Milano: bando per 110 alloggi a Niguarda e Giambellino Aperto fino al 31 agosto 2026",
+   "link": "https://www.awn.it/news/notizie/10056-milano-bando-per-110-alloggi-a-niguarda-e-giambellino",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "c3d4e1e394df30b6",
+   "titolo": "06 maggio 2026 Stati generali della bellezza: a Offida l’11 e il 12 giugno Focus sul futuro dei borghi",
+   "link": "https://www.awn.it/news/notizie/10055-stati-generali-della-bellezza-a-offida-l-11-e-il-12-giugno",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "f504b5c7249218a7",
+   "titolo": "Valutazioni immobiliari: dati, qualità e trasparenza al centro del convegno ASSOVIB",
+   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/valutazioni-immobiliari-dati-qualit%C3%A0-e-trasparenza-al-centro-del-convegno-assovib?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1020791&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=valutazioni-immobiliari-dati-qualit%25C3%25A0-e-trasparenza-al-centro-del-convegno-assovib&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1020791%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
+   "fonte": "coll-geom-ce",
+   "fonte_nome": "Collegio Geometri Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": [
+    "data"
+   ]
+  },
+  {
+   "id": "eb7b100865371e5c",
+   "titolo": "San Vito al Tagliamento festeggia i cento anni del geometra Dino Candusso",
+   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1019661&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1019661%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
+   "fonte": "coll-geom-ce",
+   "fonte_nome": "Collegio Geometri Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": [
+    "geometra"
+   ]
+  },
+  {
+   "id": "d4ab6ef27b8afbc2",
+   "titolo": "Scuola, Valditara: «Con la Manovra più risorse nel 2027 che nel 2026». Saltano i tagli",
+   "link": "https://www.italiaoggi.it/settori/scuola/scuola-valditara-con-la-manovra-piu-risorse-nel-2027-che-nel-2026-saltano-i-tagli-owqczk4w",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "formazione_cultura",
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola",
+    "bonus.bilancio"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus",
+    "commercialista",
+    "geometra",
+    "ingegnere",
+    "architetto"
+   ]
+  },
+  {
+   "id": "a53bc3beb0b6b83e",
+   "titolo": "Mattarella: 'L'Italia non può privarsi del suo essere molteplice'",
+   "link": "https://www.ansa.it/sito/notizie/eventi/2026/11/19/valore-futuro-assemblea-nazionale-della-cna_123c1b6f-f280-4b54-a897-b4f3d17a3830.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [
+    "governo.quirinale"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "15c3049e05131ffc",
+   "titolo": "Bahrein, incendio in un sito industriale civile per un attacco iraniano",
+   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/21/bahrein-incendio-in-un-sito-industriale-civile-per-un-attacco-iraniano_ada274d3-4136-4dab-91f8-f0c4441092f5.html",
+   "fonte": "p-ansa-mondo",
+   "fonte_nome": "ANSA Mondo",
+   "tipo": "stampa",
+   "aree": [
+    "esteri"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "d249cf639d43cdf6",
+   "titolo": "I paletti del Likud sul governo unità, 'nessuno Stato palestinese, niente veti a Bibi'",
+   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/21/i-paletti-del-likud-sul-governo-unita-nessuno-stato-palestinese-niente_df244b05-0503-4162-bda3-2bb91d0180c4.html",
+   "fonte": "p-ansa-mondo",
+   "fonte_nome": "ANSA Mondo",
+   "tipo": "stampa",
+   "aree": [
+    "governo",
+    "esteri"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [
+    "governo.governo"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "5acc887d4bcb4708",
+   "titolo": "La Guida: Addio Augias, talento dell'ascolto Politica 20 nov - 11:18",
+   "link": "https://tg24.sky.it/politica/video/2026/11/20/la-guida-addio-augias-talento-dellascolto-1141318",
+   "fonte": "p-sky",
+   "fonte_nome": "Sky TG24 Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "cdb9ae877578869e",
+   "titolo": "Urso a Landini: \"Manovra consolida i conti pubblici\" Politica \"Landini ha proclamato lo sciopero prima ancora di conoscere i contenuti della manovra, io credo... 20 nov - 10:59",
+   "link": "https://tg24.sky.it/politica/video/2026/11/20/urso-a-landini-manovra-consolida-i-conti-pubblici-1141312",
+   "fonte": "p-sky",
+   "fonte_nome": "Sky TG24 Politica",
+   "tipo": "stampa",
+   "aree": [
+    "economia_pol",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [
+    "economia_pol.welfare"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "f2483d4202c635cb",
+   "titolo": "Napoli-Torino, infortunio per Antonio Vergara: fuori in lacrime e mani nei capelli , problema alla coscia",
+   "link": "https://www.ilmattino.it/sport/sscnapoli/napoli_torino_infortunio_per_antonio_vergara_mani_nei_capelli_per_il_calciatore_problema_alla_coscia-9904855.html",
+   "fonte": "p-mattino",
+   "fonte_nome": "Il Mattino (Napoli e Campania)",
+   "tipo": "stampa",
+   "aree": [
+    "territorio"
+   ],
+   "normativa": false,
+   "sintesi": "Tegola per il Napoli al minuto 9, infortunio per Antonio Vergara. Il calciatore del Napoli ha sentito tirare dietro la coscia sinistra e ha chiesto immediatamente il…",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "rss",
+   "sotto": [
+    "territorio.campania"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "ab770c5f247ebaf3",
+   "titolo": "Geely E2, l'elettrica compatta che punta su design, comfort e sicurezza",
+   "link": "https://www.ansa.it/canale_motori/notizie/novita_anticipazione/2026/11/20/geely-e2-lelettrica-compatta-che-punta-su-design-comfort-e-sicurezza_a96fca54-f5e0-403b-b491-40d3321264e1.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "elettriche"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.marchi",
+    "elettriche.ev"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "altre_fonti": []
+  },
+  {
+   "id": "710bbd2102686222",
+   "titolo": "Mercedes-Benz, debutta la CLA Shooting Brake elettrica: autonomia fino a 761 km",
+   "link": "https://www.ansa.it/canale_motori/notizie/novita_anticipazione/2026/11/20/mercedes-benz-debutta-la-cla-shooting-brake-elettrica-autonomia-fino-a-761_a279802c-f6c6-4cfe-b3d2-238357900591.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "elettriche",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [
+    "elettriche.ev",
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "altre_fonti": []
+  },
+  {
+   "id": "95d3b729d0347741",
+   "titolo": "Tesla punta a produrre un milione di Cybercab all’anno in Germania: investimento da 3 miliardi per Giga Berlin",
+   "link": "https://www.automoto.it/news/tesla-punta-a-produrre-un-milione-di-cybercab-allanno-in-germania-investimento-da-3-miliardi-per-giga-berlin.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "753961089191c023",
+   "titolo": "The Game Awards 2026: da GTA 6 a Forza Horizon 6, tutti i giochi di guida candidati",
+   "link": "https://www.automoto.it/gaming/the-game-awards-2026-da-gta-6-a-forza-horizon-6-tutti-i-giochi-di-guida-candidati.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "prove",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [
+    "prove.guide"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "413e2ba884a8e3ad",
+   "titolo": "Le auto più affidabili del 2026, il verdetto su quasi 10 milioni di revisioni",
+   "link": "https://www.alvolante.it/news/auto-piu-affidabili-classifica-del-tuv-report-2027-422131",
+   "fonte": "a-alvolante",
+   "fonte_nome": "Alvolante",
+   "tipo": "stampa",
+   "aree": [
+    "prove",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "Il nuovo TÜV Report analizza milioni di revisioni in Germania e ne analizza i risultati. Ecco le migliori e le peggiori in base all'età.",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "rss",
+   "sotto": [
+    "prove.guide"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "587643dc5dd36eee",
+   "titolo": "Kia EV2, razionalità per al Car of The Year 2027",
+   "link": "https://www.auto.it/foto/speciali/auto-dell-anno/2026/11/20-9311260/kia_ev2_razionalita_per_al_car_of_the_year_2027",
+   "fonte": "a-autoit",
+   "fonte_nome": "Auto.it",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "altre_fonti": []
+  },
+  {
+   "id": "97668ab2237519b7",
+   "titolo": "Normativa IPT - Emanazione circolare MEF del 19/11/2026",
+   "link": "https://www.aniasa.it/aniasa/area-riservata/private/circolari/6938",
+   "fonte": "a-aniasa",
+   "fonte_nome": "ANIASA (noleggio)",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "100db0b24a019ff1",
+   "titolo": "Al via il progetto AURORA per studiare i misteri della circolazione abissale",
+   "link": "https://www.ingv.it/stampa-urp/ufficio-stampa/news/al-via-il-progetto-aurora-per-studiare-i-misteri-della-circolazione-abissale",
+   "fonte": "pr-ingv",
+   "fonte_nome": "INGV (sismologia)",
+   "tipo": "ente",
+   "aree": [
+    "scienze"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "geologo",
+    "ingegnere",
+    "agronomo",
+    "chimico",
+    "biologo",
+    "fisico"
+   ]
+  },
+  {
+   "id": "223b86f977fd231d",
+   "titolo": "Cent’anni dopo «Tendenze nuove»: il sistema del reddito ed il nuovo principio OIC per le imprese di minori dimensioni. Gianfranco Capodaglio, Vanina Stoilova Dangarska, Lauretta Semprini, Ivanoe Tozzi Leggi.",
+   "link": "https://www.ilcaso.it/articolo/2433?Cent%E2%80%99anni-dopo-%C2%ABTendenze-nuove%C2%BB%3A-il-sistema-del-reddito-ed-il-nuovo-principio-OIC-per-le-imprese-di-minori-dimensioni",
+   "fonte": "pr-crisi",
+   "fonte_nome": "Crisi d'impresa e curatori",
+   "tipo": "stampa",
+   "aree": [
+    "legale"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "revisore",
+    "finanziario",
+    "curatore",
+    "avvocato",
+    "commercialista",
+    "tributarista",
+    "notaio"
+   ]
+  },
+  {
+   "id": "63675fb06d814c92",
+   "titolo": "Portafogli gestiti e depositi ai massimi a metà 2026 - Nell'ultimo Bollettino Consob la fotografia del volume di strumenti finanziari nei portafogli e nei depositi degli intermediari vigilati",
+   "link": "https://www.consob.it/web/consob/w/portafogli-gestiti-e-depositi-ai-massimi-a-met%C3%A0-2026-nell-ultimo-bollettino-consob-la-fotografia-del-volume-di-strumenti-finanziari-nei-portafogli-e-nei-depositi-degli-intermediari-vigilati",
+   "fonte": "pr-consob",
+   "fonte_nome": "Consob",
+   "tipo": "ufficiale",
+   "aree": [
+    "comunicazione",
+    "management"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [
+    "comunicazione.design",
+    "management.finanza"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "revisore",
+    "finanziario",
+    "curatore",
+    "fotovideo",
+    "giornalista",
+    "marketer",
+    "grafico",
+    "manager"
+   ]
+  },
+  {
+   "id": "2eb8e0375316f30a",
+   "titolo": "Vaccini, per contrastare l’esitazione non basta fornire informazioni: bisogna costruire fiducia",
+   "link": "https://www.sanitainformazione.it/vaccini-per-contrastare-lesitazione-non-basta-fornire-informazioni-bisogna-costruire-fiducia/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [
+    "sanita.sistema"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "faaeebaac80a0410",
+   "titolo": "Salute mentale, allenarsi spesso conta più della durata e dell’intensità",
+   "link": "https://www.sanitainformazione.it/salute-mentale-allenarsi-spesso-conta-piu-della-durata-e-dellintensita/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "a302d6f659c825bc",
+   "titolo": "TAC ed RX nei bambini, l’esposizione cumulativa aumenta il rischio di tumore cerebrale",
+   "link": "https://www.sanitainformazione.it/tac-ed-rx-nei-bambini-l-esposizione-cumulativa-aumenta-il-rischio-di-tumore-cerebrale/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "d9cee4a129900bab",
+   "titolo": "Il Biotecnopolo di Siena lancia una campagna contro l’antimicrobico-resistenza: al centro le nuove generazioni",
+   "link": "https://www.sanitainformazione.it/il-biotecnopolo-di-siena-lancia-una-campagna-contro-lantimicrobico-resistenza-al-centro-le-nuove-generazioni/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "5378e84c5d804c63",
+   "titolo": "Pronto soccorso, nel 43% delle strutture si attende un ricovero per oltre 48 ore: l’allarme Simeu",
+   "link": "https://www.sanitainformazione.it/pronto-soccorso-nel-43-delle-strutture-si-attende-un-ricovero-per-oltre-48-ore-lallarme-simeu/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [
+    "sanita.sistema"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "2a2af1abe66a4adf",
+   "titolo": "Stress in gravidanza, il momento dell’esposizione influenza madre e neonato",
+   "link": "https://www.sanitainformazione.it/stress-in-gravidanza-il-momento-dellesposizione-influenza-madre-e-neonato/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "fa122836fe4e1ff3",
+   "titolo": "Inquinamento e poco verde aumentano il rischio di cardiopatia ischemica",
+   "link": "https://www.sanitainformazione.it/inquinamento-e-poco-verde-aumentano-il-rischio-di-cardiopatia-ischemica/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "scienze",
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [
+    "scienze.chimica"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "7ec62cf6192bdf52",
+   "titolo": "AIFA, via libera a nuovi farmaci per nefropatie rare, asma severo e angioedema ereditario",
+   "link": "https://www.sanitainformazione.it/aifa-via-libera-a-nuovi-farmaci-per-nefropatie-rare-asma-severo-e-angioedema-ereditario/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [
+    "sanita.sistema"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "9c178e98cdb1c377",
+   "titolo": "Anthropic debutta a Wall Street: un esordio da record in un mercato ancora incerto",
+   "link": "https://www.engage.it/tecnologia/anthropic-debutta-a-wall-street-ipo-da-record.aspx",
+   "fonte": "pr-marketing",
+   "fonte_nome": "Marketing, social e pubblicità",
+   "tipo": "stampa",
+   "aree": [
+    "comunicazione"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "giornalista",
+    "marketer",
+    "grafico",
+    "fotovideo",
+    "pubblicitario"
+   ]
+  },
+  {
+   "id": "a9e0cc99a3141145",
+   "titolo": "La soundbar Sony costa 79€ e dà più corpo all'audio di film e serie",
+   "link": "https://www.tomshw.it/offerte/la-soundbar-sony-costa-79eur-e-da-piu-corpo-allaudio-di-film-e-serie",
+   "fonte": "tomshw",
+   "fonte_nome": "Tom's Hardware Italia",
+   "tipo": "stampa",
+   "aree": [
+    "offerte",
+    "pc"
+   ],
+   "normativa": false,
+   "sintesi": "Sony HT-SF150 costa 79,00€ su Amazon, anziché 84,99€, con uno sconto del 7%: è il prezzo più basso del 2026.",
+   "pubblicata": "2026-11-21T20:00:00Z",
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "fb79ab2e56c222d8",
+   "titolo": "Esselunga Gessate riapre: negozio ampliato, orari e offerte",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdnQyMVZMNWktbWgyTEppdHRRQ0VkRXJFbF81b2lrNXlzZy14Y08yUzU1YklSYTJaQ0sybGQwN1MtdmNqWjRKNzhiWHpiNkVnS1gtMmhiSkxkN0pHQV94NjlUcmZnM3MxTmJHTTFoYlRTeUVDbDRhWHdNUXB5clJ4TThjSUYwMjJmd2ZJeWV1Z1A0NHBvODhSdTRkWQ?oc=5",
+   "fonte": "ao-sconti",
+   "fonte_nome": "Offerte auto nuove",
+   "tipo": "stampa",
+   "aree": [
+    "offerte_auto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "Esselunga Gessate riapre: negozio ampliato, orari e offerte Alphabetcity",
+   "pubblicata": "2026-11-21T19:55:33Z",
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "gnews",
+   "sotto": [
+    "offerte_auto.sconti",
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "4f9d07baea11924b",
+   "titolo": "Donne, Coop Alleanza 3.0 presenta la sua guida al linguaggio inclusivo",
+   "link": "https://www.dire.it/21-11-2026/1292091-donne-coop-alleanza-3-0-presenta-la-sua-guida-al-linguaggio-inclusivo/",
+   "fonte": "p-dire",
+   "fonte_nome": "Agenzia Dire",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Presentata a Reggio Emilia, smonta stereotipi maschili sul lavoro L'articolo Donne, Coop Alleanza 3.0 presenta la sua guida al linguaggio inclusivo proviene da Agenzia…",
+   "pubblicata": "2026-11-21T19:55:13Z",
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
   {
    "id": "bd5d91b60924fed2",
    "titolo": "Ucraina, nave russa attaccata nel Golfo di Finlandia. Helsinki denuncia violazione del suo spazio aereo",
@@ -48,50 +1004,6 @@
     "certificatore",
     "energy",
     "impiantista"
-   ]
-  },
-  {
-   "id": "f504b5c7249218a7",
-   "titolo": "Valutazioni immobiliari: dati, qualità e trasparenza al centro del convegno ASSOVIB",
-   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/valutazioni-immobiliari-dati-qualit%C3%A0-e-trasparenza-al-centro-del-convegno-assovib?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1020791&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=valutazioni-immobiliari-dati-qualit%25C3%25A0-e-trasparenza-al-centro-del-convegno-assovib&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1020791%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "coll-geom-ce",
-   "fonte_nome": "Collegio Geometri Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T19:49:26Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": [
-    "data"
-   ]
-  },
-  {
-   "id": "eb7b100865371e5c",
-   "titolo": "San Vito al Tagliamento festeggia i cento anni del geometra Dino Candusso",
-   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1019661&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1019661%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "coll-geom-ce",
-   "fonte_nome": "Collegio Geometri Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T19:49:26Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": [
-    "geometra"
    ]
   },
   {
@@ -657,6 +1569,29 @@
    "visto": "2026-11-21T19:49:26Z",
    "metodo": "rss",
    "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "0331a6f45402c936",
+   "titolo": "Droni sulla nave russa Sparta II nel Golfo di Finlandia, Mosca colpisce un cargo nel Mar Nero",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPam1ySzV5bXgxa3J0RDc4R01hVGRXa1BhUnVwdElmazZ1ejMwUGF2a05tRFk0eTE4NkhlaVNjQ3FKZkROT0dnYVd1OExuTFBEVmNfUXF6Yzd5a0Y4d2VqeHlCdG9reDZVN29maW9lY3FvYVJKQzNoT1hvWTZybFJMMlk2YlA1YkZGb2s2RVJWWjJHT1NnZDVyQVZleXprTDVTWV9uRl9BTHE3VWdEM09zZVF4UVAxX251S25zNEtFSzBDcHpRV1dmMTZSRU1sRWt0c0ZSOG1lSlV2bm1WQmd2RDhYX3BKLWNmRThuRDZ3eHByZ0twWVp3aWQzZVFwdFly0gGGAkFVX3lxTE5zUE9aTHJ5VDJXc0FwV2Z3bHlsZXhrQnk4WC1PUzk5cy1JMS0wY0VhUWlzVHNRWkVBOGFic2c0OXNiVWtiSGlqSERIZWtfckNYQnd0YkowNXF1NzlHVW56cEZFY01WTUxCczZJbW9Ka1BsczZjSjN0VTE5cS1WS1hLeUFuNXY4LWJ6TFhhMTNIbDhJZTlISk5MV3U1TE9DQTZLQlYzb3JPTHFwZW45NVd1R05xN2x3ZHRPc3VMMHE1ZmxRU2VKRUhSd0kxaFVUMVAxLXp0MnVlZ3VTU3JvTWRLTUd4VEEzcnlWcGg3M0ZqSjdBN2xfRk1aU0JNZjYtZl9pV2pXQWc?oc=5",
+   "fonte": "p-rainews",
+   "fonte_nome": "Rai News Politica",
+   "tipo": "stampa",
+   "aree": [
+    "esteri",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Droni sulla nave russa Sparta II nel Golfo di Finlandia, Mosca colpisce un cargo nel Mar Nero RaiNews",
+   "pubblicata": "2026-11-21T19:28:00Z",
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "gnews",
+   "sotto": [
+    "esteri.esteri"
+   ],
    "luogo": null,
    "nicchia": "politica",
    "prof": []
@@ -1902,6 +2837,29 @@
    ]
   },
   {
+   "id": "5a8c770a140e5bf9",
+   "titolo": "Ancora un no sulle armi a Kiev. Il sospetto degli alleati: Conte vuole scaricarle sulle primarie",
+   "link": "https://www.huffingtonpost.it/politica/2026/11/21/news/ancora_un_no_sulle_armi_a_kiev_il_sospetto_degli_alleati_conte_usa_il_tavolo_del_programma_contro_schlein-23310634/",
+   "fonte": "p-huff",
+   "fonte_nome": "HuffPost Italia Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Quarta fumata nera, e martedì i partiti del campo largo si rivedono. Tutti meno i Cinque stelle sono disponibili a trovare una sintesi nel programma.",
+   "pubblicata": "2026-11-21T18:51:00Z",
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "rss",
+   "sotto": [
+    "partiti.partiti"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
    "id": "f868cca677db8d74",
    "titolo": "Violante, dolore e silenzio: «Lo hanno massacrato»",
    "link": "https://www.editorialedomani.it/politica/italia/il-dolore-e-il-silenzio-di-violante-per-gianni-de-gennaro-metterei-le-mani-sul-fuoco-legame-fki52pcg",
@@ -2083,6 +3041,29 @@
    "nicchia": "tech",
    "prof": [],
    "tradotto": true
+  },
+  {
+   "id": "b04b976b5eedc2d4",
+   "titolo": "Brescia Montecarlo d’Italia, tra Panda e Rolls-Royce boom di auto di lusso",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbnJUQVkwSzkxb2M0R1VCR2VuTDVRdG1FUFhOVUxDUWJRZ1h4RWZISE9BTU1NckFMWVhVTV9PTG5LQWhZTXZla0tJWDNiTk5lQ2tyTmdqNlZ4X3JtOTRZQk9ZdmRLajhETWZhT3lKNEdTOW45QjhnMHRFLWFRd0ZfVnNsNDZXNHBKZVVQbE1tbzEwazdHWWdCMWhYSTBQelpRck9ZTmdkejJDNDZqMTdr?oc=5",
+   "fonte": "a-epoca",
+   "fonte_nome": "Auto e moto d'epoca",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "mezzi"
+   ],
+   "normativa": false,
+   "sintesi": "Brescia Montecarlo d’Italia, tra Panda e Rolls-Royce boom di auto di lusso Giornale di Brescia",
+   "pubblicata": "2026-11-21T18:44:27Z",
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
   },
   {
    "id": "dbcf4e3756f8513d",
@@ -2357,6 +3338,30 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "be4eec18266ed326",
+   "titolo": "LANCIA Ypsilon 3ª serie Usata prezzo e caratteristiche tecniche - Auto Usate",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV2N0WFljR2pIV1AxZlRtaENHQWw0TVVOMlhzaVdCMWI0ZXpESlU3ZnZPeWdJR25VS2lQQzhGaktpdlRUMTVITWhyUVE4dTJzenRycVBVSS1USW1tUkh0OTc0cHhiN0JyeUNIcUhjdlUyLXhKMXBkSXgzTmpXWHJWRHc3VFpQZkhm?oc=5",
+   "fonte": "a-quattroruote",
+   "fonte_nome": "Quattroruote",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "LANCIA Ypsilon 3ª serie Usata prezzo e caratteristiche tecniche - Auto Usate Quattroruote",
+   "pubblicata": "2026-11-21T18:30:37Z",
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.marchi",
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
    "prof": []
   },
   {
@@ -9918,6 +10923,31 @@
    "prof": []
   },
   {
+   "id": "59e3b87752d7271b",
+   "titolo": "VOLKSWAGEN T-Roc 1ª serie Usata prezzo e caratteristiche tecniche - Auto Usate",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdWtXS1ljU1FwQnhUV3VZcm9aS19YQ0lySW55Sk1Kd3VjS3FtMGN0TkRwTTM0eFpqUWpicExySUVHak9hb01idmhLN05oT1pvX1laLTIyMzZMQURBdksySUZReEkxUi1XMFdOOTV0TzFuODZaVEtGWEhMYWZPSk50cXAzOWZ0LWozbGhJX1c1RUFEVDI2?oc=5",
+   "fonte": "a-quattroruote",
+   "fonte_nome": "Quattroruote",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "VOLKSWAGEN T-Roc 1ª serie Usata prezzo e caratteristiche tecniche - Auto Usate Quattroruote",
+   "pubblicata": "2026-11-21T15:42:44Z",
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.marchi",
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "altre_fonti": []
+  },
+  {
    "id": "3672867410ae8c52",
    "titolo": "La sfida di Majorino per le comunali a Milano: \"Vincerò primarie ed elezioni se faremo vivere la buona politica\"",
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUEx5VThBUzdwRVp2ZHV5Mld3dUdOVi1UWmF6bWpYellIekcxOVhmM1lpUFY3ZzNwY29xVlduWXJIYTFfaVRoR2dBLVptUUlRRVNMendPNkRhVXM1SWVFWG1EcXoyZ1pjbkFGZEhvdzdnMjUwWVFOZldvUVhKaER4UnBUT3VWRDRlYUJPSjlSUnpvc0VrZzJOdUhfLTZxaC1xdWxIRHRyRm5iM2ZtLURYeWlxelBjTEU0YzRhZ1BHZWhxS3NRdlhXYTF0cTRHSXpfMGVOaWVzZw?oc=5",
@@ -15434,6 +16464,33 @@
    "luogo": null,
    "nicchia": "politica",
    "prof": []
+  },
+  {
+   "id": "9fe6e7052247cfc7",
+   "titolo": "[GUARDIA COSTIERA] MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - CONCORSO",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcjJRalNGMTg2WmN5SVNZOFM4S1F5VUdQcEYybW92dWs0WlE3Q1NfUE9FQWhBN2FrWHJFZ255ZklBX3JSa21IdXdUX1dMVmRKdG5qYVpiTl9xckgtbW43VzczNGVoMUtndXdZNFNiR2FCanJJRHpNYkxPZldoemVBdGVzdnBKTXBjU2tqVW9xQVJvRF92Y01MMVFB?oc=5",
+   "fonte": "mit",
+   "fonte_nome": "Ministero Infrastrutture (MIT)",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "[GUARDIA COSTIERA] MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - CONCORSO www.grnet.it",
+   "pubblicata": "2026-11-21T14:00:16Z",
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "gnews",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
   },
   {
    "id": "40089bad0d5f42ca",
@@ -49013,6 +50070,30 @@
    "prof": []
   },
   {
+   "id": "ba0a418895adab60",
+   "titolo": "DACIA Spring Electric 45 Business Prezzo, Consumi e Configuratore",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNN2ljT21mdTc1RTZKUWQ3bDNEZkQteWV4VnNtMDEzcnA0cnJ6WVd0LWFTZnJ4NFJnZ2dHWHNiTU9sejZDMF9FcGRwOUZqRHNPZDNINHpRMmlXMHc4cGtQbm9FRVVPbGE0VEg0akV5S0MxUGJiWnVlWEZHTmhzYkdhU0R0amlkOWhvY1ZDalhpOW5TcjhESXFuY0NR?oc=5",
+   "fonte": "a-quattroruote",
+   "fonte_nome": "Quattroruote",
+   "tipo": "stampa",
+   "aree": [
+    "tecnica_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "DACIA Spring Electric 45 Business Prezzo, Consumi e Configuratore Quattroruote",
+   "pubblicata": "2026-11-21T06:08:56Z",
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "gnews",
+   "sotto": [
+    "tecnica_auto.motori",
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "0335d1da37ec8842",
    "titolo": "Rassegna stampa, le prime pagine dei quotidiani di sabato 21 novembre",
    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNWFUyb2Rld1NKRnhxaE5sR3BkS1pldnJsbkdiV0R4X1FUMXVBcTc0Sm5qVUNCMUw4Q1dhVmsxazFWbkVQWnJQbF9hN1Zjbi1PbGlha2dXVUxCX2FJaGNCUmtONEt0dXQyUHNFdzl4NGpTcGxZdGVQbkMwX0VUZWJtcU1NaVFZb2VWX3lEaUhEMElQYU1DcnlWelBxeWZudE8wb2N3Tk5NbXRpdnhYd2taM2RVd2F4TllyUzZfUUxDQ25jTnJDWUJkMlhGbzd1M0dIT0lUWWo3c2VkVXhfVEJFamFkX1lXWXF4VG53SDVQNUFIYlpwYzZUZnVEUnBtTDFm?oc=5",
@@ -62555,28 +63636,6 @@
    "prof": []
   },
   {
-   "id": "baf81bda0a064069",
-   "titolo": "I partiti portoghesi propongono riduzioni delle accise sui carburanti e controlli sui prezzi",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQc0l2M3dFWU5lR0R1QVJyNnJLSmdTUHJEa1Z5VVlPVXQ5LW5qU3J4Z0ZlSmlHeVMtNHFqTGZXNmFET0dNODlab3R6VWdjeE1RWXFNeGNCRHdSNld3ZHh3bnNnZFhIcTVZNW9iUS01alF2MFlEOW1aUFRISmQwRkU0NW10UF82MWpUaldyakpaTzJvWmFtNG5MYzg2bHJDeHBlSWl4NzlCRmVRd005a3ZYU0l2bTAyMm5DUHl4ZkRWb2FEVnQ4Z0s2SGt3Q2ZkQkxDOFpnZkNyTVdBUVgwN2VjQmtENElwRWNYd0E?oc=5",
-   "fonte": "am-carburanti",
-   "fonte_nome": "Prezzi carburanti e energia",
-   "tipo": "stampa",
-   "aree": [
-    "mercato_auto"
-   ],
-   "normativa": false,
-   "sintesi": "I partiti portoghesi propongono riduzioni delle accise sui carburanti e controlli sui prezzi The Portugal News",
-   "pubblicata": "2026-11-21T01:34:09Z",
-   "visto": "2026-11-21T19:49:26Z",
-   "metodo": "gnews",
-   "sotto": [
-    "mercato_auto.prezzi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
    "id": "35797c11a3b27340",
    "titolo": "L'ampio Razr Flex di Motorola ora trapela in due colori mostrando molte angolazioni",
    "link": "https://www.gsmarena.com/motorolas_wide_razr_flex_now_leaks_in_two_colors_showing_off_a_lot_of_angles-news-75578.php",
@@ -71515,6 +72574,37 @@
    "luogo": null,
    "nicchia": "auto",
    "prof": []
+  },
+  {
+   "id": "36682095404f01cc",
+   "titolo": "Manovra, pensioni anticipate: Quota 64 nel maxi-emendamento. E rispunta Opzione-donna. Silenzio-assenso per pratiche di condono",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQWFHd3ltaE5CekFiaHo3VUNZSE9jNkk0T1lRbDFkcnY2V1VMSnJndHlOUm1mMHZvQ2tISjhZVzRZT1JEN2pjUGVCaE9kT094eWN0YzNLTm9jcVlNdlpkS1ZwS0JFWlJwaDJiZnlJZWg2NUI5QkpGWWJRMzF5WWl2bFJ6bnB6WlZ3eWZIMjlUN05VN0ZIMjhfMm42VWdGZzNONG41RWNFbDJjcU9KQkwyQzNHOTRSTHlEZVBaLW9PdHV5RWVLR3FaZdIByAFBVV95cUxOQWFHd3ltaE5CekFiaHo3VUNZSE9jNkk0T1lRbDFkcnY2V1VMSnJndHlOUm1mMHZvQ2tISjhZVzRZT1JEN2pjUGVCaE9kT094eWN0YzNLTm9jcVlNdlpkS1ZwS0JFWlJwaDJiZnlJZWg2NUI5QkpGWWJRMzF5WWl2bFJ6bnB6WlZ3eWZIMjlUN05VN0ZIMjhfMm42VWdGZzNONG41RWNFbDJjcU9KQkwyQzNHOTRSTHlEZVBaLW9PdHV5RWVLR3FaZQ?oc=5",
+   "fonte": "mit",
+   "fonte_nome": "Ministero Infrastrutture (MIT)",
+   "tipo": "ufficiale",
+   "aree": [
+    "edilizia",
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "Manovra, pensioni anticipate: Quota 64 nel maxi-emendamento. E rispunta Opzione-donna. Silenzio-assenso per pratiche di condono Il Messaggero",
+   "pubblicata": "2026-11-20T23:17:12Z",
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "gnews",
+   "sotto": [
+    "edilizia.sanatorie",
+    "bonus.bilancio"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "architetto",
+    "geometra",
+    "notaio",
+    "commercialista",
+    "agente_imm"
+   ]
   },
   {
    "id": "038727614fdc4287",
@@ -111873,6 +112963,38 @@
    ]
   },
   {
+   "id": "f8d5dd95d064c3e9",
+   "titolo": "Rigenerazione urbana e adattamento climatico, i progetti italiani alla COP31",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRDVSWHJVSm1lVmlheTdyd3VLXzB0RkpPdHF1R29IVWd6OURydC1Sekp6QkVva3BsRW5TWjl5c1IwQ0VMa1NSV2F5ekhnMXlTVVBGVUZHZ2xtbnI0N2gtM1V6WmxvZHhsbkNCaEh0dUw0YXpuZm4xYzhPNGFXMVNaTU5ObHFueHRESDRyZDQ1OUs1OWJNSUNMSjRybUM5N1Ntc0dYZjBNLXFUbUx0THNmVmZ3bU9LRUdq0gG-AUFVX3lxTE81UldpaHEzYlloNGNMZlhEdGRQY1otY3I3SlJHV3Q2ckF5bGlGc2tUbWFrZ1JtUlNDQ1RXOGZLZWotc2FqVEtzeEUtQTR5ZUZvMDBmc19VSXRlazI1NlRxSDVOOEQyN1NiU0M5NEVEVEdqajJrR003V2dMSURwZU83VHNBdEo5X1pwZGdqLXNMS2I3bkc5bEUzYjktRDVCTW5FNkR5RWJSUlNHRHdnSWg1b3N1VHdjM3hqTnpXZnc?oc=5",
+   "fonte": "edilportale",
+   "fonte_nome": "Edilportale",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia",
+    "ambiente"
+   ],
+   "normativa": false,
+   "sintesi": "Rigenerazione urbana e adattamento climatico, i progetti italiani alla COP31 Edilportale",
+   "pubblicata": "2026-11-20T14:56:35Z",
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "gnews",
+   "sotto": [
+    "edilizia.urbanistica",
+    "ambiente.rischio_idro"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "architetto",
+    "geometra",
+    "notaio",
+    "geologo",
+    "agronomo",
+    "chimico"
+   ]
+  },
+  {
    "id": "fbe58f726393de62",
    "titolo": "Android, da gennaio il sideloading richiederà 24 ore di attesa e un riavvio: ecco i dettagli",
    "link": "https://www.smartworld.it/news/android-sideloading-verifica-sviluppatori-gennaio-2027.html",
@@ -125646,6 +126768,33 @@
    "prof": [],
    "altre_fonti": [
     "Offerte gaming"
+   ]
+  },
+  {
+   "id": "465d9e79f68a6862",
+   "titolo": "Gabriella Dabbene",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KWlFCbDlHVFBOeE5lems4ZXl0alFNdEI4Z2ZETlZSWnNRTHQxeVZxQmlQU2tsZ1JxMXBKUXA0OExMazU4cktjOFRKRF9tMGpPSUdQVkwtR09BanMySTFZeEZ6T3pIcUZi?oc=5",
+   "fonte": "pr-immobiliare-news",
+   "fonte_nome": "Immobiliare.it e Idealista News",
+   "tipo": "stampa",
+   "aree": [
+    "immobiliare"
+   ],
+   "normativa": false,
+   "sintesi": "Gabriella Dabbene Idealista",
+   "pubblicata": "2026-11-20T12:41:33Z",
+   "visto": "2026-11-21T20:01:14Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "agente_imm",
+    "condominio",
+    "valutatore",
+    "facility",
+    "mutui",
+    "notaio"
    ]
   },
   {
@@ -139758,950 +140907,6 @@
    "luogo": null,
    "nicchia": "tech",
    "prof": []
-  },
-  {
-   "id": "afbe435e1b7bbe70",
-   "titolo": "L’Autorità Garante Privacy italiana eletta nel Comitato direttivo della Global Privacy Assembly",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10322146",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "f8a75f453f349b8d",
-   "titolo": "Sanzionata Techpartner per 25mila euro: violati i diritti di un ex dipendente",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10321699",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "21ccc4176fc4bcc9",
-   "titolo": "RespiVirNet, Il Garante: \"Nessuna sospensione decisa da noi\"",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10321055",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "3e218f58eeede98c",
-   "titolo": "Illiceità del Ministero della Giustizia nel trattamento dati dei minori",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10320716",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "30c9db82ac1d22d0",
-   "titolo": "Il PODCAST del Garante - Data breach, cosa sono e come difendersi",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10318656",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "d5d7f48d620574af",
-   "titolo": "Intelligenza artificiale nella PA. Sì condizionato alla Provincia autonoma di Trento",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10318565",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "pc",
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "5a5003ee8cc0e432",
-   "titolo": "Richieste di cancellazione valide anche se inviate a email aziendali non dedicate",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10318585",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "eef44816f000ead9",
-   "titolo": "Caso dati Tajani sul dark web, il Garante avverte i media",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10318166",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "9e21487076649b63",
-   "titolo": "Il diritto alla privacy - Online la raccolta della normativa essenziale",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10318599",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "7c25058069baffa6",
-   "titolo": "Fascicolo sanitario, maggiore autonomia e privacy per i ragazzi che hanno compiuto 14 anni",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10317323",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "software",
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "feee6dd6428245ce",
-   "titolo": "Scontri di Milano: Garante Privacy blocca le immagini dell'undicenne",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10312725",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "e61de95f4ea36452",
-   "titolo": "Eu Kids Act, Stanzione: Tutela dei minori senza sacrificare privacy e autonomia",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10312988",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "c0ec5792cda6034d",
-   "titolo": "Telemarketing, nei primi 7mesi del 2026 più di 37 mila segnalazioni",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10309361",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "ae4a15c4be546e07",
-   "titolo": "Caso Garlasco, sanzione a Cairo Editore per la crudezza delle immagini pubblicate",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10308277",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "1fde8f66d8ac60e0",
-   "titolo": "PODCAST - Diritto all’oblio e motori di ricerca",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10307346",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "4077cdda0b9418de",
-   "titolo": "Video Facebook del sindaco di Salerno De Luca. Da Garante semplice richiesta informazioni",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10307767",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "4f9b16cf6376ee5a",
-   "titolo": "VADEMECUM - E-mail marketing: le linee guida sui tracking pixel",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10303585",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "smartphone",
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "05aedfa53c74bcf7",
-   "titolo": "COMUNICATO STAMPA - Dati sanitari: 7 milioni di euro di sanzione",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10302141",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "dace4ee3272220d7",
-   "titolo": "NOTIZIE - Registro nazionale diabete: ok del Garante privacy",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10298308",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "9847b41fe83b62ce",
-   "titolo": "Telecamere negli spogliatoi di una piscina, Garante sanziona ASIS Trento",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10296404",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "89163a3ca80c257d",
-   "titolo": "Garante privacy, azienda sanitaria di Udine sanzionata per 24mila euro. Il dossier sanitario è accessibile solo per ragioni di cura",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10295403",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "1fefb8af95447a27",
-   "titolo": "PODCAST - A proposito di privacy - Ottavo episodio - Algoritmi e intelligenza artificiale: regole, rischi e diritti",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10148225",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza",
-    "pc"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "93efda9710b89ef3",
-   "titolo": "Sanzioni privacy, la Cassazione chiarisce la regola dei 120 giorni - INTERVENTO di Luigi Montuori, Segretario generale del Garante",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10294426",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "0e2481b7e6256eba",
-   "titolo": "COMUNICATO STAMPA - Garante: illecita la diffusione delle conversazioni private di Raoul Bova. Sanzionato Fabrizio Corona, contenuti pubblicati per spettacolarizzazione e gossip",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10287714",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "fa990b2f078ba933",
-   "titolo": "FORMAZIONE - Applicazione OLIVIA: 15 corsi gratuiti sul Gdpr e test di controllo per verificare la conformità alla disciplina sulla privacy",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10090688",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza",
-    "software"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "735ec9b3f9db4cbd",
-   "titolo": "COMUNICATO STAMPA - Dal Garante privacy stop ai deepfake satirici su Enrico Mentana. Ammonita R.T.I. per alcuni video di Striscia la Notizia",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10281135",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza",
-    "ai"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "b3260c8317a588cc",
-   "titolo": "COMUNICATO STAMPA - Telemarketing, il Garante privacy sanziona Tim per 9,5 milioni di euro. Consensi acquisiti illecitamente, inadeguati controlli sulla filiera e ostacoli all'esercizio dei diritti degli utenti",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10277228",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza",
-    "telecom"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "0cc0d2028fa97256",
-   "titolo": "COMUNICATO STAMPA - Energia, Garante: Sì alla conoscenza dello score alla base del contratto negato",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10273902",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "798b940a738dcf2b",
-   "titolo": "COMUNICATO STAMPA - I Garanti privacy europei all'UE: rafforzare la cooperazione tra le autorità di regolazione. A Dublino il Gruppo di Alto Livello del Comitato europeo per la protezione dei dati",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10272681",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "7f9b67d547d9ab1d",
-   "titolo": "COMUNICATO STAMPA - Intelligenza artificiale: il Garante privacy sanziona Character.AI. Rilevate criticità anche nella tutela dei minori e nei sistemi di verifica dell'età",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10269594",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza",
-    "pc"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "0f322a1f03b812a3",
-   "titolo": "RELAZIONE SULL’ATTIVITÀ 2025 - Sintesi per la stampa",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10266612",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "c497c89b7483a810",
-   "titolo": "COMUNICATO STAMPA - G7 privacy: Principi comuni a tutela dei minori online e per un'IA rispettosa dei diritti",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10264387",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "241e8296a7df0ff7",
-   "titolo": "COMUNICATO STAMPA - Il Garante privacy presenta la Relazione annuale. Il 2 luglio alla Camera dei Deputati. Il bilancio dell’attività 2025 e le sfide future",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10264473",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "3d3e73b74f614a73",
-   "titolo": "NEWS - Pubblicata da EDPB una sintesi sulle Linee guida 5/2019 sui criteri per l’esercizio del diritto all’oblio nel caso dei motori di ricerca, ai sensi del GDPR",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10258705",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "9e6ddb9831433f3b",
-   "titolo": "COMUNICATO STAMPA - Garante privacy su ricorso Report",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10258316",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "db2143f4cba67dec",
-   "titolo": "COMUNICATO STAMPA - IA a scuola, il Garante privacy chiede informazioni agli istituti Salesiani",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10257612",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "a4fd69a5c87937c3",
-   "titolo": "COMUNICATO STAMPA - IA e lavoro: il Garante Privacy avverte una start-up italiana. Sotto la lente dell’Autorità il plug-in che può rilevare linguaggio, emozioni e livello di stress dei dipendenti",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10255522",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "51c239e4c95950bb",
-   "titolo": "COMUNICATO STAMPA - Garlasco, dal Garante privacy fermo richiamo ai media. L’Autorità continua a vigilare sulla vicenda, anche alla luce dei reclami ricevuti dagli interessati",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10250954",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "93e284ddd853800d",
-   "titolo": "COMUNICATO STAMPA - Deepfake: nuovo avvertimento del Garante privacy. L’Autorità chiede maggiori poteri di intervento",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10246345",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza",
-    "ai"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "441ea002c146b75c",
-   "titolo": "COMUNICATO STAMPA - Garante privacy ad albergatori: no alla conservazione di copia dei documenti degli ospiti. Dopo la comunicazione alle autorità di pubblica sicurezza i dati vanno distrutti o cancellati",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10244195",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "b3e797f28f238114",
-   "titolo": "COMUNICATO STAMPA - Prostituzione a Milano: il Garante privacy richiama i media",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10242817",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "4f134fc4a0b8c06b",
-   "titolo": "COMUNICATO STAMPA - Tracking pixel nelle email: pubblicate le linee guida del Garante privacy. Più trasparenza e controllo per gli utenti: consenso obbligatorio e sei mesi agli operatori per l’adeguamento",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10241977",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza",
-    "telecom"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "bcb95a7703169bd6",
-   "titolo": "COMUNICATO STAMPA - Ricerca scientifica: in consultazione le Linee guida EDPB, con il contributo del Garante privacy",
-   "link": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10240433",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "fc2bb70e34f99930",
-   "titolo": "Il diritto alla privacy - Raccolta della normativa essenziale",
-   "link": "https://www.garanteprivacy.it/normativa-essenziale",
-   "fonte": "garante",
-   "fonte_nome": "Garante Privacy",
-   "tipo": "ufficiale",
-   "aree": [
-    "sicurezza"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "2b031213217d051d",
-   "titolo": "Tredicesima pensionati 2026: quando è pagata e quanto vale",
-   "link": "https://www.informazionefiscale.it/tredicesima-pensioni-2026-quando-arriva-pagamento-importo-calcolo",
-   "fonte": "f-infofisc",
-   "fonte_nome": "Informazione Fiscale",
-   "tipo": "stampa",
-   "aree": [
-    "lavoro",
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "lavoro.contratti"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "consulente_lavoro",
-    "hr",
-    "formatore",
-    "commercialista",
-    "tributarista"
-   ]
-  },
-  {
-   "id": "b2e8c64cf8f5445a",
-   "titolo": "Urso, da Ue ok a sito per stoccaggio materie prime a Porto Marghera",
-   "link": "https://www.ansa.it/sito/notizie/economia/2026/11/19/urso-da-ue-ok-a-sito-per-stoccaggio-materie-prime-a-porto-marghera_7dd8a2b8-8910-479e-bf32-95ac9f764a19.html",
-   "fonte": "f-ansa-fisco",
-   "fonte_nome": "ANSA: fisco, pensioni e lavoro",
-   "tipo": "stampa",
-   "aree": [
-    "norme"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T11:01:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "norme.ue"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "ingegnere",
-    "perito"
-   ]
   }
  ]
 }
