@@ -158,13 +158,10 @@ table.conf a{color:var(--accent);font-weight:700}
 /* ===== Stile One UI 9: pulito, schede molto arrotondate, animazioni elastiche ===== */
 :root{--spring:cubic-bezier(.34,1.35,.64,1);--out:cubic-bezier(.2,.8,.2,1);--on-accent:#fff;--accent-soft:var(--chip);--nav:rgba(255,255,255,.85);--r:26px}
 body{background:var(--bg);padding-bottom:calc(104px + env(safe-area-inset-bottom));transition:background-color .35s}
-.top{background:var(--bg);color:var(--ink);align-items:flex-end;padding:calc(18px + env(safe-area-inset-top)) 18px 10px;transition:padding .3s var(--out);border-bottom:1px solid transparent}
+.top{background:var(--bg);color:var(--ink);align-items:center;padding:calc(10px + env(safe-area-inset-top)) 18px 8px;border-bottom:1px solid var(--line)}
 .brand img{display:none}
-h1{font-size:34px;font-weight:700;letter-spacing:-.02em;line-height:1.05;transition:font-size .3s var(--out)}
-.sub{color:var(--mute);font-size:13px;margin-top:4px;max-height:20px;overflow:hidden;transition:max-height .3s var(--out),opacity .25s,margin .3s}
-body.scrolled .top{padding-top:calc(8px + env(safe-area-inset-top));padding-bottom:8px;border-bottom-color:var(--line);align-items:center}
-body.scrolled h1{font-size:20px}
-body.scrolled .sub{max-height:0;opacity:0;margin:0}
+h1{font-size:22px;font-weight:700;letter-spacing:-.02em;line-height:1.1}
+.sub{color:var(--mute);font-size:12.5px;margin-top:2px}
 .top-az{display:flex;gap:8px}
 .icon-btn{background:var(--chip);color:var(--ink);border-radius:50%;width:44px;height:44px;font-size:20px;transition:transform .3s var(--spring),background .2s}
 .icon-btn:active{transform:scale(.88)}

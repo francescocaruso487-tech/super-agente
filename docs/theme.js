@@ -83,7 +83,5 @@
   mq.addEventListener("change", () => applica(get()));
   document.addEventListener("DOMContentLoaded", () => {
     applica(get()); UI();
-    const on = () => document.body.classList.toggle("scrolled", window.scrollY > 28);
-    window.addEventListener("scroll", on, { passive: true }); on();
   });
 })();
