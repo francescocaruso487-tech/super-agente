@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-21T14:13:13Z",
+ "aggiornato": "2026-11-21T14:14:13Z",
  "voti": [
   {
    "id": "vs19_749_001",
@@ -13,103 +13,109 @@
    "gruppi": [
     {
      "sigla": "FDI",
-     "fav": 154,
+     "fav": 77,
      "con": 0,
      "ast": 0,
-     "altro": 80
+     "altro": 40
     },
     {
      "sigla": "PD-IDP",
      "fav": 0,
-     "con": 108,
+     "con": 54,
      "ast": 0,
-     "altro": 28
+     "altro": 14
     },
     {
      "sigla": "LEGA",
-     "fav": 60,
+     "fav": 30,
      "con": 0,
      "ast": 0,
-     "altro": 46
+     "altro": 23
     },
     {
      "sigla": "FI-PPE",
-     "fav": 58,
+     "fav": 29,
      "con": 0,
      "ast": 0,
-     "altro": 46
+     "altro": 23
     },
     {
      "sigla": "M5S",
      "fav": 0,
-     "con": 60,
+     "con": 30,
      "ast": 0,
-     "altro": 36
+     "altro": 18
     },
     {
      "sigla": "APERRE",
      "fav": 0,
-     "con": 12,
+     "con": 6,
      "ast": 0,
-     "altro": 8
+     "altro": 4
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 7,
+     "con": 0,
+     "ast": 0,
+     "altro": 2
     },
     {
      "sigla": "AVS",
      "fav": 0,
-     "con": 12,
+     "con": 6,
      "ast": 0,
-     "altro": 6
-    },
-    {
-     "sigla": "M-FNVF",
-     "fav": 14,
-     "con": 0,
-     "ast": 0,
-     "altro": 4
+     "altro": 3
     },
     {
      "sigla": "NM-M-C",
-     "fav": 4,
+     "fav": 2,
      "con": 0,
      "ast": 0,
-     "altro": 12
+     "altro": 6
     },
     {
      "sigla": "IV-CR",
      "fav": 0,
-     "con": 10,
+     "con": 5,
      "ast": 0,
-     "altro": 4
+     "altro": 2
     },
     {
      "sigla": "M-ALT",
      "fav": 0,
-     "con": 6,
+     "con": 3,
      "ast": 0,
-     "altro": 6
+     "altro": 3
     },
     {
      "sigla": "M-MIN",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 8
-    },
-    {
-     "sigla": "M-+E-S",
-     "fav": 0,
-     "con": 2,
-     "ast": 0,
      "altro": 4
     },
     {
      "sigla": "M-SCN",
-     "fav": 4,
+     "fav": 2,
      "con": 0,
+     "ast": 0,
+     "altro": 1
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 0,
+     "con": 1,
      "ast": 0,
      "altro": 2
     }
-   ]
+   ],
+   "scheda": "http://documenti.camera.it/apps/votazioni/votazionitutte/schedavotazione.asp?Legislatura=XIX&RifVotazione=749_1&tipo=dettaglio",
+   "atto": {
+    "titolo": "\\\"Conversione in legge del decreto-legge 8 ottobre 2026, n. 177, recante disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l&rsquo;economia circolare e le bonifiche\\\" (3133) ^^http://www.w3.org/2001/XMLSchema#string",
+    "iniziativa": "Governo"
+   },
+   "scheda_atto": "https://www.camera.it/leg19/126?leg=19&idDocumento=3133"
   },
   {
    "id": "vs19_747_053",
@@ -119,7 +125,113 @@
    "con": 93,
    "ast": 5,
    "votanti": 240,
-   "esito": "approvata"
+   "esito": "approvata",
+   "gruppi": [
+    {
+     "sigla": "FDI",
+     "fav": 78,
+     "con": 0,
+     "ast": 0,
+     "altro": 39
+    },
+    {
+     "sigla": "PD-IDP",
+     "fav": 0,
+     "con": 49,
+     "ast": 0,
+     "altro": 19
+    },
+    {
+     "sigla": "LEGA",
+     "fav": 25,
+     "con": 0,
+     "ast": 0,
+     "altro": 28
+    },
+    {
+     "sigla": "FI-PPE",
+     "fav": 27,
+     "con": 0,
+     "ast": 0,
+     "altro": 25
+    },
+    {
+     "sigla": "M5S",
+     "fav": 0,
+     "con": 30,
+     "ast": 0,
+     "altro": 18
+    },
+    {
+     "sigla": "APERRE",
+     "fav": 5,
+     "con": 0,
+     "ast": 0,
+     "altro": 5
+    },
+    {
+     "sigla": "AVS",
+     "fav": 0,
+     "con": 5,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 0,
+     "con": 7,
+     "ast": 0,
+     "altro": 2
+    },
+    {
+     "sigla": "NM-M-C",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "IV-CR",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 3
+    },
+    {
+     "sigla": "M-ALT",
+     "fav": 0,
+     "con": 2,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "M-MIN",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 2
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 1,
+     "con": 0,
+     "ast": 0,
+     "altro": 2
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 3,
+     "con": 0,
+     "ast": 0,
+     "altro": 0
+    }
+   ],
+   "scheda": "http://documenti.camera.it/apps/votazioni/votazionitutte/schedavotazione.asp?Legislatura=XIX&RifVotazione=747_53&tipo=dettaglio",
+   "atto": {
+    "titolo": "S. 1004. - Senatori ROMEO ed altri: &quot;Disposizioni per il contrasto all&rsquo;antisemitismo e per l&rsquo;adozione della definizione operativa di antisemitismo&quot; &lt;em&gt;(approvata dal Senato) &lt;/em&gt;(2830) ^^http://www.w3.org/2001/XMLSchema#string",
+    "iniziativa": "Parlamentare"
+   },
+   "scheda_atto": "https://www.camera.it/leg19/126?leg=19&idDocumento=2830"
   },
   {
    "id": "vs19_744_001",
@@ -133,103 +245,109 @@
    "gruppi": [
     {
      "sigla": "FDI",
-     "fav": 164,
+     "fav": 82,
      "con": 0,
      "ast": 0,
-     "altro": 70
+     "altro": 35
     },
     {
      "sigla": "PD-IDP",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 136
+     "altro": 68
     },
     {
      "sigla": "LEGA",
-     "fav": 58,
+     "fav": 29,
      "con": 0,
      "ast": 0,
-     "altro": 48
+     "altro": 24
     },
     {
      "sigla": "FI-PPE",
-     "fav": 42,
+     "fav": 21,
      "con": 0,
      "ast": 0,
-     "altro": 62
+     "altro": 31
     },
     {
      "sigla": "M5S",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 96
+     "altro": 48
     },
     {
      "sigla": "APERRE",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 20
+     "altro": 10
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 8,
+     "con": 0,
+     "ast": 0,
+     "altro": 1
     },
     {
      "sigla": "AVS",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 18
-    },
-    {
-     "sigla": "M-FNVF",
-     "fav": 16,
-     "con": 0,
-     "ast": 0,
-     "altro": 2
+     "altro": 9
     },
     {
      "sigla": "NM-M-C",
-     "fav": 2,
+     "fav": 1,
      "con": 0,
      "ast": 0,
-     "altro": 14
+     "altro": 7
     },
     {
      "sigla": "IV-CR",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 14
+     "altro": 7
     },
     {
      "sigla": "M-ALT",
-     "fav": 2,
+     "fav": 1,
      "con": 0,
      "ast": 0,
-     "altro": 10
+     "altro": 5
     },
     {
      "sigla": "M-MIN",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 8
+     "altro": 4
     },
     {
      "sigla": "M-SCN",
-     "fav": 2,
+     "fav": 1,
      "con": 0,
      "ast": 0,
-     "altro": 4
+     "altro": 2
     },
     {
      "sigla": "M-+E-S",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 6
+     "altro": 3
     }
-   ]
+   ],
+   "scheda": "http://documenti.camera.it/apps/votazioni/votazionitutte/schedavotazione.asp?Legislatura=XIX&RifVotazione=744_1&tipo=dettaglio",
+   "atto": {
+    "titolo": "\\\"Conversione in legge del decreto-legge 29 settembre 2026, n. 168, recante misure urgenti in materia di giustizia, di funzionalità del Ministero dell&rsquo;interno e di impianti di interesse strategico nazionale\\\" (3121) ^^http://www.w3.org/2001/XMLSchema#string",
+    "iniziativa": "Governo"
+   },
+   "scheda_atto": "https://www.camera.it/leg19/126?leg=19&idDocumento=3121"
   },
   {
    "id": "vs19_742_049",
@@ -243,103 +361,109 @@
    "gruppi": [
     {
      "sigla": "FDI",
-     "fav": 146,
+     "fav": 73,
      "con": 0,
      "ast": 0,
-     "altro": 88
+     "altro": 44
     },
     {
      "sigla": "PD-IDP",
      "fav": 0,
-     "con": 84,
+     "con": 42,
      "ast": 0,
-     "altro": 52
+     "altro": 26
     },
     {
      "sigla": "LEGA",
-     "fav": 50,
+     "fav": 25,
      "con": 0,
      "ast": 0,
-     "altro": 56
+     "altro": 28
     },
     {
      "sigla": "FI-PPE",
-     "fav": 44,
+     "fav": 22,
      "con": 0,
      "ast": 0,
-     "altro": 60
+     "altro": 30
     },
     {
      "sigla": "M5S",
      "fav": 0,
-     "con": 58,
+     "con": 29,
      "ast": 0,
-     "altro": 38
+     "altro": 19
     },
     {
      "sigla": "APERRE",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 20
+     "altro": 10
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 6,
+     "con": 0,
+     "ast": 0,
+     "altro": 3
     },
     {
      "sigla": "AVS",
      "fav": 0,
-     "con": 10,
+     "con": 5,
      "ast": 0,
-     "altro": 8
-    },
-    {
-     "sigla": "M-FNVF",
-     "fav": 12,
-     "con": 0,
-     "ast": 0,
-     "altro": 6
+     "altro": 4
     },
     {
      "sigla": "NM-M-C",
-     "fav": 4,
+     "fav": 2,
      "con": 0,
      "ast": 0,
-     "altro": 12
+     "altro": 6
     },
     {
      "sigla": "IV-CR",
      "fav": 0,
-     "con": 6,
+     "con": 3,
      "ast": 0,
-     "altro": 8
+     "altro": 4
     },
     {
      "sigla": "M-ALT",
      "fav": 0,
-     "con": 6,
+     "con": 3,
      "ast": 0,
-     "altro": 6
+     "altro": 3
     },
     {
      "sigla": "M-MIN",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 8
-    },
-    {
-     "sigla": "M-+E-S",
-     "fav": 0,
-     "con": 2,
-     "ast": 0,
      "altro": 4
     },
     {
      "sigla": "M-SCN",
-     "fav": 4,
+     "fav": 2,
      "con": 0,
+     "ast": 0,
+     "altro": 1
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 0,
+     "con": 1,
      "ast": 0,
      "altro": 2
     }
-   ]
+   ],
+   "scheda": "http://documenti.camera.it/apps/votazioni/votazionitutte/schedavotazione.asp?Legislatura=XIX&RifVotazione=742_49&tipo=dettaglio",
+   "atto": {
+    "titolo": "\\\"Conversione in legge del decreto-legge 28 settembre 2026, n. 167, recante misure urgenti per la circolazione dei veicoli ad alimentazione &lt;i&gt;diesel&lt;/i&gt; appartenenti alla categoria ambientale &ldquo;EURO 5&rdquo;\\\" (3119) ^^http://www.w3.org/2001/XMLSchema#string",
+    "iniziativa": "Governo"
+   },
+   "scheda_atto": "https://www.camera.it/leg19/126?leg=19&idDocumento=3119"
   },
   {
    "id": "vs19_739_014",
@@ -353,103 +477,109 @@
    "gruppi": [
     {
      "sigla": "FDI",
-     "fav": 138,
+     "fav": 69,
      "con": 0,
      "ast": 0,
-     "altro": 96
+     "altro": 48
     },
     {
      "sigla": "PD-IDP",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 136
+     "altro": 68
     },
     {
      "sigla": "LEGA",
-     "fav": 46,
+     "fav": 23,
      "con": 0,
      "ast": 0,
-     "altro": 60
+     "altro": 30
     },
     {
      "sigla": "FI-PPE",
-     "fav": 52,
+     "fav": 26,
      "con": 0,
      "ast": 0,
-     "altro": 52
+     "altro": 26
     },
     {
      "sigla": "M5S",
      "fav": 0,
-     "con": 56,
+     "con": 28,
      "ast": 0,
-     "altro": 40
+     "altro": 20
     },
     {
      "sigla": "AVS",
      "fav": 0,
-     "con": 14,
+     "con": 7,
      "ast": 0,
-     "altro": 6
+     "altro": 3
     },
     {
      "sigla": "APERRE",
      "fav": 0,
-     "con": 4,
+     "con": 2,
      "ast": 0,
-     "altro": 16
+     "altro": 8
     },
     {
      "sigla": "M-FNVF",
-     "fav": 12,
+     "fav": 6,
      "con": 0,
      "ast": 0,
-     "altro": 6
+     "altro": 3
     },
     {
      "sigla": "NM-M-C",
-     "fav": 2,
+     "fav": 1,
      "con": 0,
      "ast": 0,
-     "altro": 14
+     "altro": 7
     },
     {
      "sigla": "IV-CR",
      "fav": 0,
-     "con": 2,
+     "con": 1,
      "ast": 0,
-     "altro": 12
+     "altro": 6
     },
     {
      "sigla": "M-ALT",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 10
+     "altro": 5
     },
     {
      "sigla": "M-MIN",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 8
+     "altro": 4
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 1
     },
     {
      "sigla": "M-+E-S",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 6
-    },
-    {
-     "sigla": "M-SCN",
-     "fav": 4,
-     "con": 0,
-     "ast": 0,
-     "altro": 2
+     "altro": 3
     }
-   ]
+   ],
+   "scheda": "http://documenti.camera.it/apps/votazioni/votazionitutte/schedavotazione.asp?Legislatura=XIX&RifVotazione=739_14&tipo=dettaglio",
+   "atto": {
+    "titolo": "Conversione in legge del decreto-legge 17 settembre 2026, n. 162, recante disposizioni urgenti per il sostegno economico e il contenimento degli effetti derivanti dal perdurante aumento del costo dei carburanti, nonché in materia fiscale\" (3106)",
+    "iniziativa": "Governo"
+   },
+   "scheda_atto": "https://www.camera.it/leg19/126?leg=19&idDocumento=3106"
   },
   {
    "id": "vs19_738_071",
@@ -463,84 +593,91 @@
    "gruppi": [
     {
      "sigla": "FDI",
-     "fav": 146,
+     "fav": 73,
      "con": 0,
      "ast": 0,
-     "altro": 88
+     "altro": 44
     },
     {
      "sigla": "PD-IDP",
      "fav": 0,
-     "con": 88,
+     "con": 44,
      "ast": 0,
-     "altro": 48
+     "altro": 24
     },
     {
      "sigla": "LEGA",
-     "fav": 52,
+     "fav": 26,
      "con": 0,
      "ast": 0,
-     "altro": 54
+     "altro": 27
     },
     {
      "sigla": "FI-PPE",
-     "fav": 52,
+     "fav": 26,
      "con": 0,
-     "ast": 0,
-     "altro": 52
-    },
-    {
-     "sigla": "M5S",
-     "fav": 0,
-     "con": 70,
      "ast": 0,
      "altro": 26
     },
     {
+     "sigla": "M5S",
+     "fav": 0,
+     "con": 35,
+     "ast": 0,
+     "altro": 13
+    },
+    {
      "sigla": "AVS",
      "fav": 0,
-     "con": 14,
+     "con": 7,
      "ast": 0,
-     "altro": 6
+     "altro": 3
     },
     {
      "sigla": "APERRE",
      "fav": 0,
-     "con": 10,
+     "con": 5,
      "ast": 0,
-     "altro": 10
+     "altro": 5
     },
     {
      "sigla": "M-FNVF",
-     "fav": 14,
+     "fav": 7,
      "con": 0,
      "ast": 0,
-     "altro": 4
+     "altro": 2
     },
     {
      "sigla": "NM-M-C",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 16
+     "altro": 8
     },
     {
      "sigla": "IV-CR",
      "fav": 0,
-     "con": 6,
-     "ast": 0,
-     "altro": 8
-    },
-    {
-     "sigla": "M-ALT",
-     "fav": 2,
-     "con": 4,
+     "con": 3,
      "ast": 0,
      "altro": 4
     },
     {
+     "sigla": "M-ALT",
+     "fav": 1,
+     "con": 2,
+     "ast": 0,
+     "altro": 2
+    },
+    {
      "sigla": "M-MIN",
-     "fav": 6,
+     "fav": 3,
+     "con": 0,
+     "ast": 0,
+     "altro": 1
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 1,
      "con": 0,
      "ast": 0,
      "altro": 2
@@ -548,18 +685,17 @@
     {
      "sigla": "M-+E-S",
      "fav": 0,
-     "con": 2,
+     "con": 1,
      "ast": 0,
-     "altro": 4
-    },
-    {
-     "sigla": "M-SCN",
-     "fav": 2,
-     "con": 0,
-     "ast": 0,
-     "altro": 4
+     "altro": 2
     }
-   ]
+   ],
+   "scheda": "http://documenti.camera.it/apps/votazioni/votazionitutte/schedavotazione.asp?Legislatura=XIX&RifVotazione=738_71&tipo=dettaglio",
+   "atto": {
+    "titolo": "S. 2029. - \\\"Conversione in legge, con modificazioni, del decreto-legge 10 settembre 2026, n. 157, recante disposizioni urgenti in materia di prezzi petroliferi connessi al protrarsi della nuova crisi dei mercati internazionali e di infrastrutture e attività energetiche strategiche\\\" &lt;i&gt;(approvato dal Senato)&lt;/i&gt;&nbsp;(3148) ^^http://www.w3.org/2001/XMLSchema#string",
+    "iniziativa": "Governo"
+   },
+   "scheda_atto": "https://www.camera.it/leg19/126?leg=19&idDocumento=3148"
   },
   {
    "id": "vs19_735_017",
@@ -573,103 +709,109 @@
    "gruppi": [
     {
      "sigla": "FDI",
-     "fav": 144,
+     "fav": 72,
      "con": 0,
      "ast": 0,
-     "altro": 90
+     "altro": 45
     },
     {
      "sigla": "PD-IDP",
      "fav": 0,
-     "con": 106,
+     "con": 53,
      "ast": 0,
-     "altro": 30
+     "altro": 15
     },
     {
      "sigla": "LEGA",
-     "fav": 54,
+     "fav": 27,
      "con": 0,
      "ast": 0,
-     "altro": 52
+     "altro": 26
     },
     {
      "sigla": "FI-PPE",
-     "fav": 64,
+     "fav": 32,
      "con": 0,
      "ast": 0,
-     "altro": 42
+     "altro": 21
     },
     {
      "sigla": "M5S",
      "fav": 0,
-     "con": 72,
+     "con": 36,
      "ast": 0,
-     "altro": 24
+     "altro": 12
     },
     {
      "sigla": "AVS",
      "fav": 0,
-     "con": 16,
+     "con": 8,
      "ast": 0,
-     "altro": 4
+     "altro": 2
     },
     {
      "sigla": "APERRE",
      "fav": 0,
-     "con": 14,
+     "con": 7,
      "ast": 0,
-     "altro": 6
+     "altro": 3
     },
     {
      "sigla": "M-FNVF",
-     "fav": 18,
+     "fav": 9,
      "con": 0,
      "ast": 0,
      "altro": 0
     },
     {
      "sigla": "NM-M-C",
-     "fav": 4,
+     "fav": 2,
      "con": 0,
      "ast": 0,
-     "altro": 12
+     "altro": 6
     },
     {
      "sigla": "IV-CR",
      "fav": 0,
-     "con": 6,
-     "ast": 0,
-     "altro": 8
-    },
-    {
-     "sigla": "M-ALT",
-     "fav": 0,
-     "con": 4,
+     "con": 3,
      "ast": 0,
      "altro": 4
     },
     {
      "sigla": "M-MIN",
      "fav": 0,
+     "con": 1,
+     "ast": 0,
+     "altro": 3
+    },
+    {
+     "sigla": "M-ALT",
+     "fav": 0,
      "con": 2,
      "ast": 0,
-     "altro": 6
+     "altro": 2
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 1,
+     "con": 0,
+     "ast": 0,
+     "altro": 2
     },
     {
      "sigla": "M-+E-S",
      "fav": 0,
-     "con": 6,
+     "con": 3,
      "ast": 0,
      "altro": 0
-    },
-    {
-     "sigla": "M-SCN",
-     "fav": 2,
-     "con": 0,
-     "ast": 0,
-     "altro": 4
     }
-   ]
+   ],
+   "scheda": "http://documenti.camera.it/apps/votazioni/votazionitutte/schedavotazione.asp?Legislatura=XIX&RifVotazione=735_17&tipo=dettaglio",
+   "atto": {
+    "titolo": "\\\"Delega al Governo in materia di professioni sanitarie e disposizioni relative alla responsabilit&agrave; professionale degli esercenti le professioni sanitarie\\\" (2700) ^^http://www.w3.org/2001/XMLSchema#string",
+    "iniziativa": "Governo"
+   },
+   "scheda_atto": "https://www.camera.it/leg19/126?leg=19&idDocumento=2700"
   },
   {
    "id": "vs19_731_004",
@@ -683,103 +825,109 @@
    "gruppi": [
     {
      "sigla": "FDI",
-     "fav": 130,
+     "fav": 65,
      "con": 0,
      "ast": 0,
-     "altro": 104
+     "altro": 52
     },
     {
      "sigla": "PD-IDP",
-     "fav": 90,
+     "fav": 45,
      "con": 0,
      "ast": 0,
-     "altro": 46
+     "altro": 23
     },
     {
      "sigla": "LEGA",
-     "fav": 60,
+     "fav": 30,
      "con": 0,
      "ast": 0,
-     "altro": 48
+     "altro": 24
     },
     {
      "sigla": "FI-PPE",
-     "fav": 40,
+     "fav": 20,
      "con": 0,
      "ast": 0,
-     "altro": 64
+     "altro": 32
     },
     {
      "sigla": "M5S",
-     "fav": 68,
-     "con": 0,
-     "ast": 0,
-     "altro": 28
-    },
-    {
-     "sigla": "AVS",
-     "fav": 10,
-     "con": 0,
-     "ast": 0,
-     "altro": 10
-    },
-    {
-     "sigla": "APERRE",
-     "fav": 6,
+     "fav": 34,
      "con": 0,
      "ast": 0,
      "altro": 14
     },
     {
+     "sigla": "AVS",
+     "fav": 5,
+     "con": 0,
+     "ast": 0,
+     "altro": 5
+    },
+    {
+     "sigla": "APERRE",
+     "fav": 3,
+     "con": 0,
+     "ast": 0,
+     "altro": 7
+    },
+    {
      "sigla": "M-FNVF",
-     "fav": 12,
-     "con": 0,
-     "ast": 0,
-     "altro": 6
-    },
-    {
-     "sigla": "NM-M-C",
-     "fav": 4,
-     "con": 0,
-     "ast": 0,
-     "altro": 12
-    },
-    {
-     "sigla": "IV-CR",
      "fav": 6,
      "con": 0,
      "ast": 0,
-     "altro": 8
+     "altro": 3
     },
     {
-     "sigla": "M-ALT",
+     "sigla": "NM-M-C",
      "fav": 2,
      "con": 0,
      "ast": 0,
      "altro": 6
     },
     {
-     "sigla": "M-MIN",
-     "fav": 4,
+     "sigla": "IV-CR",
+     "fav": 3,
      "con": 0,
      "ast": 0,
      "altro": 4
     },
     {
-     "sigla": "M-SCN",
-     "fav": 4,
+     "sigla": "M-MIN",
+     "fav": 2,
      "con": 0,
      "ast": 0,
      "altro": 2
     },
     {
-     "sigla": "M-+E-S",
-     "fav": 4,
+     "sigla": "M-ALT",
+     "fav": 1,
      "con": 0,
      "ast": 0,
-     "altro": 2
+     "altro": 3
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 1
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 1
     }
-   ]
+   ],
+   "scheda": "http://documenti.camera.it/apps/votazioni/votazionitutte/schedavotazione.asp?Legislatura=XIX&RifVotazione=731_4&tipo=dettaglio",
+   "atto": {
+    "titolo": "GRIBAUDO ed altri: \\\"Modifica all&rsquo;articolo 76 del testo unico di cui al decreto del Presidente della Repubblica 30 maggio 2002, n. 115, in materia di patrocinio a spese dello Stato in favore delle persone offese da reati commessi con violazione delle norme per la prevenzione degli infortuni sul lavoro, da cui consegua totale inabilit&agrave; o decesso\\\" (2904) ^^http://www.w3.org/2001/XMLSchema#string",
+    "iniziativa": "Parlamentare"
+   },
+   "scheda_atto": "https://www.camera.it/leg19/126?leg=19&idDocumento=2904"
   },
   {
    "id": "vs19_730_005",
@@ -793,103 +941,104 @@
    "gruppi": [
     {
      "sigla": "FDI",
-     "fav": 134,
-     "con": 0,
-     "ast": 0,
-     "altro": 100
-    },
-    {
-     "sigla": "PD-IDP",
-     "fav": 98,
-     "con": 0,
-     "ast": 0,
-     "altro": 38
-    },
-    {
-     "sigla": "LEGA",
-     "fav": 58,
+     "fav": 67,
      "con": 0,
      "ast": 0,
      "altro": 50
     },
     {
-     "sigla": "FI-PPE",
-     "fav": 58,
+     "sigla": "PD-IDP",
+     "fav": 49,
      "con": 0,
      "ast": 0,
-     "altro": 46
+     "altro": 19
+    },
+    {
+     "sigla": "LEGA",
+     "fav": 29,
+     "con": 0,
+     "ast": 0,
+     "altro": 25
+    },
+    {
+     "sigla": "FI-PPE",
+     "fav": 29,
+     "con": 0,
+     "ast": 0,
+     "altro": 23
     },
     {
      "sigla": "M5S",
-     "fav": 66,
+     "fav": 33,
      "con": 0,
      "ast": 0,
-     "altro": 30
+     "altro": 15
     },
     {
      "sigla": "AVS",
-     "fav": 12,
-     "con": 0,
-     "ast": 0,
-     "altro": 8
-    },
-    {
-     "sigla": "APERRE",
-     "fav": 8,
-     "con": 0,
-     "ast": 0,
-     "altro": 12
-    },
-    {
-     "sigla": "M-FNVF",
-     "fav": 10,
-     "con": 0,
-     "ast": 0,
-     "altro": 8
-    },
-    {
-     "sigla": "NM-M-C",
-     "fav": 4,
-     "con": 0,
-     "ast": 0,
-     "altro": 12
-    },
-    {
-     "sigla": "IV-CR",
-     "fav": 12,
-     "con": 0,
-     "ast": 0,
-     "altro": 2
-    },
-    {
-     "sigla": "M-ALT",
-     "fav": 4,
+     "fav": 6,
      "con": 0,
      "ast": 0,
      "altro": 4
     },
     {
-     "sigla": "M-MIN",
+     "sigla": "APERRE",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 5,
+     "con": 0,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "NM-M-C",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "IV-CR",
      "fav": 6,
+     "con": 0,
+     "ast": 0,
+     "altro": 1
+    },
+    {
+     "sigla": "M-MIN",
+     "fav": 3,
+     "con": 0,
+     "ast": 0,
+     "altro": 1
+    },
+    {
+     "sigla": "M-ALT",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 2
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 1,
      "con": 0,
      "ast": 0,
      "altro": 2
     },
     {
      "sigla": "M-SCN",
-     "fav": 6,
+     "fav": 3,
      "con": 0,
      "ast": 0,
      "altro": 0
-    },
-    {
-     "sigla": "M-+E-S",
-     "fav": 2,
-     "con": 0,
-     "ast": 0,
-     "altro": 4
     }
-   ]
+   ],
+   "scheda": "http://documenti.camera.it/apps/votazioni/votazionitutte/schedavotazione.asp?Legislatura=XIX&RifVotazione=730_5&tipo=dettaglio"
   },
   {
    "id": "vs19_730_097",
@@ -903,103 +1052,104 @@
    "gruppi": [
     {
      "sigla": "FDI",
-     "fav": 138,
+     "fav": 69,
      "con": 0,
      "ast": 0,
-     "altro": 96
+     "altro": 48
     },
     {
      "sigla": "PD-IDP",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 136
+     "altro": 68
     },
     {
      "sigla": "LEGA",
-     "fav": 62,
+     "fav": 31,
      "con": 0,
      "ast": 0,
-     "altro": 46
+     "altro": 23
     },
     {
      "sigla": "FI-PPE",
-     "fav": 46,
+     "fav": 23,
      "con": 0,
      "ast": 0,
-     "altro": 58
+     "altro": 29
     },
     {
      "sigla": "M5S",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 96
+     "altro": 48
     },
     {
      "sigla": "AVS",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 20
+     "altro": 10
     },
     {
      "sigla": "APERRE",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 20
+     "altro": 10
     },
     {
      "sigla": "M-FNVF",
-     "fav": 10,
+     "fav": 5,
      "con": 0,
      "ast": 0,
-     "altro": 8
+     "altro": 4
     },
     {
      "sigla": "NM-M-C",
-     "fav": 6,
+     "fav": 3,
      "con": 0,
      "ast": 0,
-     "altro": 10
+     "altro": 5
     },
     {
      "sigla": "IV-CR",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 14
+     "altro": 7
+    },
+    {
+     "sigla": "M-MIN",
+     "fav": 3,
+     "con": 0,
+     "ast": 0,
+     "altro": 1
     },
     {
      "sigla": "M-ALT",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 8
+     "altro": 4
     },
     {
-     "sigla": "M-MIN",
-     "fav": 6,
+     "sigla": "M-SCN",
+     "fav": 3,
      "con": 0,
      "ast": 0,
-     "altro": 2
+     "altro": 0
     },
     {
      "sigla": "M-+E-S",
      "fav": 0,
      "con": 0,
      "ast": 0,
-     "altro": 6
-    },
-    {
-     "sigla": "M-SCN",
-     "fav": 6,
-     "con": 0,
-     "ast": 0,
-     "altro": 0
+     "altro": 3
     }
-   ]
+   ],
+   "scheda": "http://documenti.camera.it/apps/votazioni/votazionitutte/schedavotazione.asp?Legislatura=XIX&RifVotazione=730_97&tipo=dettaglio"
   },
   {
    "id": "vs19_730_055",
