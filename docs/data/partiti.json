@@ -1,0 +1,114 @@
+{
+ "aggiornato": "2026-11-21T13:30:03Z",
+ "fonte": "Wikipedia (infobox dei partiti)",
+ "partiti": [
+  {
+   "sigla": "PD",
+   "nome": "Partito Democratico",
+   "guida": [
+    {
+     "ruolo": "Segretario",
+     "nome": "Elly Schlein"
+    }
+   ]
+  },
+  {
+   "sigla": "Lega",
+   "nome": "Lega per Salvini Premier",
+   "guida": [
+    {
+     "ruolo": "Leader",
+     "nome": "Matteo Salvini"
+    },
+    {
+     "ruolo": "Segretario",
+     "nome": "Alberto Di Rubba"
+    }
+   ]
+  },
+  {
+   "sigla": "FI",
+   "nome": "Forza Italia",
+   "guida": [
+    {
+     "ruolo": "Segretario",
+     "nome": "Antonio Tajani"
+    },
+    {
+     "ruolo": "Presidente",
+     "nome": "Stefano Benigni"
+    },
+    {
+     "ruolo": "Presidente",
+     "nome": "Deborah Bergamini"
+    },
+    {
+     "ruolo": "Portavoce",
+     "nome": "Raffaele Nevi"
+    }
+   ]
+  },
+  {
+   "sigla": "Az",
+   "nome": "Azione",
+   "guida": [
+    {
+     "ruolo": "Presidente",
+     "nome": "Elena Bonetti"
+    },
+    {
+     "ruolo": "Segretario",
+     "nome": "Carlo Calenda"
+    },
+    {
+     "ruolo": "Coordinatore",
+     "nome": "Andrea Mazziotti di Celso"
+    }
+   ]
+  },
+  {
+   "sigla": "IV",
+   "nome": "Italia Viva",
+   "guida": [
+    {
+     "ruolo": "Presidente",
+     "nome": "Matteo Renzi"
+    },
+    {
+     "ruolo": "Coordinatore",
+     "nome": "Raffaella Paita"
+    }
+   ]
+  },
+  {
+   "sigla": "NM",
+   "nome": "Noi Moderati",
+   "guida": [
+    {
+     "ruolo": "Leader",
+     "nome": "Maurizio Lupi"
+    }
+   ]
+  },
+  {
+   "sigla": "+Eu",
+   "nome": "+Europa",
+   "guida": [
+    {
+     "ruolo": "Segretario",
+     "nome": "Riccardo Magi"
+    },
+    {
+     "ruolo": "Presidente",
+     "nome": "Matteo Hallissey"
+    }
+   ]
+  }
+ ],
+ "mancanti": [
+  "FdI",
+  "M5S",
+  "AVS",
+  "FN"
+ ]
+}
