@@ -184,6 +184,8 @@ function sezione(k, listaTot) {
 
 function renderNovita() {
   const box = $("#lista-novita");
+  document.body.classList.toggle("pol-quadro", state.nicchia === "politica" && state.vistaPol === "quadro");
+  if (state.nicchia === "politica" && state.vistaPol === "quadro") { box.innerHTML = renderPolitica(); return; }
   if (state.nicchia === "auto" && state.vistaAuto !== "notizie" && state.news.length) { box.innerHTML = renderOfferte(); return; }
   if (!state.news.length) { box.innerHTML = vuoto("Ancora nessuna notizia", "Il primo aggiornamento automatico è in arrivo (ogni ora)."); return; }
   const tutteAree = Object.keys(state.aree).filter((a) => a !== "altro" && a !== "locale" && areaNicchia(a));
@@ -396,6 +398,8 @@ document.addEventListener("input", (e) => {
 });
 document.addEventListener("click", (e) => {
   const va = e.target.closest("[data-vauto]");
+  const vp = e.target.closest("[data-vpol]");
+  if (vp) { state.vistaPol = vp.dataset.vpol; renderTutto(); window.scrollTo(0, 0); return; }
   if (va) { state.vistaAuto = va.dataset.vauto; renderTutto(); window.scrollTo(0, 0); return; }
   const of = e.target.closest("[data-off]");
   if (of) { state.offFiltro = of.dataset.off; state.limiti.off = 25; renderNovita(); return; }
@@ -409,12 +413,67 @@ document.addEventListener("click", (e) => {
   if (md) { state.modelli.splice(+md.dataset.modDel, 1); store.set("modelli", state.modelli); renderNovita(); }
 }, true);
 
+
+// ============ Politica: quadro grafico (dati in data/politica.json) ============
+state.vistaPol = "quadro"; state.politica = null;
+function hemi(gruppi, W) {
+  const N = gruppi.reduce((s, g) => s + g.n, 0), H = Math.round(W * 0.56), cx = W / 2, cy = H - 9;
+  const R = N > 200 ? 9 : N > 60 ? 6 : 4, r0 = W * 0.2, r1 = W * 0.47, dr = R > 1 ? (r1 - r0) / (R - 1) : 0;
+  const rad = (i) => r0 + i * dr, tot = Array.from({ length: R }, (_, i) => rad(i)).reduce((a, b) => a + b, 0);
+  let seats = [], left = N;
+  for (let i = 0; i < R; i++) {
+    const n = i === R - 1 ? left : Math.round(N * rad(i) / tot); left -= n;
+    for (let k = 0; k < n; k++) seats.push({ a: Math.PI - (n === 1 ? Math.PI / 2 : k * Math.PI / (n - 1)), r: rad(i) });
+  }
+  seats.sort((x, y) => y.a - x.a || x.r - y.r);
+  const sz = Math.max(2.2, Math.min(7, dr * 0.38 * (N > 200 ? 1 : 1.6)));
+  let idx = 0, dots = "";
+  for (const g of gruppi) for (let k = 0; k < g.n; k++, idx++) {
+    const s = seats[idx]; if (!s) break;
+    dots += `<circle cx="${(cx + s.r * Math.cos(s.a)).toFixed(1)}" cy="${(cy - s.r * Math.sin(s.a)).toFixed(1)}" r="${sz}" fill="${g.colore}"/>`;
+  }
+  return `<svg viewBox="0 0 ${W} ${H}" class="hemi" role="img" aria-label="Seggi">${dots}</svg>`;
+}
+function legenda(gruppi) {
+  return `<div class="leg">${gruppi.slice().reverse().map((g) => `<span title="${esc(g.nome)}"><i style="background:${g.colore}"></i>${esc(g.sigla)} <b>${g.n}</b></span>`).join("")}</div>`;
+}
+function renderPolitica() {
+  const p = state.politica;
+  if (!p) return vuoto("Dati non disponibili", "Il quadro politico non si è caricato: riprova tra poco.");
+  const link = (u, t) => `<a class="lk" href="${esc(u)}" target="_blank" rel="noopener">${t}</a>`;
+  const fonti = (arr) => (arr && arr.length ? `<div class="fon">Fonti: ${arr.map((u, i) => link(u, i + 1)).join(" · ")}</div>` : "");
+  const pers = (x) => `<div class="pers"><b>${esc(x.nome)}</b><span>${esc(x.ruolo || "")}</span>${x.partito ? `<em>${esc(x.partito)}</em>` : ""}</div>`;
+  const g = p.governo, c = p.camera, rc = p.campania, ce = p.caserta, eu = p.europa;
+  const mg = c.gruppi.filter((x) => x.blocco === "magg").reduce((s, x) => s + x.n, 0), op = c.gruppi.filter((x) => x.blocco === "opp").reduce((s, x) => s + x.n, 0), al = c.totale - mg - op;
+  let h = `<p class="calc-n">Aggiornato al ${esc(p.verificato)}. ${esc(p.nota)}</p>`;
+  h += `<div class="gruppo-titolo">🏛️ ${esc(g.nome)}</div><div class="pcard"><div class="premier">${pers(Object.assign({}, g.premier))}</div><div class="pgrid">${g.persone.map(pers).join("")}</div>
+    <ul class="nov">${g.novita.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>${link(g.link, "Elenco completo dei ministri →")}${fonti(g.fonti)}</div>`;
+  h += `<div class="gruppo-titolo">📊 ${esc(c.titolo)} (${c.totale} seggi)</div><div class="pcard">${hemi(c.gruppi, 340)}
+    <div class="soglia">Maggioranza assoluta: ${c.maggioranza_soglia} seggi</div>${legenda(c.gruppi)}
+    <div class="barra"><span style="flex:${mg};background:#1e40af">Maggioranza ${mg}</span><span style="flex:${al};background:#94a3b8"></span><span style="flex:${op};background:#dc2626">Opposizione ${op}</span></div>
+    <p class="calc-n">Altri/non allineati: ${al}. ${esc(c.nota)}</p>${link(c.link, "Composizione ufficiale →")}</div>`;
+  h += `<div class="gruppo-titolo">📍 ${esc(rc.titolo)}</div><div class="pcard">${pers({ nome: rc.presidente.nome, ruolo: "Presidente della Regione", partito: rc.presidente.partito })}<p class="calc-n">${esc(rc.presidente.nota)}</p>
+    ${hemi([{ n: rc.consiglio.maggioranza, colore: "#dc2626" }, { n: rc.consiglio.opposizione, colore: "#1e40af" }], 280)}
+    <div class="barra"><span style="flex:${rc.consiglio.maggioranza};background:#dc2626">Maggioranza ${rc.consiglio.maggioranza}</span><span style="flex:${rc.consiglio.opposizione};background:#1e40af">Opposizione ${rc.consiglio.opposizione}</span></div>
+    <p class="calc-n">Presidente del Consiglio regionale: ${esc(rc.consiglio.presidente)}. Capo dell'opposizione: ${esc(rc.consiglio.capo_opposizione)}.</p>
+    <div class="pgrid">${rc.giunta.map(pers).join("")}</div><p class="calc-n">${esc(rc.giunta_nota)}</p>${link(rc.link, "Sito della Regione →")}${fonti(rc.fonti)}</div>`;
+  h += `<div class="gruppo-titolo">🏙️ ${esc(ce.titolo)}</div><div class="pcard"><b>${esc(ce.stato)}</b><p class="calc-n">${esc(ce.testo)}</p>${link(ce.link, "Sito del Comune →")}${fonti(ce.fonti)}</div>`;
+  h += `<div class="gruppo-titolo">🇪🇺 ${esc(eu.titolo)} (${eu.totale} eletti)</div><div class="pcard">${hemi(eu.gruppi, 340)}${legenda(eu.gruppi)}<p class="calc-n">${esc(eu.partiti)}</p>${link(eu.link, "Risultati ufficiali →")}</div>`;
+  h += `<div class="gruppo-titolo">Prossimamente</div><div class="pcard"><ul class="nov">${p.prossimi.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>`;
+  return h;
+}
+
 function renderProf() {
   const el = $("#prof-bar");
   const ids = Object.keys(state.professioni);
   if (state.nicchia === "auto") {
     el.hidden = false;
     el.innerHTML = [["offerte", "💸 Offerte e momento"], ["notizie", "📰 Notizie"]].map(([k, l]) => `<button class="chip${state.vistaAuto === k ? " on" : ""}" data-vauto="${k}">${l}</button>`).join("");
+    return;
+  }
+  if (state.nicchia === "politica") {
+    el.hidden = false;
+    el.innerHTML = [["quadro", "🏛️ Quadro politico"], ["notizie", "📰 Notizie"]].map(([k, l]) => `<button class="chip${state.vistaPol === k ? " on" : ""}" data-vpol="${k}">${l}</button>`).join("");
     return;
   }
   if (state.nicchia !== "edilizia" || !ids.length) { el.hidden = true; return; }
@@ -430,7 +489,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "29";
+const VERSIONE_APP = "30";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -440,8 +499,8 @@ async function carica(forza) {
     return r.json();
   };
   try {
-    const [news, aree, status, prof, profilo, confronto] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({})), j("profilo").catch(() => ({})), j("confronto").catch(() => null)]);
-    state.confronto = confronto;
+    const [news, aree, status, prof, profilo, confronto, politica] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({})), j("profilo").catch(() => ({})), j("confronto").catch(() => null), j("politica").catch(() => null)]);
+    state.confronto = confronto; state.politica = politica;
     state.profilo = profilo || {};
     if (!Array.isArray(state.modelli)) state.modelli = [...(state.profilo.modelli || [])];
     state.professioni = prof.professioni || {}; state.gruppiProf = prof.gruppi || [];

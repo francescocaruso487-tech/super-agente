@@ -1,0 +1,257 @@
+{
+ "verificato": "21/11/2026",
+ "nota": "Dati letti da fonti ufficiali e stampa nazionale il 21/11/2026. La politica cambia in fretta: dove un dato non l'ho potuto confermare l'ho lasciato fuori o segnalato.",
+ "governo": {
+  "nome": "Governo Meloni (in carica dal 22/10/2022)",
+  "link": "https://www.governo.it/it/i-ministri",
+  "premier": {
+   "nome": "Giorgia Meloni",
+   "ruolo": "Presidente del Consiglio",
+   "partito": "FdI"
+  },
+  "persone": [
+   {
+    "nome": "Matteo Salvini",
+    "ruolo": "Vicepresidente del Consiglio e ministro delle Infrastrutture",
+    "partito": "Lega"
+   },
+   {
+    "nome": "Antonio Tajani",
+    "ruolo": "Vicepresidente del Consiglio e ministro degli Esteri",
+    "partito": "FI"
+   },
+   {
+    "nome": "Giancarlo Giorgetti",
+    "ruolo": "ministro dell'Economia",
+    "partito": "Lega"
+   },
+   {
+    "nome": "Matteo Piantedosi",
+    "ruolo": "ministro dell'Interno",
+    "partito": "tecnico"
+   },
+   {
+    "nome": "Carlo Nordio",
+    "ruolo": "ministro della Giustizia",
+    "partito": "FdI"
+   },
+   {
+    "nome": "Maria Elisabetta Alberti Casellati",
+    "ruolo": "ministra per le Riforme istituzionali",
+    "partito": "FI"
+   },
+   {
+    "nome": "Alessandro Giuli",
+    "ruolo": "ministro della Cultura",
+    "partito": "area FdI"
+   },
+   {
+    "nome": "Gianmarco Mazzi",
+    "ruolo": "ministro del Turismo (dal 03/04/2026)",
+    "partito": "FdI"
+   }
+  ],
+  "novita": [
+   "25/03/2026: Daniela Santanchè si dimette da ministra del Turismo dopo la sconfitta del governo al referendum sulla giustizia; Meloni tiene l'interim.",
+   "03/04/2026: Gianmarco Mazzi, già sottosegretario alla Cultura, giura come nuovo ministro del Turismo.",
+   "26/03/2026: lascia anche il sottosegretario alla Giustizia Andrea Delmastro."
+  ],
+  "fonti": [
+   "https://www.lapresse.it/politica/2026/04/03/gianmarco-mazzi-atteso-al-quirinale-per-giurare-come-ministro-del-turismo/",
+   "https://www.ilpost.it/2026/03/26/giorgia-meloni-interim-ministero-turismo-dimissioni-santanche/",
+   "https://www.senato.it/composizione/il-governo?did=79"
+  ]
+ },
+ "camera": {
+  "titolo": "Camera dei deputati",
+  "totale": 398,
+  "maggioranza_soglia": 200,
+  "link": "https://www.camera.it/leg19/46",
+  "gruppi": [
+   {
+    "sigla": "AVS",
+    "nome": "Alleanza Verdi e Sinistra",
+    "n": 9,
+    "blocco": "opp",
+    "colore": "#be185d"
+   },
+   {
+    "sigla": "M5S",
+    "nome": "Movimento 5 Stelle",
+    "n": 48,
+    "blocco": "opp",
+    "colore": "#f59e0b"
+   },
+   {
+    "sigla": "PD",
+    "nome": "Partito Democratico",
+    "n": 68,
+    "blocco": "opp",
+    "colore": "#dc2626"
+   },
+   {
+    "sigla": "+Eu",
+    "nome": "+Europa (Misto)",
+    "n": 3,
+    "blocco": "opp",
+    "colore": "#6366f1"
+   },
+   {
+    "sigla": "IV",
+    "nome": "Italia Viva",
+    "n": 7,
+    "blocco": "opp",
+    "colore": "#c084fc"
+   },
+   {
+    "sigla": "Az",
+    "nome": "Azione",
+    "n": 10,
+    "blocco": "opp",
+    "colore": "#8b5cf6"
+   },
+   {
+    "sigla": "Altri",
+    "nome": "Misto: minoranze, Sud chiama Nord, non iscritti",
+    "n": 14,
+    "blocco": "altri",
+    "colore": "#94a3b8"
+   },
+   {
+    "sigla": "FN",
+    "nome": "Futuro Nazionale - Vannacci (Misto)",
+    "n": 9,
+    "blocco": "altri",
+    "colore": "#64748b"
+   },
+   {
+    "sigla": "NM",
+    "nome": "Noi Moderati - MAIE",
+    "n": 8,
+    "blocco": "magg",
+    "colore": "#7dd3fc"
+   },
+   {
+    "sigla": "FI",
+    "nome": "Forza Italia",
+    "n": 50,
+    "blocco": "magg",
+    "colore": "#0ea5e9"
+   },
+   {
+    "sigla": "FdI",
+    "nome": "Fratelli d'Italia",
+    "n": 117,
+    "blocco": "magg",
+    "colore": "#1e40af"
+   },
+   {
+    "sigla": "Lega",
+    "nome": "Lega",
+    "n": 55,
+    "blocco": "magg",
+    "colore": "#0d9488"
+   }
+  ],
+  "nota": "I gruppi del Misto con posizione non chiara (minoranze linguistiche, Sud chiama Nord, non iscritti, Futuro Nazionale) li ho messi tra i non allineati: non do per scontato come votino."
+ },
+ "campania": {
+  "titolo": "Regione Campania",
+  "presidente": {
+   "nome": "Roberto Fico",
+   "partito": "ex M5S, coalizione Pd-M5S-Avs-Psi",
+   "nota": "Eletto il 23-24/11/2025 con il 60,6%; giunta varata il 31/12/2025"
+  },
+  "giunta": [
+   {
+    "nome": "Mario Casillo",
+    "ruolo": "Vicepresidente (Trasporti, Mobilità, Mare)",
+    "partito": "PD"
+   },
+   {
+    "nome": "Fulvio Bonavitacola",
+    "ruolo": "Assessore"
+   },
+   {
+    "nome": "Vincenzo Cuomo",
+    "ruolo": "Assessore"
+   },
+   {
+    "nome": "Onofrio Giustino Angelo Cutaia",
+    "ruolo": "Assessore"
+   }
+  ],
+  "giunta_nota": "La giunta ha 10 assessori; qui sono riportati solo quelli che ho potuto confermare. Fico tiene per sé sanità e bilancio.",
+  "consiglio": {
+   "presidente": "Massimiliano Manfredi (PD)",
+   "maggioranza": 32,
+   "opposizione": 18,
+   "capo_opposizione": "Gennaro Sangiuliano (FdI), dal maggio 2026 al posto di Edmondo Cirielli, dimessosi"
+  },
+  "link": "https://www.regione.campania.it/",
+  "fonti": [
+   "https://www.agi.it/politica/news/2025-12-31/campania-roberto-fico-vara-squadra-giunta-34879263/",
+   "https://www.lapresse.it/politica/2025/11/25/sangiuliano-eletto-consigliere-regionale-in-campania-flop-boccia/",
+   "https://ilfoglio.it/politica/2026/05/21/news/sangiuliano-prende-la-guida-dellopposizione-in-campania-e-dice-ora-loyal-opposition--399256"
+  ]
+ },
+ "caserta": {
+  "titolo": "Comune di Caserta",
+  "stato": "Commissione straordinaria",
+  "testo": "Il Consiglio dei ministri ha sciolto il Comune il 18/04/2025 per infiltrazioni della criminalità organizzata e l'ha affidato a una commissione straordinaria per 18 mesi. Il sindaco uscente Carlo Marino (centrosinistra) ha contestato lo scioglimento. Nel dicembre 2025 la commissione era ancora in carica; non ho trovato una data certa delle prossime elezioni comunali.",
+  "link": "https://www.comune.caserta.it/",
+  "fonti": [
+   "https://tg24.sky.it/cronaca/2025/04/18/sciolto-comune-caserta-criminalita-organizzata",
+   "https://www.comune.caserta.it/download/oggetto_notizie/253631359350O__OOrdinanzaBotti.pdf"
+  ]
+ },
+ "europa": {
+  "titolo": "Italia al Parlamento europeo",
+  "totale": 76,
+  "link": "https://results.elections.europa.eu/it/strumenti/widget-paese/italia/2024-2029/",
+  "gruppi": [
+   {
+    "sigla": "Left",
+    "nome": "The Left (M5S, parte di AVS)",
+    "n": 10,
+    "colore": "#f59e0b"
+   },
+   {
+    "sigla": "Verdi",
+    "nome": "Verdi/ALE (AVS)",
+    "n": 4,
+    "colore": "#be185d"
+   },
+   {
+    "sigla": "S&D",
+    "nome": "Socialisti e Democratici (PD)",
+    "n": 21,
+    "colore": "#dc2626"
+   },
+   {
+    "sigla": "PPE",
+    "nome": "Popolari (Forza Italia, SVP)",
+    "n": 9,
+    "colore": "#0ea5e9"
+   },
+   {
+    "sigla": "ECR",
+    "nome": "Conservatori e Riformisti (FdI)",
+    "n": 24,
+    "colore": "#1e40af"
+   },
+   {
+    "sigla": "PfE",
+    "nome": "Patrioti per l'Europa (Lega)",
+    "n": 8,
+    "colore": "#0d9488"
+   }
+  ],
+  "partiti": "FdI 24 · PD 21 · M5S 8 · Forza Italia-Noi Moderati 8 · Lega 8 · AVS 6"
+ },
+ "prossimi": [
+  "Senato: seggi per gruppo",
+  "Partiti e persone (leader, capigruppo)",
+  "Proposte di legge e votazioni: chi vota a favore e chi contro"
+ ]
+}
