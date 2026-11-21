@@ -525,6 +525,9 @@ CAMPI_GUIDA = ["segretario generale", "segretario", "leader", "presidente", "por
 ETICHETTE_WD = {"FdI": ["Fratelli d'Italia"], "M5S": ["Movimento 5 Stelle"], "AVS": ["Alleanza Verdi e Sinistra"], "FN": ["Futuro Nazionale"], "NM": ["Noi Moderati"]}
 
 
+ESCLUSI_GUIDA = {"Beppe Grillo"}
+
+
 def guida_da_wikipedia(titolo_pagina, prima=None):
     r = requests.get("https://it.wikipedia.org/w/api.php", headers={"User-Agent": UA}, timeout=30, params={
         "action": "query", "prop": "revisions", "rvprop": "content", "rvslots": "main", "titles": titolo_pagina,
@@ -553,6 +556,7 @@ def guida_da_wikipedia(titolo_pagina, prima=None):
                     out.append(voce)
     ordine = prima or ["leader", "segretario generale", "segretario", "presidente", "coordinatore", "portavoce", "reggente", "capo politico"]
     out.sort(key=lambda v: ordine.index(v["ruolo"].lower()) if v["ruolo"].lower() in ordine else 99)
+    out = [v for v in out if v["nome"] not in ESCLUSI_GUIDA]  # fondatori/garanti che non guidano il partito
     return out[:1] or None
 
 
