@@ -437,6 +437,7 @@ function hemi(gruppi, W) {
 function legenda(gruppi) {
   return `<div class="leg">${gruppi.slice().reverse().map((g) => `<span title="${esc(g.nome)}"><i style="background:${g.colore}"></i>${esc(g.sigla)} <b>${g.n}</b></span>`).join("")}</div>`;
 }
+const nomeGruppoVoto = (s) => { const l = String(s).toLowerCase(); const m = [["fdi", "Fratelli d'Italia"], ["pd", "Partito Democratico"], ["lega", "Lega"], ["fi", "Forza Italia"], ["m5s", "Movimento 5 Stelle"], ["avs", "AVS"], ["a-", "Azione"], ["az", "Azione"], ["iv", "Italia Viva"], ["nm", "Noi Moderati"], ["misto", "Misto"]].find(([k]) => l.startsWith(k)); return m ? m[1] : String(s); };
 function renderPolitica() {
   const p = state.politica;
   if (!p) return vuoto("Dati non disponibili", "Il quadro politico non si è caricato: riprova tra poco.");
@@ -496,7 +497,7 @@ function renderPolitica() {
   if (VT && VT.voti && VT.voti.length) {
     h += `<div class="gruppo-titolo">🗳️ Ultime votazioni della Camera</div><div class="pcard">${VT.voti.slice(0, 8).map((x) => {
       const t = x.fav + x.con + x.ast || 1, ok = x.esito === "approvata";
-      return `<div class="voto"><div class="voto-t">${esc(x.titolo)}</div><div class="voto-m"><span class="esito ${ok ? "si" : "no"}">${ok ? "✅ Approvata" : "❌ Respinta"}</span><span class="mute">${esc(x.data)}</span></div><div class="barra"><span style="flex:${x.fav};background:#1f9d6b">${x.fav}</span><span style="flex:${x.ast || 0.0001};background:#94a3b8"></span><span style="flex:${x.con};background:#dc2626">${x.con}</span></div><div class="voto-l"><span>👍 Favorevoli ${Math.round((x.fav / t) * 100)}%</span><span>Astenuti ${x.ast}</span><span>👎 Contrari ${Math.round((x.con / t) * 100)}%</span></div></div>`;
+      return `<div class="voto"><div class="voto-t">${esc(x.titolo)}</div><div class="voto-m"><span class="esito ${ok ? "si" : "no"}">${ok ? "✅ Approvata" : "❌ Respinta"}</span><span class="mute">${esc(x.data)}</span></div><div class="barra"><span style="flex:${x.fav};background:#1f9d6b">${x.fav}</span><span style="flex:${x.ast || 0.0001};background:#94a3b8"></span><span style="flex:${x.con};background:#dc2626">${x.con}</span></div><div class="voto-l"><span>👍 Favorevoli ${Math.round((x.fav / t) * 100)}%</span><span>Astenuti ${x.ast}</span><span>👎 Contrari ${Math.round((x.con / t) * 100)}%</span></div>${(x.gruppi || []).length ? `<details class="vg"><summary>Come hanno votato i gruppi</summary>${x.gruppi.map((g) => `<div class="vgr"><span class="vgn">${esc(nomeGruppoVoto(g.sigla))}</span><span class="vg1">👍 ${g.fav}</span><span class="vg2">👎 ${g.con}</span><span class="vg3">⚪ ${g.ast}</span>${g.altro ? `<span class="mute">assenti ${g.altro}</span>` : ""}</div>`).join("")}</details>` : ""}</div>`;
     }).join("")}${stampa("votazioni")}${link(VT.link, "Votazioni sul sito della Camera →")}</div>`;
   }
   h += `<div class="gruppo-titolo">📍 ${esc(rc.titolo)}</div><div class="pcard">${pers({ nome: rc.presidente.nome, ruolo: "Presidente della Regione", partito: rc.presidente.partito })}<p class="calc-n">${esc(rc.presidente.nota)}</p>
@@ -536,7 +537,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "36";
+const VERSIONE_APP = "37";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;

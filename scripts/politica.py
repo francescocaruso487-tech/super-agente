@@ -167,16 +167,44 @@ def leggi_camera():
     return {"totale": tot, "maggioranza_soglia": tot // 2 + 1, "gruppi": lista, "link": URL_CAMERA}
 
 
+def _sonda(endpoint, q):
+    r = requests.get(endpoint, params={"query": q, "format": "application/sparql-results+json"},
+                     headers={"User-Agent": UA, "Accept": "application/sparql-results+json"}, timeout=60)
+    r.raise_for_status()
+    return r.json()["results"]["bindings"]
+
+
+def _campioni(endpoint, classe):
+    """Una risorsa d'esempio della classe, con tutte le sue proprieta' (per scoprire lo schema)."""
+    x = _sonda(endpoint, f"SELECT ?x WHERE {{ ?x a <{classe}> }} LIMIT 1")
+    if not x:
+        return []
+    return [[b["p"]["value"].rsplit("/", 1)[-1].rsplit("#", 1)[-1], b["o"]["value"][:120]] for b in
+            _sonda(endpoint, f"SELECT ?p ?o WHERE {{ <{x[0]['x']['value']}> ?p ?o }} LIMIT 40")]
+
+
 def _debug_senato_dati():
-    """Solo diagnostica: l'endpoint dei dati aperti del Senato risponde? quali tipi di risorsa ha?"""
+    """Solo diagnostica: schema dei dati aperti (Senato e Camera) per leggere senatori, gruppi, governo, atti."""
     out = {}
-    for nome, url in (("dati_senato_sparql", "https://dati.senato.it/sparql"),):
+    S, C = "https://dati.senato.it/sparql", "https://dati.camera.it/sparql"
+    for nome, ep, classe in (("senatore", S, "http://dati.senato.it/osr/Senatore"), ("mandatoSenato", S, "http://dati.camera.it/ocd/mandatoSenato"),
+                             ("adesioneGruppo", S, "http://dati.camera.it/ocd/adesioneGruppo"), ("gruppoSenato", S, "http://dati.camera.it/ocd/gruppoParlamentare"),
+                             ("ddl", S, "http://dati.senato.it/osr/Ddl"), ("iniziativa", S, "http://dati.senato.it/osr/Iniziativa"),
+                             ("atto_camera", C, "http://dati.camera.it/ocd/atto")):
         try:
-            r = requests.get(url, params={"query": "SELECT DISTINCT ?c WHERE { ?s a ?c } LIMIT 80", "format": "application/sparql-results+json"},
-                             headers={"User-Agent": UA, "Accept": "application/sparql-results+json"}, timeout=60)
-            out[nome] = {"http": r.status_code, "classi": [b["c"]["value"] for b in r.json()["results"]["bindings"]] if r.ok else r.text[:200]}
+            out[nome] = _campioni(ep, classe)
         except Exception as e:  # noqa: BLE001
-            out[nome] = {"errore": f"{type(e).__name__}: {e}"[:300]}
+            out[nome] = f"errore: {type(e).__name__}: {e}"[:200]
+    try:
+        out["gruppo_camera_fdi"] = [[b["p"]["value"].rsplit("/", 1)[-1], b["o"]["value"][:120]] for b in
+                                    _sonda(C, "SELECT ?p ?o WHERE { <http://dati.camera.it/ocd/gruppoParlamentare.rdf/gr4133> ?p ?o } LIMIT 40")]
+        out["rimandi_al_gruppo_fdi"] = [[b["c"]["value"].rsplit("/", 1)[-1], b["q"]["value"].rsplit("/", 1)[-1]] for b in
+                                        _sonda(C, "SELECT DISTINCT ?c ?q WHERE { ?x ?q <http://dati.camera.it/ocd/gruppoParlamentare.rdf/gr4133> . ?x a ?c } LIMIT 30")]
+        out["classi_camera_governo"] = [b["c"]["value"].rsplit("/", 1)[-1] for b in
+                                        _sonda(C, "SELECT DISTINCT ?c WHERE { ?s a ?c . FILTER(REGEX(STR(?c), 'overn|inistr|ncarico|ufficio', 'i')) } LIMIT 30")]
+        out["tipi_voto"] = [b["t"]["value"] for b in _sonda(C, "SELECT DISTINCT ?t WHERE { ?x a <http://dati.camera.it/ocd/voto> ; <http://purl.org/dc/elements/1.1/type> ?t } LIMIT 20")]
+    except Exception as e:  # noqa: BLE001
+        out["camera"] = f"errore: {type(e).__name__}: {e}"[:200]
     (DATA / "debug_senato_dati.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), "utf-8")
 
 
@@ -417,13 +445,20 @@ def guida_da_wikipedia(titolo_pagina):
         if chiave not in CAMPI_GUIDA:
             continue
         valore = re.sub(r"<ref[^>]*?/>|<ref.*?</ref>|<!--.*?-->", "", m.group(2), flags=re.S)
-        for link in re.findall(r"\[\[([^\]|#]+)(?:\|([^\]]+))?\]\]", valore)[:1]:
+        links = re.findall(r"\[\[([^\]|#]+)(?:\|([^\]]+))?\]\]", valore)[:1]
+        if not links:  # valore scritto come semplice testo
+            txt = norm(re.sub(r"\{\{.*?\}\}|<[^>]+>|'{2,}", "", valore).split("\n")[0].split("(")[0])
+            if re.fullmatch(r"[A-ZÀ-Ü][\w'’.-]+(?: [A-ZÀ-Üa-zà-ü][\w'’.-]+){1,3}", txt):
+                links = [(txt, "")]
+        for link in links:
             nome = norm(link[1] or link[0])
             if nome and not re.match(r"(file|immagine|categoria):", nome, re.I) and re.search(r"[a-z]", nome):
                 voce = {"ruolo": chiave.capitalize(), "nome": nome}
                 if voce not in out:
                     out.append(voce)
-    return out[:3] or None
+    ordine = ["leader", "segretario generale", "segretario", "presidente", "coordinatore", "portavoce", "reggente", "capo politico"]
+    out.sort(key=lambda v: ordine.index(v["ruolo"].lower()) if v["ruolo"].lower() in ordine else 99)
+    return out[:1] or None
 
 
 def guida_da_wikidata(etichette):
@@ -441,7 +476,7 @@ def guida_da_wikidata(etichette):
         n = norm(b["personaLabel"]["value"])
         if n and not re.fullmatch(r"Q\d+", n) and n not in nomi:
             nomi.append(n)
-    return [{"ruolo": "Guida", "nome": n} for n in nomi[:2]] or None
+    return [{"ruolo": "Guida", "nome": n} for n in nomi[:1]] or None
 
 
 def leggi_segretari():
@@ -536,6 +571,18 @@ def leggi_votazioni():
         }, ensure_ascii=False, indent=1), "utf-8")
     except Exception:  # noqa: BLE001
         pass
+    for v in voti[:10]:  # come ha votato ciascun gruppo (voti individuali dei deputati, raggruppati)
+        try:
+            righe_g = sparql(f"SELECT ?sg ?t (COUNT(?x) AS ?n) WHERE {{ ?x a ocd:voto ; ocd:rif_votazione <{v['uri']}> ; "
+                             f"ocd:siglaGruppo ?sg ; dc:type ?t }} GROUP BY ?sg ?t")
+            g = {}
+            for b in righe_g:
+                t = b["t"]["value"].lower()
+                k = "fav" if t.startswith("favorev") else "con" if t.startswith("contrar") else "ast" if t.startswith("astenut") else "altro"
+                g.setdefault(b["sg"]["value"], {"fav": 0, "con": 0, "ast": 0, "altro": 0})[k] += int(float(b["n"]["value"]))
+            v["gruppi"] = sorted(({"sigla": k, **x} for k, x in g.items()), key=lambda x: -(x["fav"] + x["con"] + x["ast"] + x["altro"]))
+        except Exception:  # noqa: BLE001
+            pass
     for v in voti:
         v.pop("uri", None)
     (DATA / "votazioni.json").write_text(json.dumps({"aggiornato": ora(), "voti": voti[:20],
