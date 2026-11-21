@@ -246,3 +246,9 @@ body .chip.on small{color:inherit;opacity:.75}
 .sw-nota{font-size:13px;color:var(--mute);margin:8px 2px 14px}
 .sheet-x{width:100%;border:0;background:var(--accent);color:var(--on-accent);padding:14px;border-radius:999px;font-size:16px;font-weight:700;cursor:pointer}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* le quattro sezioni sempre visibili, senza scorrere */
+.nicchie{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;overflow:visible;border-radius:26px;padding:5px}
+.nicchie button{display:flex;flex-direction:column;align-items:center;gap:3px;padding:9px 2px 8px;border-radius:22px;min-width:0;font-size:12.5px;font-weight:650}
+.nicchie button i{font-style:normal;font-size:22px;line-height:1.1}
+.nicchie button span{display:block;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
