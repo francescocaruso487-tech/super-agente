@@ -99,204 +99,64 @@
  ],
  "risorse_collegate": [
   [
-   "rif_votazione",
+   "voto",
    "22-rdf-syntax-ns#type",
    "http://dati.camera.it/ocd/voto"
   ],
   [
-   "rif_votazione",
+   "voto",
    "22-rdf-syntax-ns#type",
    "http://dati.camera.it/ocd/voto"
   ],
   [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
+   "voto",
+   "rdf-schema#label",
+   "TAJANI ANTONIO (FI-PPE) in missione"
   ],
   [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
+   "voto",
+   "rif_deputato",
+   "http://dati.camera.it/ocd/deputato.rdf/d308838_19"
   ],
   [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
+   "voto",
+   "rif_gruppoParlamentare",
+   "http://dati.camera.it/ocd/gruppoParlamentare.rdf/gr4134"
   ],
   [
+   "voto",
    "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
+   "http://dati.camera.it/ocd/votazione.rdf/vs19_749_001"
   ],
   [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
+   "voto",
+   "description",
+   "In missione"
   ],
   [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
+   "voto",
+   "title",
+   "TAJANI ANTONIO (FI-PPE) in missione"
   ],
   [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
+   "voto",
+   "type",
+   "Non ha votato"
   ],
   [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
+   "voto",
+   "modified",
+   "2026-11-20T14:29:47Z"
   ],
   [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
+   "voto",
+   "identifier",
+   "749001_308838"
   ],
   [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "rif_votazione",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
+   "voto",
+   "siglaGruppo",
+   "FI-PPE"
   ]
  ]
 }

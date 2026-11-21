@@ -1,7 +1,17 @@
 {
- "aggiornato": "2026-11-21T13:30:03Z",
- "fonte": "Wikipedia (infobox dei partiti)",
+ "aggiornato": "2026-11-21T13:32:21Z",
+ "fonte": "Wikipedia e Wikidata",
  "partiti": [
+  {
+   "sigla": "FdI",
+   "nome": "Fratelli d'Italia",
+   "guida": [
+    {
+     "ruolo": "Guida",
+     "nome": "Giorgia Meloni"
+    }
+   ]
+  },
   {
    "sigla": "PD",
    "nome": "Partito Democratico",
@@ -37,10 +47,6 @@
     {
      "ruolo": "Presidente",
      "nome": "Stefano Benigni"
-    },
-    {
-     "ruolo": "Presidente",
-     "nome": "Deborah Bergamini"
     },
     {
      "ruolo": "Portavoce",
@@ -103,12 +109,20 @@
      "nome": "Matteo Hallissey"
     }
    ]
+  },
+  {
+   "sigla": "FN",
+   "nome": "Futuro Nazionale",
+   "guida": [
+    {
+     "ruolo": "Guida",
+     "nome": "Roberto Vannacci"
+    }
+   ]
   }
  ],
  "mancanti": [
-  "FdI",
   "M5S",
-  "AVS",
-  "FN"
+  "AVS"
  ]
 }

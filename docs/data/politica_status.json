@@ -1,37 +1,37 @@
 {
  "camera": {
   "ok": true,
-  "ok_il": "2026-11-21T12:39:55Z",
+  "ok_il": "2026-11-21T13:31:43Z",
   "errore": null
  },
  "senato": {
   "ok": false,
-  "ultimo_tentativo": "2026-11-21T13:29:59Z",
-  "errore": "ValueError: gruppo non trovato: Lega. Righe lette (0): "
+  "ultimo_tentativo": "2026-11-21T13:31:47Z",
+  "errore": "ValueError: gruppo non trovato: FI. Righe lette (0): "
  },
  "governo": {
   "ok": false,
-  "ultimo_tentativo": "2026-11-21T13:29:59Z",
-  "errore": "ValueError: sezione 'Ministri' non trovata. Estratto: "
+  "ultimo_tentativo": "2026-11-21T13:31:47Z",
+  "errore": "ValueError: sezione 'Ministri' non trovata. Estratto: JavaScript is disabled | In order to continue, we need to verify that you're not a robot. | This requires JavaScript. Enable JavaScript and then reload the page."
  },
  "deputati": {
   "ok": true,
-  "ok_il": "2026-11-21T12:40:18Z",
+  "ok_il": "2026-11-21T13:32:14Z",
   "errore": null
  },
  "senatori": {
   "ok": false,
-  "ultimo_tentativo": "2026-11-21T13:30:00Z",
+  "ultimo_tentativo": "2026-11-21T13:32:15Z",
   "errore": "ValueError: numero di senatori incoerente: 0 (via regioni; gruppi: )"
  },
  "segretari": {
   "ok": true,
-  "ok_il": "2026-11-21T13:30:03Z",
+  "ok_il": "2026-11-21T13:32:21Z",
   "errore": null
  },
  "votazioni": {
   "ok": true,
-  "ok_il": "2026-11-21T13:30:08Z",
+  "ok_il": "2026-11-21T13:32:26Z",
   "errore": null
  }
 }
