@@ -1,38 +1,38 @@
 {
  "camera": {
   "ok": true,
-  "ok_il": "2026-11-21T13:37:02Z",
+  "ok_il": "2026-11-21T13:40:09Z",
   "errore": null
  },
  "governo": {
-  "ok": null,
-  "ok_il": null,
+  "ok": true,
+  "ok_il": "2026-11-21T13:40:11Z",
   "errore": null
  },
  "deputati": {
   "ok": true,
-  "ok_il": "2026-11-21T13:37:23Z",
+  "ok_il": "2026-11-21T13:40:31Z",
   "errore": null
  },
  "segretari": {
   "ok": true,
-  "ok_il": "2026-11-21T13:37:29Z",
+  "ok_il": "2026-11-21T13:40:37Z",
   "errore": null,
   "ultimo_tentativo": "2026-11-21T13:35:58Z"
  },
  "votazioni": {
   "ok": true,
-  "ok_il": "2026-11-21T13:37:38Z",
+  "ok_il": "2026-11-21T13:40:47Z",
   "errore": null
  },
  "capigruppo": {
-  "ok": null,
-  "ok_il": null,
+  "ok": true,
+  "ok_il": "2026-11-21T13:40:32Z",
   "errore": null
  },
  "proposte": {
-  "ok": null,
-  "ok_il": null,
+  "ok": true,
+  "ok_il": "2026-11-21T13:40:54Z",
   "errore": null
  }
 }

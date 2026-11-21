@@ -89,18 +89,132 @@
    }
   ],
   "link": "https://www.camera.it/leg19/46",
-  "aggiornato": "2026-11-21T13:37:02Z"
+  "aggiornato": "2026-11-21T13:40:09Z"
  },
  "deputati": {
   "totale": 398,
-  "aggiornato": "2026-11-21T13:37:23Z"
+  "aggiornato": "2026-11-21T13:40:31Z"
  },
  "segretari": {
   "totale": 10,
-  "aggiornato": "2026-11-21T13:37:29Z"
+  "aggiornato": "2026-11-21T13:40:37Z"
  },
  "votazioni": {
   "totale": 30,
-  "aggiornato": "2026-11-21T13:37:38Z"
+  "aggiornato": "2026-11-21T13:40:47Z"
+ },
+ "governo": {
+  "persone": [
+   {
+    "nome": "Giorgia Meloni",
+    "ruolo": "Presidente del Consiglio dei ministri"
+   },
+   {
+    "nome": "Marina Elvira Calderone",
+    "ruolo": "Ministra del Lavoro e delle politiche sociali"
+   },
+   {
+    "nome": "Eugenia Maria Roccella",
+    "ruolo": "Ministra per la Famiglia, la natalità e le pari opportunità"
+   },
+   {
+    "nome": "Alessandra Locatelli",
+    "ruolo": "Ministra per le Disabilità"
+   },
+   {
+    "nome": "Maria Elisabetta Alberti",
+    "ruolo": "Ministra per le Riforme istituzionali e la semplificazione normativa"
+   },
+   {
+    "nome": "Antonio Tajani",
+    "ruolo": "Ministro degli Affari esteri e della cooperazione internazionale"
+   },
+   {
+    "nome": "Gianmarco Mazzi",
+    "ruolo": "Ministro del Turismo"
+   },
+   {
+    "nome": "Francesco Lollobrigida",
+    "ruolo": "Ministro dell'Agricoltura, della sovranità alimentare e delle foreste"
+   },
+   {
+    "nome": "Gilberto Pichetto Fratin",
+    "ruolo": "Ministro dell'Ambiente e della sicurezza energetica"
+   },
+   {
+    "nome": "Giancarlo Giorgetti",
+    "ruolo": "Ministro dell'Economia e delle finanze"
+   },
+   {
+    "nome": "Matteo Piantedosi",
+    "ruolo": "Ministro dell'Interno"
+   },
+   {
+    "nome": "Giuseppe Valditara",
+    "ruolo": "Ministro dell'Istruzione e del merito"
+   },
+   {
+    "nome": "Anna Maria Bernini",
+    "ruolo": "Ministro dell'Università e della ricerca"
+   },
+   {
+    "nome": "Alessandro Giuli",
+    "ruolo": "Ministro della Cultura"
+   },
+   {
+    "nome": "Guido Crosetto",
+    "ruolo": "Ministro della Difesa"
+   },
+   {
+    "nome": "Carlo Nordio",
+    "ruolo": "Ministro della Giustizia"
+   },
+   {
+    "nome": "Orazio Schillaci",
+    "ruolo": "Ministro della Salute"
+   },
+   {
+    "nome": "Adolfo Urso",
+    "ruolo": "Ministro delle Imprese e del made in Italy"
+   },
+   {
+    "nome": "Matteo Salvini",
+    "ruolo": "Ministro delle Infrastrutture e dei trasporti"
+   },
+   {
+    "nome": "Tommaso Foti",
+    "ruolo": "Ministro per gli Affari europei, il PNRR e le politiche di coesione"
+   },
+   {
+    "nome": "Roberto Calderoli",
+    "ruolo": "Ministro per gli Affari regionali e le autonomie"
+   },
+   {
+    "nome": "Luca Ciriani",
+    "ruolo": "Ministro per i Rapporti con il Parlamento"
+   },
+   {
+    "nome": "Sebastiano Musumeci",
+    "ruolo": "Ministro per la Protezione civile e le politiche del mare"
+   },
+   {
+    "nome": "Paolo Zangrillo",
+    "ruolo": "Ministro per la Pubblica amministrazione"
+   },
+   {
+    "nome": "Andrea Abodi",
+    "ruolo": "Ministro per lo Sport e i giovani"
+   }
+  ],
+  "link": "https://www.governo.it/it/i-ministri",
+  "aggiornato": "2026-11-21T13:40:11Z"
+ },
+ "capigruppo": {
+  "totale": 12,
+  "aggiornato": "2026-11-21T13:40:32Z"
+ },
+ "proposte": {
+  "totale": 15,
+  "aggiornato": "2026-11-21T13:40:54Z"
  }
 }

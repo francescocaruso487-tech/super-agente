@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-21T13:37:23Z",
+ "aggiornato": "2026-11-21T13:40:31Z",
  "totale": 398,
  "gruppi": [
   {
@@ -478,7 +478,8 @@
    "blocco": "magg",
    "colore": "#1e40af",
    "ordine": 120,
-   "n": 117
+   "n": 117,
+   "presidente": "Galeazzo Bignami"
   },
   {
    "gruppo": "Partito Democratico - Italia Democratica e Progressista",
@@ -760,7 +761,8 @@
    "blocco": "opp",
    "colore": "#dc2626",
    "ordine": 30,
-   "n": 68
+   "n": 68,
+   "presidente": "Chiara Braga"
   },
   {
    "gruppo": "Lega - Salvini Premier",
@@ -990,7 +992,8 @@
    "blocco": "magg",
    "colore": "#0d9488",
    "ordine": 130,
-   "n": 55
+   "n": 55,
+   "presidente": "Riccardo Molinari"
   },
   {
    "gruppo": "Forza Italia - Berlusconi Presidente - PPE",
@@ -1200,7 +1203,8 @@
    "blocco": "magg",
    "colore": "#0ea5e9",
    "ordine": 110,
-   "n": 50
+   "n": 50,
+   "presidente": "Enrico Costa"
   },
   {
    "gruppo": "MoVimento 5 Stelle",
@@ -1402,7 +1406,8 @@
    "blocco": "opp",
    "colore": "#f59e0b",
    "ordine": 20,
-   "n": 48
+   "n": 48,
+   "presidente": "Riccardo Ricciardi"
   },
   {
    "gruppo": "Azione-Popolari europeisti riformatori-Renew Europe",
@@ -1498,7 +1503,8 @@
    "blocco": "altri",
    "colore": "#64748b",
    "ordine": 80,
-   "n": 9
+   "n": 9,
+   "presidente": "Manfred Schullian"
   },
   {
    "gruppo": "Alleanza Verdi e Sinistra",
@@ -1544,7 +1550,8 @@
    "blocco": "opp",
    "colore": "#be185d",
    "ordine": 10,
-   "n": 9
+   "n": 9,
+   "presidente": "Luana Zanella"
   },
   {
    "gruppo": "NOI MODERATI (NOI CON L'ITALIA, CORAGGIO ITALIA, UDC E ITALIA AL CENTRO)-MAIE-CENTRO POPOLARE",
@@ -1586,7 +1593,8 @@
    "blocco": "magg",
    "colore": "#7dd3fc",
    "ordine": 100,
-   "n": 8
+   "n": 8,
+   "presidente": "Maurizio Enzo Lupi"
   },
   {
    "gruppo": "Italia Viva-Casa Riformista",
@@ -1662,7 +1670,8 @@
    "blocco": "altri",
    "colore": "#94a3b8",
    "ordine": 75,
-   "n": 7
+   "n": 7,
+   "presidente": "Manfred Schullian"
   },
   {
    "gruppo": "MISTO-Minoranze Linguistiche",
@@ -1688,7 +1697,8 @@
    "blocco": "altri",
    "colore": "#94a3b8",
    "ordine": 75,
-   "n": 4
+   "n": 4,
+   "presidente": "Manfred Schullian"
   },
   {
    "gruppo": "MISTO-+Europa - Stati Uniti d'Europa",
@@ -1710,7 +1720,8 @@
    "blocco": "opp",
    "colore": "#6366f1",
    "ordine": 40,
-   "n": 3
+   "n": 3,
+   "presidente": "Manfred Schullian"
   },
   {
    "gruppo": "MISTO-Sud chiama Nord",
@@ -1732,7 +1743,8 @@
    "blocco": "altri",
    "colore": "#94a3b8",
    "ordine": 75,
-   "n": 3
+   "n": 3,
+   "presidente": "Manfred Schullian"
   }
  ],
  "variazioni": [],
