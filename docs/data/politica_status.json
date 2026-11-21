@@ -6,12 +6,12 @@
  },
  "senato": {
   "ok": false,
-  "ultimo_tentativo": "2026-11-21T13:01:21Z",
+  "ultimo_tentativo": "2026-11-21T13:10:30Z",
   "errore": "ValueError: gruppo non trovato: Lega"
  },
  "governo": {
   "ok": false,
-  "ultimo_tentativo": "2026-11-21T13:01:22Z",
+  "ultimo_tentativo": "2026-11-21T13:10:30Z",
   "errore": "HTTPError: 404 Client Error: Not Found for url: https://www.governo.it/it/i-ministri"
  },
  "deputati": {
@@ -21,17 +21,17 @@
  },
  "senatori": {
   "ok": false,
-  "ultimo_tentativo": "2026-11-21T13:01:22Z",
+  "ultimo_tentativo": "2026-11-21T13:10:30Z",
   "errore": "ValueError: gruppi del Senato trovati: 0"
  },
  "segretari": {
   "ok": true,
-  "ok_il": "2026-11-21T13:01:23Z",
+  "ok_il": "2026-11-21T13:10:31Z",
   "errore": null
  },
  "votazioni": {
   "ok": true,
-  "ok_il": "2026-11-21T13:01:26Z",
+  "ok_il": "2026-11-21T13:10:34Z",
   "errore": null
  }
 }
