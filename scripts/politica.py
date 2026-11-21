@@ -41,9 +41,17 @@ def norm(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+BROWSER = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+           "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "it-IT,it;q=0.9,en;q=0.5"}
+
+
 def scarica(url):
-    r = requests.get(url, headers={"User-Agent": UA, "Accept-Language": "it"}, timeout=TIMEOUT)
+    # i siti del Senato rifiutano i programmi che si dichiarano bot: intestazioni da normale browser
+    h = BROWSER if "senato.it" in url else {"User-Agent": UA, "Accept-Language": "it"}
+    r = requests.get(url, headers=h, timeout=TIMEOUT)
     r.raise_for_status()
+    if "senato.it" in url and len(r.text) < 2000:
+        raise ValueError(f"risposta vuota/anomala da {url}: HTTP {r.status_code}, {len(r.text)} caratteri: {r.text[:200]!r}")
     return r.text
 
 
@@ -159,7 +167,21 @@ def leggi_camera():
     return {"totale": tot, "maggioranza_soglia": tot // 2 + 1, "gruppi": lista, "link": URL_CAMERA}
 
 
+def _debug_senato_dati():
+    """Solo diagnostica: l'endpoint dei dati aperti del Senato risponde? quali tipi di risorsa ha?"""
+    out = {}
+    for nome, url in (("dati_senato_sparql", "https://dati.senato.it/sparql"),):
+        try:
+            r = requests.get(url, params={"query": "SELECT DISTINCT ?c WHERE { ?s a ?c } LIMIT 80", "format": "application/sparql-results+json"},
+                             headers={"User-Agent": UA, "Accept": "application/sparql-results+json"}, timeout=60)
+            out[nome] = {"http": r.status_code, "classi": [b["c"]["value"] for b in r.json()["results"]["bindings"]] if r.ok else r.text[:200]}
+        except Exception as e:  # noqa: BLE001
+            out[nome] = {"errore": f"{type(e).__name__}: {e}"[:300]}
+    (DATA / "debug_senato_dati.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), "utf-8")
+
+
 def leggi_senato():
+    _debug_senato_dati()
     html = scarica(URL_SENATO)
     tutte = righe_tabella(html)
     righe = [(l, n) for l, n in tutte if any(k in norm(l).lower() for k, *_ in SENATO)]
@@ -377,6 +399,7 @@ PARTITI = [  # (sigla, nome, titoli possibili della pagina su it.wikipedia)
     ("FN", "Futuro Nazionale", ["Futuro Nazionale", "Futuro Nazionale (partito)"]),
 ]
 CAMPI_GUIDA = ["segretario generale", "segretario", "leader", "presidente", "portavoce", "coordinatore", "reggente", "capo politico"]
+ETICHETTE_WD = {"FdI": ["Fratelli d'Italia"], "M5S": ["Movimento 5 Stelle"], "AVS": ["Alleanza Verdi e Sinistra"], "FN": ["Futuro Nazionale"], "NM": ["Noi Moderati"]}
 
 
 def guida_da_wikipedia(titolo_pagina):
@@ -394,13 +417,31 @@ def guida_da_wikipedia(titolo_pagina):
         if chiave not in CAMPI_GUIDA:
             continue
         valore = re.sub(r"<ref[^>]*?/>|<ref.*?</ref>|<!--.*?-->", "", m.group(2), flags=re.S)
-        for link in re.findall(r"\[\[([^\]|#]+)(?:\|([^\]]+))?\]\]", valore)[:2]:
+        for link in re.findall(r"\[\[([^\]|#]+)(?:\|([^\]]+))?\]\]", valore)[:1]:
             nome = norm(link[1] or link[0])
             if nome and not re.match(r"(file|immagine|categoria):", nome, re.I) and re.search(r"[a-z]", nome):
                 voce = {"ruolo": chiave.capitalize(), "nome": nome}
                 if voce not in out:
                     out.append(voce)
-    return out or None
+    return out[:3] or None
+
+
+def guida_da_wikidata(etichette):
+    """Piano B per i partiti senza infobox leggibile: incarichi 'chairperson' senza data di fine e persona in vita."""
+    valori = " ".join(f'"{e}"@it' for e in etichette)
+    q = f"""SELECT ?personaLabel WHERE {{ VALUES ?lab {{ {valori} }}
+      ?p rdfs:label ?lab ; wdt:P31/wdt:P279* wd:Q7278 ; wdt:P17 wd:Q38 . ?p p:P488 ?st . ?st ps:P488 ?persona .
+      FILTER NOT EXISTS {{ ?st pq:P582 ?fine }} FILTER NOT EXISTS {{ ?persona wdt:P570 ?morte }}
+      SERVICE wikibase:label {{ bd:serviceParam wikibase:language "it,en". }} }}"""
+    r = requests.get("https://query.wikidata.org/sparql", params={"query": q, "format": "json"},
+                     headers={"User-Agent": UA, "Accept": "application/sparql-results+json"}, timeout=60)
+    r.raise_for_status()
+    nomi = []
+    for b in r.json()["results"]["bindings"]:
+        n = norm(b["personaLabel"]["value"])
+        if n and not re.fullmatch(r"Q\d+", n) and n not in nomi:
+            nomi.append(n)
+    return [{"ruolo": "Guida", "nome": n} for n in nomi[:2]] or None
 
 
 def leggi_segretari():
@@ -415,13 +456,18 @@ def leggi_segretari():
                 guida = None
             if guida:
                 break
+        if not guida and sig in ETICHETTE_WD:
+            try:
+                guida = guida_da_wikidata(ETICHETTE_WD[sig])
+            except requests.RequestException:
+                guida = None
         if guida:
             trovati.append({"sigla": sig, "nome": nome, "guida": guida})
         else:
             mancanti.append(sig)
     if len(trovati) < 6:
         raise ValueError(f"partiti con un capo trovati: {len(trovati)} su {len(PARTITI)}; mancanti: {mancanti}")
-    (DATA / "partiti.json").write_text(json.dumps({"aggiornato": ora(), "fonte": "Wikipedia (infobox dei partiti)",
+    (DATA / "partiti.json").write_text(json.dumps({"aggiornato": ora(), "fonte": "Wikipedia e Wikidata",
         "partiti": trovati, "mancanti": mancanti}, ensure_ascii=False, indent=1), "utf-8")
     return {"totale": len(trovati)}
 
@@ -446,9 +492,9 @@ def data_it(v):
 
 def leggi_votazioni():
     """Ultime votazioni finali della Camera (XIX leg.): titolo, data, favorevoli/contrari/astenuti, esito."""
-    base = """SELECT ?v ?titolo ?descr ?data ?fav ?con ?ast ?vot WHERE {
+    base = """SELECT ?v ?titolo ?descr ?appr ?data ?fav ?con ?ast ?vot WHERE {
       ?v a ocd:votazione ; dc:date ?data ; ocd:favorevoli ?fav ; ocd:contrari ?con ; ocd:astenuti ?ast ; ocd:votanti ?vot .
-      OPTIONAL { ?v dc:title ?titolo } OPTIONAL { ?v dc:description ?descr } %s } ORDER BY DESC(?data) LIMIT 60"""
+      OPTIONAL { ?v dc:title ?titolo } OPTIONAL { ?v dc:description ?descr } OPTIONAL { ?v ocd:approvato ?appr } %s } ORDER BY DESC(?data) LIMIT 60"""
     try:
         righe = sparql(base % 'FILTER(CONTAINS(LCASE(STR(?titolo)), "votazione finale"))')
         if len(righe) < 3:
@@ -475,13 +521,15 @@ def leggi_votazioni():
         d = norm(b.get("descr", {}).get("value", ""))
         voti.append({"id": b["v"]["value"].rsplit("/", 1)[-1], "uri": b["v"]["value"], "data": data_it(b["data"]["value"]),
                      "titolo": (d if len(d) > len(t) else t)[:300], "fav": fav, "con": con, "ast": ast,
-                     "votanti": vot, "esito": "approvata" if fav > con else "respinta"})
+                     "votanti": vot, "esito": ("approvata" if b["appr"]["value"] == "1" else "respinta") if "appr" in b else ("approvata" if fav > con else "respinta")})
     if not voti:
         raise ValueError("nessuna votazione leggibile")
     try:  # diagnostica: tutti i campi della votazione piu' recente e un esempio di voto individuale
         uri = voti[0]["uri"]
         prop = sparql(f"SELECT ?p ?o WHERE {{ <{uri}> ?p ?o }} LIMIT 60")
-        altri = sparql(f"SELECT ?q ?p ?o WHERE {{ ?x ?q <{uri}> . ?x ?p ?o }} LIMIT 40")
+        x = sparql(f"SELECT ?x WHERE {{ ?x ocd:rif_votazione <{uri}> }} LIMIT 1")
+        altri = sparql(f"SELECT ?q ?p ?o WHERE {{ <{x[0]['x']['value']}> ?p ?o }} LIMIT 40") if x else []
+        altri = [{"q": {"value": "voto"}, "p": b["p"], "o": b["o"]} for b in altri]
         (DATA / "debug_votazioni.json").write_text(json.dumps({
             "votazione": [[b["p"]["value"].rsplit("/", 1)[-1], b["o"]["value"][:150]] for b in prop],
             "risorse_collegate": [[b["q"]["value"].rsplit("/", 1)[-1], b["p"]["value"].rsplit("/", 1)[-1], b["o"]["value"][:100]] for b in altri],
