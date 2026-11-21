@@ -415,7 +415,7 @@ document.addEventListener("click", (e) => {
 
 
 // ============ Politica: quadro grafico (dati in data/politica.json) ============
-state.vistaPol = "quadro"; state.politica = null;
+state.vistaPol = "quadro"; state.politica = null; state.politicaAuto = {}; state.politicaStato = {};
 function hemi(gruppi, W) {
   const N = gruppi.reduce((s, g) => s + g.n, 0), H = Math.round(W * 0.56), cx = W / 2, cy = H - 9;
   const R = N > 200 ? 9 : N > 60 ? 6 : 4, r0 = W * 0.2, r1 = W * 0.47, dr = R > 1 ? (r1 - r0) / (R - 1) : 0;
@@ -443,22 +443,46 @@ function renderPolitica() {
   const link = (u, t) => `<a class="lk" href="${esc(u)}" target="_blank" rel="noopener">${t}</a>`;
   const fonti = (arr) => (arr && arr.length ? `<div class="fon">Fonti: ${arr.map((u, i) => link(u, i + 1)).join(" · ")}</div>` : "");
   const pers = (x) => `<div class="pers"><b>${esc(x.nome)}</b><span>${esc(x.ruolo || "")}</span>${x.partito ? `<em>${esc(x.partito)}</em>` : ""}</div>`;
-  const g = p.governo, c = p.camera, rc = p.campania, ce = p.caserta, eu = p.europa;
+  const A = state.politicaAuto || {}, S = state.politicaStato || {};
+  const stampa = (b) => {
+    const au = A[b], st = S[b] || {};
+    if (au && au.aggiornato && st.ok !== false) return `<div class="stamp ok">✅ Aggiornato automaticamente ${fa(new Date(au.aggiornato))}</div>`;
+    if (au && au.aggiornato) return `<div class="stamp warn">⚠️ Ultima lettura riuscita ${fa(new Date(au.aggiornato))}; l'ultimo tentativo non è andato a buon fine</div>`;
+    if (st.errore) return `<div class="stamp warn">⚠️ Lettura automatica non riuscita: dato inserito a mano il ${esc(p.verificato)}</div>`;
+    return `<div class="stamp">✋ Dato inserito a mano il ${esc(p.verificato)}</div>`;
+  };
+  const [gg, mm, aa] = String(p.verificato).split("/").map(Number), dalla = new Date(aa, (mm || 1) - 1, gg || 1).getTime();
+  const segnali = (re) => {
+    const t = (state.news || []).filter((n) => Date.parse(n.pubblicata) > dalla && re.test(`${n.titolo} ${n.sintesi || ""}`)).slice(0, 3);
+    return t.length ? `<div class="alert">🔔 Possibili novità da controllare<ul>${t.map((n) => `<li><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.titolo)}</a></li>`).join("")}</ul></div>` : "";
+  };
+  const g = Object.assign({}, p.governo), c = Object.assign({}, p.camera, A.camera || {}), rc = p.campania, ce = p.caserta, eu = p.europa;
+  if (A.governo && A.governo.persone && A.governo.persone.length) {
+    const cognome = (s) => String(s).toLowerCase().split(" ").slice(-1)[0];
+    const noti = {}; [g.premier].concat(p.governo.persone).forEach((x) => { noti[cognome(x.nome)] = x.partito; });
+    const lista = A.governo.persone.map((x) => ({ nome: x.nome, ruolo: x.ruolo, partito: noti[cognome(x.nome)] || "" }));
+    const pr = lista.find((x) => /presidente del consiglio/i.test(x.ruolo) && !/vice/i.test(x.ruolo));
+    if (pr) { g.premier = pr; g.persone = lista.filter((x) => x !== pr); }
+  }
   const mg = c.gruppi.filter((x) => x.blocco === "magg").reduce((s, x) => s + x.n, 0), op = c.gruppi.filter((x) => x.blocco === "opp").reduce((s, x) => s + x.n, 0), al = c.totale - mg - op;
   let h = `<p class="calc-n">Aggiornato al ${esc(p.verificato)}. ${esc(p.nota)}</p>`;
   h += `<div class="gruppo-titolo">🏛️ ${esc(g.nome)}</div><div class="pcard"><div class="premier">${pers(Object.assign({}, g.premier))}</div><div class="pgrid">${g.persone.map(pers).join("")}</div>
-    <ul class="nov">${g.novita.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>${link(g.link, "Elenco completo dei ministri →")}${fonti(g.fonti)}</div>`;
+    <ul class="nov">${g.novita.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>${segnali(/(ministr[oa]|governo|meloni).*(dimission|rimpasto|giura|nuovo ministro|nuova ministra|sfiducia|crisi di governo)/i)}${stampa("governo")}${link(g.link, "Elenco completo dei ministri →")}${fonti(g.fonti)}</div>`;
   h += `<div class="gruppo-titolo">📊 ${esc(c.titolo)} (${c.totale} seggi)</div><div class="pcard">${hemi(c.gruppi, 340)}
     <div class="soglia">Maggioranza assoluta: ${c.maggioranza_soglia} seggi</div>${legenda(c.gruppi)}
     <div class="barra"><span style="flex:${mg};background:#1e40af">Maggioranza ${mg}</span><span style="flex:${al};background:#94a3b8"></span><span style="flex:${op};background:#dc2626">Opposizione ${op}</span></div>
-    <p class="calc-n">Altri/non allineati: ${al}. ${esc(c.nota)}</p>${link(c.link, "Composizione ufficiale →")}</div>`;
+    <p class="calc-n">Altri/non allineati: ${al}. ${esc(c.nota || "")}</p>${stampa("camera")}${link(c.link, "Composizione ufficiale →")}</div>`;
+  if (A.senato && A.senato.gruppi) {
+    const sn = A.senato, sm = sn.gruppi.filter((x) => x.blocco === "magg").reduce((s, x) => s + x.n, 0), so = sn.gruppi.filter((x) => x.blocco === "opp").reduce((s, x) => s + x.n, 0), sa = sn.totale - sm - so;
+    h += `<div class="gruppo-titolo">📊 Senato della Repubblica (${sn.totale} seggi)</div><div class="pcard">${hemi(sn.gruppi, 340)}<div class="soglia">Maggioranza assoluta: ${sn.maggioranza_soglia} seggi</div>${legenda(sn.gruppi)}<div class="barra"><span style="flex:${sm};background:#1e40af">Maggioranza ${sm}</span><span style="flex:${sa};background:#94a3b8"></span><span style="flex:${so};background:#dc2626">Opposizione ${so}</span></div><p class="calc-n">${esc(sn.nota || "")}</p>${stampa("senato")}${link(sn.link, "Composizione ufficiale →")}</div>`;
+  }
   h += `<div class="gruppo-titolo">📍 ${esc(rc.titolo)}</div><div class="pcard">${pers({ nome: rc.presidente.nome, ruolo: "Presidente della Regione", partito: rc.presidente.partito })}<p class="calc-n">${esc(rc.presidente.nota)}</p>
     ${hemi([{ n: rc.consiglio.maggioranza, colore: "#dc2626" }, { n: rc.consiglio.opposizione, colore: "#1e40af" }], 280)}
     <div class="barra"><span style="flex:${rc.consiglio.maggioranza};background:#dc2626">Maggioranza ${rc.consiglio.maggioranza}</span><span style="flex:${rc.consiglio.opposizione};background:#1e40af">Opposizione ${rc.consiglio.opposizione}</span></div>
     <p class="calc-n">Presidente del Consiglio regionale: ${esc(rc.consiglio.presidente)}. Capo dell'opposizione: ${esc(rc.consiglio.capo_opposizione)}.</p>
-    <div class="pgrid">${rc.giunta.map(pers).join("")}</div><p class="calc-n">${esc(rc.giunta_nota)}</p>${link(rc.link, "Sito della Regione →")}${fonti(rc.fonti)}</div>`;
-  h += `<div class="gruppo-titolo">🏙️ ${esc(ce.titolo)}</div><div class="pcard"><b>${esc(ce.stato)}</b><p class="calc-n">${esc(ce.testo)}</p>${link(ce.link, "Sito del Comune →")}${fonti(ce.fonti)}</div>`;
-  h += `<div class="gruppo-titolo">🇪🇺 ${esc(eu.titolo)} (${eu.totale} eletti)</div><div class="pcard">${hemi(eu.gruppi, 340)}${legenda(eu.gruppi)}<p class="calc-n">${esc(eu.partiti)}</p>${link(eu.link, "Risultati ufficiali →")}</div>`;
+    <div class="pgrid">${rc.giunta.map(pers).join("")}</div><p class="calc-n">${esc(rc.giunta_nota)}</p>${segnali(/(fico|giunta regionale|consiglio regionale|regione campania).*(dimission|nuov[oa] assessor|rimpasto|azzerat|decad)/i)}<div class="stamp">✋ Dato inserito a mano il ${esc(p.verificato)}, controllato con le notizie</div>${link(rc.link, "Sito della Regione →")}${fonti(rc.fonti)}</div>`;
+  h += `<div class="gruppo-titolo">🏙️ ${esc(ce.titolo)}</div><div class="pcard"><b>${esc(ce.stato)}</b><p class="calc-n">${esc(ce.testo)}</p>${segnali(/caserta.*(commissari|elezioni comunali|sindaco|scioglimento)/i)}<div class="stamp">✋ Dato inserito a mano il ${esc(p.verificato)}, controllato con le notizie</div>${link(ce.link, "Sito del Comune →")}${fonti(ce.fonti)}</div>`;
+  h += `<div class="gruppo-titolo">🇪🇺 ${esc(eu.titolo)} (${eu.totale} eletti)</div><div class="pcard">${hemi(eu.gruppi, 340)}${legenda(eu.gruppi)}<p class="calc-n">${esc(eu.partiti)}</p><div class="stamp">Risultato delle elezioni 2024: cambia solo con subentri o cambi di gruppo</div>${link(eu.link, "Risultati ufficiali →")}</div>`;
   h += `<div class="gruppo-titolo">Prossimamente</div><div class="pcard"><ul class="nov">${p.prossimi.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>`;
   return h;
 }
@@ -489,7 +513,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "30";
+const VERSIONE_APP = "31";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -499,8 +523,8 @@ async function carica(forza) {
     return r.json();
   };
   try {
-    const [news, aree, status, prof, profilo, confronto, politica] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({})), j("profilo").catch(() => ({})), j("confronto").catch(() => null), j("politica").catch(() => null)]);
-    state.confronto = confronto; state.politica = politica;
+    const [news, aree, status, prof, profilo, confronto, politica, politicaAuto, politicaStato] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({})), j("profilo").catch(() => ({})), j("confronto").catch(() => null), j("politica").catch(() => null), j("politica_auto").catch(() => ({})), j("politica_status").catch(() => ({}))]);
+    state.confronto = confronto; state.politica = politica; state.politicaAuto = politicaAuto || {}; state.politicaStato = politicaStato || {};
     state.profilo = profilo || {};
     if (!Array.isArray(state.modelli)) state.modelli = [...(state.profilo.modelli || [])];
     state.professioni = prof.professioni || {}; state.gruppiProf = prof.gruppi || [];
