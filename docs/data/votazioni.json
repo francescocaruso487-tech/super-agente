@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-21T13:32:26Z",
+ "aggiornato": "2026-11-21T13:36:09Z",
  "voti": [
   {
    "id": "vs19_749_001",
@@ -9,7 +9,107 @@
    "con": 105,
    "ast": 1,
    "votanti": 252,
-   "esito": "approvata"
+   "esito": "approvata",
+   "gruppi": [
+    {
+     "sigla": "FDI",
+     "fav": 154,
+     "con": 0,
+     "ast": 0,
+     "altro": 80
+    },
+    {
+     "sigla": "PD-IDP",
+     "fav": 0,
+     "con": 108,
+     "ast": 0,
+     "altro": 28
+    },
+    {
+     "sigla": "LEGA",
+     "fav": 60,
+     "con": 0,
+     "ast": 0,
+     "altro": 46
+    },
+    {
+     "sigla": "FI-PPE",
+     "fav": 58,
+     "con": 0,
+     "ast": 0,
+     "altro": 46
+    },
+    {
+     "sigla": "M5S",
+     "fav": 0,
+     "con": 60,
+     "ast": 0,
+     "altro": 36
+    },
+    {
+     "sigla": "APERRE",
+     "fav": 0,
+     "con": 12,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "AVS",
+     "fav": 0,
+     "con": 12,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 14,
+     "con": 0,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "NM-M-C",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 12
+    },
+    {
+     "sigla": "IV-CR",
+     "fav": 0,
+     "con": 10,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "M-ALT",
+     "fav": 0,
+     "con": 6,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "M-MIN",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 0,
+     "con": 2,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 2
+    }
+   ]
   },
   {
    "id": "vs19_747_053",
@@ -19,7 +119,107 @@
    "con": 93,
    "ast": 5,
    "votanti": 240,
-   "esito": "approvata"
+   "esito": "approvata",
+   "gruppi": [
+    {
+     "sigla": "FDI",
+     "fav": 156,
+     "con": 0,
+     "ast": 0,
+     "altro": 78
+    },
+    {
+     "sigla": "PD-IDP",
+     "fav": 0,
+     "con": 98,
+     "ast": 0,
+     "altro": 38
+    },
+    {
+     "sigla": "LEGA",
+     "fav": 50,
+     "con": 0,
+     "ast": 0,
+     "altro": 56
+    },
+    {
+     "sigla": "FI-PPE",
+     "fav": 54,
+     "con": 0,
+     "ast": 0,
+     "altro": 50
+    },
+    {
+     "sigla": "M5S",
+     "fav": 0,
+     "con": 60,
+     "ast": 0,
+     "altro": 36
+    },
+    {
+     "sigla": "APERRE",
+     "fav": 10,
+     "con": 0,
+     "ast": 0,
+     "altro": 10
+    },
+    {
+     "sigla": "AVS",
+     "fav": 0,
+     "con": 10,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 0,
+     "con": 14,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "NM-M-C",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 12
+    },
+    {
+     "sigla": "IV-CR",
+     "fav": 8,
+     "con": 0,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "M-ALT",
+     "fav": 0,
+     "con": 4,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "M-MIN",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 6,
+     "con": 0,
+     "ast": 0,
+     "altro": 0
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 4
+    }
+   ]
   },
   {
    "id": "vs19_744_001",
@@ -29,7 +229,107 @@
    "con": 0,
    "ast": 111,
    "votanti": 143,
-   "esito": "approvata"
+   "esito": "approvata",
+   "gruppi": [
+    {
+     "sigla": "FDI",
+     "fav": 164,
+     "con": 0,
+     "ast": 0,
+     "altro": 70
+    },
+    {
+     "sigla": "PD-IDP",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 136
+    },
+    {
+     "sigla": "LEGA",
+     "fav": 58,
+     "con": 0,
+     "ast": 0,
+     "altro": 48
+    },
+    {
+     "sigla": "FI-PPE",
+     "fav": 42,
+     "con": 0,
+     "ast": 0,
+     "altro": 62
+    },
+    {
+     "sigla": "M5S",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 96
+    },
+    {
+     "sigla": "APERRE",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 20
+    },
+    {
+     "sigla": "AVS",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 18
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 16,
+     "con": 0,
+     "ast": 0,
+     "altro": 2
+    },
+    {
+     "sigla": "NM-M-C",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 14
+    },
+    {
+     "sigla": "IV-CR",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 14
+    },
+    {
+     "sigla": "M-ALT",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 10
+    },
+    {
+     "sigla": "M-MIN",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 6
+    }
+   ]
   },
   {
    "id": "vs19_742_049",
@@ -39,7 +339,107 @@
    "con": 83,
    "ast": 5,
    "votanti": 213,
-   "esito": "approvata"
+   "esito": "approvata",
+   "gruppi": [
+    {
+     "sigla": "FDI",
+     "fav": 146,
+     "con": 0,
+     "ast": 0,
+     "altro": 88
+    },
+    {
+     "sigla": "PD-IDP",
+     "fav": 0,
+     "con": 84,
+     "ast": 0,
+     "altro": 52
+    },
+    {
+     "sigla": "LEGA",
+     "fav": 50,
+     "con": 0,
+     "ast": 0,
+     "altro": 56
+    },
+    {
+     "sigla": "FI-PPE",
+     "fav": 44,
+     "con": 0,
+     "ast": 0,
+     "altro": 60
+    },
+    {
+     "sigla": "M5S",
+     "fav": 0,
+     "con": 58,
+     "ast": 0,
+     "altro": 38
+    },
+    {
+     "sigla": "APERRE",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 20
+    },
+    {
+     "sigla": "AVS",
+     "fav": 0,
+     "con": 10,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 12,
+     "con": 0,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "NM-M-C",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 12
+    },
+    {
+     "sigla": "IV-CR",
+     "fav": 0,
+     "con": 6,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "M-ALT",
+     "fav": 0,
+     "con": 6,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "M-MIN",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 0,
+     "con": 2,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 2
+    }
+   ]
   },
   {
    "id": "vs19_739_014",
@@ -49,7 +449,107 @@
    "con": 38,
    "ast": 49,
    "votanti": 165,
-   "esito": "approvata"
+   "esito": "approvata",
+   "gruppi": [
+    {
+     "sigla": "FDI",
+     "fav": 138,
+     "con": 0,
+     "ast": 0,
+     "altro": 96
+    },
+    {
+     "sigla": "PD-IDP",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 136
+    },
+    {
+     "sigla": "LEGA",
+     "fav": 46,
+     "con": 0,
+     "ast": 0,
+     "altro": 60
+    },
+    {
+     "sigla": "FI-PPE",
+     "fav": 52,
+     "con": 0,
+     "ast": 0,
+     "altro": 52
+    },
+    {
+     "sigla": "M5S",
+     "fav": 0,
+     "con": 56,
+     "ast": 0,
+     "altro": 40
+    },
+    {
+     "sigla": "AVS",
+     "fav": 0,
+     "con": 14,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "APERRE",
+     "fav": 0,
+     "con": 4,
+     "ast": 0,
+     "altro": 16
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 12,
+     "con": 0,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "NM-M-C",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 14
+    },
+    {
+     "sigla": "IV-CR",
+     "fav": 0,
+     "con": 2,
+     "ast": 0,
+     "altro": 12
+    },
+    {
+     "sigla": "M-ALT",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 10
+    },
+    {
+     "sigla": "M-MIN",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 2
+    }
+   ]
   },
   {
    "id": "vs19_738_071",
@@ -59,7 +559,107 @@
    "con": 97,
    "ast": 0,
    "votanti": 234,
-   "esito": "approvata"
+   "esito": "approvata",
+   "gruppi": [
+    {
+     "sigla": "FDI",
+     "fav": 146,
+     "con": 0,
+     "ast": 0,
+     "altro": 88
+    },
+    {
+     "sigla": "PD-IDP",
+     "fav": 0,
+     "con": 88,
+     "ast": 0,
+     "altro": 48
+    },
+    {
+     "sigla": "LEGA",
+     "fav": 52,
+     "con": 0,
+     "ast": 0,
+     "altro": 54
+    },
+    {
+     "sigla": "FI-PPE",
+     "fav": 52,
+     "con": 0,
+     "ast": 0,
+     "altro": 52
+    },
+    {
+     "sigla": "M5S",
+     "fav": 0,
+     "con": 70,
+     "ast": 0,
+     "altro": 26
+    },
+    {
+     "sigla": "AVS",
+     "fav": 0,
+     "con": 14,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "APERRE",
+     "fav": 0,
+     "con": 10,
+     "ast": 0,
+     "altro": 10
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 14,
+     "con": 0,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "NM-M-C",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 16
+    },
+    {
+     "sigla": "IV-CR",
+     "fav": 0,
+     "con": 6,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "M-ALT",
+     "fav": 2,
+     "con": 4,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "M-MIN",
+     "fav": 6,
+     "con": 0,
+     "ast": 0,
+     "altro": 2
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 0,
+     "con": 2,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 4
+    }
+   ]
   },
   {
    "id": "vs19_735_017",
@@ -69,7 +669,107 @@
    "con": 113,
    "ast": 3,
    "votanti": 256,
-   "esito": "approvata"
+   "esito": "approvata",
+   "gruppi": [
+    {
+     "sigla": "FDI",
+     "fav": 144,
+     "con": 0,
+     "ast": 0,
+     "altro": 90
+    },
+    {
+     "sigla": "PD-IDP",
+     "fav": 0,
+     "con": 106,
+     "ast": 0,
+     "altro": 30
+    },
+    {
+     "sigla": "LEGA",
+     "fav": 54,
+     "con": 0,
+     "ast": 0,
+     "altro": 52
+    },
+    {
+     "sigla": "FI-PPE",
+     "fav": 64,
+     "con": 0,
+     "ast": 0,
+     "altro": 42
+    },
+    {
+     "sigla": "M5S",
+     "fav": 0,
+     "con": 72,
+     "ast": 0,
+     "altro": 24
+    },
+    {
+     "sigla": "AVS",
+     "fav": 0,
+     "con": 16,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "APERRE",
+     "fav": 0,
+     "con": 14,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 18,
+     "con": 0,
+     "ast": 0,
+     "altro": 0
+    },
+    {
+     "sigla": "NM-M-C",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 12
+    },
+    {
+     "sigla": "IV-CR",
+     "fav": 0,
+     "con": 6,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "M-ALT",
+     "fav": 0,
+     "con": 4,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "M-MIN",
+     "fav": 0,
+     "con": 2,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 0,
+     "con": 6,
+     "ast": 0,
+     "altro": 0
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 4
+    }
+   ]
   },
   {
    "id": "vs19_731_004",
@@ -79,7 +779,107 @@
    "con": 0,
    "ast": 0,
    "votanti": 220,
-   "esito": "approvata"
+   "esito": "approvata",
+   "gruppi": [
+    {
+     "sigla": "FDI",
+     "fav": 130,
+     "con": 0,
+     "ast": 0,
+     "altro": 104
+    },
+    {
+     "sigla": "PD-IDP",
+     "fav": 90,
+     "con": 0,
+     "ast": 0,
+     "altro": 46
+    },
+    {
+     "sigla": "LEGA",
+     "fav": 60,
+     "con": 0,
+     "ast": 0,
+     "altro": 48
+    },
+    {
+     "sigla": "FI-PPE",
+     "fav": 40,
+     "con": 0,
+     "ast": 0,
+     "altro": 64
+    },
+    {
+     "sigla": "M5S",
+     "fav": 68,
+     "con": 0,
+     "ast": 0,
+     "altro": 28
+    },
+    {
+     "sigla": "AVS",
+     "fav": 10,
+     "con": 0,
+     "ast": 0,
+     "altro": 10
+    },
+    {
+     "sigla": "APERRE",
+     "fav": 6,
+     "con": 0,
+     "ast": 0,
+     "altro": 14
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 12,
+     "con": 0,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "NM-M-C",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 12
+    },
+    {
+     "sigla": "IV-CR",
+     "fav": 6,
+     "con": 0,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "M-ALT",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "M-MIN",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 2
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 2
+    }
+   ]
   },
   {
    "id": "vs19_730_005",
@@ -89,7 +889,107 @@
    "con": 0,
    "ast": 0,
    "votanti": 239,
-   "esito": "approvata"
+   "esito": "approvata",
+   "gruppi": [
+    {
+     "sigla": "FDI",
+     "fav": 134,
+     "con": 0,
+     "ast": 0,
+     "altro": 100
+    },
+    {
+     "sigla": "PD-IDP",
+     "fav": 98,
+     "con": 0,
+     "ast": 0,
+     "altro": 38
+    },
+    {
+     "sigla": "LEGA",
+     "fav": 58,
+     "con": 0,
+     "ast": 0,
+     "altro": 50
+    },
+    {
+     "sigla": "FI-PPE",
+     "fav": 58,
+     "con": 0,
+     "ast": 0,
+     "altro": 46
+    },
+    {
+     "sigla": "M5S",
+     "fav": 66,
+     "con": 0,
+     "ast": 0,
+     "altro": 30
+    },
+    {
+     "sigla": "AVS",
+     "fav": 12,
+     "con": 0,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "APERRE",
+     "fav": 8,
+     "con": 0,
+     "ast": 0,
+     "altro": 12
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 10,
+     "con": 0,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "NM-M-C",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 12
+    },
+    {
+     "sigla": "IV-CR",
+     "fav": 12,
+     "con": 0,
+     "ast": 0,
+     "altro": 2
+    },
+    {
+     "sigla": "M-ALT",
+     "fav": 4,
+     "con": 0,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "M-MIN",
+     "fav": 6,
+     "con": 0,
+     "ast": 0,
+     "altro": 2
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 6,
+     "con": 0,
+     "ast": 0,
+     "altro": 0
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 4
+    }
+   ]
   },
   {
    "id": "vs19_730_097",
@@ -99,7 +999,107 @@
    "con": 0,
    "ast": 94,
    "votanti": 137,
-   "esito": "approvata"
+   "esito": "approvata",
+   "gruppi": [
+    {
+     "sigla": "FDI",
+     "fav": 138,
+     "con": 0,
+     "ast": 0,
+     "altro": 96
+    },
+    {
+     "sigla": "PD-IDP",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 136
+    },
+    {
+     "sigla": "LEGA",
+     "fav": 62,
+     "con": 0,
+     "ast": 0,
+     "altro": 46
+    },
+    {
+     "sigla": "FI-PPE",
+     "fav": 46,
+     "con": 0,
+     "ast": 0,
+     "altro": 58
+    },
+    {
+     "sigla": "M5S",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 96
+    },
+    {
+     "sigla": "AVS",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 20
+    },
+    {
+     "sigla": "APERRE",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 20
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 10,
+     "con": 0,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "NM-M-C",
+     "fav": 6,
+     "con": 0,
+     "ast": 0,
+     "altro": 10
+    },
+    {
+     "sigla": "IV-CR",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 14
+    },
+    {
+     "sigla": "M-ALT",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 8
+    },
+    {
+     "sigla": "M-MIN",
+     "fav": 6,
+     "con": 0,
+     "ast": 0,
+     "altro": 2
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 0,
+     "con": 0,
+     "ast": 0,
+     "altro": 6
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 6,
+     "con": 0,
+     "ast": 0,
+     "altro": 0
+    }
+   ]
   },
   {
    "id": "vs19_730_055",
