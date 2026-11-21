@@ -340,7 +340,58 @@ def leggi_segretari():
     return {"totale": len(trovati)}
 
 
-BLOCCHI = {"camera": leggi_camera, "senato": leggi_senato, "governo": leggi_governo, "deputati": leggi_deputati, "senatori": leggi_senatori, "segretari": leggi_segretari}
+SPARQL_CAMERA = "https://dati.camera.it/sparql"
+PREFISSI = ("PREFIX ocd: <http://dati.camera.it/ocd/> PREFIX dc: <http://purl.org/dc/elements/1.1/> "
+            "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> ")
+
+
+def sparql(q):
+    r = requests.get(SPARQL_CAMERA, params={"query": PREFISSI + q, "format": "application/sparql-results+json"},
+                     headers={"User-Agent": UA, "Accept": "application/sparql-results+json"}, timeout=90)
+    r.raise_for_status()
+    return r.json()["results"]["bindings"]
+
+
+def data_it(v):
+    v = str(v)
+    m = re.match(r"(\d{4})-?(\d{2})-?(\d{2})", v)
+    return f"{m.group(3)}/{m.group(2)}/{m.group(1)}" if m else v
+
+
+def leggi_votazioni():
+    """Ultime votazioni finali della Camera (XIX leg.): titolo, data, favorevoli/contrari/astenuti, esito."""
+    base = """SELECT ?v ?titolo ?data ?fav ?con ?ast ?vot WHERE {
+      ?v a ocd:votazione ; dc:date ?data ; ocd:favorevoli ?fav ; ocd:contrari ?con ; ocd:astenuti ?ast ; ocd:votanti ?vot .
+      OPTIONAL { ?v dc:title ?titolo } %s } ORDER BY DESC(?data) LIMIT 25"""
+    try:
+        righe = sparql(base % 'FILTER(CONTAINS(LCASE(STR(?titolo)), "votazione finale"))')
+        if len(righe) < 3:
+            righe = sparql(base % "")
+    except Exception:
+        try:  # aiuto per correggere il lettore: quali campi esistono davvero?
+            campi = sparql("SELECT DISTINCT ?p WHERE { ?v a ocd:votazione ; ?p ?o } LIMIT 40")
+            raise ValueError("lettura fallita; campi trovati: " + ", ".join(c["p"]["value"].rsplit("/", 1)[-1] for c in campi))
+        except ValueError:
+            raise
+        except Exception as e2:  # noqa: BLE001
+            raise ValueError(f"endpoint non raggiungibile o schema diverso ({type(e2).__name__})") from e2
+    voti = []
+    for b in righe:
+        try:
+            fav, con, ast, vot = (int(float(b[k]["value"])) for k in ("fav", "con", "ast", "vot"))
+        except (KeyError, ValueError):
+            continue
+        voti.append({"id": b["v"]["value"].rsplit("/", 1)[-1], "data": data_it(b["data"]["value"]),
+                     "titolo": norm(b.get("titolo", {}).get("value", "Votazione")), "fav": fav, "con": con, "ast": ast,
+                     "votanti": vot, "esito": "approvata" if fav > con else "respinta"})
+    if not voti:
+        raise ValueError("nessuna votazione leggibile")
+    (DATA / "votazioni.json").write_text(json.dumps({"aggiornato": ora(), "voti": voti[:20],
+        "link": "https://www.camera.it/deputati/statistiche_voto"}, ensure_ascii=False, indent=1), "utf-8")
+    return {"totale": len(voti)}
+
+
+BLOCCHI = {"camera": leggi_camera, "senato": leggi_senato, "governo": leggi_governo, "deputati": leggi_deputati, "senatori": leggi_senatori, "segretari": leggi_segretari, "votazioni": leggi_votazioni}
 
 
 def main():
