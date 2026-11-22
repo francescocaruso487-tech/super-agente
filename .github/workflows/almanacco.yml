@@ -1,0 +1,33 @@
+name: Aggiorna almanacco
+on:
+  schedule:
+    - cron: "20 3,15 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: almanacco
+  cancel-in-progress: false
+jobs:
+  almanacco:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Costituzione (una volta sola)
+        continue-on-error: true
+        run: test -f docs/data/costituzione.json || python scripts/costituzione.py
+      - name: Almanacco del giorno
+        run: python scripts/almanacco.py
+      - name: Salva i dati
+        run: |
+          git config user.name "rassegna-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet || git commit -m "Aggiornamento almanacco"
+          git pull --rebase -X theirs origin main
+          git push
