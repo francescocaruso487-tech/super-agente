@@ -1,5 +1,5 @@
 {
-"aggiornato": "2026-11-22T21:24:26+00:00",
+"aggiornato": "2026-11-22T21:26:23+00:00",
 "luogo": "Caserta",
 "giorni": {
 "2026-11-22": {
@@ -239,14 +239,6 @@
 }
 ],
 "sport": [
-{
-"anno": 1942,
-"testo": "Seconda guerra mondiale: nella battaglia di Stalingrado la situazione per gli attaccanti tedeschi durante il contrattacco sovietico dell'Operazione Urano appare disperata e il generale Friedrich Paulus invia ad Adolf Hitler un telegramma nel quale annuncia che la VI Armata tedesca è circondata"
-},
-{
-"anno": 1943,
-"testo": "Seconda guerra mondiale: il presidente statunitense Franklin D. Roosevelt, il primo ministro britannico Winston Churchill, e il leader cinese Chiang Kai-shek si incontrano al Cairo, in Egitto, per discutere i metodi per sconfiggere il Giappone (si veda: Conferenza del Cairo)"
-},
 {
 "anno": 1956,
 "testo": "Si aprono i Giochi della XVI Olimpiade a Melbourne."
@@ -518,11 +510,6 @@
 "descr": "attrice statunitense"
 },
 {
-"anno": 1912,
-"nome": "Doris Duke",
-"descr": ""
-},
-{
 "anno": 1913,
 "nome": "Benjamin Britten",
 "descr": "compositore, direttore d'orchestra e pianista britannico (1913-1976)"
@@ -553,16 +540,6 @@
 "descr": "politico, militare e diplomatico statunitense"
 },
 {
-"anno": 1919,
-"nome": "Máire Drumm",
-"descr": ""
-},
-{
-"anno": 1920,
-"nome": "Anne Crawford",
-"descr": ""
-},
-{
 "anno": 1921,
 "nome": "Rodney Dangerfield",
 "descr": "attore e comico statunitense"
@@ -576,14 +553,24 @@
 "anno": 1923,
 "nome": "Dennis Wrong",
 "descr": "sociologo, professore universitario statunitense (1923-2018)"
+},
+{
+"anno": 1923,
+"nome": "Arthur Hiller",
+"descr": "regista canadese"
+},
+{
+"anno": 1924,
+"nome": "Geraldine Page",
+"descr": "attrice statunitense (1924–1987)"
+},
+{
+"anno": 1925,
+"nome": "Gunther Schuller",
+"descr": "cornista e compositore statunitense (1925–2015)"
 }
 ],
 "morti": [
-{
-"anno": 365,
-"nome": "365",
-"descr": "anno"
-},
 {
 "anno": 950,
 "nome": "Lotario II d'Italia",
@@ -603,11 +590,6 @@
 "anno": 1318,
 "nome": "Michail Jaroslavič",
 "descr": "santo della Chiesa ortodossa russa"
-},
-{
-"anno": 1538,
-"nome": "John Lambert",
-"descr": ""
 },
 {
 "anno": 1617,
@@ -695,11 +677,6 @@
 "descr": "esploratore argentino (1852–1919)"
 },
 {
-"anno": 1921,
-"nome": "Edward J. Adams",
-"descr": ""
-},
-{
 "anno": 1941,
 "nome": "Werner Mölders",
 "descr": "aviatore tedesco"
@@ -748,11 +725,6 @@
 "anno": 1963,
 "nome": "J. D. Tippit",
 "descr": "poliziotto statunitense (1924-1963)"
-},
-{
-"anno": 1966,
-"nome": "Herbert Ayre",
-"descr": ""
 },
 {
 "anno": 1966,
@@ -815,11 +787,6 @@
 "descr": "pianista e compositrice sovietica"
 },
 {
-"anno": 1996,
-"nome": "Terence Donovan",
-"descr": ""
-},
-{
 "anno": 1997,
 "nome": "Michael Hutchence",
 "descr": "cantante e attore australiano (1960-1997)"
@@ -833,11 +800,6 @@
 "anno": 2000,
 "nome": "Christian Marquand",
 "descr": "attore e regista francese"
-},
-{
-"anno": 2001,
-"nome": "Mary Kay Ash",
-"descr": ""
 },
 {
 "anno": 2001,
@@ -860,11 +822,6 @@
 "descr": "giornalista polacco"
 },
 {
-"anno": 2005,
-"nome": "Bruce Hobbs",
-"descr": ""
-},
-{
 "anno": 2006,
 "nome": "Asima Chatterjee",
 "descr": "chimica indiana"
@@ -878,6 +835,41 @@
 "anno": 2007,
 "nome": "Maurice Béjart",
 "descr": "danzatore e coreografo francese"
+},
+{
+"anno": 2007,
+"nome": "Verity Lambert",
+"descr": "produttrice cinematografica britannica"
+},
+{
+"anno": 2011,
+"nome": "Svetlana Allilueva",
+"descr": "scrittrice sovietica (1926–2011)"
+},
+{
+"anno": 2011,
+"nome": "Sena Jurinac",
+"descr": "soprano austriaco"
+},
+{
+"anno": 2011,
+"nome": "Lynn Margulis",
+"descr": "biologa statunitense"
+},
+{
+"anno": 2011,
+"nome": "Paul Motian",
+"descr": "batterista, compositore e musicista statunitense"
+},
+{
+"anno": 2012,
+"nome": "Bryce Courtenay",
+"descr": "romanziere sudafricano"
+},
+{
+"anno": 2013,
+"nome": "Georges Lautner",
+"descr": "regista, sceneggiatore e scrittore francese"
 }
 ]
 },
@@ -1118,20 +1110,7 @@
 "testo": "Esce nelle sale cinematografiche statunitensi il film Strange World - Un mondo misterioso, 61º Classico Disney"
 }
 ],
-"sport": [
-{
-"anno": 1916,
-"testo": "Prima guerra mondiale: superamento del Danubio da parte delle forze tedesche durante la Campagna di Romania, con accerchiamento della capitale Bucarest"
-},
-{
-"anno": 1917,
-"testo": "Prima guerra mondiale: il comando supremo austro-ungarico ordinò la sospensione degli attacchi sull’Altipiano dei Sette Comuni e sul Monte Pertica"
-},
-{
-"anno": 1940,
-"testo": "Seconda guerra mondiale: la Repubblica Slovacca firma ufficialmente il Patto tripartito, seguita da altri paesi dell’Est Europa, consolidando l'alleanza dell’Asse"
-}
-],
+"sport": [],
 "ricorrenze": [
 "Giornata mondiale di Fibonacci[1][2][3]",
 "Religiose Cristianesimo: San Clemente I, papa, martire di Cristo[4]",
@@ -1156,308 +1135,7 @@
 "Beato Miguel Agustín Pro, martire gesuita",
 "Beata Teresa di Gesù di San Lucar, bambina mercedaria in Spagna"
 ],
-"nati": [
-{
-"anno": 870,
-"nome": "Alessandro",
-"descr": "imperatore bizantino (r. 912-913)"
-},
-{
-"anno": 912,
-"nome": "Ottone I del Sacro Romano Impero",
-"descr": "sovrano del Sacro Romano Impero (r. 962-973)"
-},
-{
-"anno": 1190,
-"nome": "papa Clemente IV",
-"descr": "183° vescovo di Roma e papa della Chiesa cattolica dal 1265 al 1268"
-},
-{
-"anno": 1221,
-"nome": "Alfonso X di Castiglia",
-"descr": "re di Castiglia e León (r. 1252-1284)"
-},
-{
-"anno": 1402,
-"nome": "Jean de Dunois",
-"descr": ""
-},
-{
-"anno": 1417,
-"nome": "William FitzAlan, XVI conte di Arundel",
-"descr": ""
-},
-{
-"anno": 1496,
-"nome": "Clément Marot",
-"descr": "poeta francese (1495-1544)"
-},
-{
-"anno": 1508,
-"nome": "Francesco di Brunswick-Lüneburg",
-"descr": "nobile tedesco"
-},
-{
-"anno": 1553,
-"nome": "Prospero Alpini",
-"descr": "medico, botanico e scienziato italiano"
-},
-{
-"anno": 1632,
-"nome": "Jean Mabillon",
-"descr": "monaco, medievista, paleografo, diplomatista e teologo francese (1632-1707)"
-},
-{
-"anno": 1641,
-"nome": "Anthonie Heinsius",
-"descr": "politico olandese"
-},
-{
-"anno": 1687,
-"nome": "Jean-Baptiste Senaillé",
-"descr": "violinista francese"
-},
-{
-"anno": 1705,
-"nome": "Thomas Birch",
-"descr": "storico inglese (1705-1766)"
-},
-{
-"anno": 1715,
-"nome": "Pierre Charles Le Monnier",
-"descr": "astronomo e geofisico francese"
-},
-{
-"anno": 1749,
-"nome": "Edward Rutledge",
-"descr": "politico e militare statunitense (1749-1800)"
-},
-{
-"anno": 1760,
-"nome": "François-Noël Babeuf",
-"descr": "giornalista francese"
-},
-{
-"anno": 1781,
-"nome": "Theodor Valentin Volkmar",
-"descr": ""
-},
-{
-"anno": 1785,
-"nome": "Jan Roothaan",
-"descr": "gesuita olandese, generale superiore della Compagnia"
-},
-{
-"anno": 1803,
-"nome": "Theodore Dwight Weld",
-"descr": "abolizionista statunitense"
-},
-{
-"anno": 1804,
-"nome": "Franklin Pierce",
-"descr": "politico statunitense (1804–1869), 14º presidente degli Stati Uniti d'America (1853–1857)"
-},
-{
-"anno": 1820,
-"nome": "Isaac Todhunter",
-"descr": "matematico, storico della matematica, docente britannico (1820-1884)"
-},
-{
-"anno": 1837,
-"nome": "Johannes Diderik van der Waals",
-"descr": "fisico e matematico olandese (1837-1923)"
-},
-{
-"anno": 1838,
-"nome": "Stephanos Skouloudis",
-"descr": "diplomatico, politico e banchiere greco"
-},
-{
-"anno": 1860,
-"nome": "Hjalmar Branting",
-"descr": "politico svedese (1860-1925)"
-},
-{
-"anno": 1868,
-"nome": "Mary Brewster Hazelton",
-"descr": "pittrice statunitense"
-},
-{
-"anno": 1869,
-"nome": "Valdemar Poulsen",
-"descr": "ingegnere danese"
-},
-{
-"anno": 1875,
-"nome": "Anatolij Vasil'evič Lunačarskij",
-"descr": "politico, scrittore e rivoluzionario sovietico"
-},
-{
-"anno": 1876,
-"nome": "Manuel de Falla",
-"descr": "compositore spagnolo"
-},
-{
-"anno": 1878,
-"nome": "Frank Pick",
-"descr": ""
-},
-{
-"anno": 1883,
-"nome": "José Clemente Orozco",
-"descr": "pittore messicano"
-},
-{
-"anno": 1886,
-"nome": "Eduards Smiļģis",
-"descr": ""
-},
-{
-"anno": 1887,
-"nome": "Boris Karloff",
-"descr": "attore britannico (1887–1969)"
-},
-{
-"anno": 1887,
-"nome": "Henry Moseley",
-"descr": "fisico britannico"
-},
-{
-"anno": 1888,
-"nome": "Harpo Marx",
-"descr": "comico e attore statunitense (1888-1964)"
-},
-{
-"anno": 1890,
-"nome": "El Lissitzky",
-"descr": "pittore, fotografo e tipografo russo"
-},
-{
-"anno": 1892,
-"nome": "Romain de Tirtoff",
-"descr": "pittore e scultore francese"
-},
-{
-"anno": 1896,
-"nome": "Klement Gottwald",
-"descr": "politico cecoslovacco"
-},
-{
-"anno": 1897,
-"nome": "Karl Gebhardt",
-"descr": "generale, medico e criminale di guerra tedesco"
-},
-{
-"anno": 1897,
-"nome": "Pepita Not",
-"descr": "attivista spagnola"
-},
-{
-"anno": 1899,
-"nome": "Mestre Bimba",
-"descr": "artista marziale brasiliano"
-},
-{
-"anno": 1901,
-"nome": "Bennie Osler",
-"descr": "rugbista sudafricano (1901-1962)"
-},
-{
-"anno": 1902,
-"nome": "Aaron Bank",
-"descr": "militare statunitense"
-},
-{
-"anno": 1902,
-"nome": "Victor Jory",
-"descr": "attore canadese"
-},
-{
-"anno": 1903,
-"nome": "Joe Nibloe",
-"descr": ""
-},
-{
-"anno": 1906,
-"nome": "Betti Alver",
-"descr": "poetessa, scrittrice e traduttrice estone"
-},
-{
-"anno": 1907,
-"nome": "Lars Leksell",
-"descr": "medico svedese"
-},
-{
-"anno": 1907,
-"nome": "Run Run Shaw",
-"descr": "imprenditore cinese (1907-2014)"
-},
-{
-"anno": 1908,
-"nome": "Nelson S. Bond",
-"descr": "scrittore, autore di fantascienza e sceneggiatore statunitense"
-},
-{
-"anno": 1909,
-"nome": "Nigel Tranter",
-"descr": ""
-},
-{
-"anno": 1912,
-"nome": "George O'Hanlon",
-"descr": "attore televisivo, attore cinematografico, doppiatore, regista cinematografico, attore, scrittore, sceneggiatore"
-},
-{
-"anno": 1914,
-"nome": "Donald Nixon",
-"descr": ""
-},
-{
-"anno": 1914,
-"nome": "Wilson Tucker",
-"descr": "scrittore statunitense"
-},
-{
-"anno": 1915,
-"nome": "Anne Burns",
-"descr": ""
-},
-{
-"anno": 1915,
-"nome": "John Dehner",
-"descr": "attore statunitense"
-},
-{
-"anno": 1915,
-"nome": "Marc Simont",
-"descr": ""
-},
-{
-"anno": 1916,
-"nome": "Michael Gough",
-"descr": "attore britannico"
-},
-{
-"anno": 1920,
-"nome": "Paul Celan",
-"descr": "poeta rumeno"
-},
-{
-"anno": 1921,
-"nome": "Fred Buscaglione",
-"descr": "cantautore e attore italiano (1921-1960)"
-},
-{
-"anno": 1922,
-"nome": "Võ Văn Kiệt",
-"descr": "politico vietnamita"
-},
-{
-"anno": 1923,
-"nome": "Daniel Brewster",
-"descr": "politico statunitense"
-}
-],
+"nati": [],
 "morti": []
 },
 "2026-11-24": {
