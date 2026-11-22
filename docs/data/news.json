@@ -1,7 +1,2469 @@
 {
- "aggiornato": "2026-11-22T21:18:34Z",
+ "aggiornato": "2026-11-22T22:01:08Z",
  "tassonomia": "14",
  "notizie": [
+  {
+   "id": "23cc5809f0402f65",
+   "titolo": "Robot Narwal Freo 20, lo abbiamo provato in ufficio tra marmo, legno e macchie di caffè",
+   "link": "https://www.macitynet.it/recensione-narwal-freo-20-prova-marmo-legno-tappeti/",
+   "fonte": "t-macitynet",
+   "fonte_nome": "Macitynet",
+   "tipo": "stampa",
+   "aree": [
+    "smartphone"
+   ],
+   "normativa": false,
+   "sintesi": "Abbiamo provato Narwal Freo 20 su marmo, legno d'ulivo, piastrelle e tappeti. Ecco i risultati e i pro e contro del robot.",
+   "pubblicata": "2026-11-22T22:09:12Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "0b4c372fa97a99f5",
+   "titolo": "Energia: ENEA presenta lo sportello digitale Deciwatt per l’efficienza degli edifici",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/energia-enea-presenta-lo-sportello-digitale-deciwatt-per-lefficienza-degli-edifici.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "70ba60da12a0a6a8",
+   "titolo": "Diagnosi energetiche, dal MASE nuove istruzioni operative per le imprese",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/diagnosi-energetiche-dal-mase-nuove-istruzioni-operative-per-le-imprese.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia",
+    "ambiente"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "energia.prestazioni",
+    "ambiente.via_vas"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista",
+    "geologo",
+    "agronomo",
+    "chimico"
+   ]
+  },
+  {
+   "id": "37516955cedd2cf5",
+   "titolo": "Credito d'imposta autotrasporto 2026: dal 19 al 30 novembre le domande per il ristoro sul caro gasolio",
+   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/credito-imposta-autotrasporto-2026-19-30-novembre-domande-ristoro-caro-gasolio",
+   "fonte": "teknoring",
+   "fonte_nome": "Teknoring",
+   "tipo": "stampa",
+   "aree": [
+    "trasporti",
+    "bonus"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "trasporti.logistica",
+    "bonus.crediti"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "logistica",
+    "mobility",
+    "adr",
+    "commercialista",
+    "geometra",
+    "ingegnere",
+    "architetto",
+    "agente_imm"
+   ]
+  },
+  {
+   "id": "dcfd286d7e3a09ec",
+   "titolo": "UIA Golden Cubes Awards: i vincitori Gli esiti della fase nazionale",
+   "link": "https://www.awn.it/news/cnappc-informa/10040-uia-golden-cubes-awards-i-vincitori",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "d6909c99371c4b60",
+   "titolo": "UIA: Call for Projects Atlante degli ambienti di apprendimento Le candidature entro il 15 aprile",
+   "link": "https://www.awn.it/news/cnappc-informa/10038-uia-call-for-projects-atlante-degli-ambienti-di-apprendimento",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "1ca858f2328f087d",
+   "titolo": "Progetto Think Tank: 2 FAD asincroni per la formazione Dialoghi con personalità di fama internazionale sul ruolo della professione",
+   "link": "https://www.awn.it/news/cnappc-informa/10033-think-tank-serbatoio-di-pensiero",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "445c4d5bb2eaf022",
+   "titolo": "03 novembre 2026 ABITARE IL PAESE – IX EDIZIONE / 2026-2027 La nuova edizione",
+   "link": "https://www.awn.it/attivita/abitare-il-paese/10201-abitare-il-paese-9",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "81ee98be532bc73e",
+   "titolo": "08 maggio 2026 Milano: bando per 110 alloggi a Niguarda e Giambellino Aperto fino al 31 agosto 2026",
+   "link": "https://www.awn.it/news/notizie/10056-milano-bando-per-110-alloggi-a-niguarda-e-giambellino",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "c3d4e1e394df30b6",
+   "titolo": "06 maggio 2026 Stati generali della bellezza: a Offida l’11 e il 12 giugno Focus sul futuro dei borghi",
+   "link": "https://www.awn.it/news/notizie/10055-stati-generali-della-bellezza-a-offida-l-11-e-il-12-giugno",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "f504b5c7249218a7",
+   "titolo": "Valutazioni immobiliari: dati, qualità e trasparenza al centro del convegno ASSOVIB",
+   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/valutazioni-immobiliari-dati-qualit%C3%A0-e-trasparenza-al-centro-del-convegno-assovib?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1020791&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=valutazioni-immobiliari-dati-qualit%25C3%25A0-e-trasparenza-al-centro-del-convegno-assovib&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1020791%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
+   "fonte": "coll-geom-ce",
+   "fonte_nome": "Collegio Geometri Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": [
+    "data"
+   ]
+  },
+  {
+   "id": "eb7b100865371e5c",
+   "titolo": "San Vito al Tagliamento festeggia i cento anni del geometra Dino Candusso",
+   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1019661&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1019661%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
+   "fonte": "coll-geom-ce",
+   "fonte_nome": "Collegio Geometri Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": [
+    "geometra"
+   ]
+  },
+  {
+   "id": "f23b768f2ad22251",
+   "titolo": "Approvato in via definitiva dal Consiglio dei Ministri il decreto attuativo della riforma forense 19 novembre 2026",
+   "link": "https://www.eutekne.info/Sezioni/Art_1132360_approvato_in_via_definitiva_dal_consiglio_dei_ministri_il_decreto.aspx",
+   "fonte": "eutekne",
+   "fonte_nome": "Eutekne.info",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "bonus.bilancio"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "geometra",
+    "ingegnere",
+    "architetto",
+    "agente_imm"
+   ]
+  },
+  {
+   "id": "87004c7db8a22002",
+   "titolo": "Indotto ex ILVA e ADI Servizi Marittimi: nuova integrazione al reddito",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.indotto-ex-ilva-e-adi-servizi-marittimi-nuova-integrazione-al-reddito.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "isee.sostegno"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "ddfd9d793ec83950",
+   "titolo": "Fondo Bolzano-Alto Adige: contributo ridotto anche nel 2027",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.fondo-bolzano-alto-adige-contributo-ridotto-anche-nel-2027.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "b3fdf6016a3ea9a3",
+   "titolo": "Targhe estere e flotte a noleggio, scatta la stretta del Fisco sull’IPT",
+   "link": "https://www.informazionefiscale.it/targhe-estere-noleggio-auto-novita-imposta-provinciale-trascrizione",
+   "fonte": "f-infofisc",
+   "fonte_nome": "Informazione Fiscale",
+   "tipo": "stampa",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "tributarista",
+    "commercialista",
+    "consulente_lavoro"
+   ]
+  },
+  {
+   "id": "486a9c01f74240a8",
+   "titolo": "Mattarella: 'I giovani hanno il diritto di essere ascoltati dalle istituzioni'",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/20/mattarella-i-ragazzi-hanno-diritto-di-contare-su-uninterlocuzione-con-le-istituzioni_d2d45227-5c4e-4325-a375-834ca49d35eb.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "governo.quirinale"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "7af6e643407edccf",
+   "titolo": "FI rilancia la battaglia, tre emendamenti anti e-book alla Camera",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/20/scontro-sugli-ebook-fi-presenta-un-emendamento-soppressivo-alla-camera-_a676fb83-bb34-4ed1-bb51-a0428ece696b.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "governo.parlamento"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "6094aa4a62666b46",
+   "titolo": "Zelensky, 'Mosca vuole isolare le regioni di Odessa e Dnipro dalle fonti energetiche'",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/22/zelensky-mosca-vuole-isolare-le-regioni-di-odessa-e-dnipro-dalle-fonti-energetiche_b576bcbd-e184-4e91-b8ce-14484cd56776.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "esteri",
+    "governo",
+    "territorio"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": [],
+   "altre_fonti": [
+    "ANSA Mondo"
+   ]
+  },
+  {
+   "id": "ae0b229f623d5f0f",
+   "titolo": "Manovra, comincia vaglio di ammissibilità Politica Comincerà tra poche ore il vaglio di ammissibilità degli quasi 7000 emendamenti alla manovra. La... 22 nov - 20:34",
+   "link": "https://tg24.sky.it/politica/video/2026/11/22/manovra-comincia-vaglio-di-ammissibilita-1142079",
+   "fonte": "p-sky",
+   "fonte_nome": "Sky TG24 Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo",
+    "economia_pol"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "governo.parlamento",
+    "economia_pol.manovra"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "cedd301d97538d56",
+   "titolo": "M5S, Grillo all’attacco di Conte: prendo il simbolo e lo do ai giovani",
+   "link": "https://www.corriere.it/politica/26_novembre_22/m5s-grillo-all-attacco-di-conte-prendo-il-simbolo-e-lo-do-ai-giovani-c28163d1-eaf0-4264-8bb5-9fcbe3f15xlk.shtml",
+   "fonte": "p-corriere",
+   "fonte_nome": "Corriere della Sera Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "partiti.partiti"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "70a6bec78139cb11",
+   "titolo": "Dal G8 ai «depistaggi» su via D’Amelio: le vite incrociate di due super poliziotti De Gennaro e La Barbera",
+   "link": "https://www.corriere.it/politica/26_novembre_22/i-misteri-di-la-barbera-cac41452-429f-49e7-ae61-2043b8dbfxlk.shtml",
+   "fonte": "p-corriere",
+   "fonte_nome": "Corriere della Sera Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "f1f49df0764de3ef",
+   "titolo": "Bagarre sui libri digitali, la maggioranza si spacca: ma l’opposizione la “salva”",
+   "link": "https://www.ilmessaggero.it/politica/libri_digitali_forza_italia_maggioranza_divisa_assenze_opposizione-9900884.html",
+   "fonte": "p-messaggero",
+   "fonte_nome": "Il Messaggero Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "partiti.partiti"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "dd77670c9acb7e9c",
+   "titolo": "Meloni sente Tajani: fondi in Manovra. Ma Fi valuta un nuovo blitz alla Camera",
+   "link": "https://www.ilmessaggero.it/politica/meloni_sente_tajani_fondi_manovra_ma_fi_valuta_un_nuovo_blitz_camera-9900885.html",
+   "fonte": "p-messaggero",
+   "fonte_nome": "Il Messaggero Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "partiti.partiti"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "1411c7a397e05fee",
+   "titolo": "Ferrari, Coletta racconta la festa di Barcellona e guarda al 2027",
+   "link": "https://www.ilmessaggero.it/video/motori/ferrari_coletta_racconta_la_festa_di_barcellona_e_guarda_al_2027-9906632.html",
+   "fonte": "p-messaggero",
+   "fonte_nome": "Il Messaggero Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "adc2046af02292c1",
+   "titolo": "Napoli, agguato a colpi di machete alla Ferrovia: sfregiato un ragazzo straniero, contusi tre poliziotti. Poi l'arresto da film",
+   "link": "https://www.ilmattino.it/napoli/cronaca/napoli_agguato_colpi_di_machete_ferrovia_sfregiato_straniero_contusi_tre_poliziotti_poi_arresto_da_film-9906636.html",
+   "fonte": "p-mattino",
+   "fonte_nome": "Il Mattino (Napoli e Campania)",
+   "tipo": "stampa",
+   "aree": [
+    "territorio"
+   ],
+   "normativa": false,
+   "sintesi": "Sangue e terrore nel cuore della Ferrovia. Teatro del ring a cielo aperto è ancora una volta l'area a ridosso della Stazione Centrale di Napoli, dove poco prima...",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [
+    "territorio.campania"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "6f24c80e072c9a56",
+   "titolo": "Vendita e Affitto Affitti, a Caserta il trilocale sale a 738 euro: l'inflazione pesa sulle famiglie, 38 euro in più al mese",
+   "link": "https://www.casertanews.it/casa/immobiliare/affitti-trilocale-inflazione-famiglie-caserta.html",
+   "fonte": "p-casertanews",
+   "fonte_nome": "Casertanews e Caserta politica",
+   "tipo": "stampa",
+   "aree": [
+    "territorio",
+    "europa"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "territorio.campania",
+    "europa.economia_ue"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "ff215df1387db063",
+   "titolo": "Corsi di Formazione Si conclude il corso di Alta Formazione “Persone Scomparse”",
+   "link": "https://www.casertanews.it/formazione/corsi-formazione/persone-scomparse-corso-polizia-santa-maria-capua-vetere.html",
+   "fonte": "p-casertanews",
+   "fonte_nome": "Casertanews e Caserta politica",
+   "tipo": "stampa",
+   "aree": [
+    "territorio"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "b47cfd0739bd9e14",
+   "titolo": "Veicoli trainati: a ottobre a +2,0%, dieci mesi 2026 a -0,5%. UNRAE: \" Il rinnovo delle flotte procede a singhiozzo. Tempi rapidi su fondo straordinario e codice della strada\"",
+   "link": "https://www.unrae.it/sala-stampa/veicoli-commerciali/7874/veicoli-trainati-a-ottobre-a-20-dieci-mesi-2026-a-05-unrae-il-rinnovo-delle-flotte-procede-a-singhiozzo-tempi-rapidi-su-fondo-straordinario-e-codice-della-strada",
+   "fonte": "a-unrae",
+   "fonte_nome": "UNRAE",
+   "tipo": "ordine",
+   "aree": [
+    "normativa_auto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "normativa_auto.codice",
+    "mercato_auto.immatricolazioni"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "9de6a2902f82d9bd",
+   "titolo": "UNRAE: nasce AZ-RAE, Joint venture paritetica con AZ INFO",
+   "link": "https://www.unrae.it/sala-stampa/altri-comunicati/7871/unrae-nasce-az-rae-joint-venture-paritetica-con-az-info",
+   "fonte": "a-unrae",
+   "fonte_nome": "UNRAE",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.immatricolazioni"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "646465a5e3ba7960",
+   "titolo": "Studio UNRAE | L'automobile: italiani a confronto",
+   "link": "https://www.unrae.it/dati-statistici/dati-di-settore/7869/studio-unrae-lautomobile-italiani-a-confronto",
+   "fonte": "a-unrae",
+   "fonte_nome": "UNRAE",
+   "tipo": "ordine",
+   "aree": [
+    "prove",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "prove.prove",
+    "mercato_auto.immatricolazioni"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "ad25b9b5ffb2f8b3",
+   "titolo": "Immatricolazioni veicoli commerciali - Ottobre 2026",
+   "link": "https://www.unrae.it/dati-statistici/immatricolazioni/7867/immatricolazioni-veicoli-commerciali-ottobre-2026",
+   "fonte": "a-unrae",
+   "fonte_nome": "UNRAE",
+   "tipo": "ordine",
+   "aree": [
+    "mezzi",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mezzi.pesanti",
+    "mercato_auto.immatricolazioni"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "7357cc01fa5ad443",
+   "titolo": "Presentazione dell’ed. 2026 dell’Osservatorio sulla compon...",
+   "link": "https://www.anfia.it/it/eventi/prossimi-eventi/presentazione-delled-2026-dellosservatorio-sulla-componentistica-automotive-italiana-e-sui-servizi-per-la-mobilita",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "dbc4981087b1f555",
+   "titolo": "ANFIA Agorà | Accordi di libero scambio EU-Mercosur & EU-India",
+   "link": "https://www.anfia.it/it/eventi/prossimi-eventi/anfia-agora-accordi-di-libero-scambio-eu-mercosur-eu-india",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.immatricolazioni"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "d8f47ce2c975a3cb",
+   "titolo": "Evento “AUTOMOTIVE – Frontiere tecnologiche e transizioni ...",
+   "link": "https://www.anfia.it/it/eventi/prossimi-eventi/evento-automotive-frontiere-tecnologiche-e-transizioni-verso-aerospazio-e-difesa",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "ba028f05fadcd413",
+   "titolo": "ANFIA Agorà: Facts & Figures Industria Automotive Italia ed E...",
+   "link": "https://www.anfia.it/it/eventi/prossimi-eventi/anfia-agora-facts-figures-industria-automotive-italia-ed-europa-primo-semestre-2026",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.immatricolazioni"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "962ff8f0f3c25cb5",
+   "titolo": "Trade parti e componenti per autoveicoli Italia - PRIMO SEMESTRE 2026",
+   "link": "https://www.anfia.it/it/attivita/studi-e-statistiche/focus-dossier-pubblicazioni/miscellaneous/trade/trade-parti-e-componenti-per-autoveicoli-italia-primo-semestre-2026",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "b885fa63cc00717e",
+   "titolo": "Focus Italia Produzione Automotive SETTEMBRE 2026",
+   "link": "https://www.anfia.it/it/attivita/studi-e-statistiche/focus-dossier-pubblicazioni/produzione/focus-italia-produzione-automotive-settembre-2026",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.industria"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "83905db25fd012a0",
+   "titolo": "Fatturato del settore automotive in Italia ad agosto 2026",
+   "link": "https://www.anfia.it/it/comunicazione/notizie-e-comunicati/notizie/fatturato-del-settore-automotive-in-italia-ad-agosto-2026",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "altre_fonti": []
+  },
+  {
+   "id": "5a92bf646d6cdebe",
+   "titolo": "Focus Autovetture Europa e Mercati Internazionali SETTEMBRE 2026",
+   "link": "https://www.anfia.it/it/attivita/studi-e-statistiche/focus-dossier-pubblicazioni/immatricolazioni/mondo/eu-efta/focus-autovetture-europa-e-mercati-internazionali-settembre-2026",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "altre_fonti": []
+  },
+  {
+   "id": "4724853e85e4c25b",
+   "titolo": "Focus UE-EFTA-UK Veicoli Commerciali e Industriali Europa e Mercati Internazionali GENNAIO-GIUGNO 2026",
+   "link": "https://www.anfia.it/it/attivita/studi-e-statistiche/focus-dossier-pubblicazioni/immatricolazioni/mondo/eu-efta/focus-ue-efta-uk-veicoli-commerciali-e-industriali-europa-e-mercati-internazionali-gennaio-giugno-2026",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mezzi",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mezzi.pesanti"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "3c94c1778d23af40",
+   "titolo": "Ecco che cosa sta realmente accadendo all'industria automotive europea",
+   "link": "https://www.anfia.it/it/comunicazione/notizie-e-comunicati/notizie/perdiamo-lindustria-per-11-5-grammi-di-co2-linnovazione-torni-a-guidare-leuropa",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "650f3fa3b6e73afe",
+   "titolo": "Aftermarket auto: vale 31,2 miliardi di euro. 1 azienda di ricambi su 4 stima aumenti di fatturato nel...",
+   "link": "https://www.anfia.it/it/comunicazione/notizie-e-comunicati/notizie/aftermarket-auto-vale-31-2-miliardi-di-euro-1-azienda-di-ricambi-su-4-stima-aumenti-di-fatturato-nel-2026-ma-per-il-36-8-il-mismatch-frena-la-crescita-modena-al-top-per-peso-della-filiera-sulleconomia-locale",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "tecnica_auto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "tecnica_auto.motori"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "b67eed657a23118b",
+   "titolo": "ASSEMBLEA PUBBLICA ANFIA: PER L’AUTOMOTIVE E’ IL TEMPO DEL...",
+   "link": "https://www.anfia.it/it/comunicazione/notizie-e-comunicati/comunicati-stampa/altri-comunicati/assemblea-pubblica-anfia-il-tempo-delle-scelte-responsabili",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.immatricolazioni"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "ee2208066f03076f",
+   "titolo": "IN MIGLIORAMENTO L’INDICE DELLA PRODUZIONE DELL’INDUSTRIA ...",
+   "link": "https://www.anfia.it/it/comunicazione/notizie-e-comunicati/comunicati-stampa/produzione-industria-automotive-italia/in-miglioramento-lindice-della-produzione-dellindustria-automotive-a-settembre-9-4",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.industria"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "c9bda4b4f23e40c5",
+   "titolo": "OTTOBRE IN LIEVE RECUPERO PER AUTOCARRI (+0,4%) E VEICOLI TRAI...",
+   "link": "https://www.anfia.it/it/comunicazione/notizie-e-comunicati/comunicati-stampa/mercato-veicoli-industriali-autobus-e-veicoli-trainati/ottobre-in-lieve-recupero-per-autocarri-0-4-e-veicoli-trainati-0-9-e-in-pesante-flessione-a-doppia-cifra-per-gli-autobus-27-5",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "63bfc5b6c591e88e",
+   "titolo": "ANFIA-MOTORSPORT DEBUTTA AL PMW EXPO DI COLONIA",
+   "link": "https://www.anfia.it/it/comunicazione/notizie-e-comunicati/comunicati-stampa/altri-comunicati/anfia-motorsport-debutta-al-pmw-expo-di-colonia",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.immatricolazioni"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "07dad8e2bd5b18f7",
+   "titolo": "IL MERCATO AFTERMARKET TRUCK CRESCE DEL 3,9% NEL PRIMO SEMESTR...",
+   "link": "https://www.anfia.it/it/comunicazione/notizie-e-comunicati/comunicati-stampa/altri-comunicati/il-mercato-aftermarket-truck-cresce-del-3-9-nel-primo-semestre-2026",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mezzi",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mezzi.pesanti"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "9273b500b86eb934",
+   "titolo": "STANDARD CO2 VEICOLI LEGGERI: IL VOTO IN COMMISSIONE ENVI SEGN...",
+   "link": "https://www.anfia.it/it/comunicazione/notizie-e-comunicati/comunicati-stampa/altri-comunicati/standard-co2-veicoli-leggeri-il-voto-in-commissione-envi-segna-finalmente-un-passo-nella-giusta-direzione-ma-velocita-e-ambizione-vanno-decisamente-aumentate",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "normativa_auto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "normativa_auto.zone"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "9b5f30216bfb0667",
+   "titolo": "MODERATO RIALZO A OTTOBRE PER IL MERCATO AUTO ITALIANO (+4,8%)",
+   "link": "https://www.anfia.it/it/comunicazione/notizie-e-comunicati/comunicati-stampa/mercato-vetture-italia/moderato-rialzo-a-ottobre-per-il-mercato-auto-italiano-4-8",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.immatricolazioni"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "b6211565c32578a9",
+   "titolo": "MERCATO AFTEMARKET IN CRESCITA NEL PRIMO SEMESTRE 2026: +3,1%",
+   "link": "https://www.anfia.it/it/comunicazione/notizie-e-comunicati/comunicati-stampa/altri-comunicati/mercato-aftemarket-in-crescita-nel-primo-semestre-2026-3-1",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "f99b0264ee58380a",
+   "titolo": "BUONA PERFORMANCE A SETTEMBRE PER IL MERCATO AUTO EUROPEO (+9,3%)",
+   "link": "https://www.anfia.it/it/comunicazione/notizie-e-comunicati/comunicati-stampa/mercato-vetture-europa/buona-performance-a-settembre-per-il-mercato-auto-europeo-9-3",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.immatricolazioni"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "3aa4cb76decbfa9d",
+   "titolo": "OSSERVATORIO SULLA COMPONENTISTICA AUTOMOTIVE ITALIANA E SUI S...",
+   "link": "https://www.anfia.it/it/comunicazione/notizie-e-comunicati/comunicati-stampa/altri-comunicati/osservatorio-componentistica-automotive-italiana-e-servizi-mobilita-2026",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.industria"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "1b591f540e6430f8",
+   "titolo": "SETTEMBRE IN RALLENTAMENTO PER IL COMPARTO DEI VEICOLI INDUSTR...",
+   "link": "https://www.anfia.it/it/comunicazione/notizie-e-comunicati/comunicati-stampa/mercato-veicoli-industriali-autobus-e-veicoli-trainati/settembre-in-rallentamento-per-il-comparto-dei-veicoli-industriali-in-calo-gli-autocarri-1-9-e-i-veicoli-trainati-12-6-mentre-gli-autobus-contengono-la-crescita-a-2-5",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "102f5dd679def3b7",
+   "titolo": "CO₂ AUTO E VEICOLI COMMERCIALI LEGGERI: L’INDUSTRIA AUTOMO...",
+   "link": "https://www.anfia.it/it/comunicazione/notizie-e-comunicati/comunicati-stampa/altri-comunicati/co2-auto-e-veicoli-commerciali-leggeri-lindustria-automotive-europea-e-una-filiera-viva-che-puo-e-deve-continuare-a-competere",
+   "fonte": "a-anfia",
+   "fonte_nome": "ANFIA",
+   "tipo": "ordine",
+   "aree": [
+    "mezzi",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mezzi.pesanti"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "6d1d7e9135fb4478",
+   "titolo": "Renault 5 2025 AD Very good Active Driver Assist",
+   "link": "https://www.euroncap.com/assessments/renault/5/a025/",
+   "fonte": "a-euroncap",
+   "fonte_nome": "Euro NCAP",
+   "tipo": "ente",
+   "aree": [
+    "novita_auto",
+    "sicurezza_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "4d9bc032721bb7cc",
+   "titolo": "MAZDA CX-80 2025 AD Good Cruising & Traffic Support",
+   "link": "https://www.euroncap.com/assessments/mazda/cx-80/a027/",
+   "fonte": "a-euroncap",
+   "fonte_nome": "Euro NCAP",
+   "tipo": "ente",
+   "aree": [
+    "novita_auto",
+    "sicurezza_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "805b562a03623bb4",
+   "titolo": "UNRAE Unione Nazionale Rappresentanti Autoveicoli Esteri",
+   "link": "https://www.ansa.it/canale_motori/notizie/in_collaborazione/unrae.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "mercato_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.immatricolazioni"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "7783029a970e9621",
+   "titolo": "ANFIA Associazione Nazionale Filiera Industria Automobilistica",
+   "link": "https://www.ansa.it/canale_motori/notizie/in_collaborazione/anfia.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "mercato_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.industria"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "a5a59a0530f1efa9",
+   "titolo": "CSLT Fondazione Centro Studi e Ricerche per lo sviluppo e l'innovazione della Logistica e del Trasporto",
+   "link": "https://www.ansa.it/canale_motori/notizie/in_collaborazione/cslt.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "mezzi",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mezzi.pesanti"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "b9f65f332bf74488",
+   "titolo": "UNASCA Unione Nazionale Autoscuole e Studi di Consulenza Automobilistica",
+   "link": "https://www.ansa.it/canale_motori/notizie/in_collaborazione/unasca.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "cf07e4b372fcf0f4",
+   "titolo": "ANIASA Associazione Nazionale Industria dell'Autonoleggio, della Sharing mobility e dell'Automotive digital",
+   "link": "https://www.ansa.it/canale_motori/notizie/in_collaborazione/aniasa.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "bici",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "bici.mobilita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "431829989b37aaa6",
+   "titolo": "Qomodo Pagamenti digitali e dilazioni a tasso zero per automotive",
+   "link": "https://www.ansa.it/canale_motori/notizie/in_collaborazione/qomodo.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "c7ab4b4a71798c70",
+   "titolo": "Salvini, da Mit via libera a omologazione provvisoria sistema guida assistita Tesla",
+   "link": "https://www.ansa.it/canale_motori/notizie/new_tech/2026/11/20/salvini-da-mit-via-libera-a-omologazione-provvisoria-sistema-guida-assistita-tesla_2b53f01f-99ee-4405-9972-47b480389e46.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "prove",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "prove.guide",
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "5a3158bc07de2a70",
+   "titolo": "Jeep Compass, un salotto su quattro ruote dove anche il gatto fa le fusa",
+   "link": "https://www.ansa.it/ansacom/notizie/canale_motori/jeep/2026/11/14/jeep-compass-un-salotto-su-quattro-ruote-dove-anche-il-gatto-fa-le-fusa_d891a6eb-6c6b-42bc-bb3f-637888a6ad99.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "693cf080f8f86750",
+   "titolo": "Bosch Mobility Original Equipment in Italy, ruolo primario nell'innovare la mobilità",
+   "link": "https://www.ansa.it/ansacom/notizie/canale_motori/Bosch/2026/11/11/bosch-mobility-original-equipment-in-italy-ruolo-primario-nellinnovare-la-mobilita_52c46d1c-b805-438e-b572-ae543302a274.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "19989723e9817054",
+   "titolo": "Yamaha RW700 apre una nuova dimensione nel segmento Adventure",
+   "link": "https://www.ansa.it/ansacom/notizie/canale_motori/yamaha/2026/11/09/yamaha-rw700-apre-una-nuova-dimensione-nel-segmento-adventure_b02e7ff9-18d2-4996-8703-2a63b625621b.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.modelli",
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "1ad1affe57a7f783",
+   "titolo": "Bmw Group e United Nations Alliance of Civilizations celebrano 15 anni di partnership",
+   "link": "https://www.ansa.it/ansacom/notizie/canale_motori/bmw/2026/11/04/bmw-group-e-united-nations-alliance-of-civilizations-celebrano-15-anni-di-partnership_c3221ecb-da9f-4a5c-b656-8fa0c9baa029.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "d779161ea39ccbe5",
+   "titolo": "Ducati fa il pieno di pubblico a EICMA 2026 con le novità e la mostra del centenario",
+   "link": "https://www.ansa.it/ansacom/notizie/canale_motori/Ducati/2026/11/03/ducati-fa-il-pieno-di-pubblico-a-eicma-2026-con-le-novita-e-la-mostra-del-centenario_f1bd3974-db7d-465d-80bc-c354ffd654d7.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "moto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "0428d467d48ade04",
+   "titolo": "ISUZU: doppio appuntamento a Ecomondo e Fieracavalli",
+   "link": "https://www.ansa.it/pressrelease/canale_motori/2026/11/06/isuzu-doppio-appuntamento-a-ecomondo-e-fieracavalli-_5171e11d-28f7-4e1b-aedd-3249b20f8899.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "bef4043096802fa4",
+   "titolo": "ISUZU, sicurezza stradale e veicoli commerciali: cambiano le regole",
+   "link": "https://www.ansa.it/pressrelease/canale_motori/2026/10/28/isuzu-sicurezza-stradale-e-veicoli-commerciali-cambiano-le-regole_09b85d9b-3f8a-49fc-ba74-2cb6ea5852e7.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "sicurezza_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "sicurezza_auto.crash"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "7afbb64abe2910ff",
+   "titolo": "PETRONAS Lubricants International ad Automechanika Frankfurt 2026",
+   "link": "https://www.ansa.it/pressrelease/canale_motori/2026/08/31/petronas-lubricants-international-ad-automechanika-frankfurt-2026_84e31b98-5dcd-4cf3-8181-422e681323ef.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "7f6d797b419e6545",
+   "titolo": "\"Possiamo finire insieme\": Câmara resta in F1 e saluta le chance di titolo in F2, Haas fa la sua scelta per il finale di stagione",
+   "link": "https://www.automoto.it/formula1/rafael-camara-resta-f1-haas-qatar-abu-dhabi-lascia-f2.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "motorsport.f1"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "6aa66d5c1f0c15ff",
+   "titolo": "Tesla, via libera in Italia alla guida \"quasi autonoma\": 99 euro al mese. E c'entra anche Salvini",
+   "link": "https://www.automoto.it/news/tesla-via-libera-in-italia-alla-guida-quasi-autonoma-99-euro-al-mese-e-c-entra-anche-salvini.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "prove",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "prove.guide",
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "prezzo": "99 €/mese"
+  },
+  {
+   "id": "3649bc0435de1fda",
+   "titolo": "RCA a Napoli, dopo le targhe polacche è la volta della Repubblica Ceca. E le agenzie promettono la revisione ogni 4 anni",
+   "link": "https://www.automoto.it/news/targhe-polacche-arriva-la-svolta-della-repubblica-ceca-le-agenzie-promettono-la-revisione-ogni-4-anni.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "normativa_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "normativa_auto.burocrazia"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "c2234807a1f15394",
+   "titolo": "Diesel più conveniente, ecco dove trovarlo. L’andamento dei prezzi al distributore",
+   "link": "https://www.automoto.it/news/diesel-piu-conveniente-ecco-dove-trovarlo-l-andamento-dei-prezzi-al-distributore.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "mercato_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "4c79ba7c9ed84a4f",
+   "titolo": "Offerte Black Friday Sim Racing 2026: i migliori sconti",
+   "link": "https://www.automoto.it/gaming/offerte-black-friday-sim-racing-2026-i-migliori-sconti.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "mercato_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "5a0a2490b445b2d1",
+   "titolo": "5 Prezzi carburanti oggi: benzina e diesel ancora in calo, ecco quanto costano di Alessandra Marchetti",
+   "link": "https://www.automoto.it/news/prezzi-carburanti-oggi-benzina-e-diesel-ancora-in-calo-ecco-quanto-costano.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "elettriche",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "elettriche.ibride"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "02527e97c213c339",
+   "titolo": "Padova, quando la burocrazia (e la politica) frena la passione: annullato il Rally Colli Euganei",
+   "link": "https://www.automoto.it/news/padova-quando-la-burocrazia-e-la-politica-frena-la-passione-annullato-il-rally-colli-euganei.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "motorsport.altri"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "a4289337c62dbe34",
+   "titolo": "Carburanti, i prezzi di benzina e diesel domenica 22 novembre",
+   "link": "https://www.auto.it/news/attualita/caro-benzina-costi-carburante/2026/11/22-9319021/carburanti_i_prezzi_di_benzina_e_diesel_domenica_22_novembre",
+   "fonte": "a-autoit",
+   "fonte_nome": "Auto.it",
+   "tipo": "stampa",
+   "aree": [
+    "elettriche",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "elettriche.ibride"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "altre_fonti": []
+  },
+  {
+   "id": "4a8ae5741e9dd888",
+   "titolo": "Auto: dal nuovo Codice della Strada a The Car of The Year, tutte le novità in edicola Sarà un 2027 ricco di novità, sia riguardo i modelli in arrivo che per le regole di ingaggio per emissioni e automobilisti. Finaliste del COTY saranno in prova a Milano",
+   "link": "https://www.auto.it/news/edicola/2026/11/16-9295490/auto_dal_nuovo_codice_della_strada_a_the_car_of_the_year_tutte_le_novit_in_edicola",
+   "fonte": "a-autoit",
+   "fonte_nome": "Auto.it",
+   "tipo": "stampa",
+   "aree": [
+    "normativa_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "normativa_auto.codice",
+    "novita_auto.modelli"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "altre_fonti": []
+  },
+  {
+   "id": "c6e825eb10f1e5d6",
+   "titolo": "Tesla lancia la guida assistita (e senza mani) in Italia: costa 99 euro al mese. Ecco come funziona",
+   "link": "https://www.corriere.it/motori/26_novembre_20/tesla-lancia-la-guida-assistita-e-senza-mani-in-italia-costa-99-euro-al-mese-ecco-come-funziona-00e222cb-ef7b-4d9f-a737-bfcdf3929xlk.shtml",
+   "fonte": "a-corriere-motori",
+   "fonte_nome": "Corriere della Sera Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "prove"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.marchi",
+    "prove.guide"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "prezzo": "99 €/mese"
+  },
+  {
+   "id": "fd3f9c9b527aa311",
+   "titolo": "Mercato auto, la Cina avanza in Italia: importazioni in crescita del 121% nei primi otto mesi del 2026",
+   "link": "https://www.corriere.it/motori/26_novembre_20/mercato-auto-la-cina-avanza-in-italia-importazioni-in-crescita-del-121-nei-primi-otto-mesi-del-2026-4caa2119-0a3a-458f-bc5e-c5d48818fxlk.shtml",
+   "fonte": "a-corriere-motori",
+   "fonte_nome": "Corriere della Sera Motori",
+   "tipo": "stampa",
+   "aree": [
+    "mercato_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.immatricolazioni"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "72f16244c84cd7fa",
+   "titolo": "Ma quale GTA6? Ecco 5 videogiochi a due ruote che hanno fatto la storia",
+   "link": "https://www.inmoto.it/news/curiosita/2026/11/20-9311090/ma_quale_gta6_ecco_6_videogiochi_a_due_ruote_che_hanno_fatto_la_storia",
+   "fonte": "a-inmoto",
+   "fonte_nome": "InMoto",
+   "tipo": "stampa",
+   "aree": [
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "1e03fe43dbe2475a",
+   "titolo": "Gli 883 e quella generazione cresciuta a pane, benzina e 125. E quanta strada con un \"deca\"...",
+   "link": "https://www.inmoto.it/news/epoca/2026/11/19-9309987/gli_883_e_quella_generazione_cresciuta_a_pane_benzina_e_125_e_quanta_strada_con_un_deca_",
+   "fonte": "a-inmoto",
+   "fonte_nome": "InMoto",
+   "tipo": "stampa",
+   "aree": [
+    "elettriche",
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "elettriche.ibride"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "f816fad1ce180432",
+   "titolo": "Triumph Bonneville T40 e T40 Black: svelati prezzo e arrivo in Italia",
+   "link": "https://www.inmoto.it/news/attualita/2026/11/19-9308829/triumph_bonneville_t40_e_t40_black_svelati_prezzo_e_arrivo_in_italia",
+   "fonte": "a-inmoto",
+   "fonte_nome": "InMoto",
+   "tipo": "stampa",
+   "aree": [
+    "moto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "moto.novita",
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "3ddfbaebe37411a2",
+   "titolo": "Calhanoglu si ferma: problema al flessore Serie A Problema muscolare al flessore della coscia destra per Hakan Calhanoglu durante il primo tempo di... 22 nov - 21:22",
+   "link": "https://sport.sky.it/calcio/serie-a/2026/11/22/calhanoglu-atalanta-inter-infortunio-news",
+   "fonte": "a-sky-f1",
+   "fonte_nome": "Sky Sport F1 e motori",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "a4b89b1aaf4a4c35",
+   "titolo": "Alcaraz: \"Volevo tornare bene dopo l'infortunio\" l'intervista Le parole a Sky Sport di Carlos Alcaraz dopo il trionfo alle Atp Finals: \"Sono stati mesi in cui... 22 nov - 22:15",
+   "link": "https://sport.sky.it/tennis/2026/11/22/alcaraz-atp-finals-2026-intervista-video",
+   "fonte": "a-sky-f1",
+   "fonte_nome": "Sky Sport F1 e motori",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "fd8acbbdb92e93c2",
+   "titolo": "Tumore del pancreas, AIFA accelera sul daraxonrasib. Alert dalle associazioni",
+   "link": "https://www.sanitainformazione.it/tumore-del-pancreas-aifa-accelera-sul-daraxonrasib-alert-dalle-associazioni/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "sanita.sistema"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "163c012cb9c52cbe",
+   "titolo": "Antibiotico-resistenza, AIFA lancia la campagna 2026: “Te lo direbbe anche un bambino”",
+   "link": "https://www.sanitainformazione.it/antibiotico-resistenza-aifa-lancia-la-campagna-2026-te-lo-direbbe-anche-un-bambino/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "sanita.sistema"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "3a73827749730ace",
+   "titolo": "Noli marittimi da record tra petroliere e container",
+   "link": "https://www.trasportoeuropa.it/notizie/marittimo/noli-marittimi-da-record-tra-petroliere-e-container/",
+   "fonte": "a-camion",
+   "fonte_nome": "Camion e trasporto",
+   "tipo": "stampa",
+   "aree": [
+    "mezzi"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "3776dbe4d0a9005b",
+   "titolo": "La Sardegna chiede continuità marittima per le merci",
+   "link": "https://www.trasportoeuropa.it/notizie/marittimo/la-sardegna-chiede-continuita-marittima-per-le-merci/",
+   "fonte": "a-camion",
+   "fonte_nome": "Camion e trasporto",
+   "tipo": "stampa",
+   "aree": [
+    "mezzi"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "b4e9844f0b00fb7d",
+   "titolo": "Primo bilancio ambientale della ro-ro a vela Neoliner Origin",
+   "link": "https://www.trasportoeuropa.it/notizie/marittimo/primo-bilancio-ambientale-della-ro-ro-a-vela-neoliner-origin/",
+   "fonte": "a-camion",
+   "fonte_nome": "Camion e trasporto",
+   "tipo": "stampa",
+   "aree": [
+    "mezzi"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "9f924a52f4e13908",
+   "titolo": "Arvato potenzia la logistica in Turchia con Ekol",
+   "link": "https://www.trasportoeuropa.it/notizie/logistica/arvato-potenzia-la-logistica-in-turchia-con-ekol/",
+   "fonte": "a-camion",
+   "fonte_nome": "Camion e trasporto",
+   "tipo": "stampa",
+   "aree": [
+    "mezzi"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mezzi.pesanti"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "7f835c07d148a728",
+   "titolo": "Culina ordina 1.051 trattori stradali a Volvo",
+   "link": "https://www.trasportoeuropa.it/notizie/autotrasporto/culina-ordina-1-051-trattori-stradali-a-volvo/",
+   "fonte": "a-camion",
+   "fonte_nome": "Camion e trasporto",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "mezzi"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.marchi",
+    "mezzi.tempo_libero"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "3c77fa2adb417128",
+   "titolo": "Autotrasportatori polacchi chiedono regole UE sui pagamenti",
+   "link": "https://www.trasportoeuropa.it/notizie/autotrasporto/autotrasportatori-polacchi-chiedono-regole-ue-sui-pagamenti/",
+   "fonte": "a-camion",
+   "fonte_nome": "Camion e trasporto",
+   "tipo": "stampa",
+   "aree": [
+    "mezzi"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mezzi.pesanti"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "1b8e740f9cb99b5b",
+   "titolo": "Serie A, partita pazza a Bergamo: Atalanta-Inter finisce 4-4",
+   "link": "https://www.lapresse.it/calcio/2026/11/22/serie-a-partita-pazza-a-bergamo-atalanta-inter-finisce-4-4/",
+   "fonte": "p-lapresse",
+   "fonte_nome": "LaPresse Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "I nerazzurri si fanno rimontare dal 4-2: il Milan si avvicina Questo articolo Serie A, partita pazza a Bergamo: Atalanta-Inter finisce 4-4 proviene da LaPresse",
+   "pubblicata": "2026-11-22T21:57:00Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "607af1d3222ca039",
+   "titolo": "Charles Spencer: “Diana amava veramente Carlo. Poi mi disse lui era innamorato del suo valletto”",
+   "link": "https://www.dire.it/22-11-2026/1292338-charles-spencer-diana-amava-veramente-carlo-poi-mi-disse-lui-era-innamorato-del-suo-valletto/",
+   "fonte": "p-dire",
+   "fonte_nome": "Agenzia Dire",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Il conte Spencer racconta a Verissimo sua sorella Diana, dopo l’uscita del suo best seller 'Canto del cigno.",
+   "pubblicata": "2026-11-22T21:54:28Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [
+    "partiti.partiti"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "54d6d5fc98a0eb55",
+   "titolo": "Accensione delle luminarie sugli Champs-Élysées a Parigi – Le foto",
+   "link": "https://www.lapresse.it/esteri/2026/11/22/accensione-delle-luminarie-sugli-champs-elysees-a-parigi-le-foto/",
+   "fonte": "p-lapresse",
+   "fonte_nome": "LaPresse Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Questo articolo Accensione delle luminarie sugli Champs-Élysées a Parigi – Le foto proviene da LaPresse",
+   "pubblicata": "2026-11-22T21:48:46Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "c7cd9dc149b38466",
+   "titolo": "300 euro di sconto sul TV LG OLED evo C6: ecco quanto costa ora il 65 pollici",
+   "link": "https://images.dday.it/3zJV5BOzUhCu24soAFCEp-FavM0sFryXopozDK8QYHk/w:329/h:256/rt:fill/plain/s3://dday-production/system/uploads/news/square_crop_img/59578/8c2845_81hUED8dGZL._AC_SL1500_.jpeg",
+   "fonte": "dday",
+   "fonte_nome": "DDay.it",
+   "tipo": "stampa",
+   "aree": [
+    "offerte",
+    "pc"
+   ],
+   "normativa": false,
+   "sintesi": "Il TV OLED evo di LG con pannello da 65 pollici e qualità d'immagine di fascia alta scende di prezzo per il Black Friday: uno sconto di 300 euro che rende l'offerta…",
+   "pubblicata": "2026-11-22T21:42:00Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "ca5aa4891d680d66",
+   "titolo": "Il Career Grand Slam, poi il grave infortunio e ora il trionfo alle Finals: Alcaraz ha ritrovato sé stesso a Torino | Il commento",
+   "link": "https://www.ilfattoquotidiano.it/2026/11/22/alcaraz-atp-finals-torino-trionfo-stagione-racconto/8580610/",
+   "fonte": "p-fatto",
+   "fonte_nome": "Il Fatto Quotidiano Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "L’ha cercato, l’ha voluto, l’ha ottenuto. Dopo aver completato il Career Grand Slam con il trionfo agli Australian Open, Carlos Alcaraz voleva il primo successo a…",
+   "pubblicata": "2026-11-22T21:38:13Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "1eb8c0108a3f837c",
+   "titolo": "GTA 6 a 60 FPS su PS5? Il trucco esiste, ma costa tantissimo",
+   "link": "https://www.spaziogames.it/notizie/gta-6-a-60-fps-su-ps5-il-trucco-esiste-ma-costa-tantissimo",
+   "fonte": "t-spaziogames",
+   "fonte_nome": "SpazioGames",
+   "tipo": "stampa",
+   "aree": [
+    "gaming"
+   ],
+   "normativa": false,
+   "sintesi": "GTA 6 resta ancorato a un obiettivo di 30 FPS su PS5 e PS5 Pro, ma alcuni appassionati hanno trovato un sistema per ottenere un'immagine apparentemente più fluida.",
+   "pubblicata": "2026-11-22T21:37:00Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "cd5768a9f4d0276b",
+   "titolo": "GTA 6 su PC in una settimana? I modder lavorano al porting non ufficiale",
+   "link": "https://www.spaziogames.it/notizie/gta-6-su-pc-in-una-settimana-i-modder-lavorano-al-porting-non-ufficiale",
+   "fonte": "t-spaziogames",
+   "fonte_nome": "SpazioGames",
+   "tipo": "stampa",
+   "aree": [
+    "pc",
+    "gaming"
+   ],
+   "normativa": false,
+   "sintesi": "GTA 6 potrebbe arrivare su PC attraverso una strada non ufficiale molto prima del previsto, almeno stando alle dichiarazioni che circolano nella scena del modding.",
+   "pubblicata": "2026-11-22T21:36:00Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "78dda131c73be9f9",
+   "titolo": "Parata del Pride a Rio de Janeiro – Le foto",
+   "link": "https://www.lapresse.it/foto/2026/11/22/parata-del-pride-a-rio-de-janeiro-le-foto/",
+   "fonte": "p-lapresse",
+   "fonte_nome": "LaPresse Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Questo articolo Parata del Pride a Rio de Janeiro – Le foto proviene da LaPresse",
+   "pubblicata": "2026-11-22T21:35:11Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "359c7ae3f48c09b2",
+   "titolo": "Grillo: “Se a gennaio un giudice dirà che il simbolo del Movimento 5 stelle è mio, me lo prendo”",
+   "link": "https://www.dire.it/22-11-2026/1292349-grillo-se-a-gennaio-un-giudice-dira-che-il-simbolo-del-movimento-5-stelle-e-mio-me-lo-prendo/",
+   "fonte": "p-dire",
+   "fonte_nome": "Agenzia Dire",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Lo ha detto ospite di Fabio Fazio a 'Che tempo che fa' sul Nove L'articolo Grillo: “Se a gennaio un giudice dirà che il simbolo del Movimento 5 stelle è mio, me lo…",
+   "pubblicata": "2026-11-22T21:34:31Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [
+    "partiti.partiti"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "5efa02ffd0fc05ec",
+   "titolo": "Primavera 2027: otto prodotti in arrivo, dai nuovi iPhone ai Mac",
+   "link": "https://www.iphoneitalia.com/850550/primavera-2027-otto-prodotti-in-arrivo-dai-nuovi-iphone-ai-mac",
+   "fonte": "t-iphoneitalia",
+   "fonte_nome": "iPhone Italia",
+   "tipo": "stampa",
+   "aree": [
+    "pc",
+    "smartphone"
+   ],
+   "normativa": false,
+   "sintesi": "Apple prepara otto nuovi prodotti per l'inizio del 2027: iPhone 18, MacBook Neo, MacBook Air M6 e non solo.",
+   "pubblicata": "2026-11-22T21:33:26Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "4f0b8e5cb03c94ed",
+   "titolo": "Pokémon Equilibrio Perfetto, nove buste e Tyrunt per la collezione a 41,49€",
+   "link": "https://www.spaziogames.it/articoli/pokemon-equilibrio-perfetto-nove-buste-e-tyrunt-per-la-collezione-a-4149eur",
+   "fonte": "t-spaziogames",
+   "fonte_nome": "SpazioGames",
+   "tipo": "stampa",
+   "aree": [
+    "offerte",
+    "gaming"
+   ],
+   "normativa": false,
+   "sintesi": "Il Set Allenatore Pokémon Equilibrio Perfetto costa 41,49€ su Amazon e raccoglie nove buste dell’espansione, una carta promozionale olografica a figura intera di Tyrunt…",
+   "pubblicata": "2026-11-22T21:32:00Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "91f20dd7b4ba1891",
+   "titolo": "De Gennaro, attesa per l’autopsia: si cercano risposte sul gesto. Gli inquirenti indagano per istigazione al suicidio",
+   "link": "https://www.lapresse.it/cronaca/2026/11/22/de-gennaro-attesa-per-lautopsia-si-cercano-risposte-sul-gesto-gli-inquirenti-indagano-per-istigazione-al-suicidio/",
+   "fonte": "p-lapresse",
+   "fonte_nome": "LaPresse Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "La salma dell’ex capo della polizia è stata trasferita all’istituto di Medicina Legale di Careggi, a Firenze Questo articolo De Gennaro, attesa per l’autopsia: si…",
+   "pubblicata": "2026-11-22T21:29:13Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "c43498fe24b4359b",
+   "titolo": "iPhone Duo potrebbe avere una schermata di blocco tutta nuova",
+   "link": "https://www.iphoneitalia.com/850547/iphone-duo-potrebbe-avere-una-schermata-di-blocco-tutta-nuova",
+   "fonte": "t-iphoneitalia",
+   "fonte_nome": "iPhone Italia",
+   "tipo": "stampa",
+   "aree": [
+    "smartphone",
+    "hardware"
+   ],
+   "normativa": false,
+   "sintesi": "Apple ha sperimentato una nuova schermata di blocco per iPhone Duo con più widget. Ecco i dettagli.",
+   "pubblicata": "2026-11-22T21:26:41Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "ffcab877ad614a52",
+   "titolo": "Grillo sul simbolo del M5S: “A gennaio forse me lo riprendo”. E assicura: “Sono l’unico che può cambiare questo Paese”",
+   "link": "https://www.lapresse.it/politica/2026/11/22/grillo-sul-simbolo-del-m5s-a-gennaio-forse-me-lo-riprendo-e-assicura-sono-lunico-che-puo-cambiare-questo-paese/",
+   "fonte": "p-lapresse",
+   "fonte_nome": "LaPresse Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Ospite a 'Che tempo che fa', il fondatore del Movimento attacca Conte, il nucleare, propone una riforma dello Stato e parla del proprio futuro politico Questo articolo…",
+   "pubblicata": "2026-11-22T21:26:14Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [
+    "partiti.partiti"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
   {
    "id": "2b56377e69e2a3af",
    "titolo": "Condominio: abbattimento per la sopraelevazione senza piano sismico",
@@ -31,170 +2493,6 @@
     "consulente_lavoro",
     "commercialista",
     "tributarista"
-   ]
-  },
-  {
-   "id": "dcfd286d7e3a09ec",
-   "titolo": "UIA Golden Cubes Awards: i vincitori Gli esiti della fase nazionale",
-   "link": "https://www.awn.it/news/cnappc-informa/10040-uia-golden-cubes-awards-i-vincitori",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T21:18:34Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "d6909c99371c4b60",
-   "titolo": "UIA: Call for Projects Atlante degli ambienti di apprendimento Le candidature entro il 15 aprile",
-   "link": "https://www.awn.it/news/cnappc-informa/10038-uia-call-for-projects-atlante-degli-ambienti-di-apprendimento",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T21:18:34Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "1ca858f2328f087d",
-   "titolo": "Progetto Think Tank: 2 FAD asincroni per la formazione Dialoghi con personalità di fama internazionale sul ruolo della professione",
-   "link": "https://www.awn.it/news/cnappc-informa/10033-think-tank-serbatoio-di-pensiero",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T21:18:34Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "445c4d5bb2eaf022",
-   "titolo": "03 novembre 2026 ABITARE IL PAESE – IX EDIZIONE / 2026-2027 La nuova edizione",
-   "link": "https://www.awn.it/attivita/abitare-il-paese/10201-abitare-il-paese-9",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T21:18:34Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "81ee98be532bc73e",
-   "titolo": "08 maggio 2026 Milano: bando per 110 alloggi a Niguarda e Giambellino Aperto fino al 31 agosto 2026",
-   "link": "https://www.awn.it/news/notizie/10056-milano-bando-per-110-alloggi-a-niguarda-e-giambellino",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T21:18:34Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "c3d4e1e394df30b6",
-   "titolo": "06 maggio 2026 Stati generali della bellezza: a Offida l’11 e il 12 giugno Focus sul futuro dei borghi",
-   "link": "https://www.awn.it/news/notizie/10055-stati-generali-della-bellezza-a-offida-l-11-e-il-12-giugno",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T21:18:34Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "f504b5c7249218a7",
-   "titolo": "Valutazioni immobiliari: dati, qualità e trasparenza al centro del convegno ASSOVIB",
-   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/valutazioni-immobiliari-dati-qualit%C3%A0-e-trasparenza-al-centro-del-convegno-assovib?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1020791&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=valutazioni-immobiliari-dati-qualit%25C3%25A0-e-trasparenza-al-centro-del-convegno-assovib&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1020791%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "coll-geom-ce",
-   "fonte_nome": "Collegio Geometri Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T21:18:34Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": [
-    "data"
-   ]
-  },
-  {
-   "id": "eb7b100865371e5c",
-   "titolo": "San Vito al Tagliamento festeggia i cento anni del geometra Dino Candusso",
-   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1019661&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1019661%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "coll-geom-ce",
-   "fonte_nome": "Collegio Geometri Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T21:18:34Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": [
-    "geometra"
    ]
   },
   {
@@ -814,7 +3112,10 @@
    ],
    "luogo": null,
    "nicchia": "auto",
-   "prof": []
+   "prof": [],
+   "altre_fonti": [
+    "Auto.it"
+   ]
   },
   {
    "id": "a810f06b7edfc516",
@@ -1363,6 +3664,26 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "85c8ccc64ed63ddd",
+   "titolo": "Alessandro Baricco: “Bisogna riempire il vuoto lasciato da Augias”",
+   "link": "https://www.repubblica.it/cultura/2026/11/23/news/alessandro_baricco_corrado_augias_auditorium_roma_ricordo_funerali-425742682/",
+   "fonte": "t-repubblica-tech",
+   "fonte_nome": "Repubblica Tecnologia",
+   "tipo": "stampa",
+   "aree": [
+    "ai"
+   ],
+   "normativa": false,
+   "sintesi": "Lo scrittore ricorda il giornalista, divulgatore culturale e colonna di “Repubblica” scomparso il 19 novembre.",
+   "pubblicata": "2026-11-22T21:01:00Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
    "prof": []
   },
   {
@@ -20345,6 +22666,27 @@
    ],
    "luogo": null,
    "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "bfe52348f838bc72",
+   "titolo": "Control Resonant, il gioco è appena uscito ed è già in sconto Black Friday su Amazon",
+   "link": "https://www.everyeye.it/notizie/control-resonant-gioco-appena-uscito-sconto-black-friday-amazon-912635.html",
+   "fonte": "t-everyeye",
+   "fonte_nome": "Everyeye",
+   "tipo": "stampa",
+   "aree": [
+    "offerte",
+    "gaming"
+   ],
+   "normativa": false,
+   "sintesi": "Su Amazon è attivo uno sconto per acquistare l'edizione fisica di Control Resonant per PS5 e Xbox Series X ad un prezzo promozionale.",
+   "pubblicata": "2026-11-22T14:00:00Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
    "prof": []
   },
   {
@@ -65592,6 +67934,33 @@
    "luogo": null,
    "nicchia": "auto",
    "prof": []
+  },
+  {
+   "id": "326399f88837f383",
+   "titolo": "Cedolino pensione dicembre 2026, arrivano tredicesima e bonus: quando arriva pagamento",
+   "link": "https://quifinanza.it/pensioni/pensione-dicembre-2026-tredicesima-pagamento/1025267/",
+   "fonte": "f-quifinanza",
+   "fonte_nome": "QuiFinanza",
+   "tipo": "stampa",
+   "aree": [
+    "pensioni",
+    "isee"
+   ],
+   "normativa": true,
+   "sintesi": "L'Inps pagherà le pensioni martedì 1° dicembre insieme alla tredicesima. Per alcuni pensionati sono previsti anche il bonus da 154,94 euro e la quattordicesima",
+   "pubblicata": "2026-11-21T17:22:35Z",
+   "visto": "2026-11-22T22:01:08Z",
+   "metodo": "rss",
+   "sotto": [
+    "pensioni.pensioni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
   },
   {
    "id": "48fa2761388c04f2",
@@ -137441,2412 +139810,6 @@
    "pubblicata": "2026-11-20T23:30:00Z",
    "visto": "2026-11-21T00:01:04Z",
    "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "e1e0382a031ac35c",
-   "titolo": "Salute mentale: quando le parole diventano confini",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcE14RjBWR2s0a2FxMHVnQzIwR0w4TE5Ia0NRNGEtVzZLMW5nZUdlZ2pTWHEyelRfcU1oVTZmcHFJcVF4Y0Y0dk1nTzdncFhfaHJnOTZlMm5pUkExNG9jWWdZR1BSOG1XTWxPd1pRdmdyWUZmVkNQR3ZDcDJEV2haRUhCdFdINTF2T3Q5MW1iUFZCeXFLdWlFTnVQN08tQWwxXzZxbW9n?oc=5",
-   "fonte": "pr-qs",
-   "fonte_nome": "Quotidiano Sanità",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "Salute mentale: quando le parole diventano confini Quotidiano Sanità",
-   "pubblicata": "2026-11-20T23:29:52Z",
-   "visto": "2026-11-21T07:01:14Z",
-   "metodo": "gnews",
-   "sotto": [
-    "sanita.sistema"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "69a75c1628ecf921",
-   "titolo": "Macron fa il guerriero, ma è solo un segno diacritico",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUzJFd2FFUmtOWVdDUUNaOXlQRmt3RGxKNktwc3pjYWR6MkJCUU5VY2FYdFB3YXRVZDFiQzlhZnhpb2RzS0dBNEZkeUNhRFBISndQNS01aXdXamlCWTJmbzlnZHVsdlRyd25SaXIzQ3NHRVl5dFFKYW1nWXNoQXpnaUYyd3dWOWwxRWVrdWVvVTJUWmQ4czBN?oc=5",
-   "fonte": "p-esteri",
-   "fonte_nome": "Ministero degli Esteri (Farnesina)",
-   "tipo": "ufficiale",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": true,
-   "sintesi": "Macron fa il guerriero, ma è solo un segno diacritico Nuovo Giornale Nazionale",
-   "pubblicata": "2026-11-20T23:23:51Z",
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "9b7c592879924b7f",
-   "titolo": "Ciclismo, Pogacar: \"Amo l'Italia, ma difficile il Giro nel 2027\"",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5czhlR0g2V1ZaVC1FcVIxRVBiM3dCMnZmbTJlTFlIejRQWFNlNTU3b281U2RwaVYwUmVmVXd2NDFNaUtNWjhKSmhuRjFYeWdaTWxNRldnNEZlTlFzeUF3OEg0WHBmTWlRcjhPNWFOQjQ4cUdoUGRFNGVSQWpjdnc?oc=5",
-   "fonte": "a-uci",
-   "fonte_nome": "UCI (ciclismo mondiale)",
-   "tipo": "ente",
-   "aree": [
-    "bici"
-   ],
-   "normativa": false,
-   "sintesi": "Ciclismo, Pogacar: \"Amo l'Italia, ma difficile il Giro nel 2027\" Sky Sport",
-   "pubblicata": "2026-11-20T23:21:40Z",
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "gnews",
-   "sotto": [
-    "bici.ciclismo"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "90ce9db2d1a30022",
-   "titolo": "KIA Sportage 5ª serie Usata prezzo e caratteristiche tecniche - Auto Usate",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVTM2d2IxNFlXa0dsblBWWTh3cnFjZEVYQmIyckR3WHVyNWFaM1V5LWIwV0FoWWF5NGxuN25MV1MxX0t5VGcwMjJQeWtWMlJYcDRfeTFKaDZHUWpQVFZMN2xxcnh5cWwydnhtNnZXQ1Nzd0EyZURqeldzajJxd0lnaml3bjJGV3hkRjd4MW1MZw?oc=5",
-   "fonte": "a-quattroruote",
-   "fonte_nome": "Quattroruote",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "mercato_auto"
-   ],
-   "normativa": false,
-   "sintesi": "KIA Sportage 5ª serie Usata prezzo e caratteristiche tecniche - Auto Usate Quattroruote",
-   "pubblicata": "2026-11-20T23:20:34Z",
-   "visto": "2026-11-21T11:50:12Z",
-   "metodo": "gnews",
-   "sotto": [
-    "novita_auto.marchi",
-    "mercato_auto.prezzi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "36682095404f01cc",
-   "titolo": "Manovra, pensioni anticipate: Quota 64 nel maxi-emendamento. E rispunta Opzione-donna. Silenzio-assenso per pratiche di condono",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQWFHd3ltaE5CekFiaHo3VUNZSE9jNkk0T1lRbDFkcnY2V1VMSnJndHlOUm1mMHZvQ2tISjhZVzRZT1JEN2pjUGVCaE9kT094eWN0YzNLTm9jcVlNdlpkS1ZwS0JFWlJwaDJiZnlJZWg2NUI5QkpGWWJRMzF5WWl2bFJ6bnB6WlZ3eWZIMjlUN05VN0ZIMjhfMm42VWdGZzNONG41RWNFbDJjcU9KQkwyQzNHOTRSTHlEZVBaLW9PdHV5RWVLR3FaZdIByAFBVV95cUxOQWFHd3ltaE5CekFiaHo3VUNZSE9jNkk0T1lRbDFkcnY2V1VMSnJndHlOUm1mMHZvQ2tISjhZVzRZT1JEN2pjUGVCaE9kT094eWN0YzNLTm9jcVlNdlpkS1ZwS0JFWlJwaDJiZnlJZWg2NUI5QkpGWWJRMzF5WWl2bFJ6bnB6WlZ3eWZIMjlUN05VN0ZIMjhfMm42VWdGZzNONG41RWNFbDJjcU9KQkwyQzNHOTRSTHlEZVBaLW9PdHV5RWVLR3FaZQ?oc=5",
-   "fonte": "mit",
-   "fonte_nome": "Ministero Infrastrutture (MIT)",
-   "tipo": "ufficiale",
-   "aree": [
-    "edilizia",
-    "bonus"
-   ],
-   "normativa": true,
-   "sintesi": "Manovra, pensioni anticipate: Quota 64 nel maxi-emendamento. E rispunta Opzione-donna. Silenzio-assenso per pratiche di condono Il Messaggero",
-   "pubblicata": "2026-11-20T23:17:12Z",
-   "visto": "2026-11-21T20:01:14Z",
-   "metodo": "gnews",
-   "sotto": [
-    "edilizia.sanatorie",
-    "bonus.bilancio"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "ingegnere",
-    "architetto",
-    "geometra",
-    "notaio",
-    "commercialista",
-    "agente_imm"
-   ],
-   "altre_fonti": []
-  },
-  {
-   "id": "038727614fdc4287",
-   "titolo": "Catasto online: accesso gratuito per immobili di terzi",
-   "link": "https://www.italiaoggi.it/diritto-e-fisco/catasto-online-accesso-gratuito-per-immobili-di-terzi-o5brzd3j",
-   "fonte": "italiaoggi",
-   "fonte_nome": "ItaliaOggi (fisco e casa)",
-   "tipo": "stampa",
-   "aree": [
-    "catasto"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "catasto.docfa"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "geometra",
-    "notaio",
-    "agente_imm",
-    "commercialista"
-   ]
-  },
-  {
-   "id": "14955ced6ab4623f",
-   "titolo": "Intelligenza artificiale nelle indagini: nuove regole e sfide",
-   "link": "https://www.italiaoggi.it/diritto-e-fisco/giustizia/intelligenza-artificiale-nelle-indagini-nuove-regole-e-sfide-ewzgrr8f",
-   "fonte": "italiaoggi",
-   "fonte_nome": "ItaliaOggi (fisco e casa)",
-   "tipo": "stampa",
-   "aree": [
-    "norme",
-    "digitale"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "norme.ue",
-    "digitale.sviluppo"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "data",
-    "ingegnere",
-    "perito",
-    "sviluppatore",
-    "cyber"
-   ]
-  },
-  {
-   "id": "00d4594de7257d7b",
-   "titolo": "Debiti fuori bilancio, stop ai mutui per i risarcimenti anche se il Comune acquisisce beni",
-   "link": "https://www.italiaoggi.it/enti-locali-e-pa/debiti-fuori-bilancio-stop-ai-mutui-per-i-risarcimenti-anche-se-il-comune-acquisisce-beni-ymp7t4ps",
-   "fonte": "italiaoggi",
-   "fonte_nome": "ItaliaOggi (fisco e casa)",
-   "tipo": "stampa",
-   "aree": [
-    "immobiliare"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "immobiliare.mercato"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "mutui",
-    "agente_imm",
-    "condominio",
-    "valutatore",
-    "notaio"
-   ]
-  },
-  {
-   "id": "5f9deb958caf4e5c",
-   "titolo": "Generazione Yolo: la rivoluzione del \"si vive una sola volta\" che riscrive il senso del lavoro",
-   "link": "https://www.ansa.it/sito/notizie/magazine/numeri/2026/08/30/generazione-yolo-la-rivoluzione-del-si-vive-una-sola-volta-che-riscrive_5cbf48c2-4f6c-409c-a6ad-c8e9c1b61069.html",
-   "fonte": "p-ansa-pol",
-   "fonte_nome": "ANSA Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "6aad7af79fa2bbfa",
-   "titolo": "Macron, serve riaprire la questione dell'adesione dell'Ucraina alla Nato",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/19/macron-serve-riaprire-la-questione-delladesione-dellucraina-alla-nato_949943ea-8831-455c-859e-00ea0e56309d.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "625571057cfcc3ce",
-   "titolo": "Merz, 'siamo pronti a parlare con Putin ma in un luogo neutrale'",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/19/merz-siamo-pronti-a-parlare-con-putin-ma-in-un-luogo-neutrale_3a9a80bf-64b4-4753-9e9c-d0e9bd8f9df2.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "b5152c398c1e74a4",
-   "titolo": "Putin, 'abbiamo invitato gli europei a Mosca per comprendere la loro posizione'",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/19/putin-abbiamo-invitato-gli-europei-a-mosca-per-comprendere-la-loro-posizione_694784cd-bcc1-4294-9d9c-4f13a5cb53e9.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "0ec9bad69232119c",
-   "titolo": "'Trump ha chiamato gli europei, con Putin è andata bene'",
-   "link": "https://www.ansa.it/sito/notizie/mondo/europa/2026/11/19/trump-ha-chiamato-gli-europei-con-putin-e-andata-bene_5e6383bb-157e-46e8-871f-14281db51266.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "f75b55b31943a892",
-   "titolo": "Kushner, 'Russia ha accettato di partecipare a formato multilaterale con europei",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/19/kushner-russia-ha-accettato-di-partecipare-a-formato-multilaterale-con-europei_d4ae28be-b76b-4d02-80c8-9a9a962cbcfe.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "54f0dcce0f4062d2",
-   "titolo": "Kushner, 'Trump non vuole un accordo unilaterale' per la pace in Ucraina",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/19/kushner-trump-non-vuole-un-accordo-unilaterale-per-la-pace-in-ucraina_ea31eca1-0095-47e0-b1f7-057e2b38345f.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "f23692bf05933ee3",
-   "titolo": "Giochi Mediterraneo: Corsolini, candidare Taranto alle Olimpiadi giovanili",
-   "link": "https://www.ansa.it/puglia/notizie/speciali/xx_giochi_del_mediterraneo_taranto_2026/2026/09/12/giochi-mediterraneo-corsolini-candidare-taranto-alle-olimpiadi-giovanili_7b7cb723-d5b4-4f85-ba53-94f49c952baa.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "3b446660ba2642e5",
-   "titolo": "Xi, Trump e Putin siglano un patto per la pace, 'abbiamo fatto la storia'",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/19/cina-usa-e-russia-adottano-una-dichiarazione-di-pace_9e7135eb-3e7b-4851-bfab-d2fbdb0e6829.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "c5e69deffb534e8b",
-   "titolo": "'Russia-Cina-Usa prevedono di aumentare produzione di prodotti petroliferi'",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/19/russia-cina-usa-prevedono-di-aumentare-produzione-di-prodotti-petroliferi_0ffcd1bd-3b40-4264-b581-5655c6807b8e.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "dfa8d1bd74a20f10",
-   "titolo": "Xi, armi nucleari da vietare e distruggere, obiettivo un mondo senza atomiche",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/19/xi-armi-nucleari-da-vietare-e-distruggere-obiettivo-un-mondo-senza-atomiche_e87a462a-2737-4b77-94e4-8726175b645c.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "a9974b95a5a3ab67",
-   "titolo": "Farage, 'al vertice Ue-Gb mi aspetto tradimento di Burnham'",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/19/farage-al-vertice-ue-gb-mi-aspetto-tradimento-di-burnham_944b57d0-656f-45cf-9f5c-dff1d6f52b96.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "europa",
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "europa.istituzioni",
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "fc8acd88fc11f18a",
-   "titolo": "Mosca, 'nuovo attacco degli ucraini al ponte in Crimea'",
-   "link": "https://www.ansa.it/sito/notizie/mondo/europa/2026/11/18/mosca-nuovo-attacco-degli-ucraini-al-ponte-in-crimea_1691202c-a4df-4ca1-8983-8c42e8d60188.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "681c90d510323400",
-   "titolo": "Israele, Change Bloc presenta ddl per limitare il mandato del premier a 8 anni",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/19/israele-change-bloc-presenta-ddl-per-limitare-il-mandato-del-premier_b744d722-e496-42c0-822c-de4adc894ea2.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "governo",
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "governo.parlamento",
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "c21b85bdaccb24ae",
-   "titolo": "Hezbollah: 'Non abbiamo nulla da perdere, stupiremo Israele e Stati Uniti'",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/18/hezbollah-non-abbiamo-nulla-da-perdere-stupiremo-israele-e-stati-uniti_ed9ce47b-cddb-4142-bd87-56d20bd41477.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "e375f34746a5ed15",
-   "titolo": "Tajani, 'Shenzhen non è nuova Yalta, speriamo dia contributo alla pace'",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/19/tajani-shenzhen-non-e-nuova-yalta-speriamo-dia-contributo-alla-pace_35373ddd-3d5c-4525-99f9-1d31535945bc.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "95b24dacd658ee2f",
-   "titolo": "Manovra, vertice con Meloni e i leader maggioranza: fatto il “punto\" Politica Si è tenuta in serata una nuova riunione tra la premier Giorgia Meloni e i leader dei partiti... 19 nov - 21:55",
-   "link": "https://tg24.sky.it/politica/2026/11/19/manovra-2027-governo-meloni-vertice",
-   "fonte": "p-sky",
-   "fonte_nome": "Sky TG24 Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti",
-    "governo.governo"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "d0e7ff8126d18d51",
-   "titolo": "Minori e social, proposta di divieto a under 13 e verifica dell'età Politica Arriva alla Camera l’emendamento del centrodestra sui social al decreto sicurezza. I minori sotto... 19 nov - 19:13",
-   "link": "https://tg24.sky.it/politica/video/2026/11/19/minori-e-social-proposta-di-divieto-a-under-13-e-verifica-delleta-1141188",
-   "fonte": "p-sky",
-   "fonte_nome": "Sky TG24 Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti",
-    "governo.parlamento"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "6497aaf991f534d2",
-   "titolo": "Governo, Schlein: non c'è più la maggioranza Politica 19 nov - 19:06",
-   "link": "https://tg24.sky.it/politica/video/2026/11/19/governo-schlein-non-ce-piu-la-maggioranza-1141187",
-   "fonte": "p-sky",
-   "fonte_nome": "Sky TG24 Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti",
-    "governo.governo"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "d976f9980ff91cdf",
-   "titolo": "Allarmi bomba, Piantedosi: Mai pericolo concreto, ma non sottovalutiamo minaccia Politica Il ministro dell’Interno Piantedosi ha riferito alla Camera e al Senato sugli attacchi hacker e... 19 nov - 18:34",
-   "link": "https://tg24.sky.it/politica/video/2026/11/19/allarmi-bomba-piantedosi-mai-pericolo-concreto-ma-non-sottovalutiamo-minaccia-1141181",
-   "fonte": "p-sky",
-   "fonte_nome": "Sky TG24 Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo",
-    "giustizia"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "governo.parlamento",
-    "giustizia.diritti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "286593344a119e17",
-   "titolo": "Il nodo della patrimoniale e le divisioni politiche nel centrosinistra Politica 19 nov - 17:52",
-   "link": "https://tg24.sky.it/politica/video/2026/11/19/il-nodo-della-patrimoniale-e-le-divisioni-politiche-nel-centrosinistra-1141170",
-   "fonte": "p-sky",
-   "fonte_nome": "Sky TG24 Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "74928f078551c40d",
-   "titolo": "Ucraina, Tajani: vertice Cina? Non è nuova Yalta ma spero sia utile Politica 19 nov - 17:44",
-   "link": "https://tg24.sky.it/politica/video/2026/11/19/ucraina-tajani-vertice-cina-non-e-nuova-yalta-ma-spero-sia-utile-1141168",
-   "fonte": "p-sky",
-   "fonte_nome": "Sky TG24 Politica",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "4973d638fe6181cb",
-   "titolo": "Med Dialogues, Mattarella: Mediterraneo messo alla prova Politica Il legame tra le sponde del Mediterraneo messo alla prova da guerre, instabilità e tensioni... 19 nov - 17:21",
-   "link": "https://tg24.sky.it/politica/video/2026/11/19/med-dialogues-mattarella-mediterraneo-messo-alla-prova-1141163",
-   "fonte": "p-sky",
-   "fonte_nome": "Sky TG24 Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "governo.quirinale"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "b29c840c91cf4690",
-   "titolo": "Liberi di scegliere, da protocollo a legge antimafia Politica Con la testimonianza esclusiva di una madre che ha sfidato i clan per salvare i figli, si è... 19 nov - 17:06",
-   "link": "https://tg24.sky.it/politica/video/2026/11/19/liberi-di-scegliere-da-protocollo-a-legge-antimafia-1141156",
-   "fonte": "p-sky",
-   "fonte_nome": "Sky TG24 Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "69fd38d46fd07d4d",
-   "titolo": "Augias, il talento dell'ascolto Politica Ci lascia, a 91 anni, Corrado Augias. Intellettuale, giornalista, scrittore, divulgatore. Un... 19 nov - 13:50",
-   "link": "https://tg24.sky.it/politica/video/2026/11/19/augias-ricordo-1141067",
-   "fonte": "p-sky",
-   "fonte_nome": "Sky TG24 Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "3206bc4b9b47638a",
-   "titolo": "Guerra ibrida, Piantedosi: \"No allarmismo ma non sottovalutare\" Politica \"Non si è mai verificato alcun pericolo materiale, né alcun rischio concreto per l'incolumità dei... 19 nov - 13:02",
-   "link": "https://tg24.sky.it/politica/video/2026/11/19/guerra-ibrida-piantedosi-no-allarme-ma-non-sottovalutare-1141064",
-   "fonte": "p-sky",
-   "fonte_nome": "Sky TG24 Politica",
-   "tipo": "stampa",
-   "aree": [
-    "giustizia",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "giustizia.diritti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "0f813e30ecc1fc27",
-   "titolo": "Elly Schlein, mezzanotte alla Playstation (con il cane): il conto alla rovescia per GTA della «segretaria-nerd»",
-   "link": "https://www.corriere.it/politica/26_novembre_19/elly-schlein-mezzanotte-alla-playstation-con-il-cane-il-conto-alla-rovescia-per-gta-della-segretaria-nerd-d7a6ced5-154c-4858-8259-82f41adc0xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "05d00b06babedc37",
-   "titolo": "Elezioni politiche 2027, i tempi della Consulta decisivi per la data del voto: l’ipotesi di novembre",
-   "link": "https://www.corriere.it/politica/26_novembre_19/elezioni-politiche-2027-novembre-consulta-d9212855-8e09-41de-8de4-02f169845xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.elezioni",
-    "governo.quirinale"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "4e21c6e5a8b34189",
-   "titolo": "Sconto libri scolastici digitali, Cipolletta (Aie): «Macché agevolazione, senza volumi di carta si impara poco e male»",
-   "link": "https://www.corriere.it/politica/26_novembre_18/sconto-libri-scolastici-digitali-cipolletta-aie-macche-agevolazione-senza-volumi-di-carta-si-impara-poco-e-male-31a52b69-455b-47aa-9839-76cd72e06xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "dc89fc5274e5f160",
-   "titolo": "Un pasticcio che evidenzia il nervosismo tra alleati",
-   "link": "https://www.corriere.it/politica/26_novembre_18/un-pasticcio-che-evidenzia-il-nervosismo-tra-alleati-cb326be2-5d6d-4258-bd3e-dcb3a0c42xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "841e59ea20ef7111",
-   "titolo": "Commissione Covid, scienziati e medici in rivolta. «No a processi sommari e tesi antiscientifiche»",
-   "link": "https://www.corriere.it/politica/26_novembre_18/scienziati-e-medici-contro-la-commissioien-covid-no-a-processi-sommari-e-tesi-antiscientifiche-e942cd0c-81be-4169-b87f-5e121598fxlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "governo.parlamento"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "c1365521cc0b36ef",
-   "titolo": "Emanuele Fiano lascia il Pd dopo il no alla legge sull'antisemitismo: «Schlein mi ha chiamato, ma per me resta un limite invalicabile»",
-   "link": "https://www.corriere.it/politica/26_novembre_18/emanuele-fiano-pd-antisemitismo-14c03fc9-3bdf-494d-a21f-4c1a1da95xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "697a107d4fba04c6",
-   "titolo": "Antisemitismo, sì alla legge (tra tensioni e accuse). Lo strappo dei riformisti del Pd",
-   "link": "https://www.corriere.it/politica/26_novembre_18/antisemitismo-si-alla-legge-tra-tensioni-e-accuse-lo-strappo-dei-riformisti-del-pd-3eafa87c-38fd-45a1-80b8-fb0eb951axlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "7b779fe4e22cdf7c",
-   "titolo": "Patrimoniale, le proposte del centrosinistra per tassare la ricchezza e i suoi tre principali problemi",
-   "link": "https://www.corriere.it/politica/26_novembre_18/patrimoniale-proposte-centrosinistra-20cec07e-1faa-4847-a20e-8c50a6417xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "50124156e131a1bf",
-   "titolo": "Nuova Manovra: pensioni e rivalutazioni, condono , Irpef e partite Iva, ecco gli emendamenti finali e cosa cambia nel 2027",
-   "link": "https://www.corriere.it/economia/finanza/26_novembre_18/manovra-nuova-2027-emendamenti-finali-pensioni-condono-irpef-7896ebb5-7fe0-42a4-8205-9d5bd3b9axlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "economia_pol",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "economia_pol.manovra",
-    "governo.parlamento"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "1e1d7264d9396db1",
-   "titolo": "Tassare la ricchezza i 3 effetti negativi dietro il prelievo",
-   "link": "https://www.corriere.it/politica/26_novembre_17/tassare-la-ricchezza-i-3-effetti-negativi-dietro-il-prelievo.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "0dceae6bd1ceb350",
-   "titolo": "Verso la sfida in Parlamento con gli alleati e con Bruxelles",
-   "link": "https://www.corriere.it/politica/26_novembre_17/verso-la-sfida-in-parlamento-con-gli-alleati-e-con-bruxelles-4fcb4628-094f-449d-a8d8-43c98fcf4xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo",
-    "europa"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "governo.parlamento",
-    "europa.istituzioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "5f0a6171bc68e811",
-   "titolo": "Fratoianni e Bonelli (Avs): «Senza la patrimoniale nel programma inutile fare le primarie e non c'è coalizione»",
-   "link": "https://www.corriere.it/politica/26_novembre_17/bonelli-avs-senza-la-patrimoniale-nel-programma-inutile-fare-le-primarie-5e4918ea-ef09-4cef-8198-899f03690xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "978fa4100346ae04",
-   "titolo": "La «Storia infinita» torna al cinema: perché è diventato il film di riferimento della destra? E perché la kermesse di FdI si chiama Atreju?",
-   "link": "https://www.corriere.it/politica/26_novembre_17/storia-infinita-meloni-atreju-tolkien-destra-72be07cd-6b44-427f-8472-1e00f900dxlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "ac0404b1799223f1",
-   "titolo": "La lettera di Ignazio La Russa: «Fascismo, ecco che cosa ho detto davvero»",
-   "link": "https://www.corriere.it/politica/26_novembre_17/cosa-ho-detto-sul-fascismo-3b6174ae-6fad-4cc4-9ad6-879ebb28fxlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "03c8fafffaaf7e74",
-   "titolo": "Serracchiani, i Calderoli e gli altri, quando la politica «divide» le coppie. Amore e partito, da Togliatti e Iotti a oggi",
-   "link": "https://www.corriere.it/politica/26_novembre_17/i-calderoli-serracchiani-e-gli-altri-quando-la-politica-divide-le-coppie-amore-e-partito-da-togliatti-e-iotti-a-oggi-d2d3a746-6140-49ae-abc5-8d076ca98xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "75b3271db3632f11",
-   "titolo": "M5S, Buffagni: «Milano volti pagina. Ma le primarie in città sono irragionevoli»",
-   "link": "https://www.corriere.it/politica/26_novembre_16/stefano-buffagni-m5s-intervista-0177ddc4-b843-40b3-b992-7b22035e8xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "13775a9e0e4b6fa3",
-   "titolo": "Sull'evasione delle tasse una timidezza trasversale",
-   "link": "https://www.corriere.it/politica/26_novembre_16/sull-evasione-delle-tasse-una-timidezza-trasversale-ba3f0347-6bce-486a-b9f2-0e1ab9c1axlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "economia_pol",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "economia_pol.manovra"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "0b2e2a447d54e5cf",
-   "titolo": "Mario Turco (M5S): «Patrimoniale? No, bisogna tutelare investimenti e capitale produttivo. Si agisca sui profitti delle speculazioni»",
-   "link": "https://www.corriere.it/politica/26_novembre_15/patrimoniale-mario-turco-m5s-non-si-deve-colpire-il-capitale-produttivo-le-risorse-vanno-prese-da-chi-specula-5794add5-9921-49e9-b129-2d86baf07xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "93f08d6e3c3bc45e",
-   "titolo": "Patrimoniale | Fornaro (Pd): «Le disuguaglianze sono aumentate. Ora ci vuole coraggio, serve un riequilibrio»",
-   "link": "https://www.corriere.it/politica/26_novembre_15/patrimoniale-federico-fornaro-pd-le-disuguaglianze-sono-aumentate-ora-ci-vuole-coraggio-serve-un-riequilibrio-a1f5925f-bb5a-47c4-bfec-68e5c9d36xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "850c03d8a9bbea8a",
-   "titolo": "La patrimoniale fa discutere il Campo largo. Avs: «È una necessità». Ma il leader M5S: «No, colpiamo la speculazione finanziaria». E Schlein: «Io sono per la tassa sui super ricchi»",
-   "link": "https://www.corriere.it/politica/26_novembre_15/centrosinistra-la-patrimoniale-che-divide-i-leader-alla-festa-dei-verdi-fceadc21-cf3e-4b4d-b858-9aac730b0xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "58a2b542897305e5",
-   "titolo": "Polemica in Futuro nazionale, scoppia il caso del referente locale che gestisce profili di ragazze su Only Fans",
-   "link": "https://www.corriere.it/politica/26_novembre_15/polemica-in-futuro-nazionale-scoppia-il-caso-del-referente-locale-che-gestisce-profili-di-ragazze-su-only-fans-870f52c0-f899-431b-a2cc-2c91a04e6xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "04505c6be1ee7352",
-   "titolo": "Gli inviti ad Atreju spaccano il Campo largo: Schlein dice no, Renzi sì, Conte non ha deciso",
-   "link": "https://www.corriere.it/politica/26_novembre_15/gli-inviti-ad-atreju-spaccano-il-campo-largo-schlein-dice-no-renzi-si-conte-non-ha-deciso-c3276ce4-5a4f-4a09-b693-0d1d8b398xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "707bf8d3549eb7cb",
-   "titolo": "L'appello per Gaza: «L’Italia invii la Marina in soccorso»",
-   "link": "https://www.corriere.it/politica/26_novembre_15/l-appello-per-gaza-l-italia-invii-la-marina-in-soccorso-a3530daa-b89a-4a6b-961b-68d9107ffxlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "a8ddc28132577237",
-   "titolo": "Il sondaggio di Pagnoncelli: astensionisti, le ragioni della sfiducia. Le scelte «last minute» degli incerti",
-   "link": "https://www.corriere.it/politica/26_novembre_15/pagnoncelli-sondaggio-astensione-f8fd71e8-f164-4bcf-a4f9-b3293cb06xlk.shtml",
-   "fonte": "p-corriere",
-   "fonte_nome": "Corriere della Sera Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.elezioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "6ec98c8e51a9ced9",
-   "titolo": "La chiave politica Commenti e retroscena del panorama politico",
-   "link": "https://www.ilmessaggero.it/newsletter/",
-   "fonte": "p-messaggero",
-   "fonte_nome": "Il Messaggero Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "f169165222479070",
-   "titolo": "di Ernesto Menicucci Dai libri digitali al condono. Tutte le promesse della manovra",
-   "link": "https://www.ilmessaggero.it/newsletter/la-chiave-politica/",
-   "fonte": "p-messaggero",
-   "fonte_nome": "Il Messaggero Politica",
-   "tipo": "stampa",
-   "aree": [
-    "economia_pol",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "economia_pol.manovra"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "9259a65a6accd335",
-   "titolo": "Il piano del campo largo: risorse per ridurre le tasse dal prelievo sulle ricchezze",
-   "link": "https://www.ilmessaggero.it/politica/campo_largo_piano_elezioni_accordo-9898661.html",
-   "fonte": "p-messaggero",
-   "fonte_nome": "Il Messaggero Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "1e99f4cd0b40ca76",
-   "titolo": "Meloni a Berlino: «Se Putin vuole pace lo dimostri Xi faccia la sua parte per mettere fine alla guerra»",
-   "link": "https://www.ilmessaggero.it/politica/meloni_putin_russia_guerra_vertice_volenterosi_berlino-9900556.html",
-   "fonte": "p-messaggero",
-   "fonte_nome": "Il Messaggero Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "f7aa50383d221533",
-   "titolo": "Sondaggi il campo largo avanti sul centrodestra (di un solo punto). Cala Fdi, Vannacci sotto al 6%",
-   "link": "https://www.ilmessaggero.it/politica/sondaggi_politici_campo_largo_centrodestra_vannacci_meloni_ultimi_dati-9900500.html",
-   "fonte": "p-messaggero",
-   "fonte_nome": "Il Messaggero Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "ac7efbd0a89f0b26",
-   "titolo": "Approvato in Senato emendamento su libri digitali, FI vota contro: «Non concordato». Azione a favore",
-   "link": "https://www.ilmessaggero.it/politica/decreto_scuola_libri_digitali_votazioni_maggioranza_senato-9900229.html",
-   "fonte": "p-messaggero",
-   "fonte_nome": "Il Messaggero Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo",
-    "partiti"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "governo.parlamento",
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "5b6e994bb6239d27",
-   "titolo": "Scontro sui testi scolastici, FdI insiste, Forza Italia frena. Seduta sospesa per trattare",
-   "link": "https://www.ilmessaggero.it/politica/testi_scolastici_digitali_scontro_senato_cosa_e_successo-9898665.html",
-   "fonte": "p-messaggero",
-   "fonte_nome": "Il Messaggero Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "03b088a0995723ca",
-   "titolo": "Fazzolari: «Libri digitali? È buon senso. Non capisco il “no” di M5S»",
-   "link": "https://www.ilmessaggero.it/politica/fazzolari_manovra_libri_testo_cosa_ha_detto-9898667.html",
-   "fonte": "p-messaggero",
-   "fonte_nome": "Il Messaggero Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "85a5dd74a3f7c101",
-   "titolo": "Il no al ddl antisemitismo scuote il Pd. Fiano lascia: «Un limite invalicabile»",
-   "link": "https://www.ilmessaggero.it/politica/fiano_lascia_pd_no_ddl_antisemitismo-9898663.html",
-   "fonte": "p-messaggero",
-   "fonte_nome": "Il Messaggero Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti",
-    "governo.parlamento"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "5ccbadaf810da0f5",
-   "titolo": "L'ex rettore Morzenti all'Anac. I contatti tra Salvini e Schlein",
-   "link": "https://www.ilmessaggero.it/politica/anac_morzenti_pellegrini_nomina_salvini_schlein-9898673.html",
-   "fonte": "p-messaggero",
-   "fonte_nome": "Il Messaggero Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "93d874b158045f2c",
-   "titolo": "Corteo a Roma, il gesto di Andrea e Carlos: «Noi scudo contro i violenti che oscurano la protesta»",
-   "link": "https://www.ilmessaggero.it/politica/corteo_roma_andrea_carlos_scudo_violenti_protesta-9903075.html",
-   "fonte": "p-messaggero",
-   "fonte_nome": "Il Messaggero Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "e272bf18dd13b953",
-   "titolo": "X Factor: Le Distanze in missione di riscatto (8), Teo Bok da YouTube (5), Fontana graffia (7)",
-   "link": "https://www.ilmessaggero.it/schede/x_factor_pagelle_inediti_le_distanze_teo_bok_mad_dog_alex_fontana-9900321.html",
-   "fonte": "p-messaggero",
-   "fonte_nome": "Il Messaggero Politica",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.difesa"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "b4fce662edbb3830",
-   "titolo": "Ma gli e-book piacciono ai presidi. Parla Giannelli",
-   "link": "https://www.ilfoglio.it/politica/2026/11/19/news/la-guerra-sugli-e-book-divide-la-maggioranza-ma-piace-ai-presidi-parla-giannelli-anp--414198",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "ff42483746030d9f",
-   "titolo": "Luminarie a Napoli per Natale, l?esordio in piazza Bovio: su lungomare effetto America?s Cup",
-   "link": "https://www.ilmattino.it/napoli/citta/luminarie_a_napoli_per_natale_l_esordio_in_piazza_bovio_su_lungomare_effetto_america_s_cup-9903028.html",
-   "fonte": "p-mattino",
-   "fonte_nome": "Il Mattino (Napoli e Campania)",
-   "tipo": "stampa",
-   "aree": [
-    "territorio"
-   ],
-   "normativa": false,
-   "sintesi": "Dalle vie del centro a quelle del salotto buono, fino al lungomare e alla zona occidentale.",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "rss",
-   "sotto": [
-    "territorio.campania"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "12da8555d5eca813",
-   "titolo": "Politica, l'intervista al coordinatore Martusciello: «Chi lascia Fi ha paura di non essere più eletto»",
-   "link": "https://www.ilmattino.it/napoli/politica/politica_intervista_martusciello_fi_elezioni-9902764.html",
-   "fonte": "p-mattino",
-   "fonte_nome": "Il Mattino (Napoli e Campania)",
-   "tipo": "stampa",
-   "aree": [
-    "territorio"
-   ],
-   "normativa": false,
-   "sintesi": "Getta acqua sul fuoco il coordinatore regionale di Fi Fulvio Martusciello quando gli chiedi degli ultimi 3 addii al partito.",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "f06cad438b597953",
-   "titolo": "Audi Q9, la prova: il gigante che si muove con leggerezza",
-   "link": "https://www.auto.it/video/anteprime/primo-test/2026/11/20-9314331/audi_q9_la_prova_il_gigante_che_si_muove_con_leggerezza",
-   "fonte": "a-autoit",
-   "fonte_nome": "Auto.it",
-   "tipo": "stampa",
-   "aree": [
-    "prove",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "scraping",
-   "sotto": [
-    "prove.prove",
-    "novita_auto.marchi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "76187c55eb5fa8bc",
-   "titolo": "Muse alieni a Milano: la band mescola messaggi extraterrestri, l’umanoide Ameca in console, laser ipnotizzanti e una parata di successi da “Knights Of Cydonia” a “Plug In Baby” – Il racconto",
-   "link": "https://www.ilfattoquotidiano.it/2026/11/21/muse-alieni-a-milano-la-band-mescola-messaggi-extraterrestri-lumanoide-ameca-in-console-laser-ipnotizzanti-e-una-parata-di-successi-da-knights-of-cydonia-a-plug/8579263/",
-   "fonte": "p-fatto",
-   "fonte_nome": "Il Fatto Quotidiano Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Anche se non conoscete neanche mezza canzone dei Muse, vale la pena, almeno una volta nella vita, assistere a un loro concerto.",
-   "pubblicata": "2026-11-20T23:12:20Z",
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "28dfc09e2c63d62d",
-   "titolo": "PS2 modificate: un tesoro nascosto o un rischio per i collezionisti?",
-   "link": "https://www.everyeye.it/notizie/ps2-modificate-tesoro-nascosto-rischio-collezionisti-911247.html",
-   "fonte": "t-everyeye",
-   "fonte_nome": "Everyeye",
-   "tipo": "stampa",
-   "aree": [
-    "hardware",
-    "gaming"
-   ],
-   "normativa": false,
-   "sintesi": "A distanza di oltre vent'anni, scopriamo quanto valgono oggi le PlayStation 2 modificate e perché non sempre sono più ricercate dei modelli originali.",
-   "pubblicata": "2026-11-20T23:12:00Z",
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "dffa52aa5c3804d0",
-   "titolo": "GM porta in mostra un veicolo elettrico pionieristico al Test Track di EPCOT",
-   "link": "https://www.electricmotornews.com/storia-veicoli-elettrici/gm-test-track-epcot/",
-   "fonte": "a-electricmotor",
-   "fonte_nome": "Electric Motor News",
-   "tipo": "stampa",
-   "aree": [
-    "elettriche"
-   ],
-   "normativa": false,
-   "sintesi": "General Motors ha messo su strada un veicolo elettrico molto prima che il termine \"EV\" diventasse di uso comune nel mondo automobilistico.",
-   "pubblicata": "2026-11-20T23:11:39Z",
-   "visto": "2026-11-21T17:01:03Z",
-   "metodo": "rss",
-   "sotto": [
-    "elettriche.ev"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": [],
-   "altre_fonti": []
-  },
-  {
-   "id": "9678d68d8300a706",
-   "titolo": "Manovra, Centrodestra sempre a caccia di risorse sulla sanità: Salvini rilancia su condono",
-   "link": "https://www.adnkronos.com/economia/manovra-sanita-salvini-condono_36rOPq7Pt5pgVOhIfEywAw",
-   "fonte": "adnkronos",
-   "fonte_nome": "Adnkronos (edilizia e fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "sanita",
-    "management"
-   ],
-   "normativa": true,
-   "sintesi": "(Adnkronos) - Prosegue querelle su contributo banche, verso nuovo vertice prossima settimana",
-   "pubblicata": "2026-11-20T23:10:54Z",
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "rss",
-   "sotto": [
-    "sanita.sistema",
-    "management.finanza"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "farmacista",
-    "infermiere",
-    "psicologo",
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "72c8d22f7e26123c",
-   "titolo": "L’ONU non riesce a eleggere il suo prossimo Segretario Generale",
-   "link": "https://www.ilpost.it/2026/11/21/consiglio-di-sicurezza-onu-segretario-generale/",
-   "fonte": "p-post",
-   "fonte_nome": "Il Post",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "Al Consiglio di Sicurezza non c'è un candidato che vada bene a tutti, e il tempo stringe",
-   "pubblicata": "2026-11-20T23:10:39Z",
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "rss",
-   "sotto": [
-    "partiti.elezioni",
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "d3cfbeaa0a70338c",
-   "titolo": "Pinocchio - una favola alla rovescia",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUFRYUS1YX0lLS0hsY0QyRXZEeEVFQnRsbS1EelgzVm5wVGFuM1lmbTFjOFdTdVpXNlBDZjEtNEVpNmpPcVo4NmUzdlNrcEp4VGVFSlFiZndULS0yeEdXWFVMdUVLNzRTR3VaU0lrWjQtVk1nbUc5LTNQVG1FWm1EUDVpd0lnTVotVjY1N2xMWXE2VWF1QUNIVGVpWk1Ka0NfTW8yTmUyaUR4aGxGdlQyVk5ySjhEeTh4b1QzNWJqNWlsUG8?oc=5",
-   "fonte": "p-rainews",
-   "fonte_nome": "Rai News Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Pinocchio - una favola alla rovescia RaiNews",
-   "pubblicata": "2026-11-20T23:08:00Z",
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "0fbdbbf401b3e54e",
-   "titolo": "Telefonia mobile, portabilità a Giugno 2026: in calo le linee acquisite da Vodafone",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeU9vcmlORVc1TGw3aWwwWURhWkRsb3Zpc3RhOHhHajJncERyRS12NjczeVJqcV91Si02bHF0LXNuVUVPYXd1NGhHLTRyZUJFaWxiRmVpMHFiTWxmRkc2S0VWVi1xeXcxZnpkYVowTUV3RkoxVFgwemowQzFYTWxsVHo2WGVESnBneU1zZld6X1hHeDM2eVJ0VHJNaDZFU0lYNGwxbkgxMTB6c19OQWFVRTRhN1Jvb1M1ZVNv?oc=5",
-   "fonte": "t-vodafone",
-   "fonte_nome": "Vodafone Italia",
-   "tipo": "stampa",
-   "aree": [
-    "telecom",
-    "hardware"
-   ],
-   "normativa": false,
-   "sintesi": "Telefonia mobile, portabilità a Giugno 2026: in calo le linee acquisite da Vodafone MondoMobileWeb.it",
-   "pubblicata": "2026-11-20T23:07:00Z",
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "af45c1d1f21ccbaa",
-   "titolo": "Claude Code 2.1.330 aggiunge accesso aziendale e grafici",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1ZSSTlUaXFjY2ZSbEV2Sm5zVF9LdEcxUWxnUlUxUS1lcXQ3aUdham5vYzRJeHJGZHVQNC1BZzVrM0kxejFtdENzaG5UNzc0VVpRX2FLckxOSjJuUUJfVVJfTmtoUFlGZEpCa1A3NGg2RWNzOV8xNXdHTlVJSlFta08tbmR0ejVjWVRkaEdhdGlVOWhzN3pjZGRtSU93Zl8xeE9pQmltV2E?oc=5",
-   "fonte": "t-android-auth",
-   "fonte_nome": "Android Authority",
-   "tipo": "stampa",
-   "aree": [
-    "ai",
-    "smartphone"
-   ],
-   "normativa": false,
-   "sintesi": "Claude Code 2.1.330 aggiunge accesso aziendale e grafici Meteora Web",
-   "pubblicata": "2026-11-20T23:04:44Z",
-   "visto": "2026-11-21T02:51:26Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": [],
-   "tradotto": true
-  },
-  {
-   "id": "71eba91da521d335",
-   "titolo": "Dacia Bigster in offerta: promozione con il finanziamento",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWjNxNUhyZnpTUi1JbUc5VkQ3TmY5R0dHaGhOcEtpbUNKT2JqeTdfTVZvSlFCMXVrSHRodDRBTjB5Zkc0YmZGYk1Md0Q1djRfWE12aTBta1hVQ1JwOEp5NGVhZHFJdmJ5SUFHVU5GVktGbUJxcnZMeVBMZ0RKVXo0VHdscVRYUkdfUXB4d3F2QU5ubG5xb0E?oc=5",
-   "fonte": "ao-sconti",
-   "fonte_nome": "Offerte auto nuove",
-   "tipo": "stampa",
-   "aree": [
-    "offerte_auto",
-    "mercato_auto"
-   ],
-   "normativa": false,
-   "sintesi": "Dacia Bigster in offerta: promozione con il finanziamento Newsauto.it",
-   "pubblicata": "2026-11-20T23:04:18Z",
-   "visto": "2026-11-21T19:49:26Z",
-   "metodo": "gnews",
-   "sotto": [
-    "offerte_auto.sconti",
-    "mercato_auto.prezzi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "a6ff66449ba01856",
-   "titolo": "Audi Q9, ecco il nuovo giga suv: com’è e come va l’ammiraglia a ruote alte",
-   "link": "https://www.ilsole24ore.com/art/audi-q9-ecco-nuovo-giga-suv-com-e-e-come-va-l-ammiraglia-ruote-alte-AJ9OK7LC",
-   "fonte": "p-sole",
-   "fonte_nome": "Il Sole 24 Ore Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "economia_pol"
-   ],
-   "normativa": false,
-   "sintesi": "Audi introduce nella propria gamma suv la nuova Q9, un’ammiraglia che punta su spazio, comfort e contenuti tecnologici per portare il concetto di lusso del marchio a un…",
-   "pubblicata": "2026-11-20T23:03:01Z",
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "rss",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "dbe8340bc4063894",
-   "titolo": "Atp Finals, Medvedev-Tiafoe 6-3, 6-4: gli highlights del match",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRldCV051d1lkYkVVbW5QTHRoaWRHMzlqV3JSSVh1UUMtbDdKNmd0QzBZS2hxallKcVhMbEdQcTBDYlhhd0t2Y09CZ0JsQkdHLWJWUEN5dHhEaWtuMkEyZWJtSDc4WUdHaDB4c1FjZ1RzUWdRT0FPMVRQVXpkU1pieENjb2Y5ekNJZXd6ak1UY1U3cFFfMHFMWEZoX1FuVnJVMDBwdTdLNHhITlZqWGNmWU84aWVZbktaX29qbW1RLTVZOXJkMWt2aFFSWVlCbjZTMVFKUE56S2JMQm5l0gHiAUFVX3lxTFBvMzJmM2ItNWpIazUtNmwyR0h3ck5KZlIxaUp6VWdzVDdpQTNySWtLLUpnZWdTdlRzWFBkRGw5eW9mRkFFVkpaakNjanFueUhuWXJEcGRjTW1wUHFpalZJYmVyMGs3ckVxdWJQQVpES0lKcVVuZ3pxRnV5ZkFicUJfS1o4NFkya3dpc1VpNUEzRUlnSHJ2OUdYRnZaOFhRMEgzalpTYUdZOGJ4WG1Qc2JQSk5fSjRUVDZlM3d3U19JUkF1WFA5RGJkaF8xZ1JWM0R2SFFJb1ljNnRuVEhQUERRZ2c?oc=5",
-   "fonte": "p-rainews",
-   "fonte_nome": "Rai News Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Atp Finals, Medvedev-Tiafoe 6-3, 6-4: gli highlights del match RaiNews",
-   "pubblicata": "2026-11-20T23:03:00Z",
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "60413390490b8dc4",
-   "titolo": "Manovra, mobilitazione per lo sciopero in tutto il Paese. Landini: \"Un milione in 100 piazze\"",
-   "link": "https://www.adnkronos.com/cronaca/sciopero-generale-cgil-landini-opposizione_7Lhh3FCFkZBurFkwglhvBK",
-   "fonte": "adnkronos",
-   "fonte_nome": "Adnkronos (edilizia e fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "bonus",
-    "sanita"
-   ],
-   "normativa": true,
-   "sintesi": "(Adnkronos) - Dure critiche dal palco romano di ieri anche dai leader di Pd, M5s e Avs su sanità, scuola e spese militari. Schlein: \"Legge di Bilancio va riscritta\".",
-   "pubblicata": "2026-11-20T23:02:42Z",
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "rss",
-   "sotto": [
-    "bonus.bilancio",
-    "sanita.sistema"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "commercialista",
-    "geometra",
-    "ingegnere",
-    "architetto",
-    "agente_imm",
-    "medico",
-    "farmacista"
-   ]
-  },
-  {
-   "id": "49fb86e7f2c0356f",
-   "titolo": "Audi Q9, la prova de Il Fatto.it – Oversize nelle misure, sorprendente nell’agilità – FOTO",
-   "link": "https://www.ilfattoquotidiano.it/2026/11/21/audi-q9-la-prova-de-il-fatto-it-oversize-nelle-misure-sorprendente-nellagilita-foto/8579249/",
-   "fonte": "p-fatto",
-   "fonte_nome": "Il Fatto Quotidiano Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "“Sei grande, grande, grande. Come te se grande solamente tu”. A Ingolstadt difficilmente si saranno ricordati di Mina, ma il ritornello della canzone è perfettamente…",
-   "pubblicata": "2026-11-20T23:01:16Z",
-   "visto": "2026-11-20T23:15:05Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "138b1e04d42c5006",
-   "titolo": "Manovra, condono edilizio con silenzio assenso. Se il comune non risponde scatta la sanatoria",
-   "link": "https://www.italiaoggi.it/diritto-e-fisco/fisco/manovra-condono-edilizio-con-silenzio-assenso-se-il-comune-non-risponde-scatta-la-sanatoria-rhw7onqc",
-   "fonte": "italiaoggi",
-   "fonte_nome": "ItaliaOggi (fisco e casa)",
-   "tipo": "stampa",
-   "aree": [
-    "edilizia",
-    "cantiere"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [
-    "edilizia.sanatorie",
-    "cantiere.maestranze"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "ingegnere",
-    "architetto",
-    "geometra",
-    "notaio",
-    "dl",
-    "cse",
-    "capocantiere",
-    "contabile"
-   ]
-  },
-  {
-   "id": "16dd7f2eb3099016",
-   "titolo": "Manovra, cedolare secca sui negozi per 12 anni di locazione",
-   "link": "https://www.italiaoggi.it/diritto-e-fisco/manovra-cedolare-secca-sui-negozi-per-12-anni-di-locazione-wedtbvo3",
-   "fonte": "italiaoggi",
-   "fonte_nome": "ItaliaOggi (fisco e casa)",
-   "tipo": "stampa",
-   "aree": [
-    "catasto",
-    "bonus"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [
-    "catasto.estimo",
-    "bonus.bilancio"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "geometra",
-    "notaio",
-    "agente_imm",
-    "commercialista",
-    "ingegnere",
-    "architetto"
-   ]
-  },
-  {
-   "id": "1eec5488a0de2702",
-   "titolo": "La fattura elettronica mette a rischio i forfettari. Possibili lettere di compliance in arrivo",
-   "link": "https://www.italiaoggi.it/diritto-e-fisco/fisco/la-fattura-elettronica-mette-a-rischio-i-forfettari-possibili-lettere-di-compliance-in-arrivo-nb7uuc69",
-   "fonte": "italiaoggi",
-   "fonte_nome": "ItaliaOggi (fisco e casa)",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [
-    "management.governance"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "compliance",
-    "manager",
-    "consulente_az",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "050f067a417c791b",
-   "titolo": "Giudice Usa, 'la Bayer pagherà 7,25 miliardi alle vittime del diserbante Roundup'",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/20/giudice-usa-la-bayer-paghera-725-miliardi-alle-vittime-del-diserbante_ee4a5a94-1f99-4407-a8dd-14bd6adbdcec.html",
-   "fonte": "p-ansa-pol",
-   "fonte_nome": "ANSA Politica",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": [],
-   "altre_fonti": [
-    "ANSA Mondo",
-    "Il Sole 24 Ore Politica"
-   ]
-  },
-  {
-   "id": "2958db1b6ad1e107",
-   "titolo": "Gli Usa annunciano nuove sanzioni contro l'Iran, colpiti '4 fiduciari del petrolio'",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/20/gli-usa-annunciano-nuove-sanzioni-contro-liran-colpiti-4-fiduciari-del_d18e2414-8888-4bb9-8434-b2e353a2f64b.html",
-   "fonte": "p-ansa-pol",
-   "fonte_nome": "ANSA Politica",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri",
-    "governo.parlamento"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": [],
-   "altre_fonti": [
-    "ANSA Mondo"
-   ]
-  },
-  {
-   "id": "18b75297c441ff73",
-   "titolo": "Trump difende il trilaterale di Shenzhen, ma alza il muro sui data center",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/20/trump-difende-il-trilaterale-di-shenzhen-ma-alza-il-muro-sui-data-center_09f505ad-f8ba-4714-9f43-d1df034bfc2a.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "7beff028f13bb5e8",
-   "titolo": "di Valeria Arnaldi Roma eventi weekend. Musei in Musica, Pappano all'Auditorium, Abramovic all'Arco di Giano",
-   "link": "https://www.ilmessaggero.it/newsletter/roma-weekend/",
-   "fonte": "p-messaggero",
-   "fonte_nome": "Il Messaggero Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "591eb30a0f350a40",
-   "titolo": "L'altro giorno ho rubato il portafoglio di mio zio. Alla sera sono tornato e gli ho imbucato nella casella della posta i documenti",
-   "link": "https://www.ilfoglio.it/rubriche/innamorato-fisso/2026/10/28/news/uneducazione-impostata-male--411891",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "85893c329036bc2e",
-   "titolo": "L’innovazione aggiusta il mondo e l'agricoltura (che è la base del mondo)",
-   "link": "https://www.ilfoglio.it/gli-eventi-del-foglio/2026/10/20/news/linnovazione-aggiusta-il-mondo-e-lagricoltura-che-e-la-base-del-mondo--411118",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "05a31933ca3851d9",
-   "titolo": "Dalla piazza alle urne. Il nuovo numero del Foglio europeo",
-   "link": "https://www.ilfoglio.it/gli-speciali-del-foglio/2026/11/06/news/dalla-piazza-alle-urne-il-nuovo-numero-del-foglio-europeo--412829",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.elezioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "8f2a38ffd361fd40",
-   "titolo": "La copertina del Foglio Review, raccontata da Marianna Tomaselli",
-   "link": "https://www.ilfoglio.it/gli-speciali-del-foglio/2026/10/30/news/la-copertina-del-foglio-review-raccontata-da-marianna-tomaselli--412046",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "bbecff1d5d2e91fb",
-   "titolo": "Il Foglio On Air: l’informazione del Foglio diventa video",
-   "link": "https://www.ilfoglio.it/gli-speciali-del-foglio/2026/10/07/news/il-foglio-on-air-linformazione-del-foglio-diventa-video--409853",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "adb15c7085f53e63",
-   "titolo": "Sei miliardi contro la guerra ibrida. Crosetto: \"Se ci limitiamo a difenderci, abbiamo già perso\"",
-   "link": "https://www.ilfoglio.it/politica/2026/11/18/video/sei-miliardi-contro-la-guerra-ibrida-crosetto-se-ci-limitiamo-a-difenderci-abbiamo-gia-perso--414023",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.difesa"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "beec0e2650f1e299",
-   "titolo": "Identificato l'uomo con il nickname che ha firmato gli allarmi bomba: non ha mandato lui le mail nelle scuole",
-   "link": "https://www.ilfoglio.it/cronaca/2026/11/18/news/identificato-luomo-con-il-nickname-che-ha-firmato-gli-allarmi-bomba-non-ha-mandato-lui-le-mail-nelle-scuole--414033",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "2cdcb0ca2632a956",
-   "titolo": "L’attesissima uscita di GTA VI e la nuova opera di Carmine Di Giandomenico",
-   "link": "https://www.ilfoglio.it/cultura/2026/11/17/video/la-nuova-opera-di-carmine-di-giandomenico-e-lattesissima-uscita-di-gta-vi--413789",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "d62bc4f4ca2fed3f",
-   "titolo": "Giorgetti l’asburgico che dà ragione al banchiere. Il botta e risposta sulla manovra",
-   "link": "https://www.ilfoglio.it/economia/2026/11/13/video/giorgetti-lasburgico-che-da-ragione-al-banchiere--413590",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "economia_pol",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [
-    "economia_pol.manovra"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "d1eb8b141e4a28ce",
-   "titolo": "Allarmi bomba in 6 mila scuole, Meloni convoca le opposizioni a Chigi. Ci saranno Schlein e Conte",
-   "link": "https://www.ilfoglio.it/politica/2026/11/11/video/dopo-i-nuovi-falsi-allarmi-bomba-meloni-invita-a-palazzo-chigi-i-leader-delle-opposizioni-confronto-sulla-sicurezza-nazionale--413354",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "4e8a42563c258188",
-   "titolo": "Quei 30 secondi nei quali Marco Carnesecchi ha riassunto l'abc del fare il portiere",
-   "link": "https://www.ilfoglio.it/sport/2026/11/10/video/quei-30-secondi-nei-quali-marco-carnesecchi-ha-riassunto-labc-del-fare-il-portiere--413239",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T23:01:06Z",
-   "metodo": "scraping",
    "sotto": [],
    "luogo": null,
    "nicchia": "politica",
