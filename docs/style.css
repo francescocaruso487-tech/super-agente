@@ -353,3 +353,8 @@ body.pop-open{overflow:hidden}
 .ico .sp{fill:currentColor;stroke:none;fill-opacity:.85}
 .bottom button.on .ico{opacity:1;color:var(--accent);transform:translateY(-1px) scale(1.06);filter:drop-shadow(0 3px 5px color-mix(in srgb,var(--accent) 35%,transparent))}
 .bottom button.on .ico .f{fill-opacity:.3}
+
+.piede{gap:8px}
+.ver{font-size:11.5px;font-weight:700;white-space:nowrap;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--ink);margin-left:auto;margin-right:6px}
+.ver.uff{background:rgba(31,157,107,.16)}.ver.ente{background:rgba(37,99,235,.14)}.ver.multi{background:rgba(245,158,11,.2)}.ver.sing{background:rgba(148,163,184,.22);color:var(--mute)}
+.pop-p a{color:var(--accent);font-weight:700;text-decoration:none}

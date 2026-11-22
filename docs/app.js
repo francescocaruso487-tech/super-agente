@@ -73,6 +73,28 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "
 const nome = (a) => (a === "p:_altre" ? "Notizie generali" : a.startsWith("p:") ? (state.professioni[a.slice(2)]?.emoji || "") + " " + (state.professioni[a.slice(2)]?.nome || a) : state.aree[a]?.nome || a);
 const colore = (a) => state.aree[a]?.colore || "#4a6fa5";
 
+
+// ===== Affidabilità di una notizia (da cosa sappiamo, senza inventare nulla) =====
+function verifica(n) {
+  const k = (n.altre_fonti || []).length;
+  if (n.tipo === "ufficiale") return { liv: "uff", ic: "🟢", corto: "Fonte ufficiale", spiega: `Pubblicata direttamente da un ente o da un'istituzione${k ? `, e ripresa anche da ${k} ${k === 1 ? "testata" : "testate"}` : ""}. È la fonte primaria: l'affidabilità sul fatto è la più alta.` };
+  if (n.tipo === "ente" || n.tipo === "ordine") return { liv: "ente", ic: "🔵", corto: n.tipo === "ordine" ? "Ordine/associazione" : "Ente", spiega: `Pubblicata da un ente, un ordine professionale o un'associazione${k ? `, e ripresa da ${k} ${k === 1 ? "testata" : "testate"}` : ""}. Affidabile sui propri atti; su temi più ampi può avere un punto di vista di categoria.` };
+  if (k >= 1) return { liv: "multi", ic: "🟡", corto: `${k + 1} testate`, spiega: `La stessa notizia compare su ${k + 1} testate diverse. Non è una conferma ufficiale, ma è più solida di una voce isolata. Controlla se qualcuna cita la fonte originale.` };
+  return { liv: "sing", ic: "⚪", corto: "Una sola testata", spiega: "L'abbiamo trovata su una sola testata e non in una fonte ufficiale. Trattala con cautela finché non trovi la fonte originale o un'altra conferma." };
+}
+const METODO = () => `<h2 class="pop-t">🔍 Come verifichiamo le notizie</h2>
+<p class="pop-p">Ogni notizia ha un indicatore di affidabilità. Si basa solo su ciò che l'app può controllare davvero.</p>
+<div class="pop-box">${pRiga("🟢 Fonte ufficiale", "Gazzetta, Camera, ministeri, enti")}${pRiga("🔵 Ente / Ordine", "Ordini, associazioni, enti")}${pRiga("🟡 Più testate", "Stessa notizia su 2 o più siti")}${pRiga("⚪ Una sola testata", "Nessuna conferma trovata")}</div>
+<div class="pop-sub">Il metodo, in 6 domande (fallo anche tu)</div>
+<p class="pop-p"><b>1. Chi lo dice?</b> Cerca l'autore e la testata: esistono davvero, hanno una redazione, un indirizzo, una storia?</p>
+<p class="pop-p"><b>2. Qual è la fonte originale?</b> Un articolo serio rimanda al documento: legge, circolare, sentenza, comunicato. Se non c'è, chiediti perché.</p>
+<p class="pop-p"><b>3. Quando è stato scritto?</b> Molte "novità" sono articoli vecchi riproposti. Controlla la data e se la norma è ancora in vigore.</p>
+<p class="pop-p"><b>4. Lo confermano altri, indipendenti?</b> Due siti che copiano lo stesso comunicato valgono come uno solo.</p>
+<p class="pop-p"><b>5. Che cosa non dice?</b> Titoli forti e numeri senza contesto sono un campanello. Leggi oltre il titolo.</p>
+<p class="pop-p"><b>6. Le immagini sono vere?</b> Ricerca inversa (Google Immagini, TinEye) per vedere se la foto è di un altro evento.</p>
+<p class="pop-p mute">Strumenti utili e gratuiti: Normattiva e Gazzetta Ufficiale per le leggi, Camera e Senato per i voti, ANAC per gli appalti, Wayback Machine per le pagine cancellate, le guide di Bellingcat per il metodo.</p>
+<p class="pop-fonte">L'indicatore dice quanto è solida la fonte, non se la notizia è vera: l'ultima parola resta al tuo giudizio.</p>`;
+
 function card(n) {
   const letta = state.lette.has(n.id);
   const nuovo = !letta && state.ultimaVisita && new Date(n.visto) > new Date(state.ultimaVisita);
@@ -83,7 +105,7 @@ function card(n) {
     <div class="riga">${badge}${n.prezzo ? `<span class="badge prezzo">${esc(n.prezzo)}</span>` : ""}${(n.prof || []).slice(0, 3).map((p) => state.professioni[p] ? `<span class="badge pf" title="${esc(state.professioni[p].nome)}">${state.professioni[p].emoji} ${esc(state.professioni[p].nome)}</span>` : "").join("")}${n.tradotto ? '<span class="badge pf" title="Fonte straniera, titolo tradotto automaticamente">🌐 Tradotto</span>' : ""}${n.normativa ? `<span class="badge norm">${["edilizia"].includes(n.nicchia || "edilizia") ? "Normativa" : "Ufficiale"}</span>` : ""}${nuovo ? '<span class="nuovo" title="Nuova"></span>' : ""}</div>
     <h3 class="titolo">${esc(n.titolo)}</h3>
     ${n.sintesi ? `<p class="sintesi">${esc(n.sintesi)}</p>` : ""}
-    <div class="piede"><span>${esc(n.fonte_nome)}${(n.altre_fonti || []).length ? ` +${n.altre_fonti.length}` : ""} · ${fa(dataDi(n))}</span>
+    <div class="piede"><span>${esc(n.fonte_nome)}${(n.altre_fonti || []).length ? ` +${n.altre_fonti.length}` : ""} · ${fa(dataDi(n))}</span><span class="ver ${verifica(n).liv}">${verifica(n).ic} ${esc(verifica(n).corto)}</span>
       <button class="stella${stella ? " on" : ""}" data-star="${n.id}" aria-label="Salva">${stella ? "★" : "☆"}</button></div>
   </article>`;
 }
@@ -267,7 +289,7 @@ function renderFonti() {
   const problemi = s.fonti.filter((f) => f.stato === "errore" || f.stato === "vuoto").length;
   const scrap = s.fonti.filter((f) => f.stato === "ok_scraping" || f.stato === "ok_indiretto").length;
   $("#fonti-riepilogo").innerHTML = `<b>${s.fonti.filter((f) => ['ok', 'ok_scraping', 'ok_indiretto'].includes(f.stato)).length} / ${s.fonti.length} fonti attive</b>
-    <p>${problemi ? `${problemi} da sistemare` : "Nessun problema"}${scrap ? ` · ${scrap} lette in modo approssimativo` : ""}. Ultimo controllo: ${s.aggiornato ? fa(new Date(s.aggiornato)) : "—"}.</p>`;
+    <p>${problemi ? `${problemi} da sistemare` : "Nessun problema"}${scrap ? ` · ${scrap} lette in modo approssimativo` : ""}. Ultimo controllo: ${s.aggiornato ? fa(new Date(s.aggiornato)) : "—"}.</p><button class="pop-btn sec" data-metodo style="margin-top:8px;width:100%">🔍 Come verifichiamo le notizie</button>`;
   let out = "";
   for (const tipo of Object.keys(ETICHETTE_TIPO)) {
     const gruppo = s.fonti.filter((f) => f.tipo === tipo);
@@ -477,6 +499,7 @@ window.addEventListener("popstate", () => chiudiPop(true));
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") chiudiPop(); if ((e.key === "Enter" || e.key === " ") && e.target.dataset && e.target.dataset.pop) { e.preventDefault(); apriPop(state.pop[e.target.dataset.pop] || ""); } });
 document.addEventListener("click", (e) => {
   if (e.target.closest("[data-pop-x]")) { chiudiPop(); return; }
+  const mt = e.target.closest("[data-metodo]"); if (mt) { e.preventDefault(); e.stopPropagation(); apriPop(METODO()); return; }
   if (e.target.closest("#pop a, #pop button")) return;
   const d = e.target.closest("[data-pop]");
   if (d && !e.target.closest("[data-star]")) { e.stopPropagation(); e.preventDefault(); apriPop(state.pop[d.dataset.pop] || ""); }
@@ -489,6 +512,7 @@ function apriNews(n) {
   apriPop(`<div class="riga">${badge}${n.normativa ? '<span class="badge norm">Ufficiale</span>' : ""}</div>
     <h2 class="pop-t">${te(n.titolo)}</h2>
     ${n.sintesi ? `<p class="pop-p">${te(n.sintesi)}</p>` : '<p class="pop-p mute">Questa fonte non fornisce un riassunto: apri l\'articolo per leggerlo.</p>'}
+    <div class="pop-sub">Affidabilità</div><p class="pop-p">${verifica(n).ic} <b>${esc(verifica(n).corto)}</b> — ${esc(verifica(n).spiega)}</p><p class="pop-p mute"><a href="#" data-metodo>Come verificare una notizia →</a></p>
     <div class="pop-box">${pRiga("Fonte", esc(n.fonte_nome))}${(n.altre_fonti || []).length ? pRiga("Riportata anche da", esc(n.altre_fonti.join(", "))) : ""}${pRiga("Pubblicata", fa(dataDi(n)))}${n.tradotto ? pRiga("Titolo", "tradotto automaticamente") : ""}</div>
     <div class="pop-az">${pBtn(n.link, "Apri la fonte ↗")}<button class="pop-btn sec" data-star="${n.id}">${stella ? "★ Salvata" : "☆ Salva"}</button></div>`);
 }
@@ -673,7 +697,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "44";
+const VERSIONE_APP = "45";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
