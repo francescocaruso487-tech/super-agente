@@ -213,6 +213,102 @@ def wikidata_it(qs):
     return out
 
 
+# ---------------------------------------------------------------- cultura (Wikiquote / Wikizionario / Wikipedia)
+import hashlib
+
+CACHE = DATA / "cultura_cache.json"
+
+
+def pick(chiave, n):
+    return int(hashlib.md5(chiave.encode()).hexdigest(), 16) % max(n, 1)
+
+
+def frasi_archivio():
+    """Citazioni del giorno dall'archivio di Wikiquote: {(giorno, mese): (testo, autore)}."""
+    t = get("https://it.wikiquote.org/api/rest_v1/page/html/Wikiquote:Archivio_delle_citazioni_del_giorno").content.decode("utf-8", "replace")
+    T = pulisci(re.sub(r"<(script|style).*?</\1>", " ", t, flags=re.S))
+    out = {}
+    rx = re.compile(r"(\d{1,2})º? (" + "|".join(MESI) + r") : (.+?) \( ([^()]{3,80}?) \)(?= \d{1,2}º? (?:" + "|".join(MESI) + r") :|$)")
+    for m in rx.finditer(T):
+        out[(int(m.group(1)), MESI.index(m.group(2)) + 1)] = (m.group(3).strip(), m.group(4).strip())
+    return out
+
+
+def frase_oggi_home():
+    t = get("https://it.wikiquote.org/api/rest_v1/page/html/Pagina_principale").content.decode("utf-8", "replace")
+    i = t.find("main-page-heading")
+    seg = t[i:i + 3000]
+    q = re.search(r"<i>(.*?)</i>", seg, re.S)
+    a = re.search(r'<b><a rel="mw:WikiLink" href="\./([^"]+)"[^>]*>([^<]+)</a></b>', seg)
+    if q and a:
+        return pulisci(q.group(1)), pulisci(a.group(2))
+    return None
+
+
+def parola_del_giorno():
+    t = get("https://it.wiktionary.org/api/rest_v1/page/html/Pagina_principale").content.decode("utf-8", "replace")
+    i = t.find("Wikizionario:Parola_del_giorno")
+    seg = t[i:i + 9000]
+    j = seg.find('class="" style="background-color')
+    cella = seg[j:] if j > 0 else seg
+    cella = cella.split("</table>")[0]
+    b = re.search(r"<b[^>]*>(.*?)</b>", cella, re.S)
+    parola = pulisci(b.group(1)) if b else None
+    testo = pulisci(cella)
+    if not parola or len(testo) < 20:
+        return None
+    return {"parola": parola, "testo": testo[:700], "link": f"https://it.wiktionary.org/wiki/{parola.replace(' ', '_')}"}
+
+
+def modi_di_dire():
+    for cat in ("Locuzioni_verbali_in_italiano", "Locuzioni_nominali_in_italiano", "Espressioni_familiari-IT"):
+        voci, cont = [], {}
+        for _ in range(8):
+            r = get("https://it.wiktionary.org/w/api.php", params={"action": "query", "list": "categorymembers", "cmtitle": "Categoria:" + cat, "cmlimit": 500, "cmnamespace": 0, "format": "json", **cont}).json()
+            voci += [x["title"] for x in r.get("query", {}).get("categorymembers", [])]
+            if "continue" not in r:
+                break
+            cont = r["continue"]
+        voci = [v for v in voci if " " in v]
+        if len(voci) > 50:
+            return sorted(voci)
+    return []
+
+
+def significato_modo(titolo):
+    t = get("https://it.wiktionary.org/api/rest_v1/page/html/" + requests.utils.quote(titolo.replace(" ", "_"))).content.decode("utf-8", "replace")
+    ol = re.search(r"<ol[^>]*>(.*?)</ol>", t, re.S)
+    if not ol:
+        return None
+    defs = []
+    for li in re.findall(r"<li[^>]*>(.*?)</li>", ol.group(1), re.S):
+        li = re.sub(r"<ul.*?</ul>|<dl.*?</dl>|<ol.*?</ol>", " ", li, flags=re.S)
+        x = pulisci(li)
+        if x:
+            defs.append(x[:260])
+    return defs[:3] or None
+
+
+def comuni_lista():
+    q = ('SELECT ?c ?title WHERE { ?c wdt:P31 wd:Q747074; wdt:P17 wd:Q38. ?a schema:about ?c; schema:isPartOf <https://it.wikipedia.org/>; schema:name ?title }')
+    b = get("https://query.wikidata.org/sparql", params={"query": q, "format": "json"}).json()["results"]["bindings"]
+    return sorted({x["title"]["value"] for x in b})
+
+
+def comune_info(titolo):
+    j = get("https://it.wikipedia.org/api/rest_v1/page/summary/" + requests.utils.quote(titolo.replace(" ", "_"), safe="")).json()
+    ex = pulisci(j.get("extract", ""))
+    if len(ex) < 60 or j.get("type") == "disambiguation":
+        return None
+    frasi = re.split(r"(?<=[.!?])\s+(?=[A-ZÀ-Ý])", ex)
+    testo = ""
+    for f in frasi:
+        if len(testo) + len(f) > 700 and testo:
+            break
+        testo += (" " if testo else "") + f
+    return {"nome": j.get("title", titolo), "descr": j.get("description", ""), "testo": testo, "link": (j.get("content_urls", {}).get("desktop", {}) or {}).get("page")}
+
+
 def costituzione(d):
     f = DATA / "costituzione.json"
     if not f.exists():
@@ -227,6 +323,21 @@ def main():
     oggi = datetime.now(TZ).date()
     fest = {**festivita(oggi.year), **festivita(oggi.year + 1)}
     giorni, errori = {}, []
+    try:
+        cache = json.load(open(CACHE, encoding="utf-8")) if CACHE.exists() else {}
+    except Exception:
+        cache = {}
+    limite = (oggi - timedelta(days=30)).isoformat()
+    cache = {k: v for k, v in cache.items() if k >= limite}
+    def tenta(fn, nome):
+        try:
+            return fn()
+        except Exception as e:  # noqa: BLE001
+            errori.append(f"{nome}: {str(e)[:60]}")
+            return None
+    archivio = tenta(frasi_archivio, "archivio frasi") or {}
+    modi = tenta(modi_di_dire, "modi di dire") or []
+    comuni = tenta(comuni_lista, "comuni") or []
     for i in range(GIORNI):
         d = oggi + timedelta(days=i)
         r = {"data": d.isoformat(), "giorno_settimana": GIORNO[d.weekday()], "settimana": d.isocalendar()[1], "giorno_anno": d.timetuple().tm_yday,
@@ -262,14 +373,53 @@ def main():
             except Exception as e:  # noqa: BLE001
                 errori.append(f"{d} {nome}: {str(e)[:60]}")
                 r[nome] = []
-        giorni[d.isoformat()] = r
+        # cultura: frase, parola, modo di dire, comune
+        iso = d.isoformat()
+        c = cache.setdefault(iso, {})
+        if "frase" not in c:
+            try:
+                fr = archivio.get((d.day, d.month)) if archivio else None
+                if not fr and i == 0:
+                    fr = frase_oggi_home()
+                if fr:
+                    c["frase"] = {"testo": fr[0], "autore": fr[1]}
+            except Exception as e:  # noqa: BLE001
+                errori.append(f"{d} frase: {str(e)[:60]}")
+        if "parola" not in c and i == 0:
+            try:
+                pdg = parola_del_giorno()
+                if pdg:
+                    c["parola"] = pdg
+            except Exception as e:  # noqa: BLE001
+                errori.append(f"{d} parola: {str(e)[:60]}")
+        if "modo" not in c and modi:
+            try:
+                tit = modi[pick("modo" + iso, len(modi))]
+                df = significato_modo(tit)
+                if df:
+                    c["modo"] = {"espressione": tit, "significati": df, "link": "https://it.wiktionary.org/wiki/" + tit.replace(" ", "_")}
+            except Exception as e:  # noqa: BLE001
+                errori.append(f"{d} modo: {str(e)[:60]}")
+        if "comune" not in c and comuni:
+            for k in range(6):
+                try:
+                    inf = comune_info(comuni[pick(f"comune{iso}{k}", len(comuni))])
+                    if inf:
+                        c["comune"] = inf
+                        break
+                except Exception as e:  # noqa: BLE001
+                    errori.append(f"{d} comune: {str(e)[:60]}")
+        for kk in ("frase", "parola", "modo", "comune"):
+            r[kk] = c.get(kk)
+        giorni[iso] = r
     # "nei prossimi giorni": festività e feste mobili entro 45 giorni
     prossime = [{"data": d.isoformat(), "nome": n} for d, (n, t) in sorted(fest.items()) if 0 < (d - oggi).days <= 45]
     if not any(g["santi"] for g in giorni.values()) and not any(g["accadde"] for g in giorni.values()):
         raise SystemExit("nessun dato letto: " + "; ".join(errori))
+    CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=0), encoding="utf-8")
     out = {"aggiornato": datetime.now(timezone.utc).isoformat(timespec="seconds"), "luogo": "Caserta", "giorni": giorni, "prossime": prossime,
            "fonti": {"santi": "Vatican News", "astro": "calcolo astronomico per Caserta", "festivita": "calcolate dalle regole di legge e liturgiche",
-                     "costituzione": "Normattiva", "storia": "Wikipedia e Wikidata (non istituzionali)"}}
+                     "costituzione": "Normattiva", "storia": "Wikipedia e Wikidata (non istituzionali)", "cultura": "Wikiquote, Wikizionario, Wikipedia (non istituzionali)"}}
     (DATA / "almanacco.json").write_text(json.dumps(out, ensure_ascii=False, indent=0), encoding="utf-8")
     print("ok", len(giorni), "giorni; errori:", errori)
 
