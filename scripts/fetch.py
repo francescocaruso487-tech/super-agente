@@ -662,10 +662,28 @@ def testo_notifica(titolo, sintesi, limite=700):
     return (t + (f"\n{r}" if r else ""))[:limite]
 
 
+_RILEVANTE = re.compile(r"\b(decret\w*|legg[ei]|ddl|norm[ae]|normativ\w*|circolar\w*|bando|bandi|scadenz\w*|proroga\w*|bonus|incentiv\w*|detrazion\w*|agevolazion\w*|contribut\w*|obbligo|obblighi|sanzion\w*|riforma|sentenza|regolament\w*|linee guida|uni ?\d+|iso ?\d+|ntc|cam|superbonus|ecobonus|sismabonus|isee|irpef|iva|imu|tari|bolletta|bollette|tariff\w*|aggiornament\w*|novit[àa]|approvat\w*|pubblicat\w*|gazzetta ufficiale|in vigore|stop|vietat\w*|richiamo|recall|sciopero|allerta|cyber|vulnerabilit\w*|patch|data breach|sconto|offerta|prezzo|rincar\w*|ribass\w*|manovra|finanziaria|credito d.imposta|pension\w*|condono|emendament\w*|rottamazione|domande|ccnl|contratt\w*|truffa\w*|zes|rimborso|rimborsabilit\w*|multe|patente|codice della strada|nuove regole|nuovo|nuova|cassazione|consiglio di stato|t\.?a\.?r\.?|d\.?l\.?|d\.?lgs\.?|normattiva|privacy|garante|autorizzazion\w*|concorso|consultazione|assunzion\w*|tirocini|sospension\w*|blocc\w*|tasse|fisco|tribut\w*|aliquot\w*|rateizz\w*|cartell\w*|interpello|affitt\w*|proposta)\b", re.I)
+_FUTILE = re.compile(r"\b(a cena|cena con|sagra|festa|concerto|auguri|cordoglio|torneo|beneficenza|gara podistica|inaugurazione|taglio del nastro|cerimonia|compleanno|oroscopo)\b", re.I)
+
+
+def alert_rilevante(i):
+    """Notifica solo se la voce parla di qualcosa di concreto (norme, scadenze, soldi, sicurezza, prezzi), non di eventi o cerimonie."""
+    t = i["titolo"] + " " + (i.get("sintesi") or "")[:200]
+    return bool(_RILEVANTE.search(t)) and not _FUTILE.search(i["titolo"])
+
+
+def corpo_notifica(i, area, limite=600):
+    """Il titolo va nel titolo della notifica (in grassetto); qui solo il riassunto, senza ripetere il titolo, e la fonte."""
+    r = testo_notifica(i["titolo"], i.get("sintesi"), 2000).split("\n", 1)
+    riassunto = r[1] if len(r) > 1 else ""
+    riga = f"{area} · {i['fonte_nome']}"
+    return ((riassunto[: limite - len(riga) - 3] + "\n— " + riga) if riassunto else riga)
+
+
 def notify_new(new_items, aree_cfg):
     n_mod, gia_mod = avvisi_modelli(new_items)
     new_items = [i for i in new_items if i["id"] not in gia_mod]
-    alerts = [i for i in new_items if i["normativa"] and i.get("nicchia", "edilizia") in PUSH_NICCHIE]
+    alerts = [i for i in new_items if i["normativa"] and i.get("nicchia", "edilizia") in PUSH_NICCHIE and alert_rilevante(i)]
     if not alerts:
         return n_mod
     if len(alerts) > MAX_PUSH_SINGLE:
@@ -675,9 +693,8 @@ def notify_new(new_items, aree_cfg):
         return len(alerts) + n_mod
     for i in alerts:
         area = aree_cfg["aree"].get(i["aree"][0], {"nome": "Altro"})["nome"]
-        msg = testo_notifica(i["titolo"], i.get("sintesi"))
         sigla = {"tech": "📱 "}.get(i.get("nicchia"), "")
-        ntfy({"title": f"{sigla}{area} · {i['fonte_nome']}", "message": msg[:700], "click": i["link"],
+        ntfy({"title": f"{sigla}{clean(i['titolo'])}"[:140], "message": corpo_notifica(i, area), "click": i["link"],
               "priority": 4 if i["tipo"] == "ufficiale" else 3, "tags": ["rotating_light"] if i["tipo"] == "ufficiale" else ["newspaper"]})
     return len(alerts) + n_mod
 
