@@ -542,7 +542,7 @@ function renderAlmanacco() {
   const nav = `<div class="alm-nav"><button data-alm-day="${i - 1}" ${i <= 0 ? "disabled" : ""} aria-label="Giorno prima">‹</button><div><h1>${esc(titolo)}</h1><p>${g.settimana}ª settimana · ${g.giorno_anno}° giorno dell'anno · mancano ${g.giorni_alla_fine_anno} giorni alla fine dell'anno</p></div><button data-alm-day="${i + 1}" ${i + 1 >= ks.length ? "disabled" : ""} aria-label="Giorno dopo">›</button></div>`;
   let h = nav;
   // Festività
-  if (g.festivita && g.festivita.length) h += AS("🎉 Festività e ricorrenze civili", g.festivita.map((f) => `<p class="alm-fest ${esc(f.tipo)}">${esc(f.nome)}</p>`).join(""), `<p class="alm-f">Calcolate dalle regole di legge e liturgiche.</p>`);
+  if (g.festivita && g.festivita.some((f) => f.tipo !== "domenica")) h += AS("🎉 Festività e ricorrenze civili", g.festivita.filter((f) => f.tipo !== "domenica").map((f) => `<p class="alm-fest ${esc(f.tipo)}">${esc(f.nome)}</p>`).join(""), `<p class="alm-f">Calcolate dalle regole di legge e liturgiche.</p>`);
   // Santi
   h += AS("🕊️ Santo del giorno", (g.santi && g.santi.length ? g.santi.map((s) => `<h3>${esc(s.nome)}</h3><p>${esc(s.testo)}</p>${s.link ? `<a class="alm-l" href="${esc(s.link)}" target="_blank" rel="noopener">Leggi la storia completa su Vatican News ↗</a>` : ""}`).join("") : `<p class="mute">Non disponibile al momento.</p>`), `<p class="alm-f">Fonte: Vatican News, calendario dei Santi.</p>`);
   // Sole e Luna
@@ -815,7 +815,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "48";
+const VERSIONE_APP = "49";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
