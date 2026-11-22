@@ -384,3 +384,7 @@ body.alm-open{overflow:hidden}
 .sez-corpo.alm-s{background:var(--bg);box-shadow:none;margin:0;padding:6px 16px 14px;border-radius:0 0 var(--r) var(--r)}
 .sez-corpo.alm-s .alm-box{background:var(--card)}
 .alm-avviso{background:#fef3c7;color:#92400e;border-radius:14px;padding:10px 14px;font-size:13px;margin:0 0 12px}
+#btn-refresh{background:none;box-shadow:none;display:flex;align-items:center;justify-content:center;padding:0}
+#btn-refresh svg{display:block;transform-origin:50% 50%}
+#btn-refresh.spin{animation:none}
+#btn-refresh.spin svg{animation:spin .9s linear infinite}
