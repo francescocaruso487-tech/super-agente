@@ -1,0 +1,31 @@
+name: Aggiorna bandi e appalti
+on:
+  schedule:
+    - cron: "41 5 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bandi
+  cancel-in-progress: false
+jobs:
+  bandi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Leggi TED (appalti UE)
+        continue-on-error: true
+        run: python scripts/bandi.py
+      - name: Salva i dati
+        run: |
+          git config user.name "rassegna-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet || git commit -m "Aggiornamento bandi"
+          git pull --rebase -X theirs origin main
+          git push
