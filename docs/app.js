@@ -556,6 +556,11 @@ function renderAlmanacco() {
   if (g.ricorrenze && g.ricorrenze.length) h += AS("🌍 Feste e ricorrenze nel mondo", `<ul class="alm-ul">${g.ricorrenze.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`, `<p class="alm-f">Fonte: Wikipedia (non istituzionale). Le ricorrenze religiose ufficiali sono nel Santo del giorno.</p>`);
   // Costituzione
   if (g.costituzione) h += AS("⚖️ Note civiche: la Costituzione", `<h3>${esc(g.costituzione.articolo)}</h3><p class="alm-cost">${esc(g.costituzione.testo).replace(/\n/g, "<br>")}</p>`, `<p class="alm-f">Testo ufficiale dal sito Normattiva (Poligrafico dello Stato).</p>`);
+  // Cultura: frase, parola, modo di dire, comune
+  if (g.frase) h += AS("💬 Frase del giorno", `<p class="alm-q">“${esc(g.frase.testo)}”</p><p class="alm-qa">— ${esc(g.frase.autore)}</p>`, `<p class="alm-f">Fonte: Wikiquote, citazione del giorno (non istituzionale).</p>`);
+  if (g.parola) h += AS("🔤 Parola del giorno", `<h3>${esc(g.parola.parola)}</h3><p>${esc(g.parola.testo)}</p>${g.parola.link ? `<a class="alm-l" href="${esc(g.parola.link)}" target="_blank" rel="noopener">Apri la voce su Wikizionario ↗</a>` : ""}`, `<p class="alm-f">Fonte: Wikizionario (non istituzionale).</p>`);
+  if (g.modo) h += AS("🗣️ Modo di dire", `<h3>“${esc(g.modo.espressione)}”</h3>${g.modo.significati.map((x) => `<p>• ${esc(x)}</p>`).join("")}${g.modo.link ? `<a class="alm-l" href="${esc(g.modo.link)}" target="_blank" rel="noopener">Approfondisci su Wikizionario ↗</a>` : ""}`, `<p class="alm-f">Fonte: Wikizionario (non istituzionale).</p>`);
+  if (g.comune) h += AS("🏘️ Curiosità sui comuni italiani", `<h3>${esc(g.comune.nome)}</h3><p>${esc(g.comune.testo)}</p>${g.comune.link ? `<a class="alm-l" href="${esc(g.comune.link)}" target="_blank" rel="noopener">Leggi di più su Wikipedia ↗</a>` : ""}`, `<p class="alm-f">Un comune diverso ogni giorno. Fonte: Wikipedia (non istituzionale).</p>`);
   // Stagione e mese
   h += AS("🍎 Frutta e verdura di stagione", `<p><b>Frutta:</b> ${esc(g.stagione.frutta.join(", "))}.</p><p><b>Verdura:</b> ${esc(g.stagione.verdura.join(", "))}.</p>`, `<p class="alm-f">Calendario indicativo della stagionalità in Italia: può variare con zona e clima.</p>`);
   h += AS("📅 Origine del nome del mese", `<p>${esc(g.nome_mese)}</p>`);
@@ -566,7 +571,7 @@ function renderAlmanacco() {
   const bs = state.bandi && state.bandi.bandi ? state.bandi.bandi.filter((b) => b.scadenza && b.scadenza >= k && b.scadenza <= (ks[Math.min(i + 2, ks.length - 1)])) : [];
   const at = state.atti && state.atti.atti ? state.atti.atti.filter((x) => x.data === k).slice(0, 6) : [];
   if (bs.length || at.length) h += AS("📌 Dalla tua Rassegna", `${bs.length ? `<h3>Bandi in scadenza nei prossimi giorni</h3>${bs.slice(0, 6).map((b) => `<div class="alm-a"><b>${esc(almEtichetta(b.scadenza))}</b><span>${te(b.titolo)}<em> — ${te(b.ente)}</em></span></div>`).join("")}` : ""}${at.length ? `<h3>Atti ufficiali di oggi</h3>${at.map((x) => `<div class="alm-a"><b>GU</b><span>${te(x.descr || x.titolo)}</span></div>`).join("")}` : ""}`);
-  h += `<p class="alm-fine">Almanacco aggiornato ${A.aggiornato ? fa(new Date(A.aggiornato)) : "—"}. Fonti ufficiali: Vatican News, Normattiva, calcoli astronomici e di legge. Wikipedia/Wikidata sono dichiarate come non istituzionali.</p>`;
+  h += `<p class="alm-fine">Almanacco aggiornato ${A.aggiornato ? fa(new Date(A.aggiornato)) : "—"}. Fonti ufficiali: Vatican News, Normattiva, calcoli astronomici e di legge. Wikipedia, Wikidata, Wikiquote e Wikizionario sono dichiarate come non istituzionali.</p>`;
   return h;
 }
 function disegnaAlm() { const c = document.getElementById("alm-corpo"); c.innerHTML = renderAlmanacco(); c.scrollTop = 0; document.getElementById("alm-tit").textContent = "Oggi – " + almEtichetta(state.almKey); }
@@ -815,7 +820,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "49";
+const VERSIONE_APP = "50";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
