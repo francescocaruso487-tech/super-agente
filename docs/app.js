@@ -580,7 +580,7 @@ function renderAlmanacco() {
 }
 function disegnaAlm() { const c = document.getElementById("alm-corpo"); c.innerHTML = renderAlmanacco(); c.scrollTop = 0; document.getElementById("alm-tit").textContent = "Oggi – " + almEtichetta(state.almKey); }
 function apriAlm() {
-  if (!state.alm) return; const ov = document.getElementById("alm"); state.almKey = almGiornoCorrente(); disegnaAlm();
+  if (!state.alm) return; const ov = document.getElementById("alm"); state.almKey = almGiornoCorrente(); state.almAperta = "🕊️ Santo del giorno"; disegnaAlm();
   ov.hidden = false; document.body.classList.add("alm-open"); requestAnimationFrame(() => ov.classList.add("on"));
   if (!almAperto) history.pushState({ alm: 1 }, ""); almAperto = true;
 }
@@ -832,7 +832,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "51";
+const VERSIONE_APP = "52";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
