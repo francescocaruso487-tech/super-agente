@@ -378,3 +378,8 @@ body.pop-open{overflow:hidden}
 .alm-fest{font-weight:700;margin:4px 0!important}.alm-fest.festa{color:#b91c1c}.alm-cost{white-space:normal}
 body.alm-open{overflow:hidden}
 .alm-q{font-size:19px;line-height:1.4;font-style:italic;margin:4px 0 6px!important}.alm-qa{font-weight:700;color:var(--accent);margin:0 0 4px!important}
+.alm-corpo .alm-sez{margin:0 0 10px}
+.alm-corpo .alm-sez .sez-head{font-size:16.5px}
+.alm-corpo .sez.aperta .sez-head{top:0;padding-top:18px;border-radius:var(--r) var(--r) 0 0}
+.sez-corpo.alm-s{background:var(--bg);box-shadow:none;margin:0;padding:6px 16px 14px;border-radius:0 0 var(--r) var(--r)}
+.sez-corpo.alm-s .alm-box{background:var(--card)}

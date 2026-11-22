@@ -533,7 +533,11 @@ function aggiornaBoxOggi() {
   const k = almGiornoCorrente(); b.hidden = !k;
   if (k) { const d = new Date(oggiISO() + "T12:00:00"); document.getElementById("oggi-data").textContent = `${d.getDate()} ${MESI[d.getMonth()]}`; }
 }
-const AS = (t, corpo, extra) => `<section class="alm-s"><h2>${t}</h2>${corpo}${extra || ""}</section>`;
+state.almAperta = null;
+const AS = (t, corpo, extra) => {
+  const k = t.replace(/<[^>]*>/g, "").trim(), ap = state.almAperta === k;
+  return `<section class="sez alm-sez${ap ? " aperta" : ""}" style="--c:var(--accent)" data-asez="${esc(k)}"><button class="sez-head" data-asez-t="${esc(k)}" aria-expanded="${ap}"><span class="sez-titolo">${t}</span><span class="freccia" aria-hidden="true">›</span></button>${ap ? `<div class="sez-corpo alm-s">${corpo}${extra || ""}</div>` : ""}</section>`;
+};
 function almRiga(a, b) { return `<div class="alm-r"><b>${esc(a)}</b><span>${esc(b)}</span></div>`; }
 function renderAlmanacco() {
   const A = state.alm, k = state.almKey, g = A.giorni[k], ks = almChiavi(), i = ks.indexOf(k);
@@ -588,6 +592,14 @@ window.addEventListener("popstate", () => { if (almAperto && !(history.state && 
 document.addEventListener("click", (e) => {
   if (e.target.closest("#btn-oggi")) { apriAlm(); return; }
   if (e.target.closest("[data-alm-back]")) { chiudiAlm(); return; }
+  const at = e.target.closest("[data-asez-t]");
+  if (at) {
+    const k = at.dataset.asezT; state.almAperta = state.almAperta === k ? null : k;
+    const c = document.getElementById("alm-corpo"); c.innerHTML = renderAlmanacco();
+    const el = [...c.querySelectorAll("[data-asez]")].find((x) => x.dataset.asez === k);
+    if (el) c.scrollTop += el.getBoundingClientRect().top - c.getBoundingClientRect().top - 8;
+    return;
+  }
   const dd = e.target.closest("[data-alm-day]"); if (dd && !dd.disabled) { const ks = almChiavi(), n = +dd.dataset.almDay; if (ks[n]) { state.almKey = ks[n]; disegnaAlm(); } }
 });
 
@@ -820,7 +832,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "50";
+const VERSIONE_APP = "51";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
