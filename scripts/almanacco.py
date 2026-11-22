@@ -59,7 +59,7 @@ NOME_MESE = {
     11: "Novembre deriva da novem (nove): era il nono mese del calendario romano.",
     12: "Dicembre deriva da decem (dieci): era il decimo e ultimo mese del calendario romano.",
 }
-SPORT = re.compile(r"\b(rugby|calcio|campionat|olimpi|mondial|coppa|gran premio|formula 1|giro d'italia|tour de france|tennis|ciclismo|maratona|nba|nfl|scudetto|record|medaglia|atleta|squadra|pallavolo|basket|pallacanestro|boxe|pugilato|nuoto)\w*", re.I)
+SPORT = re.compile(r"\b(rugby|calcio|campionat|olimpi|coppa|gran premio|formula 1|giro d'italia|tour de france|tennis|ciclismo|maratona|nba|nfl|scudetto|record|medaglia|atleta|squadra|pallavolo|basket|pallacanestro|boxe|pugilato|nuoto)\w*", re.I)
 
 
 def pasqua(a):
@@ -256,7 +256,7 @@ def main():
             try:
                 voci = wiki_en_persone(d, chiave)
                 lab = wikidata_it([q for _, q in voci])
-                lista = [{"anno": a, "nome": lab[q][0], "descr": lab[q][1]} for a, q in voci if q in lab]
+                lista = [{"anno": a, "nome": lab[q][0], "descr": lab[q][1]} for a, q in voci if q in lab and not re.fullmatch(r"[\d\s]+", lab[q][0]) and lab[q][1] not in ("anno", "")]
                 lista.sort(key=lambda x: x["anno"])
                 r[nome] = lista[:60]
             except Exception as e:  # noqa: BLE001

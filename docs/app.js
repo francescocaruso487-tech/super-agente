@@ -521,6 +521,71 @@ document.addEventListener("click", (e) => {
 
 
 
+
+// ===== Almanacco del giorno =====
+state.almKey = null; let almAperto = false;
+const oggiISO = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; };
+function almChiavi() { return state.alm && state.alm.giorni ? Object.keys(state.alm.giorni).sort() : []; }
+function almGiornoCorrente() { const k = almChiavi(); if (!k.length) return null; const o = oggiISO(); return k.includes(o) ? o : (k.filter((x) => x <= o).pop() || k[0]); }
+function almEtichetta(iso) { const d = new Date(iso + "T12:00:00"); return `${d.getDate()} ${MESI[d.getMonth()]}`; }
+function aggiornaBoxOggi() {
+  const b = document.getElementById("btn-oggi"); if (!b) return;
+  const k = almGiornoCorrente(); b.hidden = !k;
+  if (k) { const d = new Date(oggiISO() + "T12:00:00"); document.getElementById("oggi-data").textContent = `${d.getDate()} ${MESI[d.getMonth()]}`; }
+}
+const AS = (t, corpo, extra) => `<section class="alm-s"><h2>${t}</h2>${corpo}${extra || ""}</section>`;
+function almRiga(a, b) { return `<div class="alm-r"><b>${esc(a)}</b><span>${esc(b)}</span></div>`; }
+function renderAlmanacco() {
+  const A = state.alm, k = state.almKey, g = A.giorni[k], ks = almChiavi(), i = ks.indexOf(k);
+  const dt = new Date(k + "T12:00:00"), titolo = `${g.giorno_settimana.charAt(0).toUpperCase() + g.giorno_settimana.slice(1)} ${dt.getDate()} ${MESI[dt.getMonth()]} ${dt.getFullYear()}`;
+  const dom = i + 1 < ks.length ? A.giorni[ks[i + 1]] : null;
+  const nav = `<div class="alm-nav"><button data-alm-day="${i - 1}" ${i <= 0 ? "disabled" : ""} aria-label="Giorno prima">‹</button><div><h1>${esc(titolo)}</h1><p>${g.settimana}ª settimana · ${g.giorno_anno}° giorno dell'anno · mancano ${g.giorni_alla_fine_anno} giorni alla fine dell'anno</p></div><button data-alm-day="${i + 1}" ${i + 1 >= ks.length ? "disabled" : ""} aria-label="Giorno dopo">›</button></div>`;
+  let h = nav;
+  // Festività
+  if (g.festivita && g.festivita.length) h += AS("🎉 Festività e ricorrenze civili", g.festivita.map((f) => `<p class="alm-fest ${esc(f.tipo)}">${esc(f.nome)}</p>`).join(""), `<p class="alm-f">Calcolate dalle regole di legge e liturgiche.</p>`);
+  // Santi
+  h += AS("🕊️ Santo del giorno", (g.santi && g.santi.length ? g.santi.map((s) => `<h3>${esc(s.nome)}</h3><p>${esc(s.testo)}</p>${s.link ? `<a class="alm-l" href="${esc(s.link)}" target="_blank" rel="noopener">Leggi la storia completa su Vatican News ↗</a>` : ""}`).join("") : `<p class="mute">Non disponibile al momento.</p>`), `<p class="alm-f">Fonte: Vatican News, calendario dei Santi.</p>`);
+  // Sole e Luna
+  const a = g.astro;
+  if (a) h += AS("☀️ Il Sole · 🌙 La Luna", `<div class="alm-box">${almRiga("Alba", a.alba || "—")}${almRiga("Tramonto", a.tramonto || "—")}${almRiga("Durata del giorno", a.durata || "—")}</div><div class="alm-box">${almRiga("Fase lunare", a.fase)}${almRiga("Illuminazione", a.illuminazione + "%")}${almRiga("Età della Luna", String(a.eta_giorni).replace(".", ",") + " giorni")}${almRiga("Sorge", a.sorge_luna || "—")}${almRiga("Tramonta", a.tramonta_luna || "—")}</div>`, `<p class="alm-f">Calcolo astronomico per Caserta (orari locali). Non è una fonte esterna.</p>`);
+  // Accadde oggi
+  if (g.accadde && g.accadde.length) h += AS(`📜 Accadde oggi <small>${g.accadde.length}</small>`, g.accadde.map((e) => `<div class="alm-a"><b>${e.anno}</b><span>${esc(e.testo)}</span></div>`).join(""), `<p class="alm-f">Fonte: Wikipedia (non istituzionale).</p>`);
+  if (g.sport && g.sport.length) h += AS("🏆 Eventi sportivi", g.sport.map((e) => `<div class="alm-a"><b>${e.anno}</b><span>${esc(e.testo)}</span></div>`).join(""), `<p class="alm-f">Selezionati dagli eventi del giorno (Wikipedia).</p>`);
+  if (g.nati && g.nati.length) h += AS(`🎂 Nati in questo giorno <small>${g.nati.length}</small>`, g.nati.map((e) => `<div class="alm-a"><b>${e.anno}</b><span>${esc(e.nome)}${e.descr ? `<em> — ${esc(e.descr)}</em>` : ""}</span></div>`).join(""), `<p class="alm-f">Fonte: Wikipedia e Wikidata (non istituzionali).</p>`);
+  if (g.morti && g.morti.length) h += AS(`🕯️ Morti in questo giorno <small>${g.morti.length}</small>`, g.morti.map((e) => `<div class="alm-a"><b>${e.anno}</b><span>${esc(e.nome)}${e.descr ? `<em> — ${esc(e.descr)}</em>` : ""}</span></div>`).join(""), `<p class="alm-f">Fonte: Wikipedia e Wikidata (non istituzionali).</p>`);
+  if (g.ricorrenze && g.ricorrenze.length) h += AS("🌍 Feste e ricorrenze nel mondo", `<ul class="alm-ul">${g.ricorrenze.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`, `<p class="alm-f">Fonte: Wikipedia (non istituzionale). Le ricorrenze religiose ufficiali sono nel Santo del giorno.</p>`);
+  // Costituzione
+  if (g.costituzione) h += AS("⚖️ Note civiche: la Costituzione", `<h3>${esc(g.costituzione.articolo)}</h3><p class="alm-cost">${esc(g.costituzione.testo).replace(/\n/g, "<br>")}</p>`, `<p class="alm-f">Testo ufficiale dal sito Normattiva (Poligrafico dello Stato).</p>`);
+  // Stagione e mese
+  h += AS("🍎 Frutta e verdura di stagione", `<p><b>Frutta:</b> ${esc(g.stagione.frutta.join(", "))}.</p><p><b>Verdura:</b> ${esc(g.stagione.verdura.join(", "))}.</p>`, `<p class="alm-f">Calendario indicativo della stagionalità in Italia: può variare con zona e clima.</p>`);
+  h += AS("📅 Origine del nome del mese", `<p>${esc(g.nome_mese)}</p>`);
+  // Domani e prossimi giorni
+  if (dom) h += AS("➡️ Domani si festeggia", `${dom.santi && dom.santi.length ? dom.santi.map((s) => `<p><b>${esc(s.nome)}</b></p>`).join("") : ""}${dom.festivita && dom.festivita.length ? dom.festivita.map((f) => `<p>${esc(f.nome)}</p>`).join("") : ""}`);
+  if (A.prossime && A.prossime.length) h += AS("🔭 Nei prossimi giorni", A.prossime.slice(0, 8).map((p) => `<div class="alm-a"><b>${esc(almEtichetta(p.data))}</b><span>${esc(p.nome)}</span></div>`).join(""), `<p class="alm-f">Festività e feste mobili dei prossimi 45 giorni.</p>`);
+  // Dalla Rassegna: bandi in scadenza e atti del giorno
+  const bs = state.bandi && state.bandi.bandi ? state.bandi.bandi.filter((b) => b.scadenza && b.scadenza >= k && b.scadenza <= (ks[Math.min(i + 2, ks.length - 1)])) : [];
+  const at = state.atti && state.atti.atti ? state.atti.atti.filter((x) => x.data === k).slice(0, 6) : [];
+  if (bs.length || at.length) h += AS("📌 Dalla tua Rassegna", `${bs.length ? `<h3>Bandi in scadenza nei prossimi giorni</h3>${bs.slice(0, 6).map((b) => `<div class="alm-a"><b>${esc(almEtichetta(b.scadenza))}</b><span>${te(b.titolo)}<em> — ${te(b.ente)}</em></span></div>`).join("")}` : ""}${at.length ? `<h3>Atti ufficiali di oggi</h3>${at.map((x) => `<div class="alm-a"><b>GU</b><span>${te(x.descr || x.titolo)}</span></div>`).join("")}` : ""}`);
+  h += `<p class="alm-fine">Almanacco aggiornato ${A.aggiornato ? fa(new Date(A.aggiornato)) : "—"}. Fonti ufficiali: Vatican News, Normattiva, calcoli astronomici e di legge. Wikipedia/Wikidata sono dichiarate come non istituzionali.</p>`;
+  return h;
+}
+function disegnaAlm() { const c = document.getElementById("alm-corpo"); c.innerHTML = renderAlmanacco(); c.scrollTop = 0; document.getElementById("alm-tit").textContent = "Oggi – " + almEtichetta(state.almKey); }
+function apriAlm() {
+  if (!state.alm) return; const ov = document.getElementById("alm"); state.almKey = almGiornoCorrente(); disegnaAlm();
+  ov.hidden = false; document.body.classList.add("alm-open"); requestAnimationFrame(() => ov.classList.add("on"));
+  if (!almAperto) history.pushState({ alm: 1 }, ""); almAperto = true;
+}
+function chiudiAlm(daStorico) {
+  if (!almAperto) return; almAperto = false; const ov = document.getElementById("alm"); ov.classList.remove("on"); document.body.classList.remove("alm-open"); setTimeout(() => { if (!almAperto) ov.hidden = true; }, 250);
+  if (!daStorico && history.state && history.state.alm) history.back();
+}
+window.addEventListener("popstate", () => { if (almAperto && !(history.state && history.state.alm)) chiudiAlm(true); });
+document.addEventListener("click", (e) => {
+  if (e.target.closest("#btn-oggi")) { apriAlm(); return; }
+  if (e.target.closest("[data-alm-back]")) { chiudiAlm(); return; }
+  const dd = e.target.closest("[data-alm-day]"); if (dd && !dd.disabled) { const ks = almChiavi(), n = +dd.dataset.almDay; if (ks[n]) { state.almKey = ks[n]; disegnaAlm(); } }
+});
+
 // ============ Pop-up (bottom sheet) per tutta l'app ============
 const dec = (s) => { const t = document.createElement("textarea"); t.innerHTML = String(s ?? ""); return t.value.replace(/\\"/g, '"').replace(/\s*\^\^\S+\s*$/, "").replace(/\s*\(\d{1,5}\)\s*$/, "").replace(/^\s*"(.*)"\s*$/, "$1"); };
 const te = (s) => esc(dec(s));
@@ -750,7 +815,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "47";
+const VERSIONE_APP = "48";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -765,6 +830,7 @@ async function carica(forza) {
     state.profilo = profilo || {};
     state.bandi = await j("bandi").catch(() => null); state.bandiProv = "tutte";
     state.atti = await j("atti").catch(() => null); state.attiFil = "tutti";
+    state.alm = await j("almanacco").catch(() => null); aggiornaBoxOggi();
     if (!Array.isArray(state.modelli)) state.modelli = [...(state.profilo.modelli || [])];
     state.professioni = prof.professioni || {}; state.gruppiProf = prof.gruppi || [];
     if (!Array.isArray(news.notizie)) throw new Error("dati non validi");
