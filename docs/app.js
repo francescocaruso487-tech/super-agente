@@ -253,10 +253,32 @@ function renderBandi() {
   return `<div class="riepilogo" style="margin-top:6px"><b>🏗️ Bandi di gara aperti in Campania</b><p>Appalti pubblici sopra soglia UE, con Caserta in testa. Aggiornati ${B.aggiornato ? fa(new Date(B.aggiornato)) : "—"}. Tocca un bando per i dettagli.</p></div>${chips}${cards || vuoto("Nessun bando aperto", "Per questa provincia non ci sono gare aperte sopra soglia.")}`;
 }
 
+// ===== Atti ufficiali (Gazzetta Ufficiale) =====
+const ATTI_FIL = [["tutti", "Tutti"], ["campania", "📍 Campania"], ["SG", "⚖️ Leggi e decreti"], ["S3", "🏛️ Regioni"], ["S1", "🧑‍⚖️ Corte Costituzionale"]];
+function renderAtti() {
+  const A = state.atti, tutti = A.atti || [], sel = state.attiFil;
+  const ok = (a) => sel === "tutti" || (sel === "campania" ? a.campania : a.serie === sel);
+  const conta = (k) => tutti.filter((a) => k === "tutti" || (k === "campania" ? a.campania : a.serie === k)).length;
+  const chips = `<div class="sotto">${ATTI_FIL.map(([k, l]) => `<button class="chip s${k === sel ? " on" : ""}" data-afil="${k}">${l} <small>${conta(k)}</small></button>`).join("")}</div>`;
+  const nome = { SG: "Serie Generale", S1: "Corte Costituzionale", S3: "Regioni" };
+  const cards = tutti.filter(ok).slice(0, 80).map((a) => {
+    const dt = new Date(a.data + "T12:00:00"), quando = `${dt.getDate()} ${MESI[dt.getMonth()]} ${dt.getFullYear()}`;
+    const pop = reg(`<div class="riga">${a.campania ? '<span class="badge luogo">📍 Campania</span>' : ""}<span class="ver uff">🟢 Gazzetta Ufficiale</span></div><h2 class="pop-t">${te(a.titolo)}</h2>
+      ${a.descr ? `<p class="pop-p">${te(a.descr)}</p>` : ""}${a.spiega ? `<div class="pop-box"><p class="pop-p"><b>Che cos'è:</b> ${esc(a.spiega)}</p></div>` : ""}
+      <div class="pop-box">${pRiga("Pubblicato", esc(quando))}${pRiga("Serie", esc(nome[a.serie] || a.serie))}</div>
+      <div class="pop-az">${pBtn(a.link, "Testo ufficiale in Gazzetta ↗")}</div><p class="pop-fonte">Fonte: Gazzetta Ufficiale della Repubblica Italiana. Il testo che fa fede è quello pubblicato in Gazzetta.</p>`);
+    return `<article class="card tap" ${pop} style="--c:#1d4ed8"><div class="riga">${a.campania ? '<span class="badge luogo">📍 Campania</span>' : ""}<span class="ver ente">${esc(nome[a.serie] || a.serie)}</span><span class="mute">${esc(quando)}</span></div>
+      <h3 class="titolo">${te(a.descr || a.titolo)}</h3><div class="piede"><span>${te(a.titolo)}</span><span class="ver uff">🟢 Gazzetta</span></div></article>`;
+  }).join("");
+  return `<div class="riepilogo" style="margin-top:6px"><b>📜 Atti ufficiali</b><p>Leggi, decreti, sentenze della Corte Costituzionale e leggi regionali, direttamente dalla Gazzetta Ufficiale. Aggiornati ${A.aggiornato ? fa(new Date(A.aggiornato)) : "—"}. Tocca un atto per spiegazione e testo ufficiale.</p></div>${chips}${cards || vuoto("Nessun atto", "Per questo filtro non ci sono atti recenti.")}`;
+}
+
 function renderNovita() {
   const box = $("#lista-novita");
   document.body.classList.toggle("pol-quadro", state.nicchia === "politica" && state.vistaPol === "quadro");
   if (state.nicchia === "politica" && state.vistaPol === "quadro") { box.innerHTML = renderPolitica(); return; }
+  if (state.nicchia === "politica" && state.vistaPol === "atti" && state.atti) { box.innerHTML = renderAtti(); return; }
+  if (state.nicchia === "edilizia" && state.vista === "atti" && state.atti) { box.innerHTML = renderAtti(); return; }
   if (state.nicchia === "auto" && state.vistaAuto !== "notizie" && state.news.length) { box.innerHTML = renderOfferte(); return; }
   if (state.nicchia === "edilizia" && state.vista === "bandi" && state.bandi) { box.innerHTML = renderBandi(); return; }
   if (!state.news.length) { box.innerHTML = vuoto("Ancora nessuna notizia", "Il primo aggiornamento automatico è in arrivo (ogni ora)."); return; }
@@ -712,12 +734,12 @@ function renderProf() {
   }
   if (state.nicchia === "politica") {
     el.hidden = false;
-    el.innerHTML = [["notizie", "📰 Notizie"], ["quadro", "🏛️ Quadro politico"]].map(([k, l]) => `<button class="chip${state.vistaPol === k ? " on" : ""}" data-vpol="${k}">${l}</button>`).join("");
+    el.innerHTML = [["notizie", "📰 Notizie"], ["quadro", "🏛️ Quadro politico"], ["atti", "📜 Atti ufficiali"]].map(([k, l]) => `<button class="chip${state.vistaPol === k ? " on" : ""}" data-vpol="${k}">${l}</button>`).join("");
     return;
   }
   if (state.nicchia !== "edilizia" || !ids.length) { el.hidden = true; return; }
   el.hidden = false;
-  let h = `<button class="chip${state.vista === "prof" ? " on" : ""}" data-vista="prof">👤 Per professione</button><button class="chip${state.vista === "arg" ? " on" : ""}" data-vista="arg">📚 Per argomento</button>${state.bandi && state.bandi.bandi ? `<button class="chip${state.vista === "bandi" ? " on" : ""}" data-vista="bandi">🏗️ Bandi <small>${state.bandi.bandi.length}</small></button>` : ""}`;
+  let h = `<button class="chip${state.vista === "prof" ? " on" : ""}" data-vista="prof">👤 Per professione</button><button class="chip${state.vista === "arg" ? " on" : ""}" data-vista="arg">📚 Per argomento</button>${state.bandi && state.bandi.bandi ? `<button class="chip${state.vista === "bandi" ? " on" : ""}" data-vista="bandi">🏗️ Bandi <small>${state.bandi.bandi.length}</small></button>` : ""}${state.atti && state.atti.atti ? `<button class="chip${state.vista === "atti" ? " on" : ""}" data-vista="atti">📜 Atti <small>${state.atti.atti.length}</small></button>` : ""}`;
   if (state.vista === "arg") {
     const base = state.news.filter(inNicchia);
     const conta = (p) => base.filter((n) => (n.prof || []).includes(p)).length;
@@ -728,7 +750,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "46";
+const VERSIONE_APP = "47";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -742,6 +764,7 @@ async function carica(forza) {
     state.confronto = confronto; state.politica = politica; state.politicaAuto = politicaAuto || {}; state.politicaStato = politicaStato || {}; state.deputati = deputati; state.senatori = senatori; state.partiti = partiti; state.votazioni = votazioni; state.proposte = proposte;
     state.profilo = profilo || {};
     state.bandi = await j("bandi").catch(() => null); state.bandiProv = "tutte";
+    state.atti = await j("atti").catch(() => null); state.attiFil = "tutti";
     if (!Array.isArray(state.modelli)) state.modelli = [...(state.profilo.modelli || [])];
     state.professioni = prof.professioni || {}; state.gruppiProf = prof.gruppi || [];
     if (!Array.isArray(news.notizie)) throw new Error("dati non validi");
@@ -759,6 +782,8 @@ async function carica(forza) {
 document.addEventListener("click", (e) => {
   const vi = e.target.closest("[data-vista]");
   if (vi) { state.vista = vi.dataset.vista; state.prof = "tutte"; state.aperte.clear(); renderTutto(); return; }
+  const af = e.target.closest("[data-afil]");
+  if (af) { state.attiFil = af.dataset.afil; renderNovita(); return; }
   const bp = e.target.closest("[data-bprov]");
   if (bp) { state.bandiProv = bp.dataset.bprov; renderNovita(); return; }
   const pf = e.target.closest("[data-prof]");
