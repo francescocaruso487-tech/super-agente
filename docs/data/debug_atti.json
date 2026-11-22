@@ -1,0 +1,93 @@
+{
+ "burc_home": {
+  "url": "https://burc.regione.campania.it/eBurcWeb/publicContent/home/index.iface",
+  "status": 200,
+  "bytes": 9853,
+  "title": "Burc Digitale",
+  "rss": [
+   "/eBurcWeb/xmlhttp/css/rime/rime-portlet.css"
+  ],
+  "albo": []
+ },
+ "burc_it": {
+  "url": "https://burc.regione.campania.it/eBurcWeb/publicContent/home.iface",
+  "status": 500,
+  "bytes": 5116,
+  "title": "JBossWeb/2.0.1.GA - Error report",
+  "rss": [],
+  "albo": []
+ },
+ "regione_delibere": {
+  "url": "https://www.regione.campania.it/",
+  "status": 200,
+  "bytes": 319324,
+  "title": "Portale Istituzionale | Regione Campania",
+  "rss": [
+   "/feedback-accessibilita"
+  ],
+  "albo": []
+ },
+ "comune_caserta": {
+  "errore": "HTTPSConnectionPool(host='www.comune.caserta.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ww"
+ },
+ "caserta_albo": {
+  "errore": "HTTPSConnectionPool(host='www.comune.caserta.it', port=443): Max retries exceeded with url: /albo-pretorio (Caused by ConnectTimeoutError(<HTTPSConnec"
+ },
+ "caserta_trasp": {
+  "errore": "HTTPSConnectionPool(host='www.comune.caserta.it', port=443): Max retries exceeded with url: /amministrazione-trasparente (Caused by ConnectTimeoutErro"
+ },
+ "provincia_caserta": {
+  "url": "https://www.provincia.caserta.it/",
+  "status": 200,
+  "bytes": 74017,
+  "title": "Provincia di Caserta - Homepage",
+  "rss": [],
+  "albo": []
+ },
+ "provincia_albo": {
+  "url": "https://www.provincia.caserta.it/albo-pretorio",
+  "status": 200,
+  "bytes": 103,
+  "title": null,
+  "rss": [],
+  "albo": []
+ },
+ "gu_serie": {
+  "url": "https://www.gazzettaufficiale.it/",
+  "status": 200,
+  "bytes": 42127,
+  "title": "Gazzetta Ufficiale",
+  "rss": [
+   "rss/SG",
+   "rss/S1",
+   "rss/S2",
+   "rss/S3",
+   "rss/S4"
+  ],
+  "albo": []
+ },
+ "normattiva": {
+  "url": "https://www.normattiva.it/",
+  "status": 200,
+  "bytes": 47014,
+  "title": "Normattiva",
+  "rss": [],
+  "albo": []
+ },
+ "anac_open": {
+  "url": "https://dati.anticorruzione.it/",
+  "status": 403,
+  "bytes": 309,
+  "title": "Error Page",
+  "rss": [],
+  "albo": []
+ },
+ "opencoesione": {
+  "url": "https://opencoesione.gov.it/",
+  "status": 403,
+  "bytes": 30,
+  "title": null,
+  "rss": [],
+  "albo": []
+ }
+}
