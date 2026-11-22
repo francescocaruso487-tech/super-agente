@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-22T00:01:04Z",
+ "aggiornato": "2026-11-22T00:33:17Z",
  "tassonomia": "13",
  "notizie": [
   {
@@ -38,7 +38,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-22T00:01:04Z",
+   "visto": "2026-11-22T00:33:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -58,7 +58,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-22T00:01:04Z",
+   "visto": "2026-11-22T00:33:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -78,7 +78,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-22T00:01:04Z",
+   "visto": "2026-11-22T00:33:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -98,7 +98,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-22T00:01:04Z",
+   "visto": "2026-11-22T00:33:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -118,7 +118,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-22T00:01:04Z",
+   "visto": "2026-11-22T00:33:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -138,7 +138,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-22T00:01:04Z",
+   "visto": "2026-11-22T00:33:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -158,7 +158,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-22T00:01:04Z",
+   "visto": "2026-11-22T00:33:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -180,7 +180,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-22T00:01:04Z",
+   "visto": "2026-11-22T00:33:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -188,6 +188,222 @@
    "prof": [
     "geometra"
    ]
+  },
+  {
+   "id": "d4ab6ef27b8afbc2",
+   "titolo": "Scuola, Valditara: «Con la Manovra più risorse nel 2027 che nel 2026». Saltano i tagli",
+   "link": "https://www.italiaoggi.it/settori/scuola/scuola-valditara-con-la-manovra-piu-risorse-nel-2027-che-nel-2026-saltano-i-tagli-owqczk4w",
+   "fonte": "italiaoggi",
+   "fonte_nome": "ItaliaOggi (fisco e casa)",
+   "tipo": "stampa",
+   "aree": [
+    "formazione_cultura",
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola",
+    "bonus.bilancio"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus",
+    "commercialista",
+    "geometra",
+    "ingegnere",
+    "architetto"
+   ]
+  },
+  {
+   "id": "608928d841656c7f",
+   "titolo": "Kate racconta la malattia e si commuove, 'il cancro ti cambia'",
+   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/21/ansa-kate-racconta-la-malattia-e-si-commuove-il-cancro-ti-cambia_a79cae09-91c8-4d17-af86-0900d3ffd838.html",
+   "fonte": "p-ansa-mondo",
+   "fonte_nome": "ANSA Mondo",
+   "tipo": "stampa",
+   "aree": [
+    "esteri"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "ecd410f31e380d99",
+   "titolo": "Allarme voli negli Stati Uniti per il Thanksgiving, 'al Qaida pronta a colpire'",
+   "link": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/21/007-usa-hanno-allertato-le-compagnie-aeree-al-qaeda-pronta-a-compiere-attacchi_0acef317-33c2-4204-bd0c-25c039667b14.html",
+   "fonte": "p-ansa-mondo",
+   "fonte_nome": "ANSA Mondo",
+   "tipo": "stampa",
+   "aree": [
+    "esteri"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "2ed55169373c8cb6",
+   "titolo": "L'avvocato Coppi: «Lo difendevo perché gli credevo»",
+   "link": "https://www.ilmessaggero.it/italia/gianni_de_gennaro_avvocato_coppi_innocenza_difesa_inchiesta_strage_via_amelio-9904332.html",
+   "fonte": "p-messaggero",
+   "fonte_nome": "Il Messaggero Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "c42bacc1b22399c8",
+   "titolo": "Salute Screening gratuiti in piazza per la diagnosi precoce delle epatiti virali e delle infezioni sessualmente trasmissibili",
+   "link": "https://www.casertanews.it/benessere/salute/screening-piazza-dante-ordine-medici-caserta-epatite.html",
+   "fonte": "p-casertanews",
+   "fonte_nome": "Casertanews e Caserta politica",
+   "tipo": "stampa",
+   "aree": [
+    "territorio"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "ff51ba480a2e44a6",
+   "titolo": "Luci sulla Strip: Verstappen scatta davanti, Antonelli in rimonta e la Ferrari chiamata all'impresa. La cronaca LIVE del GP di Las Vegas di F1",
+   "link": "https://www.automoto.it/formula1/f1-gp-las-vegas-2026-cronaca-live-gara-risultati-classifica.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "motorsport.f1",
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "0b9161f79e96e42a",
+   "titolo": "Nuova Dacia Spring 2026: l'elettrica anti-Twingo punta sulla sostanza (e stupisce sui consumi) [VIDEO]",
+   "link": "https://www.automoto.it/prove/nuova-dacia-spring-2026-l-elettrica-anti-twingo-punta-sulla-sostanza-e-stupisce-sui-consumi-video.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "tecnica_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.modelli",
+    "tecnica_auto.motori"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "ce7d205efade452d",
+   "titolo": "Manovra 2027, la scure del fisco sempre su docenti e Ata: tasse sicure e niente sconto Irpef. Cgil e opposizione rilanciano la patrimoniale progressiva",
+   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPand5ZFdzem5yUjFUbEl0SlJiYWM2NXlJZlF2QVdGeFNKYm1Sd0xXeXhkbThXSHhjODFBNDNFS0ZTOV92Z3Q0VkFaNHEycGlaUlNKSmUxZEJaVTNkbUVyeDVjRXlaZUx3a21XQUI4ZGI0bGF0YllMRVpKS2Y5VkFqaF9ycGVSQ3NhZG9YRGhBTVhMSjNxd0Vnams3RWV3OHh2WU9xTndZbWxaclhlOW15bnU1eHdfQlF6dFFfYkJKeHltRG0xWVBQdEozWGtkUWJnb2RKNlhfZF9JYktzX0J5dVFYZDZ1SU9HZXhQeXJaMHNtZ0RiQUdVMUwxRVFtbGo4T2h3a3hUdm5uQnhyOElZ?oc=5",
+   "fonte": "pr-scuola",
+   "fonte_nome": "Orizzonte Scuola e Tecnica della Scuola",
+   "tipo": "stampa",
+   "aree": [
+    "bonus",
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "Manovra 2027, la scure del fisco sempre su docenti e Ata: tasse sicure e niente sconto Irpef.",
+   "pubblicata": "2026-11-22T00:17:18Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "gnews",
+   "sotto": [
+    "bonus.bilancio",
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus",
+    "tributarista",
+    "commercialista",
+    "geometra",
+    "ingegnere"
+   ]
+  },
+  {
+   "id": "2ad3d0372f3a2293",
+   "titolo": "Ballando con le Stelle, il Quick di Monica Guerritore e Luca Urso",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNUpsdFdOUlVRV2FlVzRkRzJjRzV2YnVodU50eDRpM0p0ZndXa2Z3dEdTRHRyNC1OdU92WVlKTlRvMmdpYldoOUM1UDJHX3lVd1pZOFN6MW0weVdnU2lkaWlCQ0pSMEg5S3lQcnp3aVJyUUhJenhPRmJnTFdfZzZQMURReHlFUGswNmxsejU0VXI0VUNrSHN0R19iN3JpVkp2dUhMSk5Rb3p0X0ZpY08wa0QycF8wQ3EyVGVCVGdQREFndHR0TldScmlUeFgxSkJ2bENuWEZVRUFmRWfSAeABQVVfeXFMTkZVWmNhUldGMlJhYTdXYklKb0t4bmlPMk5fMERjenJpYXk3a1UyUzFtZENSeTNLX0pxNjc4U052b2lKMlFKU3FHeEx1N2prTTNYaExOVHNhbjdZQy1FOS1yR0FBRGZrNHBrNXhZdDZBYzV3UE4taDlTQVMwSTl6ckFmV00zREsyY2JoekUzQ0U2RFdHZUtpUVZvSW5iNU1hdVdsWXhDMVBucHBENV8yTHYzeDhMMDM3MURvN0dnRDlJN2cxNnUycUNyT245QmRKSEQyOF9peFZPZll2bGtKN2Y?oc=5",
+   "fonte": "p-rainews",
+   "fonte_nome": "Rai News Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Ballando con le Stelle, il Quick di Monica Guerritore e Luca Urso RaiNews",
+   "pubblicata": "2026-11-22T00:08:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
   },
   {
    "id": "6a54cb1c793f3486",
@@ -463,6 +679,26 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "f5404f46fb165fc4",
+   "titolo": "Ballando con le Stelle, il Quick di Alessandro Matri e Giada Lini",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNVR3Q094UHVoOTJSU2I2Xzg5MFFNYTdqTE5jZVN3bFVrV24xa0FrNjhnemtxVXRSaFBpYTJZNUVSRlljUzlRQmxlcGxvd2o5WGlCWVhNM2o3V1JZUk1jbmNscTZrT0p6bVBJSmJFZWU2cEs3RHQ5UUVfVlE0Y0Z4alg0LXVtUmtiSzlGNlpFLUNscllqWWVocE5VQ25yUVg5YVh2M0V6U0tneTNobzNLNk9QRThiWnVFakFSUFh1dkUyczRCNDNxTFpUd2NsUDQwbTNqV2x4aVNTajDSAeABQVVfeXFMUFFBbW1BcFdvMFl4SXlVSGhUY2wtejdNdnYyTUppZ2YwWmdkQXZVaEhjcEhIQ2R1ZHhrcm1Qalk1LWtPOUlsYjlkemNBelRoYjBGNFVETWJUN2lFdVBrUUlYVWstZXFMcnhZcWxHOWJBQi10dXFIU2lTbkhDYTlmT2lBNlE2Ym5CTEc2d3o4dFRaMEwyZ24taEhQSjU2dEx4czczaGJicFhSaHlRVExMMmcxdVBBd1dHYmNNNzA5cXl1bHhvazQ3U0Z6MUlabzk0QkJ1TTNaYkhnUDA2YjQzZTM?oc=5",
+   "fonte": "p-rainews",
+   "fonte_nome": "Rai News Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Ballando con le Stelle, il Quick di Alessandro Matri e Giada Lini RaiNews",
+   "pubblicata": "2026-11-21T23:58:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
    "prof": []
   },
   {
@@ -1739,6 +1975,235 @@
    ],
    "luogo": null,
    "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "3a2de58c5bce5ecd",
+   "titolo": "Il reality triste delle monarchie europee",
+   "link": "https://www.lastampa.it/specchio/rubriche/cose-brutte/2026/11/22/news/il_reality_triste_delle_monarchie_europee-15802843/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Vabbè, io ero per Camilla. Diana aveva la mia età e mi pareva una di quelle belle ragazze bene che avevano più valore sociale di noi nerdone.",
+   "pubblicata": "2026-11-21T23:00:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "rss",
+   "sotto": [
+    "partiti.elezioni"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "1391b68de94bdeb3",
+   "titolo": "“A 70 anni mi ha lasciata per un’altra, ma ho riscoperto la felicità di essere libera”",
+   "link": "https://www.lastampa.it/specchio/rubriche/amore-moderno/2026/11/22/news/l_amore_moderno-15802916/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Cara Maria, sento il bisogno di scriverti per mettere ordine nei miei pensieri e sentimenti dopo quello che mi è successo quest’estate. Inizio dalla fine.",
+   "pubblicata": "2026-11-21T23:00:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "9ae15169ec621794",
+   "titolo": "I data center non sono sostenibili",
+   "link": "https://www.lastampa.it/specchio/rubriche/futura/2026/11/22/news/i_data_center_non_sono_sostenibili-15802993/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "europa",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "C’è una nuova frontiera del greenwashing: dare i voti all’inquinamento dei data center. L’Unione europea ha deciso che, dal 2027, anche i data center dovranno esibire ...",
+   "pubblicata": "2026-11-21T23:00:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "rss",
+   "sotto": [
+    "europa.istituzioni"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "545da1983d3357de",
+   "titolo": "La rabbia dei gilet neri: “Il miracolo coreano siamo noi, ma perché tanta povertà?”",
+   "link": "https://www.lastampa.it/specchio/rubriche/il-reportage/2026/11/22/news/la_rabbia_dei_gilet_neri_il_miracolo_coreano_siamo_noi_ma_perche_tanta_poverta-15802983/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "territorio",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Proteste in Corea del Sud: i lavoratori chiedono una parte degli utili legati all’IA",
+   "pubblicata": "2026-11-21T23:00:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "rss",
+   "sotto": [
+    "territorio.campania"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "174b244bae1f5101",
+   "titolo": "L’omicidio Fenaroli, il primo a raccontare l’Italia del boom",
+   "link": "https://www.lastampa.it/specchio/rubriche/i-grandi-gialli/2026/11/22/news/l_omicidio_fenaroli_il_primo_a_raccontare_l_italia_del_boom-15802948/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Nel 1958 la clamorosa vicenda divise il Paese tra innocentisti e colpevolisti",
+   "pubblicata": "2026-11-21T23:00:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "ca40d1c275858af7",
+   "titolo": "Onori e oneri",
+   "link": "https://www.lastampa.it/specchio/rubriche/strada-facendo/2026/11/22/news/onori_e_oneri-15802847/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "È un po’ il testamento di Spiderman, l’Uomo Ragno dei fumetti, che «da un grande potere derivi anche una grande responsabilità».",
+   "pubblicata": "2026-11-21T23:00:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "f1b3aed5b5042881",
+   "titolo": "Clemente Tivioli: “I miei capi non vanno in saldo. Sono come un dipinto: non invecchiano”",
+   "link": "https://www.lastampa.it/specchio/rubriche/domenica-con/2026/11/22/news/i_miei_capi_non_vanno_in_saldo_sono_come_il_dipinto_di_un_artista_non_invecchiano-15802865/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Clemente Tivioli è il direttore creativo di TIVIOLI, prestigiosa casa milanese di capispalla di lusso fondata come pellicceria di alta gamma da suo padre, Carlo Tivioli…",
+   "pubblicata": "2026-11-21T23:00:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "d776b480284d7823",
+   "titolo": "Niederkofler: “Il fine dining è come Chanel, non muore ma bisogna reinventarsi”",
+   "link": "https://www.lastampa.it/specchio/rubriche/sapore/2026/11/22/news/niederkofler_il_fine_dining_e_come_chanel_non_muore_ma_bisogna_reinventarsi-15802882/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Lo chef di Brunico, tre stelle Michelin, svela la ricetta del suo successo",
+   "pubblicata": "2026-11-21T23:00:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "fdac1ff880d22005",
+   "titolo": "Spegnere tutto per inseguire il miraggio del sonno perfetto",
+   "link": "https://www.lastampa.it/specchio/rubriche/societa/2026/11/22/news/spegnere_tutto_per_inseguire_il_miraggio_del_sonno_perfetto-15802889/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Ho comprato un anello che non promette amore eterno, ma un resoconto preciso del mio sonno. È un wearable di ultima generazione, misura ...",
+   "pubblicata": "2026-11-21T23:00:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "41367d74defb488a",
+   "titolo": "Santo Versace: “Credevo che il lusso fosse il mio mondo ma non è così... Meglio aiutare gli altri”",
+   "link": "https://www.lastampa.it/specchio/rubriche/a-tu-per-tu/2026/11/22/news/credevo_che_il_lusso_fosse_il_mio_mondo_ma_non_e_cosi_meglio_aiutare_gli_altri-15802936/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "«Ho contribuito a costruire il made in Italy ma adesso ho recuperato le mie radici, i miei valori»",
+   "pubblicata": "2026-11-21T23:00:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "80b7e46724940956",
+   "titolo": "C’era del tenero tra femmine Sapiens e maschi Neanderthal",
+   "link": "https://www.lastampa.it/specchio/rubriche/scienza-e-salute/2026/11/22/news/c_era_del_tenero_tra_femmine_sapiens_e_maschi_neanderthal-15803019/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Come ci siamo evoluti? Le rivoluzionarie teorie del genetista David Reich",
+   "pubblicata": "2026-11-21T23:00:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
    "prof": []
   },
   {
@@ -3066,6 +3531,29 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "17daa06f182dce8d",
+   "titolo": "Mosca: nave russa attaccata nel Golfo di Finlandia. Zelensky: disponibili a trilaterale entro Natale",
+   "link": "https://www.lastampa.it/esteri/2026/11/22/diretta/guerra_russia_ucraina_news_oggi-15805671/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "esteri",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Kiev: «Accordo con Londra per la produzione congiunta di droni nel Regno Unito»",
+   "pubblicata": "2026-11-21T22:10:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "rss",
+   "sotto": [
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
    "prof": []
   },
   {
@@ -9872,30 +10360,6 @@
    ]
   },
   {
-   "id": "abc45b6ddd1bcb62",
-   "titolo": "ALFA ROMEO MiTo Usata prezzo e caratteristiche tecniche - Auto Usate",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42NUFrVjBkUGtuT0k0VGFqTVdxTXJkMDFnSHhWZzQ0R0wwX3V1dXZSRFhQaGxLc3R6OUR0S3F2Q3c0RHBVVHR1anNSbXZyR3lBc2xMdjdjcXo0dmVHT1d4TE1RNFV0V0FJLVlKQ3loSk55aUZMdld2em53d00zdw?oc=5",
-   "fonte": "a-quattroruote",
-   "fonte_nome": "Quattroruote",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "mercato_auto"
-   ],
-   "normativa": false,
-   "sintesi": "ALFA ROMEO MiTo Usata prezzo e caratteristiche tecniche - Auto Usate Quattroruote",
-   "pubblicata": "2026-11-21T18:51:57Z",
-   "visto": "2026-11-21T22:12:27Z",
-   "metodo": "gnews",
-   "sotto": [
-    "novita_auto.marchi",
-    "mercato_auto.prezzi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
    "id": "5a8c770a140e5bf9",
    "titolo": "Ancora un no sulle armi a Kiev. Il sospetto degli alleati: Conte vuole scaricarle sulle primarie",
    "link": "https://www.huffingtonpost.it/politica/2026/11/21/news/ancora_un_no_sulle_armi_a_kiev_il_sospetto_degli_alleati_conte_usa_il_tavolo_del_programma_contro_schlein-23310634/",
@@ -9978,7 +10442,8 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "politica",
-   "prof": []
+   "prof": [],
+   "altre_fonti": []
   },
   {
    "id": "f4c5751706a28636",
@@ -12230,30 +12695,6 @@
    "prof": []
   },
   {
-   "id": "a30d6ea8c7ffff50",
-   "titolo": "VOLKSWAGEN Golf 7ª serie Usata prezzo e caratteristiche tecniche - Auto Usate",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQkd2M0pSNktnZ0hyM0ExOWU1Sjc1eENyMjczRmJnR0pSWml1c2hQc0ZuSnM3U2VKejdLLVlQZjFZcnctM1pHanMyb1ozd1BJbGRidkVfelJ1VHI3OUpVUkhrdHg5YmJVcUlrZFdSaUV3LWtZX2x1RFdHNjhJYURjMkp2dXhlSHpTMnc?oc=5",
-   "fonte": "a-quattroruote",
-   "fonte_nome": "Quattroruote",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "mercato_auto"
-   ],
-   "normativa": false,
-   "sintesi": "VOLKSWAGEN Golf 7ª serie Usata prezzo e caratteristiche tecniche - Auto Usate Quattroruote",
-   "pubblicata": "2026-11-21T17:53:20Z",
-   "visto": "2026-11-22T00:01:04Z",
-   "metodo": "gnews",
-   "sotto": [
-    "novita_auto.marchi",
-    "mercato_auto.prezzi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
    "id": "743bff28c28edc2e",
    "titolo": "Parma-Roma, proteste sul gol di Malen e Gilardino chiede un rosso",
    "link": "https://www.adnkronos.com/sport/parma-roma-gol-malen-mancini-capelli-elphege-rosso-cose-successo_7BunHqd0MQM88M5j6zcWtG",
@@ -12606,6 +13047,27 @@
    "prof": []
   },
   {
+   "id": "a7c2cea0e4c3c7c6",
+   "titolo": "Usa, nuovo attacco hacker all’Fbi: violata la banca dati dei criminali",
+   "link": "https://www.repubblica.it/esteri/2026/11/21/news/usa_nuovo_attacco_hacker_fbi_violata_banca_dati_criminali-425740582/",
+   "fonte": "t-repubblica-tech",
+   "fonte_nome": "Repubblica Tecnologia",
+   "tipo": "stampa",
+   "aree": [
+    "sicurezza",
+    "ai"
+   ],
+   "normativa": false,
+   "sintesi": "È la seconda volta in due mesi che il sistema informatico dell’agenzia federale di investigazione americana viene violata.",
+   "pubblicata": "2026-11-21T17:44:52Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
    "id": "9ceb6efd894f4e74",
    "titolo": "Viaggia senza patente su un'auto sotto sequestro, maxi multa per un 21enne",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbHJRdW1HWTRkRUZxOU5wVjFoZ2FwMmtSeXNCZnJMaUxkVkt6MkdBbjBGbjFDajFHaXZQSjNUVmxGNjIxODQ0UWN2QXlnR2dVUUIwWHE4YW9QYlJoT1BKT0hYMTRRZ3JNSEVlMUpWcTFwRE4xLUsxY2ptTFNycWs4R2RfaFFNRm1Vd2pBUUd5WlBvTm5VODk1dQ?oc=5",
@@ -12690,6 +13152,30 @@
    "nicchia": "tech",
    "prof": [],
    "tradotto": true
+  },
+  {
+   "id": "b5dba1bd88ec43b6",
+   "titolo": "MotoGP, Jorge Martin, tutto cuore: \"Sono meno vivo di giovedì, ma domani può succedere di tutto\"",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOU9zZkJKdnlOQUdtU1VXdHR3MDVIbkRqMi04SkhGWTVZX3VUb0ExVUNjMDk5RlpiTFNvMlR4MWFYS1dXRDZMZ1J5NVJPR3VXcWU1YU5mSUdDZUl4VklHcTNpM05SRUxrQnhPcWZCR1N0Z05zSXhfS0NwZmQxdTV1c2kyOFEzNHNsb3R1OGo0QndkODQtVmJZYnV3T1RhTk4tVW5Tc2pNMC1hZ2Y5Q2ZieklR?oc=5",
+   "fonte": "a-moto-it",
+   "fonte_nome": "Moto.it",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport",
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "MotoGP, Jorge Martin, tutto cuore: \"Sono meno vivo di giovedì, ma domani può succedere di tutto\" Moto.it",
+   "pubblicata": "2026-11-21T17:42:16Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "gnews",
+   "sotto": [
+    "motorsport.moto_gp",
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
   },
   {
    "id": "e64825dd5c170426",
@@ -28186,6 +28672,29 @@
    "prof": []
   },
   {
+   "id": "048d02dfc1262e0e",
+   "titolo": "Digitale terrestre, attiva la nuova numerazione LCN nazionale",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeHZvSjl2TGJKRlYwYll4ZUo1RU9sOTNnRlJISFZSUFhoak9UZnhmcm11bmZRcnpLdVdhckpuaFVuLW5HclRRdzdfSlBzRElSUDN0czItUXZiTjc5dk94b2FFZ3dqUzZ6cjFBYUQ3cE9yMERMc1oxRnltamlDeTZUQnI5bE15YXl1OTFrTVBWR0lTLTlSclhDY291QlNsMnpfS1E1eQ?oc=5",
+   "fonte": "a-ebike",
+   "fonte_nome": "E-bike e monopattini",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "bici"
+   ],
+   "normativa": false,
+   "sintesi": "Digitale terrestre, attiva la nuova numerazione LCN nazionale TecnoAndroid",
+   "pubblicata": "2026-11-21T12:20:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.modelli"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "2edef837abb1d343",
    "titolo": "Blackout e record in Borsa, il paradosso della fiducia tecnologica",
    "link": "https://formiche.net/2026/11/blackout-e-record-in-borsa-il-paradosso-della-fiducia-tecnologica/",
@@ -40380,6 +40889,29 @@
    "prof": []
   },
   {
+   "id": "628a1cbd6db79a3a",
+   "titolo": "Redditi del governo, Meloni dichiara 184.897 euro nel 2025. Imponibile in calo 21/11/2026",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdDhITXZZMHRoUkxFRHljYktSNndYUVRvU1V5N3RreFBaeUh4OW01d00tM0VYMXFUVk5rMDR3TjI0TUZMQjQ1NzlUMHoyeVUxYV81OFNtemkzMzVDSDUxVFhpakRtdkFyMDRrTjdrVGhZUnlQV0FRbV93NlFCdXIzNEpFTnZhbFM1MnpqWnFnbXhyS1MzdWE5MWN6RzFGQWx1RlFpVGVUSkl6OW1hOTN3VktzR3M0VG16NThHcA?oc=5",
+   "fonte": "p-esteri",
+   "fonte_nome": "Ministero degli Esteri (Farnesina)",
+   "tipo": "ufficiale",
+   "aree": [
+    "territorio",
+    "esteri"
+   ],
+   "normativa": true,
+   "sintesi": "Redditi del governo, Meloni dichiara 184.897 euro nel 2025. Imponibile in calo 21/11/2026 L'eco del sud",
+   "pubblicata": "2026-11-21T09:11:02Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "gnews",
+   "sotto": [
+    "territorio.campania"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
    "id": "040160480186c39e",
    "titolo": "Mai provato uno spazzolino Oral-B iO? Con questo Black Friday è il momento",
    "link": "https://www.macitynet.it/mai-provato-uno-spazzolino-oral-b-io-con-questo-black-friday-e-il-momento/",
@@ -44683,6 +45215,28 @@
    ],
    "luogo": null,
    "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "0bc45e338e287e24",
+   "titolo": "Sabaudia, auto storiche e solidarietà: domenica 22 novembre il Raduno delle Città di Fondazione",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE11WHlPLTJqRk52U3V3emQyRGtmWDFFRmowWFJnajF2bTFKdUxUSEs1RWpqWmFENDU5RHNDcm16T3UybE5GamEtS19GYTdlV0gtYnMtRXZpU2xpWXpSNlFWbk1zNlFxbmFWQXl3QzhSMXhORXRObmZfRQ?oc=5",
+   "fonte": "a-classiche",
+   "fonte_nome": "Auto e moto d'epoca",
+   "tipo": "stampa",
+   "aree": [
+    "mezzi"
+   ],
+   "normativa": false,
+   "sintesi": "Sabaudia, auto storiche e solidarietà: domenica 22 novembre il Raduno delle Città di Fondazione Latina Quotidiano",
+   "pubblicata": "2026-11-21T08:03:44Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "gnews",
+   "sotto": [
+    "mezzi.tempo_libero"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
    "prof": []
   },
   {
@@ -56905,30 +57459,6 @@
    "prof": []
   },
   {
-   "id": "39b4dfae50556360",
-   "titolo": "VOLKSWAGEN Taigo Usata prezzo e caratteristiche tecniche - Auto Usate",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RUkRsUDFlTWU2ak03QmlVQ1hkeVBFZHNuV2QzSnJibzJqRlN6VjlUZU8wUEJ3SHBfYjJRM19Fbmd0Vk55andJa2xkelBBdXBQWUJ5aTlCY3NZQzE3R1pRUHRlWjJ1WEJiRFRHdzIzazN1S0h5UnVlQkMya0gxZjg?oc=5",
-   "fonte": "a-quattroruote",
-   "fonte_nome": "Quattroruote",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "mercato_auto"
-   ],
-   "normativa": false,
-   "sintesi": "VOLKSWAGEN Taigo Usata prezzo e caratteristiche tecniche - Auto Usate Quattroruote",
-   "pubblicata": "2026-11-21T06:33:12Z",
-   "visto": "2026-11-22T00:01:04Z",
-   "metodo": "gnews",
-   "sotto": [
-    "novita_auto.marchi",
-    "mercato_auto.prezzi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
    "id": "2c1e04f7dcd28263",
    "titolo": "Schettino lascia il carcere dopo nove anni: va ai servizi sociali",
    "link": "https://www.lastampa.it/cronaca/2026/11/21/news/schettino_lascia_il_carcere_dopo_nove_anni_va_ai_servizi_sociali-15804915/",
@@ -65850,6 +66380,30 @@
    "metodo": "gnews",
    "sotto": [
     "novita_auto.marchi",
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "341e9759cee9dfd6",
+   "titolo": "Vendo Morbidelli F352 (2026) nuova a Guidonia Montecelio (codice 10175281)",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnWGNfeHoyQ3o4S2RkR3pnYWtsSS1XTUd3elNiM0tBN1E2ZFBId0F1YjRJTjRCdmZDZHd5MEpRODc0OHFVcENSV2ZvZHZUM29GWldlUTM0c1VkUzAtS1h6Sk5fZUd5ckhiaFVMZ0hleDgtNEU?oc=5",
+   "fonte": "a-moto-it",
+   "fonte_nome": "Moto.it",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Vendo Morbidelli F352 (2026) nuova a Guidonia Montecelio (codice 10175281) Moto.it",
+   "pubblicata": "2026-11-21T04:12:00Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.modelli",
     "moto.novita"
    ],
    "luogo": null,
@@ -84563,6 +85117,29 @@
    "prof": []
   },
   {
+   "id": "467346a390b39a49",
+   "titolo": "Meglio l'anello esterno...?",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaF9ob0FSaVA2Smw4LVowS09oaVA3QWZ6VlEtVVRiWFZYdVBMRWN4SGZIa2xKN0hoUFhwQ3hxS0dCTXV0TllXaFJHbG1BcHNrRmRHWFRkTWxyYjlyTUpaWGVLR05vMmRwVlE5cW9tYUVaTndPcTlXcU5wWjZLRkwwZDhsVTl5Vnc?oc=5",
+   "fonte": "a-quattroruote",
+   "fonte_nome": "Quattroruote",
+   "tipo": "stampa",
+   "aree": [
+    "prove",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "Meglio l'anello esterno...? Il Forum di Quattroruote",
+   "pubblicata": "2026-11-20T23:00:05Z",
+   "visto": "2026-11-22T00:33:17Z",
+   "metodo": "gnews",
+   "sotto": [
+    "prove.guide"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "f8f45460eb817fcc",
    "titolo": "La Calabria che pochi conoscono: dalla bici si vede lo Stromboli",
    "link": "https://www.bikeitalia.it/2026/11/21/calabria-in-bici-aiello-calabro-borghi-castelli/",
@@ -86314,29 +86891,6 @@
    "prof": []
   },
   {
-   "id": "629c504aa20ef1eb",
-   "titolo": "Milano AutoClassica 2026, al via la sedicesima edizione: date, orari e biglietti",
-   "link": "https://www.alvolante.it/news/milano-autoclassica-2026-al-via-sedicesima-edizione-date-orari-e-biglietti-422127",
-   "fonte": "a-alvolante",
-   "fonte_nome": "Alvolante",
-   "tipo": "stampa",
-   "aree": [
-    "mezzi",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "Dal 19 al 22 novembre torna a Fiera Milano Rho Milano AutoClassica, il Salone dedicato alle auto storiche e sportive.",
-   "pubblicata": null,
-   "visto": "2026-11-20T22:01:04Z",
-   "metodo": "rss",
-   "sotto": [
-    "mezzi.tempo_libero"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
    "id": "0fefd397e7b80477",
    "titolo": "ID. Every1, Volkswagen immagina l'anti Twingo e Spring",
    "link": "https://www.auto.it/foto/attualita/2026/11/19-9309236/id_every1_volkswagen_immagina_l_anti_twingo_e_spring",
@@ -87335,30 +87889,6 @@
    "visto": "2026-11-20T22:01:04Z",
    "metodo": "scraping",
    "sotto": [
-    "moto.novita"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "869dece0d008d686",
-   "titolo": "Asi a Milano AutoClassica 2026: dalla Ferrari di Alboreto agli 80 anni dell’Ape Piaggio",
-   "link": "https://www.corriere.it/motori/26_novembre_19/asi-a-milano-autoclassica-2026-dalla-ferrari-di-alboreto-agli-80-anni-dell-ape-piaggio-e634fb80-9d54-4146-a8fc-dea078813xlk.shtml",
-   "fonte": "a-corriere-motori",
-   "fonte_nome": "Corriere della Sera Motori",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "moto"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T22:01:04Z",
-   "metodo": "scraping",
-   "sotto": [
-    "novita_auto.marchi",
     "moto.novita"
    ],
    "luogo": null,
@@ -139981,567 +140511,6 @@
    "nicchia": "auto",
    "prof": [],
    "altre_fonti": []
-  },
-  {
-   "id": "0cd7922de0b5f4d4",
-   "titolo": "Libere 2 a Russell. Leclerc terzo, Hamilton sesto e Kimi ottavo f1 a las vegas Dopo una prima sessione senza tempi e un’attività ridotta ai minimi termini per la pioggia, nelle... 20 nov - 03:21",
-   "link": "https://sport.sky.it/formula-1/gp/2026/granpremio-las-vegas/diretta/prove-libere-2",
-   "fonte": "a-sky-f1",
-   "fonte_nome": "Sky Sport F1 e motori",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [
-    "motorsport.f1"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "056826109e8f5915",
-   "titolo": "Awadu Abass torna alla Virtus: tutto il mercato Eurolega Dopo aver messo sotto contratto Marcelinho Huertas, Dubai ha annunciato l'addio di Awadu Abass,... 20 nov - 12:30",
-   "link": "https://sport.sky.it/basket/eurolega/mercato-eurolega-basket-2026-acquisti",
-   "fonte": "a-sky-f1",
-   "fonte_nome": "Sky Sport F1 e motori",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "6206b704177acb13",
-   "titolo": "Rugby Nations Championship, le partite live su Sky guida tv La sesta giornata del Nations Championship 2026 di rugby su Sky e in streaming su NOW. Sabato 21... 20 nov - 12:30",
-   "link": "https://sport.sky.it/rugby/2026/11/20/rugby-nations-championship-italia-fiji-partite-6-giornata-su-sky",
-   "fonte": "a-sky-f1",
-   "fonte_nome": "Sky Sport F1 e motori",
-   "tipo": "stampa",
-   "aree": [
-    "prove",
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [
-    "prove.guide"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "dfb4a9e3fe6bb43d",
-   "titolo": "Honda, Bradl nominato Sporting Coordinator di Hrc MotoGp Dalla prossima stagione Stefan Bradl sarà il nuovo Coordinatore Sportivo per Honda Hrc. Il... 20 nov - 12:22",
-   "link": "https://sport.sky.it/motogp/2026/11/20/motogp-stefan-bradl-sporting-coordinator-hrc",
-   "fonte": "a-sky-f1",
-   "fonte_nome": "Sky Sport F1 e motori",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [
-    "novita_auto.marchi",
-    "motorsport.moto_gp"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "b33130317561ab74",
-   "titolo": "Il traffico di Firenze “scritto” sulle foglie degli alberi: le piante come sentinelle dell'inquinamento urbano",
-   "link": "https://www.ingv.it/stampa-urp/ufficio-stampa/comunicati-stampa/il-traffico-di-firenze-scritto-sulle-foglie-degli-alberi-le-piante-come-sentinelle-dellinquinamento-urbano",
-   "fonte": "pr-ingv",
-   "fonte_nome": "INGV (sismologia)",
-   "tipo": "ente",
-   "aree": [
-    "trasporti",
-    "scienze"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [
-    "trasporti.mobilita",
-    "scienze.chimica"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "geologo",
-    "ingegnere",
-    "mobility",
-    "logistica",
-    "adr",
-    "agronomo",
-    "chimico",
-    "biologo"
-   ]
-  },
-  {
-   "id": "d63a0730d3ec619f",
-   "titolo": "Conferimento di incarico di macrostruttura dell’Autorità di Regolazione per Energia Reti e Ambiente",
-   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/412-26",
-   "fonte": "pr-arera",
-   "fonte_nome": "ARERA (energia e reti)",
-   "tipo": "ufficiale",
-   "aree": [
-    "energia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "energy",
-    "certificatore",
-    "ingegnere",
-    "impiantista"
-   ]
-  },
-  {
-   "id": "22535bef3705d690",
-   "titolo": "Malattie rare, nel 2027 la campagna Uniamo punta sulla persona e i suoi diritti",
-   "link": "https://www.sanitainformazione.it/malattie-rare-nel-2027-la-campagna-uniamo-punta-sulla-persona-e-i-suoi-diritti/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "28626edc4a23c543",
-   "titolo": "Menopausa, negli Stati Uniti più che raddoppiate le terapia ormonali",
-   "link": "https://www.sanitainformazione.it/menopausa-negli-stati-uniti-pi-che-raddoppiate-le-terapia-ormonali/",
-   "fonte": "pr-sanitainfo",
-   "fonte_nome": "Sanità Informazione e Doctor33",
-   "tipo": "stampa",
-   "aree": [
-    "sanita"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "1cdce1abdab03ccb",
-   "titolo": "Pinko punta sulla brand experience per il Natale. In preparazione la campagna Primavera/Estate 2027",
-   "link": "https://www.engage.it/brand-e-aziende/pinko-punta-sulla-brand-experience-per-il-natale-in-preparazione-la-campagna-primaveraestate-2027.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.media"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "ebc37e3b749d6046",
-   "titolo": "Bending Spoons acquisisce Mailchimp da Intuit per 3,68 miliardi di dollari",
-   "link": "https://www.engage.it/tecnologia/bending-spoons-acquisisce-mailchimp-da-intuit-per-368-miliardi-di-dollari.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "a16844297b324d62",
-   "titolo": "“Il grande gioco dell’AI” va in scena al Teatro Carcano di Milano",
-   "link": "https://www.engage.it/eventi/il-grande-gioco-dellai-va-in-scena-al-teatro-carcano-di-milano-.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "4e89f36394410b0e",
-   "titolo": "Salvini, Kiev chiuda il sito Myrotvorets, schedatura nazista",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/20/salvini-kiev-chiuda-il-sito-myrotvorets-schedatura-nazista_bf7c2f1a-b38f-46e8-a6e5-4f78ab2ecb7d.html",
-   "fonte": "t-ansa-tech",
-   "fonte_nome": "ANSA Tecnologia",
-   "tipo": "stampa",
-   "aree": [
-    "ai"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "cd5cdafa53c5f1be",
-   "titolo": "FI presenta emendamento soppressivo degli ebook alla Camera",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/20/fi-presenta-emendamento-soppressivo-degli-ebook-alla-camera_39fe1337-4abd-4aa6-99b2-ea8b34abecf1.html",
-   "fonte": "t-ansa-tech",
-   "fonte_nome": "ANSA Tecnologia",
-   "tipo": "stampa",
-   "aree": [
-    "ai"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "677e8fe4c157b01d",
-   "titolo": "Landini, 'siamo più di un milione in 100 piazze'",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/20/landini-siamo-piu-di-un-milione-in-100-piazze_7c202ea4-fba0-471b-a99a-9990bac77304.html",
-   "fonte": "t-ansa-tech",
-   "fonte_nome": "ANSA Tecnologia",
-   "tipo": "stampa",
-   "aree": [
-    "ai"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "c3219fd0e5d0bdd1",
-   "titolo": "Dominique de Villepin annuncia la sua candidatura per l'Eliseo",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/20/dominique-de-villepin-annuncia-la-sua-candidatura-per-leliseo_730edd69-6bf8-4c65-9d24-3fda4e60684f.html",
-   "fonte": "t-ansa-tech",
-   "fonte_nome": "ANSA Tecnologia",
-   "tipo": "stampa",
-   "aree": [
-    "ai"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "f57e5b7dc2309c9e",
-   "titolo": "Trump licenzia il capo della cybersicurezza dopo i blackout. Nuovo attacco alle banche Usa: trafugati dati dei clienti",
-   "link": "https://www.corriere.it/tecnologia/26_novembre_20/trump-licenzia-il-capo-della-cybersicurezza-dopo-i-blackout-nuovo-attacco-alle-banche-usa-trafugati-dati-dei-clienti-8d85b120-9901-4cbc-b3b2-5aec99eecxlk.shtml",
-   "fonte": "t-corriere-tech",
-   "fonte_nome": "Corriere Innovazione",
-   "tipo": "stampa",
-   "aree": [
-    "ai"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "00e6c9617c8357a9",
-   "titolo": "Accusato di aver ucciso la moglie con l’insulina, Nadir Rossi tenta il suicidio in carcere: “Morte cerebrale”",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPS1d4aGpfMEhKajNCOEs1MDFwTGVpOGNmWnhQNFNRYndfd3BNcWdVcm1CcGUwdk5QTVEtT2dXRjVOWkFxTE9IVUNIbzYyZlAzbFZUWWladDc0aEl6bm9KQzExWURaU2wtV01fMk5sVHB5Mzlubk54VDh2UDcxZGxZZGJHWVk4RXYxdGtuNy13dFd3NXJSOGt2LTU4a0hxWkYyR1ZJdmVaWTRMTVQ2RzRyaVdBVzY5dUpsZFlzRk8yTldKdHRzclRnd1RqT2RHZFFCMDBqaA?oc=5",
-   "fonte": "p-fanpage",
-   "fonte_nome": "Fanpage Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Accusato di aver ucciso la moglie con l’insulina, Nadir Rossi tenta il suicidio in carcere: “Morte cerebrale” Fanpage",
-   "pubblicata": "2026-11-20T12:01:08Z",
-   "visto": "2026-11-20T13:01:03Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "fde58704dabb5f44",
-   "titolo": "Vuoi una Steam Machine? Ottime notizie per un modello, ma per l'altro la situazione è drammatica",
-   "link": "https://gaming.hwupgrade.it/news/videogames/vuoi-una-steam-machine-ottime-notizie-per-un-modello-ma-per-l-altro-la-situazione-e-drammatica_162377.html",
-   "fonte": "t-hwupgrade",
-   "fonte_nome": "Hardware Upgrade",
-   "tipo": "stampa",
-   "aree": [
-    "offerte",
-    "hardware"
-   ],
-   "normativa": false,
-   "sintesi": "Valve ha aggiornato la disponibilità di Steam Machine: la versione da 512 GB passa all'acquisto diretto sullo store senza liste d'attesa, mantenendo il prezzo di lancio.",
-   "pubblicata": "2026-11-20T12:01:01Z",
-   "visto": "2026-11-20T13:01:03Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "96f891f9eae85dc2",
-   "titolo": "Meta Quest 3S con Resident Evil 4: sconto per il Black Friday e 3 mesi di catalogo giochi",
-   "link": "https://www.hdblog.it/hardware/offerte/n677755/meta-quest-3s-resident-evil-4-sconto-black-friday/",
-   "fonte": "hdblog",
-   "fonte_nome": "HDblog",
-   "tipo": "stampa",
-   "aree": [
-    "offerte",
-    "smartphone"
-   ],
-   "normativa": false,
-   "sintesi": "Visore VR e gioco horror in un solo acquisto.",
-   "pubblicata": "2026-11-20T12:01:00Z",
-   "visto": "2026-11-20T15:01:06Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "6545ff688af5b653",
-   "titolo": "iPhone Duo 256GB a rate con TIM: subito disponibile a 79€ al mese",
-   "link": "https://www.telefonino.net/notizie/iphone-duo-256gb-a-rate-con-tim-subito-disponibile-a-79e-al-mese/",
-   "fonte": "t-telefonino",
-   "fonte_nome": "Telefonino.net",
-   "tipo": "stampa",
-   "aree": [
-    "smartphone",
-    "hardware"
-   ],
-   "normativa": false,
-   "sintesi": "Il pieghevole Apple si acquista online in 30 rate, con TAN e TAEG a zero: condizioni, costo totale e compatibilità eSIM.",
-   "pubblicata": "2026-11-20T12:00:51Z",
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "c1b92eaccfc85aa4",
-   "titolo": "Scioperi dal 16 al 22 novembre 2026: ecco le date da segnare sul calendario.",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQTFjUDlCQktqQUpjcXpLYUNVQXd6bmNQVVhaVmhVMWVFQUI4aUdlcDNGbGxVM2p3elpvTzhQTmJMVkF3ZDB4alg4V1ZSWkpKOGZTclVJNTRWVGNYcEF0aWI2WTNTd083bmhyUW4yQlJKOHlEc1M4S2pSbWlNVGFIN01QWGdBcHg3WUtTbFdkTUxXbGJaMk9CdGFlYzlNdXVET3haTmNrM05fNTJXNVVDMU5pX0xzTnIyck5adGhWTHA2VV9BUXc?oc=5",
-   "fonte": "f-caf-uil",
-   "fonte_nome": "CAF UIL",
-   "tipo": "ente",
-   "aree": [
-    "professione_fisco"
-   ],
-   "normativa": false,
-   "sintesi": "Scioperi dal 16 al 22 novembre 2026: ecco le date da segnare sul calendario. Torino Cronaca",
-   "pubblicata": "2026-11-20T12:00:48Z",
-   "visto": "2026-11-20T12:01:13Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "d674410820f1b072",
-   "titolo": "Rinnovabili, la riforma del sistema normativo secondo Anci",
-   "link": "https://www.qualenergia.it/pro/articoli-pro/rinnovabili-riforma-sistema-normativo-secondo-anci/",
-   "fonte": "pr-qualenergia",
-   "fonte_nome": "QualEnergia e rinnovabili",
-   "tipo": "stampa",
-   "aree": [
-    "energia"
-   ],
-   "normativa": false,
-   "sintesi": "L’associazione italiana Comuni italiani (Anci) chiede al Governo di intervenire sul framework normativo delle rinnovabili, recependo molti dei principi fissati dalla…",
-   "pubblicata": "2026-11-20T12:00:44Z",
-   "visto": "2026-11-20T13:01:03Z",
-   "metodo": "rss",
-   "sotto": [
-    "energia.rinnovabili"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "energy",
-    "certificatore",
-    "ingegnere",
-    "impiantista"
-   ]
-  },
-  {
-   "id": "5cf668c0a913c7dc",
-   "titolo": "L'amministratore Trump continua a non permettere al gigante Wi-Fi TP-Link di vendere i suoi ultimi router negli Stati Uniti",
-   "link": "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us/",
-   "fonte": "t-arstechnica",
-   "fonte_nome": "Ars Technica",
-   "tipo": "stampa",
-   "aree": [
-    "telecom",
-    "hardware"
-   ],
-   "normativa": false,
-   "sintesi": "La lotta di TP-Link illustra come l'amministratore Trump esercita il controllo sui produttori di dispositivi.",
-   "pubblicata": "2026-11-20T12:00:43Z",
-   "visto": "2026-11-21T16:44:11Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": [],
-   "tradotto": true
-  },
-  {
-   "id": "c1e2b9f972bf37cf",
-   "titolo": "Il capannone segreto di Kimi Antonelli: pronta la lista delle supercar da acquistare",
-   "link": "https://www.hdmotori.it/kimi-antonelli-collezione-supercar/",
-   "fonte": "hdblog",
-   "fonte_nome": "HDblog",
-   "tipo": "stampa",
-   "aree": [
-    "smartphone"
-   ],
-   "normativa": false,
-   "sintesi": "Il campione del mondo di F1, Kimi Antonelli, vuole diventare un collezionista di auto come Fernando Alonso e Charles Leclerc.",
-   "pubblicata": "2026-11-20T12:00:39Z",
-   "visto": "2026-11-20T13:01:03Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
   }
  ]
 }
