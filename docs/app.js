@@ -317,7 +317,7 @@ function cardSemaforo(completo) {
     ${completo ? `<ul>${s.motivi.map((m) => `<li>${esc(m)}</li>`).join("") || "<li>Nessun fattore particolare in questi giorni.</li>"}</ul>` : ""}
     ${prox ? `<p>${prox}</p>` : ""}</div>`;
 }
-state.vistaAuto = "offerte"; state.offFiltro = "tutte"; state.modelli = store.get("modelli", null); state.profilo = {};
+state.vistaAuto = "notizie"; state.offFiltro = "tutte"; state.modelli = store.get("modelli", null); state.profilo = {};
 const OFF_FILTRI = [["tutte", "Tutte"], ["sconti", "Sconti"], ["km0", "Km0 e usato"], ["noleggio", "Noleggio e rate"], ["incentivi", "Incentivi"]];
 const eOfferta = (n) => n.nicchia === "auto" && (n.aree.includes("offerte_auto") || n.aree.includes("incentivi_auto"));
 function cardProfilo() {
@@ -494,7 +494,7 @@ function apriNews(n) {
 }
 
 // ============ Politica: quadro grafico (dati in data/politica.json) ============
-state.gruppiAperti = state.gruppiAperti || new Set(); state.vistaPol = "quadro"; state.politica = null; state.politicaAuto = {}; state.politicaStato = {};
+state.gruppiAperti = state.gruppiAperti || new Set(); state.vistaPol = "notizie"; state.politica = null; state.politicaAuto = {}; state.politicaStato = {};
 function hemi(gruppi, W) {
   const N = gruppi.reduce((s, g) => s + g.n, 0), H = Math.round(W * 0.56), cx = W / 2, cy = H - 9;
   const R = N > 200 ? 9 : N > 60 ? 6 : 4, r0 = W * 0.2, r1 = W * 0.47, dr = R > 1 ? (r1 - r0) / (R - 1) : 0;
@@ -652,12 +652,12 @@ function renderProf() {
   const ids = Object.keys(state.professioni);
   if (state.nicchia === "auto") {
     el.hidden = false;
-    el.innerHTML = [["offerte", "💸 Offerte e momento"], ["notizie", "📰 Notizie"]].map(([k, l]) => `<button class="chip${state.vistaAuto === k ? " on" : ""}" data-vauto="${k}">${l}</button>`).join("");
+    el.innerHTML = [["notizie", "📰 Notizie"], ["offerte", "💸 Offerte e momento"]].map(([k, l]) => `<button class="chip${state.vistaAuto === k ? " on" : ""}" data-vauto="${k}">${l}</button>`).join("");
     return;
   }
   if (state.nicchia === "politica") {
     el.hidden = false;
-    el.innerHTML = [["quadro", "🏛️ Quadro politico"], ["notizie", "📰 Notizie"]].map(([k, l]) => `<button class="chip${state.vistaPol === k ? " on" : ""}" data-vpol="${k}">${l}</button>`).join("");
+    el.innerHTML = [["notizie", "📰 Notizie"], ["quadro", "🏛️ Quadro politico"]].map(([k, l]) => `<button class="chip${state.vistaPol === k ? " on" : ""}" data-vpol="${k}">${l}</button>`).join("");
     return;
   }
   if (state.nicchia !== "edilizia" || !ids.length) { el.hidden = true; return; }
@@ -673,7 +673,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "42";
+const VERSIONE_APP = "43";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
