@@ -365,7 +365,7 @@ def read_source(src):
 
 
 # ---------------------------------------------------------------- classificazione
-TASSONOMIA = "13"  # cambia questo valore per far riclassificare l'archivio
+TASSONOMIA = "14"  # cambia questo valore per far riclassificare l'archivio
 
 
 def _rx(kw):
@@ -503,6 +503,17 @@ def estrai_prezzo(titolo, sintesi=""):
     return f"{num} €{'/mese' if mese else ''}"
 
 
+
+# Offerte e incentivi auto: devono parlare di veicoli e non di telefoni, elettrodomestici, sport, ecc.
+_VEICOLO = re.compile(r"\b(auto|automobil\w*|vettur\w*|suv|crossover|city car|berlina|station wagon|utilitaria|monovolume|pick-?up|furgon\w*|veicol\w*|moto|motocicl\w*|scooter|camper|caravan|ibrid\w*|elettric[ao]|plug-?in|diesel|benzina|gpl|metano|noleggio|leasing|km ?0|usato|concessionar\w*|rottamazione|fiat|nissan|juke|piaggio|vespa|toyota|renault|dacia|peugeot|citro[eë]n|opel|volkswagen|vw|audi|bmw|mercedes|ford|kia|hyundai|jeep|alfa romeo|lancia|mini|tesla|byd|suzuki|honda|yamaha|ducati|kawasaki|mazda|skoda|seat|cupra|volvo|leapmotor|omoda|jaecoo|ktm|aprilia|bonus (auto|veicoli)|incentiv\w*|ecobonus|immatricolaz\w*|targ\w*|assicurazione auto|rc auto|bollo)\b", re.I)
+_ESTRANEO = re.compile(r"\b(smartphone|telefon\w*|cellular\w*|iphone|galaxy|pixel|xiaomi|redmi|motorola|moto g\d*|moto edge|razr|huawei|oppo|oneplus|realme|tablet|notebook|laptop|pc portatil\w*|televisor\w*|tv oled|oled|lavatrice|frigorifero|elettrodomestic\w*|aspirapolvere|robot aspirapolvere|de'?longhi|friggitrice|cuffie|smartwatch|playstation|xbox|nintendo|amazon prime|formula (1|2|3|e|uno)|f1|f2|motogp|moto2|moto3|superbike|wrc|gran premio|gp di|qualifiche|pole position|campionato (piloti|mondiale)|scuderia|calcio|serie a|champions|videogioc\\w*|grand theft auto|gta|sonic racing|dazn|paytv|pay tv|offerte internet|esselunga|supermerc\\w*|offerte di lavoro|manovra|inail|isi 2027)\b", re.I)
+
+
+def offerta_valida(item):
+    t = item["titolo"] + " " + (item.get("sintesi") or "")
+    return bool(_VEICOLO.search(t)) and not _ESTRANEO.search(item["titolo"])
+
+
 def classify(item, src, matchers, urgenti, aree_cfg):
     if src.get("lingua") != "en" and not is_italiano(item["titolo"], item.get("sintesi", "")):
         return None
@@ -519,6 +530,8 @@ def classify(item, src, matchers, urgenti, aree_cfg):
         n = sum(1 for r in rxs if r.search(text))
         if n:
             scored.append((n, area))
+    if nicchia == "auto" and not offerta_valida(item):  # niente offerte/incentivi per notizie che non c'entrano coi veicoli
+        scored = [x for x in scored if x[1] not in ("offerte_auto", "incentivi_auto")]
     scored.sort(reverse=True)
     aree = [a for _, a in scored[:2]]
     hint = src.get("aree") or []
