@@ -6,6 +6,7 @@ dell'Unione europea (Ufficio delle pubblicazioni UE) - API pubblica, senza chiav
 Copre i bandi sopra soglia europea. Scrive docs/data/bandi.json e bandi_status.json.
 Se la fonte non risponde o cambia formato NON si sovrascrive nulla.
 """
+import html
 import json
 import re
 import sys
@@ -106,7 +107,7 @@ def main():
             if not titolo:
                 continue
             scad = prima(n.get("deadline-receipt-tender-date-lot")) or ""
-            out.append({"id": num, "titolo": titolo[:300], "ente": testo(n.get("buyer-name"))[:160], "provincia": prov,
+            out.append({"id": num, "titolo": html.unescape(titolo)[:300], "ente": html.unescape(testo(n.get("buyer-name")))[:160], "provincia": prov,
                         "pubblicato": str(prima(n.get("publication-date")) or "")[:10], "scadenza": str(scad)[:10],
                         "importo": valore(n.get("estimated-value-lot")),
                         "link": f"https://ted.europa.eu/it/notice/-/detail/{num}"})
