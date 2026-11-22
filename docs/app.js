@@ -182,6 +182,24 @@ function sezione(k, listaTot) {
     </button>${corpo}</section>`;
 }
 
+
+// Altezze della barra in alto e delle intestazioni, per tenere fisse le intestazioni aperte mentre si scorre
+function misure() {
+  const r = document.documentElement.style, top = document.querySelector(".top");
+  if (top) r.setProperty("--topH", top.offsetHeight + "px");
+  const g = document.querySelector(".grp-sez.aperto > .grp-head");
+  r.setProperty("--grpH", (g ? g.offsetHeight : 0) + "px");
+  const sh = document.querySelector(".sez.aperta .sez-head");
+  r.setProperty("--headH", (sh ? sh.offsetHeight : 56) + "px");
+}
+window.addEventListener("resize", misure);
+function ancora(sel) {
+  const el = document.querySelector(sel); if (!el) return;
+  const top = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--topH")) || 60;
+  const y = el.getBoundingClientRect().top;
+  if (y < top) window.scrollTo(0, window.scrollY + y - top - 6);
+}
+
 function renderNovita() {
   const box = $("#lista-novita");
   document.body.classList.toggle("pol-quadro", state.nicchia === "politica" && state.vistaPol === "quadro");
@@ -206,17 +224,29 @@ function renderNovita() {
   } else chiavi.push(...tutteAree);
   if (!(state.nicchia === "edilizia" && state.vista === "prof")) chiavi.push("altro");
   let out = "";
-  let titoloPendente = "";
+  let titolo = "", html = "", tot = 0, keys = [];
+  const chiudiGruppo = () => {
+    if (html) {
+      if (titolo) {
+        const aperto = state.gruppiAperti.has(titolo) || keys.some((x) => state.aperte.has(x));
+        out += `<section class="grp-sez${aperto ? " aperto" : ""}"><button class="grp-head" data-grp="${esc(titolo)}" data-keys="${esc(keys.join(","))}" aria-expanded="${aperto}"><span class="sez-titolo">${esc(titolo)}</span><span class="sez-meta"><small>${tot}</small></span><span class="freccia" aria-hidden="true">›</span></button>${aperto ? `<div class="grp-corpo">${html}</div>` : ""}</section>`;
+      } else out += html;
+    }
+    html = ""; tot = 0; keys = [];
+  };
   for (const k of chiavi) {
-    if (k.startsWith("#")) { titoloPendente = k.slice(1); continue; }
+    if (k.startsWith("#")) { chiudiGruppo(); titolo = k.slice(1); continue; }
     const lista = filtra({ area: k, query: "", soloNorm: state.soloNorm, primario: true });
     if (!lista.length && k !== "stelle" && (k === "altro" || k.startsWith("p:"))) continue;
     if (k === "stelle" && !state.stelle.size) continue;
     if (k === "locale" && !state.aree.locale) continue;
-    if (titoloPendente && lista.length) { out += `<div class="gruppo-titolo">${esc(titoloPendente)}</div>`; titoloPendente = ""; }
-    out += sezione(k, lista);
+    if (k === "stelle" || k === "altro" || !titolo) { if (titolo && k === "altro") { chiudiGruppo(); titolo = ""; } }
+    if (k === "stelle") titolo = "";
+    html += sezione(k, lista); tot += lista.length; keys.push(k);
   }
+  chiudiGruppo();
   box.innerHTML = out || vuoto("Nessuna notizia", "Togli il filtro \"Solo novità normative\".");
+  misure();
 }
 
 function renderArchivio() {
@@ -463,7 +493,7 @@ function apriNews(n) {
 }
 
 // ============ Politica: quadro grafico (dati in data/politica.json) ============
-state.vistaPol = "quadro"; state.politica = null; state.politicaAuto = {}; state.politicaStato = {};
+state.gruppiAperti = state.gruppiAperti || new Set(); state.vistaPol = "quadro"; state.politica = null; state.politicaAuto = {}; state.politicaStato = {};
 function hemi(gruppi, W) {
   const N = gruppi.reduce((s, g) => s + g.n, 0), H = Math.round(W * 0.56), cx = W / 2, cy = H - 9;
   const R = N > 200 ? 9 : N > 60 ? 6 : 4, r0 = W * 0.2, r1 = W * 0.47, dr = R > 1 ? (r1 - r0) / (R - 1) : 0;
@@ -642,7 +672,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "40";
+const VERSIONE_APP = "41";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -674,11 +704,21 @@ document.addEventListener("click", (e) => {
   if (vi) { state.vista = vi.dataset.vista; state.prof = "tutte"; state.aperte.clear(); renderTutto(); return; }
   const pf = e.target.closest("[data-prof]");
   if (pf) { state.prof = pf.dataset.prof; state.mostrati = 40; renderTutto(); return; }
+  const gp = e.target.closest("[data-grp]");
+  if (gp) {
+    const t = gp.dataset.grp, apri = !gp.closest(".grp-sez").classList.contains("aperto");
+    if (apri) state.gruppiAperti.add(t); else { state.gruppiAperti.delete(t); (gp.dataset.keys || "").split(",").forEach((x) => state.aperte.delete(x)); }
+    renderNovita();
+    if (!apri) ancora(`[data-grp="${CSS.escape(t)}"]`);
+    return;
+  }
   const sez = e.target.closest("[data-sez]");
   if (sez) {
     const k = sez.dataset.sez;
-    state.aperte.has(k) ? state.aperte.delete(k) : state.aperte.add(k);
+    const chiude = state.aperte.has(k);
+    chiude ? state.aperte.delete(k) : state.aperte.add(k);
     renderNovita();
+    if (chiude) ancora(`[data-sez="${CSS.escape(k)}"]`);
     return;
   }
   const so = e.target.closest("[data-sotto]");

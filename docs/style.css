@@ -327,3 +327,21 @@ body.pop-open{overflow:hidden}
 .tap:active{transform:scale(.985)}
 .tocca{font-size:12px;color:var(--accent);font-weight:700;margin-top:6px}
 @media (prefers-reduced-motion:reduce){.pop-sh,.pop-bg,.tap{transition:none}}
+
+/* ===== Intestazioni fisse mentre si scorre + gruppi richiudibili ===== */
+.sez{overflow:visible}
+.sez-head{border-radius:var(--r)}
+.sez.aperta .sez-head{border-radius:var(--r) var(--r) 0 0;position:sticky;top:calc(var(--topH,60px) + var(--grpH,0px));z-index:3;background:var(--card);box-shadow:0 6px 10px -8px rgba(20,33,58,.35)}
+.sez.aperta .sotto{position:sticky;top:calc(var(--topH,60px) + var(--grpH,0px) + var(--headH,56px));z-index:2;background:var(--bg);margin:0 -10px;padding-left:10px;padding-right:10px}
+.grp-sez{margin:0 0 12px}
+.grp-head{width:100%;display:flex;align-items:center;gap:10px;border:0;cursor:pointer;color:var(--ink);background:var(--chip);border-radius:var(--r);padding:15px 18px;font-size:15px;font-weight:800;text-align:left;text-transform:none}
+.grp-head .freccia{transition:transform .25s var(--out)}
+.grp-sez.aperto .grp-head{position:sticky;top:var(--topH,60px);z-index:4;border-radius:var(--r);box-shadow:0 6px 10px -8px rgba(20,33,58,.4)}
+.grp-sez.aperto .grp-head .freccia{transform:rotate(90deg)}
+.grp-corpo{padding:10px 0 0 8px;border-left:3px solid var(--chip);margin-left:10px}
+.grp-corpo .sez{margin-bottom:8px}
+
+.grp-sez.aperto .grp-head{border-radius:16px}
+.sez.aperta .sez-head{border-radius:14px 14px 0 0;top:calc(var(--topH,60px) + var(--grpH,0px) - 6px);padding-top:calc(18px + 6px)}
+.grp-corpo .sez.aperta .sez-head{padding-top:24px}
+.sez.aperta .sotto{top:calc(var(--topH,60px) + var(--grpH,0px) + var(--headH,56px) - 6px)}
