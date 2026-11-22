@@ -223,11 +223,42 @@ function ancora(sel, sempre) {
   if (sempre || y < dest) window.scrollTo({ top: window.scrollY + y - dest, behavior: "auto" });
 }
 
+
+// ===== Bandi e appalti (TED, Gazzetta ufficiale degli appalti UE) =====
+const euro = (v) => v >= 1e6 ? (v / 1e6).toLocaleString("it-IT", { maximumFractionDigits: 1 }) + " mln €" : v.toLocaleString("it-IT") + " €";
+function scadenzaTxt(d) {
+  if (!d) return { t: "scadenza non indicata", c: "" };
+  const g = Math.ceil((new Date(d + "T23:59:59") - new Date()) / 86400000);
+  const dt = new Date(d + "T12:00:00"); const quando = `${dt.getDate()} ${MESI[dt.getMonth()]}`;
+  if (g < 0) return { t: `scaduto il ${quando}`, c: "off" };
+  if (g === 0) return { t: "scade oggi", c: "urg" };
+  if (g <= 7) return { t: `scade tra ${g} ${g === 1 ? "giorno" : "giorni"} (${quando})`, c: "urg" };
+  return { t: `scade il ${quando} (tra ${g} giorni)`, c: "" };
+}
+function renderBandi() {
+  const B = state.bandi, tutti = B.bandi || [];
+  const prov = ["tutte", ...Array.from(new Set(tutti.map((b) => b.provincia)))];
+  const sel = state.bandiProv;
+  const lista = tutti.filter((b) => sel === "tutte" || b.provincia === sel);
+  const chips = `<div class="sotto">${prov.map((p) => `<button class="chip s${p === sel ? " on" : ""}" data-bprov="${esc(p)}">${p === "tutte" ? "Tutta la Campania" : esc(p)} <small>${p === "tutte" ? tutti.length : tutti.filter((b) => b.provincia === p).length}</small></button>`).join("")}</div>`;
+  const cards = lista.map((b) => {
+    const sc = scadenzaTxt(b.scadenza);
+    const pop = reg(`<div class="riga"><span class="badge luogo">📍 ${esc(b.provincia)}</span></div><h2 class="pop-t">${te(b.titolo)}</h2>
+      <div class="pop-box">${pRiga("Ente appaltante", te(b.ente))}${pRiga("Importo stimato", b.importo ? euro(b.importo) : "non indicato")}${pRiga("Pubblicato", esc(b.pubblicato))}${pRiga("Scadenza offerte", esc(sc.t))}</div>
+      <p class="pop-p mute">Importo e scadenza sono quelli pubblicati nell'avviso di gara. Prima di partecipare verifica sempre sul sito dell'ente: possono esserci proroghe o rettifiche.</p>
+      <div class="pop-az">${pBtn(b.link, "Avviso ufficiale su TED ↗")}</div><p class="pop-fonte">Fonte: TED, Gazzetta ufficiale degli appalti dell'Unione europea. Include solo le gare sopra la soglia europea.</p>`);
+    return `<article class="card tap" ${pop} style="--c:#b45309"><div class="riga"><span class="badge luogo">📍 ${esc(b.provincia)}</span>${b.importo ? `<span class="badge prezzo">${esc(euro(b.importo))}</span>` : ""}<span class="ver ${sc.c === "urg" ? "multi" : "ente"}">⏳ ${esc(sc.t)}</span></div>
+      <h3 class="titolo">${te(b.titolo)}</h3><div class="piede"><span>${te(b.ente)}</span><span class="ver uff">🟢 TED</span></div></article>`;
+  }).join("");
+  return `<div class="riepilogo" style="margin-top:6px"><b>🏗️ Bandi di gara aperti in Campania</b><p>Appalti pubblici sopra soglia UE, con Caserta in testa. Aggiornati ${B.aggiornato ? fa(new Date(B.aggiornato)) : "—"}. Tocca un bando per i dettagli.</p></div>${chips}${cards || vuoto("Nessun bando aperto", "Per questa provincia non ci sono gare aperte sopra soglia.")}`;
+}
+
 function renderNovita() {
   const box = $("#lista-novita");
   document.body.classList.toggle("pol-quadro", state.nicchia === "politica" && state.vistaPol === "quadro");
   if (state.nicchia === "politica" && state.vistaPol === "quadro") { box.innerHTML = renderPolitica(); return; }
   if (state.nicchia === "auto" && state.vistaAuto !== "notizie" && state.news.length) { box.innerHTML = renderOfferte(); return; }
+  if (state.nicchia === "edilizia" && state.vista === "bandi" && state.bandi) { box.innerHTML = renderBandi(); return; }
   if (!state.news.length) { box.innerHTML = vuoto("Ancora nessuna notizia", "Il primo aggiornamento automatico è in arrivo (ogni ora)."); return; }
   const tutteAree = Object.keys(state.aree).filter((a) => a !== "altro" && a !== "locale" && areaNicchia(a));
   let chiavi = ["stelle"];
@@ -686,7 +717,7 @@ function renderProf() {
   }
   if (state.nicchia !== "edilizia" || !ids.length) { el.hidden = true; return; }
   el.hidden = false;
-  let h = `<button class="chip${state.vista === "prof" ? " on" : ""}" data-vista="prof">👤 Per professione</button><button class="chip${state.vista === "arg" ? " on" : ""}" data-vista="arg">📚 Per argomento</button>`;
+  let h = `<button class="chip${state.vista === "prof" ? " on" : ""}" data-vista="prof">👤 Per professione</button><button class="chip${state.vista === "arg" ? " on" : ""}" data-vista="arg">📚 Per argomento</button>${state.bandi && state.bandi.bandi ? `<button class="chip${state.vista === "bandi" ? " on" : ""}" data-vista="bandi">🏗️ Bandi <small>${state.bandi.bandi.length}</small></button>` : ""}`;
   if (state.vista === "arg") {
     const base = state.news.filter(inNicchia);
     const conta = (p) => base.filter((n) => (n.prof || []).includes(p)).length;
@@ -697,7 +728,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "45";
+const VERSIONE_APP = "46";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -710,6 +741,7 @@ async function carica(forza) {
     const [news, aree, status, prof, profilo, confronto, politica, politicaAuto, politicaStato, deputati, senatori, partiti, votazioni, proposte] = await Promise.all([j("news"), j("aree"), j("status").catch(() => null), j("professioni").catch(() => ({})), j("profilo").catch(() => ({})), j("confronto").catch(() => null), j("politica").catch(() => null), j("politica_auto").catch(() => ({})), j("politica_status").catch(() => ({})), j("deputati").catch(() => null), j("senatori").catch(() => null), j("partiti").catch(() => null), j("votazioni").catch(() => null), j("proposte").catch(() => null)]);
     state.confronto = confronto; state.politica = politica; state.politicaAuto = politicaAuto || {}; state.politicaStato = politicaStato || {}; state.deputati = deputati; state.senatori = senatori; state.partiti = partiti; state.votazioni = votazioni; state.proposte = proposte;
     state.profilo = profilo || {};
+    state.bandi = await j("bandi").catch(() => null); state.bandiProv = "tutte";
     if (!Array.isArray(state.modelli)) state.modelli = [...(state.profilo.modelli || [])];
     state.professioni = prof.professioni || {}; state.gruppiProf = prof.gruppi || [];
     if (!Array.isArray(news.notizie)) throw new Error("dati non validi");
@@ -727,6 +759,8 @@ async function carica(forza) {
 document.addEventListener("click", (e) => {
   const vi = e.target.closest("[data-vista]");
   if (vi) { state.vista = vi.dataset.vista; state.prof = "tutte"; state.aperte.clear(); renderTutto(); return; }
+  const bp = e.target.closest("[data-bprov]");
+  if (bp) { state.bandiProv = bp.dataset.bprov; renderNovita(); return; }
   const pf = e.target.closest("[data-prof]");
   if (pf) { state.prof = pf.dataset.prof; state.mostrati = 40; renderTutto(); return; }
   const gp = e.target.closest("[data-grp]");

@@ -56,7 +56,7 @@ def valore(v):
         return None
 
 
-def cerca(query, limite=100):
+def cerca(query, limite=250):
     corpo = {"query": query, "fields": CAMPI, "limit": limite, "page": 1, "scope": "ALL", "paginationMode": "PAGE_NUMBER"}
     r = requests.post(API, json=corpo, timeout=40, headers={"Accept": "application/json", "User-Agent": "RassegnaBot/1.0 (uso personale)"})
     if r.status_code != 200:
@@ -68,7 +68,7 @@ def main():
     stato = {"ultimo_tentativo": ora()}
     try:
         luoghi = " OR ".join(f"place-of-performance={c}" for c in PROVINCE)
-        da = (datetime.now(timezone.utc) - timedelta(days=150)).strftime("%Y%m%d")
+        da = (datetime.now(timezone.utc) - timedelta(days=120)).strftime("%Y%m%d")
         dati = cerca(f"({luoghi}) AND buyer-country=ITA AND publication-date>={da} AND (notice-type=cn-standard OR notice-type=cn-social OR notice-type=cn-desg)")
         notizie = dati.get("notices", [])
         (DATA / "debug_bandi.json").write_text(json.dumps({"totale": dati.get("totalNoticeCount"), "esempio": notizie[:2]}, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -90,8 +90,12 @@ def main():
                         "pubblicato": str(prima(n.get("publication-date")) or "")[:10], "scadenza": str(scad)[:10],
                         "importo": valore(n.get("estimated-value-lot")),
                         "link": f"https://ted.europa.eu/it/notice/-/detail/{num}"})
+        oggi = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        out = [x for x in out if not x["scadenza"] or x["scadenza"] >= oggi]   # solo gare ancora aperte
+        for x in out:
+            x["titolo"] = re.sub(r"^Italia\s*[–-]\s*[^–]{3,80}?\s*[–-]\s*", "", x["titolo"]).strip() or x["titolo"]
         if not out:
-            raise RuntimeError("bandi letti ma senza titolo")
+            raise RuntimeError("nessun bando ancora aperto")
         out.sort(key=lambda x: (x["provincia"] != "Caserta", x["scadenza"] or "9999"))
         (DATA / "bandi.json").write_text(json.dumps({"aggiornato": ora(), "fonte": "TED - Gazzetta ufficiale degli appalti UE",
                                                        "totale": dati.get("totalNoticeCount", len(out)), "bandi": out}, ensure_ascii=False, indent=1), encoding="utf-8")
