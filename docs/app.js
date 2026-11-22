@@ -193,11 +193,12 @@ function misure() {
   r.setProperty("--headH", (sh ? sh.offsetHeight : 56) + "px");
 }
 window.addEventListener("resize", misure);
-function ancora(sel) {
+function ancora(sel, sempre) {
   const el = document.querySelector(sel); if (!el) return;
-  const top = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--topH")) || 60;
-  const y = el.getBoundingClientRect().top;
-  if (y < top) window.scrollTo(0, window.scrollY + y - top - 6);
+  const cs = getComputedStyle(document.documentElement), top = parseFloat(cs.getPropertyValue("--topH")) || 60;
+  const gh = el.matches("[data-sez]") && el.closest(".grp-sez") ? parseFloat(cs.getPropertyValue("--grpH")) || 0 : 0;
+  const y = el.getBoundingClientRect().top, dest = top + gh + 6;
+  if (sempre || y < dest) window.scrollTo({ top: window.scrollY + y - dest, behavior: "auto" });
 }
 
 function renderNovita() {
@@ -672,7 +673,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "41";
+const VERSIONE_APP = "42";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -707,18 +708,22 @@ document.addEventListener("click", (e) => {
   const gp = e.target.closest("[data-grp]");
   if (gp) {
     const t = gp.dataset.grp, apri = !gp.closest(".grp-sez").classList.contains("aperto");
-    if (apri) state.gruppiAperti.add(t); else { state.gruppiAperti.delete(t); (gp.dataset.keys || "").split(",").forEach((x) => state.aperte.delete(x)); }
+    if (apri) { state.gruppiAperti.clear(); state.aperte.clear(); state.gruppiAperti.add(t); } else { state.gruppiAperti.delete(t); (gp.dataset.keys || "").split(",").forEach((x) => state.aperte.delete(x)); }
     renderNovita();
-    if (!apri) ancora(`[data-grp="${CSS.escape(t)}"]`);
+    ancora(`[data-grp="${CSS.escape(t)}"]`, apri);
     return;
   }
   const sez = e.target.closest("[data-sez]");
   if (sez) {
     const k = sez.dataset.sez;
     const chiude = state.aperte.has(k);
-    chiude ? state.aperte.delete(k) : state.aperte.add(k);
+    if (chiude) state.aperte.delete(k);
+    else {  // si tiene aperta una sola voce alla volta: le altre si chiudono
+      state.aperte.clear(); state.aperte.add(k);
+      const gr = e.target.closest(".grp-sez"); if (gr) { state.gruppiAperti.clear(); state.gruppiAperti.add(gr.querySelector("[data-grp]").dataset.grp); }
+    }
     renderNovita();
-    if (chiude) ancora(`[data-sez="${CSS.escape(k)}"]`);
+    ancora(`[data-sez="${CSS.escape(k)}"]`, !chiude);
     return;
   }
   const so = e.target.closest("[data-sotto]");
