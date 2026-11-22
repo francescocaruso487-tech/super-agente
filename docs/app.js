@@ -236,7 +236,7 @@ function scadenzaTxt(d) {
   return { t: `scade il ${quando} (tra ${g} giorni)`, c: "" };
 }
 function renderBandi() {
-  const B = state.bandi, tutti = B.bandi || [];
+  const B = state.bandi, tutti = (B.bandi || []).filter((b) => !b.scadenza || b.scadenza >= oggiISO());
   const prov = ["tutte", ...Array.from(new Set(tutti.map((b) => b.provincia)))];
   const sel = state.bandiProv;
   const lista = tutti.filter((b) => sel === "tutte" || b.provincia === sel);
@@ -545,6 +545,8 @@ function renderAlmanacco() {
   const dom = i + 1 < ks.length ? A.giorni[ks[i + 1]] : null;
   const nav = `<div class="alm-nav"><button data-alm-day="${i - 1}" ${i <= 0 ? "disabled" : ""} aria-label="Giorno prima">‹</button><div><h1>${esc(titolo)}</h1><p>${g.settimana}ª settimana · ${g.giorno_anno}° giorno dell'anno · mancano ${g.giorni_alla_fine_anno} giorni alla fine dell'anno</p></div><button data-alm-day="${i + 1}" ${i + 1 >= ks.length ? "disabled" : ""} aria-label="Giorno dopo">›</button></div>`;
   let h = nav;
+  const vecchio = !A.aggiornato || (Date.now() - new Date(A.aggiornato)) > 14 * 3600e3 || !A.giorni[oggiISO()];
+  if (vecchio) h += `<p class="alm-avviso">⚠️ Dati non aggiornati da ${A.aggiornato ? fa(new Date(A.aggiornato)) : "—"}. L'aggiornamento automatico è in ritardo: riprova tra poco con ⟳.</p>`;
   // Festività
   if (g.festivita && g.festivita.some((f) => f.tipo !== "domenica")) h += AS("🎉 Festività e ricorrenze civili", g.festivita.filter((f) => f.tipo !== "domenica").map((f) => `<p class="alm-fest ${esc(f.tipo)}">${esc(f.nome)}</p>`).join(""), `<p class="alm-f">Calcolate dalle regole di legge e liturgiche.</p>`);
   // Santi
@@ -561,7 +563,9 @@ function renderAlmanacco() {
   // Costituzione
   if (g.costituzione) h += AS("⚖️ Note civiche: la Costituzione", `<h3>${esc(g.costituzione.articolo)}</h3><p class="alm-cost">${esc(g.costituzione.testo).replace(/\n/g, "<br>")}</p>`, `<p class="alm-f">Testo ufficiale dal sito Normattiva (Poligrafico dello Stato).</p>`);
   // Cultura: frase, parola, modo di dire, comune
+  if (!g.frase && k === oggiISO()) h += AS("💬 Frase del giorno", `<p class="mute">In arrivo: la frase di oggi viene pubblicata da Wikiquote nelle prime ore del giorno.</p>`);
   if (g.frase) h += AS("💬 Frase del giorno", `<p class="alm-q">“${esc(g.frase.testo)}”</p><p class="alm-qa">— ${esc(g.frase.autore)}</p>`, `<p class="alm-f">Fonte: Wikiquote, citazione del giorno (non istituzionale).</p>`);
+  if (!g.parola && k === oggiISO()) h += AS("🔤 Parola del giorno", `<p class="mute">In arrivo: la parola di oggi viene pubblicata da Wikizionario nelle prime ore del giorno.</p>`);
   if (g.parola) h += AS("🔤 Parola del giorno", `<h3>${esc(g.parola.parola)}</h3><p>${esc(g.parola.testo)}</p>${g.parola.link ? `<a class="alm-l" href="${esc(g.parola.link)}" target="_blank" rel="noopener">Apri la voce su Wikizionario ↗</a>` : ""}`, `<p class="alm-f">Fonte: Wikizionario (non istituzionale).</p>`);
   if (g.modo) h += AS("🗣️ Modo di dire", `<h3>“${esc(g.modo.espressione)}”</h3>${g.modo.significati.map((x) => `<p>• ${esc(x)}</p>`).join("")}${g.modo.link ? `<a class="alm-l" href="${esc(g.modo.link)}" target="_blank" rel="noopener">Approfondisci su Wikizionario ↗</a>` : ""}`, `<p class="alm-f">Fonte: Wikizionario (non istituzionale).</p>`);
   if (g.comune) h += AS("🏘️ Curiosità sui comuni italiani", `<h3>${esc(g.comune.nome)}</h3><p>${esc(g.comune.testo)}</p>${g.comune.link ? `<a class="alm-l" href="${esc(g.comune.link)}" target="_blank" rel="noopener">Leggi di più su Wikipedia ↗</a>` : ""}`, `<p class="alm-f">Un comune diverso ogni giorno. Fonte: Wikipedia (non istituzionale).</p>`);
@@ -832,7 +836,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "52";
+const VERSIONE_APP = "53";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;

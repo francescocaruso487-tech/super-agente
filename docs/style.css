@@ -383,3 +383,4 @@ body.alm-open{overflow:hidden}
 .alm-corpo .sez.aperta .sez-head{top:0;padding-top:18px;border-radius:var(--r) var(--r) 0 0}
 .sez-corpo.alm-s{background:var(--bg);box-shadow:none;margin:0;padding:6px 16px 14px;border-radius:0 0 var(--r) var(--r)}
 .sez-corpo.alm-s .alm-box{background:var(--card)}
+.alm-avviso{background:#fef3c7;color:#92400e;border-radius:14px;padding:10px 14px;font-size:13px;margin:0 0 12px}

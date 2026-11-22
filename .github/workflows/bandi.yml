@@ -1,7 +1,7 @@
 name: Aggiorna bandi e appalti
 on:
   schedule:
-    - cron: "41 5 * * *"
+    - cron: "41 */6 * * *"
   workflow_dispatch:
 permissions:
   contents: write
