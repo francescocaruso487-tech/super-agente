@@ -388,7 +388,15 @@ def main():
                 c["sport"] = [e for e in ev if SPORT.search(e["testo"])]
             except Exception as e:  # noqa: BLE001
                 errori.append(f"{d} wiki: {str(e)[:60]}")
-        r["accadde"], r["sport"], r["ricorrenze"] = c.get("accadde") or [], c.get("sport") or [], c.get("ricorrenze") or []
+        visti_ev, ev_ok = set(), []
+        for e in c.get("accadde") or []:
+            chiave = (e["anno"], re.sub(r"[^a-zà-ÿ0-9]", "", e["testo"].lower())[:45])
+            if chiave not in visti_ev:
+                visti_ev.add(chiave)
+                ev_ok.append(e)
+        c["accadde"] = ev_ok
+        c["sport"] = [e for e in ev_ok if SPORT.search(e["testo"])]
+        r["accadde"], r["sport"], r["ricorrenze"] = c["accadde"], c["sport"], c.get("ricorrenze") or []
         for chiave, nome in (("births", "nati"), ("deaths", "morti")):
             if not c.get(nome):
                 try:
