@@ -26,7 +26,7 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "docs" / "data"
 TZ = ZoneInfo("Europe/Rome")
-H = {"User-Agent": "RassegnaBot/1.0 (uso personale)", "Accept-Language": "it"}
+H = {"User-Agent": "RassegnaPersonale/1.0 (app personale non commerciale; https://github.com/francescocaruso487-tech/super-agente) python-requests", "Accept-Language": "it"}
 GIORNI = 8
 MESI = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"]
 GIORNO = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato", "domenica"]
@@ -146,8 +146,26 @@ def astro(d):
     return out
 
 
+_ULTIMA = [0.0]
+
+
 def get(url, **kw):
-    r = requests.get(url, headers=H, timeout=30, **kw)
+    import time
+    for tent in range(6):
+        att = 0.9 - (time.time() - _ULTIMA[0])
+        if att > 0:
+            time.sleep(att)
+        _ULTIMA[0] = time.time()
+        r = requests.get(url, headers=H, timeout=40, **kw)
+        if r.status_code in (429, 500, 502, 503, 504):
+            try:
+                w = float(r.headers.get("Retry-After", 0))
+            except ValueError:
+                w = 0
+            time.sleep(min(max(w, 4 * 2 ** tent), 60))
+            continue
+        r.raise_for_status()
+        return r
     r.raise_for_status()
     return r
 
@@ -349,33 +367,34 @@ def main():
         r["stagione"] = {"frutta": STAGIONE[d.month][0], "verdura": STAGIONE[d.month][1]}
         r["nome_mese"] = NOME_MESE[d.month]
         r["costituzione"] = costituzione(d)
-        for nome, fn in (("santi", lambda: santo(d)),):
-            try:
-                r[nome] = fn()
-            except Exception as e:  # noqa: BLE001
-                errori.append(f"{d} {nome}: {str(e)[:60]}")
-                r[nome] = []
-        try:
-            ev, ric = wiki_it(d)
-            r["accadde"] = ev
-            r["sport"] = [e for e in ev if SPORT.search(e["testo"])]
-            r["ricorrenze"] = ric
-        except Exception as e:  # noqa: BLE001
-            errori.append(f"{d} wiki: {str(e)[:60]}")
-            r["accadde"], r["sport"], r["ricorrenze"] = [], [], []
-        for chiave, nome in (("births", "nati"), ("deaths", "morti")):
-            try:
-                voci = wiki_en_persone(d, chiave)
-                lab = wikidata_it([q for _, q in voci])
-                lista = [{"anno": a, "nome": lab[q][0], "descr": lab[q][1]} for a, q in voci if q in lab and not re.fullmatch(r"[\d\s]+", lab[q][0]) and lab[q][1] not in ("anno", "")]
-                lista.sort(key=lambda x: x["anno"])
-                r[nome] = lista[:60]
-            except Exception as e:  # noqa: BLE001
-                errori.append(f"{d} {nome}: {str(e)[:60]}")
-                r[nome] = []
-        # cultura: frase, parola, modo di dire, comune
         iso = d.isoformat()
         c = cache.setdefault(iso, {})
+        if not c.get("santi"):
+            try:
+                c["santi"] = santo(d)
+            except Exception as e:  # noqa: BLE001
+                errori.append(f"{d} santi: {str(e)[:60]}")
+        r["santi"] = c.get("santi") or []
+        if not c.get("accadde"):
+            try:
+                ev, ric = wiki_it(d)
+                c["accadde"], c["ricorrenze"] = ev, ric
+                c["sport"] = [e for e in ev if SPORT.search(e["testo"])]
+            except Exception as e:  # noqa: BLE001
+                errori.append(f"{d} wiki: {str(e)[:60]}")
+        r["accadde"], r["sport"], r["ricorrenze"] = c.get("accadde") or [], c.get("sport") or [], c.get("ricorrenze") or []
+        for chiave, nome in (("births", "nati"), ("deaths", "morti")):
+            if not c.get(nome):
+                try:
+                    voci = wiki_en_persone(d, chiave)
+                    lab = wikidata_it([q for _, q in voci])
+                    lista = [{"anno": a, "nome": lab[q][0], "descr": lab[q][1]} for a, q in voci if q in lab and not re.fullmatch(r"[\d\s]+", lab[q][0]) and lab[q][1] not in ("anno", "")]
+                    lista.sort(key=lambda x: x["anno"])
+                    c[nome] = lista[:60]
+                except Exception as e:  # noqa: BLE001
+                    errori.append(f"{d} {nome}: {str(e)[:60]}")
+            r[nome] = c.get(nome) or []
+        # cultura: frase, parola, modo di dire, comune
         if "frase" not in c:
             try:
                 fr = archivio.get((d.day, d.month)) if archivio else None
