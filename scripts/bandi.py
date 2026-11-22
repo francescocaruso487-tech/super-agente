@@ -57,7 +57,7 @@ def valore(v):
 
 
 def cerca(query, limite=100):
-    corpo = {"query": query, "fields": CAMPI, "limit": limite, "page": 1, "scope": "ACTIVE", "paginationMode": "PAGE_NUMBER"}
+    corpo = {"query": query, "fields": CAMPI, "limit": limite, "page": 1, "scope": "ALL", "paginationMode": "PAGE_NUMBER"}
     r = requests.post(API, json=corpo, timeout=40, headers={"Accept": "application/json", "User-Agent": "RassegnaBot/1.0 (uso personale)"})
     if r.status_code != 200:
         raise RuntimeError(f"TED {r.status_code}: {r.text[:700]}")
@@ -68,7 +68,8 @@ def main():
     stato = {"ultimo_tentativo": ora()}
     try:
         luoghi = " OR ".join(f"place-of-performance={c}" for c in PROVINCE)
-        dati = cerca(f"({luoghi}) AND buyer-country=ITA")
+        da = (datetime.now(timezone.utc) - timedelta(days=150)).strftime("%Y%m%d")
+        dati = cerca(f"({luoghi}) AND buyer-country=ITA AND publication-date>={da} AND (notice-type=cn-standard OR notice-type=cn-social OR notice-type=cn-desg)")
         notizie = dati.get("notices", [])
         (DATA / "debug_bandi.json").write_text(json.dumps({"totale": dati.get("totalNoticeCount"), "esempio": notizie[:2]}, ensure_ascii=False, indent=1), encoding="utf-8")
         if not notizie:
