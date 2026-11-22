@@ -649,6 +649,19 @@ def avvisi_modelli(new_items):
     return len(inviati), inviati
 
 
+def testo_notifica(titolo, sintesi, limite=700):
+    """Titolo + riassunto, senza ripetere il titolo quando il riassunto lo ricopia (succede con molte fonti)."""
+    t, r = clean(titolo), clean(sintesi or "")
+    if r:
+        a = re.sub(r"\W+", " ", t).strip().lower()
+        b = re.sub(r"\W+", " ", r).strip().lower()
+        if a and b.startswith(a[:40]):
+            r = r[len(t):].strip(" -–—:|.") if r.lower().startswith(t.lower()) else r
+            if re.sub(r"\W+", " ", r).strip().lower().startswith(a[:40]) or len(r) < 25:
+                r = ""
+    return (t + (f"\n{r}" if r else ""))[:limite]
+
+
 def notify_new(new_items, aree_cfg):
     n_mod, gia_mod = avvisi_modelli(new_items)
     new_items = [i for i in new_items if i["id"] not in gia_mod]
@@ -662,7 +675,7 @@ def notify_new(new_items, aree_cfg):
         return len(alerts) + n_mod
     for i in alerts:
         area = aree_cfg["aree"].get(i["aree"][0], {"nome": "Altro"})["nome"]
-        msg = i["titolo"] + (f"\n{i['sintesi']}" if i.get("sintesi") else "")
+        msg = testo_notifica(i["titolo"], i.get("sintesi"))
         sigla = {"tech": "📱 "}.get(i.get("nicchia"), "")
         ntfy({"title": f"{sigla}{area} · {i['fonte_nome']}", "message": msg[:700], "click": i["link"],
               "priority": 4 if i["tipo"] == "ufficiale" else 3, "tags": ["rotating_light"] if i["tipo"] == "ufficiale" else ["newspaper"]})
