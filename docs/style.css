@@ -345,3 +345,11 @@ body.pop-open{overflow:hidden}
 .sez.aperta .sez-head{border-radius:14px 14px 0 0;top:calc(var(--topH,60px) + var(--grpH,0px) - 6px);padding-top:calc(18px + 6px)}
 .grp-corpo .sez.aperta .sez-head{padding-top:24px}
 .sez.aperta .sotto{top:calc(var(--topH,60px) + var(--grpH,0px) + var(--headH,56px) - 6px)}
+
+/* ===== Icone in basso: vetro trasparente ===== */
+.bottom button span{display:flex;align-items:center;justify-content:center;width:34px;height:30px;line-height:0}
+.ico{width:28px;height:28px;overflow:visible;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;opacity:.72;transition:transform .25s var(--out),opacity .2s}
+.ico .f{fill:currentColor;fill-opacity:.14;transition:fill-opacity .25s}
+.ico .sp{fill:currentColor;stroke:none;fill-opacity:.85}
+.bottom button.on .ico{opacity:1;color:var(--accent);transform:translateY(-1px) scale(1.06);filter:drop-shadow(0 3px 5px color-mix(in srgb,var(--accent) 35%,transparent))}
+.bottom button.on .ico .f{fill-opacity:.3}
