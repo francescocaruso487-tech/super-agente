@@ -254,8 +254,8 @@ def frasi_archivio():
 
 def frase_oggi_home():
     t = get("https://it.wikiquote.org/api/rest_v1/page/html/Pagina_principale").content.decode("utf-8", "replace")
-    i = t.find("main-page-heading")
-    seg = t[i:i + 3000]
+    i = t.find("Citazione del giorno</div>")
+    seg = t[i:i + 3500]
     q = re.search(r"<i>(.*?)</i>", seg, re.S)
     a = re.search(r'<b><a rel="mw:WikiLink" href="\./([^"]+)"[^>]*>([^<]+)</a></b>', seg)
     if q and a:
@@ -266,16 +266,22 @@ def frase_oggi_home():
 def parola_del_giorno():
     t = get("https://it.wiktionary.org/api/rest_v1/page/html/Pagina_principale").content.decode("utf-8", "replace")
     i = t.find("Wikizionario:Parola_del_giorno")
-    seg = t[i:i + 9000]
-    j = seg.find('class="" style="background-color')
-    cella = seg[j:] if j > 0 else seg
-    cella = cella.split("</table>")[0]
-    b = re.search(r"<b[^>]*>(.*?)</b>", cella, re.S)
-    parola = pulisci(b.group(1)) if b else None
-    testo = pulisci(cella)
-    if not parola or len(testo) < 20:
+    if i < 0:
         return None
-    return {"parola": parola, "testo": testo[:700], "link": f"https://it.wiktionary.org/wiki/{parola.replace(' ', '_')}"}
+    chunk = t[i:i + 14000]
+    parola = None
+    for m in re.finditer(r"<b[^>]*>(.*?)</b>", chunk, re.S):
+        w = pulisci(m.group(1))
+        if w and len(w.split()) <= 3 and re.fullmatch(r"[A-Za-zÀ-ÿ'’\- ]{2,40}", w):
+            parola, pos = w, m.start()
+            break
+    if not parola:
+        return None
+    testo = pulisci(chunk[pos:pos + 5000])
+    testo = re.sub(r"\s*(Sei appena arrivato|Comunità).*$", "", testo)
+    if len(testo) > 480:
+        testo = testo[:480].rsplit(" ", 1)[0] + "…"
+    return {"parola": parola, "testo": testo, "link": "https://it.wiktionary.org/wiki/" + parola.replace(" ", "_")}
 
 
 def modi_di_dire():
@@ -404,6 +410,8 @@ def main():
                     c["frase"] = {"testo": fr[0], "autore": fr[1]}
             except Exception as e:  # noqa: BLE001
                 errori.append(f"{d} frase: {str(e)[:60]}")
+        if c.get("parola") and (c["parola"].get("testo", "").startswith("class=") or len(c["parola"].get("testo", "")) < 20):
+            del c["parola"]
         if "parola" not in c and i == 0:
             try:
                 pdg = parola_del_giorno()
