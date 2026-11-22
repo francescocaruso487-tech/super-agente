@@ -54,8 +54,9 @@ def leggi(serie):
             d = parsedate_to_datetime(pub).astimezone(timezone(timedelta(hours=1))).strftime("%Y-%m-%d")
         except Exception:
             d = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        descr = re.sub(r"\s+", " ", descr).strip()
         descr = re.sub(r"\s*\(\d\dA\d{5}\)$|\s*\(\d\dR\d{5}\)$|\s*\(T-?\d+\)$", "", descr)
-        out.append({"id": link.split("/eli/id/")[-1].split("/")[0] if "/eli/id/" in link else link, "serie": serie,
+        out.append({"id": link.split("/eli/id/")[-1] if "/eli/id/" in link else link, "serie": serie,
                     "titolo": titolo, "descr": descr, "link": link.replace("http://", "https://"), "data": d,
                     "campania": bool(re.search(r"CAMPANIA", (titolo + " " + descr).upper())), "spiega": spiega(titolo)})
     return out
