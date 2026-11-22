@@ -56,8 +56,12 @@ def valore(v):
         return None
 
 
-def cerca(query, limite=250):
-    corpo = {"query": query, "fields": CAMPI, "limit": limite, "page": 1, "scope": "ALL", "paginationMode": "PAGE_NUMBER"}
+def cerca_pagina(query, pagina, limite=250):
+    return cerca(query, limite, pagina)
+
+
+def cerca(query, limite=250, pagina=1):
+    corpo = {"query": query, "fields": CAMPI, "limit": limite, "page": pagina, "scope": "ALL", "paginationMode": "PAGE_NUMBER"}
     r = requests.post(API, json=corpo, timeout=40, headers={"Accept": "application/json", "User-Agent": "RassegnaBot/1.0 (uso personale)"})
     if r.status_code != 200:
         raise RuntimeError(f"TED {r.status_code}: {r.text[:700]}")
@@ -69,8 +73,24 @@ def main():
     try:
         luoghi = " OR ".join(f"place-of-performance={c}" for c in PROVINCE)
         da = (datetime.now(timezone.utc) - timedelta(days=120)).strftime("%Y%m%d")
-        dati = cerca(f"({luoghi}) AND buyer-country=ITA AND publication-date>={da} AND (notice-type=cn-standard OR notice-type=cn-social OR notice-type=cn-desg)")
-        notizie = dati.get("notices", [])
+        oggi_q = datetime.now(timezone.utc).strftime("%Y%m%d")
+        base = f"({luoghi}) AND buyer-country=ITA AND publication-date>={da} AND deadline-receipt-tender-date-lot>={oggi_q} AND (notice-type=cn-standard OR notice-type=cn-social OR notice-type=cn-desg)"
+        try:
+            dati = cerca(base)
+        except RuntimeError:
+            # se TED non accetta il filtro sulla scadenza, torno alla query senza e pagino
+            base = base.replace(f" AND deadline-receipt-tender-date-lot>={oggi_q}", "")
+            dati = cerca(base)
+        notizie = list(dati.get("notices", []))
+        totale = dati.get("totalNoticeCount") or len(notizie)
+        pag = 2
+        while len(notizie) < totale and pag <= 6:
+            corpo = cerca_pagina(base, pag)
+            nuove = corpo.get("notices", [])
+            if not nuove:
+                break
+            notizie += nuove
+            pag += 1
         (DATA / "debug_bandi.json").write_text(json.dumps({"totale": dati.get("totalNoticeCount"), "esempio": notizie[:2]}, ensure_ascii=False, indent=1), encoding="utf-8")
         if not notizie:
             raise RuntimeError("nessun bando restituito (formato cambiato o nessun bando attivo?)")
