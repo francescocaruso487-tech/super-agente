@@ -20,6 +20,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Leggi Gazzetta Ufficiale
         continue-on-error: true
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python scripts/atti.py
       - name: Salva i dati
         run: |

@@ -6,6 +6,7 @@ Accumula lo storico in docs/data/atti.json (120 giorni). Se la fonte non rispond
 """
 import html
 import json
+import os
 import re
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -78,6 +79,16 @@ def main():
             errori.append(f"{s}: {str(e)[:80]}")
     if not nuovi:
         raise SystemExit("nessun atto letto: " + "; ".join(errori))
+    noti = [a for a in nuovi if a["campania"] and a["id"] not in {v["id"] for v in vecchi}] if vecchi else []
+    topic = os.environ.get("NTFY_TOPIC")
+    for a in noti[:5]:
+        if not topic:
+            break
+        try:
+            requests.post("https://ntfy.sh", json={"topic": topic, "title": ("📍 " + (a["descr"] or a["titolo"]))[:140],
+                "message": a["titolo"][:200] + " — Gazzetta Ufficiale", "click": a["link"], "priority": 3}, timeout=20)
+        except Exception:
+            pass
     per_id = {a["id"]: a for a in vecchi}
     per_id.update({a["id"]: a for a in nuovi})
     limite = (datetime.now(timezone.utc) - timedelta(days=120)).strftime("%Y-%m-%d")
