@@ -1,93 +1,260 @@
 {
- "burc_home": {
+ "burc": {
   "url": "https://burc.regione.campania.it/eBurcWeb/publicContent/home/index.iface",
   "status": 200,
-  "bytes": 9853,
-  "title": "Burc Digitale",
-  "rss": [
-   "/eBurcWeb/xmlhttp/css/rime/rime-portlet.css"
+  "bytes": 9852,
+  "links": [],
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"it\" lang=\"it\"><head><title>Burc Digitale</title> <link href=\"/eBurcWeb/publicContent/css/liferay/css/everything_unpacked.css\" rel=\"stylesheet\" type=\"text/css\" /><link href=\"/eBurcWeb/xmlhttp/css/rime/rime-portlet.css\" rel=\"stylesheet\" type=\"text/css\" /><link href=\"/eBurcWeb/publicContent/css/burc_style.css\" rel=\"stylesheet\" type=\"text/css\" /><link href=\"../css/images/favicon.ico\" rel=\"shortcut icon\" type=\"image/x-icon\" /><link href=\"../css/images/favicon.ico\" rel=\"icon\" type=\"image/x-icon\" /><script type=\"text/javascript\">function resize_iframe() { //find the height of the internal page var the_height=document.getElementById('Contenuto').contentWindow.document.body.scrollHeight;; //change the height of the iframe document.getElementById('Contenuto').height= the_height + 30; }</script> <meta content=\"Rendered by ICEFaces D2D\" name=\"icefaces\" /><script src=\"/eBurcWeb/xmlhttp/1795081166432/icefaces-d2d.js\" type=\"text/javascript\"></script> <script src=\"/eBurcWeb/xmlhttp/1795081166432/ice-extras.js\" type=\"text/javascript\"></script> <script type=\"text/javascript\">try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {}</script></head> <body><iframe frameborder=\"0\" id=\"history-frame:xhNX1Dl9YdVWcpungqyVng:1\" name=\"history-frame:xhNX1Dl9YdVWcpungqyVng:1\" src=\"/eBurcWeb/xmlhttp/blank\" style=\""
+ },
+ "gu_rss": {
+  "url": "https://www.gazzettaufficiale.it/rss/SG",
+  "status": 200,
+  "bytes": 12997,
+  "links": [],
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" version=\"2.0\"> <channel> <title>Gazzetta Ufficiale - Serie Generale - Sommario</title> <link>http://www.gazzettaufficiale.it/eli/gu/2026/11/21/272/SG/html</link> <description>Gazzetta Ufficiale - Serie Generale n. 272 del 21-11-2026</description> <language>it</language> <item> <title>DECRETO LEGISLATIVO 6 novembre 2026, n.211</title> <link>http://www.gazzettaufficiale.it/eli/id/2026/11/21/26G00231/SG</link> <content:encoded>Attuazione della direttiva (UE) 2024/2853 del Parlamento europeo e del Consiglio, del 23 ottobre 2024, sulla responsabilita' per danno da prodotti difettosi, che abroga la direttiva 85/374/CEE del Consiglio. (26G00231)</content:encoded> <pubDate>Sat, 21 Nov 2026 11:42:43 GMT</pubDate> </item> <item> <title>MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 11 novembre 2026</title> <link>http://www.gazzettaufficiale.it/eli/id/2026/11/21/26A06060/SG</link> <content:encoded>Dichiarazione dell'esistenza del carattere di eccezionalita' degli eventi calamitosi verificatisi nei territori della Regione Lombardia il 28 agosto 2026. (26A06060)</content:encoded> <pubDate>Sat, 21 Nov 2026 11:42:41 GMT</pubDate> </item> <item> <title>MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 12 novembre 2026</title> <link>http://www.gazzettaufficiale.it/eli/id/2026/11/21/26A06050/SG</link> <content:encoded>Conferma d"
+ },
+ "regione_atti": {
+  "url": "https://www.regione.campania.it/amministrazione-trasparente",
+  "status": 404,
+  "bytes": 252967,
+  "links": [
+   [
+    "/themes/custom/res/assets/css/custom/cv-variables.css?tor79y",
+    "\n\n    "
+   ],
+   [
+    "https://amministrazionetrasparente.regione.campania.it/",
+    "Amministrazione trasparente"
+   ],
+   [
+    "https://servizi-digitali.regione.campania.it/",
+    "Servizi digitali"
+   ],
+   [
+    "/link-utili",
+    "Link utili"
+   ],
+   [
+    "https://regione.campania.it/area-riservata",
+    "Area Dipendenti"
+   ],
+   [
+    "http://archivioportale.regione.campania.it/",
+    "Sito di archivio"
+   ],
+   [
+    "https://amministrazionetrasparente.regione.campania.it/",
+    "Amministrazione trasparente"
+   ],
+   [
+    "https://servizi-digitali.regione.campania.it/",
+    "Servizi digitali"
+   ],
+   [
+    "/link-utili",
+    "Link utili"
+   ],
+   [
+    "https://regione.campania.it/area-riservata",
+    "Area Dipendenti"
+   ],
+   [
+    "http://archivioportale.regione.campania.it/",
+    "Sito di archivio"
+   ],
+   [
+    "/",
+    "\n                      "
+   ],
+   [
+    "/",
+    "Home"
+   ],
+   [
+    "https://regione.campania.it/",
+    "homepage"
+   ],
+   [
+    "https://acamir.regione.campania.it/",
+    "\n          ACaMIR\n        "
+   ],
+   [
+    "https://www.agenziacampaniaturismo.it/sito/",
+    "\n          Agenzia Campania Turismo\n        "
+   ],
+   [
+    "https://agricoltura.regione.campania.it/",
+    "\n          Agricoltura Campania\n        "
+   ],
+   [
+    "https://www.arpacampania.it/",
+    "\n          ArpaC\n        "
+   ],
+   [
+    "https://www.agenziasportcampania.it/sito/",
+    "\n          ARUS\n        "
+   ],
+   [
+    "https://www.campaniartecard.it/",
+    "\n          Campania Artecard\n        "
+   ],
+   [
+    "/ecosistema-digitale",
+    "Vedi tutti →"
+   ],
+   [
+    "/urp/informazioni-utili",
+    "URP Ufficio Relazioni con il Pubblico"
+   ],
+   [
+    "mailto:redazione.portale@regione.campania.it",
+    "Redazione portale"
+   ],
+   [
+    "https://regione.campania.it/informazioni-utili/opengov/burc",
+    "\n            \n            BURC\n\n            \n                                "
+   ],
+   [
+    "/note-legali",
+    "Note legali"
+   ],
+   [
+    "/informativa-privacy",
+    "Informativa Privacy e Cookie Policy"
+   ],
+   [
+    "https://form.agid.gov.it/r_campan/portale_istituzionale___regione_campania/dichiarazione",
+    "Dichiarazione di accessibilità"
+   ],
+   [
+    "/feedback-accessibilita",
+    "Feedback accessibilità"
+   ]
   ],
-  "albo": []
+  "head": "<!DOCTYPE html> <html lang=\"it\" dir=\"ltr\" prefix=\"content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# schema: http://schema.org/ sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema# \"> <head> <meta charset=\"utf-8\" /> <link rel=\"canonical\" href=\"https://www.regione.campania.it/404\" /> <meta property=\"og:site_name\" content=\"Pagina non trovata | Regione Campania\" /> <meta property=\"og:title\" content=\"Pagina non trovata | Regione Campania\" /> <meta property=\"og:image:url\" content=\"https://www.regione.campania.it/themes/custom/res/assets/images/placeholder/placeholder-triscele.png\" /> <meta name=\"twitter:card\" content=\"summary\" /> <meta name=\"MobileOptimized\" content=\"width\" /> <meta name=\"HandheldFriendly\" content=\"true\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\" /> <style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #0048ad} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border"
  },
- "burc_it": {
-  "url": "https://burc.regione.campania.it/eBurcWeb/publicContent/home.iface",
-  "status": 500,
-  "bytes": 5116,
-  "title": "JBossWeb/2.0.1.GA - Error report",
-  "rss": [],
-  "albo": []
- },
- "regione_delibere": {
-  "url": "https://www.regione.campania.it/",
-  "status": 200,
-  "bytes": 319324,
-  "title": "Portale Istituzionale | Regione Campania",
-  "rss": [
-   "/feedback-accessibilita"
+ "regione_giunta": {
+  "url": "https://www.regione.campania.it/regione/it/la-giunta/delibere-della-giunta",
+  "status": 404,
+  "bytes": 253755,
+  "links": [
+   [
+    "/themes/custom/res/assets/css/custom/cv-variables.css?tor79y",
+    "\n\n    "
+   ],
+   [
+    "https://amministrazionetrasparente.regione.campania.it/",
+    "Amministrazione trasparente"
+   ],
+   [
+    "https://servizi-digitali.regione.campania.it/",
+    "Servizi digitali"
+   ],
+   [
+    "/link-utili",
+    "Link utili"
+   ],
+   [
+    "https://regione.campania.it/area-riservata",
+    "Area Dipendenti"
+   ],
+   [
+    "http://archivioportale.regione.campania.it/",
+    "Sito di archivio"
+   ],
+   [
+    "https://amministrazionetrasparente.regione.campania.it/",
+    "Amministrazione trasparente"
+   ],
+   [
+    "https://servizi-digitali.regione.campania.it/",
+    "Servizi digitali"
+   ],
+   [
+    "/link-utili",
+    "Link utili"
+   ],
+   [
+    "https://regione.campania.it/area-riservata",
+    "Area Dipendenti"
+   ],
+   [
+    "http://archivioportale.regione.campania.it/",
+    "Sito di archivio"
+   ],
+   [
+    "/",
+    "\n                      "
+   ],
+   [
+    "/",
+    "Home"
+   ],
+   [
+    "/regione",
+    "Regione"
+   ],
+   [
+    "https://regione.campania.it/",
+    "homepage"
+   ],
+   [
+    "https://acamir.regione.campania.it/",
+    "\n          ACaMIR\n        "
+   ],
+   [
+    "https://www.agenziacampaniaturismo.it/sito/",
+    "\n          Agenzia Campania Turismo\n        "
+   ],
+   [
+    "https://agricoltura.regione.campania.it/",
+    "\n          Agricoltura Campania\n        "
+   ],
+   [
+    "https://www.arpacampania.it/",
+    "\n          ArpaC\n        "
+   ],
+   [
+    "https://www.agenziasportcampania.it/sito/",
+    "\n          ARUS\n        "
+   ],
+   [
+    "https://www.campaniartecard.it/",
+    "\n          Campania Artecard\n        "
+   ],
+   [
+    "/ecosistema-digitale",
+    "Vedi tutti →"
+   ],
+   [
+    "/urp/informazioni-utili",
+    "URP Ufficio Relazioni con il Pubblico"
+   ],
+   [
+    "mailto:redazione.portale@regione.campania.it",
+    "Redazione portale"
+   ],
+   [
+    "https://regione.campania.it/informazioni-utili/opengov/burc",
+    "\n            \n            BURC\n\n            \n                                "
+   ],
+   [
+    "/note-legali",
+    "Note legali"
+   ],
+   [
+    "/informativa-privacy",
+    "Informativa Privacy e Cookie Policy"
+   ],
+   [
+    "https://form.agid.gov.it/r_campan/portale_istituzionale___regione_campania/dichiarazione",
+    "Dichiarazione di accessibilità"
+   ],
+   [
+    "/feedback-accessibilita",
+    "Feedback accessibilità"
+   ]
   ],
-  "albo": []
- },
- "comune_caserta": {
-  "errore": "HTTPSConnectionPool(host='www.comune.caserta.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='ww"
- },
- "caserta_albo": {
-  "errore": "HTTPSConnectionPool(host='www.comune.caserta.it', port=443): Max retries exceeded with url: /albo-pretorio (Caused by ConnectTimeoutError(<HTTPSConnec"
- },
- "caserta_trasp": {
-  "errore": "HTTPSConnectionPool(host='www.comune.caserta.it', port=443): Max retries exceeded with url: /amministrazione-trasparente (Caused by ConnectTimeoutErro"
- },
- "provincia_caserta": {
-  "url": "https://www.provincia.caserta.it/",
-  "status": 200,
-  "bytes": 74017,
-  "title": "Provincia di Caserta - Homepage",
-  "rss": [],
-  "albo": []
- },
- "provincia_albo": {
-  "url": "https://www.provincia.caserta.it/albo-pretorio",
-  "status": 200,
-  "bytes": 103,
-  "title": null,
-  "rss": [],
-  "albo": []
- },
- "gu_serie": {
-  "url": "https://www.gazzettaufficiale.it/",
-  "status": 200,
-  "bytes": 42127,
-  "title": "Gazzetta Ufficiale",
-  "rss": [
-   "rss/SG",
-   "rss/S1",
-   "rss/S2",
-   "rss/S3",
-   "rss/S4"
-  ],
-  "albo": []
- },
- "normattiva": {
-  "url": "https://www.normattiva.it/",
-  "status": 200,
-  "bytes": 47014,
-  "title": "Normattiva",
-  "rss": [],
-  "albo": []
- },
- "anac_open": {
-  "url": "https://dati.anticorruzione.it/",
-  "status": 403,
-  "bytes": 309,
-  "title": "Error Page",
-  "rss": [],
-  "albo": []
- },
- "opencoesione": {
-  "url": "https://opencoesione.gov.it/",
-  "status": 403,
-  "bytes": 30,
-  "title": null,
-  "rss": [],
-  "albo": []
+  "head": "<!DOCTYPE html> <html lang=\"it\" dir=\"ltr\" prefix=\"content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# schema: http://schema.org/ sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema# \"> <head> <meta charset=\"utf-8\" /> <link rel=\"canonical\" href=\"https://www.regione.campania.it/404\" /> <meta property=\"og:site_name\" content=\"Pagina non trovata | Regione Campania\" /> <meta property=\"og:title\" content=\"Pagina non trovata | Regione Campania\" /> <meta property=\"og:image:url\" content=\"https://www.regione.campania.it/themes/custom/res/assets/images/placeholder/placeholder-triscele.png\" /> <meta name=\"twitter:card\" content=\"summary\" /> <meta name=\"MobileOptimized\" content=\"width\" /> <meta name=\"HandheldFriendly\" content=\"true\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\" /> <style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #0048ad} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border"
  }
 }
