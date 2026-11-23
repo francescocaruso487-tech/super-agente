@@ -1671,6 +1671,15 @@
 "descr": "comune italiano",
 "testo": "Marchirolo è un comune italiano di 3 576 abitanti del nord della provincia di Varese in Lombardia. Dista 3 km dal confine svizzero di Ponte Tresa e 15 km dal capoluogo di provincia.",
 "link": "https://it.wikipedia.org/wiki/Marchirolo"
+},
+"frase": {
+"testo": "Cercate sempre di rendervi conto del punto di vista dell'altro prima di discutere o di litigare con lui, e novantanove volte su cento finirete con l'essere in buoni rapporti con lui.",
+"autore": "Robert Baden-Powell"
+},
+"parola": {
+"parola": "cariatide",
+"testo": "cariatide f sing (pl.: cariatidi) (architettura) elemento architettonico che rappresenta una figura di donna generalmente ben eretta e impettita, scolpita nell'atto di sostenere sul capo architravi, logge, balconi, mensole, cornicioni, ecc. e avente una effettiva funzione portante in luogo di colonne e paraste o decorativa in luogo di lesene; detta anche canefora (l'equivalente maschile è l'atlante), conobbe vasta diffusione in epoca greco-ellenistica e romana, per…",
+"link": "https://it.wiktionary.org/wiki/cariatide"
 }
 },
 "2026-11-24": {
@@ -6584,6 +6593,844 @@
 "descr": "comune italiano",
 "testo": "Vedano al Lambro è un comune italiano di 7 360 abitanti della provincia di Monza e della Brianza in Lombardia. Insieme a Monza, Biassono e Villasanta è uno dei comuni della Corona del Parco di Monza.",
 "link": "https://it.wikipedia.org/wiki/Vedano_al_Lambro"
+}
+},
+"2026-11-30": {
+"santi": [
+{
+"nome": "Sant'Andrea apostolo",
+"testo": "Ricordato il 30 novembre, Sant’Andrea Apostolo è il Santo Patrono della Chiesa Ortodossa di Costantinopoli. Fratello di Simon Pietro, tra i santi si distingue per essere stato il primo ad essere chiamato da Gesù ed aver trovato il martirio su una croce decussata. É protettore dei pescatori.",
+"link": "https://www.vaticannews.va/it/santo-del-giorno/11/30/sant-andrea-apostolo.html"
+}
+],
+"accadde": [
+{
+"anno": 1735,
+"testo": "Secondo una leggenda devozionale, Sant'Alfonso Maria de' Liguori, mentre predicava a Foggia, viene avvolto da un fascio di luce e levita da terra."
+},
+{
+"anno": 1782,
+"testo": "Guerra d'indipendenza americana: a Parigi, rappresentanti di Stati Uniti e Regno di Gran Bretagna firmano gli articoli preliminari di pace (in seguito formalizzati nel Trattato di Parigi)."
+},
+{
+"anno": 1786,
+"testo": "Il Granducato di Toscana è il primo paese al mondo ad abolire la pena di morte."
+},
+{
+"anno": 1786,
+"testo": "Il Granducato di Toscana è il primo Stato del mondo ad abolire la pena di morte in epoca moderna, per volontà di Leopoldo I, futuro Leopoldo II d'Asburgo-Lorena."
+},
+{
+"anno": 1789,
+"testo": "L'Assemblea nazionale costituente proclama. l'Isola di Corsica “parte integrante dell'Impero francese (...) retta dalla stessa costituzione degli altri francesi”."
+},
+{
+"anno": 1803,
+"testo": "Nel palazzo del Cabildo di New Orleans, i rappresentanti spagnoli, governatore Manuel de Salcedo e Marqués de Casa Calvo, trasferiscono ufficialmente il Territorio della Louisiana al rappresentante francese Pierre Clément de Laussat (solo 20 giorni dopo, la Francia trasferirà lo stesso territorio agli Stati Uniti)"
+},
+{
+"anno": 1807,
+"testo": "Guerre napoleoniche nella penisola iberica: le truppe francesi occupano Lisbona sulla base degli accordi con la Spagna stipulati a Fontainebleau"
+},
+{
+"anno": 1853,
+"testo": "Guerra di Crimea: battaglia di Sinope – La flotta russa distrugge quella turca"
+},
+{
+"anno": 1864,
+"testo": "Guerra di secessione americana: battaglia di Franklin – L'Armata del Tennessee del generale John Bell Hood avvia un fallimentare attacco frontale alle posizioni dell'Unione nella Contea di Franklin (Tennessee) (Hood perderà sei generali e quasi un terzo delle truppe)"
+},
+{
+"anno": 1872,
+"testo": "A Glasgow si gioca la prima partita internazionale di calcio."
+},
+{
+"anno": 1872,
+"testo": "La prima partita internazionale di calcio si svolge ad Hamilton Crescent, in Scozia"
+},
+{
+"anno": 1886,
+"testo": "Le Folies Bergère mettono in scena il loro primo spettacolo"
+},
+{
+"anno": 1916,
+"testo": "L'olocausto ellenico entra nella sua ultima fase, quando vengono riportate le parole del ministro dell'interno turco Rafet Bey: \"dobbiamo finire i greci, così come abbiamo fatto con gli armeni il 28 novembre.\""
+},
+{
+"anno": 1936,
+"testo": "A Londra, il Crystal Palace viene distrutto da un incendio (era stato costruito per la Grande Esibizione del 1851)"
+},
+{
+"anno": 1939,
+"testo": "L'URSS inizia una guerra di aggressione contro la Finlandia."
+},
+{
+"anno": 1939,
+"testo": "Inizia la guerra d'inverno: le forze sovietiche invadono la Finlandia"
+},
+{
+"anno": 1941,
+"testo": "Primo volo ufficiale del Campini-Caproni, primo velivolo con motore a getto di produzione italiana. Mario de Bernardi e l'ing. Giovanni Pedace, che costituivano l'equipaggio, volarono dall'aeroporto Milano Linate a quello di Guidonia a Roma, percorrendo 475 km alla velocità media di 209 km/h."
+},
+{
+"anno": 1942,
+"testo": "Guerra del Pacifico: battaglia di Tassafaronga tra giapponesi ed americani"
+},
+{
+"anno": 1943,
+"testo": "Franklin Delano Roosevelt, Winston Churchill e Iosif Stalin giungono a un accordo sull'invasione dell'Europa, prevista per il giugno 1944."
+},
+{
+"anno": 1943,
+"testo": "Seconda guerra mondiale: Conferenza di Teheran – Franklin D. Roosevelt, Winston Churchill e Iosif Stalin giungono ad un accordo sull'invasione dell'Europa prevista per il giugno 1944; nome in codice Operazione Overlord"
+},
+{
+"anno": 1954,
+"testo": "A Sylacauga, in Alabama, un meteorite di quasi 4 kg, dopo aver perforato il tetto dell'abitazione, entra nel salotto di Ann Elizabeth Hodges, colpendola dopo aver rimbalzato sulla radio"
+},
+{
+"anno": 1962,
+"testo": "L'Assemblea generale delle Nazioni Unite elegge U Thant della Birmania come nuovo segretario generale"
+},
+{
+"anno": 1964,
+"testo": "Viene lanciata la quarta sonda diretta verso Marte, ma la missione russa Zond 2 fallisce: pur raggiungendo il pianeta non riesce a recuperare i dati della sonda"
+},
+{
+"anno": 1966,
+"testo": "L'Isola di Barbados diventa indipendente dal Regno Unito"
+},
+{
+"anno": 1967,
+"testo": "La Repubblica Popolare dello Yemen del Sud diventa indipendente dal Regno Unito"
+},
+{
+"anno": 1971,
+"testo": "Conquista di Abu Musa e delle Isole Tunb da parte dell'Iran."
+},
+{
+"anno": 1972,
+"testo": "Guerra del Vietnam: il portavoce della Casa Bianca, Ron Ziegler, dice alla stampa che non ci saranno più annunci pubblici riguardanti il ritiro delle truppe statunitensi dal Vietnam, poiché il loro livello è sceso sotto le 27.000 unità"
+},
+{
+"anno": 1979,
+"testo": "I Pink Floyd pubblicano l'album The Wall."
+},
+{
+"anno": 1979,
+"testo": "I Pink Floyd pubblicano la loro opera rock The Wall"
+},
+{
+"anno": 1981,
+"testo": "I rappresentanti di Stati Uniti d'America e Unione Sovietica iniziano i negoziati per la riduzione delle armi nucleari a medio raggio in Europa."
+},
+{
+"anno": 1981,
+"testo": "Guerra fredda: a Ginevra, i rappresentanti di USA e URSS iniziano i negoziati per la riduzione delle armi nucleari a medio raggio in Europa (l'incontro fallirà il 17 dicembre)"
+},
+{
+"anno": 1982,
+"testo": "Michael Jackson pubblica Thriller, l'album più venduto di tutti i tempi"
+},
+{
+"anno": 1988,
+"testo": "La Kohlberg Kravis Roberts & Co. acquisisce la RJR Nabisco per 25,07 miliardi di dollari"
+},
+{
+"anno": 1989,
+"testo": "Alfred Herrhausen, consigliere della Deutsche Bank, viene ucciso in un attentato della Rote Armee Fraktion"
+},
+{
+"anno": 1993,
+"testo": "Il presidente statunitense Bill Clinton converte in legge il Brady Handgun Violence Prevention Act (decreto Brady)"
+},
+{
+"anno": 1998,
+"testo": "La Deutsche Bank annuncia l'acquisto per 10 miliardi di dollari della Bankers Trust, creando così il più grande istituto finanziario del mondo"
+},
+{
+"anno": 1999,
+"testo": "A Seattle (Washington), durante il meeting del WTO, la prima grande mobilitazione del movimento antiglobalizzazione coglie impreparata la polizia e costringe alla cancellazione della cerimonia di apertura dell'incontro (le proteste finiranno il 3 dicembre)"
+},
+{
+"anno": 1999,
+"testo": "British Aerospace e Marconi Electronic Systems si fondono e formano la BAE Systems, la principale industria europea nel settore della difesa e la quarta al mondo nel settore aerospaziale"
+},
+{
+"anno": 2004,
+"testo": "Un aereo della compagnia Lion Air si schianta al suolo a Surakarta, Giava. Il tragico incidente causa una ventina di vittime."
+},
+{
+"anno": 2013,
+"testo": "Dopo un evento di beneficenza per le vittime del tifone Haiyan, il noto attore Paul Walker insieme all'amico Roger Rodas, si schiantano in auto sulla Hercules Street vicino a Kelly Johnson Parkway a Valencia, Santa Clarita, California, morendo entrambi per le ustioni e i traumi riportati nell'incidente."
+},
+{
+"anno": 2015,
+"testo": "L’ETR.400 n. 3 raggiunge i 390,7 km/h sulla linea AV Milano-Torino durante i test del Frecciarossa 1000, stabilendo un nuovo record italiano di velocità ferroviaria."
+},
+{
+"anno": 2021,
+"testo": "Barbados diventa una repubblica nel cinquantacinquesimo anniversario della sua indipendenza."
+},
+{
+"anno": 2022,
+"testo": "Viene lanciato ChatGPT, un chatbot di intelligenza artificiale generativa sviluppato da OpenAI. Rappresentando il primo caso di interazione diretta e conversazionale del pubblico con i modelli linguistici di grandi dimensioni (LLM)."
+}
+],
+"ricorrenze": [
+"Barbados – Festa nazionale",
+"Regno Unito, Scozia – Giornata nazionale (Sant'Andrea)",
+"Yemen – Festa nazionale",
+"Sant'Andrea apostolo",
+"San Cutberto Mayne, sacerdote",
+"Sant'Everardo di Stahleck, monaco",
+"San Galgano, eremita",
+"San Joseph Marchand, sacerdote e martire",
+"Santa Maura di Costantinopoli, martire",
+"San Mirocle di Milano, vescovo",
+"San Taddeo Liu Ruiting, sacerdote e martire",
+"San Tutwal vescovo",
+"Beato Alessandro Crow, martire",
+"Beato Berengario de Ostales, mercedario",
+"Beato Federico da Ratisbona, religioso",
+"Beato Giovanni da Vercelli, sacerdote domenicano",
+"Beato José Otín Aquilué, sacerdote salesiano, martire",
+"Beato Giuseppe López Piteira, diacono agostiniano, martire",
+"Beato Guglielmo di Paolo, abate, venerato a Maniace",
+"Beato Ludwik Roch Gietyngier, sacerdote e martire",
+"Beati Michele Ruedas Mejías e 6 compagni, martiri",
+"Ludi sarmatici, sesto giorno"
+],
+"sport": [
+{
+"anno": 1872,
+"testo": "A Glasgow si gioca la prima partita internazionale di calcio."
+},
+{
+"anno": 1872,
+"testo": "La prima partita internazionale di calcio si svolge ad Hamilton Crescent, in Scozia"
+},
+{
+"anno": 2015,
+"testo": "L’ETR.400 n. 3 raggiunge i 390,7 km/h sulla linea AV Milano-Torino durante i test del Frecciarossa 1000, stabilendo un nuovo record italiano di velocità ferroviaria."
+}
+],
+"nati": [
+{
+"anno": 539,
+"nome": "Gregorio di Tours",
+"descr": "storico, cronista ed agiografo galloromano, vescovo di Tours"
+},
+{
+"anno": 1340,
+"nome": "Giovanni di Valois",
+"descr": "duca di Berry e d'Alvernia e conte di Poitiers e Montpensier, terzo figlio di Giovanni II di Francia e Bonne di Lussemburgo"
+},
+{
+"anno": 1426,
+"nome": "Johann IV Roth",
+"descr": "vescovo cattolico"
+},
+{
+"anno": 1427,
+"nome": "Casimiro IV di Polonia",
+"descr": "granduca di Lituania (r. 1440-1492) e re di Polonia (r. 1447-1492)"
+},
+{
+"anno": 1466,
+"nome": "Andrea Doria",
+"descr": "ammiraglio e politico italiano (1466-1560)"
+},
+{
+"anno": 1485,
+"nome": "Veronica Gambara",
+"descr": "poetessa italiana"
+},
+{
+"anno": 1508,
+"nome": "Andrea Palladio",
+"descr": "architetto, teorico dell'architettura e scenografo italiano"
+},
+{
+"anno": 1549,
+"nome": "Henry Savile",
+"descr": "accademico inglese"
+},
+{
+"anno": 1554,
+"nome": "Philip Sidney",
+"descr": "poeta e militare britannico (1554-1586)"
+},
+{
+"anno": 1573,
+"nome": "Aubert Le Mire",
+"descr": "storico belga"
+},
+{
+"anno": 1594,
+"nome": "John Cosin",
+"descr": "sacerdote"
+},
+{
+"anno": 1599,
+"nome": "Andrea Sacchi",
+"descr": "pittore italiano (1599-1661)"
+},
+{
+"anno": 1614,
+"nome": "William Howard, I visconte Stafford",
+"descr": "nobile britannica"
+},
+{
+"anno": 1625,
+"nome": "Jean Domat",
+"descr": "scrittore e giureconsulto francese"
+},
+{
+"anno": 1637,
+"nome": "Louis-Sébastien Le Nain de Tillemont",
+"descr": "storico francese"
+},
+{
+"anno": 1642,
+"nome": "Andrea Pozzo",
+"descr": "architetto e pittore italiano"
+},
+{
+"anno": 1645,
+"nome": "Andreas Werckmeister",
+"descr": "compositore, organista e teorico della musica tedesco"
+},
+{
+"anno": 1667,
+"nome": "Jonathan Swift",
+"descr": "scrittore e poeta irlandese"
+},
+{
+"anno": 1670,
+"nome": "John Toland",
+"descr": "filosofo e scrittore irlandese"
+},
+{
+"anno": 1683,
+"nome": "Ludwig Andreas von Khevenhüller",
+"descr": "generale austriaco"
+},
+{
+"anno": 1699,
+"nome": "Cristiano VI di Danimarca",
+"descr": "re di Danimarca e Norvegia (r. 1730-1746)"
+},
+{
+"anno": 1719,
+"nome": "Augusta di Sassonia-Gotha-Altenburg",
+"descr": "principessa tedesca"
+},
+{
+"anno": 1723,
+"nome": "William Livingston",
+"descr": "politico statunitense"
+},
+{
+"anno": 1748,
+"nome": "Gioacchino Albertini",
+"descr": "musicista italiano"
+},
+{
+"anno": 1756,
+"nome": "Ernst Chladni",
+"descr": "fisico tedesco"
+},
+{
+"anno": 1764,
+"nome": "Franz Xaver Gerl",
+"descr": "cantante austriaco"
+},
+{
+"anno": 1791,
+"nome": "Franz Philipp von Lamberg",
+"descr": "generale austriaco"
+},
+{
+"anno": 1796,
+"nome": "Johann Carl Gottfried Loewe",
+"descr": "compositore, direttore d'orchestra e baritono tedesco"
+},
+{
+"anno": 1810,
+"nome": "Oliver Winchester",
+"descr": "imprenditore e politico statunitense"
+},
+{
+"anno": 1813,
+"nome": "Louise-Victorine Ackermann",
+"descr": "poetessa francese (1813-1890)"
+},
+{
+"anno": 1813,
+"nome": "Charles Henri Valentin Alkan",
+"descr": "pianista e compositore francese"
+},
+{
+"anno": 1817,
+"nome": "Theodor Mommsen",
+"descr": "storico, numismatico e giurista tedesco (1817-1903)"
+},
+{
+"anno": 1821,
+"nome": "Frederick Temple",
+"descr": "sacerdote"
+},
+{
+"anno": 1825,
+"nome": "William-Adolphe Bouguereau",
+"descr": "pittore francese (1825-1905)"
+},
+{
+"anno": 1835,
+"nome": "Mark Twain",
+"descr": "scrittore, umorista, aforista e docente statunitense (1835-1910)"
+},
+{
+"anno": 1847,
+"nome": "Afonso Augusto Moreira Pena",
+"descr": "avvocato e politico brasiliano"
+},
+{
+"anno": 1858,
+"nome": "Jagadish Chandra Bose",
+"descr": "fisico e botanico indiano"
+},
+{
+"anno": 1863,
+"nome": "Andrés Bonifacio",
+"descr": "rivoluzionario filippino"
+},
+{
+"anno": 1866,
+"nome": "Andrej Ljapčev",
+"descr": "politico bulgaro"
+},
+{
+"anno": 1869,
+"nome": "Nils Gustaf Dalén",
+"descr": "ingegnere svedese"
+},
+{
+"anno": 1869,
+"nome": "James Hamilton, III duca di Abercorn",
+"descr": "duca di Abercorn e politico britannico"
+},
+{
+"anno": 1872,
+"nome": "John McCrae",
+"descr": "poeta, medico e militare canadese"
+},
+{
+"anno": 1873,
+"nome": "Božena Benešová",
+"descr": "scrittrice ceca"
+},
+{
+"anno": 1874,
+"nome": "Winston Churchill",
+"descr": "politico, storico, giornalista e militare britannico (1874–1965)"
+},
+{
+"anno": 1874,
+"nome": "Lucy Maud Montgomery",
+"descr": "scrittrice canadese"
+},
+{
+"anno": 1875,
+"nome": "Myron Grimshaw",
+"descr": "giocatore di baseball statunitense"
+},
+{
+"anno": 1875,
+"nome": "Otto Strandman",
+"descr": "politico, avvocato e diplomatico estone"
+},
+{
+"anno": 1883,
+"nome": "Gustav Suits",
+"descr": "poeta e letterato estone"
+},
+{
+"anno": 1889,
+"nome": "Edgar Douglas Adrian",
+"descr": "medico e fisiologo britannico"
+},
+{
+"anno": 1898,
+"nome": "Firpo Marberry",
+"descr": "giocatore di baseball statunitense"
+},
+{
+"anno": 1904,
+"nome": "Clyfford Still",
+"descr": "pittore statunitense"
+},
+{
+"anno": 1906,
+"nome": "John Dickson Carr",
+"descr": "scrittore statunitense"
+},
+{
+"anno": 1906,
+"nome": "Andrés Henestrosa",
+"descr": "scrittore, storico e politico messicano"
+},
+{
+"anno": 1907,
+"nome": "Jacques Barzun",
+"descr": "storico francese"
+},
+{
+"anno": 1909,
+"nome": "Robert Nighthawk",
+"descr": "cantante e musicista statunitense"
+},
+{
+"anno": 1911,
+"nome": "Jorge Negrete",
+"descr": "cantante e attore messicano"
+},
+{
+"anno": 1912,
+"nome": "Gordon Parks",
+"descr": "regista, sceneggiatore e attore statunitense"
+},
+{
+"anno": 1915,
+"nome": "Brownie McGhee",
+"descr": "chitarrista statunitense"
+},
+{
+"anno": 1915,
+"nome": "Henry Taube",
+"descr": "chimico canadese"
+},
+{
+"anno": 1918,
+"nome": "Efrem Zimbalist Jr.",
+"descr": "attore statunitense"
+}
+],
+"morti": [
+{
+"anno": 1016,
+"nome": "Edmondo II d'Inghilterra",
+"descr": "re d'Inghilterra (r. 1016)"
+},
+{
+"anno": 1204,
+"nome": "Emerico d'Ungheria",
+"descr": "re d'Ungheria (r. 1196-1204)"
+},
+{
+"anno": 1283,
+"nome": "Giovanni da Vercelli",
+"descr": "religioso italiano"
+},
+{
+"anno": 1525,
+"nome": "Guillaume Cretin",
+"descr": "scrittore francese"
+},
+{
+"anno": 1526,
+"nome": "Giovanni delle Bande Nere",
+"descr": "condottiero italiano (1498-1526)"
+},
+{
+"anno": 1580,
+"nome": "Richard Farrant",
+"descr": "compositore, direttore di coro, drammaturgo"
+},
+{
+"anno": 1603,
+"nome": "William Gilbert",
+"descr": "fisico britannico (1544-1603)"
+},
+{
+"anno": 1623,
+"nome": "Thomas Weelkes",
+"descr": "organista e compositore inglese"
+},
+{
+"anno": 1647,
+"nome": "Bonaventura Cavalieri",
+"descr": "matematico italiano"
+},
+{
+"anno": 1647,
+"nome": "Giovanni Lanfranco",
+"descr": "pittore italiano (1582-1647)"
+},
+{
+"anno": 1654,
+"nome": "John Selden",
+"descr": "giurista e politico inglese"
+},
+{
+"anno": 1675,
+"nome": "Cecilius Calvert",
+"descr": "politico britannico"
+},
+{
+"anno": 1694,
+"nome": "Marcello Malpighi",
+"descr": "medico, anatomista, fisiologo e accademico italiano"
+},
+{
+"anno": 1703,
+"nome": "Nicolas de Grigny",
+"descr": "organista e compositore francese"
+},
+{
+"anno": 1718,
+"nome": "Carlo XII di Svezia",
+"descr": "re di Svezia (r. 1697-1718)"
+},
+{
+"anno": 1760,
+"nome": "Friederike Caroline Neuber",
+"descr": "attrice teatrale tedesca"
+},
+{
+"anno": 1761,
+"nome": "John Dollond",
+"descr": "astronomo inglese"
+},
+{
+"anno": 1863,
+"nome": "Kamehameha IV delle Hawaii",
+"descr": "sovrano hawaii"
+},
+{
+"anno": 1892,
+"nome": "Dimitrios Valvis",
+"descr": "politico greco"
+},
+{
+"anno": 1900,
+"nome": "Oscar Wilde",
+"descr": "poeta, aforista e scrittore irlandese (1854-1900)"
+},
+{
+"anno": 1901,
+"nome": "Edward John Eyre",
+"descr": "esploratore britannico"
+},
+{
+"anno": 1930,
+"nome": "Mary Harris Jones",
+"descr": "sindacalista e operaia statunitense"
+},
+{
+"anno": 1931,
+"nome": "Henry Walters",
+"descr": "dirigente d'azienda, collezionista d'arte e filantropo statunitense"
+},
+{
+"anno": 1933,
+"nome": "Arthur Currie",
+"descr": "generale canadese"
+},
+{
+"anno": 1935,
+"nome": "Fernando Pessoa",
+"descr": "poeta, scrittore e aforista portoghese"
+},
+{
+"anno": 1943,
+"nome": "Etty Hillesum",
+"descr": "scrittrice olandese (1914-1943)"
+},
+{
+"anno": 1944,
+"nome": "Paul Masson",
+"descr": "pistard francese"
+},
+{
+"anno": 1954,
+"nome": "Wilhelm Furtwängler",
+"descr": "direttore d'orchestra e compositore tedesco"
+},
+{
+"anno": 1955,
+"nome": "Josip Slavenski",
+"descr": "compositore coato"
+},
+{
+"anno": 1958,
+"nome": "George Hubert Wilkins",
+"descr": "esploratore australiano"
+},
+{
+"anno": 1966,
+"nome": "Salah Suheimat",
+"descr": "politico giordano"
+},
+{
+"anno": 1967,
+"nome": "Patrick Kavanagh",
+"descr": "poeta e scrittore irlandese"
+},
+{
+"anno": 1972,
+"nome": "Compton Mackenzie",
+"descr": "scrittore scozzese"
+},
+{
+"anno": 1977,
+"nome": "Terence Rattigan",
+"descr": "commediografo e sceneggiatore britannico"
+},
+{
+"anno": 1979,
+"nome": "Laura Gilpin",
+"descr": "fotografa statunitense"
+},
+{
+"anno": 1979,
+"nome": "Zeppo Marx",
+"descr": "attore e comico statunitense (1901-1979)"
+},
+{
+"anno": 1987,
+"nome": "Simon Carmiggelt",
+"descr": "scrittore, opinionista, giornalista, sceneggiatore, poeta, combattente della resistenza olandese (1913-1987)"
+},
+{
+"anno": 1988,
+"nome": "Pannonica de Koenigswarter",
+"descr": "mecenate britannica"
+},
+{
+"anno": 1989,
+"nome": "Ahmadou Ahidjo",
+"descr": "politico camerunese"
+},
+{
+"anno": 1989,
+"nome": "Alfred Herrhausen",
+"descr": "banchiere tedesco"
+},
+{
+"anno": 1990,
+"nome": "Fritz Eichenberg",
+"descr": "incisore, professore universitario, illustratore"
+},
+{
+"anno": 1992,
+"nome": "Peter Blume",
+"descr": "artista statunitense"
+},
+{
+"anno": 1994,
+"nome": "Guy Debord",
+"descr": "scrittore, regista e filosofo francese (1931–1994)"
+},
+{
+"anno": 1994,
+"nome": "Lionel Stander",
+"descr": "attore statunitense"
+},
+{
+"anno": 1995,
+"nome": "Til Kiwe",
+"descr": "attore tedesco"
+},
+{
+"anno": 1996,
+"nome": "Tiny Tim",
+"descr": "musicista e cantante statunitense"
+},
+{
+"anno": 1997,
+"nome": "Kathy Acker",
+"descr": "scrittrice, poetessa, musicista e sceneggiatrice statunitense"
+},
+{
+"anno": 1998,
+"nome": "Janet Lewis",
+"descr": "scrittrice e poetessa statunitense (1899-1998)"
+},
+{
+"anno": 1998,
+"nome": "Margaret Walker",
+"descr": "poetessa e scrittrice statunitense (1915-1998)"
+},
+{
+"anno": 2000,
+"nome": "Eloise Jarvis McGraw",
+"descr": "scrittrice statunitense"
+},
+{
+"anno": 2004,
+"nome": "Pierre Berton",
+"descr": "giornalista, scrittore, conduttore televisivo e storico canadese (1920-2004)"
+},
+{
+"anno": 2005,
+"nome": "Jean Parker",
+"descr": "attrice statunitense"
+},
+{
+"anno": 2006,
+"nome": "Shirley Walker",
+"descr": "compositrice statunitense"
+},
+{
+"anno": 2007,
+"nome": "Engin Arık",
+"descr": "fisica turca"
+},
+{
+"anno": 2007,
+"nome": "Evel Knievel",
+"descr": "stuntman statunitense"
+},
+{
+"anno": 2008,
+"nome": "Munetaka Higuchi",
+"descr": "batterista giapponese"
+},
+{
+"anno": 2010,
+"nome": "Garry Gross",
+"descr": "fotografo statunitense"
+},
+{
+"anno": 2012,
+"nome": "Rogelio Álvarez",
+"descr": "giocatore di baseball cubano"
+},
+{
+"anno": 2012,
+"nome": "Inder Kumar Gujral",
+"descr": "politico indiano"
+},
+{
+"anno": 2012,
+"nome": "Homer R. Warner",
+"descr": "accademico statunitense"
+}
+],
+"modo": {
+"espressione": "fare incetta",
+"significati": [
+"procurarsi qualcosa in maniera eccessiva"
+],
+"link": "https://it.wiktionary.org/wiki/fare_incetta"
+},
+"comune": {
+"nome": "Casola in Lunigiana",
+"descr": "comune della provincia di Massa e Carrara",
+"testo": "Casola in Lunigiana è un comune italiano di 892 abitanti della provincia di Massa-Carrara in Toscana.",
+"link": "https://it.wikipedia.org/wiki/Casola_in_Lunigiana"
 }
 }
 }
