@@ -473,7 +473,27 @@ def vangelo_cei(d):
         return None
     ev = re.search(r"Dal Vangelo secondo ([^<]+)<", blk)
     tit = re.search(r"<h3[^>]*>(.*?)</h3>", blk, re.S)
-    res = {"giorno": giorno, "riferimento": html.unescape(rif.group(1)).strip(), "evangelista": ev.group(1).strip() if ev else None,
+    letture = []
+    for nome, etichetta in (("Prima Lettura", "Prima lettura"), ("Salmo Responsoriale", "Salmo responsoriale"), ("Seconda Lettura", "Seconda lettura")):
+        mm = re.search(r"<h2[^>]*>\s*" + nome + r"\s*</h2>(.*?)<h2", t, re.S)
+        if not mm:
+            continue
+        b = mm.group(1)
+        tt = re.search(r"<h3[^>]*>(.*?)</h3>", b, re.S)
+        if nome.startswith("Salmo"):
+            rf = re.search(r"Dal (Sal \d+(?: \(\d+\))?)", pulisci(b))
+            rit = re.search(r"<strong>(.*?)</strong>", b, re.S)
+            if rf:
+                ritornello = re.sub(r"^R\.\s*", "", pulisci(rit.group(1))) if rit else None
+                letture.append({"tipo": etichetta, "riferimento": rf.group(1), "ritornello": ritornello or None})
+            continue
+        sp = re.search(r"<p>\s*(?:<p>)?\s*([^<]+?)\s*<br[^>]*>(.*?)<br", b, re.S)
+        lk = re.search(r'<a title="Leggi ([^"]+) su BibbiaEdu" href="([^"]+)"', b)
+        if sp and lk:
+            ref = re.sub(r"\s*([.;])\s*", r"\1 ", pulisci(sp.group(2))).replace(" ;", ";").strip()
+            letture.append({"tipo": etichetta, "titolo": pulisci(tt.group(1)) if tt else None, "introduzione": pulisci(sp.group(1)),
+                            "riferimento": ref, "link_testo": lk.group(2)})
+    res = {"v": 2, "letture": letture, "giorno": giorno, "riferimento": html.unescape(rif.group(1)).strip(), "evangelista": ev.group(1).strip() if ev else None,
            "titolo": pulisci(tit.group(1)) if tit else None, "link_testo": rif.group(2), "link_liturgia": url}
     try:
         res["riveduta"] = testo_riveduta(res["riferimento"])
@@ -609,6 +629,8 @@ def main():
                         break
                 except Exception as e:  # noqa: BLE001
                     errori.append(f"{d} latparola: {str(e)[:60]}")
+        if c.get("vangelo") and c["vangelo"].get("v") != 2:
+            del c["vangelo"]
         if "vangelo" not in c:
             try:
                 vg = vangelo_cei(d)
