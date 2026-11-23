@@ -338,7 +338,7 @@ def latini():
     t = get("https://it.wikiquote.org/api/rest_v1/page/html/Proverbi_latini").content.decode("utf-8", "replace")
     t = re.sub(r"<sup[^>]*>.*?</sup>", "", t, flags=re.S)
     voci = []
-    for m in re.finditer(r"<ul>\s*<li>\s*<i[^>]*>\s*<b[^>]*>(.*?)</b>\s*</i>(.*?)</li>\s*</ul>\s*<dl>(.*?)</dl>", t, re.S):
+    for m in re.finditer(r"<ul[^>]*>\s*<li[^>]*>\s*<i[^>]*>\s*<b[^>]*>(.*?)</b>\s*</i>(.*?)</li>\s*</ul>\s*<dl[^>]*>(.*?)</dl>", t, re.S):
         lat = pulisci(m.group(1)).strip(" .")
         dds = [pulisci(x) for x in re.findall(r"<dd[^>]*>(.*?)</dd>", m.group(3), re.S)]
         dds = [x for x in dds if x]
