@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-23T02:09:04Z",
+ "aggiornato": "2026-11-23T03:01:17Z",
  "tassonomia": "14",
  "notizie": [
   {
@@ -23,6 +23,203 @@
    "prof": []
   },
   {
+   "id": "62dd199d21d59e50",
+   "titolo": "Consultazioni catastali e ipotecarie Richiedi visure, planimetrie e ispezioni ipotecarie dei tuoi immobili",
+   "link": "https://telematici.agenziaentrate.gov.it/territorio/Dispatcher?type=D&func=TCP&menu=AGT",
+   "fonte": "ade",
+   "fonte_nome": "Agenzia delle Entrate",
+   "tipo": "ufficiale",
+   "aree": [
+    "catasto",
+    "imprese_fisco"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "catasto.volture"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "geometra",
+    "notaio",
+    "agente_imm",
+    "commercialista",
+    "tributarista",
+    "revisore",
+    "finanziario",
+    "curatore"
+   ],
+   "altre_fonti": [
+    "Agenzia Entrate-Riscossione"
+   ]
+  },
+  {
+   "id": "8f5f95ac57724f1a",
+   "titolo": "agenzia delle entrate Osservatorio del Mercato immobiliare Dalle informazioni di carattere tecnico-economico dei valori immobiliari al mercato degli affitti: consulta qui le banche dati e le pubblicazioni dell’OMI",
+   "link": "https://www.agenziaentrate.gov.it/portale/aree-tematiche/osservatorio-del-mercato-immobiliare-omi",
+   "fonte": "ade",
+   "fonte_nome": "Agenzia delle Entrate",
+   "tipo": "ufficiale",
+   "aree": [
+    "catasto",
+    "immobiliare",
+    "imprese_fisco"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "catasto.estimo",
+    "immobiliare.mercato"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "tributarista",
+    "agente_imm",
+    "valutatore",
+    "data",
+    "geometra",
+    "notaio",
+    "commercialista",
+    "condominio"
+   ],
+   "altre_fonti": [
+    "Agenzia Entrate-Riscossione"
+   ]
+  },
+  {
+   "id": "7ea8c2eff813a15b",
+   "titolo": "agenzia delle entrate Casa, tutto quello che c'è da sapere Dalle agevolazioni per l’acquisto alla registrazione di un contratto, dai bonus fiscali alle consultazioni catastali e ipotecarie: qui trovi le informazioni sul mondo casa",
+   "link": "https://www.agenziaentrate.gov.it/portale/aree-tematiche/casa",
+   "fonte": "ade",
+   "fonte_nome": "Agenzia delle Entrate",
+   "tipo": "ufficiale",
+   "aree": [
+    "catasto",
+    "imprese_fisco"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "catasto.volture"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "tributarista",
+    "geometra",
+    "notaio",
+    "agente_imm",
+    "commercialista",
+    "revisore",
+    "finanziario",
+    "curatore"
+   ],
+   "altre_fonti": [
+    "Agenzia Entrate-Riscossione"
+   ]
+  },
+  {
+   "id": "0b4c372fa97a99f5",
+   "titolo": "Energia: ENEA presenta lo sportello digitale Deciwatt per l’efficienza degli edifici",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/energia-enea-presenta-lo-sportello-digitale-deciwatt-per-lefficienza-degli-edifici.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "70ba60da12a0a6a8",
+   "titolo": "Diagnosi energetiche, dal MASE nuove istruzioni operative per le imprese",
+   "link": "https://www.efficienzaenergetica.enea.it/vi-segnaliamo/diagnosi-energetiche-dal-mase-nuove-istruzioni-operative-per-le-imprese.html",
+   "fonte": "enea",
+   "fonte_nome": "ENEA Efficienza energetica",
+   "tipo": "ente",
+   "aree": [
+    "energia",
+    "ambiente"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "energia.prestazioni",
+    "ambiente.via_vas"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista",
+    "geologo",
+    "agronomo",
+    "chimico"
+   ]
+  },
+  {
+   "id": "37516955cedd2cf5",
+   "titolo": "Credito d'imposta autotrasporto 2026: dal 19 al 30 novembre le domande per il ristoro sul caro gasolio",
+   "link": "https://www.ipsoa.it/documents/quotidiano/2026/11/18/credito-imposta-autotrasporto-2026-19-30-novembre-domande-ristoro-caro-gasolio",
+   "fonte": "teknoring",
+   "fonte_nome": "Teknoring",
+   "tipo": "stampa",
+   "aree": [
+    "trasporti",
+    "bonus"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "trasporti.logistica",
+    "bonus.crediti"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "logistica",
+    "mobility",
+    "adr",
+    "commercialista",
+    "geometra",
+    "ingegnere",
+    "architetto",
+    "agente_imm"
+   ]
+  },
+  {
    "id": "dcfd286d7e3a09ec",
    "titolo": "UIA Golden Cubes Awards: i vincitori Gli esiti della fase nazionale",
    "link": "https://www.awn.it/news/cnappc-informa/10040-uia-golden-cubes-awards-i-vincitori",
@@ -35,7 +232,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T02:09:04Z",
+   "visto": "2026-11-23T03:01:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -55,7 +252,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T02:09:04Z",
+   "visto": "2026-11-23T03:01:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -75,7 +272,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T02:09:04Z",
+   "visto": "2026-11-23T03:01:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -95,7 +292,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T02:09:04Z",
+   "visto": "2026-11-23T03:01:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -115,7 +312,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T02:09:04Z",
+   "visto": "2026-11-23T03:01:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -135,7 +332,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T02:09:04Z",
+   "visto": "2026-11-23T03:01:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -155,7 +352,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T02:09:04Z",
+   "visto": "2026-11-23T03:01:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -177,7 +374,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T02:09:04Z",
+   "visto": "2026-11-23T03:01:17Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -185,6 +382,2334 @@
    "prof": [
     "geometra"
    ]
+  },
+  {
+   "id": "a8b7581034ccc6a3",
+   "titolo": "Bandi di concorso – copertura di n. 19 unità presso la Cte - I livello di professionalità: graduatorie",
+   "link": "https://www.inail.it/portale/it/inail-comunica/avvisi/avviso.2026.11.avviso-concorso-19-posti-cte-graduatorie.html",
+   "fonte": "inail",
+   "fonte_nome": "INAIL",
+   "tipo": "ente",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "c4a29626efab944c",
+   "titolo": "Avviso di mobilità volontaria esterna n. 231 posti, area funzionari amministrativi: pubblicazione calendario colloqui",
+   "link": "https://www.inail.it/portale/it/inail-comunica/avvisi/avviso.2026.06.avviso-231-funz-calendario-colloqui.html",
+   "fonte": "inail",
+   "fonte_nome": "INAIL",
+   "tipo": "ente",
+   "aree": [
+    "management"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "management.governance"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "compliance",
+    "manager",
+    "consulente_az",
+    "finanziario"
+   ]
+  },
+  {
+   "id": "aba3dfd855031410",
+   "titolo": "Avviso di mobilità volontaria esterna n. 231 posti, area funzionari amministrativi: graduatorie definitive di merito",
+   "link": "https://www.inail.it/portale/it/inail-comunica/avvisi/avviso.2026.08.aviso-graduatorie-friuli-liguria-sardegna-231-posti.html",
+   "fonte": "inail",
+   "fonte_nome": "INAIL",
+   "tipo": "ente",
+   "aree": [
+    "management",
+    "formazione_cultura"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "management.governance",
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "compliance",
+    "docente",
+    "manager",
+    "consulente_az",
+    "finanziario",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "4de26cbff44597bd",
+   "titolo": "Gli attuari dell’Inail al congresso Ica 2026 di Tokyo",
+   "link": "https://www.inail.it/portale/it/inail-comunica/news/notizia.2026.11.gli-attuari-dell-inail-al-congresso-internazionale-ica-2026-di-tokyo.html",
+   "fonte": "inail",
+   "fonte_nome": "INAIL",
+   "tipo": "ente",
+   "aree": [
+    "management"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "management.finanza"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "attuario",
+    "manager",
+    "consulente_az",
+    "compliance",
+    "finanziario"
+   ]
+  },
+  {
+   "id": "975009cba99149c6",
+   "titolo": "Link al video Relazione annuale Inail 2025 - 22 set 2026",
+   "link": "https://www.inail.it/portale/it/inail-comunica/multimedia/video-gallery/video.2026.09.videogallery-relazione-annuale-2025.html",
+   "fonte": "inail",
+   "fonte_nome": "INAIL",
+   "tipo": "ente",
+   "aree": [
+    "comunicazione"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "comunicazione.design"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "fotovideo",
+    "giornalista",
+    "marketer",
+    "grafico"
+   ]
+  },
+  {
+   "id": "ff722db77f5f2e3e",
+   "titolo": "Link al video Percorsi di cioccolato - 09 set 2026",
+   "link": "https://www.inail.it/portale/it/inail-comunica/multimedia/video-gallery/video.2026.09.videogallery-percorsi-di-cioccolato.html",
+   "fonte": "inail",
+   "fonte_nome": "INAIL",
+   "tipo": "ente",
+   "aree": [
+    "comunicazione"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "comunicazione.design"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "fotovideo",
+    "giornalista",
+    "marketer",
+    "grafico"
+   ]
+  },
+  {
+   "id": "7dedb001d4a48be9",
+   "titolo": "Link al video Sport senza barriere, la storia di Alexandru: “Il tennis, passione e voglia di vincere” - 23 mar 2026",
+   "link": "https://www.inail.it/portale/it/inail-comunica/multimedia/video-gallery/video.2026.03.videogallery-sport-senza-barriere-neda.html",
+   "fonte": "inail",
+   "fonte_nome": "INAIL",
+   "tipo": "ente",
+   "aree": [
+    "comunicazione"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "comunicazione.design"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "fotovideo",
+    "giornalista",
+    "marketer",
+    "grafico"
+   ]
+  },
+  {
+   "id": "2348aa0e6d47bff2",
+   "titolo": "Link al video Campagna di comunicazione contro gli infortuni domestici 2026 - 29 dic 2025",
+   "link": "https://www.inail.it/portale/it/inail-comunica/multimedia/video-gallery/video.2025.12.campagna-infortuni-casalinghe-2026.html",
+   "fonte": "inail",
+   "fonte_nome": "INAIL",
+   "tipo": "ente",
+   "aree": [
+    "comunicazione"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "comunicazione.design"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "fotovideo",
+    "giornalista",
+    "marketer",
+    "grafico"
+   ]
+  },
+  {
+   "id": "2da531b4938d7861",
+   "titolo": "Master e corsi di perfezionamento 2026-2027: pubblicato il bando",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.10.master-e-corsi-di-perfezionamento-2026-2027-pubblicato-il-bando.html",
+   "fonte": "inps",
+   "fonte_nome": "INPS (prassi e messaggi)",
+   "tipo": "ente",
+   "aree": [
+    "hr"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "hr.formazione"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "formatore",
+    "hr",
+    "consulente_lavoro"
+   ]
+  },
+  {
+   "id": "0c0d6e0271da77c4",
+   "titolo": "Borse di studio “supermedia” 2026: pubblicato il bando",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.borse-di-studio-supermedia-2026-pubblicato-il-bando.html",
+   "fonte": "inps",
+   "fonte_nome": "INPS (prassi e messaggi)",
+   "tipo": "ente",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "0cf7e37a2ae50ed1",
+   "titolo": "Collegi universitari di merito: 477 borse di studio",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.07.collegi-universitari-di-merito-477-borse-di-studio.html",
+   "fonte": "inps",
+   "fonte_nome": "INPS (prassi e messaggi)",
+   "tipo": "ente",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "64b8ea1ae1bae0b3",
+   "titolo": "Nuove funzionalità per avvocati domiciliatari e sostituti",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.05.nuove-funzionalit-per-avvocati-domiciliatari-e-sostituti.html",
+   "fonte": "inps",
+   "fonte_nome": "INPS (prassi e messaggi)",
+   "tipo": "ente",
+   "aree": [
+    "legale"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "legale.avvocati"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "avvocato",
+    "notaio",
+    "curatore"
+   ]
+  },
+  {
+   "id": "c03070447a9d1403",
+   "titolo": "Assegno di Inclusione: arriva la video guida personalizzata",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.assegno-di-inclusione-arriva-la-video-guida-personalizzata.html",
+   "fonte": "inps",
+   "fonte_nome": "INPS (prassi e messaggi)",
+   "tipo": "ente",
+   "aree": [
+    "comunicazione"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "comunicazione.design"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "fotovideo",
+    "giornalista",
+    "marketer",
+    "grafico"
+   ]
+  },
+  {
+   "id": "3082b017d5ddad30",
+   "titolo": "Assunzioni agevolate: dal 1° dicembre si passa dal SIISL",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.assunzioni-agevolate-dal-1-dicembre-si-passa-dal-siisl.html",
+   "fonte": "inps",
+   "fonte_nome": "INPS (prassi e messaggi)",
+   "tipo": "ente",
+   "aree": [
+    "hr"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "hr.hr"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "hr",
+    "formatore",
+    "consulente_lavoro"
+   ]
+  },
+  {
+   "id": "ace9977ba020a9ad",
+   "titolo": "Laurea da riscattare? Ti aiuta il simulatore, anche senza SPID",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.laurea-da-riscattare-ti-aiuta-il-simulatore-anche-senza-spi.html",
+   "fonte": "inps",
+   "fonte_nome": "INPS (prassi e messaggi)",
+   "tipo": "ente",
+   "aree": [
+    "digitale"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "digitale.sicurezza_it"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "sviluppatore",
+    "data",
+    "cyber"
+   ]
+  },
+  {
+   "id": "7505dafa1e78f25c",
+   "titolo": "Lavoro giovani Calabria: come funzionano i pagamenti dei tirocini",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.lavoro-giovani-calabria-come-funzionano-i-pagamenti-dei-tirocini.html",
+   "fonte": "inps",
+   "fonte_nome": "INPS (prassi e messaggi)",
+   "tipo": "ente",
+   "aree": [
+    "hr"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "hr.formazione"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "hr",
+    "formatore",
+    "consulente_lavoro"
+   ]
+  },
+  {
+   "id": "4a9809d1888aff8f",
+   "titolo": "Lavoro giovani Calabria: i contenuti della convenzione",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.lavoro-giovani-calabria-i-contenuti-della-convenzione.html",
+   "fonte": "inps",
+   "fonte_nome": "INPS (prassi e messaggi)",
+   "tipo": "ente",
+   "aree": [
+    "comunicazione"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "comunicazione.media"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "giornalista",
+    "marketer",
+    "grafico",
+    "fotovideo"
+   ]
+  },
+  {
+   "id": "9f04814490bbb638",
+   "titolo": "Dichiarazione precompilata Visualizza, accetta o modifica e invia via web il modello 730 o Redditi PF predisposto dall’Agenzia delle Entrate",
+   "link": "https://iampe.agenziaentrate.gov.it/sam/UI/Login?realm=/agenziaentrate&goto=https%3A%2F%2Fportale.agenziaentrate.gov.it%3A443%2FPortaleWeb%2Fhome%3Fto%3DPRECOM",
+   "fonte": "f-ade",
+   "fonte_nome": "Agenzia delle Entrate: novità fiscali",
+   "tipo": "ufficiale",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "dichiarazioni.730"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "tributarista",
+    "commercialista",
+    "consulente_lavoro"
+   ]
+  },
+  {
+   "id": "41eadbbb29978117",
+   "titolo": "Cassetto fiscale Consulta la tua posizione fiscale: dai dati su dichiarazioni, rimborsi e versamenti agli atti del registro e molto altro",
+   "link": "https://iampe.agenziaentrate.gov.it/sam/UI/Login?realm=/agenziaentrate&goto=https%3A%2F%2Fportale.agenziaentrate.gov.it%3A443%2FPortaleWeb%2Fhome%3Fto%3DCASSET",
+   "fonte": "f-ade",
+   "fonte_nome": "Agenzia delle Entrate: novità fiscali",
+   "tipo": "ufficiale",
+   "aree": [
+    "professione_fisco",
+    "dichiarazioni"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "professione_fisco.servizi"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "data",
+    "commercialista",
+    "tributarista",
+    "consulente_lavoro"
+   ]
+  },
+  {
+   "id": "8c4eb37d0b93896c",
+   "titolo": "Vai al sito Agenzia delle entrate-Riscossione",
+   "link": "https://www.agenziaentrateriscossione.gov.it/it/",
+   "fonte": "f-ader",
+   "fonte_nome": "Agenzia Entrate-Riscossione",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese_fisco"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "imprese_fisco.riscossione"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "tributarista",
+    "commercialista",
+    "revisore",
+    "finanziario",
+    "curatore"
+   ]
+  },
+  {
+   "id": "45e99ff290965eb9",
+   "titolo": "Tutti i servizi di Agenzia delle entrate-Riscossione",
+   "link": "https://www.agenziaentrateriscossione.gov.it/it/servizi/",
+   "fonte": "f-ader",
+   "fonte_nome": "Agenzia Entrate-Riscossione",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese_fisco"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "imprese_fisco.riscossione"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "tributarista",
+    "commercialista",
+    "revisore",
+    "finanziario",
+    "curatore"
+   ]
+  },
+  {
+   "id": "eebe7fad7caf958f",
+   "titolo": "Rottamazione-quinquies enti territoriali Consulta le modalità per presentare online la domanda di adesione alla Rottamazione-quinquies enti territoriali",
+   "link": "https://www.agenziaentrateriscossione.gov.it/link-esterni/Rottamazione-quinquies-enti-territoriali",
+   "fonte": "f-ader",
+   "fonte_nome": "Agenzia Entrate-Riscossione",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese_fisco"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "imprese_fisco.riscossione"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista",
+    "revisore",
+    "finanziario",
+    "curatore"
+   ]
+  },
+  {
+   "id": "e0633de3cde3e8dd",
+   "titolo": "Paga online Puoi pagare facilmente cartelle, avvisi e rate",
+   "link": "https://www.agenziaentrateriscossione.gov.it/link-esterni/Pagaonline_servizio",
+   "fonte": "f-ader",
+   "fonte_nome": "Agenzia Entrate-Riscossione",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese_fisco"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "imprese_fisco.riscossione"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista",
+    "revisore",
+    "finanziario",
+    "curatore"
+   ]
+  },
+  {
+   "id": "23df014fff346f5f",
+   "titolo": "Rateizza il debito Per importi fino a 120 mila euro puoi ottenere online fino a 84 rate, a semplice richiesta",
+   "link": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/istanze-a-semplice-richiesta/",
+   "fonte": "f-ader",
+   "fonte_nome": "Agenzia Entrate-Riscossione",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese_fisco"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista",
+    "revisore",
+    "finanziario",
+    "curatore"
+   ]
+  },
+  {
+   "id": "ebd4215a6550bbd8",
+   "titolo": "AGENZIA DELLE ENTRATE-RISCOSSIONE Cartella di pagamento Disponibile online la guida alla cartella di pagamento: un valido supporto per comprendere le informazioni e consultare la cartella in modo semplice",
+   "link": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/",
+   "fonte": "f-ader",
+   "fonte_nome": "Agenzia Entrate-Riscossione",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese_fisco"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "imprese_fisco.riscossione"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "tributarista",
+    "commercialista",
+    "revisore",
+    "finanziario",
+    "curatore"
+   ]
+  },
+  {
+   "id": "9754223dfb42da46",
+   "titolo": "AGENZIA DELLE ENTRATE-RISCOSSIONE La nuova situazione debitoria Disponibile online la guida alla navigazione del servizio “Situazione debitoria - consulta e paga”: uno strumento utile per accompagnare gli utenti nell’utilizzo delle nuove funzionalità.",
+   "link": "https://www.agenziaentrateriscossione.gov.it/export/.files/it/gruppo/La_nuova_situazione_debitoria.pdf",
+   "fonte": "f-ader",
+   "fonte_nome": "Agenzia Entrate-Riscossione",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese_fisco"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "imprese_fisco.riscossione"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "tributarista",
+    "commercialista",
+    "revisore",
+    "finanziario",
+    "curatore"
+   ]
+  },
+  {
+   "id": "87004c7db8a22002",
+   "titolo": "Indotto ex ILVA e ADI Servizi Marittimi: nuova integrazione al reddito",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.indotto-ex-ilva-e-adi-servizi-marittimi-nuova-integrazione-al-reddito.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "isee.sostegno"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "4a59cd0fc0828064",
+   "titolo": "UNIEMENS: nuove istruzioni per i congedi di maternità e paternità",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.uniemens-nuove-istruzioni-per-i-congedi-di-maternit-e-paternit.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "isee.famiglia"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "6b45104ac5e42cc9",
+   "titolo": "Violenza di genere: a Roma l’evento “Libere di scegliere”",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.violenza-di-genere-a-roma-l-evento-libere-di-scegliere.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "c13ead83b8375b6a",
+   "titolo": "Avvio Campagna RED ordinaria 2026 e dichiarazioni di responsabilità",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.avvio-campagna-red-ordinaria-2026-e-dichiarazioni-di-responsabilit.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "65c0ca92669dbfde",
+   "titolo": "Pensioni: perequazione da gennaio, aumento subito nel cedolino",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.pensioni-perequazione-da-gennaio-aumento-subito-nel-cedolino.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "pensioni",
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "pensioni.pensioni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "d3e5bba0e80423d0",
+   "titolo": "Gli impegni istituzionali dal 16 al 21 novembre",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.gli-impegni-istituzionali-dal-16-al-21-novembre.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "104b8fcda293bc28",
+   "titolo": "Portale prestazioni welfare: disponibile il nuovo assistente virtuale",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.portale-prestazioni-welfare-disponibile-il-nuovo-assistente-virtuale.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "670468ac75c35e8a",
+   "titolo": "Pagamento pensioni in Brasile: cambio gestore da marzo 2027",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.pagamento-pensioni-in-brasile-cambio-gestore-da-marzo-2027.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "pensioni",
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "pensioni.pensioni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "70b39ba77c8d8c79",
+   "titolo": "RLAQ: disponibile la domanda di adesione semplificata",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.rlaq-disponibile-la-domanda-di-adesione-semplificata.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "b8fac19daf405c6d",
+   "titolo": "Trasformazione AOI in pensione di vecchiaia per madri lavoratrici: principali novità",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.trasformazione-aoi-in-pensione-di-vecchiaia-per-madri-lavoratrici-principali-novit.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "pensioni",
+    "isee"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "pensioni.pensioni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "94d2d0449bcdd6ea",
+   "titolo": "Pubblicato il bando “Visitinps Scholars Program di tipo B”",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.10.pubblicato-il-bando-visitinps-scholars-program-di-tipo-b.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "8b039d15d6f7f22b",
+   "titolo": "Riscatto del congedo per lavoratori con gravi patologie: indicazioni",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.10.riscatto-del-congedo-per-lavoratori-con-gravi-patologie-indicazioni.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "pensioni",
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "pensioni.contributi"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "0e132dc16c2d303f",
+   "titolo": "Presentato il Bilancio sociale Regione Piemonte",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.10.presentato-il-bilancio-sociale-regione-piemonte.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "imprese_fisco",
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "imprese_fisco.contabilita"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista",
+    "revisore",
+    "finanziario",
+    "curatore"
+   ]
+  },
+  {
+   "id": "1fb9429b1fc80cc3",
+   "titolo": "Digital Innovation Forum: premiata la piattaforma AI dell’Istituto",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.10.digital-innovation-forum-premiata-la-piattaforma-ai-dell-istituto.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "e604ca5dc7d5ad0b",
+   "titolo": "Dottorati di ricerca 2023-2024: pubblicata la graduatoria",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.10.dottorati-di-ricerca-2023-2024-pubblicata-la-graduatoria.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "0accbcd5c9b30bf4",
+   "titolo": "Lavoratori del settore privato: destinazione del TFR",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.lavoratori-del-settore-privato-destinazione-del-tfr.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "pensioni",
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "pensioni.complementare"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "9d352ef1159a9748",
+   "titolo": "Cessione del quinto delle pensioni: tassi quarto trimestre 2026",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.cessione-del-quinto-delle-pensioni-tassi-quarto-trimestre-2026.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "pensioni",
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "pensioni.pensioni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "101287342ed60432",
+   "titolo": "Gli impegni istituzionali dal 28 settembre al 3 ottobre",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.gli-impegni-istituzionali-dal-28-settembre-al-3-ottobre.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "834a10b216a4fe4d",
+   "titolo": "Legge 104: permessi e superamento dei limiti previsti",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.legge-104-permessi-e-superamento-dei-limiti-previsti.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "isee.invalidita"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "e5e95a5422739a57",
+   "titolo": "Assegno unico e universale: l’Osservatorio con i dati di luglio 2026",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.assegno-unico-e-universale-l-osservatorio-con-i-dati-di-luglio-2026.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "isee.famiglia"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "data",
+    "commercialista",
+    "tributarista"
+   ],
+   "altre_fonti": []
+  },
+  {
+   "id": "ad642d295147f93f",
+   "titolo": "Fondo Perseo-Sirio: applicato il criterio del multicomparto",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.07.fondo-perseo-sirio-applicato-il-criterio-del-multicomparto.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "ddfd9d793ec83950",
+   "titolo": "Fondo Bolzano-Alto Adige: contributo ridotto anche nel 2027",
+   "link": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.fondo-bolzano-alto-adige-contributo-ridotto-anche-nel-2027.html",
+   "fonte": "f-inps",
+   "fonte_nome": "INPS: ISEE, pensioni e prestazioni",
+   "tipo": "ente",
+   "aree": [
+    "isee"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "800670d9f89f2165",
+   "titolo": "Automotive: per i mini contratti di sviluppo domande dal 30.11",
+   "link": "https://www.consulentidellavoro.it/home/storico-articoli/20036-automotive-per-i-mini-contratti-di-sviluppo-domande-dal-30-11",
+   "fonte": "f-cdl",
+   "fonte_nome": "Consulenti del Lavoro",
+   "tipo": "ordine",
+   "aree": [
+    "imprese",
+    "lavoro"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "imprese.invitalia"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "consulente_az",
+    "avvocato",
+    "consulente_lavoro",
+    "hr",
+    "formatore"
+   ]
+  },
+  {
+   "id": "336ccb4531be6533",
+   "titolo": "Wendy’s debutta a Roma: il ritorno degli hamburger quadrati. Ecco perché e chi c’è dietro",
+   "link": "https://www.italiaoggi.it/marketing-e-media/marketing/wendys-debutta-a-roma-il-ritorno-degli-hamburger-quadrati-ecco-perche-e-chi-ce-dietro-v1ysiwm1",
+   "fonte": "f-italiaoggi",
+   "fonte_nome": "ItaliaOggi: fisco e lavoro",
+   "tipo": "stampa",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista",
+    "consulente_lavoro"
+   ]
+  },
+  {
+   "id": "b3fdf6016a3ea9a3",
+   "titolo": "Targhe estere e flotte a noleggio, scatta la stretta del Fisco sull’IPT",
+   "link": "https://www.informazionefiscale.it/targhe-estere-noleggio-auto-novita-imposta-provinciale-trascrizione",
+   "fonte": "f-infofisc",
+   "fonte_nome": "Informazione Fiscale",
+   "tipo": "stampa",
+   "aree": [
+    "dichiarazioni"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "tributarista",
+    "commercialista",
+    "consulente_lavoro"
+   ]
+  },
+  {
+   "id": "486a9c01f74240a8",
+   "titolo": "Mattarella: 'I giovani hanno il diritto di essere ascoltati dalle istituzioni'",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/20/mattarella-i-ragazzi-hanno-diritto-di-contare-su-uninterlocuzione-con-le-istituzioni_d2d45227-5c4e-4325-a375-834ca49d35eb.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "governo.quirinale"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "df17294e6b80f042",
+   "titolo": "Il Campo largo trova la quadra sul reddito garantito, ancora al lavoro sul resto",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/19/il-campo-largo-trova-la-quadra-sul-reddito-garantito-ancora-al-lavoro-sul_42a3ea85-6cbd-4b27-b33d-cbb4b7053c88.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "partiti.partiti"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "7af6e643407edccf",
+   "titolo": "FI rilancia la battaglia, tre emendamenti anti e-book alla Camera",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/20/scontro-sugli-ebook-fi-presenta-un-emendamento-soppressivo-alla-camera-_a676fb83-bb34-4ed1-bb51-a0428ece696b.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "governo.parlamento"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "5080c6ffa5238d17",
+   "titolo": "Putin apre il tavolo agli europei. Trump li chiama, 'basta soldi a Kiev'",
+   "link": "https://www.ansa.it/sito/notizie/mondo/europa/2026/11/19/zelensky-ai-volenterosi-kiev-nella-nato.-meloni-mandato-chiaro-al-formato-e5_63e4f927-d622-4c44-a03d-1000e20ff862.html",
+   "fonte": "p-ansa-mondo",
+   "fonte_nome": "ANSA Mondo",
+   "tipo": "stampa",
+   "aree": [
+    "esteri"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "8fb6fd7f12b11264",
+   "titolo": "Uno strappo che il governo dovrà cercare di ricucire",
+   "link": "https://www.corriere.it/politica/26_novembre_19/uno-strappo-che-il-governo-dovra-cercare-di-ricucire-22974b73-e55e-47c1-a49b-403bce4b1xlk.shtml",
+   "fonte": "p-corriere",
+   "fonte_nome": "Corriere della Sera Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "governo.governo"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "ecff8f56a1f2ff77",
+   "titolo": "“Lo stiamo sottovalutando”. Silvia Salis pensa già al Quirinale: l’appello ai “progressisti”",
+   "link": "https://www.liberoquotidiano.it/news/politica/silvia-salis-pensa-gia-al-quirinale-lo-stiamo-sottovalutando-lappello-ai-progressisti/",
+   "fonte": "p-libero",
+   "fonte_nome": "Libero Quotidiano Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "governo.quirinale"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "16f2ce1ad199d310",
+   "titolo": "In “CCCC” Chiara Civello e Clap! Clap! trasformano le macerie dei sogni in un disco da ballare",
+   "link": "https://www.ilfoglio.it/musica/2026/11/19/video/in-cccc-chiara-civello-e-clap-clap-trasformano-le-macerie-dei-sogni-in-un-disco-da-ballare--414049",
+   "fonte": "p-foglio",
+   "fonte_nome": "Il Foglio",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "c7ab4b4a71798c70",
+   "titolo": "Salvini, da Mit via libera a omologazione provvisoria sistema guida assistita Tesla",
+   "link": "https://www.ansa.it/canale_motori/notizie/new_tech/2026/11/20/salvini-da-mit-via-libera-a-omologazione-provvisoria-sistema-guida-assistita-tesla_2b53f01f-99ee-4405-9972-47b480389e46.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "prove",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "prove.guide",
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "ea13aa3cb54c78f8",
+   "titolo": "F1. Capolavoro di Kimi Antonelli in qualifica a Las Vegas: beffa tutti per un secondo, ma la penalità gli toglie la pole! Notte fonda per Ferrari: Leclerc e Hamilton fuori in Q2",
+   "link": "https://www.automoto.it/formula1/f1-qualifiche-gp-las-vegas-2026-diretta-live-tempi-griglia-pole.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "motorsport.f1",
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "f0cddf2e78560f37",
+   "titolo": "George Russell accende il ghiaccio di Las Vegas in FP3, tensione con Max Verstappen. Occhio alla McLaren, notte fonda per la Ferrari",
+   "link": "https://www.automoto.it/formula1/f1-gp-las-vegas-2026-russell-leader-nelle-fp3-davanti-ad-antonelli-e-norris-ferrari-in-crisi.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "motorsport.f1",
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "6aa66d5c1f0c15ff",
+   "titolo": "Tesla, via libera in Italia alla guida \"quasi autonoma\": 99 euro al mese. E c'entra anche Salvini",
+   "link": "https://www.automoto.it/news/tesla-via-libera-in-italia-alla-guida-quasi-autonoma-99-euro-al-mese-e-c-entra-anche-salvini.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "prove",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "prove.guide",
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "prezzo": "99 €/mese"
+  },
+  {
+   "id": "3649bc0435de1fda",
+   "titolo": "RCA a Napoli, dopo le targhe polacche è la volta della Repubblica Ceca. E le agenzie promettono la revisione ogni 4 anni",
+   "link": "https://www.automoto.it/news/targhe-polacche-arriva-la-svolta-della-repubblica-ceca-le-agenzie-promettono-la-revisione-ogni-4-anni.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "normativa_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "normativa_auto.burocrazia"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "c2234807a1f15394",
+   "titolo": "Diesel più conveniente, ecco dove trovarlo. L’andamento dei prezzi al distributore",
+   "link": "https://www.automoto.it/news/diesel-piu-conveniente-ecco-dove-trovarlo-l-andamento-dei-prezzi-al-distributore.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "mercato_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "4c79ba7c9ed84a4f",
+   "titolo": "Offerte Black Friday Sim Racing 2026: i migliori sconti",
+   "link": "https://www.automoto.it/gaming/offerte-black-friday-sim-racing-2026-i-migliori-sconti.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "mercato_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "5a0a2490b445b2d1",
+   "titolo": "5 Prezzi carburanti oggi: benzina e diesel ancora in calo, ecco quanto costano di Alessandra Marchetti",
+   "link": "https://www.automoto.it/news/prezzi-carburanti-oggi-benzina-e-diesel-ancora-in-calo-ecco-quanto-costano.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "elettriche",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "elettriche.ibride"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "4a8ae5741e9dd888",
+   "titolo": "Auto: dal nuovo Codice della Strada a The Car of The Year, tutte le novità in edicola Sarà un 2027 ricco di novità, sia riguardo i modelli in arrivo che per le regole di ingaggio per emissioni e automobilisti. Finaliste del COTY saranno in prova a Milano",
+   "link": "https://www.auto.it/news/edicola/2026/11/16-9295490/auto_dal_nuovo_codice_della_strada_a_the_car_of_the_year_tutte_le_novit_in_edicola",
+   "fonte": "a-autoit",
+   "fonte_nome": "Auto.it",
+   "tipo": "stampa",
+   "aree": [
+    "normativa_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "normativa_auto.codice",
+    "novita_auto.modelli"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "altre_fonti": []
+  },
+  {
+   "id": "c6e825eb10f1e5d6",
+   "titolo": "Tesla lancia la guida assistita (e senza mani) in Italia: costa 99 euro al mese. Ecco come funziona",
+   "link": "https://www.corriere.it/motori/26_novembre_20/tesla-lancia-la-guida-assistita-e-senza-mani-in-italia-costa-99-euro-al-mese-ecco-come-funziona-00e222cb-ef7b-4d9f-a737-bfcdf3929xlk.shtml",
+   "fonte": "a-corriere-motori",
+   "fonte_nome": "Corriere della Sera Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "prove"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.marchi",
+    "prove.guide"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "prezzo": "99 €/mese"
+  },
+  {
+   "id": "fd3f9c9b527aa311",
+   "titolo": "Mercato auto, la Cina avanza in Italia: importazioni in crescita del 121% nei primi otto mesi del 2026",
+   "link": "https://www.corriere.it/motori/26_novembre_20/mercato-auto-la-cina-avanza-in-italia-importazioni-in-crescita-del-121-nei-primi-otto-mesi-del-2026-4caa2119-0a3a-458f-bc5e-c5d48818fxlk.shtml",
+   "fonte": "a-corriere-motori",
+   "fonte_nome": "Corriere della Sera Motori",
+   "tipo": "stampa",
+   "aree": [
+    "mercato_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.immatricolazioni"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "41b5708c4e66bbe0",
+   "titolo": "Auto nuove troppo care per gli italiani, il 75% vuole spendere meno di 30 mila euro",
+   "link": "https://www.corriere.it/motori/26_novembre_17/auto-nuove-troppo-care-per-gli-italiani-il-75-vuole-spendere-meno-di-30-mila-euro-3a052d4e-a30a-4a4a-a829-4dd6f892bxlk.shtml",
+   "fonte": "a-corriere-motori",
+   "fonte_nome": "Corriere della Sera Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "72f16244c84cd7fa",
+   "titolo": "Ma quale GTA6? Ecco 5 videogiochi a due ruote che hanno fatto la storia",
+   "link": "https://www.inmoto.it/news/curiosita/2026/11/20-9311090/ma_quale_gta6_ecco_6_videogiochi_a_due_ruote_che_hanno_fatto_la_storia",
+   "fonte": "a-inmoto",
+   "fonte_nome": "InMoto",
+   "tipo": "stampa",
+   "aree": [
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "1e03fe43dbe2475a",
+   "titolo": "Gli 883 e quella generazione cresciuta a pane, benzina e 125. E quanta strada con un \"deca\"...",
+   "link": "https://www.inmoto.it/news/epoca/2026/11/19-9309987/gli_883_e_quella_generazione_cresciuta_a_pane_benzina_e_125_e_quanta_strada_con_un_deca_",
+   "fonte": "a-inmoto",
+   "fonte_nome": "InMoto",
+   "tipo": "stampa",
+   "aree": [
+    "elettriche",
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "elettriche.ibride"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "f816fad1ce180432",
+   "titolo": "Triumph Bonneville T40 e T40 Black: svelati prezzo e arrivo in Italia",
+   "link": "https://www.inmoto.it/news/attualita/2026/11/19-9308829/triumph_bonneville_t40_e_t40_black_svelati_prezzo_e_arrivo_in_italia",
+   "fonte": "a-inmoto",
+   "fonte_nome": "InMoto",
+   "tipo": "stampa",
+   "aree": [
+    "moto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "moto.novita",
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "3a63f63060ada912",
+   "titolo": "Pogacar: \"Amo l'Italia ma non sarò al Giro 2027\" Ciclismo Il campione sloveno a 'Sky Sport' intervistato da Luigi Vaccariello: \"Ci sarà una stagione in cui... 20 nov - 23:38",
+   "link": "https://sport.sky.it/ciclismo/2026/11/20/pogacar-ciclismo-intervista-video",
+   "fonte": "a-sky-f1",
+   "fonte_nome": "Sky Sport F1 e motori",
+   "tipo": "stampa",
+   "aree": [
+    "bici",
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "bici.ciclismo"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "fd8acbbdb92e93c2",
+   "titolo": "Tumore del pancreas, AIFA accelera sul daraxonrasib. Alert dalle associazioni",
+   "link": "https://www.sanitainformazione.it/tumore-del-pancreas-aifa-accelera-sul-daraxonrasib-alert-dalle-associazioni/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "sanita.sistema"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "163c012cb9c52cbe",
+   "titolo": "Antibiotico-resistenza, AIFA lancia la campagna 2026: “Te lo direbbe anche un bambino”",
+   "link": "https://www.sanitainformazione.it/antibiotico-resistenza-aifa-lancia-la-campagna-2026-te-lo-direbbe-anche-un-bambino/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "sanita.sistema"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "50cd348145dd2a2f",
+   "titolo": "Scegliere il percorso di scuola superiore La scuola secondaria di secondo grado - Il secondo ciclo di istruzione prevede due tipologie di percorsi",
+   "link": "https://www.mim.gov.it/web/guest/scegliere-il-percorso-di-scuola-superiore",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "9bf9067c7685b085",
+   "titolo": "Come funziona il sistema scolastico ? La scelta dell’istituto, i percorsi di studio, l’iscrizione, la valutazione, gli esami finali: tutto quello che devi sapere.",
+   "link": "https://www.mim.gov.it/web/guest/come-funziona-il-sistema-scolastico",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "f15735aef3e37d54",
+   "titolo": "Diventare docente nella scuola Dal titolo di accesso all’abilitazione per insegnare: una panoramica per scegliere e procedere.",
+   "link": "https://www.mim.gov.it/web/guest/diventare-docente-nella-scuola",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura",
+    "norme"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola",
+    "norme.professione"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus",
+    "ingegnere",
+    "perito"
+   ]
+  },
+  {
+   "id": "eb87ec6884d6d0ca",
+   "titolo": "Formazione post diploma: scegli in modo consapevole",
+   "link": "https://www.mim.gov.it/web/guest/formazione-post-diploma-scegli-in-modo-consapevole",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "bonus",
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "bonus.contributi"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus",
+    "mutui",
+    "commercialista",
+    "geometra",
+    "ingegnere"
+   ]
+  },
+  {
+   "id": "cedc037132c56b62",
+   "titolo": "Ricerca: dal MUR oltre 366 milioni per 268 progetti tra università, enti e imprese",
+   "link": "https://www.mur.gov.it/it/news/giovedi-19112026/ricerca-dal-mur-oltre-366-milioni-268-progetti-tra-universita-enti-e-imprese",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "97bdccadc834d8b2",
+   "titolo": "Università: borse di studio, dal MUR 845,8 milioni di euro per l'anno accademico 2026/2027",
+   "link": "https://www.mur.gov.it/it/news/giovedi-12112026/universita-borse-di-studio-dal-mur-8458-milioni-di-euro-lanno-accademico",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "5cf0402373f88dde",
+   "titolo": "Università, a Caivano al via Next Academy. Formazione e lavoro per 40 giovani: due poli dedicati al Green e al Food",
+   "link": "https://www.mur.gov.it/it/news/lunedi-09112026/universita-caivano-al-next-academy-formazione-e-lavoro-40-giovani-due-poli",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "560b2eea7d62b5b9",
+   "titolo": "Einstein Telescope: i Ministri Bernini e Gemkow e la Presidente Todde a Sos Enattos per rafforzare la candidatura Italia-Sassonia",
+   "link": "https://www.mur.gov.it/it/news/martedi-03112026/einstein-telescope-i-ministri-bernini-e-gemkow-e-la-presidente-todde-sos",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "1fe1dc4fcb514c7a",
+   "titolo": "Housing universitario: dal MUR altri 200 milioni di euro per oltre 2.500 posti letto",
+   "link": "https://www.mur.gov.it/it/news/venerdi-23102026/housing-universitario-dal-mur-altri-200-milioni-di-euro-oltre-2500-posti",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "c9a4a4f31e839016",
+   "titolo": "Università telematiche: MUR sollecita verifiche su modalità svolgimento esami",
+   "link": "https://www.mur.gov.it/it/news/venerdi-13112026/universita-telematiche-mur-sollecita-verifiche-su-modalita-svolgimento-esami",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "9021d0ba493239af",
+   "titolo": "RICERCA: Italia e India rafforzano la cooperazione scientifica, incontro tra i Ministri Bernini e Singh",
+   "link": "https://www.mur.gov.it/it/news/giovedi-12112026/ricerca-italia-e-india-rafforzano-la-cooperazione-scientifica-incontro-tra-i",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "abe112f2b1505bd2",
+   "titolo": "Cybersicurezza, Dal MUR 12 milioni di euro per finanziare progetti proposti da Atenei e Enti di Ricerca",
+   "link": "https://www.mur.gov.it/it/news/mercoledi-11112026/cybersicurezza-dal-mur-12-milioni-di-euro-finanziare-progetti-proposti-da",
+   "fonte": "pr-mur",
+   "fonte_nome": "Ministero Università e Ricerca",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "81da9994ebb993da",
+   "titolo": "FAQ del Garante per la protezione dei dati personali in materia di trattamento di dati personali dei partecipanti alle procedure concorsuali per finalità di pubblicità e trasparenza alla luce delle recenti disposizioni normative",
+   "link": "https://www.inpa.gov.it/faq-del-garante-per-la-protezione-dei-dati-personali/",
+   "fonte": "pr-concorsi",
+   "fonte_nome": "Concorsi pubblici (inPA)",
+   "tipo": "ufficiale",
+   "aree": [
+    "legale",
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [
+    "legale.crisi"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus",
+    "curatore",
+    "data",
+    "pubblicitario",
+    "avvocato"
+   ]
+  },
+  {
+   "id": "1e988626f63213fb",
+   "titolo": "Commissariato del Governo per la provincia di Bolzano – Procedura di mobilità per 18 posti nei ruoli locali Amm.ne dell’Interno",
+   "link": "https://www.inpa.gov.it/commissariato-del-govern-provincia-bolzano-mobilita-18-posti-ruoli-locali-amm-ne-dellinterno/",
+   "fonte": "pr-concorsi",
+   "fonte_nome": "Concorsi pubblici (inPA)",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "fa0361298b0609e5",
+   "titolo": "Il prossimo oggetto da collezione di Kodak è una piccola cornice digitale che funge anche da tracker",
+   "link": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
+   "fonte": "t-theverge",
+   "fonte_nome": "The Verge",
+   "tipo": "stampa",
+   "aree": [
+    "smartphone",
+    "ai"
+   ],
+   "normativa": false,
+   "sintesi": "Dopo aver ampliato la sua collezione Charmera con un'edizione Millennium con design ispirati all'anno 2000, il seguito di Reto alla sua piccola fotocamera Kodak è un...",
+   "pubblicata": "2026-11-23T03:00:00Z",
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": [],
+   "tradotto": true
   },
   {
    "id": "6d0449c249ad5eb6",
@@ -3017,6 +5542,27 @@
    "prof": []
   },
   {
+   "id": "914bb147d0bf37ce",
+   "titolo": "Come Notable Capital, GIC e Baillie Gifford hanno scommesso molto su Anthropic prima della sua IPO",
+   "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+   "fonte": "t-techcrunch",
+   "fonte_nome": "TechCrunch",
+   "tipo": "stampa",
+   "aree": [
+    "ai"
+   ],
+   "normativa": false,
+   "sintesi": "Tre importanti sostenitori condividono ciò che li ha convinti a scommettere miliardi su Anthropic.",
+   "pubblicata": "2026-11-23T01:25:53Z",
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": [],
+   "tradotto": true
+  },
+  {
    "id": "88f1c98aa8243fe5",
    "titolo": "Catasto online: la guida aggiornata a visure, planimetrie e servizi ipotecari",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWWxvb2VzUkhGM0hRYXI3Q1I4MUhvMU9FcUhubGpqTklxaUhYNHdXN285SmJqWnl6Q0hiSVVkdUhlbkVnTWQtY3lrWlNseUJaNjhQazEzTjN3THdibFZuM2FZQVVNZm9iZDcwYWRtcHRWZWVadGFaS09zZmktS1hBLWtIVGRzUdIBhgFBVV95cUxNWWxvb2VzUkhGM0hRYXI3Q1I4MUhvMU9FcUhubGpqTklxaUhYNHdXN285SmJqWnl6Q0hiSVVkdUhlbkVnTWQtY3lrWlNseUJaNjhQazEzTjN3THdibFZuM2FZQVVNZm9iZDcwYWRtcHRWZWVadGFaS09zZmktS1hBLWtIVGRzUQ?oc=5",
@@ -3051,6 +5597,28 @@
    "altre_fonti": [
     "LavoriPubblici"
    ]
+  },
+  {
+   "id": "cfd31f8482f5a1b9",
+   "titolo": "La serie Xiaomi 18 Pro diventa globale, emergono i dettagli dell'iPhone per l'anniversario, revisione della Settimana 47",
+   "link": "https://www.gsmarena.com/xiaomi_18_pro_series_goes_global_anniversary_iphone_details_surface_week_47_in_review-news-75581.php",
+   "fonte": "t-gsmarena",
+   "fonte_nome": "GSMArena",
+   "tipo": "stampa",
+   "aree": [
+    "smartphone",
+    "software"
+   ],
+   "normativa": false,
+   "sintesi": "L'articolo più popolare di questa settimana non riguarda i telefoni, ma Instagram. Sembra che l'ultimo aggiornamento di Instagram abbia attirato l'attenzione della gente e introdotto una funzionalità che...",
+   "pubblicata": "2026-11-23T01:02:02Z",
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": [],
+   "tradotto": true
   },
   {
    "id": "3518b39ad2f0a681",
@@ -5810,39 +8378,6 @@
    "luogo": null,
    "nicchia": "tech",
    "prof": []
-  },
-  {
-   "id": "8290d1ba50c78940",
-   "titolo": "Catasto online: la guida aggiornata a visure, planimetrie e servizi ipotecari",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdUFFSThLMGUwT1RfbE9jZlJJcTktLXpEZFR6ektMd1pzWnpreHZnc0EyUllIem1weXp3QUwxX0IteUFfN3o5ZElIUHJFand0Qk1ONEJ4RTdPWGZGTFd5RjVBR05QS2R2M2RvaUlkVnA1ekdyT01NdzRxWFRmazFIetIBhgFBVV95cUxNWWxvb2VzUkhGM0hRYXI3Q1I4MUhvMU9FcUhubGpqTklxaUhYNHdXN285SmJqWnl6Q0hiSVVkdUhlbkVnTWQtY3lrWlNseUJaNjhQazEzTjN3THdibFZuM2FZQVVNZm9iZDcwYWRtcHRWZWVadGFaS09zZmktS1hBLWtIVGRzUQ?oc=5",
-   "fonte": "lavoripubblici",
-   "fonte_nome": "LavoriPubblici",
-   "tipo": "stampa",
-   "aree": [
-    "catasto",
-    "appalti"
-   ],
-   "normativa": false,
-   "sintesi": "Catasto online: la guida aggiornata a visure, planimetrie e servizi ipotecari Lavori Pubblici",
-   "pubblicata": "2026-11-23T01:00:00Z",
-   "visto": "2026-11-23T01:59:51Z",
-   "metodo": "gnews",
-   "sotto": [
-    "catasto.volture",
-    "appalti.opere"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "geometra",
-    "notaio",
-    "agente_imm",
-    "commercialista",
-    "rup",
-    "ingegnere",
-    "avvocato",
-    "contabile"
-   ]
   },
   {
    "id": "31a8590ee57d7241",
@@ -35076,6 +37611,27 @@
    ],
    "luogo": null,
    "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "bfe52348f838bc72",
+   "titolo": "Control Resonant, il gioco è appena uscito ed è già in sconto Black Friday su Amazon",
+   "link": "https://www.everyeye.it/notizie/control-resonant-gioco-appena-uscito-sconto-black-friday-amazon-912635.html",
+   "fonte": "t-everyeye",
+   "fonte_nome": "Everyeye",
+   "tipo": "stampa",
+   "aree": [
+    "offerte",
+    "gaming"
+   ],
+   "normativa": false,
+   "sintesi": "Su Amazon è attivo uno sconto per acquistare l'edizione fisica di Control Resonant per PS5 e Xbox Series X ad un prezzo promozionale.",
+   "pubblicata": "2026-11-22T14:00:00Z",
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
    "prof": []
   },
   {
@@ -81631,6 +84187,33 @@
    "luogo": null,
    "nicchia": "auto",
    "prof": []
+  },
+  {
+   "id": "326399f88837f383",
+   "titolo": "Cedolino pensione dicembre 2026, arrivano tredicesima e bonus: quando arriva pagamento",
+   "link": "https://quifinanza.it/pensioni/pensione-dicembre-2026-tredicesima-pagamento/1025267/",
+   "fonte": "f-quifinanza",
+   "fonte_nome": "QuiFinanza",
+   "tipo": "stampa",
+   "aree": [
+    "pensioni",
+    "isee"
+   ],
+   "normativa": true,
+   "sintesi": "L'Inps pagherà le pensioni martedì 1° dicembre insieme alla tredicesima. Per alcuni pensionati sono previsti anche il bonus da 154,94 euro e la quattordicesima",
+   "pubblicata": "2026-11-21T17:22:35Z",
+   "visto": "2026-11-23T03:01:17Z",
+   "metodo": "rss",
+   "sotto": [
+    "pensioni.pensioni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
   },
   {
    "id": "48fa2761388c04f2",
@@ -136940,2583 +139523,6 @@
     "commercialista",
     "tributarista"
    ]
-  },
-  {
-   "id": "7439a7638781589f",
-   "titolo": "Emma Bonino nelle istituzioni europee: una presenza eccezionale 13-11-2026 10:14 - 13-11-2026 10:14",
-   "link": "https://rome.europarl.europa.eu/home/pagecontent/Notizie/main/notizie/emma-bonino-nelle-istituzioni-europee-una-presenza-eccezionale.html",
-   "fonte": "p-pe",
-   "fonte_nome": "Parlamento europeo",
-   "tipo": "ufficiale",
-   "aree": [
-    "partiti",
-    "europa"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.elezioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "fac5665e389df745",
-   "titolo": "L'EUROPA CHE FA NOTIZIA - venerdì 16 ottobre ore 10:00 - Briefing pre-plenaria 15-10-2026 16:40 - 15-10-2026 16:40",
-   "link": "https://rome.europarl.europa.eu/preplenary-briefing-16-10-2026",
-   "fonte": "p-pe",
-   "fonte_nome": "Parlamento europeo",
-   "tipo": "ufficiale",
-   "aree": [
-    "europa"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "5d870c138bd191af",
-   "titolo": "Giovani, diritti e sicurezza: il 2 ottobre a Roma la premiazione italiana del Premio Carlo Magno 2026 30-09-2026 10:08",
-   "link": "https://rome.europarl.europa.eu/la-premiazione-italiana-del-premio-carlo-magno-2026",
-   "fonte": "p-pe",
-   "fonte_nome": "Parlamento europeo",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia",
-    "europa"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [
-    "giustizia.diritti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "ec7d4e82a1c793e9",
-   "titolo": "Viterbo Half Marathon 2026: tre giorni di sport, inclusione e cittadinanza europea 30-07-2026 11:44 - 18-09-2026 17:00",
-   "link": "https://rome.europarl.europa.eu/viterbo-mezza-maratona-2026",
-   "fonte": "p-pe",
-   "fonte_nome": "Parlamento europeo",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia",
-    "europa"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [
-    "giustizia.diritti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "cd35f4ff045b0f6c",
-   "titolo": "Spazio e autonomia strategica europea 27-11-2026 15:00 Vieni a scoprire l’Europa dallo spazio tramite un tavolo multimediale dedicato alle immagini satellitari dell’Agenzia Spaziale Europea",
-   "link": "https://rome.europarl.europa.eu/home/pagecontent/grid-4/main/grid-1/main/story-list/spazio-e-autonomia-strategica-europea.html",
-   "fonte": "p-pe",
-   "fonte_nome": "Parlamento europeo",
-   "tipo": "ufficiale",
-   "aree": [
-    "territorio",
-    "europa"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [
-    "territorio.regioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "877413bf2e7362dc",
-   "titolo": "La Giornata dell'Europa illumina Roma: migliaia di giovani con Metsola al Campidoglio 08-05-2026 20:30 Giornata dell'Europa 2026 migliaia di giovani protagonisti delle celebrazioni a Roma l’8 e 9 maggio",
-   "link": "https://rome.europarl.europa.eu/home/pagecontent/grid-4/main/grid-1/main/eventi-1/giornata-dell-europa-2026.html",
-   "fonte": "p-pe",
-   "fonte_nome": "Parlamento europeo",
-   "tipo": "ufficiale",
-   "aree": [
-    "europa"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [
-    "europa.istituzioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "57610a91e661686b",
-   "titolo": "Programma Scuola Ambasciatrice del Parlamento europeo (EPAS) – anno scolastico 2026-2027",
-   "link": "https://rome.europarl.europa.eu/it/dossiers/youth/epas-2026-2027",
-   "fonte": "p-pe",
-   "fonte_nome": "Parlamento europeo",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo",
-    "europa"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [
-    "governo.parlamento",
-    "europa.istituzioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "895a4fae079f5f5d",
-   "titolo": "Potrebbe essere un valido strumento al posto dell'Erasmus europeo, che rischia di far innamorare i nostri ragazzi di altri paesi, facendogli dimenticare della madre patria",
-   "link": "https://www.ilfoglio.it/rubriche/preghiera/2026/11/21/news/lerasmus-nazionale-per-riscoprire-litalia--414387",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "8309baa326e8ca0e",
-   "titolo": "Chi passava il passato di Bolzoni e il presente magico di Abbate. Il cattivo di Venezia? Non è Nordio",
-   "link": "https://www.ilfoglio.it/rubriche/contro-mastro-ciliegia/2026/11/21/news/chi-passava-il-passato-di-bolzoni-e-il-presente-magico-di-abbate-il-cattivo-di-venezia-non-e-nordio--414430",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "giustizia",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [
-    "giustizia.giustizia"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "e6705f9fbe387652",
-   "titolo": "Brigate Foglianti per la Costruzione del Partito Terzopolista Combattente",
-   "link": "https://www.ilfoglio.it/rubriche/il-bi-e-il-ba/2026/11/21/news/brigate-foglianti-per-la-costruzione-del-partito-terzopolista-combattente--414336",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "5166ac473c678227",
-   "titolo": "Elsinore, lo Shakespeare versione “modern edition”",
-   "link": "https://www.ilfoglio.it/cinema/2026/11/21/video/elsinore-lo-shakespeare-versione-modern-edition--414367",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "974c4cd59adfd368",
-   "titolo": "Iper La Grande i raddoppia gli investimenti media per il Natale e prepara una gara creativa per la campagna 2027",
-   "link": "https://www.engage.it/brand-e-aziende/iper-la-grande-i-spot-natale-2026.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "management",
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [
-    "management.finanza"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario",
-    "finanziario",
-    "manager",
-    "consulente_az"
-   ]
-  },
-  {
-   "id": "bef44debaa984731",
-   "titolo": "The Insight Club: Elisa Cavestro racconta la nutrizione che parte dall’ascolto",
-   "link": "https://www.engage.it/rubrica/the-insight-club-elisa-cavestro-racconta-la-nutrizione-che-parte-dallascolto.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "b7bfdeedbb196069",
-   "titolo": "Relationship Economy: perché cambia il modo in cui il tuo brand crea valore",
-   "link": "https://www.engage.it/rubrica/relationship-economy-perche-cambia-il-modo-in-cui-il-tuo-brand-crea-valore.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.media"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "178583d58396dd64",
-   "titolo": "GEO, per farsi citare bisogna farsi (ri)conoscere",
-   "link": "https://www.engage.it/rubrica/geo-per-farsi-citare-bisogna-farsi-riconoscere.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "e212ca5053615c68",
-   "titolo": "Retail nell’era dell’AI: dalla ricerca dell’efficienza alla conquista della rilevanza",
-   "link": "https://www.engage.it/rubrica/retail-nellera-dellai-dalla-ricerca-dellefficienza-alla-conquista-della-rilevanza.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "d636dcec16378739",
-   "titolo": "Valeria Tornaghi a Radiocom Café racconta su quali pillar si fonda il successo di Folletto",
-   "link": "https://www.engage.it/rubrica/valeria-tornaghi-a-radiocom-cafe-racconta-su-quali-pillar-si-fonda-il-successo-di-folletto.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "5a4dedf4304c9654",
-   "titolo": "Zero Click Search: perché il brand è la tua unica difesa contro l’oblio dell’AI",
-   "link": "https://www.engage.it/rubrica/zero-click-search-perche-il-brand-e-la-tua-unica-difesa-contro-loblio-dellai.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.media"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "8b41d079aec05a7d",
-   "titolo": "Website & Search Optimization nell’era dell’AI: Gioiellerie online",
-   "link": "https://www.engage.it/rubrica/website-e-search-optimization-nellera-dellai-gioillerie-online.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "78531977f512e5ad",
-   "titolo": "Email Marketing: il canale che libera PMI, agenzie e creator italiani dagli algoritmi",
-   "link": "https://www.engage.it/rubrica/email-marketing-il-canale-che-libera-pmi-agenzie-e-creator-italiani-dagli-algoritmi.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "management",
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [
-    "management.manager"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario",
-    "consulente_az",
-    "manager",
-    "compliance"
-   ]
-  },
-  {
-   "id": "cfcb149eaac2c7bb",
-   "titolo": "Oltre il carrello: come l’intrattenimento sta trasformando l’ecommerce. Intervista a Marianna Chillau, Head of b.live in b2x",
-   "link": "https://www.engage.it/rubrica/oltre-il-carrello-come-lintrattenimento-sta-trasformando-lecommerce-intervista-a-marianna-chillau-head-of-blive-in-b2x.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "08fa830dde544c26",
-   "titolo": "Politica 2.0: il ruolo di media digitali, social e podcast",
-   "link": "https://www.engage.it/rubrica/politica-20-il-ruolo-di-media-digitali-social-e-podcast-.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "b3e8c8b785294ec3",
-   "titolo": "Fidelity Card digitale: come è cambiata la raccolta punti",
-   "link": "https://www.engage.it/rubrica/fidelity-card-digitale-come-e-cambiata-la-raccolta-punti.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "08b2e477ed92893e",
-   "titolo": "Singles’ Day 2024: tra utilità e lusso, la parola d’ordine è “premiumness”",
-   "link": "https://www.engage.it/rubrica/singles-day-2024-tra-utilita-e-lusso-la-parola-dordine-e-premiumness.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "4a6090b33e78a153",
-   "titolo": "Video Marketing 2024: trend e strategie per conquistare il pubblico",
-   "link": "https://www.engage.it/rubrica/video-marketing-2024-trend-e-strategie-per-conquistare-il-pubblico-.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.design"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "257f75c9c1c58d0b",
-   "titolo": "The Fool presenta i trend TikTok del settore grocery",
-   "link": "https://www.engage.it/rubrica/the-fool-presenta-i-trend-tiktok-del-settore-grocery.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "644750332f3f73b5",
-   "titolo": "Alimentare il fandom: cosa cercano gli appassionati di sport?",
-   "link": "https://www.engage.it/rubrica/alimentare-il-fandom-cosa-cercano-gli-appassionati-di-sport.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "b9239cf8be951c76",
-   "titolo": "Animali domestici: gli acquisti di cibo e prodotti sono un affare online e integrato nella routine",
-   "link": "https://www.engage.it/rubrica/animali-domestici-gli-acquisti-di-cibo-e-prodotti-sono-un-affare-online-e-integrato-nella-routine.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "ab1da47b8787347e",
-   "titolo": "Educare intrattenendo? La soluzione per i brand è su TikTok: edutainment",
-   "link": "https://www.engage.it/rubrica/educare-intrattenendo-la-soluzione-per-i-brand-e-su-tiktok-edutainment.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.media"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "568767a729c559c0",
-   "titolo": "Integratori alimentari: l’analisi di Witailer e Connexia su acquisti online e trend dai social media",
-   "link": "https://www.engage.it/rubrica/integratori-alimentari-lanalisi-di-witailer-e-connexia-su-acquisti-online-e-trend-dai-social-media.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.media"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "0b35e41bce1b542f",
-   "titolo": "Raggiungere nuove audience su TikTok: la strategia di Magneto per Marcapiuma nella Giornata Mondiale del Sonno",
-   "link": "https://www.engage.it/rubrica/raggiungere-nuove-audience-su-tiktok-la-strategia-di-magneto-per-marcapiuma-nella-giornata-mondiale-del-sonno.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "4a107c584bdf6d5e",
-   "titolo": "Tecnologie cookieless e campagne a performance: funzionano veramente?",
-   "link": "https://www.engage.it/rubrica/tecnologie-cookieless-e-campagne-a-performance-funzionano-veramente.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "3bf8d8297274662e",
-   "titolo": "Advanced TV verso il miliardo: la sfida è capire chi ci guarda",
-   "link": "https://www.engage.it/blog/advanced-tv-verso-il-miliardo-la-sfida-e-capire-chi-ci-guarda.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "15a3de5efae7ada7",
-   "titolo": "Come trasformare l’AI in un motore di valori condivisi",
-   "link": "https://www.engage.it/blog/come-trasformare-lai-in-un-motore-di-valori-condivisi.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "ee520e76793bfaff",
-   "titolo": "Dopo l’Attention le Emotion Metrics: come l’AI e l'AR stanno aprendo nuove dimensioni di raccolta dati di prima parte",
-   "link": "https://www.engage.it/blog/dopo-lattention-le-emotion-metrics-come-lai-e-l-ar-stanno-aprendo-nuove-dimensioni-di-raccolta-dati-di-prima-parte.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario",
-    "data"
-   ]
-  },
-  {
-   "id": "135dac558fa3e572",
-   "titolo": "La metrica dell'attenzione per scoprire come la pubblicità impatta sulla memoria degli individui",
-   "link": "https://www.engage.it/blog/attenzione.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [
-    "comunicazione.media"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "1798d1ee8a95f074",
-   "titolo": "Metaverso & Business Growth: come cogliere al meglio le opportunità generate dalle nuove frontiere digitali",
-   "link": "https://www.engage.it/blog/metaverso-e-business-growth-come-cogliere-al-meglio-le-opportunita-generate-dalle-nuove-frontiere-digitali.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "5793f1efd996c093",
-   "titolo": "Caffè e digitalizzazione di impresa: il punto di vista di Luca Carbonelli",
-   "link": "https://www.engage.it/blog/caffe-e-digitalizzazione-di-impresa-il-punto-di-vista-di-luca-carbonelli.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "50d61fc94eab88c4",
-   "titolo": "Hypercast: originalità ed eccellenza nel podcast",
-   "link": "https://www.engage.it/blog/hypercast-originalita-ed-eccellenza-nel-podcast.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "9689abc081027bcc",
-   "titolo": "Witor’s torna on air con una campagna su radio e outdoor a Milano",
-   "link": "https://www.engage.it/campagne/witors-torna-on-air-con-una-campagna-su-radio-e-outdoor-a-milano.aspx",
-   "fonte": "pr-marketing",
-   "fonte_nome": "Marketing, social e pubblicità",
-   "tipo": "stampa",
-   "aree": [
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "giornalista",
-    "marketer",
-    "grafico",
-    "fotovideo",
-    "pubblicitario"
-   ]
-  },
-  {
-   "id": "471b52fcc4050eb8",
-   "titolo": "Oroscopo, la classifica dei segni fortunati della settimana dal 23 al 29 novembre 2026: Gemelli e Ariete spinti dalla Luna piena",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSTFCVTBYcDdWSU15SlRGaXVOVmNhRm42RGdQbmhTaVFUSW5UNkZoY3Y3ZXFTdkVUS1VGR1p5c0Q0Z0MwT2FtNUgwaF80Y3BIeXhJRERyOEM5TmZFUGV6T1FKX0V4SWpaZEdQODNhRTJJdkQ0Z1phTnhFMVRabW1fRkE0QTRlYUYybmQ2MUJNMHlkQlJkMGtreklYNmZpSEF2TVg0ZWhZYTVaZjBLQW1Fc2Jn?oc=5",
-   "fonte": "p-fanpage",
-   "fonte_nome": "Fanpage Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Oroscopo, la classifica dei segni fortunati della settimana dal 23 al 29 novembre 2026: Gemelli e Ariete spinti dalla Luna piena Fanpage",
-   "pubblicata": "2026-11-21T05:01:05Z",
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "2b616d003f1a6cfa",
-   "titolo": "I migliori ristoranti d’Italia inseriti nella guida Gambero Rosso 2027: i premiati",
-   "link": "https://quifinanza.it/lifestyle/food-economy/migliori-ristoranti-italia-guida-gambero-rosso-2027/1025168/",
-   "fonte": "f-quifinanza",
-   "fonte_nome": "QuiFinanza",
-   "tipo": "stampa",
-   "aree": [
-    "isee"
-   ],
-   "normativa": false,
-   "sintesi": "Con 316 nuovi ingressi e un nuovo giudizio complessivo, la guida Ristoranti d'Italia 2027 del Gambero Rosso incorona il migliore d'Italia.",
-   "pubblicata": "2026-11-21T05:00:55Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista"
-   ]
-  },
-  {
-   "id": "a1850e145995d48f",
-   "titolo": "Ryanair annuncia 10 nuove rotte in Italia, +5 aerei e 2.800 posti di lavoro",
-   "link": "https://quifinanza.it/lifestyle/travel-economy/ryanair-nuove-rotte-italia/1024602/",
-   "fonte": "f-quifinanza",
-   "fonte_nome": "QuiFinanza",
-   "tipo": "stampa",
-   "aree": [
-    "isee"
-   ],
-   "normativa": false,
-   "sintesi": "Ryanair annuncia 2 aerei e 10 nuove rotte e chiede lo stop all'addizionale municipale: l'espansione sostiene oltre 2.800 posti di lavoro.",
-   "pubblicata": "2026-11-21T05:00:46Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista"
-   ]
-  },
-  {
-   "id": "14fb224039493a35",
-   "titolo": "Arriva il Black friday dei voli, quando trovare le offerte migliori: la date 2026",
-   "link": "https://quifinanza.it/lifestyle/travel-economy/black-friday-voli-2026/1024637/",
-   "fonte": "f-quifinanza",
-   "fonte_nome": "QuiFinanza",
-   "tipo": "stampa",
-   "aree": [
-    "isee"
-   ],
-   "normativa": false,
-   "sintesi": "Le offerte sui voli per il Black Friday 2026 durano un'intera settimana: ecco calendario completo e le mete più convenienti.",
-   "pubblicata": "2026-11-21T05:00:39Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista"
-   ]
-  },
-  {
-   "id": "de2b851b0be88234",
-   "titolo": "Tesla, guida assistita in Italia: il Mit concede l’omologazione provvisoria",
-   "link": "https://quifinanza.it/economia/tesla-guida-assistita-italia-omologazione-mit/1025176/",
-   "fonte": "f-quifinanza",
-   "fonte_nome": "QuiFinanza",
-   "tipo": "stampa",
-   "aree": [
-    "isee"
-   ],
-   "normativa": false,
-   "sintesi": "Il Ministero dei Trasporti ha autorizzato in via provvisoria il sistema Tesla Assisted Driving.",
-   "pubblicata": "2026-11-21T05:00:24Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista"
-   ]
-  },
-  {
-   "id": "b31e49e4636a18fd",
-   "titolo": "Si può essere puniti per un vocale WhatsApp contro il capo?",
-   "link": "https://www.laleggepertutti.it/786533_si-puo-essere-puniti-per-un-vocale-whatsapp-contro-il-capo",
-   "fonte": "f-legge",
-   "fonte_nome": "La Legge per Tutti",
-   "tipo": "stampa",
-   "aree": [
-    "pensioni"
-   ],
-   "normativa": false,
-   "sintesi": "Scopri perché i messaggi audio scambiati con i colleghi su WhatsApp sono privati e non possono giustificare sanzioni o licenziamenti dall’azienda.",
-   "pubblicata": "2026-11-21T05:00:21Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "consulente_lavoro",
-    "commercialista",
-    "tributarista"
-   ]
-  },
-  {
-   "id": "47727892b6d54d4b",
-   "titolo": "Povertà alimentare, quanti sono gli italiani in difficoltà: i numeri dell’emergenza",
-   "link": "https://quifinanza.it/lifestyle/food-economy/poverta-alimentare-italia-dati-2026/1024667/",
-   "fonte": "f-quifinanza",
-   "fonte_nome": "QuiFinanza",
-   "tipo": "stampa",
-   "aree": [
-    "isee"
-   ],
-   "normativa": false,
-   "sintesi": "L'analisi Coldiretti conferma l'aumento della povertà alimentare in Italia nel 2026: coinvolti minori, giovani e anziani.",
-   "pubblicata": "2026-11-21T05:00:20Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista"
-   ]
-  },
-  {
-   "id": "88e7efcf688c0a13",
-   "titolo": "Detrazione IVA su un immobile strumentale, la locazione successiva cancella il beneficio",
-   "link": "https://quifinanza.it/fisco-tasse/detrazione-iva-immobile-strumentale-locazione/1022956/",
-   "fonte": "f-quifinanza",
-   "fonte_nome": "QuiFinanza",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni",
-    "isee"
-   ],
-   "normativa": true,
-   "sintesi": "La detrazione IVA di un immobile strumentale va gestita correttamente nei dieci anni successivi all'acquisto: ecco le regole da seguire per non commettere errori.",
-   "pubblicata": "2026-11-21T05:00:09Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "rss",
-   "sotto": [
-    "dichiarazioni.iva"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "d4e49038b62a64cd",
-   "titolo": "Licenziamento confermato dopo la reintegra, il lavoratore può tenere gli stipendi: il caso",
-   "link": "https://quifinanza.it/lavoro/licenziamento-legittimo-stipendio-cassazione-sentenza/1024989/",
-   "fonte": "f-quifinanza",
-   "fonte_nome": "QuiFinanza",
-   "tipo": "stampa",
-   "aree": [
-    "legale",
-    "isee"
-   ],
-   "normativa": true,
-   "sintesi": "La Cassazione chiarisce quando il dipendente reintegrato deve restituire le somme ricevute e quando può trattenere gli stipendi",
-   "pubblicata": "2026-11-21T05:00:07Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "rss",
-   "sotto": [
-    "legale.avvocati"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "avvocato",
-    "notaio",
-    "curatore",
-    "commercialista",
-    "tributarista"
-   ]
-  },
-  {
-   "id": "754449a06d2a76b3",
-   "titolo": "Terreno occupato abusivamente, il risarcimento richiede la prova del danno",
-   "link": "https://www.studiocataldi.it/articoli/1000872-terreno-occupato-abusivamente-il-risarcimento-richiede-la-prova-del-danno",
-   "fonte": "f-cataldi",
-   "fonte_nome": "Studio Cataldi",
-   "tipo": "stampa",
-   "aree": [
-    "legale",
-    "casa_fisco"
-   ],
-   "normativa": true,
-   "sintesi": "La Cassazione ribadisce che l’occupazione illegittima non dà diritto automaticamente al risarcimento senza dimostrare una perdita economica concreta",
-   "pubblicata": "2026-11-21T05:00:00Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "rss",
-   "sotto": [
-    "legale.avvocati"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "avvocato",
-    "notaio",
-    "curatore",
-    "agente_imm",
-    "condominio",
-    "valutatore",
-    "facility",
-    "mutui"
-   ]
-  },
-  {
-   "id": "391a145315d731b2",
-   "titolo": "Coprire il motore del condizionatore in inverno, serve?",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNT3E3MmRYeWtsbEUzb3duWVN0QzNRVGFhNEFoQUJzRGpia2l4Y05WdzVha01RYS14Sm9QZzNBd2dobEplUlM0T2p2OGxhWGhpX2J4bXlhXzRPSjlPTS1UbTNtOTRGTUJId1AtdkFvSjVIeDdMbVJtY2VMMjFfRngtTVZIN3BiZnFqZ09EZTdZNzFmODlFRGJxRXlkTHBReW91bTVfblpLZ0hvaUprS1Jfamg2Q21PTTVsRndGVkFyWTFQeVdzZ2VSMkxXRnplbXM?oc=5",
-   "fonte": "pr-immobiliare-news",
-   "fonte_nome": "Immobiliare.it e Idealista News",
-   "tipo": "stampa",
-   "aree": [
-    "immobiliare"
-   ],
-   "normativa": false,
-   "sintesi": "Coprire il motore del condizionatore in inverno, serve? Immobiliare.it",
-   "pubblicata": "2026-11-21T05:00:00Z",
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "agente_imm",
-    "condominio",
-    "valutatore",
-    "facility",
-    "mutui",
-    "notaio"
-   ]
-  },
-  {
-   "id": "be2fecf536137198",
-   "titolo": "BANDI E APPALTI",
-   "link": "https://www.qualenergia.it/pro/documenti/archivio-bandi/",
-   "fonte": "pr-qualenergia",
-   "fonte_nome": "QualEnergia e rinnovabili",
-   "tipo": "stampa",
-   "aree": [
-    "appalti",
-    "energia"
-   ],
-   "normativa": false,
-   "sintesi": "Sommario BANDI E APPALTI DEL GIORNO I nuovi bandi e finanziamenti locali, regionali e nazionali e gare d’appalto per fornitura di beni e servizi su energia, edilizia…",
-   "pubblicata": "2026-11-21T05:00:00Z",
-   "visto": "2026-11-21T09:01:02Z",
-   "metodo": "rss",
-   "sotto": [
-    "appalti.gare"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "energy",
-    "certificatore",
-    "rup",
-    "ingegnere",
-    "avvocato",
-    "contabile",
-    "impiantista"
-   ]
-  },
-  {
-   "id": "69530d412b7c5b30",
-   "titolo": "La Brexit continua a esercitare pressione sull'industria automobilistica europea.",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ueWwzck5QWWdDNHV1dmlObWQwekNiS3BEbE5WWS1Rak9oLWtpS3h1Tkc5UjZoQ3ZQVURrbjJVYUpSLXk4WG5OclcwM1dQam9IZDNSS3ZwalNBUG5RY2dzQnBUN3hEdWpfVTVYVTFPWW1fbVJKMHZIYUxRbzAzOFU?oc=5",
-   "fonte": "a-acea",
-   "fonte_nome": "ACEA (costruttori europei)",
-   "tipo": "ordine",
-   "aree": [
-    "mercato_auto"
-   ],
-   "normativa": false,
-   "sintesi": "La Brexit continua a esercitare pressione sull'industria automobilistica europea. Vietnam.vn",
-   "pubblicata": "2026-11-21T04:59:21Z",
-   "visto": "2026-11-22T23:01:04Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "74ed1d24d8ca3dda",
-   "titolo": "Checa su Toprak Razgatlioglu in MotoGP",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX2dxTnJGWDFLeEs3RjI4UDNiQ1VlS1lvOHROeDBtMUMwemppYUZRZE9qS2UyS08wZXR5Z2NLdDMwS1ZzeGQ1UXpwajNxR3A3UDJGeUpMU3hLT3NwTnVmUUp1cElGUFVlUGRZNEJIZk0yN3J1S1NqQll2aW5lWTJ4dFAtQXpLOHc1bmc2TUpGbw?oc=5",
-   "fonte": "a-superbike",
-   "fonte_nome": "Superbike Italia",
-   "tipo": "stampa",
-   "aree": [
-    "tecnica_auto",
-    "moto"
-   ],
-   "normativa": false,
-   "sintesi": "Checa su Toprak Razgatlioglu in MotoGP Motori Magazine",
-   "pubblicata": "2026-11-21T04:56:36Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "gnews",
-   "sotto": [
-    "tecnica_auto.motori"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "6aa6d19055109354",
-   "titolo": "Duello con Russell, Verstappen se la cava con un warning",
-   "link": "https://www.formulapassion.it/f1/f1-news/duello-con-russell-verstappen-se-la-cava-con-un-warning-colapinto-las-vegas-fp3-prove-libere",
-   "fonte": "a-formula",
-   "fonte_nome": "Formula 1 e motorsport",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "Max Verstappen non ha ricevuto penalità in seguito agli episodi con George Russell e Franco Colapinto nelle FP3 di Las Vegas",
-   "pubblicata": "2026-11-21T04:52:02Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "rss",
-   "sotto": [
-    "motorsport.f1"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "5a9f3ad379d62984",
-   "titolo": "Bloodborne: perché non esistono remake o sequel? L'ex Sony Layden svela il mistero",
-   "link": "https://www.everyeye.it/notizie/bloodborne-perch-non-esistono-remake-sequel-ex-sony-layden-svela-mistero-910201.html",
-   "fonte": "t-everyeye",
-   "fonte_nome": "Everyeye",
-   "tipo": "stampa",
-   "aree": [
-    "hardware",
-    "gaming"
-   ],
-   "normativa": false,
-   "sintesi": "Shawn Layden ritiene che ci sia una motivazione ben precisa se Sony e FromSoftware non si sono mai accordate per lo sviluppo di Bloodborne 2 o del remake Bloodborne 2 è…",
-   "pubblicata": "2026-11-21T04:52:00Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "c3510e7c8d90762a",
-   "titolo": "Germania: dal 2027 taglio all’imposta sull’elettricità e tetto al prezzo dei carburanti",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNclZNN3FyTlh2QVE2RzdsZEZFQVdwU2tUemFVcC13cVNBMzBpeU1BdTE2dDk2Ml9DR1FtR0JKXzlXZDZ6dXdnQTVRSndvVERPTFZZeXZYd0h3d1lwVzJabFB6b3dOYktNTlJTbFFjay1waDJkdlJ1RTJZemNPNGhjalV3emxVcE1mZFFtUncyVlg4Qjl5cVNyX09TVUYzQQ?oc=5",
-   "fonte": "am-carburanti",
-   "fonte_nome": "Prezzi carburanti e energia",
-   "tipo": "stampa",
-   "aree": [
-    "mercato_auto"
-   ],
-   "normativa": false,
-   "sintesi": "Germania: dal 2027 taglio all’imposta sull’elettricità e tetto al prezzo dei carburanti il Mitte",
-   "pubblicata": "2026-11-21T04:50:56Z",
-   "visto": "2026-11-21T14:01:08Z",
-   "metodo": "gnews",
-   "sotto": [
-    "mercato_auto.prezzi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "fc7ec71e3def8d68",
-   "titolo": "Gp Las Vegas: magia Antonelli, ma la pole è di Verstappen. Disastro Ferrari",
-   "link": "https://www.lastampa.it/sport/2026/11/21/news/f1_gp_las_vegas_antonelli_pole_verstappen_disastro_ferrari_leclerc_hamilton-15804876/",
-   "fonte": "p-stampa",
-   "fonte_nome": "La Stampa Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Kimi sfrutta le scie ed è il più veloce, però partirà 6° per la penalità: “Spero di poter lottare per la vittoria”.",
-   "pubblicata": "2026-11-21T04:47:00Z",
-   "visto": "2026-11-21T07:01:14Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "d168494cb66a2cd4",
-   "titolo": "Colori dell’Himalaya nell’armadio di lui. Stile Stefano Ricci e scatti di McCurry",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQkFCWlh1SzNtQVlzb0dhOHU3VXRtUVV1TVF3S1MtTFBjLVlJeVQySUk5MnUwSkN2TXJtQ3pRWmRZeWhTbTZYdFhrS2dMZFp1a3dRbnU4VkJvbzVVS2VhZVBMY2VTSXQ0NE4xTGtnM1RGVktSb3ZpOXZWVHB1dzBZWGtEUGZVelNGcTFoLUloSVBNUGRpSzZiVzZfN1gxVl9pbTJpWjJfUG50eXJaQk0xMUhPTE5CQQ?oc=5",
-   "fonte": "p-giornale",
-   "fonte_nome": "Il Giornale Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Colori dell’Himalaya nell’armadio di lui. Stile Stefano Ricci e scatti di McCurry il Giornale",
-   "pubblicata": "2026-11-21T04:45:43Z",
-   "visto": "2026-11-21T23:01:09Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "1eabbd966058c9e3",
-   "titolo": "Foglio di giurisprudenza.",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSmMyRHA2UGFpWElfQ2lZVU0wdW4xel9NZ05uR2lDMVVlWmdvX3BobHdjM290Q0lKUVZ4dE52RnhhdUZtQnBCczhFYXBGTS1kMjg5OGlGOTJ5OTFUblY4YWh0Q1lKS2czWXc0amM0dU55ZHNVcjZlZ3h1d2FfU2hNdlFWYmhRT0lRV0xSZDEzTE9LOENxRnY3YUlvdDVjRG5vTE1lYlVkRWY?oc=5",
-   "fonte": "pr-crisi",
-   "fonte_nome": "Crisi d'impresa e curatori",
-   "tipo": "stampa",
-   "aree": [
-    "legale"
-   ],
-   "normativa": false,
-   "sintesi": "Foglio di giurisprudenza. IL CASO.it",
-   "pubblicata": "2026-11-21T04:41:14Z",
-   "visto": "2026-11-22T18:01:01Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "revisore",
-    "finanziario",
-    "curatore",
-    "avvocato",
-    "commercialista",
-    "tributarista",
-    "notaio"
-   ]
-  },
-  {
-   "id": "507490ed1bea219d",
-   "titolo": "Appalti e danni: l’impresa deve provare l’utile netto perso",
-   "link": "https://www.laleggepertutti.it/811346_appalti-e-danni-limpresa-deve-provare-lutile-netto-perso",
-   "fonte": "f-legge",
-   "fonte_nome": "La Legge per Tutti",
-   "tipo": "stampa",
-   "aree": [
-    "legale",
-    "pensioni"
-   ],
-   "normativa": true,
-   "sintesi": "La Cassazione cambia il calcolo dei danni per i contratti non rispettati. Risarcimenti legati al guadagno netto, vietati i cumuli con la caparra.",
-   "pubblicata": "2026-11-21T04:40:11Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "rss",
-   "sotto": [
-    "legale.avvocati"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "avvocato",
-    "notaio",
-    "curatore",
-    "consulente_lavoro",
-    "commercialista",
-    "tributarista"
-   ]
-  },
-  {
-   "id": "a17bb12d62dca427",
-   "titolo": "Foglio di giurisprudenza.",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY2FRZ1JrV1MxeGs3VXF6Zy1UMnFSSXY2Qk5iSWpEbnpJNzV2TG02aHRFenBwaW02RkRJUHNLZ2pEQlhZdElMUHdkNW1MVzFoVXFHMU92MFltYkdKN3JfN244UlVHeDhHUmN3eXJSbjBCWTJTOG1SampBdmZqUi0zWEtFQlhOSEdwS240b2VJRTBJbGgzZlZBTk53ZktNRHBEdEg1R3Q0UVd2eWx5eTVnRDl6eWtyRUt2U0d3?oc=5",
-   "fonte": "pr-crisi",
-   "fonte_nome": "Crisi d'impresa e curatori",
-   "tipo": "stampa",
-   "aree": [
-    "legale"
-   ],
-   "normativa": false,
-   "sintesi": "Foglio di giurisprudenza. IL CASO.it",
-   "pubblicata": "2026-11-21T04:37:16Z",
-   "visto": "2026-11-22T18:01:01Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "revisore",
-    "finanziario",
-    "curatore",
-    "avvocato",
-    "commercialista",
-    "tributarista",
-    "notaio"
-   ]
-  },
-  {
-   "id": "c756af646082aa51",
-   "titolo": "Avvocato gratis: lo Stato ti fa i conti in tasca ma salva i malati",
-   "link": "https://www.laleggepertutti.it/819173_avvocato-gratis-lo-stato-ti-fa-i-conti-in-tasca-ma-salva-i-malati",
-   "fonte": "f-legge",
-   "fonte_nome": "La Legge per Tutti",
-   "tipo": "stampa",
-   "aree": [
-    "legale",
-    "pensioni"
-   ],
-   "normativa": false,
-   "sintesi": "Scopri i veri redditi per avere l’avvocato gratis. Attenzione ai guadagni occulti. Esclusa dal calcolo l’indennità di accompagnamento per invalidi.",
-   "pubblicata": "2026-11-21T04:36:37Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "rss",
-   "sotto": [
-    "legale.avvocati"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "avvocato",
-    "notaio",
-    "curatore",
-    "consulente_lavoro",
-    "commercialista",
-    "tributarista"
-   ]
-  },
-  {
-   "id": "1338a8ef6cb1532f",
-   "titolo": "Nessuna caccia allo storno a Roma: così sono stati allontanati gli uccelli di viale Jonio",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSmlZRk5mcFhlM1RkVzBYbDNCTE96MUsyVkpYbXFsVkVVcm5PQnpDd1JyRXBOX3RlVVlTc1ptYldqMzVnZzg1VG11endTUGlBVnduVGd0SERmMGNtcXRyS3BjTUhnY2tSNkJCZjNJRjFZV2Q4R09mbE51RVl5V1BEMWEwNUVWNmNBWV9la0hiUHpvUzNrSnVhOVFJaGlQYUZXNXJNRDhqOHB3Um9tcW11MjhVVUhZd3BS?oc=5",
-   "fonte": "p-fanpage",
-   "fonte_nome": "Fanpage Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Nessuna caccia allo storno a Roma: così sono stati allontanati gli uccelli di viale Jonio Fanpage",
-   "pubblicata": "2026-11-21T04:30:57Z",
-   "visto": "2026-11-21T08:01:02Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "8be250917fb6c6eb",
-   "titolo": "Cosa c’è in gioco a Las Vegas",
-   "link": "https://www.formulapassion.it/editoriale/cosa-ce-in-gioco-a-las-vegas",
-   "fonte": "a-formula",
-   "fonte_nome": "Formula 1 e motorsport",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "I mondiali piloti e costruttori sono già assegnati, ma ci sono diverse (e importantissime) partite ancora aperte",
-   "pubblicata": "2026-11-21T04:28:00Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "04b86dd9b191494f",
-   "titolo": "Il Regno Unito e l'UE hanno raggiunto diversi accordi volti a mitigare i danni causati dalla Brexit.",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdTE1TmRCbERyQXlSX0F4anpWZVpCeG5wTjJPaDJqMXktVkpJSzRqVk5DcFNsT0lIT2JSSVgtbFJ4NEtBaWs4MjRkYm5NSTh6TFdMdnVQSHk1b2hIY1RBbzc4NTdFQ1Rpbk5NTXVSWXBub3N6T2pVZ2tLZzhvcllYSG83eFR1ZjFMblY3SnBmUlN2aFpkNmc?oc=5",
-   "fonte": "p-ce",
-   "fonte_nome": "Commissione europea",
-   "tipo": "ufficiale",
-   "aree": [
-    "europa"
-   ],
-   "normativa": true,
-   "sintesi": "Il Regno Unito e l'UE hanno raggiunto diversi accordi volti a mitigare i danni causati dalla Brexit. Vietnam.vn",
-   "pubblicata": "2026-11-21T04:22:02Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "gnews",
-   "sotto": [
-    "europa.istituzioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "4b8bbc5bfd3bcaf4",
-   "titolo": "Melania Trump attacca il cerchio magico di Donald: 'Troppi yes men'",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/20/melania-trump-intorno-a-donald-troppi-yes-people_65029810-31b8-43bb-b40c-86863b7edb2a.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "89e1aa54efcd379c",
-   "titolo": "“Ciò che distingue la sinistra dalla destra”. Fratoianni e Bonelli da ridere: la sparata a corteo in corso",
-   "link": "https://www.liberoquotidiano.it/news/politica/fratoianni-e-bonelli-da-ridere-cio-che-distingue-la-sinistra-dalla-destra-la-sparata-a-corteo-in-corso/",
-   "fonte": "p-libero",
-   "fonte_nome": "Libero Quotidiano Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "e707d34a92de024f",
-   "titolo": "LIVE F1 Las Vegas, si lotta per la pole: Mercedes favorita, Russell il più veloce in Q1",
-   "link": "https://www.gazzetta.it/Formula-1/21-11-2026/live-f1-las-vegas-la-diretta-delle-qualifiche.shtml",
-   "fonte": "a-gazzetta-motori",
-   "fonte_nome": "Gazzetta dello Sport Motori",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [
-    "novita_auto.marchi",
-    "motorsport.f1"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "238b064432167995",
-   "titolo": "Ferrari vince Gara 1 a Las Vegas con Alba Larsen f1 academy Alba Larsen (MP Motorsport e Ferrari Academy) vince Gara 1 a Las Vegas al termine di una... 21 nov - 04:18",
-   "link": "https://sport.sky.it/formula-1/2026/11/21/f1-academy-gp-las-vegas-gara-1-ultimo-giro-video",
-   "fonte": "a-sky-f1",
-   "fonte_nome": "Sky Sport F1 e motori",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [
-    "novita_auto.marchi",
-    "motorsport.f1"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "31fb4010a6c3bb87",
-   "titolo": "Muro di Berlino, Valditara: “Il 9 novembre 1989 crollò il simbolo del comunismo. Nessuna indulgenza verso le nostalgie totalitarie”",
-   "link": "https://www.mim.gov.it/web/guest/-/muro-di-berlino-valditara-il-9-novembre-1989-crollo-il-simbolo-del-comunismo-nessuna-indulgenza-verso-le-nostalgie-totalitarie-",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "37939a0e73d710d1",
-   "titolo": "05/09/2026 - Valditara: “Più fondi per fronteggiare l’emergenza caldo”",
-   "link": "https://www.mim.gov.it/web/guest/-/valditara-piu-fondi-per-fronteggiare-l-emergenza-caldo-",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "c18fea2ec8465852",
-   "titolo": "04/08/2026 - Valditara: pronta la circolare per mettere un tetto agli stranieri in classe",
-   "link": "https://www.mim.gov.it/web/guest/-/valditara-pronta-la-circolare-per-mettere-un-tetto-agli-stranieri-in-classe-",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "1f9616fcb2407c1a",
-   "titolo": "17/07/2026 - Valditara: meno tablet, più letture e grammatica",
-   "link": "https://www.mim.gov.it/web/guest/-/valditara-meno-tablet-piu-letture-e-grammatica",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "0d5b6fe29fbca09c",
-   "titolo": "14/07/2026 - L’Eco di Bergamo «Il 4+2 una risposta ai bisogni di Bergamo»",
-   "link": "https://www.mim.gov.it/web/guest/-/-piu-metal-detector-ma-la-prevenzione-si-fa-in-famiglia-",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "e8f9aa4cf3e9980a",
-   "titolo": "24/06/2026 - Valditara: i nuovi programmi dei licei puntano a valorizzare la centralità dell'Occidente",
-   "link": "https://www.mim.gov.it/web/guest/-/valditara-i-nuovi-programmi-dei-licei-puntano-a-valorizzare-la-centralita-dell-occidente",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "83a069117f4fdb75",
-   "titolo": "22/01/2024 - Intervento del Ministro Giuseppe Valditara presso la Sinagoga Kupa di Cracovia",
-   "link": "https://www.mim.gov.it/web/guest/-/intervento-del-ministro-giuseppe-valditara-presso-la-sinagoga-kupa-di-cracovia",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "f04f4b3da91a9dd8",
-   "titolo": "03/09/2023 - Forum Ambrosetti di Cernobbio, intervento del Ministro dell'Istruzione e del Merito Giuseppe Valditara",
-   "link": "https://www.mim.gov.it/web/guest/-/forum-ambrosetti-di-cernobbio-intervento-del-ministro-dell-istruzione-e-del-merito-giuseppe-valditara",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "2db8205c6d4cb850",
-   "titolo": "28/01/2025 - “Celebrazione del Giorno della Memoria al Quirinale. Il discorso del Ministro Giuseppe Valditara”",
-   "link": "https://www.mim.gov.it/web/guest/-/celebrazione-del-giorno-della-memoria-al-quirinale-il-discorso-del-ministro-giuseppe-valditara",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "8923adf7aaf8d1d3",
-   "titolo": "02/07/2024 - “Elementari e medie stop ai cellulari. Promossi dal G7”",
-   "link": "https://www.mim.gov.it/web/guest/-/elementari-e-medie-stop-ai-cellulari-promossi-dal-g7",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "1ce2dc647fee4bbb",
-   "titolo": "23/05/2024 - Valditara: “Partendo dalla scuola costruiamo una società che metta al bando la mafia”",
-   "link": "https://www.mim.gov.it/web/guest/-/23-maggio-valditara-partendo-dalla-scuola-costruiamo-una-societa-che-metta-al-bando-la-mafia-",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "6acee0d8388c8338",
-   "titolo": "21/09/2026 - Intervento del Ministro Valditara alla cerimonia di inaugurazione dell’Anno Scolastico 2026/2027",
-   "link": "https://www.mim.gov.it/web/guest/-/intervento-del-ministro-valditara-alla-cerimonia-di-inaugurazione-dell-anno-scolastico-2026-2027",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ],
-   "altre_fonti": []
-  },
-  {
-   "id": "1325cce5e66ba7fc",
-   "titolo": "31/07/2025 - Intervento del Ministro Giuseppe Valditara al Senato sulle misure di prevenzione e contrasto dei femminicidi in età adolescenziale",
-   "link": "https://www.mim.gov.it/web/guest/-/intervento-del-ministro-giuseppe-valditara-al-senato-sulle-misure-di-prevenzione-e-contrasto-dei-femminicidi-in-eta-adolescenziale",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "362248f60dc4aca5",
-   "titolo": "08/07/2025 - Intervento del Ministro Giuseppe Valditara alla cerimonia istituzionale dell’evento “Scuola Futura” a Pesaro",
-   "link": "https://www.mim.gov.it/web/guest/-/intervento-del-ministro-giuseppe-valditara-alla-cerimonia-istituzionale-dell-evento-scuola-futura-a-pesaro",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "a241b2b6b94dc78b",
-   "titolo": "12/06/2025 - Intervento del Ministro Giuseppe Valditara all’VIII Congresso della CISL Scuola",
-   "link": "https://www.mim.gov.it/web/guest/-/intervento-del-ministro-giuseppe-valditara-all-viii-congresso-della-cisl-scuola",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "fa40f32b49edfe69",
-   "titolo": "Rilevazione \"Dati generali\" A.S. 2026/2027 - scuole statali e non statali e Cpia",
-   "link": "https://www.mim.gov.it/web/guest/-/rilevazione-dati-generali-a-s-2026-2027-scuole-statali-e-non-statali-e-cpia",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus",
-    "data"
-   ]
-  },
-  {
-   "id": "73f0bfdcdc1230a1",
-   "titolo": "Scuola, il MIM ha ospitato il meeting autunnale della European Agency for Special Needs and Inclusive Education (EASNIE): al centr ...",
-   "link": "https://www.mim.gov.it/web/guest/-/scuola-il-mim-ha-ospitato-il-meeting-autunnale-della-european-agency-for-special-needs-and-inclusive-education-easnie-al-centro-il-confronto-europeo-s",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "e6f5b959b77ec46b",
-   "titolo": "Comparto e Area Istruzione e Ricerca - settore scuola: azioni di sciopero previste per l'intera giornata del 20 novembre 2026",
-   "link": "https://www.mim.gov.it/web/guest/-/comparto-e-area-istruzione-e-ricerca-settore-scuola-azioni-di-sciopero-previste-per-l-intera-giornata-del-20-novembre-2026",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "37d9e5fa24bbdcbc",
-   "titolo": "Comparto e Area Istruzione e Ricerca - settore scuola: dati definitivi di adesione allo sciopero del 30 ottobre 2026.",
-   "link": "https://www.mim.gov.it/web/guest/-/comparto-e-area-istruzione-e-ricerca-settore-scuola-dati-definitivi-di-adesione-allo-sciopero-del-30-ottobre-2026-",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus",
-    "data"
-   ]
-  },
-  {
-   "id": "86bc5c90a92537e0",
-   "titolo": "Corri Libera 2026: attraverso lo sport il MIM promuove la cultura del rispetto e il contrasto alla violenza contro le donne",
-   "link": "https://www.mim.gov.it/web/guest/-/corri-libera-2026-attraverso-lo-sport-il-mim-promuove-la-cultura-del-rispetto-e-il-contrasto-alla-violenza-contro-le-donne-1",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "0c2f7f3b9357530c",
-   "titolo": "Milano, il MIM a OrientaTalenti 2026 con un programma di iniziative per gli studenti",
-   "link": "https://www.mim.gov.it/web/guest/-/milano-il-mim-a-orientatalenti-2026-con-un-programma-di-iniziative-per-gli-studenti",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "637db99359f01d48",
-   "titolo": "Decreto Dipartimentale n. 2559 del 9 novembre 2026",
-   "link": "https://www.mim.gov.it/web/guest/-/decreto-dipartimentale-n-2559-del-9-novembre-2026",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "4f0384ddaa4c80d6",
-   "titolo": "Decreto Dirigenziale n. 199298 del 5 novembre 2026",
-   "link": "https://www.mim.gov.it/web/guest/-/decreto-dirigenziale-n-199298-del-5-novembre-2026",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "7a4b477fe18ef3e4",
-   "titolo": "Decreto Direttoriale n. 1515 del 13 novembre 2026",
-   "link": "https://www.mim.gov.it/web/guest/-/decreto-direttoriale-n-1515-del-13-novembre-2026",
-   "fonte": "pr-mim",
-   "fonte_nome": "Ministero Istruzione e Merito",
-   "tipo": "ufficiale",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "9a6d2936adf5f856",
-   "titolo": "Vendo Honda SH 150i (2020 - 23) usata a Guidonia Montecelio (codice 10175300)",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3SFFlNGNLbXlwMlhZUVFHUjhaenROQkJZbVFwRENRRGEybUZhM0FrdmkyUUEyejZUWWlUdEVqSVpnb2lBa1VFd0YwdGllbUoxcWpsNk1laHhSeHMzeG9rcXlZRXNDTHA0blk2SXpiaFVNb2J0a25z?oc=5",
-   "fonte": "a-moto",
-   "fonte_nome": "Moto e scooter (Moto.it, Motociclismo)",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "moto"
-   ],
-   "normativa": false,
-   "sintesi": "Vendo Honda SH 150i (2020 - 23) usata a Guidonia Montecelio (codice 10175300) Moto.it",
-   "pubblicata": "2026-11-21T04:12:00Z",
-   "visto": "2026-11-21T08:13:30Z",
-   "metodo": "gnews",
-   "sotto": [
-    "novita_auto.marchi",
-    "moto.novita"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": [],
-   "altre_fonti": [
-    "Moto.it"
-   ]
-  },
-  {
-   "id": "e53833ec2b324cf6",
-   "titolo": "Vendo Honda SH 125i (2020 - 23) usata a Guidonia Montecelio (codice 10175272)",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Vcm1lMmsxNHZQb05tTG94d1gwWTVrd1NhU25UNEhUcDl2X21HZ3BzSFNpMDdtSHp1eXFUV3ZuQm03b3ZOUkhhMmZwMXhaZGtpZTJxZzhYZmstaWhaMkVCU1ZQNGwza0FXcV8zaUVrSXZlbmJFcGZv?oc=5",
-   "fonte": "a-moto",
-   "fonte_nome": "Moto e scooter (Moto.it, Motociclismo)",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "moto"
-   ],
-   "normativa": false,
-   "sintesi": "Vendo Honda SH 125i (2020 - 23) usata a Guidonia Montecelio (codice 10175272) Moto.it",
-   "pubblicata": "2026-11-21T04:12:00Z",
-   "visto": "2026-11-21T08:13:30Z",
-   "metodo": "gnews",
-   "sotto": [
-    "novita_auto.marchi",
-    "moto.novita"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "341e9759cee9dfd6",
-   "titolo": "Vendo Morbidelli F352 (2026) nuova a Guidonia Montecelio (codice 10175281)",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnWGNfeHoyQ3o4S2RkR3pnYWtsSS1XTUd3elNiM0tBN1E2ZFBId0F1YjRJTjRCdmZDZHd5MEpRODc0OHFVcENSV2ZvZHZUM29GWldlUTM0c1VkUzAtS1h6Sk5fZUd5ckhiaFVMZ0hleDgtNEU?oc=5",
-   "fonte": "a-moto-it",
-   "fonte_nome": "Moto.it",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "moto"
-   ],
-   "normativa": false,
-   "sintesi": "Vendo Morbidelli F352 (2026) nuova a Guidonia Montecelio (codice 10175281) Moto.it",
-   "pubblicata": "2026-11-21T04:12:00Z",
-   "visto": "2026-11-22T00:43:11Z",
-   "metodo": "gnews",
-   "sotto": [
-    "novita_auto.modelli",
-    "moto.novita"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "ef631ff3e4d5a128",
-   "titolo": "AI, l’obbligo di trasparenza non vale verso li sviluppatori",
-   "link": "https://www.ilsole24ore.com/art/ai-l-obbligo-trasparenza-non-vale-li-sviluppatori-AJafroNC",
-   "fonte": "bonus-sole",
-   "fonte_nome": "Bonus: Il Sole 24 Ore (casa e fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "digitale",
-    "norme"
-   ],
-   "normativa": true,
-   "sintesi": "Pubblicati gli orientamenti sull’articolo 50 della legge sull’intelligenza artificiale. Le competenze acquisite in questo caso evitano il rischio di fraintendimento",
-   "pubblicata": "2026-11-21T04:06:27Z",
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "rss",
-   "sotto": [
-    "digitale.sviluppo",
-    "norme.ue"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "sviluppatore",
-    "data",
-    "cyber",
-    "ingegnere",
-    "perito"
-   ]
-  },
-  {
-   "id": "e25ba96f3db93939",
-   "titolo": "Amministratore di sostegno, la gestione familiare esclude il peculato",
-   "link": "https://www.ilsole24ore.com/art/amministratore-sostegno-gestione-familiare-esclude-peculato-AJAvvkNC",
-   "fonte": "p-sole",
-   "fonte_nome": "Il Sole 24 Ore Politica",
-   "tipo": "stampa",
-   "aree": [
-    "economia_pol"
-   ],
-   "normativa": false,
-   "sintesi": "Prosciolta la figlia per i prelievi dal conto cointestato",
-   "pubblicata": "2026-11-21T04:04:14Z",
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "894e39650843b95b",
-   "titolo": "Meravigliosamente, Sal Da Vinci e Massimo Ranieri con \"Per sempre sì\"",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPM0h5QUNtVGdwWW1BT2RuMGpLMllrZXNjaTJDOFI1eERhQ01zYlpXZ1N2ZjNTMlJGQjFFZnRLZEhRTVl1LUxfa1V5Ui01ZjFkSnpqNDZzNmZIRWh6VTBfRzZrd2E1aERERzZEd3JoWUs2bnZIR1JhOHJtWjc2STRUSWJVejlqcHNnX0hqQUItMDBvLWRKdWhlSlZyLXZ1LXZrTDJtM3UyZkx1TE1mREd4N0RHYzJMVmxQZlNkYWFkQmx0RnJHQnQ0eElfYzRJSFN1MUd5UG8yZXpKRGxSNUxZ0gHkAUFVX3lxTE5RRWgyR1h1UVcxYW1TNDhTd2hIWVhNaVo3MGRPb2NTV3VtSkZPQXNnUjZwNUk2cGttcHVkUlF3NnF6THlYczJxanlOQjc5U0xHRUh3STJkbjNvR0Utdk9XV0RIanBxOElrZEVualNJMHBQV3pVS1BJTUF6RVhXeHpuXzRSRU10SlVCUzVmRzN4SHFCSk5iVG5hWnlSVmwzZ2FhbkVsZENMOWNJTnRSWHdidW91NkQ3OXE3clo2MGZyT1dRajBpclR0MjYxN1pDbXBlaHBvMHFqUjJlcHNhZHZGZzEzQg?oc=5",
-   "fonte": "p-rainews",
-   "fonte_nome": "Rai News Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Meravigliosamente, Sal Da Vinci e Massimo Ranieri con \"Per sempre sì\" RaiNews",
-   "pubblicata": "2026-11-21T04:04:00Z",
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "c37988bbf8d6d9a2",
-   "titolo": "Divieti camion 2027, CNA Fita: fermare i mezzi può peggiorare il traffico",
-   "link": "https://www.uominietrasporti.it/professione/leggi-e-politica/divieti-camion-2027-cna-fita-fermare-i-mezzi-puo-peggiorare-il-traffico/",
-   "fonte": "a-trasporti",
-   "fonte_nome": "Trasporto merci e camion",
-   "tipo": "stampa",
-   "aree": [
-    "mezzi"
-   ],
-   "normativa": false,
-   "sintesi": "Aree di sosta congestionate, ripartenze concentrate e consegne più difficili da programmare: l’associazione chiede al MIT di rivedere il calendario dei divieti per il…",
-   "pubblicata": "2026-11-21T04:03:13Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "rss",
-   "sotto": [
-    "mezzi.pesanti"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "076ad0950c4adb80",
-   "titolo": "Come si fattura all’ente pubblico che perde la causa?",
-   "link": "https://www.laleggepertutti.it/811213_come-si-fattura-allente-pubblico-che-perde-la-causa",
-   "fonte": "f-legge",
-   "fonte_nome": "La Legge per Tutti",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni",
-    "pensioni"
-   ],
-   "normativa": false,
-   "sintesi": "Il giudice condanna la Pa a pagare le spese legali. La fattura va al cliente privato con Iva e cassa. Regole precise per la ritenuta d’acconto.",
-   "pubblicata": "2026-11-21T04:02:54Z",
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "rss",
-   "sotto": [
-    "dichiarazioni.iva"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "222aa0e5602e40ee",
-   "titolo": "Figli dell’adulterio, diritto a essere mantenuti dall’entrata in vigore della Costituzione",
-   "link": "https://www.ilsole24ore.com/art/figli-dell-adulterio-diritto-essere-mantenuti-dall-entrata-vigore-costituzione-AJrEuXNC",
-   "fonte": "p-sole",
-   "fonte_nome": "Il Sole 24 Ore Politica",
-   "tipo": "stampa",
-   "aree": [
-    "economia_pol"
-   ],
-   "normativa": false,
-   "sintesi": "I figli nati fuori dal matrimonio sono tutelati anche prima del 1975, anno della riforma del diritto di famiglia",
-   "pubblicata": "2026-11-21T04:02:01Z",
-   "visto": "2026-11-21T04:18:31Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
   }
  ]
 }
