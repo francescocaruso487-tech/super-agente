@@ -648,6 +648,8 @@ window.addEventListener("popstate", () => chiudiPop(true));
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") chiudiPop(); if ((e.key === "Enter" || e.key === " ") && e.target.dataset && e.target.dataset.pop) { e.preventDefault(); apriPop(state.pop[e.target.dataset.pop] || ""); } });
 document.addEventListener("click", (e) => {
   if (e.target.closest("[data-pop-x]")) { chiudiPop(); return; }
+  const rl = e.target.closest("[data-rel]"); if (rl) { e.preventDefault(); e.stopPropagation(); const x = state.news.find((z) => z.id === rl.dataset.rel); if (x) apriNews(x); return; }
+  const sh = e.target.closest("[data-share]"); if (sh) { e.preventDefault(); e.stopPropagation(); const x = state.news.find((z) => z.id === sh.dataset.share); if (x) navigator.share({ title: dec(x.titolo), url: x.link }).catch(() => {}); return; }
   const mt = e.target.closest("[data-metodo]"); if (mt) { e.preventDefault(); e.stopPropagation(); apriPop(METODO()); return; }
   if (e.target.closest("#pop a, #pop button")) return;
   const d = e.target.closest("[data-pop]");
@@ -655,15 +657,39 @@ document.addEventListener("click", (e) => {
 }, true);
 const pBtn = (u, t) => `<a class="pop-btn" href="${esc(u)}" target="_blank" rel="noopener">${t}</a>`;
 const pRiga = (k, v) => v ? `<div class="pop-r"><span>${k}</span><b>${v}</b></div>` : "";
+const STOP = new Set("sarà dopo anche ancora della delle degli dello nella nelle negli nello sulla sulle sugli sullo questo questa questi queste quello quella sono stato stata stati state viene vengono tutti tutte tutto altri altre contro verso entro prima primo nuovo nuova nuovi nuove cosa come dove quando mentre perché cinque quali quale fanno hanno hanno fatto fatta oggi ieri domani italia italiano italiana italiani sulla".split(" "));
+const tok = (s) => [...new Set((dec(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").match(/[a-z]{5,}/g) || []))].filter((w) => !STOP.has(w));
+function collegate(n) {
+  const t = tok(n.titolo); if (t.length < 2) return [];
+  const set = new Set(t), lim = Date.now() - 10 * 864e5, out = [];
+  for (const x of state.news) {
+    if (x.id === n.id || x.fonte === n.fonte || +dataDi(x) < lim || +dataDi(x) > Date.now() + 36e5) continue;
+    const u = tok(x.titolo); let c = 0; for (const w of u) if (set.has(w)) c++;
+    if (c >= 2 && c / Math.min(t.length, u.length) >= 0.4) out.push([c, x]);
+  }
+  out.sort((p, q) => q[0] - p[0] || dataDi(q[1]) - dataDi(p[1]));
+  return out.slice(0, 3).map((x) => x[1]);
+}
+const TIPO_FONTE = { ufficiale: "Fonte ufficiale", ente: "Ente", ordine: "Ordine / associazione", stampa: "Testata giornalistica" };
 function apriNews(n) {
-  const stella = state.stelle.has(n.id);
-  const badge = (n.luogo ? `<span class="badge luogo">📍 ${esc(n.luogo)}</span>` : "") + n.aree.map((a) => `<span class="badge" style="--c:${colore(a)}">${esc(nome(a))}</span>`).join("");
+  const stella = state.stelle.has(n.id), an = (state.anteprime || {})[n.id] || {}, v = verifica(n);
+  const badge = (n.luogo ? `<span class="badge luogo">📍 ${esc(n.luogo)}</span>` : "") + n.aree.map((x) => `<span class="badge" style="--c:${colore(x)}">${esc(nome(x))}</span>`).join("");
+  const s1 = dec(n.sintesi || "").trim(), s2 = dec(an.desc || "").trim();
+  const breve = s2.length > s1.length + 20 || (s2 && !s1) ? s2 : s1;
+  const chips = [an.parole ? `⏱ ${Math.max(1, Math.round(an.parole / 200))} min di lettura` : "", an.autore ? `✍️ ${an.autore}` : "", an.sezione ? `🗂 ${an.sezione}` : ""].filter(Boolean);
+  const d = dataDi(n), quando = d.toLocaleString("it-IT", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+  const prof = (n.prof || []).map((id) => state.professioni[id]).filter(Boolean).slice(0, 4);
+  const rel = collegate(n);
   apriPop(`<div class="riga">${badge}${n.normativa ? '<span class="badge norm">Ufficiale</span>' : ""}</div>
     <h2 class="pop-t">${te(n.titolo)}</h2>
-    ${n.sintesi ? `<p class="pop-p">${te(n.sintesi)}</p>` : '<p class="pop-p mute">Questa fonte non fornisce un riassunto: apri l\'articolo per leggerlo.</p>'}
-    <div class="pop-sub">Affidabilità</div><p class="pop-p">${verifica(n).ic} <b>${esc(verifica(n).corto)}</b> — ${esc(verifica(n).spiega)}</p><p class="pop-p mute"><a href="#" data-metodo>Come verificare una notizia →</a></p>
-    <div class="pop-box">${pRiga("Fonte", esc(n.fonte_nome))}${(n.altre_fonti || []).length ? pRiga("Riportata anche da", esc(n.altre_fonti.join(", "))) : ""}${pRiga("Pubblicata", fa(dataDi(n)))}${n.tradotto ? pRiga("Titolo", "tradotto automaticamente") : ""}</div>
-    <div class="pop-az">${pBtn(n.link, "Apri la fonte ↗")}<button class="pop-btn sec" data-star="${n.id}">${stella ? "★ Salvata" : "☆ Salva"}</button></div>`);
+    ${breve ? `<div class="pop-sub">In breve</div><p class="pop-p">${esc(breve)}</p>` : '<p class="pop-p mute">Questa fonte non fornisce un riassunto: apri l\'articolo per leggerlo.</p>'}
+    ${chips.length ? `<div class="pop-chips">${chips.map((c) => `<span>${esc(c)}</span>`).join("")}</div>` : ""}
+    ${an.tag && an.tag.length ? `<div class="pop-chips tag">${an.tag.map((c) => `<span>#${esc(c)}</span>`).join("")}</div>` : ""}
+    ${prof.length ? `<div class="pop-sub">Utile per</div><div class="pop-chips">${prof.map((p) => `<span>${esc((p.emoji || "") + " " + p.nome)}</span>`).join("")}</div>` : ""}
+    <div class="pop-box">${pRiga("Fonte", esc(n.fonte_nome))}${pRiga("Tipo", TIPO_FONTE[n.tipo] || "")}${pRiga("Pubblicata", `${fa(d)} · ${esc(quando)}`)}${(n.altre_fonti || []).length ? pRiga("Riportata anche da", esc(n.altre_fonti.join(", "))) : ""}${pRiga("Affidabilità", `<a href="#" data-metodo>${v.ic} ${esc(v.corto)}</a>`)}${n.tradotto ? pRiga("Titolo", "tradotto automaticamente") : ""}</div>
+    ${rel.length ? `<div class="pop-sub">Se ne parla anche</div>${rel.map((x) => `<button class="pop-rel" data-rel="${x.id}">${te(x.titolo)}<small>${esc(x.fonte_nome)} · ${fa(dataDi(x))}</small></button>`).join("")}` : ""}
+    <div class="pop-az">${pBtn(n.link, "Apri la fonte ↗")}<button class="pop-btn sec" data-star="${n.id}">${stella ? "★ Salvata" : "☆ Salva"}</button></div>
+    ${navigator.share ? `<div class="pop-az"><button class="pop-btn sec" data-share="${n.id}">Condividi</button></div>` : ""}`);
 }
 
 // ============ Politica: quadro grafico (dati in data/politica.json) ============
@@ -846,7 +872,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "59";
+const VERSIONE_APP = "60";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -862,6 +888,7 @@ async function carica(forza) {
     state.bandi = await j("bandi").catch(() => null); state.bandiProv = "tutte";
     state.atti = await j("atti").catch(() => null); state.attiFil = "tutti";
     state.alm = await j("almanacco").catch(() => null); aggiornaBoxOggi();
+    state.anteprime = await j("anteprime").catch(() => ({}));
     if (!Array.isArray(state.modelli)) state.modelli = [...(state.profilo.modelli || [])];
     state.professioni = prof.professioni || {}; state.gruppiProf = prof.gruppi || [];
     if (!Array.isArray(news.notizie)) throw new Error("dati non validi");
