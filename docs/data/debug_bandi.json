@@ -111,6 +111,7 @@
     "2026-11-24+01:00"
    ],
    "notice-type": "cn-standard",
+   "procedure-type": "open",
    "publication-number": "675618-2026",
    "estimated-value-lot": [
     "1836096.00",
@@ -147,6 +148,80 @@
     "978998.40",
     "3422400.00",
     "7840800.00"
+   ],
+   "classification-cpv": [
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000",
+    "33182000"
+   ],
+   "contract-nature": [
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies",
+    "supplies"
    ],
    "buyer-name": {
     "ita": [
@@ -278,9 +353,18 @@
     "2026-12-04+01:00"
    ],
    "notice-type": "cn-standard",
+   "procedure-type": "open",
    "publication-number": "686881-2026",
    "estimated-value-lot": [
     "15861000"
+   ],
+   "classification-cpv": [
+    "50711000",
+    "50700000"
+   ],
+   "contract-nature": [
+    "services",
+    "services"
    ],
    "buyer-name": {
     "ita": [
