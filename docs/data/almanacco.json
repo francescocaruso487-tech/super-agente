@@ -1,5 +1,5 @@
 {
-"aggiornato": "2026-11-23T10:02:38+00:00",
+"aggiornato": "2026-11-23T10:04:12+00:00",
 "luogo": "Caserta",
 "giorni": {
 "2026-11-23": {
@@ -896,19 +896,25 @@
 "autore": null
 },
 "latparola": {
-"latino": "reputatio",
+"latino": "annus",
 "tipo": "sostantivo",
 "significati": [
-"definizione mancante; se vuoi, aggiungila tu"
+"anno."
 ],
-"origine": "dal verbo reputo, con il suffisso -tio",
-"derivati": [],
+"origine": null,
+"derivati": [
+"annoso",
+"maggiorenne",
+"anno",
+"ano"
+],
 "collegati": [
-"discendenti",
-"altre",
-"lingue"
+"annus",
+"horribilis",
+"annus",
+"mirabilis"
 ],
-"link": "https://it.wiktionary.org/wiki/reputatio"
+"link": "https://it.wiktionary.org/wiki/annus"
 }
 },
 "2026-11-24": {
@@ -4486,28 +4492,20 @@
 "autore": null
 },
 "latparola": {
-"latino": "corpus",
+"latino": "mala",
 "tipo": "sostantivo",
 "significati": [
-"dolor corporis, cuius est morsus acerrimus... - il dolore del corpo, il cui morso è il più feroce... (Cicerone, Tusculanae disputationes, liber III, XXV, 61)",
-"nudato corpore nymphas nutricum tenus - le ninfe dal corpo nudo fino al seno (Catullo, Carmina, carmen LXIV, 18-19)"
+"nominativo femminile singolare di malus",
+"vocativo femminile singolare di malus",
+"ablativo femminile singolare di malus"
 ],
-"origine": "dal proto-italico *krépos, a sua volta dalla radice del proto-indoeuropeo *krep-, \"corpo\"",
+"origine": "(forma flessa dell'aggettivo malus) vedi malus (forma flessa del sostantivo malum) vedi malum (sostantivo femminile di I declinazione) dal proto-italico *smakslā, a sua volta dal proto-indoeuropeo *sm",
 "derivati": [
-"accorpare",
-"corpo"
+"malafede",
+"malare"
 ],
-"collegati": [
-"corporalis",
-"corporaliter",
-"corporatio",
-"corporatura",
-"corporeus",
-"corpulentus",
-"corpusculus",
-"incorporo"
-],
-"link": "https://it.wiktionary.org/wiki/corpus"
+"collegati": [],
+"link": "https://it.wiktionary.org/wiki/mala"
 }
 },
 "2026-11-28": {
@@ -6241,24 +6239,17 @@
 "autore": "Giustiniano, Institutiones, 2, 7, 3"
 },
 "latparola": {
-"latino": "nescio",
-"tipo": "verbo",
+"latino": "zingiber",
+"tipo": "sostantivo",
 "significati": [
-"veteres Romani litteras Graecas nesciverunt - gli antichi romani non conobbero la letteratura greca (Aulo Gellio, Noctes Atticae, liber XIII, IX, IV)"
+"zenzero"
 ],
-"origine": "composto di ne, come antica forma di non, \"non\", e scio, \"sapere\"",
-"derivati": [],
-"collegati": [
-"discendenti",
-"altre",
-"lingue",
-"nesci",
-"nesciente",
-"participio",
-"nescient",
-"participio"
+"origine": null,
+"derivati": [
+"zenzero"
 ],
-"link": "https://it.wiktionary.org/wiki/nescio"
+"collegati": [],
+"link": "https://it.wiktionary.org/wiki/zingiber"
 }
 },
 "2026-11-30": {
