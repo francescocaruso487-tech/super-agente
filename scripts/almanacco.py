@@ -401,7 +401,7 @@ def parola_latina(titolo, tipo):
     for li in re.findall(r"<li[^>]*>(.*?)</li>", ol.group(1), re.S):
         li = re.sub(r"<ul.*?</ul>|<dl.*?</dl>|<ol.*?</ol>", " ", li, flags=re.S)
         x = pulisci(li)
-        if x and len(x) < 160:
+        if x and len(x) < 110 and " - " not in x and "mancante" not in x and not re.search(r"liber|carmen|\(\w+, ", x):
             defs.append(x)
     if not defs:
         return None
@@ -410,7 +410,7 @@ def parola_latina(titolo, tipo):
         m = re.search(r'<h[2-4][^>]*id="' + prefisso + r'[^"]*"[^>]*>.*?</h[2-4]>(.*?)(?=<h[2-4]|$)', sec, re.S)
         return pulisci(m.group(1)) if m else ""
     orig = blocco("Etimologia")
-    coll = [w for w in re.split(r"[,\s]+", blocco("Parole_derivate")) if re.fullmatch(r"[a-zæœ]{3,20}", w)][:8]
+    coll = [w for w in re.split(r"[,\s]+", re.split(r"Discendenti|Termini correlati", blocco("Parole_derivate"))[0]) if re.fullmatch(r"[a-zæœ]{3,20}", w)][:8]
     r = get("https://it.wiktionary.org/w/api.php", params={"action": "query", "list": "search", "srsearch": 'incategory:"Sostantivi in italiano|Verbi in italiano|Aggettivi in italiano" "dal latino ' + titolo + '"',
                                                          "srlimit": 12, "srnamespace": 0, "srprop": "snippet", "format": "json"}).json()
     der = []
@@ -420,7 +420,7 @@ def parola_latina(titolo, tipo):
         sn = _senza_accenti(pulisci(x.get("snippet", "")))
         if re.search(r"latino\s+" + re.escape(titolo) + r"\b", sn):
             der.append(x["title"])
-    if not der and not coll:
+    if not der:
         return None
     return {"latino": titolo, "tipo": tipo, "significati": defs[:3], "origine": orig[:200] if 10 < len(orig) < 400 else None, "derivati": der[:8], "collegati": coll,
             "link": "https://it.wiktionary.org/wiki/" + titolo}
@@ -541,8 +541,10 @@ def main():
                     errori.append(f"{d} comune: {str(e)[:60]}")
         if "latino" not in c and lat:
             c["latino"] = lat[pick("latino" + iso, len(lat))]
+        if c.get("latparola") and (not c["latparola"].get("derivati") or any(" - " in z or "mancante" in z for z in c["latparola"].get("significati", []))):
+            del c["latparola"]
         if "latparola" not in c and plat:
-            for k in range(10):
+            for k in range(14):
                 try:
                     tit, tp = plat[pick(f"latparola{iso}{k}", len(plat))]
                     pl = parola_latina(tit, tp)
