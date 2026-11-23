@@ -1,25 +1,76 @@
 {
- "aggiornato": "2026-11-23T04:02:23Z",
+ "aggiornato": "2026-11-23T05:00:59Z",
  "tassonomia": "14",
  "notizie": [
   {
-   "id": "eb6bb24bf3ea0efd",
-   "titolo": "La ragazza che denunciò Portanova: «Vederlo con quel simbolo è una seconda ferita»",
-   "link": "https://firenze.repubblica.it/cronaca/2026/11/23/news/portanova_intervista_vittima_stupro_fascia_reggiana-425742940/",
-   "fonte": "t-repubblica-tech",
-   "fonte_nome": "Repubblica Tecnologia",
+   "id": "4bf104f0386c86c0",
+   "titolo": "Cubatura acquistata e non utilizzata, quando si perde il diritto a costruire?",
+   "link": "https://www.edilportale.com/news/2026/11/normativa/cessione-di-cubatura-quando-si-perde-il-diritto-a-costruire_112875_15.html",
+   "fonte": "edilportale",
+   "fonte_nome": "Edilportale",
    "tipo": "stampa",
    "aree": [
-    "ai"
+    "altro"
    ],
    "normativa": false,
-   "sintesi": "«Provo un dolore che mi fa mancare l’aria, come se la realtà venisse capovolta. Un cortocircuito insopportabile»",
-   "pubblicata": "2026-11-23T05:00:00Z",
-   "visto": "2026-11-23T01:00:58Z",
+   "sintesi": "",
+   "pubblicata": "2026-11-23T06:00:00Z",
+   "visto": "2026-11-23T05:00:59Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
-   "nicchia": "tech",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "a1973fe67ea1b90c",
+   "titolo": "Salva Casa, quanti immobili sono stati regolarizzati? Il Governo non lo sa",
+   "link": "https://www.edilportale.com/news/2026/11/normativa/salva-casa-mancano-i-dati-sulle-sanatorie-edilizie_112878_15.html",
+   "fonte": "edilportale",
+   "fonte_nome": "Edilportale",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": "2026-11-23T06:00:00Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [
+    "edilizia.sanatorie"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "architetto",
+    "geometra",
+    "notaio"
+   ]
+  },
+  {
+   "id": "d074e522a4c5c6ea",
+   "titolo": "Autonomia in camper: come risparmiare acqua, elettricità e gas",
+   "link": "https://www.pleinair.it/veicoli-e-accessori/accessori/autonomia-in-camper-come-risparmiare-acqua-elettricita-e-gas/",
+   "fonte": "a-camper",
+   "fonte_nome": "Camper e caravan",
+   "tipo": "stampa",
+   "aree": [
+    "mezzi",
+    "elettriche"
+   ],
+   "normativa": false,
+   "sintesi": "Il camper per sua definizione, è un ecosistema chiuso con risorse finite. Vediamo come ottimizzarle per rendere più confortevole il nostro viaggio L'articolo Autonomia…",
+   "pubblicata": "2026-11-23T05:02:00Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [
+    "mezzi.tempo_libero",
+    "elettriche.ev"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
    "prof": []
   },
   {
@@ -35,7 +86,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T04:02:23Z",
+   "visto": "2026-11-23T05:00:59Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -55,7 +106,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T04:02:23Z",
+   "visto": "2026-11-23T05:00:59Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -75,7 +126,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T04:02:23Z",
+   "visto": "2026-11-23T05:00:59Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -95,7 +146,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T04:02:23Z",
+   "visto": "2026-11-23T05:00:59Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -115,7 +166,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T04:02:23Z",
+   "visto": "2026-11-23T05:00:59Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -135,7 +186,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T04:02:23Z",
+   "visto": "2026-11-23T05:00:59Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -155,7 +206,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T04:02:23Z",
+   "visto": "2026-11-23T05:00:59Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -177,7 +228,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-23T04:02:23Z",
+   "visto": "2026-11-23T05:00:59Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -185,6 +236,2276 @@
    "prof": [
     "geometra"
    ]
+  },
+  {
+   "id": "efd310b86620ef2c",
+   "titolo": "Addizionale sui bonus dei manager anche per le societ di consulenza",
+   "link": "https://www.fiscoetasse.com/new-rassegna-stampa/4820-addizionale-sui-bonus-dei-manager-anche-per-le-societa-di-consulenza.html",
+   "fonte": "fiscoetasse",
+   "fonte_nome": "Fisco e Tasse",
+   "tipo": "stampa",
+   "aree": [
+    "management"
+   ],
+   "normativa": true,
+   "sintesi": "Bonus e stock option, addizionale del 10% anche per i dirigenti delle società di consulenza finanziaria",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [
+    "management.manager"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "manager",
+    "consulente_az",
+    "compliance",
+    "finanziario"
+   ]
+  },
+  {
+   "id": "b88c311c0137d8f6",
+   "titolo": "Pizza politica. Da Gorbacev a Putin, dalle origini ai tabù. Un’infinita guerra culturale",
+   "link": "https://www.ilfoglio.it/gli-inserti-del-foglio-weekend/2026/11/23/news/pizza-politica-da-gorbacev-a-putin-dalle-origini-ai-tabu-uninfinita-guerra-culturale--414332",
+   "fonte": "p-foglio",
+   "fonte_nome": "Il Foglio",
+   "tipo": "stampa",
+   "aree": [
+    "esteri",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "c272761dcebdde5e",
+   "titolo": "A Madrid un monumento equestre senza cavaliere è l’immagine più vivida della campagna elettorale",
+   "link": "https://www.ilfoglio.it/esteri/2026/11/23/news/a-madrid-un-monumento-equestre-senza-cavaliere-e-limmagine-piu-vivida-della-campagna-elettorale--414313",
+   "fonte": "p-foglio",
+   "fonte_nome": "Il Foglio",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "partiti.elezioni"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "e3be164a4bec169c",
+   "titolo": "Dalla medicina all’AI, cosa si muove attorno all’ossessione per la longevità",
+   "link": "https://www.ilfoglio.it/salute/2026/11/23/news/dalla-medicina-allai-cosa-si-muove-attorno-allossessione-per-la-longevita--414310",
+   "fonte": "p-foglio",
+   "fonte_nome": "Il Foglio",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "c7ab4b4a71798c70",
+   "titolo": "Salvini, da Mit via libera a omologazione provvisoria sistema guida assistita Tesla",
+   "link": "https://www.ansa.it/canale_motori/notizie/new_tech/2026/11/20/salvini-da-mit-via-libera-a-omologazione-provvisoria-sistema-guida-assistita-tesla_2b53f01f-99ee-4405-9972-47b480389e46.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "prove",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "prove.guide",
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "64f186e871ec9b80",
+   "titolo": "Leapmotor Lafa 5, arriva la piattaforma a 800V: ricarica più veloce e autonomia fino a 640 km",
+   "link": "https://www.automoto.it/news/leapmotor-lafa-5-arriva-la-piattaforma-a-800v-ricarica-piu-veloce-e-autonomia-fino-a-640-km.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "elettriche",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "elettriche.ev",
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "c6e825eb10f1e5d6",
+   "titolo": "Tesla lancia la guida assistita (e senza mani) in Italia: costa 99 euro al mese. Ecco come funziona",
+   "link": "https://www.corriere.it/motori/26_novembre_20/tesla-lancia-la-guida-assistita-e-senza-mani-in-italia-costa-99-euro-al-mese-ecco-come-funziona-00e222cb-ef7b-4d9f-a737-bfcdf3929xlk.shtml",
+   "fonte": "a-corriere-motori",
+   "fonte_nome": "Corriere della Sera Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "prove"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "novita_auto.marchi",
+    "prove.guide"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "prezzo": "99 €/mese"
+  },
+  {
+   "id": "fd3f9c9b527aa311",
+   "titolo": "Mercato auto, la Cina avanza in Italia: importazioni in crescita del 121% nei primi otto mesi del 2026",
+   "link": "https://www.corriere.it/motori/26_novembre_20/mercato-auto-la-cina-avanza-in-italia-importazioni-in-crescita-del-121-nei-primi-otto-mesi-del-2026-4caa2119-0a3a-458f-bc5e-c5d48818fxlk.shtml",
+   "fonte": "a-corriere-motori",
+   "fonte_nome": "Corriere della Sera Motori",
+   "tipo": "stampa",
+   "aree": [
+    "mercato_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.immatricolazioni"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "41b5708c4e66bbe0",
+   "titolo": "Auto nuove troppo care per gli italiani, il 75% vuole spendere meno di 30 mila euro",
+   "link": "https://www.corriere.it/motori/26_novembre_17/auto-nuove-troppo-care-per-gli-italiani-il-75-vuole-spendere-meno-di-30-mila-euro-3a052d4e-a30a-4a4a-a829-4dd6f892bxlk.shtml",
+   "fonte": "a-corriere-motori",
+   "fonte_nome": "Corriere della Sera Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "e352186fb55cde1d",
+   "titolo": "I segreti di Bosch in Italia: ecco su che cosa lavora il colosso della componentistica",
+   "link": "https://www.corriere.it/motori/auto/26_novembre_16/i-segreti-di-bosch-in-italia-ecco-su-che-cosa-lavora-il-colosso-della-componentistica-16f5e4e1-f201-48d1-b8e6-88cc5ebbcxlk.shtml",
+   "fonte": "a-corriere-motori",
+   "fonte_nome": "Corriere della Sera Motori",
+   "tipo": "stampa",
+   "aree": [
+    "mercato_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "mercato_auto.industria"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "993049f852de3ce2",
+   "titolo": "Determinazioni in materia di regime alternativo degli impianti essenziali",
+   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/431-26",
+   "fonte": "pr-arera",
+   "fonte_nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "78a6cf24329d6c94",
+   "titolo": "Disposizioni relative all’acconto del corrispettivo di reintegrazione, per l’anno 2026, con riferimento all’impianto di produzione essenziale Assemini",
+   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/432-26",
+   "fonte": "pr-arera",
+   "fonte_nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "0fcef45309b3b2ff",
+   "titolo": "Dichiarazione di ammissibilità e pubblicazione della proposta di impegni presentata da un operatore",
+   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/427-26",
+   "fonte": "pr-arera",
+   "fonte_nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "fc6d717bdc049eeb",
+   "titolo": "Osservazioni riguardanti il valore di rimborso, da riconoscere ai titolari degli affidamenti e delle concessioni per il servizio di distribuzione del gas naturale, per i comuni dell’Atem Pisa",
+   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/433-26",
+   "fonte": "pr-arera",
+   "fonte_nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "appalti",
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "appalti.gare"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "rup",
+    "avvocato",
+    "contabile",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "417556855fcaf128",
+   "titolo": "Energia: nel 2025 erogati oltre 4,3 milioni di bonus sociali. Aumentano quelli per disagio fisico",
+   "link": "https://www.arera.it/comunicati-stampa/dettaglio/energia-nel-2025-erogati-oltre-43-milioni-di-bonus-sociali-aumentano-quelli-per-disagio-fisico",
+   "fonte": "pr-arera",
+   "fonte_nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "scienze",
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "scienze.chimica"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "fisico",
+    "geologo",
+    "agronomo",
+    "chimico",
+    "biologo"
+   ]
+  },
+  {
+   "id": "e2dfc94fb6efd9f0",
+   "titolo": "I bonus sociali elettrico e gas: stato di attuazione per l'anno 2025",
+   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/413-26",
+   "fonte": "pr-arera",
+   "fonte_nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "impiantista"
+   ],
+   "altre_fonti": []
+  },
+  {
+   "id": "0e5c260cb0fdcb2c",
+   "titolo": "Ottemperanza alla sentenza del Consiglio di Stato, Sezione II, [OMISSIS]. Rideterminazione della sanzione amministrativa pecuniaria per violazione in materia di integrità e trasparenza del mercato del gas naturale all’ingrosso",
+   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/373-26",
+   "fonte": "pr-arera",
+   "fonte_nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "legale",
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "legale.avvocati"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "avvocato",
+    "notaio",
+    "curatore",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "653b73b2e56a4cc1",
+   "titolo": "Determinazione di una penale per dati di qualità commerciale dei servizi di vendita di energia elettrica e/o gas non validi e/o non conformi ai sensi del TIQV",
+   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/400-26",
+   "fonte": "pr-arera",
+   "fonte_nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "data",
+    "impiantista"
+   ],
+   "altre_fonti": []
+  },
+  {
+   "id": "24c6a10c53bcedf6",
+   "titolo": "Approvazione della proposta di Terna S.p.A. per l’implementazione delle procedure concorsuali di assegnazione degli strumenti di copertura contro il rischio di volatilità del corrispettivo di assegnazione della capacità di trasporto, per l’anno 2027",
+   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/418-26",
+   "fonte": "pr-arera",
+   "fonte_nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "legale",
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "legale.crisi",
+    "energia.rinnovabili"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "curatore",
+    "avvocato",
+    "notaio",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "366e37e0f68ba0fc",
+   "titolo": "Verifica di conformità delle proposte di modifica al Codice di Trasmissione, Dispacciamento, Sviluppo e Sicurezza della Rete in materia di servizio di modulazione straordinaria a salire",
+   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/419-26",
+   "fonte": "pr-arera",
+   "fonte_nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "dc2d9db45b67b05d",
+   "titolo": "Prima determinazione dei premi e delle penalità relativi ai recuperi di sicurezza del servizio di distribuzione del gas naturale, per l’anno 2024",
+   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/420-26",
+   "fonte": "pr-arera",
+   "fonte_nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "antincendio",
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "antincendio.attivita"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "perito",
+    "dl",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "d5254060d0a6aca1",
+   "titolo": "Approvazione della proposta di impegni presentata da Sorgenia S.p.A. e chiusura del relativo procedimento sanzionatorio",
+   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/417-26",
+   "fonte": "pr-arera",
+   "fonte_nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "6183412e2de092c4",
+   "titolo": "Prezzi e tariffe Condizioni economiche e voci di spesa",
+   "link": "https://www.arera.it/area-operatori/prezzi-e-tariffe",
+   "fonte": "pr-arera",
+   "fonte_nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "66557b8bf6564463",
+   "titolo": "Ricerca operatori L'anagrafica dei soggetti regolati",
+   "link": "https://www.arera.it/area-operatori/ricerca-operatori",
+   "fonte": "pr-arera",
+   "fonte_nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "eb2e9995734901ae",
+   "titolo": "Relazione annuale all’ACER e alla Commissione europea sull’attività svolta e i compiti dell’Autorità di Regolazione per Energia Reti e Ambiente",
+   "link": "https://www.arera.it/fileadmin/allegati/docs/25/R_A_Acer_354-2025-I.pdf",
+   "fonte": "pr-arera",
+   "fonte_nome": "ARERA (energia e reti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "norme",
+    "energia"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "perito",
+    "impiantista"
+   ]
+  },
+  {
+   "id": "29387a5b26b52fd4",
+   "titolo": "Connessioni 2030, logistica e territorio a confronto",
+   "link": "https://www.logisticamanagement.it/it/articles/20261119/connessioni_2030_logistica_e_territorio_a_confronto",
+   "fonte": "pr-logistica",
+   "fonte_nome": "Logistica Management e Euromobility",
+   "tipo": "stampa",
+   "aree": [
+    "trasporti",
+    "edilizia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "trasporti.logistica",
+    "edilizia.produttivo"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "logistica",
+    "mobility",
+    "adr",
+    "ingegnere",
+    "architetto",
+    "geometra",
+    "notaio"
+   ]
+  },
+  {
+   "id": "824108304676cdb0",
+   "titolo": "Otto nuove testimonianze dal convegno del Politecnico su servizi 3PL, trasporti, automazione, gestione dei processi e intelligenza artificiale",
+   "link": "https://www.logisticamanagement.it/it/articles/20261119/contract_logistics_2026_le_voci_parte_2",
+   "fonte": "pr-logistica",
+   "fonte_nome": "Logistica Management e Euromobility",
+   "tipo": "stampa",
+   "aree": [
+    "norme",
+    "trasporti"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "norme.ue"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "logistica",
+    "mobility",
+    "adr",
+    "data",
+    "ingegnere",
+    "perito"
+   ]
+  },
+  {
+   "id": "6e7f246cf25b2254",
+   "titolo": "Prima operazione di bunkering di GNL per Axpo a Valencia: oltre metà del carburante fornito alla portacontainer è bio-GNL",
+   "link": "https://www.logisticamanagement.it/it/articles/20261112/axpo_porta_il_bio_gnl_nel_porto_di_valencia",
+   "fonte": "pr-logistica",
+   "fonte_nome": "Logistica Management e Euromobility",
+   "tipo": "stampa",
+   "aree": [
+    "trasporti"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "logistica",
+    "mobility",
+    "adr"
+   ]
+  },
+  {
+   "id": "f45b94b1d908c95a",
+   "titolo": "Dal convegno del Politecnico di Milano, otto video interviste su servizi logistici, innovazione digitale, automazione e sostenibilità",
+   "link": "https://www.logisticamanagement.it/it/articles/20261118/contract_logistics_2026_le_voci_parte_1",
+   "fonte": "pr-logistica",
+   "fonte_nome": "Logistica Management e Euromobility",
+   "tipo": "stampa",
+   "aree": [
+    "management",
+    "trasporti"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "management.governance"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "logistica",
+    "mobility",
+    "adr",
+    "fotovideo",
+    "manager",
+    "consulente_az",
+    "compliance",
+    "finanziario"
+   ]
+  },
+  {
+   "id": "d46000bda1415424",
+   "titolo": "Il 25 e 26 novembre a Lazise focus su magazzino, robotica, WMS, AI, supply chain e resilienza con 52 aziende espositrici",
+   "link": "https://www.logisticamanagement.it/it/articles/20261118/global_summit_31_conferenze_sulla_logistica",
+   "fonte": "pr-logistica",
+   "fonte_nome": "Logistica Management e Euromobility",
+   "tipo": "stampa",
+   "aree": [
+    "trasporti"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "trasporti.logistica"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "logistica",
+    "mobility",
+    "adr"
+   ]
+  },
+  {
+   "id": "3132ec79be3f2dbe",
+   "titolo": "CHEP apre a Lacchiarella il suo hub più grande",
+   "link": "https://www.logisticamanagement.it/it/articles/20261026/chep_apre_a_lacchiarella_il_suo_hub_piu_grande",
+   "fonte": "pr-logistica",
+   "fonte_nome": "Logistica Management e Euromobility",
+   "tipo": "stampa",
+   "aree": [
+    "trasporti"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "logistica",
+    "mobility",
+    "adr"
+   ]
+  },
+  {
+   "id": "7ce09965cca87d59",
+   "titolo": "Il gruppo finlandese modernizza cinque centri distributivi con una piattaforma cloud-native e funzionalità di AI agentica",
+   "link": "https://www.logisticamanagement.it/it/articles/20261109/kesko_sceglie_manhattan_per_il_nuovo_wms",
+   "fonte": "pr-logistica",
+   "fonte_nome": "Logistica Management e Euromobility",
+   "tipo": "stampa",
+   "aree": [
+    "digitale",
+    "trasporti"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "digitale.sviluppo"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "logistica",
+    "mobility",
+    "adr",
+    "sviluppatore",
+    "data",
+    "cyber"
+   ]
+  },
+  {
+   "id": "84d8772ca217c82c",
+   "titolo": "Il 78% usa l’AI per confrontare prodotti e il 75% ha scoperto nuovi brand grazie ai suggerimenti degli assistenti intelligenti",
+   "link": "https://www.logisticamanagement.it/it/articles/20261117/forum_retail_2026_lai_guida_gli_acquisti",
+   "fonte": "pr-logistica",
+   "fonte_nome": "Logistica Management e Euromobility",
+   "tipo": "stampa",
+   "aree": [
+    "comunicazione",
+    "trasporti"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "comunicazione.media"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "logistica",
+    "mobility",
+    "adr",
+    "giornalista",
+    "marketer",
+    "grafico",
+    "fotovideo"
+   ]
+  },
+  {
+   "id": "b663347d06ac8ef9",
+   "titolo": "Supply chain sanitaria: innovazione e nuove sfide",
+   "link": "https://www.logisticamanagement.it/it/articles/20261117/supply_chain_sanitaria_innovazione_e_nuove_sfide",
+   "fonte": "pr-logistica",
+   "fonte_nome": "Logistica Management e Euromobility",
+   "tipo": "stampa",
+   "aree": [
+    "trasporti",
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "trasporti.logistica",
+    "sanita.sistema"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "logistica",
+    "mobility",
+    "adr",
+    "medico",
+    "farmacista",
+    "infermiere",
+    "psicologo"
+   ]
+  },
+  {
+   "id": "58a1888dc568507b",
+   "titolo": "DHL Global Forwarding e Venchi raccontano come resilienza, cold chain, digitalizzazione e visibilità stiano trasformando la filiera Food",
+   "link": "https://www.logisticamanagement.it/it/articles/20261106/food_la_logistica_diventa_leva_strategica",
+   "fonte": "pr-logistica",
+   "fonte_nome": "Logistica Management e Euromobility",
+   "tipo": "stampa",
+   "aree": [
+    "trasporti"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "logistica",
+    "mobility",
+    "adr"
+   ]
+  },
+  {
+   "id": "c535580908d36e7e",
+   "titolo": "Golia360: localizzazione tra sicurezza e fiducia",
+   "link": "https://www.logisticamanagement.it/it/articles/20261109/golia360_localizzazione_tra_sicurezza_e_fiducia",
+   "fonte": "pr-logistica",
+   "fonte_nome": "Logistica Management e Euromobility",
+   "tipo": "stampa",
+   "aree": [
+    "trasporti"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "logistica",
+    "mobility",
+    "adr",
+    "traduttore"
+   ]
+  },
+  {
+   "id": "4d4baa969a523252",
+   "titolo": "Supply chain, la nuova sfida è integrare i dati",
+   "link": "https://www.logisticamanagement.it/it/articles/20261116/supply_chain_la_nuova_sfida_e_integrare_i_dati",
+   "fonte": "pr-logistica",
+   "fonte_nome": "Logistica Management e Euromobility",
+   "tipo": "stampa",
+   "aree": [
+    "trasporti"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "trasporti.logistica"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "logistica",
+    "mobility",
+    "adr",
+    "data"
+   ]
+  },
+  {
+   "id": "c1e10f2d0f0922a0",
+   "titolo": "la circolare federale n. 16131 del 10/10/2026 con il programma",
+   "link": "https://www.fofi.it/doc_fofi/circolare8617388.pdf",
+   "fonte": "pr-fofi",
+   "fonte_nome": "Farmacisti (FOFI) e Federfarma",
+   "tipo": "ordine",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "c2601231d7b8aa8f",
+   "titolo": "Da sponsorship a partnership: “Co-progettare con i pazienti è la nuova regola dell’advocacy”",
+   "link": "https://www.sanitainformazione.it/da-sponsorship-a-partnership-co-progettare-con-i-pazienti-e-la-nuova-regola-delladvocacy/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "60b163ad8880e958",
+   "titolo": "La dieta che fa bene al pianeta potrebbe proteggere anche cuore e metabolismo",
+   "link": "https://www.sanitainformazione.it/la-dieta-che-fa-bene-al-pianeta-potrebbe-proteggere-anche-cuore-e-metabolismo/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "b5e7a47ac120715e",
+   "titolo": "Cronicità, in Italia 12,8 milioni di persone con almeno due patologie. Onda: “Serve un nuovo modello di presa in carico”",
+   "link": "https://www.sanitainformazione.it/cronicita-in-italia-128-milioni-di-persone-con-almeno-due-patologie-onda-serve-un-nuovo-modello-di-presa-in-carico/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "3cf4e036bac95c75",
+   "titolo": "Diabete, dall’immunoterapia alle nuove tecnologie: 900 diabetologi ridisegnao il futuro delle cure",
+   "link": "https://www.sanitainformazione.it/diabete-dall-immunoterapia-alle-nuove-tecnologie-900-diabetologi-ridisegnao-il-futuro-delle-cure/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "41aa64926dac7abd",
+   "titolo": "Social network e minori, il Moige chiede al Tribunale di vietare l’accesso sotto i 13 anni",
+   "link": "https://www.sanitainformazione.it/social-network-e-minori-il-moige-chiede-al-tribunale-di-vietare-laccesso-sotto-i-13-anni/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "legale",
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "legale.avvocati"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "8a3b1dbd5149936c",
+   "titolo": "Interleuchina-6 nel sangue, la proteina dell’infiammazione che può nascondere un rischio per il cuore",
+   "link": "https://www.sanitainformazione.it/interleuchina-6-nel-sangue-la-proteina-infiammazione-che-puo-nascondere-un-rischio-per-il-cuore/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "da698269ea7d4b82",
+   "titolo": "Radon in casa, non solo tumore al polmone: un possibile rischio per il cuore",
+   "link": "https://www.sanitainformazione.it/radon-in-casa-non-solo-tumore-al-polmone-un-possibile-rischio-per-il-cuore/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "scienze",
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "scienze.chimica"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "d720a0c0ac580c50",
+   "titolo": "Epidemia di morbillo in USA: in Pennsylvania l’ottavo decesso",
+   "link": "https://www.sanitainformazione.it/epidemia-di-morbillo-in-usa-in-pennsylvania-l-ottavo-decesso/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "a99e41e0755a2716",
+   "titolo": "In Farmacia per i Bambini, torna la raccolta solidale in oltre 3.300 farmacie italiane",
+   "link": "https://www.sanitainformazione.it/in-farmacia-per-i-bambini-torna-la-raccolta-solidale-in-oltre-3-300-farmacie-italiane/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "sanita.sistema"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "d8ae5b65db8424c8",
+   "titolo": "Giornata dei diritti dell’infanzia e dell’adolescenza, FNOPO: “La tutela della salute comincia prima della nascita”",
+   "link": "https://www.sanitainformazione.it/giornata-dei-diritti-dellinfanzia-e-delladolescenza-fnopo-la-tutela-della-salute-comincia-prima-della-nascita/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "4071a8acc98e59b3",
+   "titolo": "Diritti dell’infanzia, Istat e UNICEF: “In Italia oltre un milione di minori vive in povertà assoluta”",
+   "link": "https://www.sanitainformazione.it/diritti-dell-infanzia-istat-e-unicef-in-italia-oltre-un-milione-di-minori-vive-in-povert-assoluta/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "81b648ad05596181",
+   "titolo": "Tumore testa-collo, creato un organo su chip per studiare la malattia e testare i farmaci",
+   "link": "https://www.sanitainformazione.it/tumore-testa-collo-creato-un-organo-su-chip-per-studiare-la-malattia-e-testare-i-farmaci/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "sanita.sistema"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "628f522560efd768",
+   "titolo": "Tumore del colon-retto, il test FIT potrebbe richiedere soglie diverse per gli under 50",
+   "link": "https://www.sanitainformazione.it/tumore-del-colon-retto-il-test-fit-potrebbe-richiedere-soglie-diverse-per-gli-under-50/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "7d5cf7d5432f88ee",
+   "titolo": "Cancro al polmone, il microbiota apre nuove prospettive per prevedere l’evoluzione del tumore",
+   "link": "https://www.sanitainformazione.it/cancro-al-polmone-il-microbiota-apre-nuove-prospettive-per-prevedere-levoluzione-del-tumore/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "12575dfaaac9dc97",
+   "titolo": "Obesità giovanile, due strategie per prevenirla: interventi mirati e misure per tutti",
+   "link": "https://www.sanitainformazione.it/obesita-giovanile-due-strategie-per-prevenirla-interventi-mirati-e-misure-per-tutti/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "9a4f097869f8aaa0",
+   "titolo": "Ebola, l’Oms conferma l’emergenza sanitaria internazionale nella Repubblica Democratica del Congo",
+   "link": "https://www.sanitainformazione.it/ebola-loms-conferma-lemergenza-sanitaria-internazionale-nella-repubblica-democratica-del-congo/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [
+    "sanita.sistema"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "639cd7d0edce4ff1",
+   "titolo": "Legge 104 e ddl caregiver: i permessi resteranno? Cosa cambierebbe per chi assiste un familiare",
+   "link": "https://www.sanitainformazione.it/legge-104-e-ddl-caregiver-i-permessi-resteranno-cosa-cambierebbe-per-chi-assiste-un-familiare/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "bfaf00ce9ddfd757",
+   "titolo": "Disabilità intellettiva, il CBD non migliora i problemi comportamentali nei bambini",
+   "link": "https://www.sanitainformazione.it/disabilita-intellettiva-il-cbd-non-migliora-i-problemi-comportamentali-nei-bambini/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "35e3ab7e69934b30",
+   "titolo": "Antibiotico-resistenza, allarme ECDC: aumentano in Europa i batteri resistenti ai carbapenemi",
+   "link": "https://www.sanitainformazione.it/antibiotico-resistenza-allarme-ecdc-aumentano-in-europa-i-batteri-resistenti-ai-carbapenemi/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "7da876779b833fef",
+   "titolo": "Alcol, nicotina e caffeina: il DNA determina come reagiscono le cellule",
+   "link": "https://www.sanitainformazione.it/alcol-nicotina-e-caffeina-il-dna-determina-come-reagiscono-le-cellule/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "98b5aa2487ec0cb6",
+   "titolo": "Giornata mondiale della toilet 2026, ONU: “3,4 miliardi di persone senza servizi igienici sicuri”",
+   "link": "https://www.sanitainformazione.it/giornata-mondiale-della-toilet-2026-onu-3-4-miliardi-di-persone-senza-servizi-igienici-sicuri/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "3690ee08d5d3071d",
+   "titolo": "Tumore polmonare, identificata una firma di 16 batteri associata alla prognosi",
+   "link": "https://www.sanitainformazione.it/tumore-polmonare-identificata-una-firma-di-16-batteri-associata-alla-prognosi/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "36018e0f98f2ca15",
+   "titolo": "Attività fisica, solo il 9% degli adolescenti raggiunge un’ora al giorno",
+   "link": "https://www.sanitainformazione.it/attivit-fisica-solo-il-9-degli-adolescenti-raggiunge-un-ora-al-giorno/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "f40b0204e7768eea",
+   "titolo": "Interferenti endocrini, l’esposizione inizia prima della nascita: l’allarme di OMS e UNEP",
+   "link": "https://www.sanitainformazione.it/interferenti-endocrini-lesposizione-inizia-prima-della-nascita-lallarme-di-oms-e-unep/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "2088c889151342d7",
+   "titolo": "Commissione Covid, la SItI difende Rezza: “Accertare gli errori è necessario, delegittimare chi ha servito il Paese, no”",
+   "link": "https://www.sanitainformazione.it/commissione-covid-la-siti-difende-rezza-accertare-gli-errori-e-necessario-delegittimare-chi-ha-servito-il-paese-no/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "8262cd051639ac6d",
+   "titolo": "Tumore al seno, alcune varianti di BRCA2 sono associate a un rischio inferiore",
+   "link": "https://www.sanitainformazione.it/tumore-al-seno-alcune-varianti-di-brca2-sono-associate-a-un-rischio-inferiore/",
+   "fonte": "pr-sanitainfo",
+   "fonte_nome": "Sanità Informazione e Doctor33",
+   "tipo": "stampa",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
+   "id": "1a02d9f70311261b",
+   "titolo": "Milano, il 18 e 19 novembre il Ministero dell’Istruzione e del Merito partecipa a ExpoTraining 2026",
+   "link": "https://www.mim.gov.it/web/guest/-/milano-il-18-e-19-novembre-il-ministero-dell-istruzione-e-del-merito-partecipa-a-expotraining-2026",
+   "fonte": "pr-mim",
+   "fonte_nome": "Ministero Istruzione e Merito",
+   "tipo": "ufficiale",
+   "aree": [
+    "formazione_cultura"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "fe380c1313d2b475",
+   "titolo": "Caduta sulle scale condominiali: chi deve provare cosa per avere il risarcimento?",
+   "link": "https://www.laleggepertutti.it/786887_caduta-sulle-scale-condominiali-chi-deve-provare-cosa-per-avere-il-risarcimento",
+   "fonte": "f-legge",
+   "fonte_nome": "La Legge per Tutti",
+   "tipo": "stampa",
+   "aree": [
+    "immobiliare",
+    "pensioni"
+   ],
+   "normativa": false,
+   "sintesi": "Chi cade sulle scale condominiali deve provare solo il danno e il nesso causale con la cosa.",
+   "pubblicata": "2026-11-23T05:00:57Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [
+    "immobiliare.condominio"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "condominio",
+    "agente_imm",
+    "valutatore",
+    "notaio",
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "eb6bb24bf3ea0efd",
+   "titolo": "La ragazza che denunciò Portanova: «Vederlo con quel simbolo è una seconda ferita»",
+   "link": "https://firenze.repubblica.it/cronaca/2026/11/23/news/portanova_intervista_vittima_stupro_fascia_reggiana-425742940/",
+   "fonte": "t-repubblica-tech",
+   "fonte_nome": "Repubblica Tecnologia",
+   "tipo": "stampa",
+   "aree": [
+    "ai"
+   ],
+   "normativa": false,
+   "sintesi": "«Provo un dolore che mi fa mancare l’aria, come se la realtà venisse capovolta. Un cortocircuito insopportabile»",
+   "pubblicata": "2026-11-23T05:00:00Z",
+   "visto": "2026-11-23T01:00:58Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "0610a2e589bb346b",
+   "titolo": "Detenuto e genitore disabile: possibili visite con permessi di necessità",
+   "link": "https://www.studiocataldi.it/articoli/1000876-detenuto-e-genitore-disabile-possibili-visite-con-permessi-di-necessita",
+   "fonte": "f-cataldi",
+   "fonte_nome": "Studio Cataldi",
+   "tipo": "stampa",
+   "aree": [
+    "casa_fisco"
+   ],
+   "normativa": false,
+   "sintesi": "La Corte costituzionale conferma che il detenuto può visitare il genitore gravemente disabile attraverso i permessi di necessità, anche in caso di patologia cronica",
+   "pubblicata": "2026-11-23T05:00:00Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "notaio",
+    "agente_imm",
+    "condominio",
+    "valutatore",
+    "facility",
+    "mutui",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "62cf7c78af395d22",
+   "titolo": "23/11 – La Cop31 si chiude senza nessun accordo – Gli mendamenti “local” della manovra – Marquez 10 volte campione del mondo, superato Rossi",
+   "link": "https://www.lapresse.it/podcast/2026/11/23/23-11-la-cop31-si-chiude-senza-nessun-accordo-gli-mendamenti-local-della-manovra-marquez-10-volte-campione-del-mondo-superato-rossi/",
+   "fonte": "p-lapresse",
+   "fonte_nome": "LaPresse Politica",
+   "tipo": "stampa",
+   "aree": [
+    "economia_pol",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Questo articolo 23/11 – La Cop31 si chiude senza nessun accordo – Gli mendamenti “local” della manovra – Marquez 10 volte campione del mondo, superato Rossi proviene da…",
+   "pubblicata": "2026-11-23T05:00:00Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [
+    "economia_pol.manovra"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "b0ba14845f92ee88",
+   "titolo": "Mitsubishi Grandis 2026, il nuovo Suv su base Renault Symbioz da 24mila euro con garanzia di 8 anni",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNTJ4VUQ1aFVFRE03VVdvY1MxUXdWVFNiUGVrazM1SVIzaE5ITGxtcTl6cWRBNWlPSS05eHQ4eDVhYTUwVmliZTYxc2NZdUdkQ2piUEJNdElRTjVkUVMtT3dja2k5Y0p4cENhbzJ1c1ZTcndJOFlpT0FLQkZseE1SSFNRTE92ODVBSHEyYnBqTy1JenF5a3hYMXowcnhNZ3R5Q3ZTWFQzR2FoQThSZzBUSC03dkttWUFlcXh3M0JOa29OVml5bjBQU0VKRGpIa2FqcjlFMGJtYk91MjBqTlE?oc=5",
+   "fonte": "ao-sconti",
+   "fonte_nome": "Offerte auto nuove",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "Mitsubishi Grandis 2026, il nuovo Suv su base Renault Symbioz da 24mila euro con garanzia di 8 anni Businessonline.it",
+   "pubblicata": "2026-11-23T04:50:00Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.marchi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "dcb46e48cdd1aa42",
+   "titolo": "Incentivi assunzioni: bisogna pubblicare il posto sul Siisl?",
+   "link": "https://www.laleggepertutti.it/851378_incentivi-assunzioni-bisogna-pubblicare-il-posto-sul-siisl",
+   "fonte": "f-legge",
+   "fonte_nome": "La Legge per Tutti",
+   "tipo": "stampa",
+   "aree": [
+    "pensioni",
+    "lavoro"
+   ],
+   "normativa": true,
+   "sintesi": "Per chi assume con uno sgravio contributivo, dal 1° dicembre c’è un passaggio in più da fare prima della firma del contratto.",
+   "pubblicata": "2026-11-23T04:47:48Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [
+    "pensioni.contributi",
+    "lavoro.incentivi"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista",
+    "hr",
+    "formatore"
+   ]
+  },
+  {
+   "id": "e16fbe92edc1a966",
+   "titolo": "Esenzione Imu prima casa: valgono i lavori in corso?",
+   "link": "https://www.laleggepertutti.it/851380_esenzione-imu-prima-casa-valgono-i-lavori-in-corso",
+   "fonte": "f-legge",
+   "fonte_nome": "La Legge per Tutti",
+   "tipo": "stampa",
+   "aree": [
+    "dichiarazioni",
+    "pensioni"
+   ],
+   "normativa": false,
+   "sintesi": "Il proprietario sosteneva che la casa fosse troppo in cantiere per andarci a vivere. Il giudice gli ha risposto che non lo era abbastanza da dimezzare l’Imu.",
+   "pubblicata": "2026-11-23T04:46:21Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [
+    "dichiarazioni.locali"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "tributarista",
+    "consulente_lavoro"
+   ]
+  },
+  {
+   "id": "e7ed2e67934f2d42",
+   "titolo": "Riforma pensioni 2027 | Anche Fdi vuol il ritorno di Opzione donna (ultime notizie 23 novembre)",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYm1ONkRadlhJSGZKMHBySlctdXhHUE02X2twTXQzV3gwMko3MGt2ckNWT3A4eDI2cGRqbmp2T3YzU0x1Y09Kcm5RdUhVdFpkWFE5ZndVanRZemdLd2Z3LXdncWMtWnI1WHBzVDlMakVXc0hNMTBNdVI4RFNSN2piQUxWUklsWmx3TDREME1NUGctanNld21KWkJ6amJqc0lWOXpsT3JtNlFEYjdBSWdqdDRNa1VlQVQ0TUV3OHJJaEJYcXlQU2t6WWdxYWZ3Yjly0gHWAUFVX3lxTFB4N2Q4LWxrM1BweXJuYTJJeEJmLWdjdnZidjNSZHQ5ZDhKUmVoS211SjVDS05oX3lDTkZTQW1mdVBOQkZmZnllOVVNWF94VVY2UURvbkltMkFZQmxQaWJmVC1tTThSOHIxUTA5S1lhemxrZk5ESEdHR3JMbDFibDRCRzVTczNOMHFyTFJsc1lMWTRVQVVMV3I2eVJUYlltYWNlVGY2bktPeFdiZHl3b3VrSlpRdVdEV1FUUXI5alFNWFlzemJYckpMSl8ya1U1S2FxcWtpX1E?oc=5",
+   "fonte": "a-polstrada",
+   "fonte_nome": "Polizia Stradale",
+   "tipo": "ufficiale",
+   "aree": [
+    "normativa_auto"
+   ],
+   "normativa": true,
+   "sintesi": "Riforma pensioni 2027 | Anche Fdi vuol il ritorno di Opzione donna (ultime notizie 23 novembre) IlSussidiario.net",
+   "pubblicata": "2026-11-23T04:46:15Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "014cd7813eb2ed72",
+   "titolo": "Ispettorato del Lavoro, sì agli ordini sulle buste paga",
+   "link": "https://www.laleggepertutti.it/820460_ispettorato-del-lavoro-si-agli-ordini-sulle-buste-paga",
+   "fonte": "f-legge",
+   "fonte_nome": "La Legge per Tutti",
+   "tipo": "stampa",
+   "aree": [
+    "legale",
+    "pensioni"
+   ],
+   "normativa": true,
+   "sintesi": "Gli ispettori possono obbligare le aziende a firmare accordi per adeguare gli stipendi ai principi costituzionali. La decisione del Consiglio di Stato.",
+   "pubblicata": "2026-11-23T04:43:08Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [
+    "legale.avvocati"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "avvocato",
+    "notaio",
+    "curatore",
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "0717b5a5858b7fa4",
+   "titolo": "L’attestazione di congruità dei bonus edilizi vale senza SAL?",
+   "link": "https://www.laleggepertutti.it/811718_lattestazione-di-congruita-dei-bonus-edilizi-vale-senza-sal",
+   "fonte": "f-legge",
+   "fonte_nome": "La Legge per Tutti",
+   "tipo": "stampa",
+   "aree": [
+    "bonus",
+    "pensioni"
+   ],
+   "normativa": true,
+   "sintesi": "La sentenza 20669/2026 afferma che per i bonus ordinari l’opzione per la cessione del credito richiede fatture relative a opere effettivamente realizzate e asseverazione…",
+   "pubblicata": "2026-11-23T04:40:03Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [
+    "bonus.crediti"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "contabile",
+    "commercialista",
+    "geometra",
+    "ingegnere",
+    "architetto",
+    "agente_imm",
+    "consulente_lavoro",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "4917e1ba795f172f",
+   "titolo": "SSANGYONG Rexton/Rexton II Usata prezzo e caratteristiche tecniche - Auto Usate",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOS2RVZ0MwbW1tUG5BYTkxQUdlOUpudHMwckFrTFFRV1psdUl5dnFiblVvZGpjOVZsa3VFbkVMajhJbTFVVldncVVaeEdrSFBLd2xBWFNZaG9PMzRnZ1JSQ1I2QVdvWWxlYU5jckR6RU83SkhaOWNaMlprTVBZMFo4YzVpOHVhNU5ORDhJ?oc=5",
+   "fonte": "a-quattroruote",
+   "fonte_nome": "Quattroruote",
+   "tipo": "stampa",
+   "aree": [
+    "mercato_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "SSANGYONG Rexton/Rexton II Usata prezzo e caratteristiche tecniche - Auto Usate Quattroruote",
+   "pubblicata": "2026-11-23T04:35:39Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "06b5022cdc1f3248",
+   "titolo": "Fisco bloccato sui conti: il pignoramento scade dopo 60 giorni",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRTkzZWoySDBZVEVEaXNUZTJBRWpjUjh2UUZKZm1RaXRDMGdsQkxtZndrcFJ1bVNKSzFTWEs1STBUeUdNX1UtY05VVmFuUjhYZDF5YmRLWWg1MXdJakFKV0NXVU5BWFB0VDl4b2JhWkQ0bGQwMjMtT0N6WlFMa19EeGhwTFc3MHpNX0Q1c05nNmRMU0hwcEF3d3ZxX1l3Z1RH0gGmAUFVX3lxTE1YWHBFTFEyQ3J0NlpJY1BOQkhHcWo0cjlfZHd3bXRfQmNUQWFmOHhhSHpsV3VtQU0yQXgwbnQ4VDNLRWY2Unptc1N2Y0JmSTlDdXlUbGFkQmNLXzB1WVJSSEh6YVV6V09vSnVodEJOamptMEZRdnM4b19iOFlQMGJzellfeDBXLUNCX1Bvc3MtcGIyTmFZWElwb1Y3cXN4cEk1clJJRFE?oc=5",
+   "fonte": "f-fisconline",
+   "fonte_nome": "Fisconline e Cassetto fiscale (Entrate)",
+   "tipo": "ufficiale",
+   "aree": [
+    "imprese_fisco",
+    "dichiarazioni",
+    "legale"
+   ],
+   "normativa": true,
+   "sintesi": "Fisco bloccato sui conti: il pignoramento scade dopo 60 giorni La Legge per tutti",
+   "pubblicata": "2026-11-23T04:34:57Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [
+    "imprese_fisco.riscossione"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "tributarista",
+    "commercialista",
+    "revisore",
+    "finanziario",
+    "curatore",
+    "consulente_lavoro",
+    "avvocato",
+    "notaio"
+   ],
+   "altre_fonti": [
+    "La Legge per Tutti"
+   ]
+  },
+  {
+   "id": "d66404c2e388eb3c",
+   "titolo": "Mediazione obbligatoria: si possono aggiungere fatti in causa?",
+   "link": "https://www.laleggepertutti.it/851276_mediazione-obbligatoria-si-possono-aggiungere-fatti-in-causa",
+   "fonte": "f-legge",
+   "fonte_nome": "La Legge per Tutti",
+   "tipo": "stampa",
+   "aree": [
+    "legale",
+    "pensioni"
+   ],
+   "normativa": false,
+   "sintesi": "In tribunale la società ha chiesto il rimborso di più addebiti di quelli indicati in mediazione, dove l’avversario non si era nemmeno presentato.",
+   "pubblicata": "2026-11-23T04:33:14Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [
+    "legale.avvocati"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "avvocato",
+    "notaio",
+    "curatore",
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "07863e6b7d623ec2",
+   "titolo": "Licenziato a 60 anni a un passo dalla pensione: \"Mando curriculum ogni giorno, ma nessuno mi risponde\"",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdGxYSHROY3N0UHpXcTdmY1dtRjFhZXFhMTlDb0lWSE9YZk1fTnA4TURvMGRmaUZLU1FDa2gxdVdLNFYtZ1V3VDlRWkRBajU0S3BMejJ0QnpsNXl1QS0xNTF5V0JVUlFROHd6VFdScndZRTBvX0ozYnhpSGZ6VWNxR0pNRFVMV2FxM0tUN1VPTmZzN091ZU8yd3NqQjFLZ0RTQkpZbHlFRGswaThPN3ZOVDN6MVFnb1FFVzVuY2M0NVM4VTVxMWc?oc=5",
+   "fonte": "p-fanpage",
+   "fonte_nome": "Fanpage Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Licenziato a 60 anni a un passo dalla pensione: \"Mando curriculum ogni giorno, ma nessuno mi risponde\" Fanpage",
+   "pubblicata": "2026-11-23T04:30:34Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "822a9bec01a92e17",
+   "titolo": "Limite detrazioni redditi oltre 75mila euro: chi ci perde?",
+   "link": "https://www.laleggepertutti.it/851323_limite-detrazioni-redditi-oltre-75mila-euro-chi-ci-perde",
+   "fonte": "f-legge",
+   "fonte_nome": "La Legge per Tutti",
+   "tipo": "stampa",
+   "aree": [
+    "bonus",
+    "pensioni"
+   ],
+   "normativa": true,
+   "sintesi": "Il taglio tocca meno di due contribuenti su cento, ma a chi colpisce porta via quasi tutta la rata del bonus mobili.",
+   "pubblicata": "2026-11-23T04:26:10Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [
+    "bonus.superbonus"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "geometra",
+    "ingegnere",
+    "architetto",
+    "agente_imm",
+    "consulente_lavoro",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "0183afb928a69d99",
+   "titolo": "Xbox compie 25 anni: il bundle celebrativo è ricco di giochi ma il prezzo è altissimo",
+   "link": "https://www.everyeye.it/notizie/xbox-compie-25-anni-bundle-celebrativo-ricco-giochi-prezzo-altissimo-909592.html",
+   "fonte": "t-everyeye",
+   "fonte_nome": "Everyeye",
+   "tipo": "stampa",
+   "aree": [
+    "hardware",
+    "gaming"
+   ],
+   "normativa": false,
+   "sintesi": "Microsoft festeggia i 25 anni di Xbox con una raccolta di giochi storici e grandi successi, ma la disponibilità del bundle presenta alcune limitazioni.",
+   "pubblicata": "2026-11-23T04:22:00Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "4e47830faeb230f1",
+   "titolo": "Aprilia sul tetto del mondo",
+   "link": "https://www.formulapassion.it/editoriale/aprilia-sul-tetto-del-mondo",
+   "fonte": "a-formula",
+   "fonte_nome": "Formula 1 e motorsport",
+   "tipo": "stampa",
+   "aree": [
+    "moto",
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "A Noale il titolo per team. E’ il 55esimo titolo mondiale della sua storia, il primo nella classe regina.",
+   "pubblicata": "2026-11-23T04:14:00Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [
+    "moto.novita"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "8a0d36eb8646b013",
+   "titolo": "Le lettere-testamento e la finestra trovata aperta: l’indagine su De Gennaro e il suicidio dei misteri",
+   "link": "https://www.open.online/2026/11/23/gianni-de-gennaro-morte-fonteblanda-lettere-finestra/",
+   "fonte": "p-open",
+   "fonte_nome": "Open",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Nella dépendance in cui Lo Squalo è stato trovato morto la porta non era chiusa a chiave. Una finestra era aperta. Una missiva è indirizzata a «chi vorrà pubblicarla».",
+   "pubblicata": "2026-11-23T04:13:44Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
   },
   {
    "id": "b0f0192fb643eff3",
@@ -1740,6 +4061,108 @@
    ]
   },
   {
+   "id": "59c877252dd72b2e",
+   "titolo": "Cessione di cubatura mai usata, il nuovo piano può cancellarla e far cadere la SCIA in sanatoria",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSzVDTXZScmNOaXg4QXB0N1dWUVFxR3FiSkw5R2xaRTBiUGhjRmloSlhRNnBzMnZsZDFyTUdDMl9mcmxaZV91MTRGVlFDSUtlZzBaeUt0ODNJcXpraVBSUmpnVmRRdDZjSkN6cU9mZ05aQTRQNEFMTmFzbUtKLUFhR1lCZkVKYnlST01FVHE0SkxUaFMxWmhXcktFbGcxd9IBowFBVV95cUxPaXZUUHRpNklnektNZjF3bWdsa2QtdlJlcjViU0pJUy11NWVaV29EU1hjeWlncnFVYVM2U2JRSkpDNVVhZFpsanpSU284dThKRFhySnNxcmVpN3hJbEt0QTRFWWZYOEx1cEl0d1YzZ1pYNFR5dE5wY251WW9INnRaMDI2TmlEdHVmQndNQm81UmpySk1xUlBGS3RBaWFpNmRxNVF3?oc=5",
+   "fonte": "lavoripubblici",
+   "fonte_nome": "LavoriPubblici",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia",
+    "appalti"
+   ],
+   "normativa": false,
+   "sintesi": "Cessione di cubatura mai usata, il nuovo piano può cancellarla e far cadere la SCIA in sanatoria Lavori Pubblici",
+   "pubblicata": "2026-11-23T04:00:00Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [
+    "edilizia.titoli",
+    "appalti.opere"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "architetto",
+    "geometra",
+    "notaio",
+    "rup",
+    "avvocato",
+    "contabile"
+   ]
+  },
+  {
+   "id": "8b381ddea0e1f834",
+   "titolo": "Profondo rosso in Borsa. Dollaro ancora forte, oro, argento e bitcoin in forte calo",
+   "link": "https://www.lastampa.it/speciale/tuttosoldi/2026/11/23/news/rosso_in_borsa_dollaro_ancora_forte_oro_argento_e_bitcoin_in_calo-15804745/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Crescono i timori sui titoli dell’intelligenza artificiale, le Borse ricominciano dopo una settimana di pesanti ribassi",
+   "pubblicata": "2026-11-23T04:00:00Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "f563635d845854a8",
+   "titolo": "Conti correnti, come tutelarsi dai blocchi bancari in caso di disservizi o attacchi hacker",
+   "link": "https://www.repubblica.it/economia/2026/11/23/news/conti_correnti_come_tutelarsi_dai_blocchi_bancari_in_caso_di_disservizi_o_attacchi_hacker-425742422/",
+   "fonte": "t-repubblica-tech",
+   "fonte_nome": "Repubblica Tecnologia",
+   "tipo": "stampa",
+   "aree": [
+    "sicurezza",
+    "ai"
+   ],
+   "normativa": false,
+   "sintesi": "Il recente commissariamento della filiale italiana di Revolut ha riproposto l’annoso tema della “dipendenza” degli utenti dal funzionamento dell’istituto di credito di…",
+   "pubblicata": "2026-11-23T04:00:00Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "96de23ca82ca00af",
+   "titolo": "Kate Middleton: «Il cancro ti cambia anche dentro». La verità sulla vita dopo la malattia",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPR01iZ0lCQnJhb0thd0VyWEg4N0trYkw0dmt5eXhYQmxxaE8zRnBzRHNHUVNWYmt0am1pUHFENllJWlJWaHpvSm1ILWNncS10UWc3cnlvX3hzdVU0R052NUZNY1hFT1JQd3ZET0VLZVVrRUtOZHlFTzZrQXppaUt1ZG02aVhDRHlYMGNzellYNHJzWTZTWUZRY0w1OG1UWWdZbVpESXNJNWJkWnRaNFhIeUhpc1FGdXE2SjhObDdzWTZuSVNJUTJ1VWROLXJGV1FhMkhfRzlzOWVmS2o1SGxJMmxPZnlQZ3k4?oc=5",
+   "fonte": "pr-salute",
+   "fonte_nome": "Ministero della Salute, AIFA e ISS",
+   "tipo": "ufficiale",
+   "aree": [
+    "sanita"
+   ],
+   "normativa": true,
+   "sintesi": "Kate Middleton: «Il cancro ti cambia anche dentro». La verità sulla vita dopo la malattia Mondosanità",
+   "pubblicata": "2026-11-23T03:59:00Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "odontoiatra",
+    "farmacista",
+    "psicologo",
+    "fisioterapista",
+    "infermiere",
+    "dietista",
+    "veterinario"
+   ]
+  },
+  {
    "id": "a6ee7d370884bc00",
    "titolo": "DACIA Jogger Usata prezzo e caratteristiche tecniche - Auto Usate",
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9RSDF5dE5rM19ONEtld3QwWVNJVG9MYVEyd3FLQkNmbFpNTTRKa1hFQmZsSVJPMzMtcGxjUk8zMkdPU0Q3ellGal9kYXhHYThMdVBEZFZ1U3dfTmdaOVYyUDBIaV9qb2k0QTJyc0F5RmdLVlRnQXc4VUV3?oc=5",
@@ -1761,6 +4184,26 @@
    ],
    "luogo": null,
    "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "f67059e32dacf146",
+   "titolo": "Il New York Times: \"Alice Huang era in contatto con gli 007 cinesi\"",
+   "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRUU0Tmg0ZWVjLWJQQ2Q2ajVWZ2JaT2FUNGNQenRXUmdLaFdMeVJkQjlsR3k3dDBmbll2VEVmVmhmS3M4ZGxTS2c3cUVGdmxmZUx0R0tocTJCNm9rOGhEeFhvWVNsRllQWV9wLW9ORlJOVzZzbHd3SXJkbE1kQmNwVlA2SVVvUF83ZUx6SjZKd1BtdzA4cmszU2lSa0NGZk1OYjBQQXdQdER1Q0V6RzhDSUJqTndjMGMwdVhaZHFoSFg4OC03VGtKZ1R1blRVVEZYOVVIeXhPd19sVWRNZ05EUkJwa1FPVWlzbkNFcHdWNU1icHRDeDBqRVNyS1l3UUd2WTVFdDBJNXgybUJh0gGSAkFVX3lxTFA2Ny1RQzlKdFhUOS00TFR5bzdZNDctaVVuX243U0VOMHJXX1NVaFloTnY3TG5CNGxfRHZoeFZEQUZERHhlMVFTRTZ1c185U0k1c3lERmMzOWN3X3BFVEFyVjFFaEIxaDhXVE1FNld2V2lPWV9TekVza2VTbXd5ZHdzaEVHdENoa2MzM3FiWmRsNUd5cjJqRXdfVUpjelhqZUhkZEVqeTN5R1g5a2Nzc0ZSaVd0R1V2dlJUaEdwRmJjbEpTUVlwdWNFZmRCUWN1Y2dkcjIwM1ZiRzNpRVAxTk9YSFpFdV9ibTJXa1ZhZUJDMGUzVnRNYzgwZzBzVGhPbHRhM1MwSVFraldzQ2o1bW5zaGc?oc=5",
+   "fonte": "p-rainews",
+   "fonte_nome": "Rai News Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Il New York Times: \"Alice Huang era in contatto con gli 007 cinesi\" RaiNews",
+   "pubblicata": "2026-11-23T03:52:00Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
    "prof": []
   },
   {
@@ -3373,31 +5816,6 @@
    "luogo": null,
    "nicchia": "auto",
    "prof": []
-  },
-  {
-   "id": "4a8ae5741e9dd888",
-   "titolo": "Auto: dal nuovo Codice della Strada a The Car of The Year, tutte le novità in edicola Sarà un 2027 ricco di novità, sia riguardo i modelli in arrivo che per le regole di ingaggio per emissioni e automobilisti. Finaliste del COTY saranno in prova a Milano",
-   "link": "https://www.auto.it/news/edicola/2026/11/16-9295490/auto_dal_nuovo_codice_della_strada_a_the_car_of_the_year_tutte_le_novit_in_edicola",
-   "fonte": "a-autoit",
-   "fonte_nome": "Auto.it",
-   "tipo": "stampa",
-   "aree": [
-    "normativa_auto",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-23T03:01:17Z",
-   "metodo": "scraping",
-   "sotto": [
-    "normativa_auto.codice",
-    "novita_auto.modelli"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": [],
-   "altre_fonti": []
   },
   {
    "id": "50cd348145dd2a2f",
@@ -7123,6 +9541,31 @@
    "luogo": null,
    "nicchia": "politica",
    "prof": []
+  },
+  {
+   "id": "80a417855cccde3e",
+   "titolo": "49/2026 - Normattiva",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SS1RKYUxWNHZzaWFxMDJtc0ZkelllSmRVY0NGaEZ2X0FNREJkYnlJZGExS3pGSzRwbXhHaGdTOGV4bHZVc0hObDRzNWpHUEJ1LUp4TmRYb01SMXBXU0tqSmFQb1F3bVN2c3VNVEpJU3ZuRi1m?oc=5",
+   "fonte": "f-normattiva",
+   "fonte_nome": "Normattiva (leggi e decreti vigenti)",
+   "tipo": "ufficiale",
+   "aree": [
+    "norme"
+   ],
+   "normativa": true,
+   "sintesi": "49/2026 - Normattiva Normattiva",
+   "pubblicata": "2026-11-23T02:01:04Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "avvocato",
+    "commercialista",
+    "ingegnere",
+    "perito"
+   ]
   },
   {
    "id": "fc2eebe01e05253f",
@@ -24426,29 +26869,6 @@
    "prof": []
   },
   {
-   "id": "5471f9845544666f",
-   "titolo": "Il suicidio di De Gennaro, la politica si interroga. Crosetto ricorda \"l'amico Gianni\"",
-   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPV3c1ZHA5cU94MXB5RDc3VnRab214XzlzY1FPeG1SdXlfRklTWHJEYVUzVE81eGViMUdGWE11cm5oVUhva1VVQ2cyRm1TdUlnWmRYeWlRN19PLXd6TUJhb2hlc1J2bTNTYWM3dnhjYURIRTdVbjEwX21BMmRkT0JPbUQtOVRfSFdnOVc3RVA5WGZkYkU4WHpWc1VMc3hPd09Ndll1UTFyLVBxYUQxYzVpSXVqTjRhLVEtVVFNLW5QZUFZeTRjWDk3bWk1cGJVcG15MzRhR3JWZkN1RVljSXFvMUlmMUtJZ0tVdkd0TmdDS0tzNFpLcngxMtIB_gFBVV95cUxOa0RVdUVub3U1TTUwdWJ4WnN0ZWhCMFhxYVNGd2RfVGdQWlpUaFpFZm1YMVVlYnAwX00wOF80clJENy1FN3dJdkp6NGl1OS03aHhIVzc4WVdSbm5mQ2t3YnRYSHFiRW9vRjJmLXFJUlgyQ1BnYWgxeXV4ZkxPLVlxM2pLZnBXSUJYcEthR3ZrcV9MY0MtYzFzZnZWXzI4UTN6N2NEZFF3UFBoVTVzSVhUX0YzVS1wT2NBSUtfT1NNQ21uZ19OdXFVd3NuNHB0Sl9iZTdyaTR2emw1SXd2ZWszMVc2RXVYdVZSY2h0dmEwbzd5LTlfZXVld3ByWUNiQQ?oc=5",
-   "fonte": "p-rainews",
-   "fonte_nome": "Rai News Politica",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Il suicidio di De Gennaro, la politica si interroga. Crosetto ricorda \"l'amico Gianni\" RaiNews",
-   "pubblicata": "2026-11-22T19:27:00Z",
-   "visto": "2026-11-22T20:01:00Z",
-   "metodo": "gnews",
-   "sotto": [
-    "esteri.difesa"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
    "id": "511d735086eb9694",
    "titolo": "Tennis, Alcaraz vince le Atp Finals",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUXZ6WDJqU1VFNFdFQzBQX3E2LVhtSk84aGQxLXdWNk1OMEprT19ORnZUd1FvTHFVblBmb3ltM2JpVlZVV1UyanJwVmNlT2RNZy1QcG14Mnp6UXREY0h5SFFXWU5iWTlKeTg2S2Z3ZEtnRUFmZmtJZTYtMmZ2bURiMHVaOGpxX05EMFpodDhCalF4N3c3MjBXcjJ4YTVlbHNRWkdwZWlFSTNqcUIxcE5NXy0wbUVidGFlVkhV0gHAAUFVX3lxTE5yS1c4UVhfRzJiUWNTRlZzVjI4dExfM3ZUMFpTQllHdjhsMDdybnQxVUV6Rm5JOVczNjNBeUZ5cExDbXBESVdMbVhUOHdJUFJSa1JCYjhobGdIeFFBeUNCanVXZVlVOUJpeHRjQnBXVFNyMXpnSWplS2RhblVQeWctdERIaURra3RDMW5KZDNyNTBQN290amV4NGJzZkpCYkh1UEhyalQzRk9oUm80QWw3S1BnNGhRTUt1d0dQVUJSbQ?oc=5",
@@ -24769,6 +27189,30 @@
    ]
   },
   {
+   "id": "61b21020743d3c42",
+   "titolo": "Il suicidio di De Gennaro, la politica si interroga. Crosetto ricorda \"l'amico Gianni\"",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOa0RVdUVub3U1TTUwdWJ4WnN0ZWhCMFhxYVNGd2RfVGdQWlpUaFpFZm1YMVVlYnAwX00wOF80clJENy1FN3dJdkp6NGl1OS03aHhIVzc4WVdSbm5mQ2t3YnRYSHFiRW9vRjJmLXFJUlgyQ1BnYWgxeXV4ZkxPLVlxM2pLZnBXSUJYcEthR3ZrcV9MY0MtYzFzZnZWXzI4UTN6N2NEZFF3UFBoVTVzSVhUX0YzVS1wT2NBSUtfT1NNQ21uZ19OdXFVd3NuNHB0Sl9iZTdyaTR2emw1SXd2ZWszMVc2RXVYdVZSY2h0dmEwbzd5LTlfZXVld3ByWUNiQdIB_gFBVV95cUxOa0RVdUVub3U1TTUwdWJ4WnN0ZWhCMFhxYVNGd2RfVGdQWlpUaFpFZm1YMVVlYnAwX00wOF80clJENy1FN3dJdkp6NGl1OS03aHhIVzc4WVdSbm5mQ2t3YnRYSHFiRW9vRjJmLXFJUlgyQ1BnYWgxeXV4ZkxPLVlxM2pLZnBXSUJYcEthR3ZrcV9MY0MtYzFzZnZWXzI4UTN6N2NEZFF3UFBoVTVzSVhUX0YzVS1wT2NBSUtfT1NNQ21uZ19OdXFVd3NuNHB0Sl9iZTdyaTR2emw1SXd2ZWszMVc2RXVYdVZSY2h0dmEwbzd5LTlfZXVld3ByWUNiQQ?oc=5",
+   "fonte": "p-rainews",
+   "fonte_nome": "Rai News Politica",
+   "tipo": "stampa",
+   "aree": [
+    "esteri",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Il suicidio di De Gennaro, la politica si interroga. Crosetto ricorda \"l'amico Gianni\" RaiNews",
+   "pubblicata": "2026-11-22T19:15:40Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [
+    "esteri.difesa"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": [],
+   "altre_fonti": []
+  },
+  {
    "id": "c93db99f3abaadb1",
    "titolo": "Zero rincari per 2 anni: ecco l’offerta luce e gas di Octopus per tagliare le bollette",
    "link": "https://www.html.it/magazine/zero-rincari-per-2-anni-ecco-lofferta-luce-e-gas-di-octopus-per-tagliare-le-bollette/",
@@ -24922,6 +27366,26 @@
    ],
    "luogo": null,
    "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "6c54ccde3a631eef",
+   "titolo": "Nazionale",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SODFFZ3pQclBhaHVMQmZ1dE1IengxSHRhb2dOOVVUV1JGbUFocEpvbkdSOTFCVV9scVhtTVFFQm1BQWNkX1NjLXZTVDVSa0ZsNmZpLVNkeU82dER2YmdmZXVQX19IQk04Znc?oc=5",
+   "fonte": "p-giornale",
+   "fonte_nome": "Il Giornale Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Nazionale il Giornale",
+   "pubblicata": "2026-11-22T19:05:04Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
    "prof": []
   },
   {
@@ -32403,6 +34867,30 @@
    "prof": []
   },
   {
+   "id": "09c8cac70a5b4cd2",
+   "titolo": "Primark apre il suo primo negozio in Umbria il 24 novembre 2026",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQURIbkxDZ1R3Q19wa3B2QzJ0RmNEaGIyNzZ3S0h3MElzQWFNUldnWTlDMVBMZUp4dlFPV1FBaElTR3BfenNDenczNWdnRmFfMzloNE1LTi12eFZyVS03TWVZc0FQNXlIbjNTVzJNZGxQZV9sc2NlNW1URlhzX0o0QjdRSnRONndmcWVxWEI4Q2RDdkxDTnBsOERnSklERVBkSGpiYjZFQWdrWDY0NDRSN09JUlR0d1JlbDF5WU96XzBPb0ZJ?oc=5",
+   "fonte": "pr-anpal",
+   "fonte_nome": "ANPAL e politiche attive",
+   "tipo": "ufficiale",
+   "aree": [
+    "hr"
+   ],
+   "normativa": true,
+   "sintesi": "Primark apre il suo primo negozio in Umbria il 24 novembre 2026 Primark Corporate",
+   "pubblicata": "2026-11-22T16:13:17Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "hr",
+    "formatore",
+    "consulente_lavoro"
+   ]
+  },
+  {
    "id": "57642dc28480ae6b",
    "titolo": "Iran, i Pasdaran presentano un nuovo lanciamissili all’interno di un complesso sotterraneo",
    "link": "https://www.lapresse.it/esteri/2026/11/22/iran-i-pasdaran-presentano-un-nuovo-lanciamissili-allinterno-di-un-complesso-sotterraneo/",
@@ -37672,6 +40160,29 @@
    "prof": []
   },
   {
+   "id": "0f402afb6372d9ff",
+   "titolo": "Influenza, l’Ema apre ai vaccini a mRNA: ecco cosa cambia per la stagione 2026-2027",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNamJMSlFhVkNFZEdCaWxTdlljUmZOazlscWJJd1p2Y1EzLXBWUldOVy1xU2I0OEVIeUdQYVpRWDhkM0hvRGg3MTd2dmU4ZUd0MUlVUnowSEYzMWxsd1YwTnMtV1A0R05yMXloY3h6bWNheXkwekt4Nk9jdU01MFBjOEZjMEFvSGNrVUIwRFpIamNDaVRldnlsRE95Nktnd2p1ZU9ZcjhDeDdpYmNrYV9KTnFPNWx5cUdyMDFkNVA1WGJBbUlGVEViVGNfQ0RzYW1XUlpUeDJIZjJ2eGRSVFpJSUJB?oc=5",
+   "fonte": "a-codice-strada",
+   "fonte_nome": "Codice della strada",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "normativa_auto"
+   ],
+   "normativa": false,
+   "sintesi": "Influenza, l’Ema apre ai vaccini a mRNA: ecco cosa cambia per la stagione 2026-2027 La Nuova Sardegna",
+   "pubblicata": "2026-11-22T14:34:00Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.modelli"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "e46a5f70a22e4b82",
    "titolo": "MotoGP, Marc Marquez campione del mondo per la decima volta: a Portimao vince Bezzecchi",
    "link": "https://www.dire.it/22-11-2026/1292276-motogp-portimao-marc-marquez-campione-mondo-decimo-titolo-bezzecchi/",
@@ -42069,6 +44580,26 @@
    "sotto": [
     "offerte_auto.km0"
    ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "04479de55c2e4983",
+   "titolo": "Massimo Bossetti esce dal carcere per lavorare: \"Mi tremano le gambe, ma cos'è Whatsapp?\"",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6WWJDdVBibzZNNzJ3c1FFOEdrUmJwY01zVHFUblA0LXFBZHRJRy0xVmVBblZ6VlZiSTNNWmwxbWRrZEFNQm5JTkU1cFVrbWUzM2twc0ZFZTktRDd4TDdVTWR0YU1QQVZVZ3ctZXkwcHhNNXczbl9WOGZB?oc=5",
+   "fonte": "a-codice-strada",
+   "fonte_nome": "Codice della strada",
+   "tipo": "stampa",
+   "aree": [
+    "normativa_auto"
+   ],
+   "normativa": false,
+   "sintesi": "Massimo Bossetti esce dal carcere per lavorare: \"Mi tremano le gambe, ma cos'è Whatsapp?\" BresciaToday",
+   "pubblicata": "2026-11-22T13:09:08Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [],
    "luogo": null,
    "nicchia": "auto",
    "prof": []
@@ -55293,6 +57824,29 @@
    "prof": []
   },
   {
+   "id": "398cc415347d31fd",
+   "titolo": "In Francia l’auto elettrica inizierà a dare energia alla rete",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE93RWRNdHVjOVVmcHNCeGtyb0J6UkE4Zk96VWRRd3NSMXB6NmVZSWlnUHg3dGZuSWlQYWVJMEFndTZxZVRILS02N1BGbHlfeXlXWFVpM2pfNUFZaFZiMzFNMlA4TTB6MnNBT1R0NEYyUk5BUQ?oc=5",
+   "fonte": "am-carburanti",
+   "fonte_nome": "Prezzi carburanti e energia",
+   "tipo": "stampa",
+   "aree": [
+    "elettriche",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "In Francia l’auto elettrica inizierà a dare energia alla rete InsideEVs Italia",
+   "pubblicata": "2026-11-22T08:36:18Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [
+    "elettriche.ev"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "72c5be93c1c12abb",
    "titolo": "Con Ring Intercom rispondi al citofono dallo smartphone: ora in offerta al prezzo più basso mai visto",
    "link": "https://images.dday.it/DrXCR7NkJz_9jz1hsK06C_tqkChZxJ6c81_n_U9kmWA/w:329/h:256/rt:fill/plain/s3://dday-production/system/uploads/news/square_crop_img/58287/b0113e_Amazon_-_Slates_-_Hedge_-_Primary.jpg",
@@ -56563,6 +59117,28 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "ae186a15040a8ecd",
+   "titolo": "Anche una piccola crepa sul parabrezza può bocciare l'auto alla revisione",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1lTVIyRFk5WUVIUjJSNGcwMWs2YV9KTzFELVBMNzZKUkpFUUY0aG5CMlBsaEQwaHJpdmowQUoyNGVlcURjWU1aUXFPRnpTNXB6T3IySGFZWlQxUFFDeF9yOEM2MUM4RXJTblFpTHhXeVJVSW5wWThHMGN3?oc=5",
+   "fonte": "a-codice-strada",
+   "fonte_nome": "Codice della strada",
+   "tipo": "stampa",
+   "aree": [
+    "normativa_auto"
+   ],
+   "normativa": false,
+   "sintesi": "Anche una piccola crepa sul parabrezza può bocciare l'auto alla revisione Motor1.com Italia",
+   "pubblicata": "2026-11-22T08:11:41Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "gnews",
+   "sotto": [
+    "normativa_auto.burocrazia"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
    "prof": []
   },
   {
@@ -63321,6 +65897,29 @@
    "prof": []
   },
   {
+   "id": "7a6c349609362e0b",
+   "titolo": "GP Las Vegas 2026: ordine d'arrivo e risultati",
+   "link": "https://www.motorbox.com/auto/sport/f1/gran-premi/f1-gp-las-vegas-2026-strip-risultati-classifica-ordine-di-arrivo",
+   "fonte": "a-motorbox",
+   "fonte_nome": "Motorbox",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "La Formula 1 torna in pista per il 21esimo appuntamento del Mondiale 2026 e stavolta a ospitare il paddock della F1 è la prima tappa del terzetto finale di GP che…",
+   "pubblicata": "2026-11-22T06:30:00Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [
+    "motorsport.f1"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "417fdcbd031eff06",
    "titolo": "Rolls-Royce Phantom VI: auto d'epoca elettrica all'insediamento del Lord Mayor di Londra",
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBaQzNfdlFtZElXXy1zZGtEY3IzcmJNM0RTZjJJcDhVOG9jT1NLc2FRNjR0RVliS1dvSmRkUXlldVZpa1otQmNxeGpIcVFjT2VxSkZSYkwzOHlMam9hbG4yQlJjLTBoOC1RbGtJcjhmMFoyTGJT?oc=5",
@@ -66013,6 +68612,39 @@
    "prof": []
   },
   {
+   "id": "f8ddba83e392b3ea",
+   "titolo": "INFODATA ENERGIA",
+   "link": "https://www.qualenergia.it/pro/documenti/quota-rinnovabili-4-9-21-31-pun-5-9-21-e-mwh-11309-petrolio-wti-b-6929-co2-3-9-21-e-ton-6133/",
+   "fonte": "pr-qualenergia",
+   "fonte_nome": "QualEnergia e rinnovabili",
+   "tipo": "stampa",
+   "aree": [
+    "energia",
+    "bonus"
+   ],
+   "normativa": false,
+   "sintesi": "SOMMARIO Rinnovabili elettriche: dati giornalieri, settimanali, mensili Prezzo unico nazionale (PUN) ed esteri Prezzi petrolio e gas Prezzi CO2 e certificati bianchi…",
+   "pubblicata": "2026-11-22T05:30:00Z",
+   "visto": "2026-11-23T05:00:59Z",
+   "metodo": "rss",
+   "sotto": [
+    "energia.rinnovabili",
+    "bonus.energia"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "data",
+    "ingegnere",
+    "impiantista",
+    "commercialista",
+    "geometra",
+    "architetto"
+   ]
+  },
+  {
    "id": "f6a5f270bd2ece90",
    "titolo": "Offerte promozionali di gennaio e febbraio 2020: sconti e leasing operativo",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTkpweFl2V0RfRGx4aW1jMWMyN0U2SXdma05TWkVvd1hYeFRDd3plSDRDU0IzT29GdU1oTlp0TndRbTF0MjRzdGJfcklpRm9pVUcwQ3VRT0RoQS1aaUxEUU91dzRlMU50YkdvYTJFN195ZTFwSE9nRF9TTm54c2VkWjduUG50bGkxSEt6V291VGx2QUJOUXFISTg1N2JKbWNwSFFB?oc=5",
@@ -67098,7 +69730,8 @@
    ],
    "luogo": null,
    "nicchia": "auto",
-   "prof": []
+   "prof": [],
+   "altre_fonti": []
   },
   {
    "id": "a1d83191a2b2780f",
@@ -67122,7 +69755,8 @@
    ],
    "luogo": null,
    "nicchia": "auto",
-   "prof": []
+   "prof": [],
+   "altre_fonti": []
   },
   {
    "id": "c400d365c4ef9128",
@@ -67718,7 +70352,8 @@
    ],
    "luogo": null,
    "nicchia": "auto",
-   "prof": []
+   "prof": [],
+   "altre_fonti": []
   },
   {
    "id": "227dec7db792952c",
@@ -86774,7 +89409,8 @@
     "giornalista",
     "marketer",
     "grafico"
-   ]
+   ],
+   "altre_fonti": []
   },
   {
    "id": "366cf6a3dccabbbe",
@@ -109838,30 +112474,6 @@
    "normativa": true,
    "sintesi": "Autovelox a Messina, controlli sulle autostrade A18 e A20: ecco i giorni e le tratte dal 23 al 29 novembre StrettoWeb",
    "pubblicata": "2026-11-21T11:06:00Z",
-   "visto": "2026-11-23T04:02:23Z",
-   "metodo": "gnews",
-   "sotto": [
-    "normativa_auto.codice",
-    "mezzi.pesanti"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "20028778c8c2d6a9",
-   "titolo": "Autovelox a Messina, controlli sulle autostrade A18 e A20: ecco i giorni e le tratte dal 23 al 29 novembre",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTWJ4OGhRYXRzd2tIQ2IyOUZLTUZqYl9WMVNpdnJQRnRHbDk0a2hfTEp1dlA2NHZIQ28wSG1nWFJGMEVwR0h4UGpfVTJFeEtnTGZwSXQtOXZXUEVsTzNhRmJrekl1UXZUWG5MVFdfcmN3Z1IteUhNc0V6aXVDNTNRV2lGN3BmUHdlQWlWQjVLbVZTMTVqdDlOM3pIdkZxVE1TVFUzdWtJVlF1TWxqZ2xXV1dWdzZQRnplTUVJUGNEZ0Y0SVpuSmQ4cnM2VDRoZ1Q3a2FzZHNNeFlIVVYzRTFPNXpR0gHnAUFVX3lxTE9fWVFtMEt0MEU4TmxHTlFZcjdXZlE4R3hNZ1h4eXhPZnpBVE1DeWFwSXA1TnVxdTBPVlR5bHZxZHphdGlXaTMxbUNnZzJMR1dtN3A2OHotUUVqZktfMFU5MWRZTmNySWpQQl94Q3ZoTnZYZTVqMzZpZkJ5d296TkFqaGtZbkdGOW9nQzhfMWoya2NiUE5xaUVVdFhocktwNkI1WGJ4bXdIZWlKTF94cWhoWmM0YnJDRUJyOHB3UFZLR3ZhVUpXcTNGV0ZsaV9FaTJtTVZHelVxRnRaRlVtalpsQTQ0SnNGdw?oc=5",
-   "fonte": "a-polstrada",
-   "fonte_nome": "Polizia Stradale",
-   "tipo": "ufficiale",
-   "aree": [
-    "normativa_auto",
-    "mezzi"
-   ],
-   "normativa": true,
-   "sintesi": "Autovelox a Messina, controlli sulle autostrade A18 e A20: ecco i giorni e le tratte dal 23 al 29 novembre StrettoWeb",
-   "pubblicata": "2026-11-21T11:06:00Z",
    "visto": "2026-11-23T03:52:30Z",
    "metodo": "gnews",
    "sotto": [
@@ -121470,34 +124082,6 @@
    "luogo": null,
    "nicchia": "auto",
    "prof": []
-  },
-  {
-   "id": "c830974049a533ce",
-   "titolo": "Carburanti, i prezzi di benzina e diesel sabato 21 novembre",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSFlEa1NrUUt3WTRxRFNIZGFITWg3LVc4ODA1YThvZWgtSU5fMmtnamF4cG45LWsyZ09vX1ppdVhCNlluMTl5akd5cmJ1T3hUaExNdGF0MzFpYlBCWnNabEdzSUlFaVN6cTIzR0lSTnFpNTFwcGZoeDJ1V1hPcGFmNmJnTUQyT1NnWW05bk1FVmtfUU9TaWg1OHRDamo2WVZoeHdtdmZDeDdjeHpfdnhHWHdOUDMybEoxQkhfLU1pQWktZXJXQ0l3Y3dIdkpWWjBSMHRlanA2ZVFJUdIB3wFBVV95cUxOSjgyT1ZEcDhicy1qQUhKU0FvTEZpZnpERjYxbWM0a0dud05qZ1R2Z09jVm5MUXRRN1BkV0hEVE1UbDhoVUpuQURwaFJiT3hoWFY3X1YwZnlFWktMaWJfUmx0T3BRVW5Wenk4dWlkaGJfQXFfcTRBc2szZThxb3owNDNHZU9QZ2otSTJ3Q25wSGZweFJYQjN2UUZqdVp4X3piQlUweV9BMmdxWXVNd1lJSlphd3RPdkF5YWJGMjJ0NXlhVmxQQldxdHpNZ1Z4a0s3WTA3V0tnUzRUM1NBQzFn?oc=5",
-   "fonte": "am-carburanti",
-   "fonte_nome": "Prezzi carburanti e energia",
-   "tipo": "stampa",
-   "aree": [
-    "elettriche",
-    "mercato_auto",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "Carburanti, i prezzi di benzina e diesel sabato 21 novembre Auto",
-   "pubblicata": "2026-11-21T08:28:00Z",
-   "visto": "2026-11-23T01:59:51Z",
-   "metodo": "gnews",
-   "sotto": [
-    "elettriche.ibride",
-    "mercato_auto.prezzi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": [],
-   "altre_fonti": [
-    "Auto.it"
-   ]
   },
   {
    "id": "2c072bd424c059c3",
@@ -137049,2584 +139633,6 @@
    "nicchia": "auto",
    "prof": [],
    "prezzo": "20.000 €"
-  },
-  {
-   "id": "a209a729f60ad91c",
-   "titolo": "Steam Machine da 512 GB senza coda e stop al 2 TB",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTW1halJIWGk1enZLZWdONmg0aWIzLVpDRG5xd2hMcHFBelpVVjZQTXp2dVk1UUNrQzY3LWw1dzNENmhFNF9jLU9ZVTRub0l2SnBHNVNTRWNyazRVc214YzBvZ2ZwUnJQeGMzMFhGX2lzQThZdXpkX2NSXzJFVFRmSVpOaXVzQQ?oc=5",
-   "fonte": "t-prezzi-gaming",
-   "fonte_nome": "Offerte gaming",
-   "tipo": "stampa",
-   "aree": [
-    "gaming",
-    "offerte"
-   ],
-   "normativa": false,
-   "sintesi": "Steam Machine da 512 GB senza coda e stop al 2 TB Top Games Italia",
-   "pubblicata": "2026-11-21T06:09:28Z",
-   "visto": "2026-11-21T18:01:01Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "ba0a418895adab60",
-   "titolo": "DACIA Spring Electric 45 Business Prezzo, Consumi e Configuratore",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNN2ljT21mdTc1RTZKUWQ3bDNEZkQteWV4VnNtMDEzcnA0cnJ6WVd0LWFTZnJ4NFJnZ2dHWHNiTU9sejZDMF9FcGRwOUZqRHNPZDNINHpRMmlXMHc4cGtQbm9FRVVPbGE0VEg0akV5S0MxUGJiWnVlWEZHTmhzYkdhU0R0amlkOWhvY1ZDalhpOW5TcjhESXFuY0NR?oc=5",
-   "fonte": "a-quattroruote",
-   "fonte_nome": "Quattroruote",
-   "tipo": "stampa",
-   "aree": [
-    "tecnica_auto",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "DACIA Spring Electric 45 Business Prezzo, Consumi e Configuratore Quattroruote",
-   "pubblicata": "2026-11-21T06:08:56Z",
-   "visto": "2026-11-21T20:01:14Z",
-   "metodo": "gnews",
-   "sotto": [
-    "tecnica_auto.motori",
-    "novita_auto.marchi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "99ae1685b2d33dcb",
-   "titolo": "Corsi scuole, il catalogo della Tecnica della Scuola: assistenza telefonica e tutor per docenti e dirigenti",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOM21BWVJhMWgzYUpIUlNTaUpWaVoxd1JmejMyLVhrd29UUVpZNFAtYlBSMXoyazZlaVNuRTMxYlJBUW9McmZZN1ZkcEJyTkN0TzhlWXJPR0NhTU9vOC1IVmFWT3pvRW9TY1VuNmxzWHh4ek1LaXZGYVhmS0tkelk4Z1RFeWd1RUFBSmJmcFNxaXk3RFRUN01KajJLS2xfV2p0NzB1NzFkeXdzbjZEYml2S0ZOemNuOXFnSUNhVDhCUUk4b0pHcklqaFBPSm45dDMyM2lDT2Nn?oc=5",
-   "fonte": "pr-scuola",
-   "fonte_nome": "Orizzonte Scuola e Tecnica della Scuola",
-   "tipo": "stampa",
-   "aree": [
-    "formazione_cultura",
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "Corsi scuole, il catalogo della Tecnica della Scuola: assistenza telefonica e tutor per docenti e dirigenti Tecnica della Scuola",
-   "pubblicata": "2026-11-21T06:06:55Z",
-   "visto": "2026-11-21T07:01:14Z",
-   "metodo": "gnews",
-   "sotto": [
-    "formazione_cultura.scuola",
-    "management.manager"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus",
-    "manager",
-    "formatore",
-    "consulente_az",
-    "compliance"
-   ]
-  },
-  {
-   "id": "c86b23183f440936",
-   "titolo": "DACIA Spring Electric 45 Comfort Plus Prezzo, Consumi e Configuratore",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQW1IRVhvWmlmU0lnVDRTZzdhRVRBd3E0SjBDNE5NT0lkVG5kM0gxZ0IwTFh6Xy1yRHZ6X0JJamVsWV9pRGZJNVA4Z1ZVMWc5ZnlScnBsNkp0ai1CN2xpczlVaG9zcjJJbHlhckVqdFFUV2Zod1E5ZjQ4U180SXNyanVnMWJlSVd0cnZPd2RyZ1Q1Zm5YVGpwMmN3QU5BZEk?oc=5",
-   "fonte": "a-quattroruote",
-   "fonte_nome": "Quattroruote",
-   "tipo": "stampa",
-   "aree": [
-    "tecnica_auto",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "DACIA Spring Electric 45 Comfort Plus Prezzo, Consumi e Configuratore Quattroruote",
-   "pubblicata": "2026-11-21T06:05:57Z",
-   "visto": "2026-11-21T11:01:03Z",
-   "metodo": "gnews",
-   "sotto": [
-    "tecnica_auto.motori",
-    "novita_auto.marchi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "33ec0650bc89037b",
-   "titolo": "L'auto elettrica si deve ricaricare pure su GTA VI",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRRFQtMGdZNjZ6cVE0U1lQanljSkxFTS13QVpwODAycS05MnRKY2VvNDhTakF4eHpSZE1qZWh6N2xMZXR5Q21FcGF4YzA1SlBGd28xcWtIUXp4UUZzbWxxY0ZCVldlU1AySEw2MF9ldzQxYlU?oc=5",
-   "fonte": "am-carburanti",
-   "fonte_nome": "Prezzi carburanti e energia",
-   "tipo": "stampa",
-   "aree": [
-    "elettriche",
-    "mercato_auto"
-   ],
-   "normativa": false,
-   "sintesi": "L'auto elettrica si deve ricaricare pure su GTA VI InsideEVs Italia",
-   "pubblicata": "2026-11-21T06:05:32Z",
-   "visto": "2026-11-21T16:01:02Z",
-   "metodo": "gnews",
-   "sotto": [
-    "elettriche.ev"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "e8894fcfb65878d2",
-   "titolo": "F1 | Hamilton eliminato in Q2: il fondo rotto e un problema di erogazione di energia sono stati decisivi",
-   "link": "https://it.motorsport.com/f1/news/f1-hamilton-eliminato-in-q2-il-fondo-rotto-e-un-problema-di-erogazione-di-energia-sono-stati-decisi/10876257/",
-   "fonte": "a-omnicorse",
-   "fonte_nome": "Omnicorse",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "Lewis, così come Leclerc, è stato eliminato in Q2 a Las Vegas firmando una prestazione deludente.",
-   "pubblicata": "2026-11-21T06:05:04Z",
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "rss",
-   "sotto": [
-    "motorsport.f1"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "a648fdbb933581ac",
-   "titolo": "La nuova e-bike si piega in 10 secondi e fa 100 km",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE93dXd1eVR2V0VBclhtOU1LckczTlVtVVpYVHFXMHZHYTNWWTBiTGdtSUhKb0ZNLTFUSWlPVTN1bkJaclZDbVFJZEpYSWlEbFdCZVRfQ1dhV0RkdVpSR2N1SjFxMXU?oc=5",
-   "fonte": "a-ebike",
-   "fonte_nome": "E-bike e monopattini",
-   "tipo": "stampa",
-   "aree": [
-    "bici",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "La nuova e-bike si piega in 10 secondi e fa 100 km InsideEVs Italia",
-   "pubblicata": "2026-11-21T06:04:51Z",
-   "visto": "2026-11-22T02:01:01Z",
-   "metodo": "gnews",
-   "sotto": [
-    "bici.bici",
-    "novita_auto.modelli"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "236cd0ab52c4bc97",
-   "titolo": "Liti condominiali: l’ex proprietario salva il diritto all’ascensore",
-   "link": "https://www.laleggepertutti.it/811147_liti-condominiali-lex-proprietario-salva-il-diritto-allascensore",
-   "fonte": "f-legge",
-   "fonte_nome": "La Legge per Tutti",
-   "tipo": "stampa",
-   "aree": [
-    "immobiliare",
-    "pensioni"
-   ],
-   "normativa": false,
-   "sintesi": "Vendere casa cancella il diritto di contestare i vizi formali dell’assemblea, ma permette di impugnare le delibere nulle per difendere i propri beni.",
-   "pubblicata": "2026-11-21T06:02:46Z",
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "rss",
-   "sotto": [
-    "immobiliare.condominio"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "condominio",
-    "agente_imm",
-    "valutatore",
-    "notaio",
-    "consulente_lavoro",
-    "commercialista",
-    "tributarista"
-   ]
-  },
-  {
-   "id": "709613b34d2a6cf6",
-   "titolo": "Xpeng L03 PowerX: prova, autonomia, consumi e prezzo | Quattroruote.it",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcmt6T0drQ1cyZ1JmOTdzUU1qWlYzQTkteEN6UmVsLUhWTHlOWkgxYldTYjhuZUtqMThjV29jaFl0akNWRVN0SXRBMWVtck9IMU51VURzeHdFQ1RkbW5NVG0yY2tlU1pRVURUbmZjNW1aaE1aeTZ1amdGQS1NcUQzUV9fb1pFX2t5SWRlWVFsSDhaWUnSAZgBQVVfeXFMTlRYOHpHQ1VGcXZtdko3Uno4ZDZjQXVPbU5KT2M4VGpCWG5rX20ySm9ua19LdnlPWHpNQmVVOUtpNGZwY1BuNkM0bmVkMlQ3WnZMVnhoOHVsT0VhNFZycEJKZGxUVE02OV9rX0hwNEdoWGlNamVyRWg5dHk0a3pBTW5vVHVQdURQQWc2UFN0Mmo5aGtiX0hOQUI?oc=5",
-   "fonte": "a-quattroruote",
-   "fonte_nome": "Quattroruote",
-   "tipo": "stampa",
-   "aree": [
-    "tecnica_auto",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "Xpeng L03 PowerX: prova, autonomia, consumi e prezzo | Quattroruote.it Quattroruote",
-   "pubblicata": "2026-11-21T06:02:18Z",
-   "visto": "2026-11-21T11:01:03Z",
-   "metodo": "gnews",
-   "sotto": [
-    "tecnica_auto.motori",
-    "novita_auto.marchi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "9baa5c99f916fbb7",
-   "titolo": "Alfa Romeo Tonale plug-in hybrid: prova, consumi e autonomia - VIDEO",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPM2NIczdha01Hcnd0VzFnOWYxTVdUUlZQaXFaUFhFeWE2OXFZaVZYYkF2NVptRXlTQUR4Vk8xWWpLcndhTWdwQ010b3pmQ0k0SlVpMTNOemd3SDEtUU1mVk96TWxXT3V0elp0dkVVd3NvLU1EODJ1OTF2UmJ4Yks3MTR0cDZMS3M4QWwtaXVvcWZwYkE?oc=5",
-   "fonte": "a-quattroruote",
-   "fonte_nome": "Quattroruote",
-   "tipo": "stampa",
-   "aree": [
-    "elettriche",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "Alfa Romeo Tonale plug-in hybrid: prova, consumi e autonomia - VIDEO Quattroruote",
-   "pubblicata": "2026-11-21T06:02:18Z",
-   "visto": "2026-11-21T11:50:12Z",
-   "metodo": "gnews",
-   "sotto": [
-    "elettriche.ibride",
-    "novita_auto.marchi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "363a6c1e8323bb42",
-   "titolo": "Affitti commerciali: niente arretrati ISTAT sulle quote non richieste",
-   "link": "https://www.laleggepertutti.it/811434_affitti-commerciali-niente-arretrati-istat-sulle-quote-non-richieste",
-   "fonte": "f-legge",
-   "fonte_nome": "La Legge per Tutti",
-   "tipo": "stampa",
-   "aree": [
-    "legale",
-    "pensioni"
-   ],
-   "normativa": true,
-   "sintesi": "La Cassazione blocca i proprietari. L’aumento del canone vale solo per il futuro. Vietate le clausole automatiche e regole rigide sugli scaglioni.",
-   "pubblicata": "2026-11-21T06:01:54Z",
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "rss",
-   "sotto": [
-    "legale.avvocati"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "avvocato",
-    "notaio",
-    "curatore",
-    "consulente_lavoro",
-    "commercialista",
-    "tributarista"
-   ]
-  },
-  {
-   "id": "cbeee516b5b7c148",
-   "titolo": "\"Il femminicidio non è un fatto privato, lo dice la storia di Giulia Cecchettin\"",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNmhzSVh2TDFVa3lsUW5DeVFEQS1WV0F6eDhoQzFoNzhjTDNGUy1sT2k4Tmxfa3lFWDlhdDhJTnlQLWVERjFhcm9pTmZJRDNOdEFMLW85Ml8xOG9hWUtPWGpfLWM2Mkh6YmJnUmtQUmlDTHFDZkJPZjFmT3BDM3JyaFhXelZJbzZWRVJ0NWhFN2liSnMzWnNuWUtwbE9pS0lDdXJUSE1vNzZ1d3JhVmdz?oc=5",
-   "fonte": "p-fanpage",
-   "fonte_nome": "Fanpage Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "\"Il femminicidio non è un fatto privato, lo dice la storia di Giulia Cecchettin\" Fanpage",
-   "pubblicata": "2026-11-21T06:01:11Z",
-   "visto": "2026-11-21T07:01:14Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "8c7bb40ac6c6e391",
-   "titolo": "Fattura elettronica 2027 nuove specifiche tecniche 110",
-   "link": "https://www.fiscoetasse.com/new-rassegna-stampa/4831-fattura-elettronica-2027-nuove-specifiche-tecniche-110.html",
-   "fonte": "fiscoetasse",
-   "fonte_nome": "Fisco e Tasse",
-   "tipo": "stampa",
-   "aree": [
-    "norme"
-   ],
-   "normativa": false,
-   "sintesi": "Dal 2027 via alle nuove specifiche tecniche per la fatturazione elettronica: le Entrate spiegano l'aggiornamento. Codice RF21, per identificare il regime forfetario",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "rss",
-   "sotto": [
-    "norme.uni"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "ingegnere",
-    "perito"
-   ]
-  },
-  {
-   "id": "4d05d46ecf70b54f",
-   "titolo": "Crediti d’imposta ceduti, quando e come pagare con F24",
-   "link": "https://www.consulentidellavoro.it/home/storico-articoli/20033-crediti-d-imposta-ceduti-quando-e-come-pagare-con-f24",
-   "fonte": "f-cdl",
-   "fonte_nome": "Consulenti del Lavoro",
-   "tipo": "ordine",
-   "aree": [
-    "dichiarazioni",
-    "lavoro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "dichiarazioni.730"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro",
-    "hr",
-    "formatore"
-   ]
-  },
-  {
-   "id": "2de9a9ff1036de04",
-   "titolo": "A Bruxelles hanno scoperto che alle auto serve la retromarcia",
-   "link": "https://www.italiaoggi.it/economia-e-politica/opinioni/a-bruxelles-hanno-scoperto-che-alle-auto-serve-la-retromarcia-hq9w4nrv",
-   "fonte": "f-italiaoggi",
-   "fonte_nome": "ItaliaOggi: fisco e lavoro",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "7077dae2eb25adc1",
-   "titolo": "Adesso la sinistra può pure essere antisemita",
-   "link": "https://www.italiaoggi.it/economia-e-politica/opinioni/adesso-la-sinistra-puo-pure-essere-antisemita-mi88bji9",
-   "fonte": "f-italiaoggi",
-   "fonte_nome": "ItaliaOggi: fisco e lavoro",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "f6e522b10e4477e7",
-   "titolo": "Rimborsi spese forfettari: l’arbitro confuso con i giocatori",
-   "link": "https://www.informazionefiscale.it/rimborsi-spese-forfettari-professionisti-interpello-agenzia-entrate",
-   "fonte": "f-infofisc",
-   "fonte_nome": "Informazione Fiscale",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "f9ae63341d1d7aaa",
-   "titolo": "Attualità Falso sito delle Entrate: nuova campagna di phishing 19 novembre 2026",
-   "link": "https://www.fiscooggi.it/portale/-/falso-sito-delle-entrate-nuova-campagna-di-phishing",
-   "fonte": "f-fiscooggi",
-   "fonte_nome": "Fisco Oggi (rivista del Fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "da6cd79636174ba3",
-   "titolo": "Viminale, accordo di cooperazione in materia di sicurezza tra Italia e Kenya",
-   "link": "https://www.interno.gov.it/it/foto-e-video/viminale-accordo-cooperazione-materia-sicurezza-italia-e-kenya",
-   "fonte": "p-interno",
-   "fonte_nome": "Ministero dell'Interno",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "giustizia.diritti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "ff56e94dd529d270",
-   "titolo": "F1: Verstappen in pole a Las Vegas, Antonelli il più veloce ma parte 6°'",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/21/f1-verstappen-in-pole-a-las-vegas-antonelli-il-piu-veloce-ma-parte-6_71f6d319-4547-44cf-b9d2-7a1d77566995.html",
-   "fonte": "p-ansa-pol",
-   "fonte_nome": "ANSA Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": [],
-   "altre_fonti": [
-    "Agenzia Dire"
-   ]
-  },
-  {
-   "id": "3b679c4b470a1910",
-   "titolo": "Sciopero, governo: ha partecipato 12% dipendenti pubblici Politica Il governo bolla lo sciopero generale della CGIL come una protesta politica, mentre il ministro... 20 nov - 21:13",
-   "link": "https://tg24.sky.it/politica/video/2026/11/20/sciopero-governo-ha-partecipato-12-dipendenti-pubblici-1141516",
-   "fonte": "p-sky",
-   "fonte_nome": "Sky TG24 Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo",
-    "economia_pol"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "governo.governo",
-    "economia_pol.welfare"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "c648ad85c0f9fe1f",
-   "titolo": "Fdi fa il vuoto: dov’è adesso il Pd. E c’è una sorpresa: l’ultimo sondaggio-bomba",
-   "link": "https://www.liberoquotidiano.it/news/politica/fdi-fa-il-vuoto-dove-adesso-il-pd-e-ce-una-sorpresa-lultimo-sondaggio-bomba/",
-   "fonte": "p-libero",
-   "fonte_nome": "Libero Quotidiano Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.elezioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "316b2c32402e24d5",
-   "titolo": "Le parole d’ordine registrate allo sciopero generale ci ricordano perché le battaglie della Cgil siano parte del problema e non delle soluzioni quando si parla di salari, di crescita e di lavoro. Un ripasso e una svolta necessaria",
-   "link": "https://www.ilfoglio.it/politica/2026/11/21/news/cercasi-sciopero-contro-lagenda-landini--414390",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "economia_pol",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "economia_pol.welfare"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "b26be8f72fe47c4e",
-   "titolo": "L’eccessivo ricorso allo sciopero generale depotenzia l’arma più importante del sindacato",
-   "link": "https://www.ilfoglio.it/politica/2026/11/21/news/leccessivo-ricorso-allo-sciopero-generale-depotenzia-larma-piu-importante-del-sindacato--414435",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "economia_pol",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "economia_pol.welfare"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "55fa508363025c7e",
-   "titolo": "I fondi Safe sono un'alternativa allo spalma-Superbonus",
-   "link": "https://www.ilfoglio.it/economia/2026/11/21/news/i-fondi-safe-sono-unalternativa-allo-spalma-superbonus--414427",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "5cd6958abfe83931",
-   "titolo": "L’Inghilterra è fortissima quando in palio non c’è nulla",
-   "link": "https://www.ilfoglio.it/sport/2026/11/21/news/linghilterra-e-fortissima-quando-in-palio-non-ce-nulla--414318",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "f330ffc29c701675",
-   "titolo": "Clemente Russo prova a salvare la boxe dalla noia",
-   "link": "https://www.ilfoglio.it/sport/2026/11/21/news/clemente-russo-prova-a-salvare-la-boxe-dalla-noia--414298",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "a4d9dbdd3f7057c2",
-   "titolo": "Gli ebook costeranno anche meno, ma non è così che si studia e si apprende",
-   "link": "https://www.ilfoglio.it/cultura/2026/11/21/news/gli-ebook-costeranno-anche-meno-ma-non-e-cosi-che-si-studia-e-si-apprende--414381",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "1d76654865d9943c",
-   "titolo": "La nomina del sostituto di De Gennaro scuote gli apparati. La corsa fra Augelli, Greco e Sirico",
-   "link": "https://www.ilfoglio.it/politica/2026/11/21/news/la-nomina-del-sostituto-di-de-gennaro-scuote-gli-apparati-la-corsa-fra-augelli-greco-e-sirico--414424",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "25ec74ed4da6d95d",
-   "titolo": "Il “risarcimento” di FI. Tajani vuole cancellare gli sconti agli ebook. E “prenota” misure per parlare alle imprese",
-   "link": "https://www.ilfoglio.it/politica/2026/11/21/news/il-risarcimento-di-fi-tajani-vuole-cancellare-gli-sconti-agli-ebook-e-prenota-misure-per-parlare-alle-imprese--414423",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "eb9814a63f37aa33",
-   "titolo": "Agenda Borghi (flop). Cronaca semiseria delle battaglie perse dal senatore più salviniano di Salvini",
-   "link": "https://www.ilfoglio.it/politica/2026/11/21/news/agenda-borghi-flop-cronaca-semiseria-delle-battaglie-perse-dal-senatore-piu-salviniano-di-salvini--414408",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti",
-    "governo.parlamento"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "b022f729e6a658c5",
-   "titolo": "Forza Italia apre il dibattito sul congelamento degli ovuli",
-   "link": "https://www.ilfoglio.it/politica/2026/11/21/news/forza-italia-apre-il-dibattito-sul-congelamento-degli-ovuli--414433",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "88752f2115df0b90",
-   "titolo": "Perché tassare gli istituti è un danno per tutti, in primis per le fasce più povere",
-   "link": "https://www.ilfoglio.it/economia/2026/11/21/news/perche-tassare-gli-istituti-e-un-danno-per-tutti-in-primis-per-le-fasce-piu-povere--414357",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "2e440209bbafe04e",
-   "titolo": "Sui conti Hsbc manda il G7 a lezione dall’Italia",
-   "link": "https://www.ilfoglio.it/economia/2026/11/21/news/sui-conti-hsbc-manda-il-g7-a-lezione-dallitalia--414413",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "82297b02580cf1dd",
-   "titolo": "L’inverno sarà duro, ma la primavera arriverà, con il nuovo Congresso, dice Zelensky",
-   "link": "https://www.ilfoglio.it/esteri/2026/11/21/news/linverno-sara-duro-ma-la-primavera-arrivera-con-il-nuovo-congresso-dice-zelensky--414406",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "38efab4a039aac51",
-   "titolo": "Come si organizza un convoglio diretto in Ucraina. L’iniziativa a Milano e i vuoti delle sinistre",
-   "link": "https://www.ilfoglio.it/esteri/2026/11/21/news/come-si-organizza-un-convoglio-diretto-in-ucraina-liniziativa-a-milano-e-i-vuoti-delle-sinistre--414349",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "a3e673482ab596d0",
-   "titolo": "“Da Wannsee a Khan Younis”, la menzogna arriva sul New York Times",
-   "link": "https://www.ilfoglio.it/esteri/2026/11/21/news/da-wannsee-a-khan-younis-la-menzogna-arriva-sul-new-york-times--414339",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "e6eb56ee9b415e8d",
-   "titolo": "La denuncia dei patriarchi cristiani: la nuova Siria è uguale a quella vecchia",
-   "link": "https://www.ilfoglio.it/chiesa/2026/11/21/news/la-denuncia-dei-patriarchi-cristiani-la-nuova-siria-e-uguale-a-quella-vecchia--414359",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "5d1f674a9e717e24",
-   "titolo": "In Iraq il ritiro delle milizie filoiraniane è un inganno",
-   "link": "https://www.ilfoglio.it/esteri/2026/11/21/news/in-iraq-il-ritiro-delle-milizie-filoiraniane-e-un-inganno--414397",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "0ca1943f6af810ba",
-   "titolo": "La recensione del film di Edoardo De Angelis, con Vanessa Scalera, Lino Musella",
-   "link": "https://www.ilfoglio.it/cinema/2026/11/21/video/il-fuoco-che-ti-porti-dentro--414373",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "19ac87f1f1d89709",
-   "titolo": "La recensione del film di Cristian Mungiu, con Renate Reinsve, Sebastian Stan, Giulia Nahmany, Alin Panc",
-   "link": "https://www.ilfoglio.it/cinema/2026/11/21/video/fjord--414371",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "4b4ee4d7360bff18",
-   "titolo": "La recensione del film di Francis Lawrence, con Jospeh Zara, Ralph Fiennes, Jesse Plemons",
-   "link": "https://www.ilfoglio.it/cinema/2026/11/21/video/hunger-games-lalba-sulla-mietitura--414369",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "1c61364fc0281029",
-   "titolo": "La Cina è indietro di anni nella produzione. Gli effetti delle restrizioni americane",
-   "link": "https://www.ilfoglio.it/esteri/2026/11/21/news/senza-chip-nvidia-pechino-ha-un-problema--414353",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "256a269bd4c564aa",
-   "titolo": "Hollande punta a essere colui che salva la Francia dagli estremismi",
-   "link": "https://www.ilfoglio.it/esteri/2026/11/21/news/hollande-punta-a-essere-colui-che-salva-la-francia-dagli-estremismi--414328",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "ea0a780553b8cb7a",
-   "titolo": "Salis vale sette. “L’anti Meloni” che non sfonda in libreria",
-   "link": "https://www.ilfoglio.it/cultura/2026/11/21/news/salis-vale-sette-lanti-meloni-che-non-sfonda-in-libreria--414394",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "ee8b85938b7445cd",
-   "titolo": "I commissari: dopo Provenzano in Sicilia, arriva Bonaccini in Veneto. Il metodo Schlein",
-   "link": "https://www.ilfoglio.it/politica/2026/11/21/news/i-commissari-dopo-provenzano-in-sicilia-arriva-bonaccini-in-veneto-il-metodo-schlein--414437",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "6dd70d705dcddddb",
-   "titolo": "Douglas & D’Alema. Lettura incrociata dei memoir dell’attore e del politico",
-   "link": "https://www.ilfoglio.it/cultura/2026/11/21/news/douglas-dalema-lettura-incrociata-dei-memoir-dellattore-e-del-politico--414383",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "6167636a2d34384f",
-   "titolo": "Che significa “adulto”? Domanda martellante ai tempi dell’uscita di GTA6",
-   "link": "https://www.ilfoglio.it/tecnologia/2026/11/21/news/che-significa-adulto-domanda-martellante-ai-tempi-delluscita-di-gta6--414400",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "0ab8a54590cb2299",
-   "titolo": "Un sapere che serve al mondo. Quale università nell’èra dell’AI",
-   "link": "https://www.ilfoglio.it/scuola/2026/11/21/news/un-sapere-che-serve-al-mondo-quale-universita-nellera-dellai--414354",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "economia_pol",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "economia_pol.welfare"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "489b234d9f6e4a5a",
-   "titolo": "Nella sanità gli antidoti contro la paura dell’AI",
-   "link": "https://www.ilfoglio.it/salute/2026/11/21/news/nella-sanita-gli-antidoti-contro-la-paura-dellai--414392",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "economia_pol",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "economia_pol.welfare"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "93d0656612e19335",
-   "titolo": "L’incredibile innamoramento del Sole per il pacifismo in versione Shenzhen",
-   "link": "https://www.ilfoglio.it/editoriali/2026/11/21/news/24-ore-di-propaganda-cinese--414414",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "9c8a19c32cfbb163",
-   "titolo": "Trump e Putin corteggiano Kim Jong Un, che nel frattempo scia, produce bombe e minaccia",
-   "link": "https://www.ilfoglio.it/esteri/2026/11/21/news/trump-e-putin-corteggiano-kim-jong-un-che-nel-frattempo-scia-produce-bombe-e-minaccia--414420",
-   "fonte": "p-foglio",
-   "fonte_nome": "Il Foglio",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "6a99608ee8768fd2",
-   "titolo": "\"Pensavo di essere fregato\", la pole di Antonelli a Las Vegas è un capolavoro da campione del mondo",
-   "link": "https://www.automoto.it/formula1/f1-las-vegas-qualifiche-antonelli-pole-dichiarazioni-penalita.html",
-   "fonte": "a-automoto",
-   "fonte_nome": "Automoto.it",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "motorsport.f1"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "39f718749eac0a24",
-   "titolo": "\"Sono inc****to perché la macchina non fa quello che deve\": Leclerc esplode dopo il disastro Ferrari a Las Vegas",
-   "link": "https://www.automoto.it/formula1/f1-las-vegas-qualifiche-ferrari-dichiarazioni-leclerc-eliminazione-q2.html",
-   "fonte": "a-automoto",
-   "fonte_nome": "Automoto.it",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "novita_auto.marchi",
-    "motorsport.f1"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "72003c9b572d1aef",
-   "titolo": "Leclerc e il disastro Ferrari a Las Vegas: \"Inc....to, non ne abbiamo messa una dritta oggi\"",
-   "link": "https://www.gazzetta.it/motori/ferrari/21-11-2026/ferrari-fuori-in-q2-a-las-vegas-rabbia-leclerc-incazzato.shtml",
-   "fonte": "a-gazzetta-motori",
-   "fonte_nome": "Gazzetta dello Sport Motori",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "novita_auto.marchi",
-    "motorsport.f1"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "c66d142ed455f431",
-   "titolo": "GP Las Vegas: Antonelli sorprende tutti e conquista la pole!",
-   "link": "https://www.autosprint.it/news/formula1/in-diretta/gp-las-vegas/2026/11/20-9314328/f1_live_gp_las_vegas_segui_le_qualifiche_in_diretta",
-   "fonte": "a-autosprint",
-   "fonte_nome": "Autosprint e Motorsport.com",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "motorsport.f1"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "937e8fca79691263",
-   "titolo": "RallyOne vicina all'omologazione, ma solo per le gare su asfalto. Loeb si allontana",
-   "link": "https://www.autosprint.it/news/rally/wrc/2026/11/18-9304500/rallyone_vicina_all_omologazione_ma_solo_per_le_gare_su_asfalto_loeb_si_allontana",
-   "fonte": "a-autosprint",
-   "fonte_nome": "Autosprint e Motorsport.com",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "motorsport.altri"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "cf5eb70168f3f0ca",
-   "titolo": "Il WRC cede alle richieste di team e piloti: nel 2027 debutterà il WRC1",
-   "link": "https://www.autosprint.it/news/rally/wrc/2026/11/18-9301939/il_wrc_cede_alle_richieste_di_team_e_piloti_nel_2027_debutter_il_wrc1",
-   "fonte": "a-autosprint",
-   "fonte_nome": "Autosprint e Motorsport.com",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "motorsport.altri"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "abd449791bafd7cb",
-   "titolo": "Rovanperä si unisce al coro degli scettici: \"Le nuove WRC non sono eccitanti\"",
-   "link": "https://www.autosprint.it/news/rally/wrc/2026/11/15-9293633/rovanper_si_unisce_al_coro_degli_scettici_le_nuove_wrc_non_sono_eccitanti",
-   "fonte": "a-autosprint",
-   "fonte_nome": "Autosprint e Motorsport.com",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "motorsport.altri"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "30953da2b7e1700d",
-   "titolo": "Kane, rottura del legamento della caviglia: \"Out diversi mesi\" pallone d'oro Harry Kane ha subito un grave infortunio in Bayern Monaco-Colonia. L'inglese, uscito dopo un... 20 nov - 23:47",
-   "link": "https://sport.sky.it/calcio/bundesliga/2026/11/20/bayern-monaco-kane-infortunio-video",
-   "fonte": "a-sky-f1",
-   "fonte_nome": "Sky Sport F1 e motori",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "35df72b5e8d7c407",
-   "titolo": "Denver batte Houston, vincono Lakers e Thunder NBA Nel big match del venerdì notte, con le partite giocate valide anche per la NBA... 21 nov - 06:53",
-   "link": "https://sport.sky.it/nba/2026/11/21/nba-risultati-partite-notte-21-novembre-video",
-   "fonte": "a-sky-f1",
-   "fonte_nome": "Sky Sport F1 e motori",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "ff3c52c6ce540efe",
-   "titolo": "Kimi: \"Proverò a lottare per la vittoria\" mercedes Kimi Antonelli è stato il più veloce nelle qualifiche di Las Vegas, ma partirà 6° per una... 21 nov - 06:40",
-   "link": "https://sport.sky.it/formula-1/2026/11/21/kimi-antonelli-f1-gp-las-vegas-intervista",
-   "fonte": "a-sky-f1",
-   "fonte_nome": "Sky Sport F1 e motori",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "motorsport.f1",
-    "novita_auto.marchi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "c432b30f25709b38",
-   "titolo": "Verstappen, sono 51 pole: la CLASSIFICA all time i migliori Per Max Verstappen è arrivata a Las Vegas la 51^ pole position in carriera: l'olandese in Nevada... 21 nov - 06:30 29 foto",
-   "link": "https://sport.sky.it/formula-1/f1-classifica-pole-position",
-   "fonte": "a-sky-f1",
-   "fonte_nome": "Sky Sport F1 e motori",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport",
-    "mercato_auto"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "motorsport.f1",
-    "mercato_auto.immatricolazioni"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "143426fbe9b34462",
-   "titolo": "Leclerc 10° e Hamilton 11°: la griglia a Las Vegas così al via Antonelli il più veloce nelle qualifiche di Las Vegas, ma scatterà 6° per una penalità. In pole... 21 nov - 06:00",
-   "link": "https://sport.sky.it/formula-1/2026/11/21/formula-1-griglia-di-partenza-gp-las-vegas-2026",
-   "fonte": "a-sky-f1",
-   "fonte_nome": "Sky Sport F1 e motori",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "motorsport.f1"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "4d3c25d310fdbf24",
-   "titolo": "GP Las Vegas, i piloti eliminati in qualifica Formula 1 Clamoroso in Nevada: le due Ferrari sono eliminate in Q2, con Leclerc 11° e Hamilton 12°. Out... 21 nov - 05:30",
-   "link": "https://sport.sky.it/formula-1/2026/11/21/f1-gp-las-vegas-2026-qualifiche-piloti-eliminati",
-   "fonte": "a-sky-f1",
-   "fonte_nome": "Sky Sport F1 e motori",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "motorsport.f1",
-    "novita_auto.marchi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "bb7d26b48d698481",
-   "titolo": "Lavora con noi Siamo sempre alla ricerca di talenti. Invia la tua candidatura.",
-   "link": "https://www.confindustria.it/lavora-con-noi",
-   "fonte": "pr-confindustria",
-   "fonte_nome": "Confindustria e imprese",
-   "tipo": "ordine",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "bd7c2087d0086eef",
-   "titolo": "10 segnali che un capo è tossico, e come proteggersi",
-   "link": "https://www.hbritalia.it/homepage/2025/04/25/news/10-segnali-che-un-capo-e-tossico-e-come-proteggersi-16206/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "106e348b05d20d37",
-   "titolo": "Le sei abitudini che danneggiano la vostra carriera – e come superarle",
-   "link": "https://www.hbritalia.it/homepage/2024/06/27/news/le-sei-abitudini-che-danneggiano-la-vostra-carriera-e-come-superarle-15749/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "329bb402c2dc8db9",
-   "titolo": "Le operations in un’era di incertezza radicale",
-   "link": "https://www.hbritalia.it/homepage/2026/11/13/news/le-operations-in-unera-di-incertezza-radicale-15677/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "7f7a2c0e10837dee",
-   "titolo": "Nel lusso la famiglia imprenditoriale conta se sa fare il prodotto",
-   "link": "https://www.hbritalia.it/homepage/2026/11/11/news/nel-lusso-la-famiglia-imprenditoriale-conta-se-sa-fare-il-prodotto-16717/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "983f58c7bba63f10",
-   "titolo": "Private equity: dal vantaggio informativo al primato del giudizio",
-   "link": "https://www.hbritalia.it/homepage/2026/11/09/news/private-equity-dal-vantaggio-informativo-al-primato-del-giudizio-16716/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "b178ff10263e48a0",
-   "titolo": "Quando le misure di cybersecurity si rivelano controproducenti",
-   "link": "https://www.hbritalia.it/homepage/2026/11/06/news/quando-le-misure-di-cybersecurity-si-rivelano-controproducenti-16713/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "norme",
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "norme.ue"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "cyber",
-    "ingegnere",
-    "perito",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "433724e77c48fe39",
-   "titolo": "Come migliorare i programmi di avanzamento delle donne",
-   "link": "https://www.hbritalia.it/homepage/2026/11/04/news/come-migliorare-i-programmi-di-avanzamento-delle-donne-15992/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "2c31850214959b84",
-   "titolo": "La trasformazione dovrebbe essere un percorso di apprendimento",
-   "link": "https://www.hbritalia.it/novembre-2026/2026/11/02/pdf/la-trasformazione-dovrebbe-essere-un-percorso-di-apprendimento-16694/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "d91859f3927ccd8d",
-   "titolo": "La responsabilità della leadership nei processi di trasformazione",
-   "link": "https://www.hbritalia.it/novembre-2026/2026/11/02/news/la-responsabilita-della-leadership-nei-processi-di-trasformazione-16693/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "43432d419504ad78",
-   "titolo": "Come gli agenti di IA coordinano il lavoro tra silos diversi",
-   "link": "https://www.hbritalia.it/novembre-2026/2026/11/02/pdf/come-gli-agenti-di-ia-coordinano-il-lavoro-tra-silos-diversi-16696/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "eb6cdb2b11f4b99d",
-   "titolo": "Come lavorare per un capo che cambia sempre idea",
-   "link": "https://www.hbritalia.it/giovani-carriere/2024/11/07/news/come-lavorare-per-un-capo-che-cambia-sempre-idea-16076/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "18b3f86ab2787f54",
-   "titolo": "LA PSICOLOGIA POSITIVA AL SERVIZIO DEL MANAGEMENT",
-   "link": "https://www.hbritalia.it/mondo-formazione/2026/11/18/news/la-psicologia-positiva-al-servizio-del-management-16718/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "sanita",
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "sanita.professioni"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "psicologo",
-    "medico",
-    "farmacista",
-    "infermiere",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "da06b13f3e384cb9",
-   "titolo": "IL DISCORSO DI FINE ANNO COMINCIA MOLTO PRIMA DI SALIRE SUL PALCO",
-   "link": "https://www.hbritalia.it/homepage/2026/11/11/news/il-discorso-di-fine-anno-comincia-molto-prima-di-salire-sul-palco-16715/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "7f3d22636142bdf7",
-   "titolo": "LA GOVERNANCE COGNITIVA COME COMPETENZA MANAGERIALE",
-   "link": "https://www.hbritalia.it/homepage/2026/11/03/news/la-governance-cognitiva-come-competenza-manageriale-16712/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "management.manager"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "dd568c2469588151",
-   "titolo": "Il ritorno a una gestione orientata al valore",
-   "link": "https://www.hbritalia.it/settembre-2026/2026/09/02/pdf/il-ritorno-a-una-gestione-orientata-al-valore-16646/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "1370f8fae3c581a6",
-   "titolo": "L’IA sta rivoluzionando il processo decisionale strategico",
-   "link": "https://www.hbritalia.it/ottobre-2026/2026/10/01/pdf/lia-sta-rivoluzionando-il-processo-decisionale-strategico-16679/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "b4b6eca2e4ff5563",
-   "titolo": "Cosa possono imparare le aziende dai loro maggiori fan",
-   "link": "https://www.hbritalia.it/maggio-2026/2026/05/01/pdf/cosa-possono-imparare-le-aziende-dai-loro-maggiori-fan-16549/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "f45999d8ee64f255",
-   "titolo": "Come i robot basati su IA generativa rivoluzionano i servizi",
-   "link": "https://www.hbritalia.it/homepage/2026/06/01/pdf/come-i-robot-basati-su-ia-generativa-rivoluzionano-i-servizi-16584/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "dc9b9a326bb8f66f",
-   "titolo": "Cinque modi per esercitare influenza quando si è privi di autorità",
-   "link": "https://www.hbritalia.it/novembre-2026/2026/11/02/pdf/cinque-modi-per-esercitare-influenza-quando-si-e-privi-di-autorita-16699/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "e1d68ec7464da45b",
-   "titolo": "Come i leader contrastano il pessimismo nei momenti difficili",
-   "link": "https://www.hbritalia.it/novembre-2026/2026/11/02/pdf/come-i-leader-contrastano-il-pessimismo-nei-momenti-difficili-16700/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "66f09932354df830",
-   "titolo": "L’AI come sparring partner: la nuova sfida della leadership",
-   "link": "https://www.hbritalia.it/homepage/2026/10/30/news/lai-come-sparring-partner-la-nuova-sfida-della-leadership-16704/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "9a19993a932ae045",
-   "titolo": "Il rivoluzionario impatto dell’intelligenza artificiale sul marketing",
-   "link": "https://www.hbritalia.it/2026/2026/03/05/news/il-rivoluzionario-impatto-dellintelligenza-artificiale-sul-marketing-16499/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "norme",
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "norme.ue"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "data",
-    "ingegnere",
-    "perito",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "adb3c798469e9d87",
-   "titolo": "Come coinvolgere una forza lavoro multigenerazionale",
-   "link": "https://www.hbritalia.it/homepage/2026/03/02/news/come-coinvolgere-una-forza-lavoro-multigenerazionale-15688/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "4b095fa46050757b",
-   "titolo": "Comunicare nel 2035: la tavola delle competenze dei nuovi comunicatori",
-   "link": "https://www.hbritalia.it/rubriche/2026/06/25/news/comunicare-nel-2035-la-tavola-delle-competenze-dei-nuovi-comunicatori-16602/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "hr",
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "hr.hr"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "hr",
-    "formatore",
-    "consulente_lavoro",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "d02ca200ba805e12",
-   "titolo": "La solitudine organizzativa e le nuove forme di relazione",
-   "link": "https://www.hbritalia.it/rubriche/2026/06/23/news/la-solitudine-organizzativa-e-le-nuove-forme-di-relazione-16601/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "6ad7ae0f6c0ef775",
-   "titolo": "Una visione non convenzionale della strategia",
-   "link": "https://www.hbritalia.it/homepage/2026/06/18/news/una-visione-non-convenzionale-della-strategia-16600/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "028fa71ff2e3ec55",
-   "titolo": "L’America ha 250 anni: verso la fine o verso un nuovo inizio?",
-   "link": "https://www.hbritalia.it/homepage/2026/06/29/news/lamerica-ha-250-anni-verso-la-fine-o-verso-un-nuovo-inizio-16633/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "bcc9d3b744529f64",
-   "titolo": "Intervista ad Alessandro Zucchetti, Amministratore delegato di Zucchetti SpA",
-   "link": "https://www.hbritalia.it/podcast/2022/11/29/audio/intervista-ad-alessandro-zucchetti-amministratore-delegato-di-zucchetti-spa-15401/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "management.manager"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "c47058708c1447c3",
-   "titolo": "Le tecnologie del futuro: i dieci anni che ci cambieranno la vita e il lavoro",
-   "link": "https://www.hbritalia.it/podcast/2021/08/30/audio/le-tecnologie-del-futuro-i-dieci-anni-che-ci-cambieranno-la-vita-e-il-lavoro-15096/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "a374053b2763edba",
-   "titolo": "Le “Big Tech” tra innovazione tecnologica e strapotere di mercato",
-   "link": "https://www.hbritalia.it/draft/2021/06/25/audio/le-big-tech-tra-innovazione-tecnologica-e-strapotere-di-mercato-15083/",
-   "fonte": "pr-hbr",
-   "fonte_nome": "Harvard Business Review Italia",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "32f2b25e51fd3a4f",
-   "titolo": "Valori elettricità e gas aggiornati dall’Autorità",
-   "link": "https://www.arera.it/consumatori/valori-elettricita-e-gas-aggiornati",
-   "fonte": "pr-arera",
-   "fonte_nome": "ARERA (energia e reti)",
-   "tipo": "ufficiale",
-   "aree": [
-    "energia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "energy",
-    "certificatore",
-    "ingegnere",
-    "impiantista"
-   ]
-  },
-  {
-   "id": "0bdd5485359279b3",
-   "titolo": "Conoscere i tuoi consumi di elettricità e gas",
-   "link": "https://www.arera.it/consumatori/il-portale-consumi",
-   "fonte": "pr-arera",
-   "fonte_nome": "ARERA (energia e reti)",
-   "tipo": "ufficiale",
-   "aree": [
-    "energia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "energy",
-    "certificatore",
-    "ingegnere",
-    "impiantista"
-   ]
-  },
-  {
-   "id": "dc8fd9ff765be50b",
-   "titolo": "Disposizioni in materia di compensazioni agli esercenti la vendita per i mancati ricavi relativi alle forniture localizzate nelle “zone rosse”, nonché di gestione della morosità dei piani di rateizzazione, con riferimento agli eventi calamitosi",
-   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/428-26",
-   "fonte": "pr-arera",
-   "fonte_nome": "ARERA (energia e reti)",
-   "tipo": "ufficiale",
-   "aree": [
-    "ambiente",
-    "energia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "ambiente.rischio_idro"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "energy",
-    "certificatore",
-    "ingegnere",
-    "geologo",
-    "agronomo",
-    "chimico",
-    "impiantista"
-   ]
-  },
-  {
-   "id": "9c58ab357b8fdfc9",
-   "titolo": "Approvazione dell’aggiornamento biennale delle predisposizioni tariffarie del servizio idrico integrato, a partire dal 2026, proposto dall’Ufficio d’Ambito della Città Metropolitana di Milano per il gestore Metropolitana Milanese S.p.A.",
-   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/435-26",
-   "fonte": "pr-arera",
-   "fonte_nome": "ARERA (energia e reti)",
-   "tipo": "ufficiale",
-   "aree": [
-    "appalti",
-    "energia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "appalti.opere"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "energy",
-    "certificatore",
-    "ingegnere",
-    "rup",
-    "avvocato",
-    "contabile",
-    "impiantista"
-   ]
-  },
-  {
-   "id": "9fcd4e64d76b1e19",
-   "titolo": "NOTA STAMPA: Ambiente, Bratti al Convegno Anea: “Lavoriamo per rafforzare gli Enti di Ambito”",
-   "link": "https://www.arera.it/comunicati-stampa/dettaglio/nota-stampa-ambiente-bratti-al-convegno-anea-lavoriamo-per-rafforzare-governance-locale",
-   "fonte": "pr-arera",
-   "fonte_nome": "ARERA (energia e reti)",
-   "tipo": "ufficiale",
-   "aree": [
-    "energia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "energy",
-    "certificatore",
-    "ingegnere",
-    "giornalista",
-    "impiantista"
-   ]
-  },
-  {
-   "id": "8d87f65983f5c4bf",
-   "titolo": "NOTA STAMPA: Nicola Dell’Acqua al Consumers’ Forum: “Tutele più vicine ai cittadini, nessuno lasciato indietro nella transizione digitale”",
-   "link": "https://www.arera.it/comunicati-stampa/dettaglio/nota-stampa-nicola-dellacqua-al-consumers-forum-tutele-piu-vicine-ai-cittadini-nessuno-lasciato-indietro-nella-transizione-digitale",
-   "fonte": "pr-arera",
-   "fonte_nome": "ARERA (energia e reti)",
-   "tipo": "ufficiale",
-   "aree": [
-    "energia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "energy",
-    "certificatore",
-    "ingegnere",
-    "giornalista",
-    "impiantista"
-   ]
-  },
-  {
-   "id": "5818d93adabdf7f3",
-   "titolo": "Verifica dell’attivazione del meccanismo di trigger del tasso di remunerazione del capitale, per l’anno 2027",
-   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/425-26",
-   "fonte": "pr-arera",
-   "fonte_nome": "ARERA (energia e reti)",
-   "tipo": "ufficiale",
-   "aree": [
-    "energia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "energy",
-    "certificatore",
-    "ingegnere",
-    "impiantista"
-   ]
-  },
-  {
-   "id": "78e1c40971b28324",
-   "titolo": "Avvio di procedimento per l’adozione di provvedimenti in materia di criteri per la determinazione e l’aggiornamento del tasso di remunerazione del capitale investito nei settori elettrico e gas, per il terzo periodo di regolazione del WACC (3PWACC)",
-   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/426-26",
-   "fonte": "pr-arera",
-   "fonte_nome": "ARERA (energia e reti)",
-   "tipo": "ufficiale",
-   "aree": [
-    "energia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "energy",
-    "certificatore",
-    "ingegnere",
-    "impiantista"
-   ]
-  },
-  {
-   "id": "35ed0870e5b1fc07",
-   "titolo": "Approvazione del primo rapporto sulla stima dei fabbisogni di flessibilità del sistema elettrico italiano ai sensi dell'articolo 19e del Regolamento (UE) 2019/943",
-   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/434-26",
-   "fonte": "pr-arera",
-   "fonte_nome": "ARERA (energia e reti)",
-   "tipo": "ufficiale",
-   "aree": [
-    "norme",
-    "energia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [
-    "norme.ue"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "energy",
-    "certificatore",
-    "ingegnere",
-    "perito",
-    "impiantista"
-   ]
-  },
-  {
-   "id": "62bad35bc1148718",
-   "titolo": "Determinazioni sull’istanza per il riconoscimento del corrispettivo di reintegrazione, relativo all’impianto essenziale Montemartini, per l’anno 2020",
-   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/429-26",
-   "fonte": "pr-arera",
-   "fonte_nome": "ARERA (energia e reti)",
-   "tipo": "ufficiale",
-   "aree": [
-    "energia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "energy",
-    "certificatore",
-    "ingegnere",
-    "impiantista"
-   ]
-  },
-  {
-   "id": "246fd349e82ba2e1",
-   "titolo": "Determinazioni in merito all’istanza per il riconoscimento del corrispettivo di reintegrazione relativo all’impianto di produzione essenziale Sarlux, per l’anno 2025",
-   "link": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/430-26",
-   "fonte": "pr-arera",
-   "fonte_nome": "ARERA (energia e reti)",
-   "tipo": "ufficiale",
-   "aree": [
-    "energia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T06:01:01Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "energy",
-    "certificatore",
-    "ingegnere",
-    "impiantista"
-   ]
   }
  ]
 }
