@@ -490,10 +490,13 @@ def vangelo_cei(d):
         sp = re.search(r"<p>\s*(?:<p>)?\s*([^<]+?)\s*<br[^>]*>(.*?)<br", b, re.S)
         lk = re.search(r'<a title="Leggi ([^"]+) su BibbiaEdu" href="([^"]+)"', b)
         if sp and lk:
-            ref = re.sub(r"\s*([.;])\s*", r"\1 ", pulisci(sp.group(2))).replace(" ;", ";").strip()
+            mr = re.match(r"[1-3]?[A-Z][a-z]{1,3}\s\d+[0-9a-c,.\-;\s]*", pulisci(sp.group(2)))
+            if not mr:
+                continue
+            ref = re.sub(r"\s*([.;])\s*", r"\1 ", mr.group()).strip(" ;.")
             letture.append({"tipo": etichetta, "titolo": pulisci(tt.group(1)) if tt else None, "introduzione": pulisci(sp.group(1)),
                             "riferimento": ref, "link_testo": lk.group(2)})
-    res = {"v": 2, "letture": letture, "giorno": giorno, "riferimento": html.unescape(rif.group(1)).strip(), "evangelista": ev.group(1).strip() if ev else None,
+    res = {"v": 3, "letture": letture, "giorno": giorno, "riferimento": html.unescape(rif.group(1)).strip(), "evangelista": ev.group(1).strip() if ev else None,
            "titolo": pulisci(tit.group(1)) if tit else None, "link_testo": rif.group(2), "link_liturgia": url}
     try:
         res["riveduta"] = testo_riveduta(res["riferimento"])
@@ -629,7 +632,7 @@ def main():
                         break
                 except Exception as e:  # noqa: BLE001
                     errori.append(f"{d} latparola: {str(e)[:60]}")
-        if c.get("vangelo") and c["vangelo"].get("v") != 2:
+        if c.get("vangelo") and c["vangelo"].get("v") != 3:
             del c["vangelo"]
         if "vangelo" not in c:
             try:
