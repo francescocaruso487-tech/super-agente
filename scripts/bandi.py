@@ -20,7 +20,7 @@ DATA = ROOT / "docs" / "data"
 API = "https://api.ted.europa.eu/v3/notices/search"
 PROVINCE = {"ITF31": "Caserta", "ITF32": "Benevento", "ITF33": "Napoli", "ITF34": "Avellino", "ITF35": "Salerno"}
 CAMPI = ["publication-number", "notice-title", "buyer-name", "publication-date", "deadline-receipt-tender-date-lot",
-         "place-of-performance", "notice-type", "estimated-value-lot"]
+         "place-of-performance", "notice-type", "estimated-value-lot", "contract-nature", "classification-cpv", "procedure-type"]
 
 
 def ora():
@@ -110,6 +110,8 @@ def main():
             out.append({"id": num, "titolo": html.unescape(titolo)[:300], "ente": html.unescape(testo(n.get("buyer-name")))[:160], "provincia": prov,
                         "pubblicato": str(prima(n.get("publication-date")) or "")[:10], "scadenza": str(scad)[:10],
                         "importo": valore(n.get("estimated-value-lot")),
+                        "natura": str(prima(n.get("contract-nature")) or ""), "cpv": str(prima(n.get("classification-cpv")) or "")[:8],
+                        "procedura": str(prima(n.get("procedure-type")) or ""),
                         "link": f"https://ted.europa.eu/it/notice/-/detail/{num}"})
         oggi = datetime.now(timezone.utc).strftime("%Y-%m-%d")
         out = [x for x in out if not x["scadenza"] or x["scadenza"] >= oggi]   # solo gare ancora aperte

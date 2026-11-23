@@ -225,6 +225,10 @@ function ancora(sel, sempre) {
 
 
 // ===== Bandi e appalti (TED, Gazzetta ufficiale degli appalti UE) =====
+const NATURA = { works: "🏗️ Lavori", services: "🛠️ Servizi", supplies: "📦 Forniture" };
+const PROCEDURA = { open: "Procedura aperta", restricted: "Procedura ristretta", "neg-w-call": "Negoziata con bando", "neg-wo-call": "Negoziata senza bando", "comp-dial": "Dialogo competitivo", "innovation": "Partenariato per l'innovazione", "comp-tender": "Gara con confronto" };
+const CPV_DIV = { "45": "Lavori di costruzione", "71": "Architettura, ingegneria, controllo", "72": "Servizi informatici", "50": "Riparazione e manutenzione", "44": "Materiali da costruzione", "90": "Ambiente, rifiuti, pulizia", "34": "Mezzi di trasporto", "33": "Apparecchiature mediche", "30": "Informatica e ufficio", "79": "Servizi alle imprese", "09": "Energia e carburanti", "65": "Servizi pubblici (acqua, energia)", "77": "Servizi agricoli e forestali", "85": "Servizi sanitari e sociali", "80": "Istruzione e formazione", "39": "Arredi e attrezzature", "31": "Apparecchi elettrici", "42": "Macchinari industriali", "15": "Alimentari", "60": "Trasporti", "63": "Servizi di supporto ai trasporti", "55": "Ristorazione e alberghi", "98": "Altri servizi" };
+const dataBreve = (iso) => { const d = new Date(iso + "T12:00:00"); return `${d.getDate()} ${MESI[d.getMonth()]} ${d.getFullYear()}`; };
 const euro = (v) => v >= 1e6 ? (v / 1e6).toLocaleString("it-IT", { maximumFractionDigits: 1 }) + " mln €" : v.toLocaleString("it-IT") + " €";
 function scadenzaTxt(d) {
   if (!d) return { t: "scadenza non indicata", c: "" };
@@ -243,10 +247,11 @@ function renderBandi() {
   const chips = `<div class="sotto">${prov.map((p) => `<button class="chip s${p === sel ? " on" : ""}" data-bprov="${esc(p)}">${p === "tutte" ? "Tutta la Campania" : esc(p)} <small>${p === "tutte" ? tutti.length : tutti.filter((b) => b.provincia === p).length}</small></button>`).join("")}</div>`;
   const cards = lista.map((b) => {
     const sc = scadenzaTxt(b.scadenza);
-    const pop = reg(`<div class="riga"><span class="badge luogo">📍 ${esc(b.provincia)}</span></div><h2 class="pop-t">${te(b.titolo)}</h2>
-      <div class="pop-box">${pRiga("Ente appaltante", te(b.ente))}${pRiga("Importo stimato", b.importo ? euro(b.importo) : "non indicato")}${pRiga("Pubblicato", esc(b.pubblicato))}${pRiga("Scadenza offerte", esc(sc.t))}</div>
-      <p class="pop-p mute">Importo e scadenza sono quelli pubblicati nell'avviso di gara. Prima di partecipare verifica sempre sul sito dell'ente: possono esserci proroghe o rettifiche.</p>
-      <div class="pop-az">${pBtn(b.link, "Avviso ufficiale su TED ↗")}</div><p class="pop-fonte">Fonte: TED, Gazzetta ufficiale degli appalti dell'Unione europea. Include solo le gare sopra la soglia europea.</p>`);
+    const pop = reg(`<div class="riga"><span class="badge luogo">📍 ${esc(b.provincia)}</span>${NATURA[b.natura] ? `<span class="badge">${NATURA[b.natura]}</span>` : ""}</div><h2 class="pop-t">${te(b.titolo)}</h2>
+      <div class="pop-chips">${b.scadenza ? `<span>⏳ ${esc(sc.t)}</span>` : ""}${b.importo ? `<span>💶 ${esc(euro(b.importo))}</span>` : ""}${PROCEDURA[b.procedura] ? `<span>📋 ${PROCEDURA[b.procedura]}</span>` : ""}</div>
+      <div class="pop-box">${pRiga("Ente appaltante", te(b.ente))}${pRiga("Importo stimato", b.importo ? euro(b.importo) : "non indicato")}${NATURA[b.natura] ? pRiga("Tipo di appalto", NATURA[b.natura]) : ""}${PROCEDURA[b.procedura] ? pRiga("Procedura", PROCEDURA[b.procedura]) : ""}${CPV_DIV[b.cpv.slice(0, 2)] ? pRiga("Settore", CPV_DIV[b.cpv.slice(0, 2)]) : ""}${pRiga("Pubblicato", b.pubblicato ? `${fa(new Date(b.pubblicato + "T12:00:00"))} · ${dataBreve(b.pubblicato)}` : "")}${pRiga("Scadenza offerte", b.scadenza ? `${esc(sc.t)} · ${dataBreve(b.scadenza)}` : "non indicata")}${pRiga("Avviso n.", esc(b.id))}</div>
+      <p class="pop-p mute">Importo e scadenza sono quelli dell'avviso: prima di partecipare controlla sul sito dell'ente (possibili proroghe).</p>
+      <div class="pop-az">${pBtn(b.link, "Avviso ufficiale su TED ↗")}</div><p class="pop-fonte">Fonte: TED, Gazzetta ufficiale degli appalti dell'Unione europea (solo gare sopra la soglia europea).</p>`);
     return `<article class="card tap" ${pop} style="--c:#b45309"><div class="riga"><span class="badge luogo">📍 ${esc(b.provincia)}</span>${b.importo ? `<span class="badge prezzo">${esc(euro(b.importo))}</span>` : ""}<span class="ver ${sc.c === "urg" ? "multi" : "ente"}">⏳ ${esc(sc.t)}</span></div>
       <h3 class="titolo">${te(b.titolo)}</h3><div class="piede"><span>${te(b.ente)}</span><span class="ver uff">🟢 TED</span></div></article>`;
   }).join("");
@@ -263,10 +268,13 @@ function renderAtti() {
   const nome = { SG: "Serie Generale", S1: "Corte Costituzionale", S3: "Regioni" };
   const cards = tutti.filter(ok).slice(0, 80).map((a) => {
     const dt = new Date(a.data + "T12:00:00"), quando = `${dt.getDate()} ${MESI[dt.getMonth()]} ${dt.getFullYear()}`;
+    const ente = (a.titolo.match(/^([A-ZÀ-Ý' ]{4,60}?)\s+-\s+/) || [])[1];
+    const tipoAtto = (a.titolo.match(/\b(LEGGE REGIONALE|LEGGE COSTITUZIONALE|LEGGE|DECRETO-LEGGE|DECRETO LEGISLATIVO|DECRETO DEL PRESIDENTE[^,]*|DECRETO|REGOLAMENTO REGIONALE|REGOLAMENTO|DELIBERAZIONE|SENTENZA|ORDINANZA|COMUNICATO|CIRCOLARE)\b/i) || [])[1];
     const pop = reg(`<div class="riga">${a.campania ? '<span class="badge luogo">📍 Campania</span>' : ""}<span class="ver uff">🟢 Gazzetta Ufficiale</span></div><h2 class="pop-t">${te(a.titolo)}</h2>
-      ${a.descr ? `<p class="pop-p">${te(a.descr)}</p>` : ""}${a.spiega ? `<div class="pop-box"><p class="pop-p"><b>Che cos'è:</b> ${esc(a.spiega)}</p></div>` : ""}
-      <div class="pop-box">${pRiga("Pubblicato", esc(quando))}${pRiga("Serie", esc(nome[a.serie] || a.serie))}</div>
-      <div class="pop-az">${pBtn(a.link, "Testo ufficiale in Gazzetta ↗")}</div><p class="pop-fonte">Fonte: Gazzetta Ufficiale della Repubblica Italiana. Il testo che fa fede è quello pubblicato in Gazzetta.</p>`);
+      ${a.descr ? `<div class="pop-sub">In breve</div><p class="pop-p">${te(a.descr)}</p>` : ""}${a.spiega ? `<div class="pop-sub">Che cos'è</div><p class="pop-p">${esc(a.spiega)}</p>` : ""}
+      <div class="pop-chips"><span>🗓 ${esc(fa(dt))}</span><span>📚 ${esc(nome[a.serie] || a.serie)}</span>${tipoAtto ? `<span>📄 ${esc(tipoAtto[0] + tipoAtto.slice(1).toLowerCase())}</span>` : ""}</div>
+      <div class="pop-box">${ente ? pRiga("Ente", esc(ente)) : ""}${pRiga("Pubblicato", `${esc(fa(dt))} · ${esc(quando)}`)}${pRiga("Serie", esc(nome[a.serie] || a.serie))}${a.campania ? pRiga("Riguarda", "la Campania") : ""}</div>
+      <div class="pop-az">${pBtn(a.link, "Testo ufficiale in Gazzetta ↗")}</div><p class="pop-fonte">Fonte: Gazzetta Ufficiale della Repubblica Italiana. Fa fede il testo pubblicato in Gazzetta.</p>`);
     return `<article class="card tap" ${pop} style="--c:#1d4ed8"><div class="riga">${a.campania ? '<span class="badge luogo">📍 Campania</span>' : ""}<span class="ver ente">${esc(nome[a.serie] || a.serie)}</span><span class="mute">${esc(quando)}</span></div>
       <h3 class="titolo">${te(a.descr || a.titolo)}</h3><div class="piede"><span>${te(a.titolo)}</span><span class="ver uff">🟢 Gazzetta</span></div></article>`;
   }).join("");
@@ -872,7 +880,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "61";
+const VERSIONE_APP = "62";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
