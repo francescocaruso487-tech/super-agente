@@ -559,6 +559,10 @@ function renderAlmanacco() {
   if (g.sport && g.sport.length) h += AS("🏆 Eventi sportivi", g.sport.map((e) => `<div class="alm-a"><b>${e.anno}</b><span>${esc(e.testo)}</span></div>`).join(""), `<p class="alm-f">Selezionati dagli eventi del giorno (Wikipedia).</p>`);
   if (g.nati && g.nati.length) h += AS(`🎂 Nati in questo giorno <small>${g.nati.length}</small>`, g.nati.map((e) => `<div class="alm-a"><b>${e.anno}</b><span>${esc(e.nome)}${e.descr ? `<em> — ${esc(e.descr)}</em>` : ""}</span></div>`).join(""), `<p class="alm-f">Fonte: Wikipedia e Wikidata (non istituzionali).</p>`);
   if (g.morti && g.morti.length) h += AS(`🕯️ Morti in questo giorno <small>${g.morti.length}</small>`, g.morti.map((e) => `<div class="alm-a"><b>${e.anno}</b><span>${esc(e.nome)}${e.descr ? `<em> — ${esc(e.descr)}</em>` : ""}</span></div>`).join(""), `<p class="alm-f">Fonte: Wikipedia e Wikidata (non istituzionali).</p>`);
+  if (g.vangelo) {
+    const v = g.vangelo;
+    h += AS("📖 Vangelo del giorno", `${v.giorno ? `<p class="alm-qa">${esc(v.giorno)}</p>` : ""}<h3>${esc(v.evangelista ? "Dal Vangelo secondo " + v.evangelista : "Vangelo")} — ${esc(v.riferimento)}</h3>${v.titolo ? `<p class="alm-q">“${esc(v.titolo)}”</p>` : ""}<p><a class="alm-l" href="${esc(v.link_testo)}" target="_blank" rel="noopener">Leggi il testo ufficiale (CEI) ↗</a></p><p><a class="alm-l" href="${esc(v.link_liturgia)}" target="_blank" rel="noopener">Tutta la liturgia del giorno ↗</a></p>${v.riveduta ? `<details class="alm-det"><summary>Leggi il brano (Riveduta 1927)</summary><p class="alm-vers">${v.riveduta.map((x) => `<sup>${x[0]}</sup>${esc(x[1])}`).join(" ")}</p><p class="alm-f">Traduzione Riveduta (1927) di Giovanni Luzzi, di pubblico dominio: italiano antico, diverso dal testo letto a Messa.</p></details>` : ""}`, `<p class="alm-f">Fonte: Conferenza Episcopale Italiana, liturgia del giorno (chiesacattolica.it).</p>`);
+  }
   if (g.ricorrenze && g.ricorrenze.length) h += AS("🌍 Feste e ricorrenze nel mondo", `<ul class="alm-ul">${g.ricorrenze.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`, `<p class="alm-f">Fonte: Wikipedia (non istituzionale). Le ricorrenze religiose ufficiali sono nel Santo del giorno.</p>`);
   // Costituzione
   if (g.costituzione) h += AS("⚖️ Note civiche: la Costituzione", `<h3>${esc(g.costituzione.articolo)}</h3><p class="alm-cost">${esc(g.costituzione.testo).replace(/\n/g, "<br>")}</p>`, `<p class="alm-f">Testo ufficiale dal sito Normattiva (Poligrafico dello Stato).</p>`);
@@ -839,7 +843,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "56";
+const VERSIONE_APP = "57";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;

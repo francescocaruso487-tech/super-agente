@@ -429,6 +429,59 @@ def parola_latina(titolo, tipo):
             "link": "https://it.wiktionary.org/wiki/" + titolo}
 
 
+LIBRI_VANGELO = {"Mt": 40, "Mc": 41, "Lc": 42, "Gv": 43}
+
+
+def testo_riveduta(rif):
+    """Testo del brano nella Riveduta (1927, pubblico dominio). Solo brani in un unico capitolo."""
+    m = re.fullmatch(r"(Mt|Mc|Lc|Gv)\s+(\d+),([\d\-\.a-z]+)", rif.replace("\u2013", "-").replace("\u2014", "-").strip())
+    if not m:
+        return None
+    libro, cap, resto = LIBRI_VANGELO[m.group(1)], int(m.group(2)), m.group(3)
+    versi = set()
+    for parte in resto.split("."):
+        parte = re.sub(r"[a-z]", "", parte)
+        if not parte:
+            continue
+        a, _, b = parte.partition("-")
+        if not a.isdigit() or (b and not b.isdigit()):
+            return None
+        versi.update(range(int(a), int(b or a) + 1))
+    if not versi or len(versi) > 80:
+        return None
+    j = get(f"https://api.getbible.net/v2/riveduta/{libro}/{cap}.json").json()
+    out = [[v["verse"], re.sub(r"\s+", " ", v["text"]).strip()] for v in j.get("verses", []) if v["verse"] in versi]
+    return out if len(out) >= max(1, len(versi) // 2) else None
+
+
+def vangelo_cei(d):
+    iso = d.strftime("%Y%m%d")
+    url = "https://www.chiesacattolica.it/liturgia-del-giorno/?data-liturgia=" + iso
+    t = get(url).content.decode("utf-8", "replace")
+    ti = re.search(r"<title>(.*?)</title>", t, re.S)
+    giorno = ""
+    if ti:
+        giorno = re.sub(r"\s+", " ", html.unescape(ti.group(1)))
+        giorno = re.sub(r"^Liturgia del giorno [^-]*-\s*", "", giorno)
+        giorno = re.sub(r"\s*-\s*sito ufficiale.*$", "", giorno).strip()
+    m = re.search(r"<h2[^>]*>\s*Vangelo\s*</h2>(.*?)<h2", t, re.S)
+    if not m:
+        return None
+    blk = m.group(1)
+    rif = re.search(r'<a title="Leggi ([^"]+) su BibbiaEdu" href="([^"]+)"', blk)
+    if not rif:
+        return None
+    ev = re.search(r"Dal Vangelo secondo ([^<]+)<", blk)
+    tit = re.search(r"<h3[^>]*>(.*?)</h3>", blk, re.S)
+    res = {"giorno": giorno, "riferimento": html.unescape(rif.group(1)).strip(), "evangelista": ev.group(1).strip() if ev else None,
+           "titolo": pulisci(tit.group(1)) if tit else None, "link_testo": rif.group(2), "link_liturgia": url}
+    try:
+        res["riveduta"] = testo_riveduta(res["riferimento"])
+    except Exception:  # noqa: BLE001
+        res["riveduta"] = None
+    return res
+
+
 def costituzione(d):
     f = DATA / "costituzione.json"
     if not f.exists():
@@ -556,7 +609,14 @@ def main():
                         break
                 except Exception as e:  # noqa: BLE001
                     errori.append(f"{d} latparola: {str(e)[:60]}")
-        for kk in ("frase", "parola", "modo", "comune", "latino", "latparola"):
+        if "vangelo" not in c:
+            try:
+                vg = vangelo_cei(d)
+                if vg:
+                    c["vangelo"] = vg
+            except Exception as e:  # noqa: BLE001
+                errori.append(f"{d} vangelo: {str(e)[:60]}")
+        for kk in ("frase", "parola", "modo", "comune", "latino", "latparola", "vangelo"):
             r[kk] = c.get(kk)
         giorni[iso] = r
     # "nei prossimi giorni": festività e feste mobili entro 45 giorni
@@ -566,7 +626,7 @@ def main():
     CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=0), encoding="utf-8")
     out = {"aggiornato": datetime.now(timezone.utc).isoformat(timespec="seconds"), "luogo": "Caserta", "giorni": giorni, "prossime": prossime,
            "fonti": {"santi": "Vatican News", "astro": "calcolo astronomico per Caserta", "festivita": "calcolate dalle regole di legge e liturgiche",
-                     "costituzione": "Normattiva", "storia": "Wikipedia e Wikidata (non istituzionali)", "cultura": "Wikiquote, Wikizionario, Wikipedia (non istituzionali)"}}
+                     "costituzione": "Normattiva", "storia": "Wikipedia e Wikidata (non istituzionali)", "vangelo": "CEI (chiesacattolica.it); testo Riveduta 1927 da getBible", "cultura": "Wikiquote, Wikizionario, Wikipedia (non istituzionali)"}}
     (DATA / "almanacco.json").write_text(json.dumps(out, ensure_ascii=False, indent=0), encoding="utf-8")
     print("ok", len(giorni), "giorni; errori:", errori)
 
