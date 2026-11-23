@@ -1,13 +1,18 @@
-import json, re
+import json, re, html
 from pathlib import Path
 import requests
 H = {"User-Agent": "RassegnaPersonale/1.0 (app personale non commerciale; https://github.com/francescocaruso487-tech/super-agente) python-requests", "Accept-Language": "it"}
+def txt(t): return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", t))).strip()
+out = {}
 t = requests.get("https://it.wikipedia.org/api/rest_v1/page/html/Locuzioni_latine", headers=H, timeout=60).content.decode("utf-8", "replace")
-lis = re.findall(r"<li[^>]*>(.*?)</li>", t, re.S)
-cand = [x for x in lis if "<b" in x or "<dfn" in x or "<i>" in x]
-out = {"n": len(lis), "cand": len(cand), "campioni": [re.sub(r"\s+", " ", x)[:500] for x in cand[300:306]],
-       "primi": [re.sub(r"\s+", " ", x)[:300] for x in lis[60:66]],
-       "dl": t.count("<dt"), "dd": t.count("<dd"), "h2": re.findall(r"<h2[^>]*>(.*?)</h2>", t, re.S)[:6]}
-i = t.find("<dt")
-out["dt_html"] = t[i:i + 1200] if i > 0 else ""
+T = txt(t)
+i = T.find("Ab ovo", 2000)
+out["wp"] = T[i - 300:i + 1200]
+j = t.find(">Ab ovo<")
+out["wp_html"] = t[j - 400:j + 1500]
+r = requests.get("https://it.wikiquote.org/api/rest_v1/page/html/Proverbi_latini", headers=H, timeout=60)
+out["wq_status"] = r.status_code
+w = r.content.decode("utf-8", "replace")
+out["wq_len"] = len(w); out["wq_li"] = w.count("<li")
+out["wq_txt"] = txt(w)[:1500]
 Path("docs/data/debug_sonda.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
