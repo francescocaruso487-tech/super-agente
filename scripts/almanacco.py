@@ -364,6 +364,68 @@ def latini():
     return voci
 
 
+def parole_latine():
+    voci = []
+    for cat, tipo in (("Sostantivi_in_latino", "sostantivo"), ("Verbi_in_latino", "verbo"), ("Aggettivi_in_latino", "aggettivo")):
+        cont = {}
+        for _ in range(10):
+            r = get("https://it.wiktionary.org/w/api.php", params={"action": "query", "list": "categorymembers", "cmtitle": "Categoria:" + cat, "cmlimit": 500, "cmnamespace": 0, "cmtype": "page", "format": "json", **cont}).json()
+            voci += [(x["title"], tipo) for x in r.get("query", {}).get("categorymembers", [])]
+            if "continue" not in r:
+                break
+            cont = r["continue"]
+    voci = [v for v in voci if re.fullmatch(r"[a-z]{4,12}", v[0])]
+    if len(voci) < 200:
+        raise RuntimeError("poche parole latine")
+    return sorted(set(voci))
+
+
+def _senza_accenti(x):
+    import unicodedata
+    return "".join(ch for ch in unicodedata.normalize("NFD", x.lower()) if not unicodedata.combining(ch))
+
+
+def parola_latina(titolo, tipo):
+    t = get("https://it.wiktionary.org/api/rest_v1/page/html/" + requests.utils.quote(titolo)).content.decode("utf-8", "replace")
+    i = t.find('id="Latino"')
+    if i < 0:
+        return None
+    sec = t[i:]
+    j = re.search(r"<h2", sec[30:])
+    sec = sec[: j.start() + 30] if j else sec
+    sec = re.sub(r"<style.*?</style>|<img[^>]*>|<sup[^>]*>.*?</sup>", "", sec, flags=re.S)
+    ol = re.search(r"<ol[^>]*>(.*?)</ol>", sec, re.S)
+    if not ol:
+        return None
+    defs = []
+    for li in re.findall(r"<li[^>]*>(.*?)</li>", ol.group(1), re.S):
+        li = re.sub(r"<ul.*?</ul>|<dl.*?</dl>|<ol.*?</ol>", " ", li, flags=re.S)
+        x = pulisci(li)
+        if x and len(x) < 160:
+            defs.append(x)
+    if not defs:
+        return None
+
+    def blocco(prefisso):
+        m = re.search(r'<h[2-4][^>]*id="' + prefisso + r'[^"]*"[^>]*>.*?</h[2-4]>(.*?)(?=<h[2-4]|$)', sec, re.S)
+        return pulisci(m.group(1)) if m else ""
+    orig = blocco("Etimologia")
+    coll = [w for w in re.split(r"[,\s]+", blocco("Parole_derivate")) if re.fullmatch(r"[a-zæœ]{3,20}", w)][:8]
+    r = get("https://it.wiktionary.org/w/api.php", params={"action": "query", "list": "search", "srsearch": 'incategory:"Sostantivi in italiano|Verbi in italiano|Aggettivi in italiano" "dal latino ' + titolo + '"',
+                                                         "srlimit": 12, "srnamespace": 0, "srprop": "snippet", "format": "json"}).json()
+    der = []
+    for x in r.get("query", {}).get("search", []):
+        if " " in x["title"] or x["title"].lower() == titolo:
+            continue
+        sn = _senza_accenti(pulisci(x.get("snippet", "")))
+        if re.search(r"latino\s+" + re.escape(titolo) + r"\b", sn):
+            der.append(x["title"])
+    if not der and not coll:
+        return None
+    return {"latino": titolo, "tipo": tipo, "significati": defs[:3], "origine": orig[:200] if 10 < len(orig) < 400 else None, "derivati": der[:8], "collegati": coll,
+            "link": "https://it.wiktionary.org/wiki/" + titolo}
+
+
 def costituzione(d):
     f = DATA / "costituzione.json"
     if not f.exists():
@@ -394,6 +456,7 @@ def main():
     modi = tenta(modi_di_dire, "modi di dire") or []
     comuni = tenta(comuni_lista, "comuni") or []
     lat = tenta(latini, "latino") or []
+    plat = tenta(parole_latine, "parole latine") or []
     for i in range(GIORNI):
         d = oggi + timedelta(days=i)
         r = {"data": d.isoformat(), "giorno_settimana": GIORNO[d.weekday()], "settimana": d.isocalendar()[1], "giorno_anno": d.timetuple().tm_yday,
@@ -478,7 +541,17 @@ def main():
                     errori.append(f"{d} comune: {str(e)[:60]}")
         if "latino" not in c and lat:
             c["latino"] = lat[pick("latino" + iso, len(lat))]
-        for kk in ("frase", "parola", "modo", "comune", "latino"):
+        if "latparola" not in c and plat:
+            for k in range(10):
+                try:
+                    tit, tp = plat[pick(f"latparola{iso}{k}", len(plat))]
+                    pl = parola_latina(tit, tp)
+                    if pl:
+                        c["latparola"] = pl
+                        break
+                except Exception as e:  # noqa: BLE001
+                    errori.append(f"{d} latparola: {str(e)[:60]}")
+        for kk in ("frase", "parola", "modo", "comune", "latino", "latparola"):
             r[kk] = c.get(kk)
         giorni[iso] = r
     # "nei prossimi giorni": festività e feste mobili entro 45 giorni
