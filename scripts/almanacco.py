@@ -337,23 +337,30 @@ def latini():
     """Proverbi latini con traduzione italiana da Wikiquote: [{latino, traduzione, autore}]."""
     t = get("https://it.wikiquote.org/api/rest_v1/page/html/Proverbi_latini").content.decode("utf-8", "replace")
     t = re.sub(r"<sup[^>]*>.*?</sup>", "", t, flags=re.S)
-    t = re.split(r"<h2[^>]*>\s*Note", t)[0]
     voci = []
-    for m in re.finditer(r"<i[^>]*><b[^>]*>(.*?)</b></i>(.*?)(?=<i[^>]*><b[^>]*>|<h[23][ >]|$)", t, re.S):
+    for m in re.finditer(r"<ul>\s*<li>\s*<i[^>]*>\s*<b[^>]*>(.*?)</b>\s*</i>(.*?)</li>\s*</ul>\s*<dl>(.*?)</dl>", t, re.S):
         lat = pulisci(m.group(1)).strip(" .")
-        seg = re.sub(r"<(ul|dl|ol).*?</\1>", " ", m.group(2), flags=re.S) if False else m.group(2)
-        seg = seg.split("</li>")[0].split("</dd>")[0].split("</p>")[0]
-        tr = pulisci(seg)
-        tr = re.sub(r"\[\s*\d+\s*\]", "", tr).strip(" .,;:-–")
-        aut = None
-        a = re.search(r"\(\s*([^()]{3,60}?)\s*\)\s*$", tr)
-        if a:
-            aut, tr = a.group(1).strip(), tr[:a.start()].strip(" .,;:-–")
-        if not (2 <= len(lat.split()) <= 18 and re.fullmatch(r"[A-Za-zÀ-ÿæœÆŒ,;:'’ \-?!]+", lat)):
+        dds = [pulisci(x) for x in re.findall(r"<dd[^>]*>(.*?)</dd>", m.group(3), re.S)]
+        dds = [x for x in dds if x]
+        if not dds:
             continue
-        if not (12 <= len(tr) <= 230) or not tr[0].isupper() or "Indice" in tr:
+        tr = dds[0].strip(" ,;:-–")
+        aut = None
+        for x in dds[1:]:
+            a2 = re.fullmatch(r"\(\s*(.{3,70}?)\s*\)\.?", x)
+            if a2:
+                aut = a2.group(1)
+                break
+        a3 = re.search(r"\(\s*([^()]{3,60}?)\s*\)\s*$", tr)
+        if a3 and not aut:
+            aut, tr = a3.group(1), tr[:a3.start()].strip(" .,;:-–")
+        if not (2 <= len(lat.split()) <= 18) or re.search(r"\d", lat):
+            continue
+        if not (10 <= len(tr) <= 260) or not tr[0].isupper():
             continue
         voci.append({"latino": lat + ".", "traduzione": tr + ("" if tr[-1] in ".!?" else "."), "autore": aut})
+    if len(voci) < 50:
+        raise RuntimeError(f"proverbi latini letti: {len(voci)}")
     return voci
 
 
