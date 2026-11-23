@@ -1,17 +1,13 @@
-import json, re, html
+import json, re
 from pathlib import Path
 import requests
 H = {"User-Agent": "RassegnaPersonale/1.0 (app personale non commerciale; https://github.com/francescocaruso487-tech/super-agente) python-requests", "Accept-Language": "it"}
-D = Path("docs/data"); out = {}
-def g(u, **kw): return requests.get(u, headers=H, timeout=40, **kw)
-r = g("https://it.wikipedia.org/w/api.php", params={"action": "query", "list": "search", "srsearch": "intitle:\"Locuzioni latine\"", "srlimit": 30, "format": "json"}).json()
-out["titoli"] = [x["title"] for x in r["query"]["search"]]
-t = g("https://it.wikipedia.org/api/rest_v1/page/html/Locuzioni_latine").content.decode("utf-8", "replace")
-out["main_len"] = len(t)
-out["main_links"] = re.findall(r'href="\./(Locuzioni_latine[^"#]*)"', t)[:40]
-out["main_head"] = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", t))[:800]
-for tit in out["titoli"][:2]:
-    p = g("https://it.wikipedia.org/api/rest_v1/page/html/" + requests.utils.quote(tit.replace(" ", "_"))).content.decode("utf-8", "replace")
-    i = p.find("<li")
-    out["pag_" + tit] = {"n_li": p.count("<li"), "n_tr": p.count("<tr"), "html": p[i:i + 1500] if i > 0 else p[:1500]}
-(D / "debug_sonda.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+t = requests.get("https://it.wikipedia.org/api/rest_v1/page/html/Locuzioni_latine", headers=H, timeout=60).content.decode("utf-8", "replace")
+lis = re.findall(r"<li[^>]*>(.*?)</li>", t, re.S)
+cand = [x for x in lis if "<b" in x or "<dfn" in x or "<i>" in x]
+out = {"n": len(lis), "cand": len(cand), "campioni": [re.sub(r"\s+", " ", x)[:500] for x in cand[300:306]],
+       "primi": [re.sub(r"\s+", " ", x)[:300] for x in lis[60:66]],
+       "dl": t.count("<dt"), "dd": t.count("<dd"), "h2": re.findall(r"<h2[^>]*>(.*?)</h2>", t, re.S)[:6]}
+i = t.find("<dt")
+out["dt_html"] = t[i:i + 1200] if i > 0 else ""
+Path("docs/data/debug_sonda.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
