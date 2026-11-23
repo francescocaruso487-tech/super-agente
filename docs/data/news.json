@@ -1,7 +1,1668 @@
 {
- "aggiornato": "2026-11-22T23:01:04Z",
+ "aggiornato": "2026-11-23T00:01:01Z",
  "tassonomia": "14",
  "notizie": [
+  {
+   "id": "7c1065459e301fc9",
+   "titolo": "Fattura elettronica, dal 2027 nuove specifiche tecniche: debutta il codice RF21",
+   "link": "https://www.fiscal-focus.it/quotidiano/il-quotidiano/articoli-fisco/fattura-elettronica-dal-2027-nuove-specifiche-tecniche-debutta-il-codice-rf21,3,190315",
+   "fonte": "fiscalfocus",
+   "fonte_nome": "Fiscal Focus",
+   "tipo": "stampa",
+   "aree": [
+    "norme"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "norme.uni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "perito"
+   ]
+  },
+  {
+   "id": "d9a6afd723ff4e2c",
+   "titolo": "Tobin tax: secondo raddoppio in due anni: dal 2027 aliquota allo 0,8% sulle azioni",
+   "link": "https://www.fiscal-focus.it/quotidiano/il-quotidiano/articoli-fisco/tobin-tax-secondo-raddoppio-in-due-anni-dal-2027-aliquota-allo-0-8-sulle-azioni,3,190314",
+   "fonte": "fiscalfocus",
+   "fonte_nome": "Fiscal Focus",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "bonus.superbonus"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "geometra",
+    "ingegnere",
+    "architetto",
+    "agente_imm"
+   ]
+  },
+  {
+   "id": "aa89643e8bc3d7f5",
+   "titolo": "Imposta di registro, è nullo l’avviso di rettifica che non identifica gli atti di comparazione",
+   "link": "https://www.fiscal-focus.it/quotidiano/il-quotidiano/articoli-legali/imposta-di-registro-e-nullo-l-avviso-di-rettifica-che-non-identifica-gli-atti-di-comparazione,3,190310",
+   "fonte": "fiscalfocus",
+   "fonte_nome": "Fiscal Focus",
+   "tipo": "stampa",
+   "aree": [
+    "catasto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "catasto.volture"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "geometra",
+    "notaio",
+    "agente_imm",
+    "commercialista"
+   ]
+  },
+  {
+   "id": "1f0ad2795fb67dbb",
+   "titolo": "Spalmacrediti Superbonus sotto accusa, l’incapienza fiscale diventa una virtù",
+   "link": "https://www.fiscal-focus.it/quotidiano/il-quotidiano/articoli-fisco/spalmacrediti-superbonus-sotto-accusa-l-incapienza-fiscale-diventa-una-virtu,3,190307",
+   "fonte": "fiscalfocus",
+   "fonte_nome": "Fiscal Focus",
+   "tipo": "stampa",
+   "aree": [
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "bonus.superbonus"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "geometra",
+    "ingegnere",
+    "architetto",
+    "agente_imm"
+   ]
+  },
+  {
+   "id": "1d2a7ac684f295e2",
+   "titolo": "E-book scolastici al 50%, la misura stralciata dalla manovra torna nel decreto Scuola",
+   "link": "https://www.fiscal-focus.it/informa/informa-piu/caf/e-book-scolastici-al-50-la-misura-stralciata-dalla-manovra-torna-nel-decreto-scuola,3,190302",
+   "fonte": "fiscalfocus",
+   "fonte_nome": "Fiscal Focus",
+   "tipo": "stampa",
+   "aree": [
+    "formazione_cultura",
+    "bonus"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "formazione_cultura.scuola",
+    "bonus.bilancio"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "docente",
+    "traduttore",
+    "archivista",
+    "curatore_mus",
+    "commercialista",
+    "geometra",
+    "ingegnere",
+    "architetto"
+   ]
+  },
+  {
+   "id": "dcfd286d7e3a09ec",
+   "titolo": "UIA Golden Cubes Awards: i vincitori Gli esiti della fase nazionale",
+   "link": "https://www.awn.it/news/cnappc-informa/10040-uia-golden-cubes-awards-i-vincitori",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "d6909c99371c4b60",
+   "titolo": "UIA: Call for Projects Atlante degli ambienti di apprendimento Le candidature entro il 15 aprile",
+   "link": "https://www.awn.it/news/cnappc-informa/10038-uia-call-for-projects-atlante-degli-ambienti-di-apprendimento",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "1ca858f2328f087d",
+   "titolo": "Progetto Think Tank: 2 FAD asincroni per la formazione Dialoghi con personalità di fama internazionale sul ruolo della professione",
+   "link": "https://www.awn.it/news/cnappc-informa/10033-think-tank-serbatoio-di-pensiero",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "445c4d5bb2eaf022",
+   "titolo": "03 novembre 2026 ABITARE IL PAESE – IX EDIZIONE / 2026-2027 La nuova edizione",
+   "link": "https://www.awn.it/attivita/abitare-il-paese/10201-abitare-il-paese-9",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "81ee98be532bc73e",
+   "titolo": "08 maggio 2026 Milano: bando per 110 alloggi a Niguarda e Giambellino Aperto fino al 31 agosto 2026",
+   "link": "https://www.awn.it/news/notizie/10056-milano-bando-per-110-alloggi-a-niguarda-e-giambellino",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "c3d4e1e394df30b6",
+   "titolo": "06 maggio 2026 Stati generali della bellezza: a Offida l’11 e il 12 giugno Focus sul futuro dei borghi",
+   "link": "https://www.awn.it/news/notizie/10055-stati-generali-della-bellezza-a-offida-l-11-e-il-12-giugno",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "f504b5c7249218a7",
+   "titolo": "Valutazioni immobiliari: dati, qualità e trasparenza al centro del convegno ASSOVIB",
+   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/valutazioni-immobiliari-dati-qualit%C3%A0-e-trasparenza-al-centro-del-convegno-assovib?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1020791&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=valutazioni-immobiliari-dati-qualit%25C3%25A0-e-trasparenza-al-centro-del-convegno-assovib&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1020791%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
+   "fonte": "coll-geom-ce",
+   "fonte_nome": "Collegio Geometri Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": [
+    "data"
+   ]
+  },
+  {
+   "id": "eb7b100865371e5c",
+   "titolo": "San Vito al Tagliamento festeggia i cento anni del geometra Dino Candusso",
+   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1019661&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1019661%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
+   "fonte": "coll-geom-ce",
+   "fonte_nome": "Collegio Geometri Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": [
+    "geometra"
+   ]
+  },
+  {
+   "id": "800670d9f89f2165",
+   "titolo": "Automotive: per i mini contratti di sviluppo domande dal 30.11",
+   "link": "https://www.consulentidellavoro.it/home/storico-articoli/20036-automotive-per-i-mini-contratti-di-sviluppo-domande-dal-30-11",
+   "fonte": "f-cdl",
+   "fonte_nome": "Consulenti del Lavoro",
+   "tipo": "ordine",
+   "aree": [
+    "imprese",
+    "lavoro"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "imprese.invitalia"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "commercialista",
+    "consulente_az",
+    "avvocato",
+    "consulente_lavoro",
+    "hr",
+    "formatore"
+   ]
+  },
+  {
+   "id": "91c5565a0134a22b",
+   "titolo": "Meccanismo di Vigilanza Unico: pubblicazione dei risultati aggregati del processo SREP 2026 e delle priorità di vigilanza 2027-2029",
+   "link": "https://www.bancaditalia.it/media/notizia/meccanismo-di-vigilanza-unico-pubblicazione-dei-risultati-aggregati-del-processo-srep-2026-e-delle-priorit-di-vigilanza-2027-2029/",
+   "fonte": "p-bankit",
+   "fonte_nome": "Banca d'Italia",
+   "tipo": "ufficiale",
+   "aree": [
+    "giustizia",
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "giustizia.giustizia"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "07e1385a63d2ba15",
+   "titolo": "L'economia del Molise - Aggiornamento congiunturale, novembre 2026",
+   "link": "https://www.bancaditalia.it/media/notizia/l-economia-del-molise-aggiornamento-congiunturale-novembre-2026/",
+   "fonte": "p-bankit",
+   "fonte_nome": "Banca d'Italia",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": [],
+   "altre_fonti": []
+  },
+  {
+   "id": "998c6cfc855fd2ec",
+   "titolo": "Pubblicazione nuovi \"Temi di discussione\", \"Questioni di economia e finanza\" e Newsletter della ricerca economica - 17 novembre 2026",
+   "link": "https://www.bancaditalia.it/media/notizia/pubblicazione-nuovi-temi-di-discussione-questioni-di-economia-e-finanza-e-newsletter-della-ricerca-economica-17-novembre-2026/",
+   "fonte": "p-bankit",
+   "fonte_nome": "Banca d'Italia",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "a0ee11428c906564",
+   "titolo": "Fare impresa nelle città italiane: evidenze e lezioni dagli indicatori Subnational B-Ready",
+   "link": "https://www.bancaditalia.it/media/notizia/fare-impresa-nelle-citt-italiane-evidenze-e-lezioni-dagli-indicatori-subnational-b-ready/",
+   "fonte": "p-bankit",
+   "fonte_nome": "Banca d'Italia",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "85f2d3dd491fad37",
+   "titolo": "Al Galata Museo del Mare di Genova arriva \"L'avventura della moneta. Dall'oro al digitale\"",
+   "link": "https://www.bancaditalia.it/media/agenda/2026-11-11_al-galata-museo-del-mare-di-genova-arriva-l-avventura-della-moneta-dall-oro-al-digitale/",
+   "fonte": "p-bankit",
+   "fonte_nome": "Banca d'Italia",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "c19094a175dcfc85",
+   "titolo": "Buoni del Tesoro Poliennali indicizzati all'inflazione europea con cedola avente inizio godimento 15 maggio 2026 e scadenza 15 novembre 2026",
+   "link": "https://www.bancaditalia.it/media/comunicati/documenti/2026-02/cs-BTP-Indicizzati-16112026.pdf",
+   "fonte": "p-bankit",
+   "fonte_nome": "Banca d'Italia",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "475a96dfe4dc340c",
+   "titolo": "Esito dei collocamenti supplementari di titoli di Stato svolti nella giornata del 13 novembre 2026 - BTP",
+   "link": "https://www.bancaditalia.it/media/comunicati/documenti/2026-02/cs-collocamenti-supplementari-BTP-13112026.pdf",
+   "fonte": "p-bankit",
+   "fonte_nome": "Banca d'Italia",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": [],
+   "altre_fonti": []
+  },
+  {
+   "id": "e0b8142c627e0950",
+   "titolo": "La BCE mantiene sostanzialmente stabili i requisiti patrimoniali per il 2027",
+   "link": "https://www.bancaditalia.it/media/bce-comunicati/documenti/2026/ssm.pr261119.it.pdf",
+   "fonte": "p-bankit",
+   "fonte_nome": "Banca d'Italia",
+   "tipo": "ufficiale",
+   "aree": [
+    "europa",
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "europa.economia_ue"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "7c0076140ba7bb59",
+   "titolo": "Intervista del Governatore Fabio Panetta al Festival Internazionale dell'Economia di Torino 2026",
+   "link": "https://www.bancaditalia.it/media/intervista/intervista-del-governatore-fabio-panetta-al-festival-internazionale-dell-economia-di-torino-2026/",
+   "fonte": "p-bankit",
+   "fonte_nome": "Banca d'Italia",
+   "tipo": "ufficiale",
+   "aree": [
+    "territorio",
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "territorio.regioni"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "cc63a3d295c10f33",
+   "titolo": "L'impegno delle istituzioni finanziarie per la stabilità e la sostenibilità",
+   "link": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261028-angelini/index.html",
+   "fonte": "p-bankit",
+   "fonte_nome": "Banca d'Italia",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "de01fdaca4ec2339",
+   "titolo": "Che cosa deve sapere oggi la politica monetaria?",
+   "link": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261119-altimari/index.html",
+   "fonte": "p-bankit",
+   "fonte_nome": "Banca d'Italia",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "73d7bdd43165c9d3",
+   "titolo": "Audizione preliminare all'esame della manovra economica per il triennio 2027-29",
+   "link": "https://www.bancaditalia.it/pubblicazioni/interventi-vari/int-var-2026/Brandolini_audizione_12.11.2026.pdf",
+   "fonte": "p-bankit",
+   "fonte_nome": "Banca d'Italia",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "economia_pol.manovra"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "3a07752c9449cf2a",
+   "titolo": "Ep. 5 - Dalla stampa delle banconote all'euro digitale, un racconto di come viaggiano i pagamenti",
+   "link": "https://www.bancaditalia.it/media/podcast/centrale/dalla-stampa-delle-banconote-all-euro-digitale-un-racconto-di-come-viaggiano-i-pagamenti/",
+   "fonte": "p-bankit",
+   "fonte_nome": "Banca d'Italia",
+   "tipo": "ufficiale",
+   "aree": [
+    "europa",
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "europa.economia_ue"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "16ab195447658573",
+   "titolo": "Ep. 4 - Guardiani della stabilità: la salvaguardia del sistema bancario e finanziario e della clientela",
+   "link": "https://www.bancaditalia.it/media/podcast/centrale/guardiani-della-stabilit-la-salvaguardia-del-sistema-bancario-e-finanziario-e-della-clientela/",
+   "fonte": "p-bankit",
+   "fonte_nome": "Banca d'Italia",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "cae5807e61b8e3d4",
+   "titolo": "11-13/11 CONVEGNO DI STUDI “GIUSTIZIA AL SERVIZIO DEL PAESE - STATO COSTITUZIONALE E ISTITUZIONI DI GARANZIA” Leggi di più",
+   "link": "https://www.corteconti.it/HOME/StampaMedia/Notizie/DettaglioNotizia?Id=81f5aa11-7ab4-4445-9814-adbd299ee8ef",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "giustizia",
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "giustizia.giustizia"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "96b6125028e8ff46",
+   "titolo": "09/11 AUDIZIONE DELLA CORTE DEI CONTI NELL’AMBITO DELL’ATTIVITÀ CONOSCITIVA PRELIMINARE ALL’ESAME DEL DISEGNO DI LEGGE DI BILANCIO 2027 Leggi di più",
+   "link": "https://www.corteconti.it/HOME/StampaMedia/Notizie/DettaglioNotizia?Id=a4974ef1-efc3-423a-bdd7-72f7c2478465",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol",
+    "governo"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "economia_pol.manovra",
+    "governo.parlamento"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "333fd0b65ebd90bb",
+   "titolo": "12/10 AUDIZIONE PARLAMENTARE DELLA CORTE DEI CONTI NELL’AMBITO DELL’ATTIVITÀ CONOSCITIVA PRELIMINARE ALL’ESAME DEL DOCUMENTO PROGRAMMATICO DI FINANZA PUBBLICA 2026 Leggi di più",
+   "link": "https://www.corteconti.it/HOME/StampaMedia/Notizie/DettaglioNotizia?Id=daa7cb63-077d-4596-9642-43b34fb52ff1",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "economia_pol.manovra"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "93fbe07a2c384d59",
+   "titolo": "24/06 GIUDIZIO DI PARIFICAZIONE DEL RENDICONTO GENERALE DELLO STATO PER L’ESERCIZIO FINANZIARIO 2025 Leggi di più",
+   "link": "https://www.corteconti.it/HOME/StampaMedia/Notizie/DettaglioNotizia?Id=89692fb9-8dee-4121-b796-288cd3767608",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "485707f97a4a76e7",
+   "titolo": "PNRR, CORTE CONTI: LO STATO DI ATTUAZIONE AL II SEMESTRE 2025 Leggi di più",
+   "link": "https://www.corteconti.it/HOME/StampaMedia/Notizie/DettaglioNotizia?Id=04a4b7cd-d77f-49e7-b9b7-e24fe8edac7f",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "europa",
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "europa.economia_ue",
+    "economia_pol.pnrr"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "4cac3052eea69915",
+   "titolo": "CORTE CONTI: MAURO OREFICE NUOVO PRESIDENTE AGGIUNTO Leggi di più",
+   "link": "https://www.corteconti.it/HOME/StampaMedia/Notizie/DettaglioNotizia?Id=bed145af-7430-4e5a-b00e-33726077d4d0",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "44adbe27c7894ca6",
+   "titolo": "03/11 RINNOVATO IL PROTOCOLLO D’INTESA TRA MIM E CORTE DEI CONTI SULL’EDUCAZIONE FINANZIARIA E LA CULTURA DELLA LEGALITÀ Leggi di più",
+   "link": "https://www.corteconti.it/HOME/StampaMedia/Notizie/DettaglioNotizia?Id=4d81507c-dc7a-4326-af9f-8e45a27569a4",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "economia_pol.manovra"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "436314e69f9c9d9e",
+   "titolo": "BANDO PER IL RECLUTAMENTO DI N. 20 TIROCINANTI, ELEVABILI A 40, CON ORIENTAMENTO ECONOMICO-FINANZIARIO-STATISTICO Leggi di più",
+   "link": "https://www.corteconti.it/HOME/StampaMedia/Notizie/DettaglioNotizia?Id=b5d38d63-d02c-4260-904e-b47eac266ecc",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "087645e0a5f61bf8",
+   "titolo": "21-22/10 A PRISTINA (KOSOVO) LA QUARTA RIUNIONE DEL GRUPPO DI LAVORO EUROSAI SU BENEFICI E METODOLOGIE DEL REAL TIME AUDIT Leggi di più",
+   "link": "https://www.corteconti.it/HOME/StampaMedia/Notizie/DettaglioNotizia?Id=cc1b9342-d394-4977-b29c-d20db1e07d10",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "d6c2f06dc410ea59",
+   "titolo": "SANITA’, CORTE CONTI: RISORSE E MISURE PER RIDURRE LE LISTE D’ATTESA Leggi di più",
+   "link": "https://www.corteconti.it/HOME/StampaMedia/Notizie/DettaglioNotizia?Id=57d85fe3-8204-4c70-a196-783bf3f4904a",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "economia_pol.welfare"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "802471f86bccd7b3",
+   "titolo": "CONCORSO PUBBLICO, PER ESAMI, A N. 13 UNITÀ DI PERSONALE AMMINISTRATIVO APPARTENENTE ALL’AREA DEI FUNZIONARI - FAMIGLIA AMMINISTRATIVA E GIUSCONTABILE – CON ORIENTAMENTO GIURIDICO - DA INQUADRARE NEI RUOLI DEL PERSONALE DELLA CORTE DEI CONTI Leggi di più",
+   "link": "https://www.corteconti.it/HOME/StampaMedia/Notizie/DettaglioNotizia?Id=8bb8941d-835a-4e43-b43f-104babd6d481",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "economia_pol.manovra"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "1313a179d1610d83",
+   "titolo": "4 GIUGNO CONVEGNO “RIFLESSIONI SULLE CINQUE RESPONSABILITÀ DEL PUBBLICO DIPENDENTE”",
+   "link": "https://www.corteconti.it/Home/StampaMedia/Agenda/DettaglioAgenda?Id=88b11b9e-f9dd-4eca-8eed-f5c40ea37ac9",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "7d11a9ed86596b95",
+   "titolo": "17-18/09 PRIMO SEMINARIO DEL PUBLIC PROSECUTOR OFFICES COMMITTEE DI JURISAI",
+   "link": "https://www.corteconti.it/Home/StampaMedia/Agenda/DettaglioAgenda?Id=3ecc3e3b-4664-4dd6-add3-bfb423a0136b",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "855af1ad4e9e83e8",
+   "titolo": "24-25/09 CONVEGNO \"EVOLUZIONE DEI CONTROLLI E RIFORMA DELLA RESPONSABILITA’ ERARIALE, NELL’OTTICA DELLA SEMPLIFICAZIONE E DEL BUON ANDAMENTO\"",
+   "link": "https://www.corteconti.it/Home/StampaMedia/Agenda/DettaglioAgenda?Id=1d19559b-a795-4de2-8d88-ad518a0c1843",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "90d5180c49cadb42",
+   "titolo": "08/10 CONVEGNO “L’OBBLIGO DI COPERTURA ASSICURATIVA NELLA LEGGE N. 1/2026”",
+   "link": "https://www.corteconti.it/Home/StampaMedia/Agenda/DettaglioAgenda?Id=ec347287-6360-476b-a1d4-a54da55c6543",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "baa798c6cee8fa6d",
+   "titolo": "24 giugno 2026 - Giudizio di Parificazione del Rendiconto generale dello Stato per l’esercizio finanziario 2025",
+   "link": "https://www.corteconti.it/HOME/StampaMedia/Multimedia/DettaglioMultimedia?Id=125cfb07-043c-4323-a69c-1e0642bea0fb",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "041f80a3498169a7",
+   "titolo": "24 febbraio 2026 – Inaugurazione dell'anno giudiziario 2026",
+   "link": "https://www.corteconti.it/HOME/StampaMedia/Multimedia/DettaglioMultimedia?Id=b1957501-3d37-4d60-9bd1-a35b157f3a69",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "807fed5e77e97fc1",
+   "titolo": "Nuove regole tecniche e operative in materia di fascicolo digitale e di deposito degli atti e dei documenti nei giudizi dinanzi alla Corte dei conti. DP 115/2024 del 15 aprile 2024. IN VIGORE DA 21/06/2024",
+   "link": "https://www.corteconti.it/Home/ChiSiamo/InformazioniUtili/RegFascicoloDig",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "economia_pol.manovra"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "8bdf9a0e7d380bcc",
+   "titolo": "Integrazione delle regole tecniche e operative per lo svolgimento dei giudizi dinanzi alla Corte dei conti mediante le tecnologie dell’informazione e comunicazione. IN VIGORE DA 28/02/2023",
+   "link": "https://www.corteconti.it/Home/ChiSiamo/InformazioniUtili/IntegrRegoleGiudizi",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "territorio",
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "territorio.regioni",
+    "economia_pol.manovra"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": [],
+   "altre_fonti": []
+  },
+  {
+   "id": "c2cc4ca628a37463",
+   "titolo": "Prime regole tecniche per utilizzo PEC nei giudizi",
+   "link": "https://www.corteconti.it/Home/ChiSiamo/InformazioniUtili/UtilizzoPec",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "d8f5d215b2579a9b",
+   "titolo": "Pagamento Diritti di copia e imposta di bollo atti giudiziari",
+   "link": "https://www.corteconti.it/Home/ChiSiamo/InformazioniUtili/PagamentoDirittiAttiGiudiziari",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "giustizia",
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "giustizia.diritti"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "b03f568260e06c56",
+   "titolo": "Indirizzi PEC per le notifiche e la trasmissione degli atti processuali",
+   "link": "https://www.corteconti.it/Home/ChiSiamo/InformazioniUtili/IndirizziPECAttiProcessuali",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "a95f555bbeef5cad",
+   "titolo": "Presentare un giudizio innanzi alle Sezioni riunite in sede giurisdizionale",
+   "link": "https://www.corteconti.it/Home/ChiSiamo/InformazioniUtili/PresGiudizioDa1Ott2024",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "63fb67b6dc1f16e0",
+   "titolo": "Come funzionano i controlli preventivi di legittimità",
+   "link": "https://www.corteconti.it/HOME/StampaMedia/Notizie/DettaglioNotizia?Id=88e08dba-d6db-4c36-ba45-e569eec41119",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "c9b98342876a2348",
+   "titolo": "Linee guida per la concessione del patrocinio e del logo della Corte dei conti [PDF, 252,188 KB]",
+   "link": "https://www.corteconti.it/Download?id=d518695e-bd64-4dfa-bf7c-16bfe268e90a",
+   "fonte": "p-corteconti",
+   "fonte_nome": "Corte dei Conti",
+   "tipo": "ufficiale",
+   "aree": [
+    "economia_pol"
+   ],
+   "normativa": true,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "economia_pol.manovra"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "719fca23fc1353ef",
+   "titolo": "Antonelli è campione del mondo 73 anni dopo Ascari",
+   "link": "https://www.ansa.it/sito/notizie/sport/f1/2026/11/02/f1-antonelli-fa-la-storia-in-messico-e-campione-del-mondo-73-anni-dopo-ascari_623e8e68-b9e6-4b58-abc1-674b8f0bc473.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "166769cd0bb8ed28",
+   "titolo": "I Nobel 2026, lo speciale con tutti i riconoscimenti",
+   "link": "https://www.ansa.it/sito/notizie/mondo/2026/10/05/premi-nobel-2026_9b1c2f83-617b-4a3c-b2f6-53593127b6c1.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "f67a7b86747586e9",
+   "titolo": "In Meclemburgo Pomerania vince l'AfD, Berlino alla Linke",
+   "link": "https://www.ansa.it/sito/notizie/mondo/2026/09/21/lafd-vince-anche-in-meclemburgo-pomerania-berlino-alla-linke-ma-merz-non_e858bc98-bac2-4f2f-a7ce-abd390ca6baf.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "88025e72270ba08f",
+   "titolo": "L'Italia piange Sandro Mazzola: 'Eri il figlio del calcio'",
+   "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/19/litalia-piange-sandro-mazzola-eri-il-figlio-del-calcio_4e64feca-d64f-4fb1-92e1-065b2d74325f.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "f1201a0ddbe5e84e",
+   "titolo": "Mostra del cinema di Venezia, vince la regista May el-Toukhy",
+   "link": "https://www.ansa.it/sito/notizie/cultura/2026/09/13/mostra-del-cinema-di-venezia-vince-la-regista-may-el-toukhy-sul-palco_e27e8d18-1155-41cd-a6c6-d0b46d73669c.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "9d04a570fe2519fb",
+   "titolo": "Cateno De Luca: 'Aspettando Godot, mi candido a sindaco di Roma'",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/18/cateno-de-luca-aspettando-godot-mi-candido-a-sindaco-di-roma_99f4e16c-783d-4896-a673-60dbaa3a8816.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "territorio",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "territorio.regioni"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "0bbfeb00d0156ff2",
+   "titolo": "Alta tensione nella Lega dopo la sfiducia in Senato di Romeo",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/18/garavaglia-la-sfiducia-a-romeo-ignobile-e-politicamente-stupida_20fdf933-d46a-45c5-aaa6-d07f540b3948.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "partiti.partiti",
+    "governo.parlamento"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "b34ddc0c0b359a45",
+   "titolo": "Attilio Fontana: 'La sfiducia a Romeo un errore che crea disagio, trovare uno sfogo per i malumori'",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/18/lega-a.fontana-sfiducia-a-romeo-un-errore-che-crea-disagio-trovare-uno_c5ba7698-b7a5-4f0f-845e-a908a6599142.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "8b05c9c2dea14f9a",
+   "titolo": "Scontro in maggioranza, stop and go sullo sconto per i libri digitali",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/18/scontro-in-maggioranza-stop-and-go-sullo-sconto-per-i-libri-digitali_da3dbc87-30d4-484c-abf4-927dfa437362.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "partiti.partiti"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "a00237c17ad96535",
+   "titolo": "Kiev, 'il bilancio dell'attacco russo a Dymer è salito a sei morti'",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/23/kiev-il-bilancio-dellattacco-russo-a-dymer-e-salito-a-sei-morti_ece2eae5-6885-41de-a97d-23a92cd0019e.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "esteri",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": [],
+   "altre_fonti": [
+    "ANSA Mondo"
+   ]
+  },
+  {
+   "id": "567a737bf7dee0ea",
+   "titolo": "Mosca, 'Putin e Trump non hanno discusso della nomina di un ambasciatore a Washington'",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/23/mosca-putin-e-trump-non-hanno-discusso-della-nomina-di-un-ambasciatore-a-washington_9d29ac90-30fb-4129-9438-18f5d601eaef.html",
+   "fonte": "p-ansa-pol",
+   "fonte_nome": "ANSA Politica",
+   "tipo": "stampa",
+   "aree": [
+    "esteri",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": [],
+   "altre_fonti": [
+    "ANSA Mondo"
+   ]
+  },
+  {
+   "id": "8a9562c68a9f155a",
+   "titolo": "L'ira di Eisenkot e Sa'ar per i coloni violenti, 'terrorismo ebraico'",
+   "link": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/22/lira-di-eisenkot-e-saar-per-i-coloni-violenti-terrorismo-ebraico_eb3844ea-33e9-4eb6-b93c-7f70f616f8e2.html",
+   "fonte": "p-ansa-mondo",
+   "fonte_nome": "ANSA Mondo",
+   "tipo": "stampa",
+   "aree": [
+    "esteri"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "7ca40fa60e349732",
+   "titolo": "Manovra, peones a caccia di voti: tra le mancette tre milioni per il campo dove Sinner ha iniziato",
+   "link": "https://www.ilmessaggero.it/politica/manovra_mancette_3_milioni_campo_sinner_peones_voti-9906640.html",
+   "fonte": "p-messaggero",
+   "fonte_nome": "Il Messaggero Politica",
+   "tipo": "stampa",
+   "aree": [
+    "economia_pol",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "economia_pol.manovra"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "d364790a49a3e29f",
+   "titolo": "Il caso arriva all’Antimafia. E FdI valuta il rinvio della relazione di Colosimo",
+   "link": "https://www.ilmessaggero.it/politica/de_gennaro_antimafia_fdi_rinvio_relazione_colosimo-9906639.html",
+   "fonte": "p-messaggero",
+   "fonte_nome": "Il Messaggero Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "6d43f66383ab0e55",
+   "titolo": "Salerno, Car T contro il mieloma multiplo al Ruggi: tre pazienti in remissione completa su diciotto in cura",
+   "link": "https://www.ilmattino.it/salerno/car_t_mieloma_multiplo_ospedale_ruggi_salerno_tre_pazienti_remissione_completa_ematologia_selleri-9906559.html",
+   "fonte": "p-mattino",
+   "fonte_nome": "Il Mattino (Napoli e Campania)",
+   "tipo": "stampa",
+   "aree": [
+    "territorio"
+   ],
+   "normativa": false,
+   "sintesi": "Tre pazienti in remissione completa. Il tumore, almeno per ora, non mostra più segni rilevabili di attività.",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "rss",
+   "sotto": [
+    "territorio.campania"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "b64977a3206f5d8b",
+   "titolo": "Airola, il giallo del medico gambizzato: è caccia all'uomo con il casco che ha aggredito il medico",
+   "link": "https://www.ilmattino.it/benevento/pediatra_gambizzato_airola_carmine_parente_comitato_ordine_sicurezza_prefettura_benevento-9906457.html",
+   "fonte": "p-mattino",
+   "fonte_nome": "Il Mattino (Napoli e Campania)",
+   "tipo": "stampa",
+   "aree": [
+    "esteri",
+    "territorio"
+   ],
+   "normativa": false,
+   "sintesi": "Il Comitato dell'Ordine e la sicurezza pubblica chi si riunirà giovedì prossimo in Prefettura, presieduto dal prefetto Raffaela Moscarella, esaminerà anche il caso del...",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "rss",
+   "sotto": [
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "2782a9145212cacc",
+   "titolo": "Avellino, un cacciatore muore durante una battuta di caccia al cinghiale: era un 62enne di Ottaviano",
+   "link": "https://www.ilmattino.it/avellino/castelvetere_sul_calore_cacciatore_ottaviano_morto_battuta_caccia_cinghiale_vincenzo_saviano_colpo_rimbalzato-9906501.html",
+   "fonte": "p-mattino",
+   "fonte_nome": "Il Mattino (Napoli e Campania)",
+   "tipo": "stampa",
+   "aree": [
+    "territorio"
+   ],
+   "normativa": false,
+   "sintesi": "È morto dopo essere stato raggiunto alla testa da un colpo di fucile esploso durante una battuta di caccia al cinghiale.",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "rss",
+   "sotto": [
+    "territorio.campania"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "bda23ed9ccbde18b",
+   "titolo": "Caserta, droga, armi e viabilità. La stretta dei carabinieri: ragazzo di 26 anni preso con una katana",
+   "link": "https://www.ilmattino.it/caserta/caserta_droga_armi_e_viabilita_la_stretta_dei_carabinieri_ragazzo_di_26_anni_preso_con_una_katana-9906583.html",
+   "fonte": "p-mattino",
+   "fonte_nome": "Il Mattino (Napoli e Campania)",
+   "tipo": "stampa",
+   "aree": [
+    "territorio"
+   ],
+   "normativa": false,
+   "sintesi": "Provincia di Caserta sotto scacco ad opera della Benemerita. Tre arresti, almeno 14 denunce in stato di libertà, diverse segnalazioni alla Prefettura e il sequestro di…",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "rss",
+   "sotto": [
+    "territorio.campania"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "00cea60024aa521d",
+   "titolo": "Champions League, Manchester City-Napoli: Maresca e Vitiello, la panchina degli inglesi è made in Campania",
+   "link": "https://www.ilmattino.it/sport/sscnapoli/champions_league_manchester_city_napoli_maresca_vitiello_panchina_inglesi_made_in_campania-9906497.html",
+   "fonte": "p-mattino",
+   "fonte_nome": "Il Mattino (Napoli e Campania)",
+   "tipo": "stampa",
+   "aree": [
+    "territorio"
+   ],
+   "normativa": false,
+   "sintesi": "Non è mai facile parlare di Enzo Maresca. Semplicemente perché tutto è stato già detto. Ma anche perché non potrebbe mai essere facile parlare di un 17enne che...",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "rss",
+   "sotto": [
+    "territorio.campania"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "93475378c3eb49f2",
+   "titolo": "Urso, sull'auto abbiamo cambiato il quadro in Europa",
+   "link": "https://www.ansa.it/canale_motori/notizie/mondo_motori/2026/11/22/urso-sullauto-abbiamo-cambiato-il-quadro-in-europa_9a18eccb-b8b8-4e08-9f59-6b8c36e21a03.html",
+   "fonte": "a-ansa",
+   "fonte_nome": "ANSA Motori",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "416f3970a3734d82",
+   "titolo": "Pio Esposito: \"Tripletta? Non riesco a godermela\" Serie A Nonostante la tripletta realizzata contro l'Atalanta, l'attaccante della Nazionale non è riuscito... 22 nov - 23:13",
+   "link": "https://sport.sky.it/calcio/serie-a/2026/11/23/atalanta-inter-pio-esposito-intervista-video",
+   "fonte": "a-sky-f1",
+   "fonte_nome": "Sky Sport F1 e motori",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "ea60566bed8b8c86",
+   "titolo": "Chivu: \"Troppo superficiali, impariamo la lezione\" Serie A L'allenatore dell'Inter analizza la gara pareggiata a Bergamo e in generale alcuni alti e bassi... 22 nov - 22:57",
+   "link": "https://sport.sky.it/calcio/serie-a/2026/11/22/atalanta-inter-chivu-intervista-video",
+   "fonte": "a-sky-f1",
+   "fonte_nome": "Sky Sport F1 e motori",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "4a9abd5825e79867",
+   "titolo": "Le migliori auto GPL del 2027: quali sono le best-buy 18/11/2026 · Lo leggi in 17 minuti",
+   "link": "https://www.autoscout24.it/informare/consigli/migliori-auto/le-migliori-auto-gpl-del-2027-quali-sono-le-best-buy/",
+   "fonte": "a-autoscout",
+   "fonte_nome": "AutoScout24 News",
+   "tipo": "stampa",
+   "aree": [
+    "prove",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "scraping",
+   "sotto": [
+    "prove.guide"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
   {
    "id": "6c40c7fb123dfd1e",
    "titolo": "Non c’è truffa da “corrispettivi gonfiati” se il general contractor superbonus è appaltatore",
@@ -274,6 +1935,130 @@
    ]
   },
   {
+   "id": "1e0b0a10ce050d35",
+   "titolo": "Lotto e Almanacco",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcWhrSlRmVGNrcGRqMHF2b2VxVFZDakp0ZWRNcS1qSHRFX2pveDlEWlBnd0pMR0R2Umt3c2VoYk50NUV1VXVjSHVCOHEza2JjX0FMcHRIWXkzRjlFUUs1WDNpMXhPWjJMN1lRQjYyRWpnb3NjUk83bHdkRWRORDRQb0tYdG9kRkEzVkhFNWpDcGVjVHJEenZTeEhubHNfTkxVd1k1WlhIQ1BDUUJ6SFE?oc=5",
+   "fonte": "p-rainews",
+   "fonte_nome": "Rai News Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Lotto e Almanacco RaiNews",
+   "pubblicata": "2026-11-22T23:32:00Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "b612d1f49f16f503",
+   "titolo": "Incentivi tecnici al RUP pensionato: niente compenso anche per i progetti PNRR",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE81bkRIV0hzQ00xS2J2eFhyWTM2akpOMUVtRjhHNWtJQVBTRU9ld002LUtrOTFjZFlhM2w5TzhoQnRYX3B1NDZvbGw2RlBWU3BpSXBWc196MllwbnBiSmlkeDhEZzNNMkVEX2dCaUtLcjVuSXBJUnktbWFJWDctZ9IBgwFBVV95cUxOd0pnNjlINDFzS3RGeGYzWHN0cW81VmZNbjRZNms5OFp5V3drZkVZbEVxWDZTRko2dzFaWTd0am8wdTBncEZnMmFqUGlpZ2hSRDF6THk5ZXBIS1JuOGhMQ0VyMXZSUlAzYy1GZ0tUZll2eWhNMjJuNmg4Nl92WUpUTXl1TQ?oc=5",
+   "fonte": "lavoripubblici",
+   "fonte_nome": "LavoriPubblici",
+   "tipo": "stampa",
+   "aree": [
+    "appalti",
+    "cantiere"
+   ],
+   "normativa": true,
+   "sintesi": "Incentivi tecnici al RUP pensionato: niente compenso anche per i progetti PNRR Lavori Pubblici",
+   "pubblicata": "2026-11-22T23:30:00Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [
+    "appalti.opere",
+    "cantiere.dl"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "rup",
+    "ingegnere",
+    "avvocato",
+    "contabile",
+    "dl",
+    "cse",
+    "capocantiere",
+    "collaudatore"
+   ]
+  },
+  {
+   "id": "373653b885e83a02",
+   "titolo": "Juventus-Venezia 4-0, la sintesi della partita",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRWNaeEtIcGR6ZnRXT2dJMWl0MjJQQzBOMlJGT0dmQUx0Z0RFZklBOTZEbDBESGZHUFJZVGp3VkJGN0ZjeDNnODFyUlhad0ZkMndOaU1EaERDOV9iLTZWX19NVkpfTEE1OHJDVEJaUHl3QktUV0J3bFJHS0VFNldHTDZzaEJzN1FLTWh5X1I0VGY1OWpoYU9rQkM3RU5vYlFwdy1uVzRwSHM2UnhMeFQ3R0FpakIyOFhjUnljaHg4ZlFLd9IBxwFBVV95cUxQbkxHcjFUdWw0anExQm9wZm9aemJvWUFkUzBYUGRKTHNnRFBHLUxPenVTaGFEQUdXZVJyTlhWYW1rSzB6TkEwR2t2MFdSaWFjUjE2Wk9UVmdEMHVFSFNObVFjaVJpYnUxYnNsMnE5TkJVYUZERG0wRDlQNWhNSkpBVVpGMEhiUFFtaHlCSjhXTGx2X3FyR0ZyRDVIYk9lZERwUFBXcWhUbVV5Qk9DZllzTmpUbDhWTFVZU3E0TF9IU1U3YVBOOHlJ?oc=5",
+   "fonte": "p-rainews",
+   "fonte_nome": "Rai News Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Juventus-Venezia 4-0, la sintesi della partita RaiNews",
+   "pubblicata": "2026-11-22T23:27:00Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "ace2d44bc875b2d0",
+   "titolo": "Italia 2028: stop al nuovo debito",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMDQ3Q0xxc2tBejBVeXVMeW5SODdSRXFBS3VXMVlWLUlMSG9OMlViTl9GNGVtek01UjBCbW1iYy1DdUhLb09UVEw5UTVKWkRUYXJST2w5d2VDY2psNnJwV2ZmQ1Y0WnBsdEhMOHZEXzNjYzBLdVZDdElOTzVyOE1iUmxualhjVnViLTBlZWxSLXJuc0ZjeHdPSlFMbkF6SGhf0gGWAUFVX3lxTE10X2k0QkwzRnZkRTk1WG5zVnlYYl9oNXpPdEthck0yZXRGOWhubWhSeUY4Vk5nWnFydzBiZFU2U21hekE3MHlfSTVnWUF4ZkJETEZ0Si1XOG5JUzlLOTBFa3JhQ3BaVlhIZjRTdFlmaElqcVpHZFg4Q0hGckFYUGMtM1ZOLXo5eWhObUlDdjBzb3BScHM3Zw?oc=5",
+   "fonte": "pr-anpal",
+   "fonte_nome": "ANPAL e politiche attive",
+   "tipo": "ufficiale",
+   "aree": [
+    "hr"
+   ],
+   "normativa": true,
+   "sintesi": "Italia 2028: stop al nuovo debito Il Messaggero",
+   "pubblicata": "2026-11-22T23:13:31Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "hr",
+    "formatore",
+    "consulente_lavoro"
+   ]
+  },
+  {
+   "id": "718d242ed9a02e9b",
+   "titolo": "Appartamento all'asta in Via Gagliano del Capo, 35, Torre Gaia - Villa Verde, Roma",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9kcm5UU0o2OHVfNDhZY09fazBvT3pJMldMZVViM2p3b00wdG5ZNm9fa1AtZFVJU1JKc0RNNDZtZW9RcEFSY2N5X01kQUlMQVJNWmJ1MVBB?oc=5",
+   "fonte": "pr-immobiliare-news",
+   "fonte_nome": "Immobiliare.it e Idealista News",
+   "tipo": "stampa",
+   "aree": [
+    "immobiliare"
+   ],
+   "normativa": false,
+   "sintesi": "Appartamento all'asta in Via Gagliano del Capo, 35, Torre Gaia - Villa Verde, Roma Idealista",
+   "pubblicata": "2026-11-22T23:07:14Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "agente_imm",
+    "condominio",
+    "valutatore",
+    "facility",
+    "mutui",
+    "notaio"
+   ]
+  },
+  {
    "id": "fe40975e4f765dd8",
    "titolo": "Crisi d'impresa e bilancio: strumenti operativi per l'avvocato e il giurista d'impresa",
    "link": "https://formazione.ipsoa.it:443/corsoonline/800976/corso-online-crisi-d-impresa-e-bilancio-strumenti-operativi-per-l-avvocato-e-il-giurista-d-impresa?utm_source=ipsoa.it&utm_medium=referral&utm_campaign=shoplist formazione",
@@ -297,170 +2082,6 @@
     "avvocato",
     "curatore",
     "notaio"
-   ]
-  },
-  {
-   "id": "dcfd286d7e3a09ec",
-   "titolo": "UIA Golden Cubes Awards: i vincitori Gli esiti della fase nazionale",
-   "link": "https://www.awn.it/news/cnappc-informa/10040-uia-golden-cubes-awards-i-vincitori",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T23:01:04Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "d6909c99371c4b60",
-   "titolo": "UIA: Call for Projects Atlante degli ambienti di apprendimento Le candidature entro il 15 aprile",
-   "link": "https://www.awn.it/news/cnappc-informa/10038-uia-call-for-projects-atlante-degli-ambienti-di-apprendimento",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T23:01:04Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "1ca858f2328f087d",
-   "titolo": "Progetto Think Tank: 2 FAD asincroni per la formazione Dialoghi con personalità di fama internazionale sul ruolo della professione",
-   "link": "https://www.awn.it/news/cnappc-informa/10033-think-tank-serbatoio-di-pensiero",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T23:01:04Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "445c4d5bb2eaf022",
-   "titolo": "03 novembre 2026 ABITARE IL PAESE – IX EDIZIONE / 2026-2027 La nuova edizione",
-   "link": "https://www.awn.it/attivita/abitare-il-paese/10201-abitare-il-paese-9",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T23:01:04Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "81ee98be532bc73e",
-   "titolo": "08 maggio 2026 Milano: bando per 110 alloggi a Niguarda e Giambellino Aperto fino al 31 agosto 2026",
-   "link": "https://www.awn.it/news/notizie/10056-milano-bando-per-110-alloggi-a-niguarda-e-giambellino",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T23:01:04Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "c3d4e1e394df30b6",
-   "titolo": "06 maggio 2026 Stati generali della bellezza: a Offida l’11 e il 12 giugno Focus sul futuro dei borghi",
-   "link": "https://www.awn.it/news/notizie/10055-stati-generali-della-bellezza-a-offida-l-11-e-il-12-giugno",
-   "fonte": "ord-arch-ce",
-   "fonte_nome": "Ordine Architetti Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T23:01:04Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": []
-  },
-  {
-   "id": "f504b5c7249218a7",
-   "titolo": "Valutazioni immobiliari: dati, qualità e trasparenza al centro del convegno ASSOVIB",
-   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/valutazioni-immobiliari-dati-qualit%C3%A0-e-trasparenza-al-centro-del-convegno-assovib?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1020791&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=valutazioni-immobiliari-dati-qualit%25C3%25A0-e-trasparenza-al-centro-del-convegno-assovib&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1020791%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "coll-geom-ce",
-   "fonte_nome": "Collegio Geometri Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T23:01:04Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": [
-    "data"
-   ]
-  },
-  {
-   "id": "eb7b100865371e5c",
-   "titolo": "San Vito al Tagliamento festeggia i cento anni del geometra Dino Candusso",
-   "link": "https://www.cng.it/web/guest/news-calendario/-/asset_publisher/hqLTbMoVmFbt/content/san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso?p_r_p_tag=news_calendario2026&p_r_p_assetEntryId=1019661&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_type=content&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_urlTitle=san-vito-al-tagliamento-festeggia-i-cento-anni-del-geometra-dino-candusso&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_redirect=https%3A%2F%2Fwww.cng.it%2Fweb%2Fguest%2Fnews-calendario%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Dnews_calendario2026%26p_r_p_assetEntryId%3D1019661%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_hqLTbMoVmFbt_cur%3D0%26p_r_p_resetCur%3Dfalse",
-   "fonte": "coll-geom-ce",
-   "fonte_nome": "Collegio Geometri Caserta",
-   "tipo": "ordine",
-   "aree": [
-    "altro"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T23:01:04Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": "Caserta",
-   "nicchia": "edilizia",
-   "prof": [
-    "geometra"
    ]
   },
   {
@@ -637,29 +2258,6 @@
    ],
    "luogo": null,
    "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "1e03fe43dbe2475a",
-   "titolo": "Gli 883 e quella generazione cresciuta a pane, benzina e 125. E quanta strada con un \"deca\"...",
-   "link": "https://www.inmoto.it/news/epoca/2026/11/19-9309987/gli_883_e_quella_generazione_cresciuta_a_pane_benzina_e_125_e_quanta_strada_con_un_deca_",
-   "fonte": "a-inmoto",
-   "fonte_nome": "InMoto",
-   "tipo": "stampa",
-   "aree": [
-    "elettriche",
-    "moto"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T23:01:04Z",
-   "metodo": "scraping",
-   "sotto": [
-    "elettriche.ibride"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
    "prof": []
   },
   {
@@ -937,6 +2535,26 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "4e3b9081aaabd64b",
+   "titolo": "Milan-Frosinone 5-1, la sintesi della partita",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQc1M0c3l0b2l5bTJEb1Vvb0x2R3BxX21KNjkyT1FmcWI1OEtNWW04S1VlSk1lTGpQN3pvanE5YTEwSGxkUGJBOHA1djRRYnZKcHpHYXNiOVpqZjQ1MFFEb3dyaThtOWRBaGE2U2Q0RmtpNEJSZnZoTUl3ckl0UzdlT2hfNmwwaTZSVWdmMDZoWnpaYlFaU0F2YTRRa0UxNzdiTmJ6Rmo1RXFKZGVBNXNtUHlmbFFlejJDdzloQXlPUDBjQdIBxwFBVV95cUxNRkFpV0lwRFdKMUVGR2N3XzFZbDU1QjJpQ1Bmb3dDNnZtTXJIQ2l1Rm5MOXFmTUZ3ZG5IcV8wV2VkMm5UM3ZvXzhaUlVDNUFnNm1ObHNpR1JDSm55WlMxbVRLYVhkc1dkTmdHdW9fV2ZQSF9lREVyN2pBcHdBWHdYM2g4dVJwazFvUEROaDdkVFRRMGNaQUVfZzVlRDUxaF9ncHNsYl91NUtHRFlLWTJTSUFqTEhNSllHclV3UFk4LS1qTFp3Qjc4?oc=5",
+   "fonte": "p-rainews",
+   "fonte_nome": "Rai News Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Milan-Frosinone 5-1, la sintesi della partita RaiNews",
+   "pubblicata": "2026-11-22T23:01:00Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
    "prof": []
   },
   {
@@ -2061,6 +3679,26 @@
    "prof": []
   },
   {
+   "id": "972384cf43c99d50",
+   "titolo": "Eventi e Mostre",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV21ISjVqUHRtM3pLRGIyUldrNUNPSFVGcmVUTHdBMFJrMDdRSmNETG5CaFc5RklvMW5YeHNSVll5dW1zQ1poS0oxSGhVVmRlUVFDVk9KYVhiREJURnBpYURMUHpzOWZadVIzWldJbFlIMFEybkJSbTJLdDFnMXI3eVlkNldPaGNfb3BvMV9iVFN2a3pZRXJDclFMM0JvTDF0dzNCdHNXa1FpbVE?oc=5",
+   "fonte": "p-rainews",
+   "fonte_nome": "Rai News Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Eventi e Mostre RaiNews",
+   "pubblicata": "2026-11-22T22:39:00Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
    "id": "ec69900b2bff9feb",
    "titolo": "ATALANTA - INTER : 4 - 4",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaGM0clJvZEVDWktTcDJMeDJ5TjQyc2wtMDdVVWRkRVBuSnNfVGo2MzdLSkhvY0I5eHhlcDV5UGN0RmZEdE1ZZGZPaFBWNjBLcEdRUVBlQjYwdUpPX2Z2SzZ3dnpJc3luQW5ELU1RWWtPckhIU0lpNTdaRnJZanpJeU9samF4STFxQWlxaUVYQTVPUElPWEZKWA?oc=5",
@@ -2076,6 +3714,28 @@
    "visto": "2026-11-22T22:39:25Z",
    "metodo": "gnews",
    "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "c5c74bacee606f8b",
+   "titolo": "Il presidente della repubblica torna a Genova",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcGVKTXJaall6RVBtVHI4aklNWjZBUTFvdnVuc0xHRV94UDd2LXpJRFpjNDcwUHE0bGVZSXAwWjBLSC04dno1YllPczAtekk3SlB1c1lJQlp2c3JHWFJkQ0RqVFoxMEp0ZUxmTHVDZDFVYnUzOFo5azg2X3FjWVhzbkNueGFYM1dDOFEyZ1I1UDNCbWZMSmdPQ0QxaHJrOFdNRG9OOUdZZTBfVUpCY3d0dTVBSkpPY2dfajRJ0gHAAUFVX3lxTFBzS3ktNXA3TmJXRW9kU0lWT2NaUHVfWGxQWC1sQ2JUNi1ZWG5WVUE1bE16QnlrdjVoNDZ6Y1ZaWmN2YmdUOW1sWHNtcWl2V2tscmhFTGNrdHJpTFA2MHJSQUd2a29ZVDV4YkItRDFyYi1maEdFR3pETnNrMVA2Nl9uZHRTYm9mT0JRUXlfVWk2ZEFWTk9NNV9xM2t1U3N2LTQ1UmEtX0NDRV80ckFYaHNMaks3dUlocnpGLTlIeE5rQg?oc=5",
+   "fonte": "p-rainews",
+   "fonte_nome": "Rai News Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Il presidente della repubblica torna a Genova RaiNews",
+   "pubblicata": "2026-11-22T22:29:00Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [
+    "governo.quirinale"
+   ],
    "luogo": null,
    "nicchia": "politica",
    "prof": []
@@ -2171,6 +3831,30 @@
    "prof": []
   },
   {
+   "id": "555a5d4085301a69",
+   "titolo": "TOYOTA Aygo X Usata prezzo e caratteristiche tecniche - Auto Usate",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTHZGOWpkckx5TjZsVUdMR2lzdmQ0SFpLaWphRTA1WUxRV05zay01OEpyUGExeWt2MzhjbWtHajRvdG8wNV9jTGZuV05iaHhsZW5jZGhjSE1SRVFMazJiZ3o2bjlTMUdJYndWdlFJMWs3M2kyZndrM09Ecng2bEgwRnRoOEQ?oc=5",
+   "fonte": "a-quattroruote",
+   "fonte_nome": "Quattroruote",
+   "tipo": "stampa",
+   "aree": [
+    "novita_auto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "TOYOTA Aygo X Usata prezzo e caratteristiche tecniche - Auto Usate Quattroruote",
+   "pubblicata": "2026-11-22T22:13:26Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [
+    "novita_auto.marchi",
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "fdd881249dfbb33c",
    "titolo": "Petrolio, gas e carbone dividono il mondo: alla Cop31 manca l'accordo, l'Europa boccia il testo finale",
    "link": "https://www.adnkronos.com/internazionale/esteri/cop31-fallita-combustibili-fossili-news_6ncFVaAdEz2QKJJuRr2wHK",
@@ -2263,6 +3947,29 @@
     "architetto",
     "agente_imm"
    ]
+  },
+  {
+   "id": "4b8283717d6f10b1",
+   "titolo": "Nave russa colpita in Libia da un attacco a lungo raggio ucraino. Mosca colpisce Dymer",
+   "link": "https://www.lastampa.it/esteri/2026/11/23/diretta/guerra_russia_ucraina_news_oggi-15806271/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "esteri",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Una nave russa è stata distrutta, in seguito a una esplosione e a un incendio nel porto di Bengasi: si tratta della corvetta lanciamissili 'Merkury', «forse un'altra…",
+   "pubblicata": "2026-11-22T22:02:00Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "rss",
+   "sotto": [
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
   },
   {
    "id": "6094aa4a62666b46",
@@ -5144,7 +6851,8 @@
    "tipo": "stampa",
    "aree": [
     "offerte",
-    "gaming"
+    "gaming",
+    "hardware"
    ],
    "normativa": false,
    "sintesi": "Le promo Black Friday coinvolgono i controller DualSense PS5, compreso il pad avanzato: un'occasione per aggiornare il setup di gioco.",
@@ -5154,7 +6862,10 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "tech",
-   "prof": []
+   "prof": [],
+   "altre_fonti": [
+    "Offerte gaming"
+   ]
   },
   {
    "id": "2766a984e39460c7",
@@ -6458,29 +8169,6 @@
    "prof": []
   },
   {
-   "id": "ab516feecb3ae9d9",
-   "titolo": "Moto Morini 3½ Sport: la prova su strada della bicilindrica a V",
-   "link": "https://www.gazzetta.it/motori/la-mia-moto/prove-moto/20-11-2026/moto-morini-3-sport-2026-la-prova-della-nuova-naked-bicilindrica-per-patenti-a2.shtml",
-   "fonte": "a-gazzetta-motori",
-   "fonte_nome": "Gazzetta dello Sport Motori",
-   "tipo": "stampa",
-   "aree": [
-    "prove",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T21:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "prove.prove"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
    "id": "9e8359d28c2a4906",
    "titolo": "\"Finisce male\". \"Ditegli di levarsi di mezzo\". Guerra Leclerc-Hamilton, in Ferrari arrivano sanzioni?",
    "link": "https://www.gazzetta.it/Formula-1/22-11-2026/guerra-leclerc-hamilton-in-ferrari-arrivano-sanzioni.shtml",
@@ -6499,52 +8187,6 @@
    "sotto": [
     "motorsport.f1",
     "novita_auto.marchi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "4f188e7bcd8c5d82",
-   "titolo": "MotoGP, prequalifiche a Portimao: Alex Marquez primo, Diggia e Bez inseguono",
-   "link": "https://www.gazzetta.it/Moto/moto-GP/20-11-2026/motogp-portimao-prequalifiche-alex-marquez-1-diggianantonio-e-bezzecchi-inseguono.shtml",
-   "fonte": "a-moto-gazzetta",
-   "fonte_nome": "Gazzetta Moto e MotoGP",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T21:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "motorsport.moto_gp"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "4be1af20e2567271",
-   "titolo": "Bezzecchi e quel rimpianto chiamato Sprint: senza i mini GP sarebbe in testa al Mondiale",
-   "link": "https://www.gazzetta.it/Moto/moto-GP/18-11-2026/bezzecchi-senza-sprint-in-testa-al-mondiale-motogp.shtml",
-   "fonte": "a-moto-gazzetta",
-   "fonte_nome": "Gazzetta Moto e MotoGP",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto",
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-22T21:00:59Z",
-   "metodo": "scraping",
-   "sotto": [
-    "novita_auto.marchi",
-    "motorsport.moto_gp"
    ],
    "luogo": null,
    "nicchia": "auto",
@@ -7330,6 +8972,29 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "521ec591843caf3f",
+   "titolo": "Benzina e diesel, da domani il pieno costa di più: perché",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMlhuWE52N2dsdkEtbjZrVXEydGR6ZzY0ejNaeVJ6LVIyVkV5M3JxWEs3Z182WGxkOVYxbThvQ0lBLVlNWlo4bGRkYVdKTjhxLVVuSmtaUVZ4d1Z5RVZ6VGEtQ2tPVm9kRmNOZGUyNmRnWjkwdUM3Nzd5bHFzZ1ptcFdvSFR6Y1E?oc=5",
+   "fonte": "am-carburanti",
+   "fonte_nome": "Prezzi carburanti e energia",
+   "tipo": "stampa",
+   "aree": [
+    "elettriche",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "Benzina e diesel, da domani il pieno costa di più: perché Motor1.com Italia",
+   "pubblicata": "2026-11-22T20:06:45Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [
+    "elettriche.ibride"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
    "prof": []
   },
   {
@@ -8730,6 +10395,26 @@
     "partiti.partiti",
     "governo.governo"
    ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "2b12a597de82973c",
+   "titolo": "Le scintille tra Leclerc e Hamilton affondano la Ferrari e fanno infuriare Vasseur",
+   "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxORkctd296RUxlbXlBdUNXUWhmYXU2c0M2TFdqeWFzWmxqRWk3a2RacVQtQkFWLUU3bkVQWWRaV09Qdk5uWmpIZjBuRlMyak95aHQydVBLdGVhM2pXWV9fRjRwU01aal9Gc1Z5cFdBM0JuV19ubVFJNHJFa1VpclBxRnJhNFVZVkUxVzVFSkM5Qmo2OTB6X3Uyb0MzdFprWGpXajd2ZzhzanR2Nld6Rm9nTEV5bFlMRktDZzNyQzdUUTljQWl2WjVaeEpRV1AtSTRzM3h5U19BaDlubXpKdy1BNzM2WllqYjRmb21Hb2xLaW1ydUxPX2liOWNjUlM5bUIzZkFlWG5uSUtNVElHNjBDcTFpemtJUDBZY3BBZDFhd9IBpAJBVV95cUxQRVNIUnZOVVZ6YXo2ZURKbDVDSnNyTjFONkhMa2xuRHdnRmppRU1COUM3aVhNTFloYldQYkxPaFd3cmtCYnNROFg3TnV2UFBLNE1iZG40N0RFd0dIa0dPQllLOExZNHBRZUFUTjhEUkI3MmczejVNQi1xcHNJU1hkb1IxYmJSYTZPM3IwdVQ4TUVQWEdqRGRoTkRTMGxlc0dEaWFwdWNVbGE0aTlNaF9WNVhNSkxxZ1JyTHFKQ3N1c09Za3hFcFo3T05hSnJuMDh2LW5IRWUzVEpZWkg0YURVZVBjVmoxOVA5QnBFSEFjdW9sSUZEWU1GQWxkeTdpMTNXTUIzVE9UX2VKRWhadVpWcllfQnZOZEZkcE1aMWxmczdqTU1X?oc=5",
+   "fonte": "p-rainews",
+   "fonte_nome": "Rai News Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Le scintille tra Leclerc e Hamilton affondano la Ferrari e fanno infuriare Vasseur RaiNews",
+   "pubblicata": "2026-11-22T19:52:00Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [],
    "luogo": null,
    "nicchia": "politica",
    "prof": []
@@ -20089,7 +21774,10 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "tech",
-   "prof": []
+   "prof": [],
+   "altre_fonti": [
+    "Offerte gaming"
+   ]
   },
   {
    "id": "f5fc272ae752b0a5",
@@ -20672,6 +22360,26 @@
     "dietista",
     "veterinario"
    ]
+  },
+  {
+   "id": "7d3d1f4bb98c5cf9",
+   "titolo": "Drone attacks kill four near Sudan’s capital, damage UN building - Al Jazeera",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95V2lBM1hDaWY4eHByMlh4RnpLTkhIOVBtQnFXMHM3R0hfV2lxZEZSNTNBbEg5cHowV2VobnNxU3VnZzlTMU16alVwNjJ0XzBNNlRCVElvdEFkVkV0RFhSV3ZvV2FUQThMSzdqLXVYNDBIeWxmTHpjd3FwUncwME3SAYQBQVVfeXFMUGo3NGlSR1RUbFN2RGd1QkNpQUV3YlpOOGhNc2lvYWs1WVVEbmpJNjVBanY2Mk1LZWFvLWJCLVdYU0pqaFRLUGNHYi1wM2J0cGdqSkVUQkRlbGo4bEh3SENuQjRFUC1uSms0TDJCR19UU21VSEk3b2I0UmR5NVdWTjFIdjFS?oc=5",
+   "fonte": "stampa-ce",
+   "fonte_nome": "Stampa locale Caserta",
+   "tipo": "stampa",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "Drone attacks kill four near Sudan’s capital, damage UN building Al Jazeera See more headlines & perspectives on Google News",
+   "pubblicata": "2026-11-22T15:07:12Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
   },
   {
    "id": "9698d669b4a9b134",
@@ -22306,6 +24014,29 @@
     "tributarista",
     "consulente_lavoro"
    ]
+  },
+  {
+   "id": "69e084e9a1f00976",
+   "titolo": "Il decimo Mondiale di Marquez è una lezione di grandezza. E una pugnalata per Valentino Rossi",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR1Fwd3M1dTJwX3VCSzBRSlIwbzk5V24zZDFFN1JhS1ZnM2Z0dHp1WTZtcm9DcWkybk9XTTFjMmJoV0U2alNNanpsemNWLW10MExHQktLaUFuc0V4aFNNSnBpUXNkekQ4N05VUUVEckxMZDVRckRRc0E3YUw4ZHlYX1NEclVNUUJvTU9QUFNkQXhhNEY1MzRuMGtpVFZubG9VaGtNVFcyN2NYY0xvQ1FVb0d3UkFxakdCZWRWMWdyUUE1bWxNQlJhU204UUM3RHNMd3F5YW1KYjMtZm5Bb3Rv?oc=5",
+   "fonte": "a-motociclismo",
+   "fonte_nome": "Motociclismo",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport",
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "Il decimo Mondiale di Marquez è una lezione di grandezza. E una pugnalata per Valentino Rossi Il Foglio",
+   "pubblicata": "2026-11-22T14:36:00Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [
+    "motorsport.moto_gp"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
   },
   {
    "id": "d10d3b3eaa22fead",
@@ -26191,7 +27922,8 @@
    ],
    "luogo": null,
    "nicchia": "auto",
-   "prof": []
+   "prof": [],
+   "altre_fonti": []
   },
   {
    "id": "7cd29f21b8fa00a5",
@@ -30731,6 +32463,29 @@
    ]
   },
   {
+   "id": "f26044caeded5093",
+   "titolo": "Bollo auto gratis fino a 80 kW: attenzione alle auto usate",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MSFUzT3dBWmZaUHdfUGc2WU1JWjl1QmRiQXRaOHlkNnlpejRyYkhjUVBNdnpsdGVnN2JxWVNlRm5qdC1DdzJJZzZrZmNqVVlqUG91emxEX0pZWFBmVFRjb3Y3bXlfcXhjck42SmhxNndwZw?oc=5",
+   "fonte": "a-usato",
+   "fonte_nome": "Auto usate e prezzi",
+   "tipo": "stampa",
+   "aree": [
+    "normativa_auto",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "Bollo auto gratis fino a 80 kW: attenzione alle auto usate Motor1.com Italia",
+   "pubblicata": "2026-11-22T11:47:49Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [
+    "normativa_auto.burocrazia"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "6275cd8d88565f29",
    "titolo": "Marcatori colorati alla Polizia durante i cortei, la proposta di Fratelli d’Italia per identificare i manifestanti violenti",
    "link": "https://www.ilfattoquotidiano.it/2026/11/22/marcatori-colorati-alla-polizia-durante-i-cortei-la-proposta-di-fratelli-ditalia-per-identificare-i-manifestanti-violenti/8580243/",
@@ -33848,6 +35603,34 @@
    "prof": []
   },
   {
+   "id": "6e0c7bd6a7451dc7",
+   "titolo": "Carburanti, i prezzi di benzina e diesel domenica 22 novembre",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPN29vckNfZnNzMzVHQjAxTTRTeDB1TUwtcEd2RzRqRFp3MVhoMjJQRm9rVFJRX2I4b1ZNeVF3c2ZXOHRKRWJRc1FvY0ZlakFkRjJ3V1V6QUx4Qk95Rkdpa2tGWnpEOXNWa0ZJM3kxTk9aOERhRjI5aDhablRhVkxsWG1XZm9kbmtlQmNHY2Q0MmtGamowcUpBWXZJVXdKcTY5U21kYU5IQWVZS3gwc0pidkR4ZXd2SEhWM2NvSGNyS1E1Ml94SzlnRTJGeG5ZVTBIdjBpRXlCN3N3Y0sz0gHiAUFVX3lxTE1jUXVWWWRKUWplcEN0MV81cUZEU0R0eG5DWlFuR2FUN2I1aldGZ1ZkV2tQa01WelN0SklCVnBkejFyNzZSdXg5SnZOVTdUU29IQk9aUTVMWXphMVh0OVdxeHhELTlBTkd6dVBTMDVCaVhpZlgwdDZoMlRhYnFMb3F1TTFNczdsNmpfM2hUaTYtNFp0WGNiTVRtRDV3cm81TXoyQUJMdGlSVHJUSkprWGE0VzZmQ3d2cmJ4MnpxeXlZaXROekI2MWtYTG1NM0dXTGVGV29MQ2REdjhrMUNTaVlGeVE?oc=5",
+   "fonte": "am-carburanti",
+   "fonte_nome": "Prezzi carburanti e energia",
+   "tipo": "stampa",
+   "aree": [
+    "elettriche",
+    "mercato_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "Carburanti, i prezzi di benzina e diesel domenica 22 novembre Auto",
+   "pubblicata": "2026-11-22T10:52:00Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [
+    "elettriche.ibride",
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": [],
+   "altre_fonti": [
+    "Auto.it"
+   ]
+  },
+  {
    "id": "a36d9bede6515645",
    "titolo": "F1 | Antonelli: ecco perché aver alzato il piede ha mandato in confusione la PU spegnendo i sogni di vittoria",
    "link": "https://it.motorsport.com/f1/news/f1-antonelli-ecco-perche-aver-alzato-il-piede-confusione-PU-mancata-vittoria/10876873/",
@@ -35977,6 +37760,27 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "3a42792edce1aed8",
+   "titolo": "Amazon Offerte Black Friday, ecco i 10 prodotti su ItaliaTopGames: Playstation 5, Amiga e Pokémon dominano la classifica!",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNMWtjYmtoYzJreEV0ZzliTEJJXzQxRXBFeDl0UzY4Tmp1b3lqaVBTQTJyM0xTbUtvb0RJMzVsODR0S0pmcTRFUkpyMm5Sa0hfQ1VkTTkzcVphcmlic0E3QUV5Vzc2N1FUdzI3TnRVZU81a2pVTi1RSnhySmR1bUhxRWdzRERvRUpvajRFWHpJdHFsdEhYcWRxcEZGdkRmdmNhODdQc3BqT2JjY0NoTWJJMTdnQXpKVmhqcmhUU0dWc2dNV3Y0SkpYM1ZsVWxCaEExb3lRelAtYW9OSWVBN3ctVS1NZXdzUnZsTXJITVFSTmJsWjI1eVdVZVB4Q0RZYnJqNlZn?oc=5",
+   "fonte": "t-prezzi-gaming",
+   "fonte_nome": "Offerte gaming",
+   "tipo": "stampa",
+   "aree": [
+    "offerte",
+    "hardware"
+   ],
+   "normativa": false,
+   "sintesi": "Amazon Offerte Black Friday, ecco i 10 prodotti su ItaliaTopGames: Playstation 5, Amiga e Pokémon dominano la classifica! Italia Top Games",
+   "pubblicata": "2026-11-22T09:49:52Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
    "prof": []
   },
   {
@@ -38824,6 +40628,33 @@
    "prof": []
   },
   {
+   "id": "a0515c7a0d2476f9",
+   "titolo": "Bilocale all'asta in Strada della Torre s.n.c, Pontinia",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uVEhkSTlOc0U1MWMwSUxielZEM3Y5Skh4WUtsajZQRV9lVDQyeTVXbl9oUml6bmNsQVlDQXRZVkhkRlpSWExpVXVKbFJKYVFEaEZBTGlR?oc=5",
+   "fonte": "pr-immobiliare-news",
+   "fonte_nome": "Immobiliare.it e Idealista News",
+   "tipo": "stampa",
+   "aree": [
+    "immobiliare"
+   ],
+   "normativa": false,
+   "sintesi": "Bilocale all'asta in Strada della Torre s.n.c, Pontinia Idealista",
+   "pubblicata": "2026-11-22T08:39:07Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "agente_imm",
+    "condominio",
+    "valutatore",
+    "facility",
+    "mutui",
+    "notaio"
+   ]
+  },
+  {
    "id": "928ff6906fc7b374",
    "titolo": "AirTag 2 da 22 euro l’uno: record assoluto al Black Friday Amazon",
    "link": "https://www.macitynet.it/airtag-2-da-22-euro-luno-record-assoluto-al-black-friday-amazon/",
@@ -40206,27 +42037,6 @@
    "nicchia": "auto",
    "prof": [],
    "altre_fonti": []
-  },
-  {
-   "id": "438638c851f22998",
-   "titolo": "Horizon Zero Dawn Remastered Edition, il prezzo crolla su Amazon",
-   "link": "https://www.everyeye.it/notizie/horizon-zero-dawn-remastered-edition-prezzo-crolla-amazon-912802.html",
-   "fonte": "t-everyeye",
-   "fonte_nome": "Everyeye",
-   "tipo": "stampa",
-   "aree": [
-    "offerte",
-    "gaming"
-   ],
-   "normativa": false,
-   "sintesi": "Amazon sconta l'edizione fisica di Horizon Zero Dawn Remastered Edition uscita per PS5 il 31 ottobre 2024, vediamo la promozione.",
-   "pubblicata": "2026-11-22T08:10:00Z",
-   "visto": "2026-11-22T18:01:01Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
   },
   {
    "id": "fa0cc7664e1d8003",
@@ -44044,6 +45854,38 @@
    "luogo": null,
    "nicchia": "auto",
    "prof": []
+  },
+  {
+   "id": "ed7ba1bd959c5ad8",
+   "titolo": "Visure catastali online gratis: cosa puoi controllare su casa tua e su quella degli altri",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUE83Skg2bkNScHI1S0R2Z1Bqb0c2czVoLW5GS0ZsLXFqVEtkblJBU0xjajNBNFpPMEtOcVBkWmZpZllpOGk1Vi1zemdjZVNuMHIxWXpiZXgzRGp6M3lmTlhkX3NnOTUwZElnUkJUTmJqU3JtVEpjZkNpZDRSSHlSY0h4WlNYRWFsYUJKczJDMUoyZmlUZ0l1OEVZakt1T05jRTBITWpYLXpNX3RKTTNrUENXVXNZbTdLMUZmMjRzZ0tXeldY?oc=5",
+   "fonte": "pr-omi",
+   "fonte_nome": "Osservatorio Mercato Immobiliare (Entrate)",
+   "tipo": "ufficiale",
+   "aree": [
+    "catasto",
+    "immobiliare"
+   ],
+   "normativa": true,
+   "sintesi": "Visure catastali online gratis: cosa puoi controllare su casa tua e su quella degli altri Pianeta Design",
+   "pubblicata": "2026-11-22T07:16:33Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [
+    "catasto.volture"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "agente_imm",
+    "condominio",
+    "valutatore",
+    "facility",
+    "mutui",
+    "geometra",
+    "grafico",
+    "notaio"
+   ]
   },
   {
    "id": "d16c68d7d7c19d6f",
@@ -50771,6 +52613,38 @@
    "luogo": null,
    "nicchia": "politica",
    "prof": []
+  },
+  {
+   "id": "a72631a57192b5a5",
+   "titolo": "Visure catastali e consultazioni ipoteche più facili: sul sito delle Entrate la nuova guida",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdEZYRnZiOUZhYXJGaVV0ZlRubDg1U25JSm1YRUxEZDJSWG9Td1dhYUk3SmkzQ3JfMXMxRTFrOVF2SE8ySVE1N3Q1ZlJDb0FEWTRxZkp3cG8zN3plbmgxNnBUYU9BRzNRRmxLTUNfN1BlcDdQYy0yZjktS0lhclM0Wk14ai1zRGpUTm05Mk9WZl9CVVBmNngzWGwtZGhZb1ljUnZWVnJxM2I4T0szb3JjREZGVkNwYlpnWjBrTThmVTN3YmI1dDlpSkpob3d0WkhrZXlpSUh0QdIB1wFBVV95cUxOdEZYRnZiOUZhYXJGaVV0ZlRubDg1U25JSm1YRUxEZDJSWG9Td1dhYUk3SmkzQ3JfMXMxRTFrOVF2SE8ySVE1N3Q1ZlJDb0FEWTRxZkp3cG8zN3plbmgxNnBUYU9BRzNRRmxLTUNfN1BlcDdQYy0yZjktS0lhclM0Wk14ai1zRGpUTm05Mk9WZl9CVVBmNngzWGwtZGhZb1ljUnZWVnJxM2I4T0szb3JjREZGVkNwYlpnWjBrTThmVTN3YmI1dDlpSkpob3d0WkhrZXlpSUh0QQ?oc=5",
+   "fonte": "pr-omi",
+   "fonte_nome": "Osservatorio Mercato Immobiliare (Entrate)",
+   "tipo": "ufficiale",
+   "aree": [
+    "catasto",
+    "immobiliare"
+   ],
+   "normativa": true,
+   "sintesi": "Visure catastali e consultazioni ipoteche più facili: sul sito delle Entrate la nuova guida la Repubblica",
+   "pubblicata": "2026-11-22T04:00:00Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [
+    "catasto.volture"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "agente_imm",
+    "condominio",
+    "valutatore",
+    "facility",
+    "mutui",
+    "geometra",
+    "notaio",
+    "commercialista"
+   ]
   },
   {
    "id": "bcf777627bf92e67",
@@ -59493,6 +61367,29 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "edf68cf9305a3294",
+   "titolo": "Huawei presenta un sistema di ricarica (anche solare) da 1.500 kW",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EZERxM1JDSHBHRVVmeFhjLVY3VVZaZzJVVkpoa0hOOThZckFZb1RzWlJFMElPUU5UX09nV0dqUkNpY01tSUN4SVJGZTFyUlYxQTE3aVhuZExWeE1Ealg5ak8zQnZEbnJaUHhGR0ZZUmpFM2lZ?oc=5",
+   "fonte": "am-carburanti",
+   "fonte_nome": "Prezzi carburanti e energia",
+   "tipo": "stampa",
+   "aree": [
+    "elettriche",
+    "mercato_auto"
+   ],
+   "normativa": false,
+   "sintesi": "Huawei presenta un sistema di ricarica (anche solare) da 1.500 kW InsideEVs Italia",
+   "pubblicata": "2026-11-21T21:24:08Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [
+    "elettriche.ev"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
    "prof": []
   },
   {
@@ -69662,6 +71559,39 @@
    "luogo": null,
    "nicchia": "politica",
    "prof": []
+  },
+  {
+   "id": "b635f2588913253b",
+   "titolo": "Oltre 1 milione di visualizzazioni per il video dell’addestramento GSE sull’Etna",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbmpDeHhzSmtFRngtRG1BdDBPM3EtdGtaVjJnSS03ZHdZX1VneFNvQl9JdUwxTDVCb1NrTGZWSm5tOC1DWmJCeTJXM19kRmhScmVNVXUxaGstQlg1Q29sRndoa3FwVFZYTGo3emZfNDdLX0lmT1pPeHQxZGw5N09SbExheFVCR0w0WlNtMm0zRFV6NEYwSmxFVEEyQkhJTF9JcVA4a01iWGxldw?oc=5",
+   "fonte": "gse",
+   "fonte_nome": "GSE",
+   "tipo": "ente",
+   "aree": [
+    "energia",
+    "comunicazione"
+   ],
+   "normativa": false,
+   "sintesi": "Oltre 1 milione di visualizzazioni per il video dell’addestramento GSE sull’Etna CataniaNews.it",
+   "pubblicata": "2026-11-21T17:40:11Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [
+    "energia.rinnovabili",
+    "comunicazione.design"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "fotovideo",
+    "ingegnere",
+    "certificatore",
+    "energy",
+    "impiantista",
+    "giornalista",
+    "marketer",
+    "grafico"
+   ]
   },
   {
    "id": "366cf6a3dccabbbe",
@@ -91617,27 +93547,6 @@
    "prof": []
   },
   {
-   "id": "9474d92c2d4f7fe5",
-   "titolo": "GeForce NOW sbarca su Amazon Fire TV Stick, con sconti fino al 90% per il Black Friday",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00TTRsa0pkUUk0dG9Td1laR2hPb1l3b3RFN3hUOXhxUkwxUTNjMlgyMmdTbGFsMDA4TE5DY1dtMXY1QzZsWGdNdE9raHNvSXpGdV9hWHFJUmNNVGhtQnEzNHVUMlFlRG02U1lXU253cnlGVXhUVngw0gF8QVVfeXFMTjRuVWJHcnNGeHNmamtOM1JoQ0JQeFBiZGhpY05JQVN4Zmc4MHhxTjk2blNUUktXelpXeDJFWExsZlpEbmdoYXhIWHVRcTF1ZHBwYm84bnJzOTl6ME1IbVVocTc1VGtKYkZiQ0c2SDRVbVIzUGhZazdYcHVNaQ?oc=5",
-   "fonte": "t-prezzi-gaming",
-   "fonte_nome": "Offerte gaming",
-   "tipo": "stampa",
-   "aree": [
-    "offerte",
-    "pc"
-   ],
-   "normativa": false,
-   "sintesi": "GeForce NOW sbarca su Amazon Fire TV Stick, con sconti fino al 90% per il Black Friday Techprincess",
-   "pubblicata": "2026-11-21T11:28:54Z",
-   "visto": "2026-11-22T17:01:04Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
    "id": "bd0121824b59140f",
    "titolo": "Controlli velocità della Stradale su A18 e A20 dal 23 al 29 novembre",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRERhU2VYTllGQmlmNlIwc0RCOUJTdjZOV1ZEUmZzcmx2c1huUUtDc0M2Um02bnVNSmV3TjVMNDNNTEZyTzJoU2ctanlRd2JhZUdJbHBHRzFodUotakw2UURaOGdvcDc5U2hKSlVMUnlEZ0NOZmJzNGhockVKcV80c0Iwa1A5YVdlSFNzLXlUekhtZjMtOGdndGhVVklMXzA?oc=5",
@@ -93395,7 +95304,8 @@
    "fonte_nome": "Quattroruote",
    "tipo": "stampa",
    "aree": [
-    "novita_auto"
+    "novita_auto",
+    "mezzi"
    ],
    "normativa": false,
    "sintesi": "Best in Classic 2026: tutti i vincitori e i premi assegnati | Quattroruote.it Quattroruote",
@@ -119177,26 +121087,6 @@
    ]
   },
   {
-   "id": "a90f1629895fd730",
-   "titolo": "Licata, maxi controllo del territorio della Polizia",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOUVmdkgtWWNTVGFkYzJqTnhKMEZUeDdPMmFsMEdiQU9PazR0MzdDZmRxTHJrb2pmRFN6cFljbE9oUGdDamdGT1lYWVNqUWkzTExCR2NVaFpZVWg1S1AtdVBiX0l6T1pyWUE0OHhXNEtIQUNyWUlZZ0k2Vlhxa0NVWFZ6YVo0NHZsUWJKcUYxRE1HQUVWSWc?oc=5",
-   "fonte": "a-polstrada",
-   "fonte_nome": "Polizia Stradale",
-   "tipo": "ufficiale",
-   "aree": [
-    "normativa_auto"
-   ],
-   "normativa": true,
-   "sintesi": "Licata, maxi controllo del territorio della Polizia Canicatti Web Notizie",
-   "pubblicata": "2026-11-21T06:15:06Z",
-   "visto": "2026-11-22T12:01:00Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
    "id": "88d2100132f310a4",
    "titolo": "Droni su Sigonella, rientrato l'allarme",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOanJ1WE1kR05pS2RLdG16alItNUpYSDJtdG5SQWlQR1JhZzN4Y0JhQ1BjcW50OW5QVUpMa0IzbTBuWWRnOFByRGpSazlGX1BwM2xnazE1UDhlOW5MT3VSaTktVU04S0wzbGNrMVNIc0FPNWlDaG82ZkYxR2drSXMwRUJfSWJVNjNoeWRGRXI0eGMwSkZNclBtd1hXNHl5b0JnVzV4N3VydUdIc2F0Tm5MNEVCS29VbXNsMXl5MdIBwgFBVV95cUxQQS1vLXF0cmV2dkhXaGZ1WHRKZHdXVHVVTWJvV01ISDdudmZCM3NvRVRpbkVaXzRhaHk1M2RqdFJhbmtCV0hkSjBNcTV6U2Yxd1pZaEpFa0NxeUNpOExFbW4xSk80Q2xlbGtLZ29TbktzUHZHVUpqdFpDYk9oTW5HM1B3SWVkRTlneEwwM2s4ZXNwNmNuZ3oyYkl3SU9tS25DbWJqbWtIbl9JM1NhQmtEMnRRcnNyZHVVRXNaUWw4d2RLQQ?oc=5",
@@ -125266,6 +127156,26 @@
     "tributarista",
     "consulente_lavoro"
    ]
+  },
+  {
+   "id": "7fd480bf777ce3b4",
+   "titolo": "Fotorassegna stampa, le prime pagine dei quotidiani di sabato 21 novembre",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbEVudjJEQzFxT01GSjNfZmx6OGpfZmZJZFRoaF9KZVh1SjFxR1FPZFdvWTRlQlkwNGxTSzlLeFVNMlNocHZiSHZoRTBGSHJGTmUtU3VoTHBRN2pEcUdabWxrcmlKbW14Y3V0bjV3Nlo3WTRvSFVZSnlTVkRHRi1PY0JOZC1vSVU0YThGam1fT084aUVVN3VsU1J3Ti1MMHJ5Ql8wVTlOMVJFMW9ZcjltMk11U3BmLURtUnBSZmctSk9jTzUzZTJDOHNBTmFTTmFlbVc4Z2NYSWlwRHl0NmtlR0ZDYTZKWV9XR3ZtN0VQbw?oc=5",
+   "fonte": "p-rainews",
+   "fonte_nome": "Rai News Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Fotorassegna stampa, le prime pagine dei quotidiani di sabato 21 novembre RaiNews",
+   "pubblicata": "2026-11-21T05:05:00Z",
+   "visto": "2026-11-23T00:01:01Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
   },
   {
    "id": "b09093860f4a0f41",
@@ -137870,1936 +139780,6 @@
     "curatore",
     "consulente_lavoro"
    ]
-  },
-  {
-   "id": "fc589dc6b08684a6",
-   "titolo": "Il palazzo delle Finanze di Milano apre agli studenti con il Fai",
-   "link": "https://www.fiscooggi.it/portale/-/il-palazzo-delle-finanze-di-milano-apre-agli-studenti-con-il-fai",
-   "fonte": "f-fiscooggi",
-   "fonte_nome": "Fisco Oggi (rivista del Fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "b18434e7e186700a",
-   "titolo": "L’Agenzia prende baracca e burattini per raccontare il fisco",
-   "link": "https://www.fiscooggi.it/portale/-/l-agenzia-prende-baracca-e-burattini-per-raccontare-il-fisco",
-   "fonte": "f-fiscooggi",
-   "fonte_nome": "Fisco Oggi (rivista del Fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "tributarista",
-    "commercialista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "d86ffca1b6dda364",
-   "titolo": "Mese dell’educazione finanziaria: riflettori sul trading online",
-   "link": "https://www.fiscooggi.it/portale/-/mese-dell-educazione-finanziaria-riflettori-sul-trading-online",
-   "fonte": "f-fiscooggi",
-   "fonte_nome": "Fisco Oggi (rivista del Fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "b30fe62c1d6af5d1",
-   "titolo": "Fisco e previdenza, Agenzia e Inps insieme al Politecnico di Torino",
-   "link": "https://www.fiscooggi.it/portale/-/fisco-e-previdenza-agenzia-e-inps-insieme-al-politecnico-di-torino",
-   "fonte": "f-fiscooggi",
-   "fonte_nome": "Fisco Oggi (rivista del Fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "tributarista",
-    "commercialista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "de3e369c361e76d8",
-   "titolo": "L’Agenzia torna a Orientamenti 2026 per presentarsi ai giovani",
-   "link": "https://www.fiscooggi.it/portale/-/l-agenzia-torna-a-orientamenti-2026-per-presentarsi-ai-giovani",
-   "fonte": "f-fiscooggi",
-   "fonte_nome": "Fisco Oggi (rivista del Fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "80359d591205f530",
-   "titolo": "Sudafrica, una guida fiscale per le nuove professioni web",
-   "link": "https://www.fiscooggi.it/portale/-/sudafrica-una-guida-fiscale-per-le-nuove-professioni-web",
-   "fonte": "f-fiscooggi",
-   "fonte_nome": "Fisco Oggi (rivista del Fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "c95b6879b0af2f48",
-   "titolo": "Entrate tributarie internazionali. Online il report gennaio-settembre",
-   "link": "https://www.fiscooggi.it/portale/-/entrate-tributarie-internazionali.-online-il-report-gennaio-settembre",
-   "fonte": "f-fiscooggi",
-   "fonte_nome": "Fisco Oggi (rivista del Fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "5faa014cbd10df6c",
-   "titolo": "2 nov Contratti di affitto - Imposta registro",
-   "link": "https://www.fiscooggi.it/portale/-/contratti-di-affitto-imposta-registro-copia-",
-   "fonte": "f-fiscooggi",
-   "fonte_nome": "Fisco Oggi (rivista del Fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "casa_fisco",
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "casa_fisco.locazioni"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "notaio",
-    "agente_imm",
-    "condominio",
-    "valutatore",
-    "facility",
-    "mutui",
-    "commercialista",
-    "tributarista"
-   ]
-  },
-  {
-   "id": "87ca739031d8a286",
-   "titolo": "16 nov Sostituti d’imposta – Conguaglio assistenza fiscale",
-   "link": "https://www.fiscooggi.it/portale/-/sostituti-d-imposta-conguaglio-assistenza-fiscale-copia-6-",
-   "fonte": "f-fiscooggi",
-   "fonte_nome": "Fisco Oggi (rivista del Fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "professione_fisco",
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "professione_fisco.caf"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "c42653c29ac088ef",
-   "titolo": "16 nov Enti pubblici – Conguaglio assistenza fiscale",
-   "link": "https://www.fiscooggi.it/portale/-/enti-pubblici-conguaglio-assistenza-fiscale-copia-5-",
-   "fonte": "f-fiscooggi",
-   "fonte_nome": "Fisco Oggi (rivista del Fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "professione_fisco",
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "professione_fisco.caf"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "21f28e0c82d8b613",
-   "titolo": "16 nov Rivalutazione partecipazioni e terreni - Imposta sostitutiva",
-   "link": "https://www.fiscooggi.it/portale/-/rivalutazione-partecipazioni-e-terreni-imposta-sostitutiva-copia-2-",
-   "fonte": "f-fiscooggi",
-   "fonte_nome": "Fisco Oggi (rivista del Fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ],
-   "altre_fonti": []
-  },
-  {
-   "id": "4c11a196b1029e55",
-   "titolo": "30 nov Liquidazioni periodiche Iva - Comunicazione",
-   "link": "https://www.fiscooggi.it/portale/-/liquidazioni-periodiche-iva-comunicazione-copia-5-",
-   "fonte": "f-fiscooggi",
-   "fonte_nome": "Fisco Oggi (rivista del Fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "dichiarazioni.iva"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "1e77dc30e38317b9",
-   "titolo": "30 nov Versamenti da dichiarazioni – Acconto 2026",
-   "link": "https://www.fiscooggi.it/portale/-/versamenti-da-dichiarazioni-acconto-2025-copia-",
-   "fonte": "f-fiscooggi",
-   "fonte_nome": "Fisco Oggi (rivista del Fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "22cf04a9b92e18c1",
-   "titolo": "Al via la rottamazione quinquies dei tributi locali - Tg1 - Tg2 - Tg5",
-   "link": "https://www.fiscooggi.it/portale/-/al-via-la-rottamazione-quinquies-dei-tributi-locali-tg1-tg2-tg5",
-   "fonte": "f-fiscooggi",
-   "fonte_nome": "Fisco Oggi (rivista del Fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "imprese_fisco",
-    "dichiarazioni"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "imprese_fisco.riscossione",
-    "dichiarazioni.locali"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "tributarista",
-    "revisore",
-    "finanziario",
-    "curatore",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "2d21c5e32bfab906",
-   "titolo": "Vai all'avviso e alla lista della candidature",
-   "link": "https://www.camera.it/leg19/1441",
-   "fonte": "p-camera",
-   "fonte_nome": "Camera dei Deputati",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "9b902285c7d32bf5",
-   "titolo": "Sabato 21 novembre Montecitorio a porte aperte",
-   "link": "https://comunicazione.camera.it/archivio-prima-pagina/19-64129",
-   "fonte": "p-camera",
-   "fonte_nome": "Camera dei Deputati",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "beb6256060f80fff",
-   "titolo": "Manifestazione di interesse per la nomina dell'organismo per la parità",
-   "link": "https://comunicazione.camera.it/archivio-prima-pagina/19-64083",
-   "fonte": "p-camera",
-   "fonte_nome": "Camera dei Deputati",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "ff7eec9f59145c28",
-   "titolo": "Istituzione del Registro nazionale degli orfani per crimini domestici",
-   "link": "https://temi.camera.it/leg19/provvedimento/istituzione-del-registro-nazionale-degli-orfani-per-crimini-domestici.html",
-   "fonte": "p-camera",
-   "fonte_nome": "Camera dei Deputati",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "c3fce771166fba8c",
-   "titolo": "I diritti di libertà e i doveri di solidarietà Maria Rosaria San Giorgio",
-   "link": "https://www.cortecostituzionale.it/settantesimo/volumi/diritti-e-doveri.html",
-   "fonte": "p-consulta",
-   "fonte_nome": "Corte Costituzionale",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia",
-    "governo"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "giustizia.diritti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "bfd17593fc022a0c",
-   "titolo": "Persona e relazioni familiari Emanuela Navarretta",
-   "link": "https://www.cortecostituzionale.it/settantesimo/volumi/persona-relazioni-familiari.html",
-   "fonte": "p-consulta",
-   "fonte_nome": "Corte Costituzionale",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "8f4a62938c583516",
-   "titolo": "Il lavoro, la previdenza e le prestazioni sociali Giovanni Amoroso",
-   "link": "https://www.cortecostituzionale.it/settantesimo/volumi/il-lavoro-la-previdenza-e-le-prestazioni-sociali.html",
-   "fonte": "p-consulta",
-   "fonte_nome": "Corte Costituzionale",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "d9b1fd1cb9cf2899",
-   "titolo": "Diritto privato patrimoniale, delle imprese e dei mercati Antonella Sciarrone Alibrandi",
-   "link": "https://www.cortecostituzionale.it/settantesimo/volumi/diritto-privato-patrimoniale-imprese-mercati.html",
-   "fonte": "p-consulta",
-   "fonte_nome": "Corte Costituzionale",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "7564d845abd53682",
-   "titolo": "La pubblica amministrazione Filippo Patroni Griffi",
-   "link": "https://www.cortecostituzionale.it/settantesimo/volumi/pubblica-amministrazione.html",
-   "fonte": "p-consulta",
-   "fonte_nome": "Corte Costituzionale",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "43f929897911972d",
-   "titolo": "Il paesaggio, il governo del territorio e i beni culturali Maria Alessandra Sandulli",
-   "link": "https://www.cortecostituzionale.it/settantesimo/volumi/urbanistica-edilizia-beni-culturali.html",
-   "fonte": "p-consulta",
-   "fonte_nome": "Corte Costituzionale",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "governo.governo"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "aab2495e0bc22fc8",
-   "titolo": "Il contenzioso regionale Francesco Saverio Marini",
-   "link": "https://www.cortecostituzionale.it/settantesimo/volumi/il-contenzioso-regionale.html",
-   "fonte": "p-consulta",
-   "fonte_nome": "Corte Costituzionale",
-   "tipo": "ufficiale",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "b22c9a85e2a0739a",
-   "titolo": "Il contenzioso degli enti locali Roberto Cassinelli",
-   "link": "https://www.cortecostituzionale.it/settantesimo/volumi/il-contenzioso-degli-enti-locali.html",
-   "fonte": "p-consulta",
-   "fonte_nome": "Corte Costituzionale",
-   "tipo": "ufficiale",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "05f2a781834e3022",
-   "titolo": "La giustizia penale e le misure di prevenzione Francesco Viganò",
-   "link": "https://www.cortecostituzionale.it/settantesimo/volumi/diritto-penale.html",
-   "fonte": "p-consulta",
-   "fonte_nome": "Corte Costituzionale",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia",
-    "governo"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "giustizia.giustizia"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "6876e052a7b47a40",
-   "titolo": "Informativa urgente di Piantedosi sugli allarmi bomba negli istituti scolastici e sugli attacchi hacker nella grande distribuzione alimentare",
-   "link": "https://www.interno.gov.it/it/notizie/informativa-urgente-piantedosi-sugli-allarmi-bomba-negli-istituti-scolastici-e-sugli-attacchi-hacker-nella-grande-distribuzione-alimentare",
-   "fonte": "p-interno",
-   "fonte_nome": "Ministero dell'Interno",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "giustizia.diritti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "cabfc92721e78c64",
-   "titolo": "Piantedosi a Cagliari per la presentazione del calendario 2027 della Polizia di Stato",
-   "link": "https://www.interno.gov.it/it/notizie/piantedosi-cagliari-presentazione-calendario-2027-polizia-stato",
-   "fonte": "p-interno",
-   "fonte_nome": "Ministero dell'Interno",
-   "tipo": "ufficiale",
-   "aree": [
-    "partiti",
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti",
-    "giustizia.diritti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": [],
-   "altre_fonti": []
-  },
-  {
-   "id": "557dffa0016d4fc8",
-   "titolo": "Riunita al Viminale la Conferenza Stato - Città e Autonomie locali",
-   "link": "https://www.interno.gov.it/it/notizie/riunita-viminale-conferenza-stato-citta-e-autonomie-locali-5",
-   "fonte": "p-interno",
-   "fonte_nome": "Ministero dell'Interno",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "giustizia.diritti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "616a93374c3699b7",
-   "titolo": "Sicurezza urbana: salgono a 57 milioni le risorse per il 2026. Incrementato di ulteriori 3 milioni il Fondo per i comuni",
-   "link": "https://www.interno.gov.it/it/notizie/sicurezza-urbana-salgono-57-milioni-risorse-2026-incrementato-ulteriori-3-milioni-fondo-i-comuni",
-   "fonte": "p-interno",
-   "fonte_nome": "Ministero dell'Interno",
-   "tipo": "ufficiale",
-   "aree": [
-    "territorio",
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "territorio.regioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "4010caacdb42e61d",
-   "titolo": "Sicurezza di banche e uffici postali, intesa in prefettura a Venezia per rafforzare la prevenzione dei reati",
-   "link": "https://www.interno.gov.it/it/notizie/sicurezza-banche-e-uffici-postali-intesa-prefettura-venezia-rafforzare-prevenzione-dei-reati",
-   "fonte": "p-interno",
-   "fonte_nome": "Ministero dell'Interno",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "3a82f33046b5b384",
-   "titolo": "Incontro di calcio “Inter - Stoccarda”: le misure della prefettura di Milano per la sicurezza della manifestazione sportiva",
-   "link": "https://www.interno.gov.it/it/notizie/incontro-calcio-inter-stoccarda-misure-prefettura-milano-sicurezza-manifestazione-sportiva",
-   "fonte": "p-interno",
-   "fonte_nome": "Ministero dell'Interno",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "f6b9887120eb5907",
-   "titolo": "Lecco, contrasto alle infiltrazioni criminali e tutela dell’economia legale",
-   "link": "https://www.interno.gov.it/it/notizie/lecco-contrasto-infiltrazioni-criminali-e-tutela-delleconomia-legale",
-   "fonte": "p-interno",
-   "fonte_nome": "Ministero dell'Interno",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "992d11927825e1c8",
-   "titolo": "Informativa urgente del ministro Piantedosi alla Camera dei Deputati",
-   "link": "https://www.interno.gov.it/it/foto-e-video/informativa-urgente-ministro-piantedosi-alla-camera-dei-deputati",
-   "fonte": "p-interno",
-   "fonte_nome": "Ministero dell'Interno",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo",
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "governo.parlamento",
-    "giustizia.diritti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "a5c81e62addc9993",
-   "titolo": "Fiumicino, esposizione dell'opera del Tintoretto “Assunzione della Vergine”",
-   "link": "https://www.interno.gov.it/it/foto-e-video/fiumicino-esposizione-dellopera-tintoretto-assunzione-vergine",
-   "fonte": "p-interno",
-   "fonte_nome": "Ministero dell'Interno",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "8ee43af6757347ba",
-   "titolo": "Il ministro dell'Interno Matteo Piantedosi al 35° anniversario dell'istituzione della DIA",
-   "link": "https://www.interno.gov.it/it/foto-e-video/ministro-dellinterno-matteo-piantedosi-35deg-anniversario-dellistituzione-dia",
-   "fonte": "p-interno",
-   "fonte_nome": "Ministero dell'Interno",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo",
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "governo.governo",
-    "giustizia.diritti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "f8b74ce06b74bdfd",
-   "titolo": "Il ministro Piantedosi intervistato alla trasmissione televisiva \"Cinque Minuti\"",
-   "link": "https://www.interno.gov.it/it/foto-e-video/ministro-piantedosi-intervistato-alla-trasmissione-televisiva-cinque-minuti",
-   "fonte": "p-interno",
-   "fonte_nome": "Ministero dell'Interno",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo",
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "governo.governo",
-    "giustizia.diritti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "5a8c8920abe3a905",
-   "titolo": "Ostellari al CSM: \"Con 'Liberi di scegliere', un futuro di libertà per tutti i ragazzi\"",
-   "link": "https://arenula70.giustizia.it/page/it/ostellari_al_csm_con_liberi_di_scegliere_un_futuro_di_liberta_per_tutti_i_ragazzi?contentId=ART23464",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "giustizia.giustizia"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "768027d7ca7d2d1c",
-   "titolo": "Nordio e i magistrati tirocinanti al termine della cinque giorni conoscitiva in via Arenula",
-   "link": "https://arenula70.giustizia.it/page/it/nordio_saluta_i_magistrati_tirocinanti_al_termine_della_cinque_giorni_conoscitiva_degli_uffici_di_via_arenula?contentId=ART23325",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "giustizia.giustizia"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "a3f7588ed79ddfe3",
-   "titolo": "Progressioni tra le aree - Informazioni e ingresso prova concorso",
-   "link": "https://www.giustizia.it/giustizia/it/mg_1_6_1.page?contentId=SCE1510582",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "9ac7954bd124a46f",
-   "titolo": "Assistenti - 2.600 posti - Assegnazione delle sedi",
-   "link": "https://www.giustizia.it/giustizia/it/mg_1_6_1.page?contentId=SCE1465800",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "bf360bad5f2769bf",
-   "titolo": "Avvocato - Sessione d'esame 2026 - Ulteriori sottocommissioni",
-   "link": "https://www.giustizia.it/giustizia/it/mg_1_6_1.page?contentId=SCE1520061",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "6e47d0904cf26772",
-   "titolo": "Funzionari tecnici - 30 unità - Scorrimento graduatoria",
-   "link": "https://www.giustizia.it/giustizia/it/mg_1_6_1.page?contentId=SCE1428995",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "c2bcbc5b571b6b62",
-   "titolo": "19/11/2026 Alessandria: Ostellari visita Tribunale e Procura. 25 milioni di euro per l'edilizia",
-   "link": "https://arenula70.giustizia.it/it/dettaglio.page?contentId=ART23416",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia",
-    "europa"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "giustizia.giustizia",
-    "europa.economia_ue"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "3c07a7ced3d7be2d",
-   "titolo": "07/11/2026 Nordio: \"Piena solidarietà ed estrema vicinanza all'amico e collega Antonio Tajani",
-   "link": "https://arenula70.giustizia.it/page/it/nordio_piena_solidarieta_ed_estrema_vicinanza_allamico_e_collega_antonio_tajani?contentId=ART22141",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "partiti",
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti",
-    "giustizia.giustizia"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "0cae5b40db27105e",
-   "titolo": "03/11/2026 #INTROSPEZIONI – vol. II Costruire il futuro in un mondo che cambia",
-   "link": "https://arenula70.giustizia.it/page/it/introspezioni__vol_ii_costruire_il_futuro_in_un_mondo_che_cambia?contentId=ART21504",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "0192b5c105bfc73f",
-   "titolo": "26/10/2026 Circuito speciale 41-bis, conclusa operazione 'Klepsydra'",
-   "link": "https://arenula70.giustizia.it/page/it/41bis_conclusa_operazione_klepsydra_3_fase_della_riorganizzazione_del_circuito?contentId=ART20606",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "01e5b8531d28933e",
-   "titolo": "19/10/2026 Vienna, Nordio alla conferenza Untoc: “Italia pioniera nell’individuare asset criminali”",
-   "link": "https://arenula70.giustizia.it/page/it/vienna_nordio_alla_conferenza_untoc_italia_pioniera_nellindividuare_asset_criminali?contentId=ART20192",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "giustizia.giustizia"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "7a13b42cadd422b6",
-   "titolo": "Osservatorio permanente sulla violenza di genere e domestica",
-   "link": "https://ovg.giustizia.it",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "0cc8b45880354388",
-   "titolo": "FONDO 2026 per iniziative di contrasto alla criminalità organizzata",
-   "link": "https://www.giustizia.it/giustizia/it/mg_1_6_1.page?contentId=SCE1520721",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "71de1e592b655687",
-   "titolo": "ISCRIZIONI e NUOVO ELENCO strutture residenziali per detenuti adulti",
-   "link": "https://www.giustizia.it/giustizia/it/mg_1_6_1.page?contentId=SCE1497399",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "d9a34a3474218d46",
-   "titolo": "GIUSTIZIA RIPARATIVA una risposta al reato complementare alla giustizia penale tradizionale",
-   "link": "https://www.giustizia.it/giustizia/page/it/giustizia_riparativa",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "giustizia.giustizia"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "e9ddbc9ad5baeea3",
-   "titolo": "INCLUSIONE SOCIO LAVORATIVA soggetti in esecuzione penale",
-   "link": "https://www.giustizia.it/giustizia/page/it/inclusione_socio_lavorativa_soggetti_in_esecuzione_penale",
-   "fonte": "p-giustizia",
-   "fonte_nome": "Ministero della Giustizia",
-   "tipo": "ufficiale",
-   "aree": [
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "a830adf72c2cb4fe",
-   "titolo": "S&P, Giorgetti: in tempi difficili una conferma è un successo",
-   "link": "https://www.mef.gov.it/inevidenza/SP-Giorgetti-in-tempi-difficili-una-conferma-e-un-successo/",
-   "fonte": "p-mef",
-   "fonte_nome": "Ministero Economia (MEF)",
-   "tipo": "ufficiale",
-   "aree": [
-    "economia_pol"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "economia_pol.manovra"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "e0b6a16bbf0ac06c",
-   "titolo": "Giorgetti: salutiamo con soddisfazione attivazione Nec Italia",
-   "link": "https://www.mef.gov.it/inevidenza/Giorgetti-salutiamo-con-soddisfazione-attivazione-Nec-Italia/",
-   "fonte": "p-mef",
-   "fonte_nome": "Ministero Economia (MEF)",
-   "tipo": "ufficiale",
-   "aree": [
-    "economia_pol"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "economia_pol.manovra"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "cedde51db9810846",
-   "titolo": "2022-2026: quattro anni di governo, le principali misure adottate",
-   "link": "https://www.mef.gov.it/focus/2022-2026-quattro-anni-di-governo-le-principali-misure-adottate/",
-   "fonte": "p-mef",
-   "fonte_nome": "Ministero Economia (MEF)",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo",
-    "economia_pol"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "governo.governo"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "6252918cbf4ab755",
-   "titolo": "TrovaTU, il motore di ricerca dei nuovi Testi Unici",
-   "link": "https://www.mef.gov.it/focus/TrovaTU-il-motore-di-ricerca-dei-nuovi-Testi-Unici/",
-   "fonte": "p-mef",
-   "fonte_nome": "Ministero Economia (MEF)",
-   "tipo": "ufficiale",
-   "aree": [
-    "economia_pol"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "37e152583bae894c",
-   "titolo": "Donald Trump silura lo zar per la cybersicurezza: 'Inadeguato'",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/20/donald-trump-silura-lo-zar-per-la-cybersicurezza-inadeguato_329130cd-5526-4071-ab90-0d87f9cdd6d2.html",
-   "fonte": "p-ansa-mondo",
-   "fonte_nome": "ANSA Mondo",
-   "tipo": "stampa",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "3468cffee54116a2",
-   "titolo": "Si rafforza l’asse Meloni-Merz: «Mosca prova a spaccarci»",
-   "link": "https://www.ilmessaggero.it/politica/meloni_merz_mosca_negoziati_pace_ucraina-9903034.html",
-   "fonte": "p-messaggero",
-   "fonte_nome": "Il Messaggero Politica",
-   "tipo": "stampa",
-   "aree": [
-    "partiti",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "cada6655c495a584",
-   "titolo": "Milano AutoClassica, il fascino del Tridente accende la sedicesima edizione",
-   "link": "https://www.corriere.it/motori/26_novembre_16/milano-autoclassica-il-fascino-del-tridente-accende-la-sedicesima-edizione-59c8aa22-a705-4d6f-915a-988202da0xlk.shtml",
-   "fonte": "a-corriere-motori",
-   "fonte_nome": "Corriere della Sera Motori",
-   "tipo": "stampa",
-   "aree": [
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "8a5c1b4166bf06b6",
-   "titolo": "Bolelli: \"Davis? Dispiace, ma fa parte del gioco\" Tennis Dopo la sconfitta nell'ultimo match alle Atp Finals, Simone Bolelli ha parlato in conferenza... 20 nov - 23:56",
-   "link": "https://sport.sky.it/tennis/2026/11/20/bolelli-vavassori-atp-finals-conferenza-stampa",
-   "fonte": "a-sky-f1",
-   "fonte_nome": "Sky Sport F1 e motori",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "ff4478beefc15444",
-   "titolo": "Medvedev vince e scrive: \"Ancora niente Maldive\" atp finals Daniil Medvedev dovrà attendere ancora un altro po' per poter andare in vacanza. Dopo la vittoria... 20 nov - 23:00",
-   "link": "https://sport.sky.it/tennis/2026/11/20/medvedev-atp-finals-scritta-vetrino-video",
-   "fonte": "a-sky-f1",
-   "fonte_nome": "Sky Sport F1 e motori",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "fa9ac1d78d0316c7",
-   "titolo": "Musei in Musica",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZkRzOGNWeWJPdW5PUmttcy1KSFZGTmFRTEx4Tk13QllfOEpkMFhMMUJ6Q3VjYzN0U3V5VFlJQXhXeEMyOHVlUmJRX1FwcGEyNGN5R0U4THFldGRtY1JzSUtwTk5zbW5JWmZNLUZsMW9QdXBQNlBNZTRNNk5zaVNIYnNWZDhQZk1kSEpNWkljWEs5bENrd1pLaGhPT0I1SjE5QWV5dzBkbDJiS2k2eGRr?oc=5",
-   "fonte": "p-rainews",
-   "fonte_nome": "Rai News Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Musei in Musica RaiNews",
-   "pubblicata": "2026-11-21T00:35:00Z",
-   "visto": "2026-11-21T01:01:03Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "a366ba9b64161229",
-   "titolo": "Forte terremoto di magnitudo 6.7 colpisce il Perù, a Lima la gente scende in strada",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUjdVa0hTTkJ4VDhxVmo1Q21EMmJwcmVrSmFZZldJT2hKeEdPX3VtWm1iMXpCYmJ6dWZNV0pmV3Qxc3ZJR2d0NVVYc3B1T1g2ejkxRnVTT3RrdnhKeFpEVFVUQjYwaVBOaThWbTNDeUZTWWQxckxVbVZmbVpjeXBRYVZHbTNqYU5EVnh0RW1CNGpVQ3hyUGttaWxmRTgzbGFxeTdLUWJqSHJQZUtObkFLQ2ZYZGVUVjZodENuNlpXX1JRV0hXT21KZkln0gHPAUFVX3lxTE11QmJpMFZWdHV1d1htelczR0x5ZVpLN2FxYmhxb3cxcW1OenkydkQ1aTJ3c2pSak5ockVaWEtBZkNVR1gtam5jMTV3RlVwYnBSNnA2TUp6S1hyOU1OaEpqdkV4TEFxMmtpd0x1eDZ0X0U4SlF0SENJZkg0SUUxWWo0dEVnSzFpblgxcjdUVzA4S2FJc0I4WktDNW85c3lwWGNXLVFWSlI4dUtWR05MRWJEdWtpemUtMDZHeXRidGpBRVJyeF9iVnM5SVNaZzhrZw?oc=5",
-   "fonte": "p-rainews",
-   "fonte_nome": "Rai News Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Forte terremoto di magnitudo 6.7 colpisce il Perù, a Lima la gente scende in strada RaiNews",
-   "pubblicata": "2026-11-21T00:34:00Z",
-   "visto": "2026-11-21T02:01:00Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": [],
-   "altre_fonti": [
-    "ANSA Politica",
-    "ANSA Mondo"
-   ]
-  },
-  {
-   "id": "edaaed991e4c0624",
-   "titolo": "Google cambia la homepage su desktop: in arrivo una barra laterale per ritrovare e riprendere le chat dell'AI Mode",
-   "link": "https://www.smartworld.it/news/google-homepage-barra-laterale-ai-mode-cronologia-chat.html",
-   "fonte": "androidworld",
-   "fonte_nome": "AndroidWorld",
-   "tipo": "stampa",
-   "aree": [
-    "pc",
-    "smartphone"
-   ],
-   "normativa": false,
-   "sintesi": "Google aggiunge una barra laterale comprimibile alla homepage con la cronologia delle ricerche AI Mode: si può rivedere e continuare ogni chat, cercare tra i thread e…",
-   "pubblicata": "2026-11-21T00:24:00Z",
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "80166b84b60186a4",
-   "titolo": "Scuola pubblica tagliata, paritaria aiutata, stipendi fermi, precari a vita: la Cgil dopo lo sciopero entra in mobilitazione fino al termine dell’anno scolastico – VIDEO",
-   "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNY2RqX0stWXdpTTNLRnBUVFhEYWhyQ0M0ekRSSldlTENQYVJwMVltTmx4amVYVHZVV1AybTBhd0hBVlpKVFhhVXVGMHlWVVgxTENMeXRQbTZmLTcwUXk2aDB2aGRGMHBZbC04NWdMUHBGLVhfNHRBVV9Ka0poMEJMcHY5UXBGVURacV9ZWVNETW1FM3ExRUpwa3l0cXZ3NzZIYkt6YWZUUnFBU09RT1hkM0FfS2ZleVQySnk2V3dKOUczNV9OcXhhOEs0eEdwRG5tbFNJcm84Mi1veXBtNmF2TExtdkFWQ21ERmtEeENmWjdGMTMtM1czTVRyY0RsYWlwRlhlektiTnFZemdKd3lvLXdYQTFwS0R1ZlA4WWZqak5GQQ?oc=5",
-   "fonte": "pr-scuola",
-   "fonte_nome": "Orizzonte Scuola e Tecnica della Scuola",
-   "tipo": "stampa",
-   "aree": [
-    "formazione_cultura",
-    "comunicazione"
-   ],
-   "normativa": false,
-   "sintesi": "Scuola pubblica tagliata, paritaria aiutata, stipendi fermi, precari a vita: la Cgil dopo lo sciopero entra in mobilitazione fino al termine dell’anno scolastico – VIDEO…",
-   "pubblicata": "2026-11-21T00:06:18Z",
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "gnews",
-   "sotto": [
-    "formazione_cultura.scuola",
-    "comunicazione.design"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus",
-    "fotovideo",
-    "giornalista",
-    "marketer",
-    "grafico"
-   ]
-  },
-  {
-   "id": "b28afea4e4348387",
-   "titolo": "Truffe dei ristori Covid: «Ora restituiscano i soldi». La Corte dei Conti: fondi dello Stato per 3,5 milioni percepiti illegittimamente",
-   "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPbEZBTUQ4cnhhNGNaUzZrQ1FmRF9valNYMUp1NEtRTmoyTnR1SkEwQkJ0TTRTZWVxc1VwbW5iQ1dTSlB3dzd2a1VSNFMwUElVd25lUTFiNmVTUU9tclNaNmUtcFUyOFdmVzRzLXZTM0xPc3VMc0dzQkc1UFAtUThMX1hfWXBQN2ZfN1JvRHBNNlBvT0RIRnQxMlRkMzFOV0JxRW1uU3BTbzQ1ODZqTzZEOF9LbEd0OTRhczB4Y0poUnZsU3EzVC15bk1TaDUtVUY5QnpGSmQ1WGl0MWdGbVkwZGVGTWFNX1h6MzYzNjJZVElyWUJFRnVpT2hxbzFMTHhLdDBUOWRVVlPSAY4CQVVfeXFMT2FqMkJnVXpPY05ZU1V6d1VIV0RRcExBbk55RF9RbWhpcHBFVzZzYjVrS216V19Yb3Q0bFAtUDRsYWNxTEFYZFBRQ2NCQXVlZ0k5b0lheEN0c29qYTZXdTI0TjhMaDhoV3ZiV3E0dUxiekpMQTlKTXprMm51dE5HQTFzZDVpU0FUQ1R2T3ZXc2dYMHh1WFdtcWswVFJ4akZQOGg5ZjliMHNpbVdHb3NoeG5KcGptYW5BUW9aajhMcjFpT3lUM2RPcmFLWEZGT2oxOVY1dkRzUnlZeVhDQ1dsRXJWd2xJck1lbjhwa2VOSEp6RU5DOGQ5LVNncXcyVXAzZ19mZEVJTmxCQUZmLThR?oc=5",
-   "fonte": "p-corteconti",
-   "fonte_nome": "Corte dei Conti",
-   "tipo": "ufficiale",
-   "aree": [
-    "territorio",
-    "economia_pol"
-   ],
-   "normativa": true,
-   "sintesi": "Truffe dei ristori Covid: «Ora restituiscano i soldi». La Corte dei Conti: fondi dello Stato per 3,5 milioni percepiti illegittimamente Il Mattino",
-   "pubblicata": "2026-11-21T00:05:02Z",
-   "visto": "2026-11-21T05:01:10Z",
-   "metodo": "gnews",
-   "sotto": [
-    "territorio.campania",
-    "economia_pol.manovra"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "cc92a6e9203b8de3",
-   "titolo": "WhatsApp aumenta il limite della chat di gruppo a 1.500 membri",
-   "link": "https://www.gsmarena.com/whatsapp_group_chat_member_limit_increased-news-75560.php",
-   "fonte": "t-gsmarena",
-   "fonte_nome": "GSMArena",
-   "tipo": "stampa",
-   "aree": [
-    "software",
-    "smartphone"
-   ],
-   "normativa": false,
-   "sintesi": "WhatsApp ha aumentato il limite della chat di gruppo da 1.024 a 1.500 membri, riporta WABetaInfo. Con il nuovo limite, gli amministratori possono ora aggiungere fino a 1.500 membri a un gruppo.",
-   "pubblicata": "2026-11-21T00:04:01Z",
-   "visto": "2026-11-21T00:45:58Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": [],
-   "tradotto": true
-  },
-  {
-   "id": "e013efbefd57c08d",
-   "titolo": "Il meccanico esperto che ha rivoluzionato il cambio dell'olio grazie al metodo giapponese",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWEY0eUpGaHlPbkVTdjQ5bjhvWnhreGlIc2gwUWUzZ2EyYzhoeWdYSGE3NURadXRuemxwNjNkWVFFVXVPMnhNdkF6cDlQazFabmc4UEFoUHZtWkZoYTlJN19hNkd3ei13RF9yY19tdWJiYjhYeVM5bXdMeFNQRlJQeGdCM05EclRfOElwTUhaTV9ZZTAtUldVUWpIa09YdnIwbW9zUF9udXg1dw?oc=5",
-   "fonte": "a-epoca",
-   "fonte_nome": "Auto e moto d'epoca",
-   "tipo": "stampa",
-   "aree": [
-    "tecnica_auto",
-    "mezzi"
-   ],
-   "normativa": false,
-   "sintesi": "Il meccanico esperto che ha rivoluzionato il cambio dell'olio grazie al metodo giapponese Everyeye Auto",
-   "pubblicata": "2026-11-21T00:03:09Z",
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "gnews",
-   "sotto": [
-    "tecnica_auto.motori"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "31a8590ee57d7241",
-   "titolo": "Polizze vita finanziate con compensi UE: in Italia tassato soltanto il rendimento",
-   "link": "https://www.fiscal-focus.it/quotidiano/il-quotidiano/articoli-fisco/polizze-vita-finanziate-con-compensi-ue-in-italia-tassato-soltanto-il-rendimento,3,190311",
-   "fonte": "fiscalfocus",
-   "fonte_nome": "Fiscal Focus",
-   "tipo": "stampa",
-   "aree": [
-    "norme"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "scraping",
-   "sotto": [
-    "norme.ue"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "ingegnere",
-    "perito"
-   ]
-  },
-  {
-   "id": "9a0e3611bc1721b4",
-   "titolo": "SIISL, la Fondazione Studi fa il punto sulle assunzioni agevolate",
-   "link": "https://www.fiscal-focus.it/quotidiano/il-quotidiano/articoli-lavoro/siisl-la-fondazione-studi-fa-il-punto-sulle-assunzioni-agevolate,3,190304",
-   "fonte": "fiscalfocus",
-   "fonte_nome": "Fiscal Focus",
-   "tipo": "stampa",
-   "aree": [
-    "hr"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "scraping",
-   "sotto": [
-    "hr.hr"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "hr",
-    "formatore",
-    "consulente_lavoro"
-   ]
-  },
-  {
-   "id": "d74ae252c05db3b6",
-   "titolo": "Antiriciclaggio, in consultazione il decreto che manda in soffitta il D.Lgs. n. 231/2007",
-   "link": "https://www.fiscal-focus.it/quotidiano/il-quotidiano/articoli-fisco/antiriciclaggio-in-consultazione-il-decreto-che-manda-in-soffitta-il-d-lgs-n-231-2007,3,190296",
-   "fonte": "fiscalfocus",
-   "fonte_nome": "Fiscal Focus",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "scraping",
-   "sotto": [
-    "management.governance"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "compliance",
-    "manager",
-    "consulente_az",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "80a8ae918dd36a00",
-   "titolo": "Bonus mobili 2027: confermato il 50%, ma senza elettrodomestici",
-   "link": "https://www.fiscal-focus.it/quotidiano/il-quotidiano/articoli-fisco/bonus-mobili-2027-confermato-il-50-ma-senza-elettrodomestici,3,190283",
-   "fonte": "fiscalfocus",
-   "fonte_nome": "Fiscal Focus",
-   "tipo": "stampa",
-   "aree": [
-    "energia",
-    "bonus"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "scraping",
-   "sotto": [
-    "energia.incentivi",
-    "bonus.superbonus"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "ingegnere",
-    "certificatore",
-    "energy",
-    "impiantista",
-    "commercialista",
-    "geometra",
-    "architetto",
-    "agente_imm"
-   ]
-  },
-  {
-   "id": "9ebbe17b48a84e96",
-   "titolo": "Case fantasma e Catasto, controlli fiscali 2027-2029: nel mirino anche bonus e partite Iva",
-   "link": "https://www.fiscal-focus.it/quotidiano/altre-tematiche/economia-societa/case-fantasma-e-catasto-controlli-fiscali-2027-2029-nel-mirino-anche-bonus-e-partite-iva,3,190273",
-   "fonte": "fiscalfocus",
-   "fonte_nome": "Fiscal Focus",
-   "tipo": "stampa",
-   "aree": [
-    "catasto",
-    "bonus"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "scraping",
-   "sotto": [
-    "catasto.docfa",
-    "bonus.crediti"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "geometra",
-    "notaio",
-    "agente_imm",
-    "commercialista",
-    "ingegnere",
-    "architetto"
-   ]
-  },
-  {
-   "id": "646b694d1d599607",
-   "titolo": "Manovra 2027: riaperti i termini dell’estromissione agevolata dell’immobile dall’impresa individuale",
-   "link": "https://www.fiscal-focus.it/quotidiano/il-quotidiano/articoli-fisco/manovra-2027-riaperti-i-termini-dell-estromissione-agevolata-dell-immobile-dall-impresa-individuale,3,190272",
-   "fonte": "fiscalfocus",
-   "fonte_nome": "Fiscal Focus",
-   "tipo": "stampa",
-   "aree": [
-    "bonus"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "scraping",
-   "sotto": [
-    "bonus.bilancio"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "commercialista",
-    "geometra",
-    "ingegnere",
-    "architetto",
-    "agente_imm"
-   ]
-  },
-  {
-   "id": "a9ca12e49f57d7ba",
-   "titolo": "Revisori legali, al via l’esame di abilitazione 2026: domande entro il 21 dicembre",
-   "link": "https://www.fiscal-focus.it/quotidiano/altre-tematiche/infoprofessioni/revisori-legali-al-via-l-esame-di-abilitazione-2026-domande-entro-il-21-dicembre,3,190312",
-   "fonte": "fiscalfocus",
-   "fonte_nome": "Fiscal Focus",
-   "tipo": "stampa",
-   "aree": [
-    "norme",
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "scraping",
-   "sotto": [
-    "norme.professione",
-    "management.finanza"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "revisore",
-    "ingegnere",
-    "perito",
-    "manager",
-    "consulente_az",
-    "compliance",
-    "finanziario"
-   ]
-  },
-  {
-   "id": "08c6ac0c67182ae8",
-   "titolo": "Cassazione: il pre-verbale d’udienza è giuridicamente nullo",
-   "link": "https://www.italiaoggi.it/diritto-e-fisco/cassazione-il-pre-verbale-dudienza-e-giuridicamente-nullo-nxvajr46",
-   "fonte": "italiaoggi",
-   "fonte_nome": "ItaliaOggi (fisco e casa)",
-   "tipo": "stampa",
-   "aree": [
-    "legale"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "scraping",
-   "sotto": [
-    "legale.avvocati"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "avvocato",
-    "notaio",
-    "curatore"
-   ]
-  },
-  {
-   "id": "6dad5a6edba6f868",
-   "titolo": "Intervista del Governatore Fabio Panetta a NEXUS",
-   "link": "https://www.bancaditalia.it/media/notizia/intervista-del-governatore-fabio-panetta-a-nexus-visioni-e-strategie-di-sviluppo-del-territorio",
-   "fonte": "p-bankit",
-   "fonte_nome": "Banca d'Italia",
-   "tipo": "ufficiale",
-   "aree": [
-    "territorio",
-    "economia_pol"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "scraping",
-   "sotto": [
-    "territorio.regioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "257e726e45a1e8fc",
-   "titolo": "Avviso - Tentativi di truffa tramite falsi profili WhatsApp",
-   "link": "https://www.bancaditalia.it/media/notizia/avviso-tentativi-di-truffa-tramite-falsi-profili-whatsapp",
-   "fonte": "p-bankit",
-   "fonte_nome": "Banca d'Italia",
-   "tipo": "ufficiale",
-   "aree": [
-    "economia_pol"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "fc4d97850e6ffbcf",
-   "titolo": "Sergio Nicoletti Altimari alla conferenza \"Inflazione, aspettative di inflazione e politica monetaria\"",
-   "link": "https://www.bancaditalia.it/media/notizia/sergio-nicoletti-altimari-alla-conferenza-inflazione-aspettative-di-inflazione-e-politica-monetaria",
-   "fonte": "p-bankit",
-   "fonte_nome": "Banca d'Italia",
-   "tipo": "ufficiale",
-   "aree": [
-    "economia_pol"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "c28b55380ce9b86c",
-   "titolo": "Sondaggio congiunturale sul mercato delle abitazioni in Italia - 3° trimestre 2026",
-   "link": "https://www.bancaditalia.it/media/notizia/sondaggio-congiunturale-sul-mercato-delle-abitazioni-in-italia-3-trimestre-2026",
-   "fonte": "p-bankit",
-   "fonte_nome": "Banca d'Italia",
-   "tipo": "ufficiale",
-   "aree": [
-    "partiti",
-    "economia_pol"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.elezioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "df24cf645d99850d",
-   "titolo": "Pubblicazione degli aggiornamenti congiunturali sulle economie regionali - 2026",
-   "link": "https://www.bancaditalia.it/media/notizia/pubblicazione-degli-aggiornamenti-congiunturali-sulle-economie-regionali-2026",
-   "fonte": "p-bankit",
-   "fonte_nome": "Banca d'Italia",
-   "tipo": "ufficiale",
-   "aree": [
-    "partiti",
-    "economia_pol"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "scraping",
-   "sotto": [
-    "partiti.elezioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "dd83c054d354f9c4",
-   "titolo": "Bilancia dei pagamenti e posizione patrimoniale sull'estero - Settembre 2026",
-   "link": "https://www.bancaditalia.it/media/notizia/bilancia-dei-pagamenti-e-posizione-patrimoniale-sull-estero-settembre-2026/",
-   "fonte": "p-bankit",
-   "fonte_nome": "Banca d'Italia",
-   "tipo": "ufficiale",
-   "aree": [
-    "economia_pol"
-   ],
-   "normativa": true,
-   "sintesi": "",
-   "pubblicata": null,
-   "visto": "2026-11-21T00:01:04Z",
-   "metodo": "scraping",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
   }
  ]
 }
