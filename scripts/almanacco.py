@@ -333,6 +333,30 @@ def comune_info(titolo):
     return {"nome": j.get("title", titolo), "descr": j.get("description", ""), "testo": testo, "link": (j.get("content_urls", {}).get("desktop", {}) or {}).get("page")}
 
 
+def latini():
+    """Proverbi latini con traduzione italiana da Wikiquote: [{latino, traduzione, autore}]."""
+    t = get("https://it.wikiquote.org/api/rest_v1/page/html/Proverbi_latini").content.decode("utf-8", "replace")
+    t = re.sub(r"<sup[^>]*>.*?</sup>", "", t, flags=re.S)
+    t = re.split(r"<h2[^>]*>\s*Note", t)[0]
+    voci = []
+    for m in re.finditer(r"<i[^>]*><b[^>]*>(.*?)</b></i>(.*?)(?=<i[^>]*><b[^>]*>|<h[23][ >]|$)", t, re.S):
+        lat = pulisci(m.group(1)).strip(" .")
+        seg = re.sub(r"<(ul|dl|ol).*?</\1>", " ", m.group(2), flags=re.S) if False else m.group(2)
+        seg = seg.split("</li>")[0].split("</dd>")[0].split("</p>")[0]
+        tr = pulisci(seg)
+        tr = re.sub(r"\[\s*\d+\s*\]", "", tr).strip(" .,;:-–")
+        aut = None
+        a = re.search(r"\(\s*([^()]{3,60}?)\s*\)\s*$", tr)
+        if a:
+            aut, tr = a.group(1).strip(), tr[:a.start()].strip(" .,;:-–")
+        if not (2 <= len(lat.split()) <= 18 and re.fullmatch(r"[A-Za-zÀ-ÿæœÆŒ,;:'’ \-?!]+", lat)):
+            continue
+        if not (12 <= len(tr) <= 230) or not tr[0].isupper() or "Indice" in tr:
+            continue
+        voci.append({"latino": lat + ".", "traduzione": tr + ("" if tr[-1] in ".!?" else "."), "autore": aut})
+    return voci
+
+
 def costituzione(d):
     f = DATA / "costituzione.json"
     if not f.exists():
@@ -362,6 +386,7 @@ def main():
     archivio = tenta(frasi_archivio, "archivio frasi") or {}
     modi = tenta(modi_di_dire, "modi di dire") or []
     comuni = tenta(comuni_lista, "comuni") or []
+    lat = tenta(latini, "latino") or []
     for i in range(GIORNI):
         d = oggi + timedelta(days=i)
         r = {"data": d.isoformat(), "giorno_settimana": GIORNO[d.weekday()], "settimana": d.isocalendar()[1], "giorno_anno": d.timetuple().tm_yday,
@@ -444,7 +469,9 @@ def main():
                         break
                 except Exception as e:  # noqa: BLE001
                     errori.append(f"{d} comune: {str(e)[:60]}")
-        for kk in ("frase", "parola", "modo", "comune"):
+        if "latino" not in c and lat:
+            c["latino"] = lat[pick("latino" + iso, len(lat))]
+        for kk in ("frase", "parola", "modo", "comune", "latino"):
             r[kk] = c.get(kk)
         giorni[iso] = r
     # "nei prossimi giorni": festività e feste mobili entro 45 giorni

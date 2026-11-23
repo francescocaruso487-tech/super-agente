@@ -563,8 +563,7 @@ function renderAlmanacco() {
   // Costituzione
   if (g.costituzione) h += AS("⚖️ Note civiche: la Costituzione", `<h3>${esc(g.costituzione.articolo)}</h3><p class="alm-cost">${esc(g.costituzione.testo).replace(/\n/g, "<br>")}</p>`, `<p class="alm-f">Testo ufficiale dal sito Normattiva (Poligrafico dello Stato).</p>`);
   // Cultura: frase, parola, modo di dire, comune
-  if (!g.frase && k === oggiISO()) h += AS("💬 Frase del giorno", `<p class="mute">In arrivo: la frase di oggi viene pubblicata da Wikiquote nelle prime ore del giorno.</p>`);
-  if (g.frase) h += AS("💬 Frase del giorno", `<p class="alm-q">“${esc(g.frase.testo)}”</p><p class="alm-qa">— ${esc(g.frase.autore)}</p>`, `<p class="alm-f">Fonte: Wikiquote, citazione del giorno (non istituzionale).</p>`);
+  if (g.frase || g.latino || k === oggiISO()) h += AS("💬 Frase del giorno", `${g.frase ? `<p class="alm-q">“${esc(g.frase.testo)}”</p><p class="alm-qa">— ${esc(g.frase.autore)}</p>` : `<p class="mute">In arrivo: la frase di oggi viene pubblicata da Wikiquote nelle prime ore del giorno.</p>`}${g.latino ? `<h3 class="alm-lat">🏛️ In latino</h3><p class="alm-q alm-latq">${esc(g.latino.latino)}</p><p class="alm-tr"><b>Traduzione:</b> ${esc(g.latino.traduzione)}</p>${g.latino.autore ? `<p class="alm-qa">— ${esc(g.latino.autore)}</p>` : ""}` : ""}`, `<p class="alm-f">Fonte: Wikiquote, citazione del giorno e proverbi latini (non istituzionale).</p>`);
   if (!g.parola && k === oggiISO()) h += AS("🔤 Parola del giorno", `<p class="mute">In arrivo: la parola di oggi viene pubblicata da Wikizionario nelle prime ore del giorno.</p>`);
   if (g.parola) h += AS("🔤 Parola del giorno", `<h3>${esc(g.parola.parola)}</h3><p>${esc(g.parola.testo)}</p>${g.parola.link ? `<a class="alm-l" href="${esc(g.parola.link)}" target="_blank" rel="noopener">Apri la voce su Wikizionario ↗</a>` : ""}`, `<p class="alm-f">Fonte: Wikizionario (non istituzionale).</p>`);
   if (g.modo) h += AS("🗣️ Modo di dire", `<h3>“${esc(g.modo.espressione)}”</h3>${g.modo.significati.map((x) => `<p>• ${esc(x)}</p>`).join("")}${g.modo.link ? `<a class="alm-l" href="${esc(g.modo.link)}" target="_blank" rel="noopener">Approfondisci su Wikizionario ↗</a>` : ""}`, `<p class="alm-f">Fonte: Wikizionario (non istituzionale).</p>`);
@@ -836,7 +835,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "54";
+const VERSIONE_APP = "55";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
