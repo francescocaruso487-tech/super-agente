@@ -564,7 +564,7 @@ function renderAlmanacco() {
     const lett = (v.letture || []).map((x) => x.tipo === "Salmo responsoriale"
       ? `<h3>${esc(x.tipo)} — ${esc(x.riferimento)}</h3>${x.ritornello ? `<p class="alm-q">R. ${esc(x.ritornello)}</p>` : ""}`
       : `<h3>${esc(x.tipo)} — ${esc(x.riferimento)}</h3>${x.titolo ? `<p class="alm-q">“${esc(x.titolo)}”</p>` : ""}${x.introduzione ? `<p class="alm-qa">${esc(x.introduzione)}</p>` : ""}<p><a class="alm-l" href="${esc(x.link_testo)}" target="_blank" rel="noopener">Leggi il testo ufficiale (CEI) ↗</a></p>`).join("");
-    h += AS("📖 Letture e Vangelo", `${v.giorno ? `<p class="alm-qa">${esc(v.giorno)}</p>` : ""}${lett}<h3>${esc(v.evangelista ? "Vangelo secondo " + v.evangelista : "Vangelo")} — ${esc(v.riferimento)}</h3>${v.titolo ? `<p class="alm-q">“${esc(v.titolo)}”</p>` : ""}<p><a class="alm-l" href="${esc(v.link_testo)}" target="_blank" rel="noopener">Leggi il testo ufficiale (CEI) ↗</a></p>${v.riveduta ? `<details class="alm-det"><summary>Leggi il Vangelo (Riveduta 1927)</summary><p class="alm-vers">${v.riveduta.map((x) => `<sup>${x[0]}</sup>${esc(x[1])}`).join(" ")}</p><p class="alm-f">Traduzione Riveduta (1927) di Giovanni Luzzi, di pubblico dominio: italiano antico, diverso dal testo letto a Messa.</p></details>` : ""}<p><a class="alm-l" href="${esc(v.link_liturgia)}" target="_blank" rel="noopener">Tutta la liturgia del giorno ↗</a></p>`, `<p class="alm-f">Fonte: Conferenza Episcopale Italiana, liturgia del giorno (chiesacattolica.it).</p>`);
+    h += AS("📖 Letture e Vangelo", `${v.giorno ? `<p class="alm-qa">${esc(v.giorno)}</p>` : ""}${lett}<h3>${esc(v.evangelista ? "Vangelo secondo " + v.evangelista : "Vangelo")} — ${esc(v.riferimento)}</h3>${v.titolo ? `<p class="alm-q">“${esc(v.titolo)}”</p>` : ""}<p><a class="alm-l" href="${esc(v.link_testo)}" target="_blank" rel="noopener">Leggi il testo ufficiale (CEI) ↗</a></p>${v.riveduta ? `<details class="alm-det"><summary>Leggi il Vangelo (Riveduta 1927)</summary><p class="alm-vers">${v.riveduta.map((x) => `<sup>${x[0]}</sup>${esc(x[1])}`).join(" ")}</p><p class="alm-f">Traduzione Riveduta (1927) di Giovanni Luzzi, di pubblico dominio: italiano antico, diverso dal testo letto a Messa.</p></details>` : ""}<p><a class="alm-l" href="https://www.vaticannews.va/it/vangelo-del-giorno-e-parola-del-giorno.html" target="_blank" rel="noopener">Commento al Vangelo (Vatican News) ↗</a></p><p><a class="alm-l" href="${esc(v.link_liturgia)}" target="_blank" rel="noopener">Tutta la liturgia del giorno ↗</a></p>`, `<p class="alm-f">Fonte: Conferenza Episcopale Italiana, liturgia del giorno (chiesacattolica.it).</p>`);
   }
   if (g.ricorrenze && g.ricorrenze.length) h += AS("🌍 Feste e ricorrenze nel mondo", `<ul class="alm-ul">${g.ricorrenze.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`, `<p class="alm-f">Fonte: Wikipedia (non istituzionale). Le ricorrenze religiose ufficiali sono nel Santo del giorno.</p>`);
   // Costituzione
@@ -594,7 +594,7 @@ function renderAlmanacco() {
 }
 function disegnaAlm() { const c = document.getElementById("alm-corpo"); c.innerHTML = renderAlmanacco(); c.scrollTop = 0; document.getElementById("alm-tit").textContent = "Oggi – " + almEtichetta(state.almKey); }
 function apriAlm() {
-  if (!state.alm) return; const ov = document.getElementById("alm"); state.almKey = almGiornoCorrente(); state.almAperta = "🕊️ Santo del giorno"; disegnaAlm();
+  if (!state.alm) return; const ov = document.getElementById("alm"); state.almKey = almGiornoCorrente(); state.almAperta = null; disegnaAlm();
   ov.hidden = false; document.body.classList.add("alm-open"); requestAnimationFrame(() => ov.classList.add("on"));
   if (!almAperto) history.pushState({ alm: 1 }, ""); almAperto = true;
 }
@@ -846,7 +846,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "58";
+const VERSIONE_APP = "59";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
