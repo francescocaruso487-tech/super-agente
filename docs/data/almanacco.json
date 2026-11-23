@@ -1,5 +1,5 @@
 {
-"aggiornato": "2026-11-23T09:55:08+00:00",
+"aggiornato": "2026-11-23T10:02:38+00:00",
 "luogo": "Caserta",
 "giorni": {
 "2026-11-23": {
@@ -894,6 +894,21 @@
 "latino": "Bonum nomen, bonum omen.",
 "traduzione": "Buon nome, buon augurio.",
 "autore": null
+},
+"latparola": {
+"latino": "reputatio",
+"tipo": "sostantivo",
+"significati": [
+"definizione mancante; se vuoi, aggiungila tu"
+],
+"origine": "dal verbo reputo, con il suffisso -tio",
+"derivati": [],
+"collegati": [
+"discendenti",
+"altre",
+"lingue"
+],
+"link": "https://it.wiktionary.org/wiki/reputatio"
 }
 },
 "2026-11-24": {
@@ -1742,6 +1757,25 @@
 "latino": "Simia simia est, etiamsi aurea gestet insignia.",
 "traduzione": "La scimmia resta sempre scimmia, anche se indossa ornamenti d'oro.",
 "autore": null
+},
+"latparola": {
+"latino": "utilis",
+"tipo": "aggettivo",
+"significati": [
+"utile",
+"funzionale",
+"benefico, vantaggioso, opportuno"
+],
+"origine": "dal verbo utor",
+"derivati": [
+"utile"
+],
+"collegati": [
+"inutilis",
+"utilitas",
+"utiliter"
+],
+"link": "https://it.wiktionary.org/wiki/utilis"
 }
 },
 "2026-11-25": {
@@ -2642,6 +2676,33 @@
 "latino": "Carpe diem.",
 "traduzione": "Cogli il giorno.",
 "autore": "Quinto Orazio Flacco"
+},
+"latparola": {
+"latino": "ungula",
+"tipo": "sostantivo",
+"significati": [
+"unghia, artiglio",
+"zoccolo",
+"(senso figurato) cavallo"
+],
+"origine": "da unguis, \"artiglio\"",
+"derivati": [
+"ungulati",
+"unghiata",
+"ungulato",
+"unghia"
+],
+"collegati": [
+"ungulatus",
+"discendenti",
+"altre",
+"lingue",
+"unghia",
+"ungla",
+"ongle",
+"unha"
+],
+"link": "https://it.wiktionary.org/wiki/ungula"
 }
 },
 "2026-11-26": {
@@ -3557,6 +3618,19 @@
 "latino": "Causa perit iusta, si dextera non sit onusta.",
 "traduzione": "La giusta causa soccombe se la destra non è piena [di denaro].",
 "autore": null
+},
+"latparola": {
+"latino": "interpunctio",
+"tipo": "sostantivo",
+"significati": [
+"punteggiatura"
+],
+"origine": null,
+"derivati": [
+"interpunzione"
+],
+"collegati": [],
+"link": "https://it.wiktionary.org/wiki/interpunctio"
 }
 },
 "2026-11-27": {
@@ -4410,6 +4484,30 @@
 "latino": "Cave tibi ab acquis silentibus.",
 "traduzione": "Guàrdati dalle acque chete.",
 "autore": null
+},
+"latparola": {
+"latino": "corpus",
+"tipo": "sostantivo",
+"significati": [
+"dolor corporis, cuius est morsus acerrimus... - il dolore del corpo, il cui morso è il più feroce... (Cicerone, Tusculanae disputationes, liber III, XXV, 61)",
+"nudato corpore nymphas nutricum tenus - le ninfe dal corpo nudo fino al seno (Catullo, Carmina, carmen LXIV, 18-19)"
+],
+"origine": "dal proto-italico *krépos, a sua volta dalla radice del proto-indoeuropeo *krep-, \"corpo\"",
+"derivati": [
+"accorpare",
+"corpo"
+],
+"collegati": [
+"corporalis",
+"corporaliter",
+"corporatio",
+"corporatura",
+"corporeus",
+"corpulentus",
+"corpusculus",
+"incorporo"
+],
+"link": "https://it.wiktionary.org/wiki/corpus"
 }
 },
 "2026-11-28": {
@@ -5267,6 +5365,19 @@
 "latino": "Primum vivere deinde philosophari.",
 "traduzione": "Prima vivere, poi fare della filosofia.",
 "autore": null
+},
+"latparola": {
+"latino": "potestas",
+"tipo": "sostantivo",
+"significati": [
+"potenza"
+],
+"origine": null,
+"derivati": [
+"podestà"
+],
+"collegati": [],
+"link": "https://it.wiktionary.org/wiki/potestas"
 }
 },
 "2026-11-29": {
@@ -6128,6 +6239,26 @@
 "latino": "Nomina sunt consequentia rerum.",
 "traduzione": "I nomi sono corrispondenti alle cose.",
 "autore": "Giustiniano, Institutiones, 2, 7, 3"
+},
+"latparola": {
+"latino": "nescio",
+"tipo": "verbo",
+"significati": [
+"veteres Romani litteras Graecas nesciverunt - gli antichi romani non conobbero la letteratura greca (Aulo Gellio, Noctes Atticae, liber XIII, IX, IV)"
+],
+"origine": "composto di ne, come antica forma di non, \"non\", e scio, \"sapere\"",
+"derivati": [],
+"collegati": [
+"discendenti",
+"altre",
+"lingue",
+"nesci",
+"nesciente",
+"participio",
+"nescient",
+"participio"
+],
+"link": "https://it.wiktionary.org/wiki/nescio"
 }
 },
 "2026-11-30": {
@@ -7018,6 +7149,19 @@
 "latino": "Caecus non judicat de colore.",
 "traduzione": "Il cieco non giudica i colori. Non si può giudicare ciò che si sottrae alle nostre attitudini.",
 "autore": null
+},
+"latparola": {
+"latino": "definitio",
+"tipo": "sostantivo",
+"significati": [
+"delimitazione"
+],
+"origine": null,
+"derivati": [
+"definizione"
+],
+"collegati": [],
+"link": "https://it.wiktionary.org/wiki/definitio"
 }
 }
 },
