@@ -34,6 +34,10 @@ jobs:
       - name: Aggiorna il quadro politico (fonti ufficiali)
         continue-on-error: true
         run: python scripts/politica.py
+      - name: Anteprime degli articoli (descrizione, autore, tempo di lettura)
+        continue-on-error: true
+        timeout-minutes: 6
+        run: python scripts/anteprime.py
       - name: Salva i dati
         run: |
           git config user.name "super-agente-bot"
