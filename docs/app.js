@@ -249,7 +249,7 @@ function renderBandi() {
     const sc = scadenzaTxt(b.scadenza);
     const pop = reg(`<div class="riga"><span class="badge luogo">📍 ${esc(b.provincia)}</span>${NATURA[b.natura] ? `<span class="badge">${NATURA[b.natura]}</span>` : ""}</div><h2 class="pop-t">${te(b.titolo)}</h2>
       <div class="pop-chips">${b.scadenza ? `<span>⏳ ${esc(sc.t)}</span>` : ""}${b.importo ? `<span>💶 ${esc(euro(b.importo))}</span>` : ""}${PROCEDURA[b.procedura] ? `<span>📋 ${PROCEDURA[b.procedura]}</span>` : ""}</div>
-      <div class="pop-box">${pRiga("Ente appaltante", te(b.ente))}${pRiga("Importo stimato", b.importo ? euro(b.importo) : "non indicato")}${NATURA[b.natura] ? pRiga("Tipo di appalto", NATURA[b.natura]) : ""}${PROCEDURA[b.procedura] ? pRiga("Procedura", PROCEDURA[b.procedura]) : ""}${CPV_DIV[b.cpv.slice(0, 2)] ? pRiga("Settore", CPV_DIV[b.cpv.slice(0, 2)]) : ""}${pRiga("Pubblicato", b.pubblicato ? `${fa(new Date(b.pubblicato + "T12:00:00"))} · ${dataBreve(b.pubblicato)}` : "")}${pRiga("Scadenza offerte", b.scadenza ? `${esc(sc.t)} · ${dataBreve(b.scadenza)}` : "non indicata")}${pRiga("Avviso n.", esc(b.id))}</div>
+      <div class="pop-box">${pRiga("Ente appaltante", te(b.ente))}${pRiga("Importo stimato", b.importo ? euro(b.importo) : "non indicato")}${NATURA[b.natura] ? pRiga("Tipo di appalto", NATURA[b.natura]) : ""}${PROCEDURA[b.procedura] ? pRiga("Procedura", PROCEDURA[b.procedura]) : ""}${CPV_DIV[b.cpv.slice(0, 2)] ? pRiga("Settore", CPV_DIV[b.cpv.slice(0, 2)]) : ""}${pRiga("Pubblicato", b.pubblicato ? `${fa(new Date(b.pubblicato + "T12:00:00"))} · ${dataBreve(b.pubblicato)}` : "")}${pRiga("Scadenza offerte", b.scadenza ? `${esc(sc.t.replace(/\s*\(.*\)/, ""))} · ${dataBreve(b.scadenza)}` : "non indicata")}${pRiga("Avviso n.", esc(b.id))}</div>
       <p class="pop-p mute">Importo e scadenza sono quelli dell'avviso: prima di partecipare controlla sul sito dell'ente (possibili proroghe).</p>
       <div class="pop-az">${pBtn(b.link, "Avviso ufficiale su TED ↗")}</div><p class="pop-fonte">Fonte: TED, Gazzetta ufficiale degli appalti dell'Unione europea (solo gare sopra la soglia europea).</p>`);
     return `<article class="card tap" ${pop} style="--c:#b45309"><div class="riga"><span class="badge luogo">📍 ${esc(b.provincia)}</span>${b.importo ? `<span class="badge prezzo">${esc(euro(b.importo))}</span>` : ""}<span class="ver ${sc.c === "urg" ? "multi" : "ente"}">⏳ ${esc(sc.t)}</span></div>
@@ -880,7 +880,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "62";
+const VERSIONE_APP = "63";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
