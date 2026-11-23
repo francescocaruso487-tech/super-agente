@@ -401,6 +401,9 @@ def parola_latina(titolo, tipo):
     for li in re.findall(r"<li[^>]*>(.*?)</li>", ol.group(1), re.S):
         li = re.sub(r"<ul.*?</ul>|<dl.*?</dl>|<ol.*?</ol>", " ", li, flags=re.S)
         x = pulisci(li)
+        x = x.rstrip(" .;")
+        if re.match(r"(nominativo|genitivo|dativo|accusativo|vocativo|ablativo|forma |participio|\w+ persona|imperativo|infinito|supino|gerundio|variante|alternativa)", x.lower()):
+            continue
         if x and len(x) < 110 and " - " not in x and "mancante" not in x and not re.search(r"liber|carmen|\(\w+, ", x):
             defs.append(x)
     if not defs:
@@ -422,7 +425,7 @@ def parola_latina(titolo, tipo):
             der.append(x["title"])
     if not der:
         return None
-    return {"latino": titolo, "tipo": tipo, "significati": defs[:3], "origine": orig[:200] if 10 < len(orig) < 400 else None, "derivati": der[:8], "collegati": coll,
+    return {"latino": titolo, "tipo": tipo, "significati": defs[:3], "origine": orig[:200] if 10 < len(orig) < 400 and not orig.startswith("(") else None, "derivati": der[:8], "collegati": [], "v": 2,
             "link": "https://it.wiktionary.org/wiki/" + titolo}
 
 
@@ -541,7 +544,7 @@ def main():
                     errori.append(f"{d} comune: {str(e)[:60]}")
         if "latino" not in c and lat:
             c["latino"] = lat[pick("latino" + iso, len(lat))]
-        if c.get("latparola") and (not c["latparola"].get("derivati") or any(" - " in z or "mancante" in z for z in c["latparola"].get("significati", []))):
+        if c.get("latparola") and (c["latparola"].get("v") != 2 or not c["latparola"].get("derivati") or any(" - " in z or "mancante" in z for z in c["latparola"].get("significati", []))):
             del c["latparola"]
         if "latparola" not in c and plat:
             for k in range(14):
