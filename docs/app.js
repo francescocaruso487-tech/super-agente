@@ -872,7 +872,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "60";
+const VERSIONE_APP = "61";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
