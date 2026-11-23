@@ -84,9 +84,11 @@ def main():
     ids = {n["id"] for n in news}
     cache = {k: v for k, v in cache.items() if k in ids}
     limite = (datetime.now(timezone.utc) - timedelta(days=GIORNI)).strftime("%Y-%m-%dT%H:%M:%SZ")
-    cand = [n for n in news if n["id"] not in cache and (n.get("pubblicata") or n["visto"]) >= limite and n["pubblicata"] <= datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")]
-    # prima le notizie professionali e politiche, poi il resto
-    cand.sort(key=lambda n: (n.get("nicchia") not in ("edilizia", "tech", "politica"), n["pubblicata"] or ""), reverse=False)
+    quando = lambda n: n.get("pubblicata") or n["visto"]  # noqa: E731
+    cand = [n for n in news if n["id"] not in cache and quando(n) >= limite]
+    # prima le notizie professionali e politiche, poi il resto; dentro ogni gruppo le piu' recenti
+    cand.sort(key=lambda n: quando(n), reverse=True)
+    cand.sort(key=lambda n: n.get("nicchia") not in ("edilizia", "tech", "politica"))
     cand = cand[:MAX_RUN]
     t0 = time.time()
     fatti = 0
