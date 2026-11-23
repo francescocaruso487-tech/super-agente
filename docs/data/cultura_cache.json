@@ -1690,7 +1690,7 @@
 "latino": "annus",
 "tipo": "sostantivo",
 "significati": [
-"anno."
+"anno"
 ],
 "origine": null,
 "derivati": [
@@ -1699,12 +1699,8 @@
 "anno",
 "ano"
 ],
-"collegati": [
-"annus",
-"horribilis",
-"annus",
-"mirabilis"
-],
+"collegati": [],
+"v": 2,
 "link": "https://it.wiktionary.org/wiki/annus"
 }
 },
@@ -2520,11 +2516,8 @@
 "derivati": [
 "utile"
 ],
-"collegati": [
-"inutilis",
-"utilitas",
-"utiliter"
-],
+"collegati": [],
+"v": 2,
 "link": "https://it.wiktionary.org/wiki/utilis"
 }
 },
@@ -3395,16 +3388,8 @@
 "ungulato",
 "unghia"
 ],
-"collegati": [
-"ungulatus",
-"discendenti",
-"altre",
-"lingue",
-"unghia",
-"ungla",
-"ongle",
-"unha"
-],
+"collegati": [],
+"v": 2,
 "link": "https://it.wiktionary.org/wiki/ungula"
 }
 },
@@ -4286,6 +4271,7 @@
 "interpunzione"
 ],
 "collegati": [],
+"v": 2,
 "link": "https://it.wiktionary.org/wiki/interpunctio"
 }
 },
@@ -5095,20 +5081,18 @@
 "autore": null
 },
 "latparola": {
-"latino": "mala",
+"latino": "aestas",
 "tipo": "sostantivo",
 "significati": [
-"nominativo femminile singolare di malus",
-"vocativo femminile singolare di malus",
-"ablativo femminile singolare di malus"
+"estate"
 ],
-"origine": "(forma flessa dell'aggettivo malus) vedi malus (forma flessa del sostantivo malum) vedi malum (sostantivo femminile di I declinazione) dal proto-italico *smakslā, a sua volta dal proto-indoeuropeo *sm",
+"origine": "dal latino aestus, \"calore\"",
 "derivati": [
-"malafede",
-"malare"
+"estate"
 ],
 "collegati": [],
-"link": "https://it.wiktionary.org/wiki/mala"
+"v": 2,
+"link": "https://it.wiktionary.org/wiki/aestas"
 }
 },
 "2026-11-28": {
@@ -5931,6 +5915,7 @@
 "podestà"
 ],
 "collegati": [],
+"v": 2,
 "link": "https://it.wiktionary.org/wiki/potestas"
 }
 },
@@ -6749,6 +6734,7 @@
 "zenzero"
 ],
 "collegati": [],
+"v": 2,
 "link": "https://it.wiktionary.org/wiki/zingiber"
 }
 },
@@ -7605,6 +7591,7 @@
 "definizione"
 ],
 "collegati": [],
+"v": 2,
 "link": "https://it.wiktionary.org/wiki/definitio"
 }
 }
