@@ -688,7 +688,7 @@ function apriNews(n) {
   const d = dataDi(n), quando = d.toLocaleString("it-IT", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
   const prof = (n.prof || []).map((id) => state.professioni[id]).filter(Boolean).slice(0, 4);
   const rel = collegate(n);
-  apriPop(`<div class="riga">${badge}${n.normativa ? '<span class="badge norm">Ufficiale</span>' : ""}</div>
+  apriPop(`${an.img ? `<figure class="pop-fig"><img src="${esc(an.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"><figcaption>Immagine dal sito della fonte</figcaption></figure>` : ""}<div class="riga">${badge}${n.normativa ? '<span class="badge norm">Ufficiale</span>' : ""}</div>
     <h2 class="pop-t">${te(n.titolo)}</h2>
     ${breve ? `<div class="pop-sub">In breve</div><p class="pop-p">${esc(breve)}</p>` : '<p class="pop-p mute">Questa fonte non fornisce un riassunto: apri l\'articolo per leggerlo.</p>'}
     ${chips.length ? `<div class="pop-chips">${chips.map((c) => `<span>${esc(c)}</span>`).join("")}</div>` : ""}
@@ -880,7 +880,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "63";
+const VERSIONE_APP = "64";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;

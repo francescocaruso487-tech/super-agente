@@ -397,3 +397,5 @@ body.alm-open{overflow:hidden}
 .pop-r b a{color:var(--accent);text-decoration:none;font-weight:700}
 
 .pop-c .riga{padding-right:46px}.pop-c .riga .ver{margin-left:0}
+
+.pop-fig{margin:0 0 12px}.pop-fig img{width:100%;max-height:210px;object-fit:cover;border-radius:16px;display:block;background:var(--bg)}.pop-fig figcaption{font-size:11px;color:var(--mute);margin-top:4px}

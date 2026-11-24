@@ -9,7 +9,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -49,9 +49,22 @@ def leggi(item):
     except Exception:  # noqa: BLE001
         return item["id"], {"x": 1}
     out = {}
-    d = txt(meta(soup, "og:description", "description", "twitter:description") or "")
+    d = txt(meta(soup, "og:description", "description", "twitter:description") or "", 600)
+    if len(d) < 160:
+        # descrizione corta: aggiungo l'attacco dell'articolo (primo paragrafo, breve)
+        box0 = soup.find("article") or soup
+        for p_ in box0.find_all("p"):
+            t_ = p_.get_text(" ", strip=True)
+            if len(t_) >= 120 and t_[:40] not in d:
+                d = txt((d + " " + t_).strip(), 520)
+                break
     if len(d) >= 50:
         out["desc"] = d
+    im = meta(soup, "og:image", "twitter:image", "og:image:url")
+    if im:
+        im = urljoin(url, im.strip())
+        if im.startswith("https://") and len(im) < 500 and not re.search(r"logo|favicon|placeholder|default", im, re.I):
+            out["img"] = im
     a = meta(soup, "author", "article:author", "twitter:creator")
     if not a:
         ra = soup.find(attrs={"rel": "author"})
@@ -72,7 +85,8 @@ def leggi(item):
     parole = sum(len(p.get_text(" ", strip=True).split()) for p in box.find_all("p") if len(p.get_text(strip=True)) > 60)
     if parole >= 120:
         out["parole"] = parole
-    return item["id"], out or {"x": 1}
+    out["v"] = 2
+    return item["id"], out if len(out) > 1 else {"x": 1}
 
 
 def main():
@@ -85,7 +99,7 @@ def main():
     cache = {k: v for k, v in cache.items() if k in ids}
     limite = (datetime.now(timezone.utc) - timedelta(days=GIORNI)).strftime("%Y-%m-%dT%H:%M:%SZ")
     quando = lambda n: n.get("pubblicata") or n["visto"]  # noqa: E731
-    cand = [n for n in news if n["id"] not in cache and quando(n) >= limite]
+    cand = [n for n in news if (n["id"] not in cache or (cache[n["id"]].get("v") != 2 and "x" not in cache[n["id"]])) and quando(n) >= limite]
     # prima le notizie professionali e politiche, poi il resto; dentro ogni gruppo le piu' recenti
     cand.sort(key=lambda n: quando(n), reverse=True)
     cand.sort(key=lambda n: n.get("nicchia") not in ("edilizia", "tech", "politica"))
