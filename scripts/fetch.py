@@ -105,6 +105,72 @@ def get(url):
     return r
 
 
+
+# ---------------------------------------------------------------- date delle pagine senza RSS
+def _a_utc(txt):
+    txt = (txt or "").strip()
+    if not txt:
+        return None
+    try:
+        t = txt.replace("Z", "+00:00")
+        d = datetime.fromisoformat(t if len(t) > 10 else t + "T06:00:00")
+        if d.tzinfo is None:
+            d = d.replace(tzinfo=timezone.utc)
+        return d.astimezone(timezone.utc)
+    except ValueError:
+        return None
+
+
+def data_da_url(url):
+    m = re.search(r"/(20\d\d)/(\d{1,2})/(\d{1,2})/", url) or re.search(r"[-_/](20\d\d)-(\d{2})-(\d{2})\b", url)
+    if not m:
+        return None
+    try:
+        return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)), 6, tzinfo=timezone.utc)
+    except ValueError:
+        return None
+
+
+def data_da_pagina(url):
+    """Data di pubblicazione dichiarata nella pagina (meta, JSON-LD, tag time)."""
+    try:
+        r = requests.get(url, headers={"User-Agent": UA, "Accept": "text/html,*/*"}, timeout=7)
+        if r.status_code != 200 or "html" not in r.headers.get("content-type", "").lower():
+            return None
+        t = r.content[:400_000].decode(r.encoding or "utf-8", "replace")
+    except Exception:  # noqa: BLE001
+        return None
+    cand = []
+    for k in ("article:published_time", "og:article:published_time", "datePublished", "pubdate", "publishdate", "DC.date.issued", "date"):
+        m = re.search(r'<meta[^>]+(?:property|name|itemprop)=["\']' + re.escape(k) + r'["\'][^>]*content=["\']([^"\']+)', t, re.I) or \
+            re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name|itemprop)=["\']' + re.escape(k) + r'["\']', t, re.I)
+        if m:
+            cand.append(m.group(1))
+    m = re.search(r'"datePublished"\s*:\s*"([^"]+)"', t)
+    if m:
+        cand.append(m.group(1))
+    m = re.search(r'<time[^>]+datetime=["\']([^"\']+)', t, re.I)
+    if m:
+        cand.append(m.group(1))
+    for c in cand:
+        d = _a_utc(c)
+        if d and d.year >= 2015:
+            return d
+    return None
+
+
+def risolvi_data(link, ora):
+    """Restituisce la data (UTC) di un articolo senza data nel feed, o None."""
+    d = data_da_url(link)
+    if d is None or d.date() == ora.date():
+        d2 = data_da_pagina(link) if d is None else None
+        d = d2 or d
+    if d and d > ora + timedelta(days=1):
+        return None
+    if d and d.date() == ora.date() and d.hour == 6 and d.minute == 0:
+        return None          # solo il giorno di oggi: meglio l'ora in cui l'abbiamo vista
+    return d
+
 # ---------------------------------------------------------------- lettura fonti
 def parse_feed(content, base):
     fp = feedparser.parse(content)
@@ -815,6 +881,29 @@ def main():
     print(f"Lettura di {len(sources)} fonti…")
     with ThreadPoolExecutor(max_workers=8) as pool:
         results = list(pool.map(read_source, sources))
+
+    # date vere per gli articoli presi da pagine web senza data (evita vecchi articoli "nuovi")
+    da_risolvere = []
+    for src, (items, metodo, err) in zip(sources, results):
+        for it in items:
+            if not it["pubblicata"] and item_id(it["link"]) not in known:
+                da_risolvere.append(it["link"])
+    da_risolvere = list(dict.fromkeys(da_risolvere))[:200]
+    vecchi = [r["link"] for r in known.values() if not r.get("pubblicata") and not r.get("dp") and r.get("metodo") == "scraping"][:150]
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        date_trovate = dict(zip(da_risolvere, pool.map(lambda l: risolvi_data(l, ts), da_risolvere)))
+        date_vecchi = dict(zip(vecchi, pool.map(lambda l: risolvi_data(l, ts), vecchi)))
+    for r in known.values():
+        if r["link"] in date_vecchi:
+            d = date_vecchi[r["link"]]
+            if d:
+                r["pubblicata"] = iso(d)
+            r["dp"] = 1
+    print(f"Date risolte: {sum(1 for v in date_trovate.values() if v)}/{len(da_risolvere)} nuove, {sum(1 for v in date_vecchi.values() if v)}/{len(vecchi)} gia' presenti")
+    for src, (items, metodo, err) in zip(sources, results):
+        for it in items:
+            if not it["pubblicata"] and date_trovate.get(it["link"]):
+                it["pubblicata"] = iso(date_trovate[it["link"]])
 
     new_items, statuses = [], []
     for src, (items, metodo, err) in zip(sources, results):
