@@ -975,6 +975,17 @@ def main():
     # conservazione e ordinamento
     limit = ts - timedelta(days=RETENTION_DAYS)
     allnews = [i for i in known.values() if parse_iso(i["pubblicata"] or i["visto"]) >= limit]
+
+    def sembra_vecchia(i):
+        """Testata senza data e con un anno passato nel titolo ("Incentivi auto 2023"): quasi certamente un articolo vecchio."""
+        if i.get("pubblicata") or i.get("tipo") != "stampa":
+            return False
+        anni = [int(a) for a in re.findall(r"\b(20[12]\d)\b(?![-/–]\d)", i["titolo"])]
+        return bool(anni) and max(anni) < ts.year
+
+    scartate = [i for i in allnews if sembra_vecchia(i)]
+    allnews = [i for i in allnews if not sembra_vecchia(i)]
+    print(f"Scartate {len(scartate)} notizie senza data con anno passato nel titolo")
     allnews.sort(key=lambda i: i["pubblicata"] or i["visto"], reverse=True)
     allnews = allnews[:MAX_ITEMS]
 
