@@ -1,6 +1,6 @@
 {
  "camera": {
-  "totale": 398,
+  "totale": 399,
   "maggioranza_soglia": 200,
   "gruppi": [
    {
@@ -48,7 +48,7 @@
    {
     "sigla": "Altri",
     "nome": "Altri: minoranze, non iscritti",
-    "n": 14,
+    "n": 15,
     "blocco": "altri",
     "colore": "#94a3b8"
    },
@@ -89,19 +89,19 @@
    }
   ],
   "link": "https://www.camera.it/leg19/46",
-  "aggiornato": "2026-11-24T09:11:22Z"
+  "aggiornato": "2026-11-24T14:55:35Z"
  },
  "deputati": {
-  "totale": 398,
-  "aggiornato": "2026-11-24T09:11:50Z"
+  "totale": 399,
+  "aggiornato": "2026-11-24T14:55:59Z"
  },
  "segretari": {
   "totale": 10,
-  "aggiornato": "2026-11-24T09:11:55Z"
+  "aggiornato": "2026-11-24T14:56:21Z"
  },
  "votazioni": {
   "totale": 30,
-  "aggiornato": "2026-11-24T09:12:15Z"
+  "aggiornato": "2026-11-24T14:56:35Z"
  },
  "governo": {
   "persone": [
@@ -207,14 +207,14 @@
    }
   ],
   "link": "https://www.governo.it/it/i-ministri",
-  "aggiornato": "2026-11-24T09:11:24Z"
+  "aggiornato": "2026-11-24T14:55:36Z"
  },
  "capigruppo": {
   "totale": 8,
-  "aggiornato": "2026-11-24T09:11:50Z"
+  "aggiornato": "2026-11-24T14:56:00Z"
  },
  "proposte": {
   "totale": 15,
-  "aggiornato": "2026-11-24T09:12:24Z"
+  "aggiornato": "2026-11-24T14:56:39Z"
  }
 }

@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-11-24T09:11:50Z",
- "totale": 398,
+ "aggiornato": "2026-11-24T14:55:59Z",
+ "totale": 399,
  "gruppi": [
   {
    "gruppo": "Fratelli d'Italia",
@@ -1596,6 +1596,49 @@
    "presidente": "Maurizio Enzo Lupi"
   },
   {
+   "gruppo": "MISTO",
+   "deputati": [
+    {
+     "id": "301439",
+     "nome": "Cesa Lorenzo"
+    },
+    {
+     "id": "309380",
+     "nome": "D'Amico Luciano"
+    },
+    {
+     "id": "308861",
+     "nome": "Ghirra Francesca"
+    },
+    {
+     "id": "307328",
+     "nome": "Marattin Luigi"
+    },
+    {
+     "id": "308852",
+     "nome": "Patriarca Annarita"
+    },
+    {
+     "id": "308882",
+     "nome": "Sala Fabrizio"
+    },
+    {
+     "id": "308929",
+     "nome": "Soumahoro Aboubakar"
+    },
+    {
+     "id": "34580",
+     "nome": "Tabacci Bruno"
+    }
+   ],
+   "sigla": "MISTO",
+   "blocco": "altri",
+   "colore": "#94a3b8",
+   "ordine": 75,
+   "n": 8,
+   "presidente": "Manfred Schullian"
+  },
+  {
    "gruppo": "Italia Viva-Casa Riformista",
    "deputati": [
     {
@@ -1632,45 +1675,6 @@
    "colore": "#c084fc",
    "ordine": 50,
    "n": 7
-  },
-  {
-   "gruppo": "MISTO",
-   "deputati": [
-    {
-     "id": "301439",
-     "nome": "Cesa Lorenzo"
-    },
-    {
-     "id": "308861",
-     "nome": "Ghirra Francesca"
-    },
-    {
-     "id": "307328",
-     "nome": "Marattin Luigi"
-    },
-    {
-     "id": "308852",
-     "nome": "Patriarca Annarita"
-    },
-    {
-     "id": "308882",
-     "nome": "Sala Fabrizio"
-    },
-    {
-     "id": "308929",
-     "nome": "Soumahoro Aboubakar"
-    },
-    {
-     "id": "34580",
-     "nome": "Tabacci Bruno"
-    }
-   ],
-   "sigla": "MISTO",
-   "blocco": "altri",
-   "colore": "#94a3b8",
-   "ordine": 75,
-   "n": 7,
-   "presidente": "Manfred Schullian"
   },
   {
    "gruppo": "MISTO-Minoranze Linguistiche",
@@ -1743,6 +1747,13 @@
    "n": 3
   }
  ],
- "variazioni": [],
+ "variazioni": [
+  {
+   "data": "24/11/2026",
+   "nome": "D'Amico Luciano",
+   "tipo": "subentro",
+   "a": "MISTO"
+  }
+ ],
  "link": "https://www.camera.it/deputati/elenco?leg=19"
 }
