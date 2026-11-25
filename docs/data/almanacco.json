@@ -1,931 +1,7 @@
 {
-"aggiornato": "2026-11-24T17:33:56+00:00",
+"aggiornato": "2026-11-25T02:21:21+00:00",
 "luogo": "Caserta",
 "giorni": {
-"2026-11-24": {
-"data": "2026-11-24",
-"giorno_settimana": "martedì",
-"settimana": 48,
-"giorno_anno": 328,
-"giorni_alla_fine_anno": 37,
-"festivita": [],
-"astro": {
-"alba": "07:00",
-"tramonto": "16:37",
-"durata": "9 ore e 37 minuti",
-"sorge_luna": "16:12",
-"tramonta_luna": "06:50",
-"fase": "Luna piena",
-"illuminazione": 100,
-"eta_giorni": 15.2
-},
-"stagione": {
-"frutta": [
-"arance",
-"castagne",
-"cachi",
-"kiwi",
-"mele",
-"pere",
-"melograno",
-"clementine"
-],
-"verdura": [
-"broccoli",
-"carciofi",
-"cavolfiore",
-"cavolo",
-"finocchi",
-"radicchio",
-"spinaci",
-"zucca",
-"verza"
-]
-},
-"nome_mese": "Novembre deriva da novem (nove): era il nono mese del calendario romano.",
-"costituzione": {
-"articolo": "Art. 50",
-"testo": "Tutti i cittadini possono rivolgere petizioni alle Camere per chiedere provvedimenti legislativi o esporre comuni necessità.",
-"fonte": "Normattiva"
-},
-"santi": [
-{
-"nome": "San Crisogono, martire di Aquileia",
-"testo": "Soldato, sacerdote, vescovo: Crisogono è un martire della fede cristiana ucciso ai tempi della persecuzione dell’imperatore Diocleziano ad Aquileia, presso Trieste, nel 303. La venerazione per questa figura si diffuse rapidamente a livello universale già a partire dal IV secolo.",
-"link": "https://www.vaticannews.va/it/santo-del-giorno/11/24/san-crisogono--martire-di-aquileia.html"
-},
-{
-"nome": "Sant'Andrea Dũng Lạc sacerdote e compagni, martiri",
-"testo": "Affidato a un catechista dalla famiglia poverissima, Tran cresce come cristiano e viene battezzato col nome di Andrea. Ordinato sacerdote ottiene molte conversioni, ma il Vietnam di allora è ostile ai cristiani: imprigionato tre volte, rifiuta di apostatare e subisce il martirio nel 1839.",
-"link": "https://www.vaticannews.va/it/santo-del-giorno/11/24/sant-andrea-d_ng-lc-sacerdote-e-compagni--martiri.html"
-}
-],
-"accadde": [
-{
-"anno": 496,
-"testo": "Sale sul soglio pontificio papa Anastasio II"
-},
-{
-"anno": 642,
-"testo": "Sale sul soglio pontificio papa Teodoro I"
-},
-{
-"anno": 1639,
-"testo": "Jeremiah Horrocks osserva il transito di Venere (24 novembre nel calendario giuliano o 4 dicembre nel calendario gregoriano)"
-},
-{
-"anno": 1642,
-"testo": "Abel Tasman, durante il suo primo viaggio, diventa il primo europeo a scoprire la Terra di Van Diemen, in seguito ribattezzata Tasmania"
-},
-{
-"anno": 1793,
-"testo": "In Francia entra in vigore il calendario rivoluzionario francese."
-},
-{
-"anno": 1826,
-"testo": "Nasce a Firenze Carlo Lorenzini alias Carlo Collodi, autore de Le avventure di Pinocchio. Storia di un burattino"
-},
-{
-"anno": 1826,
-"testo": "Vittoria degli insorti greci sugli ottomani alla battaglia di Arachova, in Beozia"
-},
-{
-"anno": 1859,
-"testo": "Il naturalista britannico Charles Darwin pubblica L'origine delle specie."
-},
-{
-"anno": 1859,
-"testo": "Il naturalista britannico Charles Darwin pubblica On the origin of species by means of natural selection, or the preservation of favoured races in the struggle for life, un libro che sostiene che gli organismi non sono stati creati da un ente superiore, bensì si sono evoluti gradualmente attraverso la selezione naturale; la prima edizione verrà esaurita il giorno stesso, essendone state tirate solo le 1'250 copie prenotate"
-},
-{
-"anno": 1863,
-"testo": "Guerra di secessione americana, battaglia di Lookout Mountain: nei pressi di Chattanooga, le forze unioniste del generale Ulysses S. Grant avanzarono nell'area di Lookout Mountain e iniziano a spezzare l'assedio confederato della città, portato dal generale Braxton Bragg"
-},
-{
-"anno": 1904,
-"testo": "Primo esempio funzionante di mezzo cingolato, una tecnologia che in seguito rivoluzionerà i veicoli per le costruzioni e per la guerra terrestre"
-},
-{
-"anno": 1922,
-"testo": "Robert Erskine Childers, popolare scrittore e membro dell'Irish Republican Army, viene giustiziato da un gruppo di fuoco dell'Irish Free State per porto abusivo di un revolver"
-},
-{
-"anno": 1932,
-"testo": "A Washington, viene inaugurato l'FBI Crime Lab"
-},
-{
-"anno": 1941,
-"testo": "Seconda guerra mondiale: gli Stati Uniti garantiscono un prestito alla Francia Libera"
-},
-{
-"anno": 1944,
-"testo": "Tokyo viene bombardata da 88 aerei statunitensi."
-},
-{
-"anno": 1944,
-"testo": "Seconda guerra mondiale, bombardamento di Tokyo: una missione di bombardamento contro la capitale giapponese viene effettuata da 88 aerei statunitensi"
-},
-{
-"anno": 1947,
-"testo": "Paura rossa: dopo essersi rifiutati di cooperare con la Commissione per le attività antiamericane riguardo alle accuse di influenza comunista nell'industria del cinema, la Camera dei rappresentanti degli Stati Uniti vota 346 a 17 l'approvazione delle citazioni di oltraggio del Congresso contro i cosiddetti Hollywood Ten"
-},
-{
-"anno": 1947,
-"testo": "Robert Schuman diventa primo ministro della Francia"
-},
-{
-"anno": 1951,
-"testo": "La commedia teatrale di Broadway Gigi debutta con protagonista l'allora poco nota attrice Audrey Hepburn; la commedia andrà in scena per sei mesi e porterà al successo Hepburn, consentendole il debutto cinematografico nel film Vacanze romane"
-},
-{
-"anno": 1963,
-"testo": "Guerra del Vietnam: il presidente statunitense Lyndon B. Johnson conferma che gli Stati Uniti intendono continuare ad appoggiare il Vietnam del Sud sia militarmente sia economicamente"
-},
-{
-"anno": 1969,
-"testo": "L'Apollo 12 ammara nell'Oceano Pacifico ponendo fine alla seconda missione dell'uomo sulla Luna."
-},
-{
-"anno": 1969,
-"testo": "Programma Apollo: l'Apollo 12 ammara nell'Oceano Pacifico, ponendo fine alla seconda missione dell'uomo sulla Luna"
-},
-{
-"anno": 1971,
-"testo": "Un uomo che si fa chiamare Dan Cooper (comunemente ricordato come D. B. Cooper) si paracaduta da un aeroplano della Northwest Orient Airlines che aveva dirottato con 200'000 dollari di riscatto; di lui non si è più saputo nulla"
-},
-{
-"anno": 1974,
-"testo": "Viene scoperto lo Australopithecus afarensis denominato \"Lucy\" dal paleontologo americano Don Johanson"
-},
-{
-"anno": 1991,
-"testo": "Muoiono Freddie Mercury ed Eric Carr, secondo batterista dei Kiss"
-},
-{
-"anno": 1993,
-"testo": "Nel Regno Unito, gli undicenni Robert Thompson e Jon Venables vengono condannati per l'omicidio di James Bulger"
-},
-{
-"anno": 1997,
-"testo": "A seguito di una perdita di 554,26 punti dell'indice Dow Jones (DJIA), gli ufficiali della Borsa di New York invocano per la prima volta la regola del \"circuit breaker\" per fermare le contrattazioni: fu una mossa controversa che portò a un rapido cambiamento della regola, il blocco delle contrattazioni può avvenire solo se l'indice perde almeno il 10 o 20 percento"
-},
-{
-"anno": 1998,
-"testo": "AOL annuncia che acquisirà la Netscape Communications, società creatrice di Netscape Navigator."
-},
-{
-"anno": 1998,
-"testo": "America Online annuncia che acquisirà Netscape Communications con una transazione con scambio di azioni del valore di 4,2 miliardi di dollari"
-},
-{
-"anno": 2001,
-"testo": "Precipita un aeroplano Avro RJ100 della Crossair su una collina vicino a Zurigo, uccidendo 24 persone di cui alcune note"
-},
-{
-"anno": 2002,
-"testo": "Austria: il Partito Popolare vince le elezioni parlamentari"
-},
-{
-"anno": 2009,
-"testo": "Lea Garofalo, collaboratrice di giustizia, viene rapita a Milano e viene data alle fiamme a Monza qualche giorno dopo"
-},
-{
-"anno": 2010,
-"testo": "Esce nelle sale cinematografiche statunitensi il film Rapunzel - L'intreccio della torre, 50º Classico Disney"
-},
-{
-"anno": 2014,
-"testo": "Lo zibibbo di Pantelleria viene inserito nella lista dei Patrimoni orali e immateriali dell'umanità dell'UNESCO"
-},
-{
-"anno": 2021,
-"testo": "Esce nelle sale cinematografiche statunitensi il film Encanto, 60º Classico Disney"
-}
-],
-"sport": [],
-"ricorrenze": [
-"Religiose Cristianesimo: Sant'Alberto di Lovanio, vescovo e martire",
-"Sant'Andrea Dũng Lạc[1] e 116 compagni, martiri del Vietnam",
-"San Colomano di Cloyne, vescovo",
-"San Crisogono di Aquileia, vescovo e martire",
-"Sant'Enfleda di Northumbria, regina e badessa",
-"Sant'Ermogene di Agrigento, vescovo",
-"Santa Firmina di Amelia, martire",
-"San Flaviano di Ricina, vescovo",
-"Sante Flora e Marta di Cordova, martiri",
-"San Hoardon, vescovo di Leon",
-"Santi Pierre Dumoulin-Borie, Pietro Vo Dang Khoa e Vincenzo Nguyen The Diem, sacerdoti e martiri",
-"San Porziano, abate in Alvernia",
-"San Protaso di Milano, vescovo",
-"San Romano di Blaye, sacerdote",
-"San Prospero di Reggio Emilia, vescovo e patrono di Reggio Emilia",
-"Beato Balsamo di Cava, abate",
-"Beato Luigi de la Pena, martire mercedario",
-"Beata Maria Anna Sala, vergine",
-"Beata Niceta di Santa Prudenzia Plaja Xifra e 11 compagne, vergini e martiri"
-],
-"nati": [
-{
-"anno": 1394,
-"nome": "Carlo di Valois-Orléans",
-"descr": "nobile"
-},
-{
-"anno": 1472,
-"nome": "Pietro Torrigiano",
-"descr": "scultore italiano"
-},
-{
-"anno": 1583,
-"nome": "Juan de Jáuregui",
-"descr": "poeta, scrittore, pittore, traduttore"
-},
-{
-"anno": 1583,
-"nome": "Philip Massinger",
-"descr": "drammaturgo inglese"
-},
-{
-"anno": 1594,
-"nome": "Henry Grey, X conte di Kent",
-"descr": "nobile e politico inglese"
-},
-{
-"anno": 1603,
-"nome": "Giovanni di Nassau-Idstein",
-"descr": "nobile tedesco"
-},
-{
-"anno": 1615,
-"nome": "Filippo Guglielmo del Palatinato",
-"descr": "elettore del Palatinato (r. 1685-1690)"
-},
-{
-"anno": 1630,
-"nome": "Étienne Baluze",
-"descr": "storico francese"
-},
-{
-"anno": 1632,
-"nome": "Baruch Spinoza",
-"descr": "filosofo olandese"
-},
-{
-"anno": 1655,
-"nome": "Carlo XI di Svezia",
-"descr": "re di Svezia (r. 1660-1697)"
-},
-{
-"anno": 1690,
-"nome": "Charles Theodore Pachelbel",
-"descr": "compositore tedesco"
-},
-{
-"anno": 1712,
-"nome": "Charles-Michel de l'Épée",
-"descr": "sacerdote e educatore francese"
-},
-{
-"anno": 1712,
-"nome": "Ali II ibn Husayn",
-"descr": "bey di Tunisi"
-},
-{
-"anno": 1713,
-"nome": "Junipero Serra",
-"descr": "francescano e missionario spagnolo (1713-1784)"
-},
-{
-"anno": 1713,
-"nome": "Laurence Sterne",
-"descr": "scrittore britannico"
-},
-{
-"anno": 1724,
-"nome": "Maria Amalia di Sassonia",
-"descr": "regina consorte di Napoli, Sicilia e Spagna"
-},
-{
-"anno": 1729,
-"nome": "Aleksandr Vasil'evič Suvorov",
-"descr": "principe e generalissimo russo (1730–1800)"
-},
-{
-"anno": 1745,
-"nome": "Maria Luisa di Borbone-Spagna",
-"descr": "imperatrice consorte del Sacro Romano Impero, regina consorte di Boemia e Ungheria e granduchessa consorte di Toscana"
-},
-{
-"anno": 1774,
-"nome": "Thomas Dick",
-"descr": "astronomo britannico"
-},
-{
-"anno": 1784,
-"nome": "Zachary Taylor",
-"descr": "politico e generale statunitense (1784–1850), 12º presidente degli Stati Uniti d'America (1849–1850)"
-},
-{
-"anno": 1801,
-"nome": "Ludwig Bechstein",
-"descr": "scrittore tedesco di fiabe (1801-1860)"
-},
-{
-"anno": 1806,
-"nome": "William Webb Ellis",
-"descr": "pastore anglicano cui è attribuita la paternità del rugby"
-},
-{
-"anno": 1811,
-"nome": "Ulrich Ochsenbein",
-"descr": "avvocato e politico svizzero"
-},
-{
-"anno": 1812,
-"nome": "Xavier Hommaire de Hell",
-"descr": "geografo francese"
-},
-{
-"anno": 1826,
-"nome": "Carlo Collodi",
-"descr": "scrittore e giornalista italiano (1826-1890)"
-},
-{
-"anno": 1840,
-"nome": "John Brashear",
-"descr": "astronomo americano e costruttore di strumenti"
-},
-{
-"anno": 1849,
-"nome": "Frances Hodgson Burnett",
-"descr": "commediografa e scrittrice inglese"
-},
-{
-"anno": 1859,
-"nome": "Cass Gilbert",
-"descr": "architetto statunitense"
-},
-{
-"anno": 1864,
-"nome": "Henri de Toulouse-Lautrec",
-"descr": "pittore francese"
-},
-{
-"anno": 1868,
-"nome": "Scott Joplin",
-"descr": "compositore e musicista statunitense"
-},
-{
-"anno": 1869,
-"nome": "António Óscar Carmona",
-"descr": "generale e politico portoghese"
-},
-{
-"anno": 1873,
-"nome": "Julij Martov",
-"descr": "politico russo"
-},
-{
-"anno": 1874,
-"nome": "Charles William Miller",
-"descr": "calciatore, dirigente sportivo e arbitro di calcio brasiliano"
-},
-{
-"anno": 1876,
-"nome": "Walter Burley Griffin",
-"descr": "architetto statunitense"
-},
-{
-"anno": 1877,
-"nome": "Alben W. Barkley",
-"descr": "politico statunitense"
-},
-{
-"anno": 1879,
-"nome": "Wylie Cameron Grant",
-"descr": "tennista statunitense"
-},
-{
-"anno": 1884,
-"nome": "Itzhak Ben-Zvi",
-"descr": "politico israeliano"
-},
-{
-"anno": 1885,
-"nome": "Christian Wirth",
-"descr": "ufficiale tedesco"
-},
-{
-"anno": 1887,
-"nome": "Erich von Manstein",
-"descr": "generale tedesco (1887-1973)"
-},
-{
-"anno": 1888,
-"nome": "Dale Carnegie",
-"descr": "scrittore e insegnante statunitense"
-},
-{
-"anno": 1893,
-"nome": "Charles F. Hurley",
-"descr": "politico statunitense"
-},
-{
-"anno": 1897,
-"nome": "Lucky Luciano",
-"descr": "mafioso italo-statunitense (1897-1962)"
-},
-{
-"anno": 1897,
-"nome": "Dorothy Shepherd-Barron",
-"descr": "tennista britannica"
-},
-{
-"anno": 1908,
-"nome": "Libertad Lamarque",
-"descr": "attrice e cantante argentina"
-},
-{
-"anno": 1910,
-"nome": "Larry Siemering",
-"descr": "giocatore di football americano statunitense"
-},
-{
-"anno": 1911,
-"nome": "Kirby Grant",
-"descr": "attore statunitense"
-},
-{
-"anno": 1911,
-"nome": "Joe Medwick",
-"descr": "giocatore di baseball statunitense"
-},
-{
-"anno": 1912,
-"nome": "Bernardus Maria Ignatius Delfgaauw",
-"descr": "professore universitario"
-},
-{
-"anno": 1912,
-"nome": "Garson Kanin",
-"descr": "commediografo e sceneggiatore statunitense"
-},
-{
-"anno": 1912,
-"nome": "Charles Schneeman",
-"descr": "pittore statunitense"
-},
-{
-"anno": 1912,
-"nome": "Teddy Wilson",
-"descr": "pianista statunitense"
-},
-{
-"anno": 1913,
-"nome": "Howard Duff",
-"descr": "attore statunitense"
-},
-{
-"anno": 1913,
-"nome": "Geraldine Fitzgerald",
-"descr": "attrice irlandese"
-},
-{
-"anno": 1914,
-"nome": "Lynn Chadwick",
-"descr": "scultore inglese"
-},
-{
-"anno": 1916,
-"nome": "Forrest J. Ackerman",
-"descr": "scrittore ed editore statunitense di fantascienza"
-},
-{
-"anno": 1919,
-"nome": "David Kossoff",
-"descr": "attore britannico"
-},
-{
-"anno": 1921,
-"nome": "John Lindsay",
-"descr": "politico statunitense"
-},
-{
-"anno": 1924,
-"nome": "Lorne Munroe",
-"descr": "violoncellista canadese-statunitense (1924-2020)"
-},
-{
-"anno": 1925,
-"nome": "William Buckley",
-"descr": "saggista, giornalista e conduttore televisivo statunitense (1925–2008)"
-},
-{
-"anno": 1925,
-"nome": "Simon van der Meer",
-"descr": "fisico olandese"
-}
-],
-"morti": [
-{
-"anno": 654,
-"nome": "Kōtoku",
-"descr": "imperatore giapponese"
-},
-{
-"anno": 1072,
-"nome": "Bagrat IV di Georgia",
-"descr": "re di Georgia"
-},
-{
-"anno": 1227,
-"nome": "Leszek I di Polonia",
-"descr": "granduca di Polonia"
-},
-{
-"anno": 1265,
-"nome": "Magnus III dell'Isola di Man",
-"descr": "sovrano mannese"
-},
-{
-"anno": 1326,
-"nome": "Ugo Despenser il giovane",
-"descr": "nobile britannico, favorito di Edoardo II d'Inghilterra"
-},
-{
-"anno": 1426,
-"nome": "Elisabetta Plantageneta, duchessa di Exeter",
-"descr": "duchessa di Exeter"
-},
-{
-"anno": 1492,
-"nome": "Louis de Gruuthuse",
-"descr": "governatore di Olanda e Zelanda dal 1462 al 1477"
-},
-{
-"anno": 1531,
-"nome": "Giovanni Ecolampadio",
-"descr": "teologo e umanista svizzero"
-},
-{
-"anno": 1572,
-"nome": "John Knox",
-"descr": "teologo scozzese"
-},
-{
-"anno": 1577,
-"nome": "Scià Isma'il II",
-"descr": "scià di Persia"
-},
-{
-"anno": 1583,
-"nome": "René de Birague",
-"descr": "nobile italiano"
-},
-{
-"anno": 1615,
-"nome": "Sethus Calvisius",
-"descr": "compositore, teorico della musica, astronomo, musicologo, direttore di coro, matematico, direttore d'orchestra"
-},
-{
-"anno": 1650,
-"nome": "Manuel Cardoso",
-"descr": "compositore portoghese"
-},
-{
-"anno": 1675,
-"nome": "Guru Tegh Bahadur",
-"descr": "guru del sikhismo (1621-1675)"
-},
-{
-"anno": 1722,
-"nome": "Johann Adam Reincken",
-"descr": "organista e compositore tedesco"
-},
-{
-"anno": 1741,
-"nome": "Ulrica Eleonora di Svezia",
-"descr": "regina di Svezia (r. 1718-1720)"
-},
-{
-"anno": 1770,
-"nome": "Charles-Jean-François Hénault",
-"descr": "drammaturgo, storico e scrittore francese"
-},
-{
-"anno": 1775,
-"nome": "Lorenzo Ricci",
-"descr": "gesuita e teologo italiano"
-},
-{
-"anno": 1793,
-"nome": "Clément Charles François de L'Averdy",
-"descr": "politico francese"
-},
-{
-"anno": 1807,
-"nome": "Joseph Brant",
-"descr": "politico nativo americano"
-},
-{
-"anno": 1848,
-"nome": "William Lamb, II visconte Melbourne",
-"descr": "nobile e politico britannico"
-},
-{
-"anno": 1870,
-"nome": "Lautréamont",
-"descr": "poeta francese"
-},
-{
-"anno": 1885,
-"nome": "Nicolás Avellaneda",
-"descr": "politico argentino"
-},
-{
-"anno": 1916,
-"nome": "Hiram Stevens Maxim",
-"descr": "inventore statunitense"
-},
-{
-"anno": 1920,
-"nome": "Alexandru Macedonski",
-"descr": "poeta rumeno"
-},
-{
-"anno": 1929,
-"nome": "Georges Clemenceau",
-"descr": "politico francese"
-},
-{
-"anno": 1943,
-"nome": "Doris Miller",
-"descr": "militare statunitense"
-},
-{
-"anno": 1948,
-"nome": "Anna Jarvis",
-"descr": "attivista sociale, ideò la Festa della mamma in USA"
-},
-{
-"anno": 1956,
-"nome": "Guido Cantelli",
-"descr": "direttore d'orchestra italiano (1920-1956)"
-},
-{
-"anno": 1957,
-"nome": "Diego Rivera",
-"descr": "pittore messicano"
-},
-{
-"anno": 1958,
-"nome": "Robert Cecil",
-"descr": "primo visconte Cecil di Chelwood, giurista, politico e diplomatico britannico"
-},
-{
-"anno": 1960,
-"nome": "Ol'ga Aleksandrovna Romanova",
-"descr": "gran principessa di Russia"
-},
-{
-"anno": 1961,
-"nome": "Ruth Chatterton",
-"descr": "attrice e sceneggiatrice statunitense (1892–1961)"
-},
-{
-"anno": 1963,
-"nome": "Lee Harvey Oswald",
-"descr": "militare e criminale statunitense (1939-1963)"
-},
-{
-"anno": 1965,
-"nome": "Abdullah III Al-Salim Al-Sabah",
-"descr": "sceicco del Kuwait"
-},
-{
-"anno": 1968,
-"nome": "D. A. Levy",
-"descr": "scrittore statunitense"
-},
-{
-"anno": 1973,
-"nome": "John Neihardt",
-"descr": "filosofo, antropologo, poeta"
-},
-{
-"anno": 1980,
-"nome": "Herbert Agar",
-"descr": "storico e giornalista statunitense"
-},
-{
-"anno": 1980,
-"nome": "George Raft",
-"descr": "attore statunitense"
-},
-{
-"anno": 1980,
-"nome": "Henrietta Hill Swope",
-"descr": "astronoma statunitense"
-},
-{
-"anno": 1982,
-"nome": "Barack Obama",
-"descr": "economista keniota, padre di Barack Obama"
-},
-{
-"anno": 1990,
-"nome": "Fred Shero",
-"descr": "hockeista su ghiaccio canadese"
-},
-{
-"anno": 1990,
-"nome": "Dodie Smith",
-"descr": "scrittrice inglese"
-},
-{
-"anno": 1990,
-"nome": "Marion Post Wolcott",
-"descr": "fotografa statunitense"
-},
-{
-"anno": 1991,
-"nome": "Freddie Mercury",
-"descr": "cantautore e compositore britannico (1946–1991)"
-},
-{
-"anno": 1991,
-"nome": "Eric Carr",
-"descr": "batterista statunitense (1950-1991)"
-},
-{
-"anno": 1993,
-"nome": "Albert Collins",
-"descr": "chitarrista e cantante statunitense (1932-1993)"
-},
-{
-"anno": 1996,
-"nome": "Sorley MacLean",
-"descr": "poeta e scrittore scozzese"
-},
-{
-"anno": 1997,
-"nome": "Barbara",
-"descr": "cantautrice francese"
-},
-{
-"anno": 2002,
-"nome": "John Rawls",
-"descr": "filosofo statunitense"
-},
-{
-"anno": 2003,
-"nome": "Warren Spahn",
-"descr": "lanciatore di baseball della Major League Baseball"
-},
-{
-"anno": 2004,
-"nome": "Arthur Hailey",
-"descr": "scrittore britannico"
-},
-{
-"anno": 2004,
-"nome": "Joseph Hansen",
-"descr": "scrittore statunitense"
-},
-{
-"anno": 2005,
-"nome": "Pat Morita",
-"descr": "attore statunitense (1932-2005)"
-},
-{
-"anno": 2006,
-"nome": "George W. S. Trow",
-"descr": "romanziere statunitense"
-},
-{
-"anno": 2007,
-"nome": "Hawthorne Heights",
-"descr": "gruppo musicale statunitense"
-},
-{
-"anno": 2008,
-"nome": "Cecil H. Underwood",
-"descr": "politico statunitense"
-},
-{
-"anno": 2009,
-"nome": "Samak Sunthorawet",
-"descr": "politico thailandese"
-},
-{
-"anno": 2010,
-"nome": "Huang Hua",
-"descr": "politico cinese (1913-2010)"
-},
-{
-"anno": 2012,
-"nome": "Héctor Camacho",
-"descr": "pugile portoricano"
-}
-],
-"frase": {
-"testo": "Per rendere più facile e più sicura la subordinazione della tua vita ai tuoi fini supremi, associa i tuoi sforzi a quelli di coloro che percorrono la stessa via, ma ricordando sempre che l'associazione è mezzo, non fine, e che non deve soffocare ciò che vi è in te di più sacro, la libera volontà della tua personalità morale.",
-"autore": "Piero Martinetti"
-},
-"parola": {
-"parola": "splenio",
-"testo": "splenio m sing (pl.: spleni) (anatomia) fascio di muscoli spinotrasversari che occupa la parte superiore del dorso e tutta l'altezza della nuca e che si suddivide in muscolo splenio del capo, che origina dai processi spinosi delle prime vertebre toraciche e della settima vertebra cervicale e che, portatosi verso l'alto e lateralmente fino a inserirsi, sotto il muscolo sternocleidomastoideo, nell'osso temporale e in quello occipitale, svolge la funzione di estendere, flettere…",
-"link": "https://it.wiktionary.org/wiki/splenio"
-},
-"modo": {
-"espressione": "andare in tilt",
-"significati": [
-"andare in confusione",
-"faticare a connettere per spossatezza"
-],
-"link": "https://it.wiktionary.org/wiki/andare_in_tilt"
-},
-"comune": {
-"nome": "San Genesio ed Uniti",
-"descr": "comune italiano",
-"testo": "San Genesio ed Uniti è un comune italiano di 4 061 abitanti della provincia di Pavia in Lombardia. Si trova nel Pavese, a nord della città di Pavia, tra l'Olona e la roggia Vernavola, nella vallata del Pastro.",
-"link": "https://it.wikipedia.org/wiki/San_Genesio_ed_Uniti"
-},
-"latino": {
-"latino": "Simia simia est, etiamsi aurea gestet insignia.",
-"traduzione": "La scimmia resta sempre scimmia, anche se indossa ornamenti d'oro.",
-"autore": null
-},
-"latparola": {
-"latino": "utilis",
-"tipo": "aggettivo",
-"significati": [
-"utile",
-"funzionale",
-"benefico, vantaggioso, opportuno"
-],
-"origine": "dal verbo utor",
-"derivati": [
-"utile"
-],
-"collegati": [],
-"v": 2,
-"link": "https://it.wiktionary.org/wiki/utilis"
-},
-"vangelo": {
-"v": 3,
-"letture": [
-{
-"tipo": "Prima lettura",
-"titolo": "È giunta l’ora di mietere, perché la messe della terra è matura.",
-"introduzione": "Dal libro dell’Apocalisse di san Giovanni apostolo",
-"riferimento": "Ap 14,14-19",
-"link_testo": "https://www.bibbiaedu.it/CEI2008/nt/Ap/14/?sel=14,14-19"
-},
-{
-"tipo": "Salmo responsoriale",
-"riferimento": "Sal 95 (96)",
-"ritornello": "Vieni, Signore, a giudicare la terra."
-}
-],
-"giorno": "SANTI ANDREA DUNG-LAC, PRESBITERO, E COMPAGNI, MARTIRI – MEMORIA",
-"riferimento": "Lc 21,5-11",
-"evangelista": "Luca",
-"titolo": "Non sarà lasciata pietra su pietra.",
-"link_testo": "https://www.bibbiaedu.it/CEI2008/nt/Lc/21/?sel=21,5-11",
-"link_liturgia": "https://www.chiesacattolica.it/liturgia-del-giorno/?data-liturgia=20261124",
-"riveduta": [
-[
-5,
-"E facendo alcuni notare come il tempio fosse adorno di belle pietre e di doni consacrati, egli disse:"
-],
-[
-6,
-"Quant’è a queste cose che voi contemplate, verranno i giorni che non sarà lasciata pietra sopra pietra che non sia diroccata."
-],
-[
-7,
-"Ed essi gli domandarono: Maestro, quando avverranno dunque queste cose? e quale sarà il segno del tempo in cui queste cose staranno per succedere?"
-],
-[
-8,
-"Ed egli disse: Guardate di non esser sedotti; perché molti verranno sotto il mio nome, dicendo: Son io; e: Il tempo è vicino; non andate dietro a loro."
-],
-[
-9,
-"E quando udrete parlar di guerre e di sommosse, non siate spaventati; perché bisogna che queste cose avvengano prima; ma la fine non verrà subito dopo."
-],
-[
-10,
-"Allora disse loro: Si leverà nazione contro nazione e regno contro regno;"
-],
-[
-11,
-"vi saranno gran terremoti, e in diversi luoghi pestilenze e carestie; vi saranno fenomeni spaventevoli e gran segni dal cielo."
-]
-]
-}
-},
 "2026-11-25": {
 "data": "2026-11-25",
 "giorno_settimana": "mercoledì",
@@ -1805,8 +881,15 @@
 "descr": "allenatore di calcio e calciatore britannico"
 }
 ],
-"frase": null,
-"parola": null,
+"frase": {
+"testo": "Il male, dunque, che più ci spaventa, la morte, non è nulla per noi, perché quando ci siamo noi non c'è lei, e quando c'è lei non ci siamo più noi.",
+"autore": "Epicuro"
+},
+"parola": {
+"parola": "cane",
+"testo": "cane m (zoologia) la sua classificazione scientifica è Canis lupus familiaris ( tassonomia) in abbinamento a una mansione o mestiere, è metafora allusiva di imperizia o scarsa professionalità Continua a leggere la voce...",
+"link": "https://it.wiktionary.org/wiki/cane"
+},
 "modo": {
 "espressione": "prendere a pesci in faccia",
 "significati": [
@@ -7564,6 +6647,1003 @@
 [
 24,
 "Poiché vi dico che molti profeti e re han bramato di veder le cose che voi vedete, e non le hanno vedute; e di udir le cose che voi udite, e non le hanno udite."
+]
+]
+}
+},
+"2026-12-02": {
+"data": "2026-12-02",
+"giorno_settimana": "mercoledì",
+"settimana": 49,
+"giorno_anno": 336,
+"giorni_alla_fine_anno": 29,
+"festivita": [],
+"astro": {
+"alba": "07:09",
+"tramonto": "16:34",
+"durata": "9 ore e 25 minuti",
+"sorge_luna": "00:29",
+"tramonta_luna": "12:50",
+"fase": "Ultimo quarto",
+"illuminazione": 37,
+"eta_giorni": 23.2
+},
+"stagione": {
+"frutta": [
+"arance",
+"clementine",
+"kiwi",
+"mandarini",
+"mele",
+"pere",
+"pompelmo",
+"limoni"
+],
+"verdura": [
+"broccoli",
+"carciofi",
+"cavolfiore",
+"cavolo",
+"cicoria",
+"finocchi",
+"radicchio",
+"verza",
+"zucca"
+]
+},
+"nome_mese": "Dicembre deriva da decem (dieci): era il decimo e ultimo mese del calendario romano.",
+"costituzione": {
+"articolo": "Art. 58",
+"testo": "I senatori sono eletti a suffragio universale e diretto ((...)).\nSono eleggibili a senatori gli elettori che hanno compiuto il quarantesimo anno.",
+"fonte": "Normattiva"
+},
+"santi": [
+{
+"nome": "San Pimenio, martire sulla via Portuense",
+"testo": "Vissuto tra il III e il IV secolo, Pimenio è un sacerdote che alla sua scuola annovera allievi come Donato, futuro vescovo di Arezzo, o Crescenzio, futuro martire. Anche lui subirà il martirio, colpevole di dare sepoltura ai martiri, e sarà seppellito nel cimitero di Ponziano sulla via Portuense.",
+"link": null
+},
+{
+"nome": "Santa Bibiana, matrona romana",
+"testo": "La sua vita non ha conferme storiche, ma anche una leggenda sa raccontare il calibro di una fede. Bibiana viene perseguitata nel IV secolo. Finita in carcere con i suoi, si rifiuta di abiurare Cristo. Non la piegano le violenze né la condanna al postribolo. Ha dedicata una chiesa all’Esquilino.",
+"link": null
+},
+{
+"nome": "San Silverio, papa",
+"testo": "Originario dell’attuale Ciociaria, Silverio è il 58.mo Papa della Chiesa di Roma, destituito e poi costretto ad abdicare nel 537 dai seguaci dell’eresia monofisita a Costantinopoli. Muore in esilio a Palmarola, piccola isola dell’arcipelago pontino, di cui diventa il patrono.",
+"link": "https://www.vaticannews.va/it/santo-del-giorno/12/02/san-silverio--papa.html"
+}
+],
+"accadde": [
+{
+"anno": 1338,
+"testo": "Treviso viene annessa alla Repubblica di Venezia"
+},
+{
+"anno": 1409,
+"testo": "Fondazione dell'Università di Lipsia"
+},
+{
+"anno": 1671,
+"testo": "Viene rappresentata per la prima volta l'opera di Molière \"La Comtesse d'Escarbagnas\""
+},
+{
+"anno": 1804,
+"testo": "Napoleone Bonaparte viene incoronato imperatore nella cattedrale di Notre-Dame a Parigi."
+},
+{
+"anno": 1804,
+"testo": "Nella Cattedrale di Notre Dame a Parigi, Napoleone Bonaparte si auto-incorona, alla presenza di papa Pio VII, imperatore dei francesi"
+},
+{
+"anno": 1805,
+"testo": "Le armate francesi vincono nella battaglia di Austerlitz."
+},
+{
+"anno": 1805,
+"testo": "Guerre napoleoniche: battaglia di Austerlitz detta anche dei tre imperatori. Le truppe francesi di Napoleone Bonaparte infliggono una sconfitta decisiva agli eserciti russo e austriaco che porterà, nel 1806, allo scioglimento del Sacro Romano Impero"
+},
+{
+"anno": 1823,
+"testo": "Il presidente statunitense James Monroe tiene un discorso al Congresso degli Stati Uniti, annunciando una nuova politica che vieta l'interferenza europea nelle Americhe e stabilisce la neutralità statunitense nei futuri conflitti europei (questa politica verrà chiamata in seguito Dottrina Monroe)"
+},
+{
+"anno": 1845,
+"testo": "Destino manifesto: il presidente statunitense James Polk annuncia al Congresso che la Dottrina Monroe dev'essere attuata strettamente e che gli USA devono espandersi aggressivamente ad ovest"
+},
+{
+"anno": 1848,
+"testo": "Francesco Giuseppe I diventa imperatore d'Austria."
+},
+{
+"anno": 1851,
+"testo": "Il neoeletto presidente francese Charles Louis Bonaparte, rovescia con la forza la Seconda Repubblica francese. Lo storico e uomo politico Adolphe Thiers che nel 1871 diverrà primo presidente della Terza Repubblica francese, viene arrestato ed esiliato per essersi opposto al colpo di Stato"
+},
+{
+"anno": 1852,
+"testo": "Napoleone III diventa imperatore dei francesi"
+},
+{
+"anno": 1859,
+"testo": "Il capo militante abolizionista John Brown viene impiccato per il suo raid del 16 ottobre ad Harper's Ferry (Virginia Occidentale)"
+},
+{
+"anno": 1867,
+"testo": "In un teatro di New York, lo scrittore britannico Charles Dickens tiene la sua prima lettura pubblica negli Stati Uniti"
+},
+{
+"anno": 1899,
+"testo": "Guerra filippino-americana: viene combattuta la battaglia del Passo di Tirad, ribattezzata \"Le Termopili filippine\""
+},
+{
+"anno": 1913,
+"testo": "La scrittrice Karen Blixen decide di partire per l'Africa insieme al cugino il barone Bror von Blixen-Finecke col quale nel frattempo si era fidanzata, con lo scopo di acquistare una fattoria, per vivere lontano dalla civiltà e provare nuove emozioni. È l'inizio dell'esperienza che porterà alla redazione del romanzo autobiografico La mia Africa"
+},
+{
+"anno": 1915,
+"testo": "Vengono pubblicate le equazioni di campo di Albert Einstein, che costituiscono il risultato principale della teoria della relatività generale."
+},
+{
+"anno": 1927,
+"testo": "Dopo 19 anni di produzione della Ford Modello T, la Ford Motor Company svela la sua nuova autovettura, la Ford Model A (1927)"
+},
+{
+"anno": 1928,
+"testo": "La provincia di Viterbo è istituita con Legge n. 2735"
+},
+{
+"anno": 1930,
+"testo": "Grande depressione: il presidente statunitense Herbert Hoover si presenta dinnanzi al Congresso e richiede un programma di lavori pubblici per 150 milioni di dollari, che aiuti a generare posti di lavoro e stimolare l'economia"
+},
+{
+"anno": 1939,
+"testo": "A New York diventa operativo l'Aeroporto LaGuardia"
+},
+{
+"anno": 1942,
+"testo": "Progetto Manhattan: sotto le lavanderie di Stagg Field, all'Università di Chicago, un gruppo guidato da Enrico Fermi dà il via alla prima reazione nucleare a catena auto-sostenuta. L'evento viene annunciato al presidente statunitense Franklin D. Roosevelt con il messaggio in codice: «il navigatore italiano è sbarcato nel nuovo mondo»"
+},
+{
+"anno": 1943,
+"testo": "Bombardamento di Bari: nel Porto di Bari, la Luftwaffe effettua un bombardamento aereo danneggiando alcuni cargo e alcune navi da trasporto, inclusa la nave da trasporto statunitense John Harvey che trasportava iprite, arma chimica della prima guerra mondiale"
+},
+{
+"anno": 1954,
+"testo": "Paura rossa: il Senato degli Stati Uniti vota a larga maggioranza la condanna di Joseph McCarthy per la sua «condotta che tende a gettare il Senato nel disonore e nel disprezzo»"
+},
+{
+"anno": 1956,
+"testo": "82 esuli cubani guidati da Fidel Castro sbarcano a La Playa de las Coloradas, una zona paludosa vicino a Niquero (Cuba sudorientale), segnando l'inizio della rivolta che porterà alla cacciata di Fulgencio Batista nel 1959"
+},
+{
+"anno": 1959,
+"testo": "Alle 21:13 crolla la Diga di Malpasset. L'inondazione che ne risulta provoca 421 vittime. Si tratta del più grande disastro nella storia francese"
+},
+{
+"anno": 1960,
+"testo": "Papa Giovanni XXIII riceve in Vaticano, Geoffrey Francis Fisher, Arcivescovo di Canterbury. È il primo incontro fra un papa e il primate della comunione anglicana dal 1559 e rappresenta una pietra miliare nell'ecumenismo"
+},
+{
+"anno": 1961,
+"testo": "Il leader cubano Fidel Castro, in un discorso diffuso a livello nazionale, dichiara di essere marxista-leninista e annuncia che Cuba adotterà il comunismo."
+},
+{
+"anno": 1961,
+"testo": "Guerra fredda: in un discorso diffuso a livello nazionale, il leader cubano Fidel Castro si dichiara un marxista-leninista e che Cuba adotterà il comunismo"
+},
+{
+"anno": 1962,
+"testo": "Guerra del Vietnam: dopo un viaggio in Vietnam fatto su richiesta del presidente statunitense John F. Kennedy, il capo della maggioranza al Senato, Mike Mansfield, diventa il primo funzionario statunitense a fare un commento pubblico non ottimista sul progresso della guerra"
+},
+{
+"anno": 1968,
+"testo": "Eccidio di Avola. Nel corso di una manifestazione dei lavoratori agricoli di Avola, la polizia uccide 2 persone e ne ferisce 48."
+},
+{
+"anno": 1969,
+"testo": "Su proposta del presidente francese Georges Pompidou, all'Aja si tiene una conferenza dei Capi di Stato e di Governo dei sei paesi membri della CEE, i cui obiettivi sono sintetizzati nello slogan «allargamento, completamento, approfondimento». Una tappa del processo d'integrazione europea"
+},
+{
+"anno": 1970,
+"testo": "Viene creata la United States Environmental Protection Agency (EPA), l'agenzia statunitense per il controllo e la prevenzione ambientale"
+},
+{
+"anno": 1971,
+"testo": "Si costituiscono gli Emirati Arabi Uniti"
+},
+{
+"anno": 1971,
+"testo": "La sonda sovietica Mars 3 atterra su Marte senza però riuscire a trasmettere dati"
+},
+{
+"anno": 1972,
+"testo": "Gough Whitlam diventa il primo capo di governo laburista dell'Australia degli ultimi 23 anni. Il suo primo atto, una volta in carica, sarà quello di ritirare tutto il personale australiano dalla guerra del Vietnam"
+},
+{
+"anno": 1975,
+"testo": "Il Pathet Lao comunista strappa il potere alla monarchia costituzionale del Regno del Laos e fonda la Repubblica popolare democratica del Laos"
+},
+{
+"anno": 1978,
+"testo": "Con una lettera al segretario delle Nazioni Unite Kurt Waldheim in occasione del trentesimo anniversario della firma della Dichiarazione universale dei diritti dell'uomo del 1948, papa Giovanni Paolo II chiede a ogni Stato il rispetto della libertà religiosa dei propri cittadini. È il primo pronunciamento ufficiale in tal senso durante il suo pontificato."
+},
+{
+"anno": 1982,
+"testo": "All'Università dello Utah, il sessantunenne Barney Clark diventa la prima persona a ricevere l'impianto di un cuore artificiale permanente; vivrà per 112 giorni con questo apparato."
+},
+{
+"anno": 1984,
+"testo": "All'uscita da una chiesa, di fronte ai propri familiari, viene assassinato Leonardo Vitale, il primo pentito di mafia. Aveva denunciato Totò Riina, Bernardo Provenzano, Michele Greco e Vito Ciancimino ma non era stato creduto e trascorse 12 anni tra carcere e manicomio."
+},
+{
+"anno": 1984,
+"testo": "Da una fabbrica di pesticidi di proprietà della multinazionale statunitense Union Carbide si sviluppò una nube di isocianato di metile, che si espanse su una zona densamente popolata dell'India, nella città di Bhopal. I morti sul momento furono circa 3000, ma il bilancio sale oltre i 15000 se si contano coloro che morirono nel periodo seguente per le conseguenze dell'intossicazione."
+},
+{
+"anno": 1988,
+"testo": "Benazir Bhutto giura come primo ministro del Pakistan, diventando la prima donna a capo di un governo in una nazione a maggioranza islamica"
+},
+{
+"anno": 1990,
+"testo": "La coalizione guidata dal cancelliere Helmut Kohl vince le prime elezioni della Germania riunificata"
+},
+{
+"anno": 1991,
+"testo": "Viene pubblicata la prima versione di QuickTime (QuickTime 1.0 per macOS), il framework multimediale di Apple Computer"
+},
+{
+"anno": 1993,
+"testo": "La NASA lancia lo Space Shuttle Endeavour per una missione di riparazione a un difetto del telescopio spaziale Hubble."
+},
+{
+"anno": 1993,
+"testo": "Il narcotrafficante colombiano Pablo Escobar viene ucciso a Medellín."
+},
+{
+"anno": 1993,
+"testo": "Programma Space Shuttle: STS-61 - La NASA lancia lo Space Shuttle Endeavour per una missione di riparazione di un difetto del telescopio spaziale Hubble"
+},
+{
+"anno": 1995,
+"testo": "Il telescopio spaziale Solar and Heliospheric Observatory (SOHO), progettato congiuntamente dall'Agenzia Spaziale Europea e dalla NASA per lo studio e l'osservazione continua del Sole, viene lanciato da Cape Canaveral con un vettore Atlas II"
+},
+{
+"anno": 1999,
+"testo": "Il Regno Unito devolve il potere politico in Irlanda del Nord all'Esecutivo dell'Irlanda del Nord"
+},
+{
+"anno": 2001,
+"testo": "La Enron richiede il Chapter 11 per bancarotta, cinque giorni dopo il ritiro dell'offerta di acquisto per 8,4 miliardi di dollari da parte di Dynegy. Al 2004, si tratta della più grande bancarotta nella storia degli Stati Uniti"
+},
+{
+"anno": 2004,
+"testo": "La Corte d'Appello di Santiago del Cile revoca a Augusto Pinochet l'immunità parlamentare per il processo per l'assassinio del suo predecessore, generale Carlos Prats, ucciso nel 1974 da un'autobomba mentre era in esilio in Argentina"
+},
+{
+"anno": 2005,
+"testo": "In Europa viene messa in commercio la console Xbox 360"
+},
+{
+"anno": 2006,
+"testo": "Le Forze armate italiane concludono, dopo tre anni e mezzo di presenza, l'Operazione Antica Babilonia, presso la città di Nassiriya e la provincia di Dhi Qar (Iraq)"
+}
+],
+"sport": [],
+"ricorrenze": [
+"Emirati Arabi Uniti - Festa nazionale",
+"Sant'Abacuc, profeta",
+"Sant'Aurelia di Alessandria, martire, venerata a Montanaro",
+"Sant'Avvakum, sacerdote e martire (Chiese di rito orientale)",
+"Santa Bianca di Castiglia, regina, religiosa",
+"Santa Bibiana (o Viviana), martire",
+"San Cromazio d'Aquileia, vescovo",
+"San Nono di Edessa",
+"Sant'Oderisio di Montecassino, abate",
+"San Pimenio di Roma, martire",
+"San Roberto di Matallana, abate cistercense",
+"San Silverio, papa e martire",
+"Beato Berengario Cantull, mercedario",
+"Beato Bernardino Palaj (Zef), sacerdote francescano, martire",
+"Beato Ivan Slezjuk, vescovo e martire",
+"Beato Jan van Ruusbroec, canonico regolare",
+"Beata Maria Angela Astorch, clarissa cappuccina",
+"Beato Raffaele Chyliński, francescano"
+],
+"nati": [
+{
+"anno": 1578,
+"nome": "Agostino Agazzari",
+"descr": "compositore, organista e teorico della musica italiano"
+},
+{
+"anno": 1629,
+"nome": "Wilhelm Egon von Fürstenberg",
+"descr": "cardinale, arcivescovo e abate tedesco"
+},
+{
+"anno": 1694,
+"nome": "William Shirley",
+"descr": "politico britannico"
+},
+{
+"anno": 1738,
+"nome": "Richard Montgomery",
+"descr": "militare irlandese"
+},
+{
+"anno": 1754,
+"nome": "William Cooper",
+"descr": "giudice"
+},
+{
+"anno": 1759,
+"nome": "James Edward Smith",
+"descr": "entomologo e botanico inglese (1759-1828)"
+},
+{
+"anno": 1760,
+"nome": "John Breckinridge",
+"descr": "politico statunitense"
+},
+{
+"anno": 1760,
+"nome": "Joseph Graetz",
+"descr": "compositore, organista ed insegnante di musica tedesco (Vohburg an der Donau, 2 dicembre 1760 - Monaco di Baviera, 17 luglio 1826)"
+},
+{
+"anno": 1798,
+"nome": "António Luís de Seabra",
+"descr": "giornalista portoghese"
+},
+{
+"anno": 1810,
+"nome": "Henry Yesler",
+"descr": "politico statunitense"
+},
+{
+"anno": 1811,
+"nome": "Jean-Charles Chapais",
+"descr": "politico canadese"
+},
+{
+"anno": 1817,
+"nome": "Heinrich von Sybel",
+"descr": "storico tedesco (1817-1895)"
+},
+{
+"anno": 1825,
+"nome": "Pietro II del Brasile",
+"descr": "imperatore del Brasile (r. 1831-1889)"
+},
+{
+"anno": 1827,
+"nome": "William Burges",
+"descr": "architetto e designer britannico"
+},
+{
+"anno": 1846,
+"nome": "René Waldeck-Rousseau",
+"descr": "politico francese"
+},
+{
+"anno": 1847,
+"nome": "Deacon White",
+"descr": "giocatore di baseball statunitense"
+},
+{
+"anno": 1859,
+"nome": "Georges Seurat",
+"descr": "pittore francese"
+},
+{
+"anno": 1866,
+"nome": "Harry Burleigh",
+"descr": "compositore, insegnante di musica, cantante, impiegato"
+},
+{
+"anno": 1885,
+"nome": "George Richards Minot",
+"descr": "medico statunitense"
+},
+{
+"anno": 1891,
+"nome": "Otto Dix",
+"descr": "pittore tedesco"
+},
+{
+"anno": 1891,
+"nome": "Charles H. Wesley",
+"descr": "scrittore statunitense"
+},
+{
+"anno": 1894,
+"nome": "Warren William",
+"descr": "attore statunitense"
+},
+{
+"anno": 1897,
+"nome": "Ivan Christoforovič Bagramjan",
+"descr": "generale sovietico"
+},
+{
+"anno": 1897,
+"nome": "Rewi Alley",
+"descr": "poeta, scrittore, agricoltore (1897-1987)"
+},
+{
+"anno": 1899,
+"nome": "John Barbirolli",
+"descr": "direttore d'orchestra britannico"
+},
+{
+"anno": 1899,
+"nome": "John Cobb",
+"descr": "pilota automobilistico britannico"
+},
+{
+"anno": 1901,
+"nome": "Raimundo Orsi",
+"descr": "calciatore argentino"
+},
+{
+"anno": 1906,
+"nome": "Peter Carl Goldmark",
+"descr": "ingegnere ungherese"
+},
+{
+"anno": 1909,
+"nome": "Arvo Askola",
+"descr": "mezzofondista finlandese (1909-1975)"
+},
+{
+"anno": 1909,
+"nome": "Walenty Kłyszejko",
+"descr": "cestista e allenatore di pallacanestro estone"
+},
+{
+"anno": 1910,
+"nome": "Taisto Mäki",
+"descr": "mezzofondista finlandese (1910-1979)"
+},
+{
+"anno": 1913,
+"nome": "Marc Platt",
+"descr": "ballerino e attore statunitense"
+},
+{
+"anno": 1914,
+"nome": "Bill Erwin",
+"descr": "attore statunitense (1914-2010)"
+},
+{
+"anno": 1914,
+"nome": "Adolph Green",
+"descr": "sceneggiatore, librettista e commediografo statunitense"
+},
+{
+"anno": 1915,
+"nome": "Principe Mikasa",
+"descr": "principe giapponese"
+},
+{
+"anno": 1917,
+"nome": "Sylvia Syms",
+"descr": "musicista jazz, cantante statunitense (1917-1992)"
+},
+{
+"anno": 1921,
+"nome": "Carlo Furno",
+"descr": "cardinale e arcivescovo cattolico italiano (1921-2015)"
+},
+{
+"anno": 1923,
+"nome": "Maria Meneghini Callas",
+"descr": "soprano statunitense di origine greca (1923-1977)"
+},
+{
+"anno": 1924,
+"nome": "Alexander Haig",
+"descr": "generale e politico statunitense"
+},
+{
+"anno": 1924,
+"nome": "Vilgot Sjöman",
+"descr": "regista e sceneggiatore svedese"
+},
+{
+"anno": 1925,
+"nome": "Julie Harris",
+"descr": "attrice statunitense"
+},
+{
+"anno": 1927,
+"nome": "Ralph Beard",
+"descr": "cestista statunitense"
+},
+{
+"anno": 1928,
+"nome": "Guy Bourdin",
+"descr": "fotografo francese"
+},
+{
+"anno": 1929,
+"nome": "Dan Jenkins",
+"descr": "golfista statunitense"
+},
+{
+"anno": 1929,
+"nome": "Leon Litwack",
+"descr": "storico statunitense"
+},
+{
+"anno": 1930,
+"nome": "Gary S. Becker",
+"descr": "economista statunitense"
+},
+{
+"anno": 1930,
+"nome": "David Piper",
+"descr": "pilota automobilistico britannico"
+},
+{
+"anno": 1931,
+"nome": "Nigel Calder",
+"descr": "giornalista, autore, scrittore, giornalista scientifico, curatore editoriale, sceneggiatore britannico (1931-2014)"
+},
+{
+"anno": 1931,
+"nome": "Masaaki Hatsumi",
+"descr": "artista marziale giapponese"
+},
+{
+"anno": 1931,
+"nome": "Wynton Kelly",
+"descr": "pianista statunitense"
+},
+{
+"anno": 1931,
+"nome": "Edwin Meese",
+"descr": "politico e avvocato statunitense"
+},
+{
+"anno": 1933,
+"nome": "Mike Larrabee",
+"descr": "velocista statunitense (1933-2003)"
+},
+{
+"anno": 1934,
+"nome": "Tarcisio Bertone",
+"descr": "cardinale e arcivescovo cattolico italiano (1934-)"
+},
+{
+"anno": 1935,
+"nome": "David Hackett Fischer",
+"descr": "storico statunitense (1935-)"
+},
+{
+"anno": 1937,
+"nome": "Manohar Joshi",
+"descr": "politico indiano (1937-2024)"
+},
+{
+"anno": 1939,
+"nome": "Yael Dayan",
+"descr": "scrittrice, politica e attivista israeliana (1934-2024)"
+},
+{
+"anno": 1939,
+"nome": "Harry Reid",
+"descr": "politico statunitense (1939-2021)"
+},
+{
+"anno": 1940,
+"nome": "Willie Brown",
+"descr": "allenatore di football americano statunitense"
+},
+{
+"anno": 1941,
+"nome": "Mike England",
+"descr": "allenatore di calcio e calciatore britannico"
+},
+{
+"anno": 1943,
+"nome": "Wayne Allard",
+"descr": "politico statunitense"
+}
+],
+"morti": [
+{
+"anno": 537,
+"nome": "papa Silverio",
+"descr": "58° vescovo di Roma e papa della Chiesa cattolica dal 536 al 537"
+},
+{
+"anno": 1348,
+"nome": "Hanazono",
+"descr": "imperatore giapponese"
+},
+{
+"anno": 1381,
+"nome": "Jan van Ruisbroek",
+"descr": "presbitero e scrittore fiammingo"
+},
+{
+"anno": 1463,
+"nome": "Alberto VI d'Asburgo",
+"descr": "nobile"
+},
+{
+"anno": 1469,
+"nome": "Piero il Gottoso",
+"descr": "politico italiano, signore di Firenze (de facto) dal 1464 al 1469"
+},
+{
+"anno": 1510,
+"nome": "Muhammad Shaybani",
+"descr": "guerriero uzbeko"
+},
+{
+"anno": 1515,
+"nome": "Gonzalo Fernández de Córdoba",
+"descr": "viceré di Napoli e generale spagnolo (1453-1515)"
+},
+{
+"anno": 1547,
+"nome": "Hernán Cortés",
+"descr": "condottiero spagnolo (1485-1547)"
+},
+{
+"anno": 1594,
+"nome": "Gerardo Mercatore",
+"descr": "matematico, astronomo e cartografo fiammingo"
+},
+{
+"anno": 1615,
+"nome": "Louis des Balbes de Berton de Crillon",
+"descr": "militare francese"
+},
+{
+"anno": 1665,
+"nome": "Catherine de Vivonne de Rambouillet",
+"descr": "nobile"
+},
+{
+"anno": 1694,
+"nome": "Pierre Puget",
+"descr": "scultore e pittore francese"
+},
+{
+"anno": 1719,
+"nome": "Pasquier Quesnel",
+"descr": "teologo e religioso francese"
+},
+{
+"anno": 1723,
+"nome": "Filippo II di Borbone-Orléans",
+"descr": "nobile, politico e generale francese"
+},
+{
+"anno": 1726,
+"nome": "Samuel Penhallow",
+"descr": "storico statunitense"
+},
+{
+"anno": 1748,
+"nome": "Charles Seymour, VI duca di Somerset",
+"descr": "nobile inglese"
+},
+{
+"anno": 1774,
+"nome": "Johann Friedrich Agricola",
+"descr": "compositore, organista e cantante tedesco"
+},
+{
+"anno": 1814,
+"nome": "Marchese de Sade",
+"descr": "scrittore, filosofo, poeta e drammaturgo francese"
+},
+{
+"anno": 1844,
+"nome": "Eustachy Erazm Sanguszko",
+"descr": "principe, generale e storico polacco"
+},
+{
+"anno": 1849,
+"nome": "Adelaide di Sassonia-Meiningen",
+"descr": "regina consorte del Regno Unito (1792-1849)"
+},
+{
+"anno": 1859,
+"nome": "John Brown",
+"descr": "attivista statunitense"
+},
+{
+"anno": 1881,
+"nome": "Jenny von Westphalen",
+"descr": "nobildonna tedesca"
+},
+{
+"anno": 1888,
+"nome": "Nâmık Kemal",
+"descr": "scrittore turco"
+},
+{
+"anno": 1892,
+"nome": "Jason Gould",
+"descr": "imprenditore statunitense"
+},
+{
+"anno": 1899,
+"nome": "Gregorio del Pilar",
+"descr": "generale filippino"
+},
+{
+"anno": 1918,
+"nome": "Edmond Rostand",
+"descr": "poeta e drammaturgo francese (1868-1918)"
+},
+{
+"anno": 1924,
+"nome": "Kazimieras Būga",
+"descr": "filologo lituano"
+},
+{
+"anno": 1927,
+"nome": "Paul Heinrich von Groth",
+"descr": "mineralogista tedesco (1843-1927)"
+},
+{
+"anno": 1931,
+"nome": "Vincent d'Indy",
+"descr": "compositore francese"
+},
+{
+"anno": 1936,
+"nome": "John Ringling",
+"descr": "collezionista d'arte"
+},
+{
+"anno": 1943,
+"nome": "Nordahl Grieg",
+"descr": "scrittore, giornalista e attivista norvegese"
+},
+{
+"anno": 1944,
+"nome": "Filippo Tommaso Marinetti",
+"descr": "poeta, scrittore e romanziere italiano (1876-1944)"
+},
+{
+"anno": 1944,
+"nome": "Eiji Sawamura",
+"descr": "giocatore di baseball professionista giapponese (1917-1944)"
+},
+{
+"anno": 1950,
+"nome": "Dinu Lipatti",
+"descr": "pianista rumeno"
+},
+{
+"anno": 1953,
+"nome": "Snowy Baker",
+"descr": "pugile australiano"
+},
+{
+"anno": 1953,
+"nome": "Trần Trọng Kim",
+"descr": "politico, scrittore e pedagogo vietnamita"
+},
+{
+"anno": 1957,
+"nome": "Harrison Ford",
+"descr": "attore statunitense del cinema muto (1884-1957)"
+},
+{
+"anno": 1957,
+"nome": "Manfred Sakel",
+"descr": "neurologo ucraino"
+},
+{
+"anno": 1966,
+"nome": "Luitzen Brouwer",
+"descr": "matematico olandese"
+},
+{
+"anno": 1966,
+"nome": "Giles Cooper",
+"descr": "drammaturgo britannico (1918-1966)"
+},
+{
+"anno": 1967,
+"nome": "Francis Joseph Spellman",
+"descr": "cardinale e arcivescovo romano cattolico statunitense (1889-1967)"
+},
+{
+"anno": 1969,
+"nome": "José María Arguedas",
+"descr": "scrittore peruviano"
+},
+{
+"anno": 1969,
+"nome": "Kliment Efremovič Vorošilov",
+"descr": "generale sovietico"
+},
+{
+"anno": 1974,
+"nome": "Sylvi Kekkonen",
+"descr": "scrittrice finlandese"
+},
+{
+"anno": 1974,
+"nome": "Max Weber",
+"descr": "politico svizzero"
+},
+{
+"anno": 1976,
+"nome": "Danny Murtaugh",
+"descr": "giocatore di baseball statunitense"
+},
+{
+"anno": 1980,
+"nome": "Chaudhry Muhammad Ali",
+"descr": "politico pakistano"
+},
+{
+"anno": 1980,
+"nome": "Romain Gary",
+"descr": "scrittore francese"
+},
+{
+"anno": 1981,
+"nome": "Wallace K. Harrison",
+"descr": "architetto statunitense"
+},
+{
+"anno": 1982,
+"nome": "Marty Feldman",
+"descr": "comico, attore, sceneggiatore, regista e attivista britannico"
+},
+{
+"anno": 1982,
+"nome": "Giovanni Ferrari",
+"descr": "calciatore e allenatore di calcio italiano (1907-1982)"
+},
+{
+"anno": 1983,
+"nome": "Fifi D'Orsay",
+"descr": "attrice statunitense"
+},
+{
+"anno": 1985,
+"nome": "Philip Larkin",
+"descr": "scrittore, poeta e critico musicale britannico (1922-1985)"
+},
+{
+"anno": 1986,
+"nome": "Desi Arnaz",
+"descr": "attore, attore teatrale e musicista statunitense"
+},
+{
+"anno": 1987,
+"nome": "Luis Federico Leloir",
+"descr": "biochimico argentino"
+},
+{
+"anno": 1987,
+"nome": "Jakov Borisovič Zel'dovič",
+"descr": "astronomo e fisico sovietico"
+},
+{
+"anno": 1988,
+"nome": "Karl Heinz Bürger",
+"descr": "militare tedesco"
+},
+{
+"anno": 1988,
+"nome": "Tata Giacobetti",
+"descr": "cantante, contrabbassista e paroliere italiano (1922-1988)"
+},
+{
+"anno": 1990,
+"nome": "Aaron Copland",
+"descr": "compositore statunitense"
+},
+{
+"anno": 1990,
+"nome": "Robert Cummings",
+"descr": "attore statunitense (1910–1990)"
+}
+],
+"frase": null,
+"parola": null,
+"modo": {
+"espressione": "fare baldoria",
+"significati": [
+"fare un incontro chiassoso e allegro in compagnia"
+],
+"link": "https://it.wiktionary.org/wiki/fare_baldoria"
+},
+"comune": {
+"nome": "Villa Estense",
+"descr": "comune italiano",
+"testo": "Villa Estense è un comune italiano di 2 001 abitanti della provincia di Padova in Veneto.",
+"link": "https://it.wikipedia.org/wiki/Villa_Estense"
+},
+"latino": {
+"latino": "Facile perit amicitia coacta.",
+"traduzione": "Facilmente muore un'amicizia forzata.",
+"autore": null
+},
+"latparola": {
+"latino": "grandis",
+"tipo": "aggettivo",
+"significati": [
+"grande, grosso, di notevoli dimensioni, cospicuo",
+"(di persona) cresciuto, sviluppato, alto",
+"grande di età, adulto, anziano, vecchio"
+],
+"origine": null,
+"derivati": [
+"ingrandire",
+"grandezza",
+"grande"
+],
+"collegati": [],
+"v": 2,
+"link": "https://it.wiktionary.org/wiki/grandis"
+},
+"vangelo": {
+"v": 3,
+"letture": [
+{
+"tipo": "Prima lettura",
+"titolo": "Il Signore invita tutti al suo banchetto e asciuga le lacrime su ogni volto.",
+"introduzione": "Dal libro del profeta Isaìa",
+"riferimento": "Is 25,6-10a",
+"link_testo": "https://www.bibbiaedu.it/CEI2008/at/Is/25/?sel=25,6-10"
+}
+],
+"giorno": "MERCOLEDÌ DELLA I SETTIMANA DI AVVENTO",
+"riferimento": "Mt 15,29-37",
+"evangelista": "Matteo",
+"titolo": "Gesù guarisce molti malati e moltiplica i pani.",
+"link_testo": "https://www.bibbiaedu.it/CEI2008/nt/Mt/15/?sel=15,29-37",
+"link_liturgia": "https://www.chiesacattolica.it/liturgia-del-giorno/?data-liturgia=20261202",
+"riveduta": [
+[
+29,
+"Partitosi di là, Gesù venne presso al mar di Galilea; e, salito sul monte, si pose quivi a sedere."
+],
+[
+30,
+"E gli si accostarono molte turbe che avean seco degli zoppi, dei ciechi, de’ muti, degli storpi e molti altri malati; li deposero a’ suoi piedi, e Gesù li guarì;"
+],
+[
+31,
+"talché la folla restò ammirata a veder che i muti parlavano, che gli storpi eran guariti, che gli zoppi camminavano, che i ciechi vedevano, e ne dette gloria all’Iddio d’Israele."
+],
+[
+32,
+"E Gesù, chiamati a sé i suoi discepoli, disse: Io ho pietà di questa moltitudine; poiché già da tre giorni sta con me e non ha da mangiare; e non voglio rimandarli digiuni, che talora non vengano meno per via."
+],
+[
+33,
+"E i discepoli gli dissero: Donde potremmo avere, in un luogo deserto, tanti pani da saziare così gran folla?"
+],
+[
+34,
+"E Gesù chiese loro: Quanti pani avete? Ed essi risposero: Sette e pochi pescetti."
+],
+[
+35,
+"Allora egli ordinò alla folla di accomodarsi per terra."
+],
+[
+36,
+"Poi prese i sette pani ed i pesci; e dopo aver rese grazie, li spezzò e diede ai discepoli, e i discepoli alle folle."
+],
+[
+37,
+"E tutti mangiarono e furon saziati; e de’ pezzi avanzati si levaron sette panieri pieni."
 ]
 ]
 }
