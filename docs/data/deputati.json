@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-25T07:08:10Z",
+ "aggiornato": "2026-11-25T13:10:43Z",
  "totale": 399,
  "gruppi": [
   {
@@ -350,10 +350,6 @@
      "nome": "Pietrella Fabio"
     },
     {
-     "id": "308761",
-     "nome": "Pisano Calogero"
-    },
-    {
      "id": "308769",
      "nome": "Polo Barbara"
     },
@@ -478,7 +474,7 @@
    "blocco": "magg",
    "colore": "#1e40af",
    "ordine": 120,
-   "n": 117,
+   "n": 116,
    "presidente": "Galeazzo Bignami"
   },
   {
@@ -1553,6 +1549,53 @@
    "presidente": "Luana Zanella"
   },
   {
+   "gruppo": "MISTO",
+   "deputati": [
+    {
+     "id": "301439",
+     "nome": "Cesa Lorenzo"
+    },
+    {
+     "id": "309380",
+     "nome": "D'Amico Luciano"
+    },
+    {
+     "id": "308861",
+     "nome": "Ghirra Francesca"
+    },
+    {
+     "id": "307328",
+     "nome": "Marattin Luigi"
+    },
+    {
+     "id": "308852",
+     "nome": "Patriarca Annarita"
+    },
+    {
+     "id": "308761",
+     "nome": "Pisano Calogero"
+    },
+    {
+     "id": "308882",
+     "nome": "Sala Fabrizio"
+    },
+    {
+     "id": "308929",
+     "nome": "Soumahoro Aboubakar"
+    },
+    {
+     "id": "34580",
+     "nome": "Tabacci Bruno"
+    }
+   ],
+   "sigla": "MISTO",
+   "blocco": "altri",
+   "colore": "#94a3b8",
+   "ordine": 75,
+   "n": 9,
+   "presidente": "Manfred Schullian"
+  },
+  {
    "gruppo": "NOI MODERATI (NOI CON L'ITALIA, CORAGGIO ITALIA, UDC E ITALIA AL CENTRO)-MAIE-CENTRO POPOLARE",
    "deputati": [
     {
@@ -1594,49 +1637,6 @@
    "ordine": 100,
    "n": 8,
    "presidente": "Maurizio Enzo Lupi"
-  },
-  {
-   "gruppo": "MISTO",
-   "deputati": [
-    {
-     "id": "301439",
-     "nome": "Cesa Lorenzo"
-    },
-    {
-     "id": "309380",
-     "nome": "D'Amico Luciano"
-    },
-    {
-     "id": "308861",
-     "nome": "Ghirra Francesca"
-    },
-    {
-     "id": "307328",
-     "nome": "Marattin Luigi"
-    },
-    {
-     "id": "308852",
-     "nome": "Patriarca Annarita"
-    },
-    {
-     "id": "308882",
-     "nome": "Sala Fabrizio"
-    },
-    {
-     "id": "308929",
-     "nome": "Soumahoro Aboubakar"
-    },
-    {
-     "id": "34580",
-     "nome": "Tabacci Bruno"
-    }
-   ],
-   "sigla": "MISTO",
-   "blocco": "altri",
-   "colore": "#94a3b8",
-   "ordine": 75,
-   "n": 8,
-   "presidente": "Manfred Schullian"
   },
   {
    "gruppo": "Italia Viva-Casa Riformista",
@@ -1748,6 +1748,13 @@
   }
  ],
  "variazioni": [
+  {
+   "data": "25/11/2026",
+   "nome": "Pisano Calogero",
+   "tipo": "passaggio",
+   "da": "Fratelli d'Italia",
+   "a": "MISTO"
+  },
   {
    "data": "24/11/2026",
    "nome": "D'Amico Luciano",
