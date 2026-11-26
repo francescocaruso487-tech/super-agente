@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-11-26T07:09:34Z",
- "totale": 399,
+ "aggiornato": "2026-11-26T13:19:00Z",
+ "totale": 398,
  "gruppi": [
   {
    "gruppo": "Fratelli d'Italia",
@@ -824,10 +824,6 @@
      "nome": "Cecchetti Fabrizio"
     },
     {
-     "id": "307632",
-     "nome": "Centemero Giulio"
-    },
-    {
      "id": "309321",
      "nome": "Centenaro Giulio"
     },
@@ -988,7 +984,7 @@
    "blocco": "magg",
    "colore": "#0d9488",
    "ordine": 130,
-   "n": 55,
+   "n": 54,
    "presidente": "Riccardo Molinari"
   },
   {
@@ -1748,6 +1744,12 @@
   }
  ],
  "variazioni": [
+  {
+   "data": "26/11/2026",
+   "nome": "Centemero Giulio",
+   "tipo": "cessato",
+   "da": "Lega - Salvini Premier"
+  },
   {
    "data": "25/11/2026",
    "nome": "Pisano Calogero",
