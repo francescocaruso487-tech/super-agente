@@ -18,23 +18,23 @@
   ],
   [
    "astenuti",
-   "1"
+   "4"
   ],
   [
    "contrari",
-   "105"
+   "112"
   ],
   [
    "favorevoli",
-   "147"
+   "142"
   ],
   [
    "maggioranza",
-   "127"
+   "128"
   ],
   [
    "presenti",
-   "253"
+   "258"
   ],
   [
    "richiestaFiducia",
@@ -50,11 +50,11 @@
   ],
   [
    "rif_seduta",
-   "http://dati.camera.it/ocd/seduta.rdf/s19_749"
+   "http://dati.camera.it/ocd/seduta.rdf/s19_753"
   ],
   [
    "votanti",
-   "252"
+   "254"
   ],
   [
    "votazioneFinale",
@@ -66,11 +66,11 @@
   ],
   [
    "date",
-   "20261119"
+   "20261126"
   ],
   [
    "description",
-   "DDL 3133-A - VOTO FINALE"
+   "DDL 3189 - VOTO FINALE"
   ],
   [
    "title",
@@ -82,81 +82,20 @@
   ],
   [
    "presiedutaDa",
-   "http://dati.camera.it/ocd/deputato.rdf/d301436_19"
+   "http://dati.camera.it/ocd/deputato.rdf/d305704_19"
   ],
   [
    "modified",
-   "2026-11-20T14:02:12Z"
+   "2026-11-27T14:10:30Z"
   ],
   [
    "identifier",
-   "749001"
+   "753001"
   ],
   [
    "relation",
-   "http://documenti.camera.it/apps/votazioni/votazionitutte/schedavotazione.asp?Legislatura=XIX&RifVotazione=749_1&tipo=dettaglio"
+   "http://documenti.camera.it/apps/votazioni/votazionitutte/schedavotazione.asp?Legislatura=XIX&RifVotazione=753_1&tipo=dettaglio"
   ]
  ],
- "risorse_collegate": [
-  [
-   "voto",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "voto",
-   "22-rdf-syntax-ns#type",
-   "http://dati.camera.it/ocd/voto"
-  ],
-  [
-   "voto",
-   "rdf-schema#label",
-   "TAJANI ANTONIO (FI-PPE) in missione"
-  ],
-  [
-   "voto",
-   "rif_deputato",
-   "http://dati.camera.it/ocd/deputato.rdf/d308838_19"
-  ],
-  [
-   "voto",
-   "rif_gruppoParlamentare",
-   "http://dati.camera.it/ocd/gruppoParlamentare.rdf/gr4134"
-  ],
-  [
-   "voto",
-   "rif_votazione",
-   "http://dati.camera.it/ocd/votazione.rdf/vs19_749_001"
-  ],
-  [
-   "voto",
-   "description",
-   "In missione"
-  ],
-  [
-   "voto",
-   "title",
-   "TAJANI ANTONIO (FI-PPE) in missione"
-  ],
-  [
-   "voto",
-   "type",
-   "Non ha votato"
-  ],
-  [
-   "voto",
-   "modified",
-   "2026-11-20T14:29:47Z"
-  ],
-  [
-   "voto",
-   "identifier",
-   "749001_308838"
-  ],
-  [
-   "voto",
-   "siglaGruppo",
-   "FI-PPE"
-  ]
- ]
+ "risorse_collegate": []
 }

@@ -1,6 +1,23 @@
 {
- "aggiornato": "2026-11-27T07:11:03Z",
+ "aggiornato": "2026-11-27T13:14:22Z",
  "voti": [
+  {
+   "id": "vs19_753_001",
+   "data": "26/11/2026",
+   "titolo": "DDL 3189 - VOTO FINALE",
+   "fav": 142,
+   "con": 112,
+   "ast": 4,
+   "votanti": 254,
+   "esito": "approvata",
+   "gruppi": [],
+   "scheda": "http://documenti.camera.it/apps/votazioni/votazionitutte/schedavotazione.asp?Legislatura=XIX&RifVotazione=753_1&tipo=dettaglio",
+   "atto": {
+    "titolo": "S. 2053. - \\\"Conversione in legge, con modificazioni, del decreto-legge 30 settembre 2026, n. 170, recante misure urgenti per garantire il regolare avvio dell&rsquo;anno scolastico 2026/2027, per l&rsquo;accompagnamento delle misure del Piano nazionale di ripresa e resilienza (PNRR) di competenza del Ministero dell&rsquo;istruzione e del merito, per la promozione dell&rsquo;integrazione degli studenti stranieri nell&rsquo;ambito scolastico, nonché in materia di formazione superiore e ricerca\\\" &",
+    "iniziativa": "Governo"
+   },
+   "scheda_atto": "https://www.camera.it/leg19/126?leg=19&idDocumento=3189"
+  },
   {
    "id": "vs19_749_001",
    "data": "19/11/2026",
@@ -1048,108 +1065,7 @@
    "con": 0,
    "ast": 94,
    "votanti": 137,
-   "esito": "approvata",
-   "gruppi": [
-    {
-     "sigla": "FDI",
-     "fav": 69,
-     "con": 0,
-     "ast": 0,
-     "altro": 48
-    },
-    {
-     "sigla": "PD-IDP",
-     "fav": 0,
-     "con": 0,
-     "ast": 0,
-     "altro": 68
-    },
-    {
-     "sigla": "LEGA",
-     "fav": 31,
-     "con": 0,
-     "ast": 0,
-     "altro": 23
-    },
-    {
-     "sigla": "FI-PPE",
-     "fav": 23,
-     "con": 0,
-     "ast": 0,
-     "altro": 29
-    },
-    {
-     "sigla": "M5S",
-     "fav": 0,
-     "con": 0,
-     "ast": 0,
-     "altro": 48
-    },
-    {
-     "sigla": "AVS",
-     "fav": 0,
-     "con": 0,
-     "ast": 0,
-     "altro": 10
-    },
-    {
-     "sigla": "APERRE",
-     "fav": 0,
-     "con": 0,
-     "ast": 0,
-     "altro": 10
-    },
-    {
-     "sigla": "M-FNVF",
-     "fav": 5,
-     "con": 0,
-     "ast": 0,
-     "altro": 4
-    },
-    {
-     "sigla": "NM-M-C",
-     "fav": 3,
-     "con": 0,
-     "ast": 0,
-     "altro": 5
-    },
-    {
-     "sigla": "IV-CR",
-     "fav": 0,
-     "con": 0,
-     "ast": 0,
-     "altro": 7
-    },
-    {
-     "sigla": "M-MIN",
-     "fav": 3,
-     "con": 0,
-     "ast": 0,
-     "altro": 1
-    },
-    {
-     "sigla": "M-ALT",
-     "fav": 0,
-     "con": 0,
-     "ast": 0,
-     "altro": 4
-    },
-    {
-     "sigla": "M-SCN",
-     "fav": 3,
-     "con": 0,
-     "ast": 0,
-     "altro": 0
-    },
-    {
-     "sigla": "M-+E-S",
-     "fav": 0,
-     "con": 0,
-     "ast": 0,
-     "altro": 3
-    }
-   ],
-   "scheda": "http://documenti.camera.it/apps/votazioni/votazionitutte/schedavotazione.asp?Legislatura=XIX&RifVotazione=730_97&tipo=dettaglio"
+   "esito": "approvata"
   },
   {
    "id": "vs19_730_055",
@@ -1239,16 +1155,6 @@
    "con": 72,
    "ast": 0,
    "votanti": 200,
-   "esito": "approvata"
-  },
-  {
-   "id": "vs19_710_001",
-   "data": "16/09/2026",
-   "titolo": "DDL 3045-A - VOTO FINALE",
-   "fav": 162,
-   "con": 108,
-   "ast": 5,
-   "votanti": 270,
    "esito": "approvata"
   }
  ],
