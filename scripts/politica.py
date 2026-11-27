@@ -167,72 +167,7 @@ def leggi_camera():
     return {"totale": tot, "maggioranza_soglia": tot // 2 + 1, "gruppi": lista, "link": URL_CAMERA}
 
 
-def _sonda(endpoint, q, tempo=90):
-    r = requests.get(endpoint, params={"query": q, "format": "application/sparql-results+json"},
-                     headers={"User-Agent": UA, "Accept": "application/sparql-results+json"}, timeout=tempo)
-    r.raise_for_status()
-    return r.json()["results"]["bindings"]
-
-
-def _props(endpoint, uri, n=40):
-    return [[b["p"]["value"], b["o"]["value"][:110]] for b in _sonda(endpoint, f"SELECT ?p ?o WHERE {{ <{uri}> ?p ?o }} LIMIT {n}")]
-
-
-def _debug_senato_dati():
-    """Solo diagnostica: schema dei dati aperti (Senato e Camera). Nomi completi dei campi."""
-    out = {}
-    S, C = "https://dati.senato.it/sparql", "https://dati.camera.it/sparql"
-    OCD = "http://dati.camera.it/ocd/"
-
-    def prova(nome, fn):
-        try:
-            out[nome] = fn()
-        except Exception as e:  # noqa: BLE001
-            out[nome] = f"errore: {type(e).__name__}: {e}"[:220]
-
-    def adesione():
-        x = _sonda(S, f'SELECT ?a ?g WHERE {{ ?a a <{OCD}adesioneGruppo> ; <{OCD}legislatura> ?l ; <{OCD}gruppo> ?g . '
-                      f'FILTER(STR(?l) = "19") FILTER NOT EXISTS {{ ?a <{OCD}fine> ?f }} }} LIMIT 1')
-        return {"adesione": _props(S, x[0]["a"]["value"]), "gruppo": _props(S, x[0]["g"]["value"])} if x else "nessuna adesione attuale leg.19"
-    prova("senato_adesione_attuale", adesione)
-    prova("senato_conteggio", lambda: [b["n"]["value"] for b in _sonda(S, f'SELECT (COUNT(DISTINCT ?s) AS ?n) WHERE {{ ?s <{OCD}aderisce> ?a . ?a <{OCD}legislatura> ?l . '
-                                                                      f'FILTER(STR(?l) = "19") FILTER NOT EXISTS {{ ?a <{OCD}fine> ?f }} }}')])
-    prova("senato_ddl_recente", lambda: (lambda d: _props(S, d[0]["d"]["value"], 45) if d else "nessuno")(_sonda(
-        S, "SELECT ?d WHERE { ?d a <http://dati.senato.it/osr/Ddl> ; <http://dati.senato.it/osr/legislatura> ?l ; <http://dati.senato.it/osr/dataPresentazione> ?dt . FILTER(STR(?l) = \"19\") } ORDER BY DESC(?dt) LIMIT 1")))
-    prova("camera_incarico_gruppo", lambda: _props(C, "http://dati.camera.it/ocd/incarico.rdf/i4133_308848_15_20221018"))
-    prova("camera_incarichi_etichette", lambda: [b["l"]["value"] for b in _sonda(
-        C, "SELECT DISTINCT ?l WHERE { ?i <http://dati.camera.it/ocd/rif_gruppoParlamentare> <http://dati.camera.it/ocd/gruppoParlamentare.rdf/gr4133> ; <http://www.w3.org/2000/01/rdf-schema#label> ?l } LIMIT 40")])
-    prova("camera_atto_leg19", lambda: (lambda d: _props(C, d[0]["a"]["value"], 45) if d else "nessuno")(_sonda(
-        C, "SELECT ?a WHERE { ?a a <http://dati.camera.it/ocd/atto> ; <http://dati.camera.it/ocd/rif_leg> <http://dati.camera.it/ocd/legislatura.rdf/repubblica_19> ; <http://purl.org/dc/elements/1.1/date> ?d } ORDER BY DESC(?d) LIMIT 1")))
-    prova("camera_membro_governo", lambda: (lambda d: _props(C, d[0]["x"]["value"]) if d else "nessuno")(_sonda(
-        C, "SELECT ?x WHERE { ?x a <http://dati.camera.it/ocd/membroGoverno> } LIMIT 1")))
-    prova("camera_governo", lambda: (lambda d: _props(C, d[0]["x"]["value"]) if d else "nessuno")(_sonda(
-        C, "SELECT ?x WHERE { ?x a <http://dati.camera.it/ocd/governo> } LIMIT 1")))
-    (DATA / "debug_senato_dati.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), "utf-8")
-
-
-def leggi_senato():
-    _debug_senato_dati()
-    html = scarica(URL_SENATO)
-    tutte = righe_tabella(html)
-    righe = [(l, n) for l, n in tutte if any(k in norm(l).lower() for k, *_ in SENATO)]
-    try:
-        lista, tot = costruisci(righe, SENATO, {"FdI", "PD", "Lega", "FI", "M5S"}, 190, 215)
-    except ValueError as e:
-        raise ValueError(f"{e}. Righe lette ({len(tutte)}): " + " | ".join(f"{l[:40]}={n}" for l, n in tutte[:14])) from e
-    return {"totale": tot, "maggioranza_soglia": tot // 2 + 1, "gruppi": lista, "link": URL_SENATO,
-            "nota": "Il totale comprende i senatori a vita. AVS siede nel gruppo Misto."}
-
-
 RUOLO = re.compile(r"^(presidente del consiglio|vicepresidente|ministr[oa]|sottosegretari)", re.I)
-
-
-def _nome_senato(riga):
-    """'ALBERTI CASELLATI Maria Elisabetta, Senatore...' -> 'Maria Elisabetta Alberti Casellati' (None se non e' un nome)."""
-    m = re.match(r"^-?\s*((?:[A-ZÀ-Ü][A-ZÀ-Ü'’]+ ?)+)\s+([A-ZÀ-Ü][a-zà-ü'’.-]+(?: [A-Za-zà-ü'’.-]+)*?)\s*(?:,|$)", riga)
-    if not m:
-        return None
-    return norm(f"{m.group(2)} {m.group(1).title()}")
 
 
 LEG19 = "<http://dati.camera.it/ocd/legislatura.rdf/repubblica_19>"
@@ -327,36 +262,6 @@ def leggi_proposte():
     return {"totale": len(out)}
 
 
-def _leggi_governo_senato_non_usato():
-    """Ministri in carica dalla pagina 'Il Governo' del Senato (con le date di inizio/fine incarico)."""
-    soup = BeautifulSoup(scarica(URL_GOVERNO), "lxml")
-    righe = [norm(r) for r in soup.get_text("\n").split("\n") if norm(r)]
-    inizio = next((k for k, r in enumerate(righe) if r.lower() == "ministri"), None)
-    if inizio is None:
-        raise ValueError("sezione 'Ministri' non trovata. Estratto: " + " | ".join(righe[:25])[:700])
-    fine = next((k for k, r in enumerate(righe[inizio:], inizio) if r.lower().startswith(("condividi", "vice ministri"))), len(righe))
-    blocco, ruolo, trovati, visti = righe[inizio + 1:fine], None, [], set()
-    for k, r in enumerate(blocco):
-        if r == "-":
-            continue
-        nome = _nome_senato(r)
-        if nome:
-            vicino = " ".join(blocco[k:k + 3]).lower()
-            chiuso = "fino al" in vicino or bool(re.search(r"dal [^)]* al \d", vicino))
-            if ruolo and not chiuso and (nome, ruolo) not in visti:
-                visti.add((nome, ruolo))
-                trovati.append({"nome": nome, "ruolo": ruolo})
-        elif not r.startswith(("(", "Fino al", "Dal ", "ad interim")) and len(r) < 90 and "Foto" not in r:
-            ruolo = r
-    uniche = {t["nome"] for t in trovati}
-    if len(uniche) < 18 or not any(re.match(r"presidente del consiglio", t["ruolo"], re.I) for t in trovati):
-        raise ValueError(f"elenco ministri non riconosciuto ({len(uniche)} nomi). Estratto: " + " | ".join(blocco[:30])[:900])
-    for t in trovati:
-        if not re.match(r"(vice )?presidente|ministr", t["ruolo"], re.I):
-            t["ruolo"] = "Ministro: " + t["ruolo"]
-    return {"persone": trovati, "link": URL_GOVERNO}
-
-
 def trova(tabella, low):
     """Riga della tabella la cui parola chiave compare per prima nel nome (a parita': la piu' lunga)."""
     c = [(low.index(r[0]), -len(r[0]), i) for i, r in enumerate(tabella) if r[0] in low]
@@ -426,86 +331,6 @@ def leggi_deputati():
 
 SIGLE_SENATO = [("fdi", "FdI"), ("lsp", "Lega"), ("fi", "FI"), ("pd", "PD"), ("m5s", "M5S"), ("misto", "Misto"),
                 ("aut", "Aut"), ("noi", "NM"), ("nm", "NM"), ("civici", "NM"), ("iv", "IV"), ("az", "Az")]
-
-
-def senatori_per_regione():
-    """Piano B: pagina 'Senatori per regione di elezione' (nome + sigla del gruppo)."""
-    soup = BeautifulSoup(scarica("https://www.senato.it/composizione/senatori/regione-elezione?leg=19"), "lxml")
-    per, visti = {}, set()
-    for img in soup.find_all("img", alt=True):
-        m = re.match(r"\s*Foto sen\.\s+(.+)", img["alt"])
-        if not m:
-            continue
-        nome = titolo(m.group(1))
-        cont = img.find_parent("li") or img.parent
-        resto = norm(re.sub(re.escape(m.group(1).strip()), "", norm(cont.get_text(" ")), flags=re.I)).strip(" -·")
-        if nome.lower() in visti or not resto:
-            continue
-        visti.add(nome.lower())
-        riga = next((r for k, sg in SIGLE_SENATO if resto.lower().startswith(k) for r in SENATO if r[1] == sg), None)
-        per.setdefault(riga[5] if riga else resto, []).append(nome)
-    return per
-
-
-def leggi_senatori():
-    """Senatori per gruppo (pagina di ogni gruppo; in alternativa elenco per regione). Registra i passaggi."""
-    home = BeautifulSoup(scarica(URL_SENATO), "lxml")
-    gruppi_url = {}
-    for a in home.find_all("a", href=True):
-        if re.search(r"did=\d+", a["href"]) and "composizione" in a["href"]:
-            nome = re.sub(r"\s+\d+$", "", norm(a.get_text(" ")))
-            if nome:
-                gruppi_url.setdefault(nome, requests.compat.urljoin(URL_SENATO, a["href"]))
-    per_gruppo, capi, via = {}, {}, "gruppi"
-    if len(gruppi_url) >= 5:
-        for nome, url in gruppi_url.items():
-            soup = BeautifulSoup(scarica(url), "lxml")
-            nomi, primo = {}, None
-            for img in soup.find_all("img", alt=True):
-                m = re.match(r"\s*Foto sen\.\s+(.+)", img["alt"])
-                if m:
-                    n = titolo(m.group(1))
-                    nomi[n.lower()] = n
-                    primo = primo or n
-            capi[nome] = primo if primo and "presidente" in soup.get_text(" ").lower() else None
-            per_gruppo[nome] = sorted(nomi.values())
-    else:
-        via = "regioni"
-        try:
-            per_gruppo = {k: sorted(v) for k, v in senatori_per_regione().items()}
-        except Exception as e:  # noqa: BLE001
-            ancore = " | ".join(f"{norm(a.get_text(' '))[:25]}>{a['href'][-45:]}" for a in home.find_all("a", href=True)[:12])
-            raise ValueError(f"gruppi del Senato non trovati ({len(gruppi_url)}) e piano B fallito ({e}). Link: {ancore}") from e
-    attivi = {n.lower(): (n, g) for g, ps in per_gruppo.items() for n in ps}
-    if not 190 <= len(attivi) <= 206:
-        raise ValueError(f"numero di senatori incoerente: {len(attivi)} (via {via}; gruppi: "
-                         + ", ".join(f"{g[:25]}={len(v)}" for g, v in per_gruppo.items()) + ")")
-    elenco = []
-    for nome, persone in per_gruppo.items():
-        if not persone:
-            continue
-        riga = trova(SENATO, nome.lower())
-        elenco.append({"gruppo": nome, "sigla": riga[1] if riga else nome[:8], "blocco": riga[2] if riga else "altri",
-                       "colore": riga[3] if riga else "#94a3b8", "n": len(persone), "presidente": capi.get(nome),
-                       "deputati": [{"id": x.lower(), "nome": x} for x in persone]})
-    elenco.sort(key=lambda g: -g["n"])
-    f = DATA / "senatori.json"
-    prec = json.loads(f.read_text("utf-8")) if f.exists() else {}
-    vecchi = {d["id"]: (d["nome"], g["gruppo"]) for g in prec.get("gruppi", []) for d in g["deputati"]}
-    variazioni = list(prec.get("variazioni", []))
-    oggi = datetime.now(timezone.utc).strftime("%d/%m/%Y")
-    if vecchi:
-        for k, (n, gr) in attivi.items():
-            if k in vecchi and vecchi[k][1] != gr:
-                variazioni.insert(0, {"data": oggi, "nome": n, "tipo": "passaggio", "da": vecchi[k][1], "a": gr})
-            elif k not in vecchi:
-                variazioni.insert(0, {"data": oggi, "nome": n, "tipo": "subentro", "a": gr})
-        for k, (n, gr) in vecchi.items():
-            if k not in attivi:
-                variazioni.insert(0, {"data": oggi, "nome": n, "tipo": "cessato", "da": gr})
-    f.write_text(json.dumps({"aggiornato": ora(), "totale": len(attivi), "gruppi": elenco, "variazioni": variazioni[:40],
-                             "link": URL_SENATO}, ensure_ascii=False, indent=1), "utf-8")
-    return {"totale": len(attivi)}
 
 
 PARTITI = [  # (sigla, nome, titoli possibili della pagina su it.wikipedia)
