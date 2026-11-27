@@ -1,0 +1,32 @@
+feature,area,priority,original,clone,notes
+Notizie raggruppate per professione,Professioni,must,yes,yes,14+ professioni in 8 gruppi
+Notizie per argomento,Professioni,must,yes,yes,aree e sotto-aree
+Filtro solo novità normative,Generale,should,yes,yes,
+Bandi Caserta e Campania (TED),Professioni,must,yes,yes,solo sopra soglia UE
+Atti Gazzetta Ufficiale con filtro Campania,Professioni,must,yes,yes,
+Scheda notizia con anteprima e correlate,Generale,must,yes,yes,descrizione immagine tempo di lettura
+Salvare notizie (stella),Generale,must,yes,yes,solo sul telefono
+Archivio con ricerca,Generale,should,yes,yes,cerca solo nei dati caricati
+Link utili,Generale,could,yes,yes,
+Stato fonti e metodo di verifica,Generale,should,yes,yes,
+Nicchia Tecnologia,Tecnologia,must,yes,yes,
+Nicchia Politica notizie,Politica,must,yes,yes,
+Quadro politico (emiciclo governo Campania),Politica,should,yes,yes,
+Voti parlamentari e proposte di legge,Politica,should,yes,yes,
+Nicchia Motori notizie,Motori,must,yes,yes,
+Offerte auto e semaforo acquisto,Motori,should,yes,yes,
+Confronto modelli e calcolo costi,Motori,should,yes,yes,da verificare in test
+Almanacco Oggi (18 sezioni),Oggi,must,yes,yes,
+Santo Vangelo e letture del giorno,Oggi,should,yes,yes,link CEI + Riveduta
+Frase e parola latina del giorno,Oggi,could,yes,yes,
+Tema chiaro scuro e colori personali,Aspetto,should,yes,yes,
+Installabile e offline (PWA),Piattaforma,must,yes,yes,
+Aggiornamento automatico dati,Piattaforma,must,yes,yes,6 workflow
+Notifiche push (ntfy),Piattaforma,should,yes,yes,offerte auto atti Campania riepilogo
+Ricerca globale su tutta l'app,Generale,should,no,no,proposta
+Schermata Per te oggi (briefing),Generale,should,no,no,proposta
+Promemoria scadenza bandi,Professioni,should,no,no,proposta
+BURC Campania e albi dei Comuni,Professioni,could,no,no,skip: non leggibile in modo affidabile
+Riquadro In pratica sulle norme (prima/dopo),Professioni,should,no,no,serve IA a pagamento
+Note ed etichette sulle salvate,Generale,could,no,no,proposta
+Segna come letto,Generale,could,no,no,proposta
