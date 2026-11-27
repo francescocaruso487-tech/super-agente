@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-27T13:14:22Z",
+ "aggiornato": "2026-11-27T13:57:29Z",
  "voti": [
   {
    "id": "vs19_753_001",
@@ -10,7 +10,106 @@
    "ast": 4,
    "votanti": 254,
    "esito": "approvata",
-   "gruppi": [],
+   "gruppi": [
+    {
+     "sigla": "FDI",
+     "fav": 69,
+     "con": 0,
+     "ast": 0,
+     "altro": 47
+    },
+    {
+     "sigla": "PD-IDP",
+     "fav": 0,
+     "con": 53,
+     "ast": 0,
+     "altro": 15
+    },
+    {
+     "sigla": "LEGA",
+     "fav": 31,
+     "con": 0,
+     "ast": 0,
+     "altro": 23
+    },
+    {
+     "sigla": "FI-PPE",
+     "fav": 30,
+     "con": 0,
+     "ast": 0,
+     "altro": 20
+    },
+    {
+     "sigla": "M5S",
+     "fav": 0,
+     "con": 37,
+     "ast": 0,
+     "altro": 11
+    },
+    {
+     "sigla": "APERRE",
+     "fav": 0,
+     "con": 6,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "M-FNVF",
+     "fav": 5,
+     "con": 0,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "AVS",
+     "fav": 0,
+     "con": 5,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "M-ALT",
+     "fav": 2,
+     "con": 3,
+     "ast": 0,
+     "altro": 4
+    },
+    {
+     "sigla": "NM-M-C",
+     "fav": 3,
+     "con": 0,
+     "ast": 0,
+     "altro": 5
+    },
+    {
+     "sigla": "IV-CR",
+     "fav": 0,
+     "con": 5,
+     "ast": 0,
+     "altro": 2
+    },
+    {
+     "sigla": "M-MIN",
+     "fav": 0,
+     "con": 1,
+     "ast": 0,
+     "altro": 3
+    },
+    {
+     "sigla": "M-SCN",
+     "fav": 2,
+     "con": 0,
+     "ast": 0,
+     "altro": 1
+    },
+    {
+     "sigla": "M-+E-S",
+     "fav": 0,
+     "con": 2,
+     "ast": 0,
+     "altro": 1
+    }
+   ],
    "scheda": "http://documenti.camera.it/apps/votazioni/votazionitutte/schedavotazione.asp?Legislatura=XIX&RifVotazione=753_1&tipo=dettaglio",
    "atto": {
     "titolo": "S. 2053. - \\\"Conversione in legge, con modificazioni, del decreto-legge 30 settembre 2026, n. 170, recante misure urgenti per garantire il regolare avvio dell&rsquo;anno scolastico 2026/2027, per l&rsquo;accompagnamento delle misure del Piano nazionale di ripresa e resilienza (PNRR) di competenza del Ministero dell&rsquo;istruzione e del merito, per la promozione dell&rsquo;integrazione degli studenti stranieri nell&rsquo;ambito scolastico, nonché in materia di formazione superiore e ricerca\\\" &",
