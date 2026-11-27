@@ -95,6 +95,10 @@ const METODO = () => `<h2 class="pop-t">🔍 Come verifichiamo le notizie</h2>
 <p class="pop-p mute">Strumenti utili e gratuiti: Normattiva e Gazzetta Ufficiale per le leggi, Camera e Senato per i voti, ANAC per gli appalti, Wayback Machine per le pagine cancellate, le guide di Bellingcat per il metodo.</p>
 <p class="pop-fonte">L'indicatore dice quanto è solida la fonte, non se la notizia è vera: l'ultima parola resta al tuo giudizio.</p>`;
 
+function imgCard(n) {
+  const im = ((state.anteprime || {})[n.id] || {}).img;
+  return im ? `<img class="th" src="${esc(im)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : "";
+}
 function card(n) {
   const letta = state.lette.has(n.id);
   const nuovo = !letta && state.ultimaVisita && new Date(n.visto) > new Date(state.ultimaVisita);
@@ -103,7 +107,7 @@ function card(n) {
   const badge = luogoB + n.aree.filter((a) => a !== "altro" || !n.luogo).map((a) => `<span class="badge" style="--c:${colore(a)}">${esc(nome(a))}</span>`).join("");
   return `<article class="card${letta ? " letta" : ""}" data-id="${n.id}" style="--c:${colore(n.aree[0])}">
     <div class="riga">${badge}${n.prezzo ? `<span class="badge prezzo">${esc(n.prezzo)}</span>` : ""}${(n.prof || []).slice(0, 3).map((p) => state.professioni[p] ? `<span class="badge pf" title="${esc(state.professioni[p].nome)}">${state.professioni[p].emoji} ${esc(state.professioni[p].nome)}</span>` : "").join("")}${n.tradotto ? '<span class="badge pf" title="Fonte straniera, titolo tradotto automaticamente">🌐 Tradotto</span>' : ""}${n.normativa ? `<span class="badge norm">${["edilizia"].includes(n.nicchia || "edilizia") ? "Normativa" : "Ufficiale"}</span>` : ""}${nuovo ? '<span class="nuovo" title="Nuova"></span>' : ""}</div>
-    <h3 class="titolo">${esc(n.titolo)}</h3>
+    ${imgCard(n)}<h3 class="titolo">${esc(n.titolo)}</h3>
     ${n.sintesi ? `<p class="sintesi">${esc(n.sintesi)}</p>` : ""}
     <div class="piede"><span>${esc(n.fonte_nome)}${(n.altre_fonti || []).length ? ` +${n.altre_fonti.length}` : ""} · ${fa(dataDi(n))}</span><span class="ver ${verifica(n).liv}">${verifica(n).ic} ${esc(verifica(n).corto)}</span>
       <button class="stella${stella ? " on" : ""}" data-star="${n.id}" aria-label="Salva">${stella ? "★" : "☆"}</button></div>
@@ -909,7 +913,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "68";
+const VERSIONE_APP = "69";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;

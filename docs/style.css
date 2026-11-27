@@ -404,3 +404,4 @@ body.alm-open{overflow:hidden}
 .chip,.mini{min-height:40px}
 .switch{min-height:44px;align-items:center}
 .switch input{width:22px;height:22px}
+.th{float:right;width:76px;height:76px;object-fit:cover;border-radius:10px;margin:2px 0 6px 10px;background:var(--line)}
