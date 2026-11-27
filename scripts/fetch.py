@@ -796,6 +796,27 @@ def send_digest(news, aree_cfg, ultimo=None):
         ntfy({"title": f"{etichetta}: {len(rec)} novità nelle ultime 24h", "message": msg, "priority": 3,
               "tags": ["sunrise"], **({"click": app_url()} if app_url() else {})})
         totale += len(rec)
+    # promemoria gare in scadenza (entro 7 giorni)
+    try:
+        bf = ROOT / "docs" / "data" / "bandi.json"
+        if bf.exists():
+            oggi = now_utc().date()
+            lim = oggi + timedelta(days=7)
+            sc = []
+            for b in json.loads(bf.read_text("utf-8")).get("bandi", []):
+                try:
+                    d = datetime.strptime(b.get("scadenza") or "", "%Y-%m-%d").date()
+                except ValueError:
+                    continue
+                if oggi <= d <= lim:
+                    sc.append((d, b))
+            sc.sort(key=lambda x: x[0])
+            if sc:
+                righe = [f"• {d.strftime('%d/%m')} {b['titolo'][:70]}" + (f" ({b['ente'][:30]})" if b.get("ente") else "") for d, b in sc[:8]]
+                ntfy({"title": f"Gare in scadenza: {len(sc)} nei prossimi 7 giorni", "message": "\n".join(righe), "priority": 3,
+                      "tags": ["hourglass_flowing_sand"], **({"click": app_url()} if app_url() else {})})
+    except Exception as e:  # noqa: BLE001
+        print("promemoria gare non inviato:", e)
     return totale
 
 

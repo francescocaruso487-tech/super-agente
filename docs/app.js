@@ -126,11 +126,11 @@ function sezPrincipale(n) {
   return a || "altro";
 }
 
-function filtra({ area, query, soloNorm, primario }) {
+function filtra({ area, query, soloNorm, primario, ovunque }) {
   const q = query.trim().toLowerCase();
   return state.news.filter((n) => {
-    if (area !== "stelle" && !inNicchia(n)) return false;
-    if (area !== "stelle" && state.nicchia === "edilizia" && !profOk(n)) return false;
+    if (area !== "stelle" && !ovunque && !inNicchia(n)) return false;
+    if (area !== "stelle" && !ovunque && state.nicchia === "edilizia" && !profOk(n)) return false;
     if (area === "stelle") { if (!state.stelle.has(n.id)) return false; }
     else if (area === "tutte") { if (n.aree.length === 1 && n.aree[0] === "altro" && !n.luogo) return false; }
     else if (area.startsWith("p:")) { const id = area.slice(2); if (id === "_altre" ? (n.prof || []).length : !(n.prof || []).includes(id)) return false; }
@@ -281,7 +281,27 @@ function renderAtti() {
   return `<div class="riepilogo" style="margin-top:6px"><b>📜 Atti ufficiali</b><p>Leggi, decreti, sentenze della Corte Costituzionale e leggi regionali, direttamente dalla Gazzetta Ufficiale. Aggiornati ${A.aggiornato ? fa(new Date(A.aggiornato)) : "—"}. Tocca un atto per spiegazione e testo ufficiale.</p></div>${chips}${cards || vuoto("Nessun atto", "Per questo filtro non ci sono atti recenti.")}`;
 }
 
+function renderPerTe() {
+  const el = $("#per-te");
+  const vista = state.nicchia === "edilizia" && state.vista === "prof";
+  if (!vista || !state.news.length) { el.innerHTML = ""; return; }
+  const oggi = oggiISO(), lim = new Date(Date.now() + 7 * 864e5), limISO = `${lim.getFullYear()}-${String(lim.getMonth() + 1).padStart(2, "0")}-${String(lim.getDate()).padStart(2, "0")}`;
+  const riga = (x, sub) => `<a href="${esc(x.link)}" target="_blank" rel="noopener" style="display:block;padding:8px 0;border-top:1px solid var(--line);color:var(--ink);text-decoration:none"><b style="font-size:14px">${esc(x.titolo.slice(0, 110))}</b><br><small style="color:var(--mute)">${esc(sub)}</small></a>`;
+  const bandi = ((state.bandi && state.bandi.bandi) || []).filter((b) => b.scadenza && b.scadenza >= oggi && b.scadenza <= limISO).sort((a, b) => (b.provincia === "Caserta") - (a.provincia === "Caserta") || a.scadenza.localeCompare(b.scadenza));
+  const tre = new Date(Date.now() - 3 * 864e5).toISOString().slice(0, 10);
+  const atti = ((state.atti && state.atti.atti) || []).filter((a) => a.campania && a.data >= tre).slice(0, 3);
+  const quarantotto = Date.now() - 48 * 36e5;
+  const norm = state.news.filter((n) => inNicchia(n) && profOk(n) && n.normativa && Date.parse(n.pubblicata || n.visto) >= quarantotto).slice(0, 3);
+  if (!bandi.length && !atti.length && !norm.length) { el.innerHTML = ""; return; }
+  let h = `<div class="riepilogo" style="margin:0 0 12px"><b>⭐ Per te oggi</b>`;
+  if (bandi.length) h += `<div class="gruppo" style="margin:10px 0 2px">⏳ Gare in scadenza (${bandi.length})</div>` + bandi.slice(0, 3).map((b) => riga(b, `scade ${b.scadenza.split("-").reverse().join("/")}${b.ente ? " · " + b.ente : ""}`)).join("");
+  if (atti.length) h += `<div class="gruppo" style="margin:10px 0 2px">📜 Atti per la Campania</div>` + atti.map((a) => riga(a, `${a.data} · Gazzetta Ufficiale`)).join("");
+  if (norm.length) h += `<div class="gruppo" style="margin:10px 0 2px">⚖️ Novità normative (48 ore)</div>` + norm.map((n) => `<div class="card-mini" data-pt="${esc(n.id)}" style="padding:8px 0;border-top:1px solid var(--line);cursor:pointer"><b style="font-size:14px">${esc(n.titolo.slice(0, 110))}</b><br><small style="color:var(--mute)">${esc(n.fonte_nome || "")}</small></div>`).join("");
+  el.innerHTML = h + "</div>";
+}
+
 function renderNovita() {
+  renderPerTe();
   const box = $("#lista-novita");
   document.body.classList.toggle("pol-quadro", state.nicchia === "politica" && state.vistaPol === "quadro");
   if (state.nicchia === "politica" && state.vistaPol === "quadro") { box.innerHTML = renderPolitica(); return; }
@@ -294,7 +314,8 @@ function renderNovita() {
   let chiavi = ["stelle"];
   if (state.nicchia === "edilizia" && state.vista === "prof" && state.gruppiProf.length) {
     for (const g of state.gruppiProf) {
-      chiavi.push("#" + g.nome, ...Object.keys(state.professioni).filter((p) => state.professioni[p].gruppo === g.id).map((p) => "p:" + p));
+      const nn = (p) => filtra({ area: "p:" + p, query: "", soloNorm: state.soloNorm, primario: true }).length;
+      chiavi.push("#" + g.nome, ...Object.keys(state.professioni).filter((p) => state.professioni[p].gruppo === g.id).sort((a, b) => nn(b) - nn(a)).map((p) => "p:" + p));
     }
     chiavi.push("#📰 Generali", "p:_altre");
   } else if (GRUPPI[state.nicchia]) {
@@ -335,8 +356,16 @@ function renderNovita() {
 
 function renderArchivio() {
   chips($("#chips-archivio"), state.areaArchivio, (k) => { state.areaArchivio = k; state.mostrati = 40; renderArchivio(); });
-  const lista = filtra({ area: state.areaArchivio, query: state.query, soloNorm: false });
-  $("#lista-archivio").innerHTML = lista.length ? lista.slice(0, state.mostrati).map(card).join("") : vuoto("Nessun risultato");
+  const q = state.query.trim().toLowerCase(), cerca = q.length >= 3;
+  const lista = filtra({ area: state.areaArchivio, query: state.query, soloNorm: false, ovunque: cerca });
+  const trova = (arr) => (cerca ? (arr || []).filter((x) => `${x.titolo} ${x.ente || ""} ${x.descr || ""}`.toLowerCase().includes(q)) : []);
+  const riga = (x, sub) => `<a class="pop-r" href="${esc(x.link)}" target="_blank" rel="noopener" style="display:block;padding:10px 12px;margin-bottom:8px;background:var(--card);border:1px solid var(--line);border-radius:12px;color:var(--ink);text-decoration:none"><b style="font-size:14px">${esc(x.titolo.slice(0, 140))}</b><br><small style="color:var(--mute)">${esc(sub)}</small></a>`;
+  const bb = trova(state.bandi && state.bandi.bandi), aa = trova(state.atti && state.atti.atti);
+  let extra = "";
+  if (bb.length) extra += `<div class="gruppo">🏗️ Bandi (${bb.length})</div>` + bb.slice(0, 5).map((x) => riga(x, `${x.ente || ""}${x.scadenza ? " · scade " + x.scadenza : ""}`)).join("");
+  if (aa.length) extra += `<div class="gruppo">📜 Atti (${aa.length})</div>` + aa.slice(0, 5).map((x) => riga(x, `${x.data || ""} · Gazzetta Ufficiale`)).join("");
+  if (extra && lista.length) extra += `<div class="gruppo">📰 Notizie (${lista.length}) · tutte le nicchie</div>`;
+  $("#lista-archivio").innerHTML = (lista.length || extra) ? extra + lista.slice(0, state.mostrati).map(card).join("") : vuoto("Nessun risultato");
   $("#piu").hidden = lista.length <= state.mostrati;
 }
 
@@ -880,7 +909,7 @@ function renderProf() {
 }
 function renderTutto() { renderProf(); renderNovita(); renderArchivio(); renderFonti(); }
 
-const VERSIONE_APP = "66";
+const VERSIONE_APP = "67";
 
 async function carica(forza) {
   const q = `?t=${Date.now()}`;
@@ -959,6 +988,8 @@ document.addEventListener("click", (e) => {
     renderTutto();
     return;
   }
+  const pt = e.target.closest("[data-pt]");
+  if (pt) { const n = state.news.find((x) => x.id === pt.dataset.pt); if (n) { apriNews(n); return; } }
   const c = e.target.closest(".card");
   if (c) {
     const n = state.news.find((x) => x.id === c.dataset.id);
