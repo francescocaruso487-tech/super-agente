@@ -1,72 +1,28 @@
 {
- "aggiornato": "2026-11-28T10:55:20Z",
+ "aggiornato": "2026-11-28T11:03:45Z",
  "tassonomia": "14",
  "notizie": [
   {
-   "id": "248d4c64be429ceb",
-   "titolo": "Gaza, il funerale dei due collaboratori di Medici Senza Frontiere uccisi in un raid di Israele",
-   "link": "https://www.lapresse.it/video/2026/11/28/gaza-il-funerale-dei-due-collaboratori-di-medici-senza-frontiere-uccisi-in-un-raid-di-israele/",
-   "fonte": "p-lapresse",
-   "fonte_nome": "LaPresse Politica",
+   "id": "190b9a9505f3463d",
+   "titolo": "Gli animalisti se la prendono con GTA 6: «Fomenta la violenza». Sotto accusa le immagini di un cane preso a calci",
+   "link": "https://www.open.online/2026/11/28/denuncia-animalisti-gta-6/",
+   "fonte": "p-open",
+   "fonte_nome": "Open",
    "tipo": "stampa",
    "aree": [
-    "esteri",
+    "partiti",
     "governo"
    ],
    "normativa": false,
-   "sintesi": "Questo articolo Gaza, il funerale dei due collaboratori di Medici Senza Frontiere uccisi in un raid di Israele proviene da LaPresse",
-   "pubblicata": "2026-11-28T10:57:25Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "sintesi": "La Lega nazionale per la difesa del cane di Genova si è rivolta alla procura e alla polizia postale.",
+   "pubblicata": "2026-11-28T11:04:12Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
-    "esteri.esteri"
+    "partiti.partiti"
    ],
    "luogo": null,
    "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "e5479020a9e06e50",
-   "titolo": "Giustizia, Nordio alle toghe: \"L'inverno del nostro dissidio si è composto\"",
-   "link": "https://www.agi.it/politica/news/2026-11-28/giustizia-anm-nordio-stipendi-40221971/",
-   "fonte": "p-agi",
-   "fonte_nome": "AGI Politica",
-   "tipo": "stampa",
-   "aree": [
-    "giustizia",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "AGI - \"Ho applaudito alla fine, anche nell'intermezzo qualche volta, non sempre, ma qualche volta, quando ha detto che dobbiamo lavorare insieme, perché questo è\".",
-   "pubblicata": "2026-11-28T10:56:06Z",
-   "visto": "2026-11-28T10:55:20Z",
-   "metodo": "rss",
-   "sotto": [
-    "giustizia.giustizia"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "297fa3d8596247e0",
-   "titolo": "3 controller da veri pro per giocare meglio su PlayStation 5",
-   "link": "https://www.everyeye.it/notizie/3-controller-veri-pro-giocare-playstation-5-907569.html",
-   "fonte": "t-everyeye",
-   "fonte_nome": "Everyeye",
-   "tipo": "stampa",
-   "aree": [
-    "hardware",
-    "gaming"
-   ],
-   "normativa": false,
-   "sintesi": "Tre controller top per PS5: Sony DualSense Edge, Victrix Pro BFG Reloaded di Turtle Beach e Razer Raiju V3 Pro, ognuno con funzioni avanzate.",
-   "pubblicata": "2026-11-28T10:56:00Z",
-   "visto": "2026-11-28T10:55:20Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
    "prof": []
   },
   {
@@ -82,7 +38,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "norme.professione"
@@ -92,6 +48,68 @@
    "prof": [
     "ingegnere",
     "perito"
+   ]
+  },
+  {
+   "id": "05fca2ef90b089f5",
+   "titolo": "Abitare il Paese, dalle esperienze nelle scuole al lancio della nona edizione: «Mappare opportunità,... L'evento il 13 novembre a Roma Le esperienze sviluppate in tutta Italia da architetti, docenti e st...",
+   "link": "https://www.awn.it/86-istituzione-1/10205-abitare-il-paese-dalle-esperienze-nelle-scuole-al-lancio-della-nona-edizione-mappare-opportunita-coltivare-i-talenti",
+   "fonte": "cnappc",
+   "fonte_nome": "Architetti Italiani (CNAPPC)",
+   "tipo": "ordine",
+   "aree": [
+    "norme",
+    "formazione_cultura"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "scraping",
+   "sotto": [
+    "norme.professione",
+    "formazione_cultura.scuola"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "architetto",
+    "docente",
+    "ingegnere",
+    "perito",
+    "traduttore",
+    "archivista",
+    "curatore_mus"
+   ]
+  },
+  {
+   "id": "b11904ed503c4e68",
+   "titolo": "Rigenerazione urbana: CNAPPC, “è la strada verso un nuovo umanesimo” Obiettivo città più umane, resilienti e vivibili",
+   "link": "https://www.awn.it/press/comunicati-stampa/10037-rigenerazione-urbana-cnappc-e-la-strada-verso-un-nuovo-umanesimo",
+   "fonte": "cnappc",
+   "fonte_nome": "Architetti Italiani (CNAPPC)",
+   "tipo": "ordine",
+   "aree": [
+    "norme",
+    "edilizia"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "scraping",
+   "sotto": [
+    "norme.professione",
+    "edilizia.urbanistica"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "architetto",
+    "ingegnere",
+    "perito",
+    "geometra",
+    "notaio"
    ]
   },
   {
@@ -107,7 +125,7 @@
    "normativa": false,
    "sintesi": "Iscriviti alla newsletter: tutti gli articoli nella tua casella e-mail, quotidianamente!",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -127,7 +145,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "management.finanza"
@@ -143,6 +161,26 @@
    ]
   },
   {
+   "id": "dcfd286d7e3a09ec",
+   "titolo": "UIA Golden Cubes Awards: i vincitori Gli esiti della fase nazionale",
+   "link": "https://www.awn.it/news/cnappc-informa/10040-uia-golden-cubes-awards-i-vincitori",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
    "id": "d6909c99371c4b60",
    "titolo": "UIA: Call for Projects Atlante degli ambienti di apprendimento Le candidature entro il 15 aprile",
    "link": "https://www.awn.it/news/cnappc-informa/10038-uia-call-for-projects-atlante-degli-ambienti-di-apprendimento",
@@ -155,7 +193,47 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "1ca858f2328f087d",
+   "titolo": "Progetto Think Tank: 2 FAD asincroni per la formazione Dialoghi con personalità di fama internazionale sul ruolo della professione",
+   "link": "https://www.awn.it/news/cnappc-informa/10033-think-tank-serbatoio-di-pensiero",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "scraping",
+   "sotto": [],
+   "luogo": "Caserta",
+   "nicchia": "edilizia",
+   "prof": []
+  },
+  {
+   "id": "445c4d5bb2eaf022",
+   "titolo": "03 novembre 2026 ABITARE IL PAESE – IX EDIZIONE / 2026-2027 La nuova edizione",
+   "link": "https://www.awn.it/attivita/abitare-il-paese/10201-abitare-il-paese-9",
+   "fonte": "ord-arch-ce",
+   "fonte_nome": "Ordine Architetti Caserta",
+   "tipo": "ordine",
+   "aree": [
+    "altro"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -175,7 +253,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -195,7 +273,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -215,7 +293,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": "Caserta",
@@ -238,7 +316,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "casa_fisco.compravendita",
@@ -270,7 +348,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -299,7 +377,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -329,7 +407,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "casa_fisco.compravendita",
@@ -361,7 +439,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -391,7 +469,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "casa_fisco.compravendita",
@@ -424,7 +502,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "ambiente.rischio_idro"
@@ -456,7 +534,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "bonus.superbonus",
@@ -489,7 +567,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "casa_fisco.compravendita",
@@ -521,7 +599,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -550,7 +628,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -579,7 +657,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -609,7 +687,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "edilizia.interventi",
@@ -641,7 +719,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -671,7 +749,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "casa_fisco.compravendita",
@@ -703,7 +781,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -733,7 +811,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "isee.famiglia"
@@ -760,7 +838,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "imprese_fisco.riscossione"
@@ -790,7 +868,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "dichiarazioni.730"
@@ -817,7 +895,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "dichiarazioni.730"
@@ -844,7 +922,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "comunicazione.design"
@@ -874,7 +952,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -899,7 +977,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "dichiarazioni.730",
@@ -930,7 +1008,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -955,7 +1033,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "legale.avvocati",
@@ -986,7 +1064,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "pensioni.pensioni"
@@ -1013,7 +1091,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "imprese_fisco.contabilita"
@@ -1042,7 +1120,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1067,7 +1145,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "imprese_fisco.concordato",
@@ -1097,7 +1175,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1122,7 +1200,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "casa_fisco.locazioni"
@@ -1154,7 +1232,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "bonus.bilancio"
@@ -1185,7 +1263,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "bonus.detrazioni"
@@ -1216,7 +1294,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "management.governance"
@@ -1247,7 +1325,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1271,7 +1349,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1296,7 +1374,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "pensioni.contributi"
@@ -1323,7 +1401,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "pensioni.contributi"
@@ -1349,7 +1427,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1374,7 +1452,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "professione_fisco.servizi"
@@ -1400,7 +1478,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1424,7 +1502,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1448,7 +1526,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1473,7 +1551,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "casa_fisco.compravendita"
@@ -1505,7 +1583,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "management.manager"
@@ -1535,7 +1613,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "management.finanza"
@@ -1562,7 +1640,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "imprese.invitalia"
@@ -1589,7 +1667,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "management.finanza",
@@ -1619,7 +1697,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "bonus.contributi"
@@ -1647,7 +1725,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "norme.ue"
@@ -1672,7 +1750,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1692,7 +1770,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1712,7 +1790,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1732,7 +1810,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1753,7 +1831,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "governo.parlamento",
@@ -1777,7 +1855,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "partiti.partiti"
@@ -1799,7 +1877,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1819,7 +1897,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "giustizia.giustizia"
@@ -1841,7 +1919,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1862,7 +1940,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "economia_pol.manovra"
@@ -1884,7 +1962,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1904,7 +1982,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1924,7 +2002,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -1945,7 +2023,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "territorio.regioni"
@@ -1968,7 +2046,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "territorio.regioni"
@@ -1991,7 +2069,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "partiti.partiti"
@@ -2014,7 +2092,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "partiti.partiti"
@@ -2037,7 +2115,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "governo.governo",
@@ -2061,7 +2139,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "partiti.partiti"
@@ -2083,7 +2161,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2104,7 +2182,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "europa.economia_ue"
@@ -2127,7 +2205,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "partiti.partiti"
@@ -2149,7 +2227,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2169,7 +2247,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "governo.parlamento"
@@ -2192,7 +2270,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "governo.parlamento",
@@ -2215,7 +2293,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2236,7 +2314,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "partiti.partiti"
@@ -2258,7 +2336,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2278,7 +2356,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2299,7 +2377,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "partiti.partiti"
@@ -2321,7 +2399,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2341,7 +2419,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2361,7 +2439,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2382,7 +2460,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "economia_pol.manovra"
@@ -2404,7 +2482,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2424,7 +2502,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2444,7 +2522,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2465,7 +2543,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "esteri.esteri"
@@ -2490,7 +2568,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "esteri.esteri"
@@ -2512,7 +2590,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "esteri.esteri"
@@ -2535,7 +2613,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "europa.economia_ue"
@@ -2558,7 +2636,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "economia_pol.manovra"
@@ -2580,7 +2658,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2600,7 +2678,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2620,7 +2698,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2640,7 +2718,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "esteri.esteri"
@@ -2662,7 +2740,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2683,7 +2761,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "partiti.partiti"
@@ -2705,10 +2783,33 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "e96f34831bf50e62",
+   "titolo": "Almeno 14 migranti morti e sei feriti gravi sbarcati da un caicco a El Hierro",
+   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/28/almeno-14-migranti-morti-e-sei-feriti-gravi-sbarcati-da-un-caicco-a-el-hierro_bce18c30-5ea6-4521-ba5f-c739279c9b1d.html",
+   "fonte": "p-ansa-mondo",
+   "fonte_nome": "ANSA Mondo",
+   "tipo": "stampa",
+   "aree": [
+    "giustizia",
+    "esteri"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "scraping",
+   "sotto": [
+    "giustizia.diritti"
    ],
    "luogo": null,
    "nicchia": "politica",
@@ -2727,7 +2828,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2747,7 +2848,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2767,7 +2868,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2787,7 +2888,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2807,7 +2908,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2827,7 +2928,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2848,10 +2949,57 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "europa.istituzioni"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "27e69fb1cd2496c7",
+   "titolo": "Attacco ucraino in Libia, Scalfarotto: Governo si faccia rispettare Politica 28 nov - 12:02",
+   "link": "https://tg24.sky.it/politica/video/2026/11/28/attacco-ucraino-in-libia-scalfarotto-governo-si-faccia-rispettare-1143582",
+   "fonte": "p-sky",
+   "fonte_nome": "Sky TG24 Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo",
+    "esteri"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "scraping",
+   "sotto": [
+    "governo.governo",
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "495e07fe2c55d699",
+   "titolo": "Anm, Nordio: stiamo superando dissidi, lavoriamo insieme Politica \"I risultati del referendum costituzionale sono quello che sono, ne abbiamo preso atto e devono... 28 nov - 11:44",
+   "link": "https://tg24.sky.it/politica/video/2026/11/28/anm-nordio-stiamo-superando-dissidi-lavoriamo-insieme-1143573",
+   "fonte": "p-sky",
+   "fonte_nome": "Sky TG24 Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "scraping",
+   "sotto": [
+    "partiti.elezioni"
    ],
    "luogo": null,
    "nicchia": "politica",
@@ -2870,7 +3018,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2891,7 +3039,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "europa.istituzioni"
@@ -2914,7 +3062,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "governo.parlamento",
@@ -2937,7 +3085,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -2958,7 +3106,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "esteri.esteri",
@@ -2982,7 +3130,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "partiti.partiti"
@@ -3005,7 +3153,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "governo.quirinale",
@@ -3028,7 +3176,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -3049,7 +3197,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "giustizia.giustizia"
@@ -3072,7 +3220,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "partiti.partiti"
@@ -3095,7 +3243,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "partiti.elezioni"
@@ -3118,7 +3266,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "partiti.partiti"
@@ -3140,7 +3288,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -3161,7 +3309,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -3181,7 +3329,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -3201,7 +3349,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -3222,7 +3370,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "esteri.esteri",
@@ -3245,7 +3393,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -3265,7 +3413,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -3285,7 +3433,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -3306,11 +3454,54 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "partiti.partiti"
    ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "f5e6caed41480213",
+   "titolo": "Sparatoria a Cavarzere, dopo la morte del 38enne la Procura indaga sui poliziotti campani",
+   "link": "https://www.ilmattino.it/primopiano/cronaca/cavarzere_sparatoria_morto_indagine_procura_polizia_campania-9918709.html",
+   "fonte": "p-mattino",
+   "fonte_nome": "Il Mattino (Napoli e Campania)",
+   "tipo": "stampa",
+   "aree": [
+    "giustizia",
+    "territorio"
+   ],
+   "normativa": false,
+   "sintesi": "CAVARZERE (VENEZIA) - Spetta ora agli agenti della Squadra mobile della Questura di Venezia indagare sull'operato dei colleghi campani che ieri pomeriggio (27 novembre)…",
+   "pubblicata": null,
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [
+    "giustizia.giustizia"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "4c361fa3b69749e0",
+   "titolo": "Casalnuovo, tentano di rapinarlo e lui li sperona con l'auto: gravi un 30enne e un 17enne",
+   "link": "https://www.ilmattino.it/napoli/area_metropolitana/casalnuovo_tentata_rapina_sperona_auto_gravi_incidente_ultime_notizie-9918702.html",
+   "fonte": "p-mattino",
+   "fonte_nome": "Il Mattino (Napoli e Campania)",
+   "tipo": "stampa",
+   "aree": [
+    "territorio"
+   ],
+   "normativa": false,
+   "sintesi": "Tentano di rapinare automobilista ma vengono speronati e finiscono in ospedale dove sono ricoverati in condizioni critiche.",
+   "pubblicata": null,
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [],
    "luogo": null,
    "nicchia": "politica",
    "prof": []
@@ -3329,7 +3520,7 @@
    "normativa": false,
    "sintesi": "Il Tribunale federale della Federazione Ciclistica Italiana ha prosciolto il 21enne S.G.",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "giustizia.giustizia"
@@ -3351,7 +3542,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -3372,7 +3563,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -3392,7 +3583,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "mercato_auto.industria"
@@ -3415,7 +3606,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "elettriche.ibride"
@@ -3438,7 +3629,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "novita_auto.marchi",
@@ -3462,7 +3653,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "motorsport.moto_gp"
@@ -3484,7 +3675,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "novita_auto.modelli"
@@ -3507,7 +3698,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "novita_auto.marchi",
@@ -3530,7 +3721,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "novita_auto.marchi"
@@ -3552,10 +3743,34 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "novita_auto.modelli"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "c614ca8e71c6d78e",
+   "titolo": "Motori cinesi (costruiti in Francia) per le auto elettriche di Renault: Macron anticipa il trend dell'Europa?",
+   "link": "https://www.automoto.it/news/motori-cinesi-costruiti-in-francia-per-le-auto-elettriche-di-renault-macron-anticipa-il-trend-dell-europa.html",
+   "fonte": "a-automoto",
+   "fonte_nome": "Automoto.it",
+   "tipo": "stampa",
+   "aree": [
+    "tecnica_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "scraping",
+   "sotto": [
+    "tecnica_auto.motori",
+    "novita_auto.marchi"
    ],
    "luogo": null,
    "nicchia": "auto",
@@ -3575,7 +3790,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "prove.prove"
@@ -3598,7 +3813,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "tecnica_auto.motori"
@@ -3621,7 +3836,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "motorsport.f1"
@@ -3644,7 +3859,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "tecnica_auto.motori"
@@ -3666,7 +3881,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "novita_auto.marchi"
@@ -3689,10 +3904,32 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "novita_auto.modelli"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "ebddd09d5fa6d678",
+   "titolo": "GP Valencia, highlights qualifiche: pole da record di Bezzecchi su Marquez",
+   "link": "https://video.gazzetta.it/moto/video-gp-valencia-highlights-qualifiche-pole-da-record-di-bezzecchi-su-marquez/7acbcb0f-2ff0-40d9-aafd-6841c037exlk",
+   "fonte": "a-moto-gazzetta",
+   "fonte_nome": "Gazzetta Moto e MotoGP",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "scraping",
+   "sotto": [
+    "motorsport.moto_gp"
    ],
    "luogo": null,
    "nicchia": "auto",
@@ -3711,7 +3948,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "motorsport.moto_gp"
@@ -3733,10 +3970,34 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "motorsport.moto_gp"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "c72400bd7d38e302",
+   "titolo": "02:13 Un sapore dolceamaro: Martin e Aprilia si dicono addio Alti e bassi nel percorso che ha unito lo spagnolo al marchio italiano: le immagini dei saluti finali 26 nov 2026",
+   "link": "https://www.motogp.com/it/videos/2026/11/26/un-sapore-dolceamaro-martin-e-aprilia-si-dicono-addio/1268938?playlistId=425969",
+   "fonte": "a-motogp",
+   "fonte_nome": "MotoGP.com",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport",
+    "moto"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "scraping",
+   "sotto": [
+    "motorsport.moto_gp",
+    "moto.novita"
    ],
    "luogo": null,
    "nicchia": "auto",
@@ -3755,7 +4016,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -3775,7 +4036,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -3795,7 +4056,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -3816,10 +4077,32 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "prove.guide"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "f1120812a49526d1",
+   "titolo": "Bezzecchi, il VIDEO della pole record a Valencia TEMPO SPAZIALE Marco Bezzecchi conquista l'ultima pole position della stagione di MotoGP a Valencia e lo fa come... 28 nov - 12:02",
+   "link": "https://sport.sky.it/motogp/2026/11/28/motogp-gp-valencia-bezzecchi-pole-position-video",
+   "fonte": "a-sky-f1",
+   "fonte_nome": "Sky Sport F1 e motori",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "",
+   "pubblicata": null,
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "scraping",
+   "sotto": [
+    "motorsport.moto_gp"
    ],
    "luogo": null,
    "nicchia": "auto",
@@ -3838,7 +4121,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -3863,7 +4146,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "legale.avvocati"
@@ -3894,7 +4177,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "legale.avvocati",
@@ -3927,7 +4210,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "legale.avvocati",
@@ -3960,7 +4243,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "sanita.sistema"
@@ -3991,7 +4274,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "management.manager"
@@ -4009,6 +4292,27 @@
    ]
   },
   {
+   "id": "6a72f4b96cb354d0",
+   "titolo": "Gli auricolari per dormire Duva One ora hanno l’audio firmato Bose e si adattano al russare del partner",
+   "link": "https://www.tuttotech.net/news/2026/11/28/duva-one-auricolari-per-dormire-sound-by-bose.html",
+   "fonte": "t-tuttotech",
+   "fonte_nome": "TuttoTech",
+   "tipo": "stampa",
+   "aree": [
+    "tablet",
+    "hardware"
+   ],
+   "normativa": false,
+   "sintesi": "I nuovi Duva One, auricolari pensati per dormire sul fianco, hanno l'audio firmato Bose e una custodia che rileva i rumori della stanza, come il russare.",
+   "pubblicata": "2026-11-28T11:03:45Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
    "id": "2818aaabf48ea321",
    "titolo": "Il bilancio spacca l'Europa ma Costa insiste: 'Serve un'intesa a dicembre'",
    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/27/il-bilancio-spacca-leuropa-ma-costa-insiste-serve-unintesa-a-dicembre_8efd2071-60cc-4a6d-9da5-9029afc0c108.html",
@@ -4021,7 +4325,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -4041,7 +4345,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -4066,7 +4370,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [],
    "luogo": null,
@@ -4091,7 +4395,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "cantiere.maestranze"
@@ -4123,7 +4427,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "legale.avvocati"
@@ -4153,7 +4457,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "legale.avvocati"
@@ -4183,7 +4487,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "imprese_fisco.contabilita"
@@ -4213,7 +4517,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "appalti.gare"
@@ -4244,7 +4548,7 @@
    "normativa": true,
    "sintesi": "",
    "pubblicata": null,
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "scraping",
    "sotto": [
     "norme.ue"
@@ -4261,6 +4565,482 @@
    ]
   },
   {
+   "id": "eacd2b5d6cf81280",
+   "titolo": "Elezioni Spagna, Pedro Sanchez al comizio finale del PSOE – Le foto",
+   "link": "https://www.lapresse.it/esteri/2026/11/28/elezioni-spagna-pedro-sanchez-al-comizio-finale-del-psoe-le-foto/",
+   "fonte": "p-lapresse",
+   "fonte_nome": "LaPresse Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Questo articolo Elezioni Spagna, Pedro Sanchez al comizio finale del PSOE – Le foto proviene da LaPresse",
+   "pubblicata": "2026-11-28T11:03:44Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [
+    "partiti.elezioni"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "469d57783bd48107",
+   "titolo": "Google Documenti migliora il supporto ai file Word",
+   "link": "https://www.tuttoandroid.net/news/2026/11/28/google-documenti-supporto-word-confronta-1185421/",
+   "fonte": "tuttoandroid",
+   "fonte_nome": "TuttoAndroid",
+   "tipo": "stampa",
+   "aree": [
+    "software",
+    "smartphone"
+   ],
+   "normativa": false,
+   "sintesi": "Per Google Documenti di recente è stato rilasciato un aggiornamento con una novità per quanto riguarda la gestione dei file Word L'articolo Google Documenti migliora il…",
+   "pubblicata": "2026-11-28T11:02:06Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "86c60bee76322a81",
+   "titolo": "Ricrea Dragon Ball con Goku S.H.Figuarts di Tamashii Nations a 30,32€",
+   "link": "https://www.spaziogames.it/articoli/ricrea-dragon-ball-con-goku-shfiguarts-di-tamashii-nations-a-3032eur",
+   "fonte": "t-spaziogames",
+   "fonte_nome": "SpazioGames",
+   "tipo": "stampa",
+   "aree": [
+    "offerte",
+    "gaming"
+   ],
+   "normativa": false,
+   "sintesi": "Goku S.H.Figuarts costa 30,32€ su Amazon, con il 32% di sconto sui 44,35€ di listino. La versione The Kind-Hearted Saiyan riprende l’abbigliamento della saga di Cell e…",
+   "pubblicata": "2026-11-28T11:02:00Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "29c5cc09be057e2a",
+   "titolo": "Legge elettorale, bufera su La Russa per le parole sulla Consulta. L’ex presidente della Corte Silvestri: “Intimidazione preventiva”",
+   "link": "https://www.ilfattoquotidiano.it/2026/11/28/legge-elettorale-la-russa-consulta-polemiche-notizie-2/8586560/",
+   "fonte": "p-fatto",
+   "fonte_nome": "Il Fatto Quotidiano Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo",
+    "partiti"
+   ],
+   "normativa": false,
+   "sintesi": "Dalle opposizioni all’Anpi, fino a un presidente emerito della Corte costituzionale. Si allargano le proteste contro il presidente del Senato, Ignazio La Russa, dopo le…",
+   "pubblicata": "2026-11-28T11:01:48Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [
+    "governo.quirinale",
+    "partiti.elezioni"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "4690e1e056eb5824",
+   "titolo": "Nelle città italiane è già Natale: luminarie, eventi e cibo. Tanto cibo",
+   "link": "https://www.dire.it/28-11-2026/1294400-nelle-citta-italiane-e-gia-natale-luminarie-eventi-e-cibo-tanto-cibo/",
+   "fonte": "p-dire",
+   "fonte_nome": "Agenzia Dire",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "ROMA – E’ ancora novembre, ma è già Natale. Per atmosfera, installazioni, preparazione commerciale. Ecco come si stanno avvicinando le principali città italiane.",
+   "pubblicata": "2026-11-28T11:00:57Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "db64d15f643fecfb",
+   "titolo": "Entro quando inviare il certificato di malattia al datore?",
+   "link": "https://www.laleggepertutti.it/787516_entro-quando-inviare-il-certificato-di-malattia-al-datore",
+   "fonte": "f-legge",
+   "fonte_nome": "La Legge per Tutti",
+   "tipo": "stampa",
+   "aree": [
+    "sanita",
+    "pensioni"
+   ],
+   "normativa": true,
+   "sintesi": "Scadenze e obblighi per la malattia nel lavoro privato e pubblico. Come inviare il certificato medico all’INPS e avvisare l’azienda senza rischi.",
+   "pubblicata": "2026-11-28T11:00:24Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [
+    "sanita.professioni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "medico",
+    "farmacista",
+    "infermiere",
+    "psicologo",
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
+  },
+  {
+   "id": "27ec8a7f158629b8",
+   "titolo": "La serie Netflix di Assassin's Creed sarà fedele all'universo narrativo dei videogiochi",
+   "link": "https://multiplayer.it/notizie/la-serie-netflix-di-assassins-creed-sara-fedele-alluniverso-narrativo-dei-videogiochi.html",
+   "fonte": "t-multiplayer",
+   "fonte_nome": "Multiplayer.it",
+   "tipo": "stampa",
+   "aree": [
+    "hardware",
+    "gaming"
+   ],
+   "normativa": false,
+   "sintesi": "Il regista Stefan Schwartz anticipa nuovi dettagli sulla serie live-action di Netflix, confermando una storia inedita ma coerente con l'universo narrativo dei…",
+   "pubblicata": "2026-11-28T11:00:12Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "d04c258bf0eefdf3",
+   "titolo": "Una pianta di tabacco produce un antitumorale: caleranno i costi?",
+   "link": "https://www.tomshw.it/scienze/una-pianta-di-tabacco-produce-un-antitumorale-caleranno-i-costi",
+   "fonte": "tomshw",
+   "fonte_nome": "Tom's Hardware Italia",
+   "tipo": "stampa",
+   "aree": [
+    "pc"
+   ],
+   "normativa": false,
+   "sintesi": "Un gruppo di ricerca dell’Università di Copenaghen e dell’Università nazionale e capodistriana di Atene ha fatto produrre il paclitaxel alle foglie di Nicotiana…",
+   "pubblicata": "2026-11-28T11:00:00Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "14968bf44e10d58c",
+   "titolo": "Samsung P7 a 219,99€, l'SSD da 1TB per chi monta video in mobilità",
+   "link": "https://www.tomshw.it/offerte/samsung-p7-a-21999eur-lssd-da-1tb-per-chi-monta-video-in-mobilita",
+   "fonte": "tomshw",
+   "fonte_nome": "Tom's Hardware Italia",
+   "tipo": "stampa",
+   "aree": [
+    "pc",
+    "smartphone"
+   ],
+   "normativa": false,
+   "sintesi": "Samsung P7 costa 219,99€ su Amazon, anziché 269,97€, con uno sconto del 19%. È pensato per chi sposta progetti video, fotografie e archivi di lavoro tra più computer: la…",
+   "pubblicata": "2026-11-28T11:00:00Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "6e9123fbef879b93",
+   "titolo": "Donne e militare, le ultime carte di Sánchez",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaVFkd2s5NUczNXpNYWdnZU1lS2lULWtjckdrWk5obVV6TWQ1cUNnclBFWExMeTBGYURWWm5PTmMyUEczMm1ON09IUnl2VVhuY3AwbENsZjlDT2JSQk1oeW8wMDY5RUlDRTRNMFRHYWpxMXJEZXRBVUdYallOdGw3X1NsX2lRV2F1aUxSR1RHTmowRE81N3c?oc=5",
+   "fonte": "p-giornale",
+   "fonte_nome": "Il Giornale Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Donne e militare, le ultime carte di Sánchez il Giornale",
+   "pubblicata": "2026-11-28T11:00:00Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "6af7287a96f6456e",
+   "titolo": "Deficit troppo elevato, la Francia “vede” il declassamento",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbkdYcEhyQU1ZdEFscEN3YXg0OGZqeTc2Q0gwbEtmSWRIZ1lmQVlpbXF4LVdGNTVPN0ItcjYwVjF1cWoxQlp6bW05VFJlN3pjcVpjNDcyTU1xS2R5MVZKZzZmbmxmaGllZWhFdC1yQjQ4ckFCLTNxa3RZb2ZSWkJQUzZGbkc4YWU3Ymp0bHdFNHVieEdoRUtjMVVqN2NtVWMyUkVRaUh3?oc=5",
+   "fonte": "p-giornale",
+   "fonte_nome": "Il Giornale Politica",
+   "tipo": "stampa",
+   "aree": [
+    "economia_pol",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Deficit troppo elevato, la Francia “vede” il declassamento il Giornale",
+   "pubblicata": "2026-11-28T11:00:00Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "gnews",
+   "sotto": [
+    "economia_pol.manovra"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "f7e3d3b8e33b452e",
+   "titolo": "Trump con Rutte: stop Putin. Poi corregge e smentisce la Nato",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZUVIOF85ZFh0SVRQbkNlU0phbkNGYVBWMFdQTmdxQ2t0ZXZaWFRSRHpYZ1JvRG91c19IbUJ3ZVYzdXlKVDRMdUUtSkpscG5MWTNhWXVKV1BiZHBXcGMyVmNuZVFPZUpMTXZJRjV5bEoxcnRVZ09EMnhvczNOMkoyZ0tjRnEyZ1hwYlVrUXVCM3p2VUVaTTlreVM4X0N2OGZJcFVqWTktcUplSEU?oc=5",
+   "fonte": "p-giornale",
+   "fonte_nome": "Il Giornale Politica",
+   "tipo": "stampa",
+   "aree": [
+    "esteri",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Trump con Rutte: stop Putin. Poi corregge e smentisce la Nato il Giornale",
+   "pubblicata": "2026-11-28T11:00:00Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "gnews",
+   "sotto": [
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "d38b5f4eb18c0623",
+   "titolo": "Per Ra’am “Hamas terrorista”. Gli arabi verso il governo",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdUtxeWhlUWw0d3U1R284SUtnUkljVjR2aUN3LTBFNG51WXNYTkpiUjA1R3UxS0RNVzNhWmlPNjd0VUg2VklvRjNMVzlrV0F6LTBFVzJpNTlfWVVlemZvTmwzQjRmcnJIeXNyeHpLTk80M0lQd3ptUzYxa0FJM040TWk3cDhBc2xtblF6bGFHMnRfSnFQb3d6ZFJ1VVQ0SFZHdFE?oc=5",
+   "fonte": "p-giornale",
+   "fonte_nome": "Il Giornale Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo",
+    "esteri"
+   ],
+   "normativa": false,
+   "sintesi": "Per Ra’am “Hamas terrorista”. Gli arabi verso il governo il Giornale",
+   "pubblicata": "2026-11-28T11:00:00Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "gnews",
+   "sotto": [
+    "governo.governo",
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "b0e1d90d73ec17e4",
+   "titolo": "GP Valencia 2026, Sprint: il via alle 15:00 – DIRETTA",
+   "link": "https://www.formulapassion.it/motogp/motogp-live/diretta-motogp-gp-valencia-2026-live-sprint-cronaca-gara-aggiornamenti-partenza-marquez-bezzecchi-ducati-aprilia",
+   "fonte": "a-formula",
+   "fonte_nome": "Formula 1 e motorsport",
+   "tipo": "stampa",
+   "aree": [
+    "motorsport"
+   ],
+   "normativa": false,
+   "sintesi": "La cronaca giro dopo giro della Sprint di Valencia",
+   "pubblicata": "2026-11-28T11:00:00Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "f7d9f4c5a7660909",
+   "titolo": "Triumph, i segreti del nuovo motore 798 che correrà in Moto2 e spinge la Street Triple",
+   "link": "https://www.motorbox.com/moto/magazine-moto/nuovo-motore-triumph-798-caratteristiche-del-tre-cilindri-moto2",
+   "fonte": "a-motorbox",
+   "fonte_nome": "Motorbox",
+   "tipo": "stampa",
+   "aree": [
+    "tecnica_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "Triumph e la Moto2, un legame che va oltre la fornitura di motori per i bolidi che si sfidano tra i cordoli e una serie limitata, ma un vero e proprio banco di prova per…",
+   "pubblicata": "2026-11-28T11:00:00Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [
+    "tecnica_auto.motori"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
+   "id": "5e37e4799823c43f",
+   "titolo": "È morto Bronson Reed, la stella del wrestling WWE aveva 38 anni",
+   "link": "https://www.lapresse.it/sport/2026/11/28/e-morto-bronson-reed-la-stella-del-wrestling-wwe-aveva-38-anni/",
+   "fonte": "p-lapresse",
+   "fonte_nome": "LaPresse Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Sarebbe deceduto a causa di complicazioni di salute Questo articolo È morto Bronson Reed, la stella del wrestling WWE aveva 38 anni proviene da LaPresse",
+   "pubblicata": "2026-11-28T10:58:36Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "1761bf06d3048fcf",
+   "titolo": "Giustizia, Nordio: \"I magistrati siano responsabili nelle esternazioni mediatiche\"",
+   "link": "https://www.lapresse.it/video/2026/11/28/giustizia-nordio-i-magistrati-siano-responsabili-nelle-esternazioni-mediatiche/",
+   "fonte": "p-lapresse",
+   "fonte_nome": "LaPresse Politica",
+   "tipo": "stampa",
+   "aree": [
+    "giustizia",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Questo articolo Giustizia, Nordio: \"I magistrati siano responsabili nelle esternazioni mediatiche\" proviene da LaPresse",
+   "pubblicata": "2026-11-28T10:58:08Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [
+    "giustizia.giustizia"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "248d4c64be429ceb",
+   "titolo": "Gaza, il funerale dei due collaboratori di Medici Senza Frontiere uccisi in un raid di Israele",
+   "link": "https://www.lapresse.it/video/2026/11/28/gaza-il-funerale-dei-due-collaboratori-di-medici-senza-frontiere-uccisi-in-un-raid-di-israele/",
+   "fonte": "p-lapresse",
+   "fonte_nome": "LaPresse Politica",
+   "tipo": "stampa",
+   "aree": [
+    "esteri",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Questo articolo Gaza, il funerale dei due collaboratori di Medici Senza Frontiere uccisi in un raid di Israele proviene da LaPresse",
+   "pubblicata": "2026-11-28T10:57:25Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [
+    "esteri.esteri"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "e5479020a9e06e50",
+   "titolo": "Giustizia, Nordio alle toghe: \"L'inverno del nostro dissidio si è composto\"",
+   "link": "https://www.agi.it/politica/news/2026-11-28/giustizia-anm-nordio-stipendi-40221971/",
+   "fonte": "p-agi",
+   "fonte_nome": "AGI Politica",
+   "tipo": "stampa",
+   "aree": [
+    "giustizia",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "AGI - \"Ho applaudito alla fine, anche nell'intermezzo qualche volta, non sempre, ma qualche volta, quando ha detto che dobbiamo lavorare insieme, perché questo è\".",
+   "pubblicata": "2026-11-28T10:56:06Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [
+    "giustizia.giustizia"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
+   "id": "297fa3d8596247e0",
+   "titolo": "3 controller da veri pro per giocare meglio su PlayStation 5",
+   "link": "https://www.everyeye.it/notizie/3-controller-veri-pro-giocare-playstation-5-907569.html",
+   "fonte": "t-everyeye",
+   "fonte_nome": "Everyeye",
+   "tipo": "stampa",
+   "aree": [
+    "hardware",
+    "gaming"
+   ],
+   "normativa": false,
+   "sintesi": "Tre controller top per PS5: Sony DualSense Edge, Victrix Pro BFG Reloaded di Turtle Beach e Razer Raiju V3 Pro, ognuno con funzioni avanzate.",
+   "pubblicata": "2026-11-28T10:56:00Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "0c050729e3f663bb",
+   "titolo": "'Legge della musica', incontro tra diritto, intelligenza artificiale e music business",
+   "link": "https://www.ansa.it/campania/notizie/2026/11/28/legge-della-musica-incontro-tra-diritto-intelligenza-artificiale-e-music-business_d5845fc7-f51e-4864-8a38-a070c03251bc.html",
+   "fonte": "ansa-camp",
+   "fonte_nome": "ANSA Campania",
+   "tipo": "stampa",
+   "aree": [
+    "norme",
+    "legale"
+   ],
+   "normativa": true,
+   "sintesi": "Riuniti a Napoli avvocati, produttori multiplatino, editori musicali e professionisti",
+   "pubblicata": "2026-11-28T10:55:32Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [
+    "norme.ue",
+    "legale.avvocati"
+   ],
+   "luogo": "Campania",
+   "nicchia": "edilizia",
+   "prof": [
+    "avvocato",
+    "data",
+    "ingegnere",
+    "perito",
+    "notaio",
+    "curatore"
+   ]
+  },
+  {
    "id": "99de7877fc13dd9a",
    "titolo": "Giornale radio del mattino, sabato 28 novembre",
    "link": "https://www.lapresse.it/video/2026/11/28/giornale-radio-del-mattino-sabato-28-novembre/",
@@ -4274,7 +5054,7 @@
    "normativa": false,
    "sintesi": "Questo articolo Giornale radio del mattino, sabato 28 novembre proviene da LaPresse",
    "pubblicata": "2026-11-28T10:52:49Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "territorio.campania"
@@ -4297,7 +5077,7 @@
    "normativa": false,
    "sintesi": "Questo articolo Aumento ai magistrati, Nordio: \"Sentenza va rispettata ma possiamo differire o rateizzare\" proviene da LaPresse",
    "pubblicata": "2026-11-28T10:51:52Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "giustizia.giustizia"
@@ -4320,7 +5100,7 @@
    "normativa": false,
    "sintesi": "Un comunicato diffuso dalla Wwe nella notte italiana tra venerdì 27 e sabato 28 novembre ha annunciato la morte di Jermaine Haley, noto al pubblico del wrestling con il…",
    "pubblicata": "2026-11-28T10:51:07Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "territorio.regioni"
@@ -4328,6 +5108,33 @@
    "luogo": null,
    "nicchia": "politica",
    "prof": []
+  },
+  {
+   "id": "5c4196b57595b43d",
+   "titolo": "'Atti comunali corretti', CdS boccia ricorso ex proprietari La Sonrisa",
+   "link": "https://www.ansa.it/campania/notizie/2026/11/28/atti-comunali-corretti-cds-boccia-ricorso-ex-proprietari-la-sonrisa_1001ca04-a2aa-49df-8243-f4e0d0e005b5.html",
+   "fonte": "ansa-camp",
+   "fonte_nome": "ANSA Campania",
+   "tipo": "stampa",
+   "aree": [
+    "edilizia"
+   ],
+   "normativa": false,
+   "sintesi": "Revoca licenze, questione del Pua fino allo sgombero dei locali commerciali",
+   "pubblicata": "2026-11-28T10:50:30Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [
+    "edilizia.urbanistica"
+   ],
+   "luogo": "Campania",
+   "nicchia": "edilizia",
+   "prof": [
+    "ingegnere",
+    "architetto",
+    "geometra",
+    "notaio"
+   ]
   },
   {
    "id": "965d9b5eb9ac9534",
@@ -4343,7 +5150,7 @@
    "normativa": false,
    "sintesi": "Un conto è parlare di minaccia russa stando a Roma, un altro da Riga. La presenza Nato in Lettonia dimostra che la percezione è l’elemento distintivo, in questo momento…",
    "pubblicata": "2026-11-28T10:49:48Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "esteri.esteri"
@@ -4366,7 +5173,7 @@
    "normativa": false,
    "sintesi": "Il pilota dell'Aprilia è il primo ad essere mai sceso sotto all'1'28\" al Ricardo Tormo e con il suo 1'27\"844 firma la settima pole stagionale, la terza consecutiva.",
    "pubblicata": "2026-11-28T10:49:47Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "motorsport.moto_gp",
@@ -4389,7 +5196,7 @@
    "normativa": false,
    "sintesi": "Il dieci volte campione del mondo ha sottolineato il peso degli episodi di diplopia sulla sua decisione",
    "pubblicata": "2026-11-28T10:49:33Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "motorsport.moto_gp"
@@ -4412,7 +5219,7 @@
    "normativa": false,
    "sintesi": "Carburanti, continuano a calare i prezzi al self: benzina a 1,920 euro al litro e gasolio a 2,187 Affaritaliani",
    "pubblicata": "2026-11-28T10:48:47Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [
     "mercato_auto.prezzi",
@@ -4436,7 +5243,7 @@
    "normativa": false,
    "sintesi": "",
    "pubblicata": "2026-11-28T10:47:03Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "economia_pol.welfare"
@@ -4459,7 +5266,7 @@
    "normativa": false,
    "sintesi": "“Le sentenze vanno eseguite e quindi una sentenza del Consiglio di Stato definitiva va attuata”.",
    "pubblicata": "2026-11-28T10:45:46Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "giustizia.giustizia"
@@ -4482,7 +5289,7 @@
    "normativa": false,
    "sintesi": "Sta nel palmo di una mano, pesa appena 160 grammi e ha potenza sufficiente per ricaricare persino un MacBook Air.",
    "pubblicata": "2026-11-28T10:44:59Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -4502,7 +5309,7 @@
    "normativa": false,
    "sintesi": "Torna la manifestazione diffusa ideata da Attiva Cultural Projects",
    "pubblicata": "2026-11-28T10:44:19Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "formazione_cultura.cultura"
@@ -4529,7 +5336,7 @@
    "normativa": false,
    "sintesi": "Messina, 28 nov. (askanews) – Svolta nel caso dei tre cacciatori uccisi lo scorso 28 gennaio nei boschi di Montagnareale, nel Messinese.",
    "pubblicata": "2026-11-28T10:44:04Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -4549,7 +5356,7 @@
    "normativa": false,
    "sintesi": "“Il vettore più cattivo al mondo”: cosa succede con la low-cost Jetstar il Giornale",
    "pubblicata": "2026-11-28T10:43:44Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [],
    "luogo": null,
@@ -4569,7 +5376,7 @@
    "normativa": false,
    "sintesi": "A due giorni dall'attacco con droni che ha ucciso in Kuwait i tecnici della Rheinmetall Italia emerge la rabbia e lo strazio delle famiglie.",
    "pubblicata": "2026-11-28T10:41:11Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "governo.governo"
@@ -4577,6 +5384,33 @@
    "luogo": null,
    "nicchia": "politica",
    "prof": []
+  },
+  {
+   "id": "c4574a8d9df821dd",
+   "titolo": "Ufficiale il giorno di pagamento delle pensioni di dicembre con la tredicesima",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUkQ5OHBfUXE0ZUxobkJGSWhlSHdWVlRVclZhZW1YcFFvU01jQ3BPZUtUTVlHM1V1VmU4cXU4Z25pMkxIS2ZUdGY3Q2pTV3k4R3ljQ3pNZXppbUk4NHQ5TkxsNEtnOE5tMkpaRS1LekFEc2xJVXh1NjJXQ0VzaUZ5T18tdy1oVFdveVo1S1lDQW56UQ?oc=5",
+   "fonte": "f-caf-uil",
+   "fonte_nome": "CAF UIL",
+   "tipo": "ente",
+   "aree": [
+    "pensioni",
+    "professione_fisco"
+   ],
+   "normativa": false,
+   "sintesi": "Ufficiale il giorno di pagamento delle pensioni di dicembre con la tredicesima IlPescara",
+   "pubblicata": "2026-11-28T10:40:57Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "gnews",
+   "sotto": [
+    "pensioni.pensioni"
+   ],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "consulente_lavoro",
+    "commercialista",
+    "tributarista"
+   ]
   },
   {
    "id": "264f870bf323777c",
@@ -4591,7 +5425,7 @@
    "normativa": false,
    "sintesi": "Jimmy Ghione ha sofferto in amore. Un amore che credeva eterno. E invece no. Il suo matrimonio è finito e per questo ha pianto.",
    "pubblicata": "2026-11-28T10:40:53Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -4611,7 +5445,7 @@
    "normativa": false,
    "sintesi": "La pista di “Ballando con le Stelle” negli anni ha fatto nascere degli amori e talvolta da quegli amori sono arrivati anche dei figli, come nel caso di Massimiliano…",
    "pubblicata": "2026-11-28T10:39:32Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -4632,7 +5466,7 @@
    "normativa": false,
    "sintesi": "Assassin's Creed Black Flag Resynced costa 34,99€ su Instant Gaming, con il 42% di sconto sul listino di 59,99€.",
    "pubblicata": "2026-11-28T10:38:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -4652,7 +5486,7 @@
    "normativa": false,
    "sintesi": "Quattordicesima, chi la riceve a dicembre 2026 e quali pensionati devono restituirla all'Inps: la circolare Fanpage",
    "pubblicata": "2026-11-28T10:37:33Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [],
    "luogo": null,
@@ -4673,7 +5507,7 @@
    "normativa": false,
    "sintesi": "Napoli, 28 nov. (askanews) – “Allora le sentenze vanno eseguite. E quindi una sentenza del Consiglio di Stato definitiva va attuata”.",
    "pubblicata": "2026-11-28T10:37:02Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "giustizia.giustizia"
@@ -4695,7 +5529,7 @@
    "normativa": false,
    "sintesi": "Roma, 28 nov. (askanews) – “Penso di aver fatto un errore, avrei dovuto prendere un aereo, volare a Roma e chiarirmi con il presidente Gravina”.",
    "pubblicata": "2026-11-28T10:36:02Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -4715,7 +5549,7 @@
    "normativa": false,
    "sintesi": "Carlo Cracco ha pubblicato il libro “Questo piatto è da rifare”. Al centro 31 piatti della cucina italiana, ogni ricetta contiene un errore.",
    "pubblicata": "2026-11-28T10:36:02Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -4735,7 +5569,7 @@
    "normativa": false,
    "sintesi": "Questo articolo Il Dalai Lama benedice migliaia di fedeli durante il rito del Tenshug – Le foto proviene da LaPresse",
    "pubblicata": "2026-11-28T10:35:54Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -4756,7 +5590,7 @@
    "normativa": false,
    "sintesi": "Il pilota Aprilia ha rifilato quasi mezzo secondo al 10 volte iridato",
    "pubblicata": "2026-11-28T10:35:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "motorsport.moto_gp",
@@ -4780,7 +5614,7 @@
    "normativa": false,
    "sintesi": "La deflagrazione sarebbe stata causata da un incidente in un deposito di esplosivi, vicino all'istituto Questo articolo Afghanistan, esplosione in una scuola: almeno 7…",
    "pubblicata": "2026-11-28T10:34:50Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "economia_pol.welfare"
@@ -4803,7 +5637,7 @@
    "normativa": false,
    "sintesi": "Sono quattordici i corpi recuperati da un barcone alla deriva, a circa 72 chilometri a sud dell’isola di El Hierro, nell’arcipelago delle Canarie.",
    "pubblicata": "2026-11-28T10:34:17Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "territorio.campania"
@@ -4825,7 +5659,7 @@
    "normativa": false,
    "sintesi": "Oggi a Bologna si gioca la seconda semifinale della Coppa Davis 2026. La Spagna sfida la Gran Bretagna.",
    "pubblicata": "2026-11-28T10:32:43Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -4846,7 +5680,7 @@
    "normativa": false,
    "sintesi": "Rockstar punta ai 30 fps su tutte le console: risoluzioni e tecniche di upscaling variano per piattaforma, con attenzione a grafica e prestazioni.",
    "pubblicata": "2026-11-28T10:32:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -4867,7 +5701,7 @@
    "normativa": false,
    "sintesi": "Bezzecchi sorprende anche Aprilia: pole position nell’ultima qualifica della stagione e dell’era MotoGP 1000, secondo è Marc Marquez. Cronaca e classifiche a Valencia.",
    "pubblicata": "2026-11-28T10:32:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "motorsport.moto_gp",
@@ -4891,7 +5725,7 @@
    "normativa": false,
    "sintesi": "Pirelli si appresta ad affrontare la concorrenza del fornitore di pneumatici del World Rally Championship, oltre che della Casa giapponese, quando il prossimo anno si…",
    "pubblicata": "2026-11-28T10:31:06Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "tecnica_auto.motori",
@@ -4914,7 +5748,7 @@
    "normativa": false,
    "sintesi": "Una speciale riunione di scienziati, quasi una festa, si è svolta mercoledì 25 novembre in una cornice scelta non a caso: la Sala dei dinosauri del Museo di Storia…",
    "pubblicata": "2026-11-28T10:31:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -4935,7 +5769,7 @@
    "normativa": false,
    "sintesi": "Roma, 28 nov. (askanews) – Sul fronte delle infrastrutture finanziarie e digitali l’Europa è una ‘colonia’ degli Stati Uniti? Basta che lo decida lo ‘zio Sam’ e imprese…",
    "pubblicata": "2026-11-28T10:30:03Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "europa.istituzioni"
@@ -4958,7 +5792,7 @@
    "normativa": false,
    "sintesi": "Sony BRAVIA 3 II costa 619,00€ su Amazon, anziché 789,00€, con uno sconto del 22%: è il prezzo più basso del 2026.",
    "pubblicata": "2026-11-28T10:30:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -4979,7 +5813,7 @@
    "normativa": false,
    "sintesi": "Il Cyber Monday cade lunedì 30 novembre. Cinque acquisti tech da valutare, dalle cuffie ai caricabatterie USB-C, con i controlli da fare prima di ordinare.",
    "pubblicata": "2026-11-28T10:30:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -4999,7 +5833,7 @@
    "normativa": false,
    "sintesi": "Sei vittorie e nessun titolo mondiale in sei stagioni, eppure a Maranello pesa più di molti campioni.",
    "pubblicata": "2026-11-28T10:30:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -5020,7 +5854,7 @@
    "normativa": false,
    "sintesi": "Quando si parla di ibride plug-in, il nodo viene sempre al pettine al momento di misurare ciò che accade fuori dai laboratori di omologazione, tra autonomie reali e…",
    "pubblicata": "2026-11-28T10:30:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "elettriche.ibride",
@@ -5044,7 +5878,7 @@
    "normativa": false,
    "sintesi": "Per l'identificazione dei dispositivi di rete su Internet e all'interno delle reti domestiche si sfrutta il protocollo IP.",
    "pubblicata": "2026-11-28T10:29:32Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -5065,7 +5899,7 @@
    "normativa": false,
    "sintesi": "(Adnkronos) - Chen Li Hsian, docente della National University of Singapore, a margine del terzo appuntamento dell'International Alliance on Brain Health, a Roma",
    "pubblicata": "2026-11-28T10:29:14Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "sanita.sistema",
@@ -5098,7 +5932,7 @@
    "normativa": false,
    "sintesi": "Milano, 28 nov. (askanews) – Si è chiusa ieri a Verona la 43ma Assemblea annuale dell’Anci, che dal 25 al 27 novembre ha registrato oltre 25mila presenze complessive nei…",
    "pubblicata": "2026-11-28T10:28:38Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "territorio.regioni"
@@ -5121,7 +5955,7 @@
    "normativa": false,
    "sintesi": "In un recente intervento sul Corriere della Sera, Paolo Benanti e Sebastiano Maffettone hanno affrontato il delicatissimo problema delle democrazie contemporanee.",
    "pubblicata": "2026-11-28T10:28:04Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "partiti.partiti"
@@ -5143,7 +5977,7 @@
    "normativa": false,
    "sintesi": "Biogas nell’Agro Pontino, il progetto da 16,5 milioni divide Pontinia RaiNews",
    "pubblicata": "2026-11-28T10:28:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [],
    "luogo": null,
@@ -5164,7 +5998,7 @@
    "normativa": false,
    "sintesi": "Secondo il Telegraph , Zelensky vorrebbe distruggere il collegamento tra la Crimea e la Russia.",
    "pubblicata": "2026-11-28T10:27:50Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "esteri.esteri"
@@ -5187,7 +6021,7 @@
    "normativa": false,
    "sintesi": "Diffida a Ministero Interno, 'pronunce dell'autorità giudiziaria vanno rispettate'",
    "pubblicata": "2026-11-28T10:27:43Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "legale.avvocati",
@@ -5219,7 +6053,7 @@
    "normativa": false,
    "sintesi": "Roma, 28 nov. (askanews) – Medici senza frontiere ha denunciato oggi “un attacco diretto” da parte delle forze israeliane contro una delle sue cliniche nella Striscia di…",
    "pubblicata": "2026-11-28T10:27:02Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "esteri.esteri"
@@ -5241,7 +6075,7 @@
    "normativa": false,
    "sintesi": "L'ultimo saluto allo \"squalo\", aperta la camera ardente per De Gennaro RaiNews",
    "pubblicata": "2026-11-28T10:24:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [],
    "luogo": null,
@@ -5262,7 +6096,7 @@
    "normativa": false,
    "sintesi": "Fine vita, una legge provinciale per la libertà di scegliere RaiNews",
    "pubblicata": "2026-11-28T10:24:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [
     "giustizia.diritti"
@@ -5285,7 +6119,7 @@
    "normativa": false,
    "sintesi": "Il presidente del Senato ha avvertito che un'eventuale cancellazione dell'indicazione del candidato premier sulla scheda rappresenterebbe un aiuto alla sinistra…",
    "pubblicata": "2026-11-28T10:23:43Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "partiti.elezioni",
@@ -5308,7 +6142,7 @@
    "normativa": false,
    "sintesi": "Milano, 28 nov. (askanews) – Svolta nelle indagini sui fatti avvenuti il 28 gennaio 2026 nei boschi di Montagnareale, nel Messinese, dove tre cacciatori furono uccisi a…",
    "pubblicata": "2026-11-28T10:23:03Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -5330,7 +6164,7 @@
    "normativa": false,
    "sintesi": "Il ministro invita al dialogo: \"Insieme abbiamo ottenuto risultati, andiamo avanti così\" Questo articolo Nordio al congresso dell’Anm: “Superato il conflitto sul…",
    "pubblicata": "2026-11-28T10:22:43Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "partiti.partiti",
@@ -5354,7 +6188,7 @@
    "normativa": false,
    "sintesi": "L’ultima lettera di Gianni De Gennaro, quella pubblicata dal Corriere della Sera, fa venire alla mente un lontano episodio. Era il 14 aprile 1930.",
    "pubblicata": "2026-11-28T10:20:54Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -5374,7 +6208,7 @@
    "normativa": false,
    "sintesi": "Allerte meteo e sospensione didattica: il personale Ata è comunque in servizio. Flc Cgil Crotone: \"Dov'è la sicurezza dei lavoratori? Tecnica della Scuola",
    "pubblicata": "2026-11-28T10:20:49Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [
     "formazione_cultura.scuola"
@@ -5402,7 +6236,7 @@
    "normativa": false,
    "sintesi": "Fermin Aldeguer spiega che in parte non è stato colto di sorpresa dal ritiro di Marc Marquez, e ha chiaro che la sua partenza è per lui un'opportunità per sostituirlo…",
    "pubblicata": "2026-11-28T10:20:03Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "motorsport.moto_gp",
@@ -5426,7 +6260,7 @@
    "normativa": false,
    "sintesi": "Roma, 28 nov. (askanews) – “Per costruire l’alternativa e dare un futuro migliore al Paese, i nostri sindaci saranno davanti perché loro dimostrano che le nostre non…",
    "pubblicata": "2026-11-28T10:19:05Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "territorio.regioni"
@@ -5448,7 +6282,7 @@
    "normativa": false,
    "sintesi": "Buttrio (Udine), 28 nov. (askanews) – Dai formaggi che in agosto diventano quasi arancioni agli agnelli allevati sui pascoli affacciati sull’Adriatico.",
    "pubblicata": "2026-11-28T10:19:02Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -5488,7 +6322,7 @@
    "normativa": false,
    "sintesi": "Roma, 28 nov. (askanews) – Circa 600 pazienti e 27 centri clinici per misurare l’impatto della robotica dopo un ictus.",
    "pubblicata": "2026-11-28T10:18:02Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -5532,7 +6366,7 @@
    "normativa": false,
    "sintesi": "(Adnkronos) - \"Il racconto cinematografico rende accessibili elementi complessi e offre uno sguardo nuovo sulla vita del paziente\"",
    "pubblicata": "2026-11-28T10:16:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "comunicazione.design"
@@ -5559,7 +6393,7 @@
    "normativa": false,
    "sintesi": "ESCLUSIVO - La rivelazione del consigliere di Musk: “Con Grillo c’è un work in progress...” il Giornale",
    "pubblicata": "2026-11-28T10:15:58Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [],
    "luogo": null,
@@ -9360,7 +10194,7 @@
    "normativa": false,
    "sintesi": "(Adnkronos) - Il professore di Psichiatria dell'Università di Bari, a margine del terzo appuntamento dell'International Alliance on Brain Health a Roma",
    "pubblicata": "2026-11-28T10:15:08Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "formazione_cultura.scuola"
@@ -9440,7 +10274,7 @@
    "normativa": false,
    "sintesi": "Bruxelles, 28 nov. (askanews) – Non è un buon momento per Antonio Costa. Un mese fa raccontavamo le critiche che aveva ricevuto al Consiglio europeo per la gestione del…",
    "pubblicata": "2026-11-28T10:13:03Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "europa.istituzioni"
@@ -9507,7 +10341,7 @@
    "normativa": false,
    "sintesi": "Roma, 28 nov. (askanews) – Alle molteplici minacce dello scenario attuale, il sistema italiano di difesa e sicurezza e le imprese che ne fanno parte devono rispondere da…",
    "pubblicata": "2026-11-28T10:10:02Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "esteri.difesa"
@@ -9614,7 +10448,7 @@
    "normativa": true,
    "sintesi": "Demenze: la prevenzione può evitare 33mila casi, agire su 11 fattori di rischio Frosinone News",
    "pubblicata": "2026-11-28T10:06:33Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [],
    "luogo": null,
@@ -9644,7 +10478,7 @@
    "normativa": false,
    "sintesi": "La nuova funzione, progettata per essere rapida e intuitiva, è disponibile per i diffusori serie L/R con piattaforma StreamMagic mediante un aggiornamento gratuito",
    "pubblicata": "2026-11-28T10:05:40Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -9664,7 +10498,7 @@
    "normativa": false,
    "sintesi": "Milano, 28 nov. (askanews) – Solo pochi mesi fa Salmo portava nella sua terra, la Sardegna, il Lebonski Park: un format unico nel suo genere, dodici ore di musica…",
    "pubblicata": "2026-11-28T10:05:03Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -9848,6 +10682,29 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "b993eba0dfdce4fb",
+   "titolo": "almodovar_comizio_sanchez_poesia_censura_spagna",
+   "link": "https://www.lastampa.it/esteri/2026/11/28/video/almodovar_comizio_sanchez_poesia_censura_spagna-15812338/",
+   "fonte": "p-stampa",
+   "fonte_nome": "La Stampa Politica",
+   "tipo": "stampa",
+   "aree": [
+    "partiti",
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Pedro Almodóvar è salito a sorpresa sul palco della Caja Mágica di Madrid, durante il comizio conclusivo della campagna elettorale di Pedro Sánchez, a due giorni dalle…",
+   "pubblicata": "2026-11-28T10:02:00Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [
+    "partiti.elezioni"
+   ],
+   "luogo": null,
+   "nicchia": "politica",
    "prof": []
   },
   {
@@ -10593,6 +11450,26 @@
    ]
   },
   {
+   "id": "5f14bc6c3e37c10a",
+   "titolo": "Fiat Panda 6×6, l'esemplare unico al mondo con motore A112 Abarth",
+   "link": "https://www.hdmotori.it/fiat-panda-6x6-tre-assi-motore-a112-abarth/",
+   "fonte": "hdblog",
+   "fonte_nome": "HDblog",
+   "tipo": "stampa",
+   "aree": [
+    "smartphone"
+   ],
+   "normativa": false,
+   "sintesi": "Dalla provincia di Lecco una Fiat Panda 4×4 trasformata in pick-up a sei ruote motrici, carrozzeria allungata in carbonio e motore 1.050 A112 Abarth volumetrico",
+   "pubblicata": "2026-11-28T10:00:58Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
    "id": "b38aa699e7429fa4",
    "titolo": "Neonazismo, l'onda silenziosa che attraversa l'Europa: la radicalizzazione dei giovani tra social, scuole e violenza",
    "link": "https://www.ilmessaggero.it/video/politica/neonazismo_europa_social_scuole_giovani-9918642.html",
@@ -10963,7 +11840,7 @@
    "normativa": false,
    "sintesi": "La docuserie di Francesco Lettieri su Rita De Crescenzo arriva in tre episodi su Prime Video.",
    "pubblicata": "2026-11-28T09:55:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -11362,7 +12239,7 @@
    "normativa": false,
    "sintesi": "Il libertino di Stravinskij apre la stagione dell'Opera di Roma. E il pubblico applaude RaiNews",
    "pubblicata": "2026-11-28T09:47:28Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [],
    "luogo": null,
@@ -11383,7 +12260,7 @@
    "normativa": false,
    "sintesi": "Roma, 28 nov. (askanews) – Un banchiere centrale equilibrato, con spiccate capacità di cercare e trovare consenso, per una istituzione che basa i suoi processi…",
    "pubblicata": "2026-11-28T09:45:03Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "europa.economia_ue"
@@ -11565,7 +12442,7 @@
    "normativa": false,
    "sintesi": "Dal gelo della Mostra a Melissa P, il regista ripercorre gli esordi difficili e la lezione che gli ha cambiato il modo di fare cinema",
    "pubblicata": "2026-11-28T09:41:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -11586,7 +12463,7 @@
    "normativa": false,
    "sintesi": "ChatGPT su Android potrà fare chiamate, inviare SMS e leggere lo schermo WebTrek",
    "pubblicata": "2026-11-28T09:40:34Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [],
    "luogo": null,
@@ -11838,7 +12715,7 @@
    "normativa": false,
    "sintesi": "e ai 6.000 mAh",
    "pubblicata": "2026-11-28T09:35:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -11954,7 +12831,7 @@
    "normativa": false,
    "sintesi": "L’organizzazione sanitaria: già 17 vittime. L’esercito: avevano studiato piani per compiere attacchi contro civili",
    "pubblicata": "2026-11-28T09:32:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "esteri.esteri"
@@ -12318,7 +13195,7 @@
    "normativa": false,
    "sintesi": "Il Guardasigilli ha scelto una postura diversa rispetto allo scontro che nelle ultime settimane ha caratterizzato il confronto politico sulla giustizia",
    "pubblicata": "2026-11-28T09:26:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "giustizia.giustizia",
@@ -12716,7 +13593,7 @@
    "normativa": false,
    "sintesi": "L’azzurro trascina l’Italia in finale di Davis: «Sono sempre costretto a dimostrare qualcosa, non so perché.",
    "pubblicata": "2026-11-28T09:19:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -12874,7 +13751,7 @@
    "normativa": false,
    "sintesi": "(Adnkronos) - Bisogna \"voltare pagina da un governo che ha tagliato agli enti locali, ha tagliato sul trasporto pubblico locale, sul sociale, sulla sanità pubblica…",
    "pubblicata": "2026-11-28T09:16:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "partiti.partiti",
@@ -12971,7 +13848,7 @@
    "normativa": false,
    "sintesi": "Il ministro al congresso dell'Associazione nazionale magistrati: \"Visto il momento di grave sacrificio un pò per tutti in Italia, può e deve essere, secondo me proprio…",
    "pubblicata": "2026-11-28T09:15:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "giustizia.giustizia",
@@ -13126,7 +14003,8 @@
    "sotto": [],
    "luogo": null,
    "nicchia": "auto",
-   "prof": []
+   "prof": [],
+   "altre_fonti": []
   },
   {
    "id": "fef3f27891cf0a9c",
@@ -13405,6 +14283,30 @@
    "nicchia": "politica",
    "prof": [],
    "dp": 1
+  },
+  {
+   "id": "69e6bfeffae47592",
+   "titolo": "Messina. Sottrazione di minori e danni a famiglie e società, convegno a Villa Cianciafara",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX3pjNDBwLTBqZlV4dS15aVFKbF8xTDBtakpmbXFTOW1wMTY1blI4ODdmWk43S1czTVFObU5CaW1NZFF1WmxNRGVXMHZjbkFiRl9wSHZHcnZ1VXlXNDR6eF9xajBRaUI5bXhFazV5Z1lZbjVDdEt6M0dJcVdENVNOU1JfdnNpZU9ySFY0S3hlRGZRek5FMEVHY1o2bktIbTZQS3JHVnRURnFWMHNHT2RoZUZoTWhkV2tTN2R0cnowQUhMQ1U?oc=5",
+   "fonte": "pr-cnf",
+   "fonte_nome": "Avvocati (CNF)",
+   "tipo": "ordine",
+   "aree": [
+    "legale"
+   ],
+   "normativa": false,
+   "sintesi": "Messina. Sottrazione di minori e danni a famiglie e società, convegno a Villa Cianciafara Tempostretto",
+   "pubblicata": "2026-11-28T09:05:00Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "avvocato",
+    "notaio",
+    "curatore"
+   ]
   },
   {
    "id": "da5a0c4cbc51ecae",
@@ -14387,6 +15289,27 @@
    "sintesi": "Il Samsung Galaxy S26 è in offerta e diventa il compatto giusto da prendere in questo periodo di Black Friday.",
    "pubblicata": "2026-11-28T09:00:00Z",
    "visto": "2026-11-28T10:55:20Z",
+   "metodo": "rss",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "tech",
+   "prof": []
+  },
+  {
+   "id": "badbf23c33303048",
+   "titolo": "Samsung Galaxy S26, il compatto cala di prezzo: è il momento giusto per l'acquisto",
+   "link": "https://www.hdblog.it/smartphone/offerte/n678638/samsung-galaxy-s26-offerta-prezztop10/",
+   "fonte": "hdblog",
+   "fonte_nome": "HDblog",
+   "tipo": "stampa",
+   "aree": [
+    "offerte",
+    "smartphone"
+   ],
+   "normativa": false,
+   "sintesi": "Il Samsung Galaxy S26 è in offerta e diventa il compatto giusto da prendere in questo periodo di Black Friday.",
+   "pubblicata": "2026-11-28T09:00:00Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -15907,7 +16830,7 @@
    "normativa": false,
    "sintesi": "Docenti di ruolo possono partecipare al un nuovo concorso ordinario 2027. Punteggio per mobilità e graduatoria interna Orizzonte Scuola Notizie",
    "pubblicata": "2026-11-28T08:27:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [
     "formazione_cultura.scuola"
@@ -16348,7 +17271,7 @@
    "normativa": false,
    "sintesi": "iPhone 17 torna in offerta e si conferma un best buy anche a fine novembre: è l'iPhone da prendere durante il periodo del Black Friday.",
    "pubblicata": "2026-11-28T08:15:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -17450,7 +18373,7 @@
    "normativa": false,
    "sintesi": "Carburanti: prezzo medio self benzina a 1,920 euro al litro, gasolio a 2,187 Agenzia Nova",
    "pubblicata": "2026-11-28T08:06:22Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [
     "mercato_auto.prezzi",
@@ -19128,7 +20051,8 @@
     "hr",
     "formatore",
     "consulente_lavoro"
-   ]
+   ],
+   "altre_fonti": []
   },
   {
    "id": "5bc29605802e64f3",
@@ -19276,7 +20200,7 @@
    "normativa": false,
    "sintesi": "Lo Xiaomi Redmi Note 15 5G da 512 GB è in offerta e diventa un'ottima soluzione per chi è alla ricerca di un mid-range sotto i 300 euro.",
    "pubblicata": "2026-11-28T08:00:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -23132,7 +24056,7 @@
    "normativa": false,
    "sintesi": "A due mesi dallo scorporo del nuovo soggetto dalla Città della Salute è ancora in forse la ripartizione del personale e dei fondi",
    "pubblicata": "2026-11-28T06:59:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -23739,6 +24663,26 @@
    "prof": []
   },
   {
+   "id": "d182fab876cb14fb",
+   "titolo": "Chi era davvero Gianni De Gennaro e perché non sapremo mai la verità su via D'Amelio - con Roberto Saviano",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQ29fZmNiU3ZCR3QxVTBtNlRHcjRDT2JrRnhsSlBPQ2tKRkc1VEIwSHVkaVNjX0dHaE95Uk1EdGk2b0hzcEYxUDZ0VlFuRWs5OVdLeWlscm03M3ZQb1dxWTlQdkh2SlM4Tmo5RWVSclptamdxR2hsZ0RWejh2TzM2V3Z4RVAxSldwVHNCT1Fwa2dfRFZBTExCY2NjS0pJQzhjSENIR2Q3bGhGU0lZX2VUT2lWS2wxRmR2dXRXNUVtd01hSnVJY0tPVTYyeVpwTUU?oc=5",
+   "fonte": "p-fanpage",
+   "fonte_nome": "Fanpage Politica",
+   "tipo": "stampa",
+   "aree": [
+    "governo"
+   ],
+   "normativa": false,
+   "sintesi": "Chi era davvero Gianni De Gennaro e perché non sapremo mai la verità su via D'Amelio - con Roberto Saviano Fanpage",
+   "pubblicata": "2026-11-28T06:35:05Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "politica",
+   "prof": []
+  },
+  {
    "id": "6e93c4ecfc3fd94f",
    "titolo": "Google Docs: ora è possibile confrontare i file Word senza conversione",
    "link": "https://www.hdblog.it/google/articoli/n678605/google-docs-confronta-file-word/",
@@ -24153,6 +25097,31 @@
    "prof": []
   },
   {
+   "id": "072397ea03ad17ee",
+   "titolo": "Garlasco, incontro con il comitato di cittadini: il Comune contrario all’ipotesi di un data center nell’area ex Record",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTC1tX0U0UEcxODV0X0h2bk5Wb2xQQkQ0NnJoVkkyTTlNYmhUZWctMy15YnVZZ0Nxd0wwb0hxUF9zNEREcS1BUHdvYWJZb3UwenpjMEx4WFp6YWNoYVNTTnJrR1pSX242QVJXajhyOTlMdjVUMzZzcXp5bHVTd1luQkJjWm5tNHEwWDJPSDNQNGdiR1pEcHFIcS1BZVpMYml6YzFCa3Z3ajZYcFZYVEI2cVFfTW1raGVzdXdEM0p3c0pBMWtWaHhtUV9mbnQ0ZTlLOXdhMkJGNDdGeFFqbmhYSTc1UjlTUQ?oc=5",
+   "fonte": "pr-terna",
+   "fonte_nome": "Terna e reti elettriche",
+   "tipo": "ente",
+   "aree": [
+    "energia"
+   ],
+   "normativa": false,
+   "sintesi": "Garlasco, incontro con il comitato di cittadini: il Comune contrario all’ipotesi di un data center nell’area ex Record Milano Pavia NEWS",
+   "pubblicata": "2026-11-28T06:29:19Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "edilizia",
+   "prof": [
+    "energy",
+    "certificatore",
+    "ingegnere",
+    "impiantista"
+   ]
+  },
+  {
    "id": "94971470fb422d2a",
    "titolo": "A Valencia rimosso il murales di Valentino Rossi: è stato sostituito con un maxischermo per celebrare Marquez",
    "link": "https://www.ilfattoquotidiano.it/2026/11/28/murales-valentino-rossi-valencia-marquez-rimosso-perche-maxischermo/8586072/",
@@ -24395,7 +25364,7 @@
    "normativa": false,
    "sintesi": "Carlo Pernat: \"Marc Marquez si ritira perché è stato un periodo allucinante. Nessun essere umano poteva reggere\" Fanpage",
    "pubblicata": "2026-11-28T06:20:16Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [],
    "luogo": null,
@@ -27209,7 +28178,7 @@
    "normativa": true,
    "sintesi": "Dichiarazione dell'esistenza del carattere di eccezionalita' degli eventi calamitosi verificatisi nei territori della Regione Lombardia nei mesi di luglio e agosto 2026.",
    "pubblicata": "2026-11-28T06:00:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "ufficiale",
    "sotto": [
     "ambiente.rischio_idro"
@@ -27237,7 +28206,7 @@
    "normativa": true,
    "sintesi": "Assegnazione del fondo a favore delle amministrazioni centrali dello Stato, per assicurare il finanziamento degli investimenti e lo sviluppo infrastrutturale del Paese…",
    "pubblicata": "2026-11-28T06:00:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "ufficiale",
    "sotto": [
     "management.finanza",
@@ -27267,7 +28236,7 @@
    "normativa": true,
    "sintesi": "Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di paliperidone, «Paliperidone Viatris». (26A06164)",
    "pubblicata": "2026-11-28T06:00:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "ufficiale",
    "sotto": [
     "sanita.professioni"
@@ -27294,7 +28263,7 @@
    "normativa": true,
    "sintesi": "Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di esomeprazolo, «Esomeprazolo Aurobindo Italia». (26A06165)",
    "pubblicata": "2026-11-28T06:00:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "ufficiale",
    "sotto": [
     "sanita.professioni"
@@ -27321,7 +28290,7 @@
    "normativa": true,
    "sintesi": "Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di teduglutide, «Teduglutide Cipla». (26A06166)",
    "pubblicata": "2026-11-28T06:00:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "ufficiale",
    "sotto": [
     "sanita.professioni"
@@ -27348,7 +28317,7 @@
    "normativa": true,
    "sintesi": "Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di fidaxomicina, «Fidaxomicina Sun». (26A06174)",
    "pubblicata": "2026-11-28T06:00:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "ufficiale",
    "sotto": [
     "sanita.professioni"
@@ -27375,7 +28344,7 @@
    "normativa": true,
    "sintesi": "Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Amlodipina Pensa». (26A06176)",
    "pubblicata": "2026-11-28T06:00:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "ufficiale",
    "sotto": [
     "sanita.professioni"
@@ -27402,7 +28371,7 @@
    "normativa": true,
    "sintesi": "Revoca, su rinuncia, dell'autorizzazione all'importazione parallela di taluni medicinali per uso umano (26A06194)",
    "pubblicata": "2026-11-28T06:00:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "ufficiale",
    "sotto": [
     "sanita.professioni"
@@ -27501,7 +28470,7 @@
    "normativa": false,
    "sintesi": "La donna di 81 anni doveva stare in mezzo alla strada tutto il giorno per chiedere l’elemosina: per lei continue umiliazioni e offese",
    "pubblicata": "2026-11-28T05:54:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -28061,7 +29030,7 @@
    "normativa": false,
    "sintesi": "SOMMARIO Rinnovabili elettriche: dati giornalieri, settimanali, mensili Prezzo unico nazionale (PUN) ed esteri Prezzi petrolio e gas Prezzi CO2 e certificati bianchi…",
    "pubblicata": "2026-11-28T05:15:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [
     "energia.rinnovabili",
@@ -29776,6 +30745,29 @@
    ]
   },
   {
+   "id": "52641dce6445c58b",
+   "titolo": "BENTLEY Continental/Azure Usata prezzo e caratteristiche tecniche - Auto Usate",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdjI2RW5Qd2lqWUNrczhZc0FMNVh5cUtrMnBMOUVFT3JGU0JzU0xPQXUxZ0o2RGJoclRRWXdzX21SQ1ZtejMzRkFZclgxQjdjMDdURzB4YUI0eTZkUjBwMFAwOVBOclBQTF9rcmcwdU93T0FCZDJpMDRZTlFub0s3LXFKdEV1ZEdZbGc?oc=5",
+   "fonte": "a-quattroruote",
+   "fonte_nome": "Quattroruote",
+   "tipo": "stampa",
+   "aree": [
+    "mercato_auto",
+    "novita_auto"
+   ],
+   "normativa": false,
+   "sintesi": "BENTLEY Continental/Azure Usata prezzo e caratteristiche tecniche - Auto Usate Quattroruote",
+   "pubblicata": "2026-11-28T03:38:37Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "gnews",
+   "sotto": [
+    "mercato_auto.prezzi"
+   ],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "557b1ca7fbecf603",
    "titolo": "Il MacBook Air M5 ha appena ottenuto il più grande sconto da quando Apple ha aumentato il prezzo",
    "link": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
@@ -30274,7 +31266,7 @@
    "normativa": false,
    "sintesi": "Convalidato il fermo del 50enne: la 92enne è morta dopo la rapina",
    "pubblicata": "2026-11-28T03:00:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -30294,7 +31286,7 @@
    "normativa": false,
    "sintesi": "I collettivi: “Stop agli accordi militari”. In 50 nell’ex centrale termica contro l’accordo con Mbda. L’azienda: “Partnership rispettosa della sensibilità di tutti”",
    "pubblicata": "2026-11-28T03:00:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "rss",
    "sotto": [],
    "luogo": null,
@@ -64555,7 +65547,7 @@
    "normativa": false,
    "sintesi": "Pescare Show 2027, ecco le novità. Confermate le premiazioni del Trofeo Repubblica di San Marino San Marino Rtv",
    "pubblicata": "2026-11-27T16:53:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [],
    "luogo": null,
@@ -76090,6 +77082,26 @@
    ]
   },
   {
+   "id": "ba0fff5630319e02",
+   "titolo": "Virus Shamonda, 5 province spagnole positive e 13 Paesi Ue coinvolti: cosa cambia per le stalle italiane",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMHdyMERNcUQ2Qng2dlVCWGNVN3FlTG0zaEtBUm1oemVVV0RJMTExbUdmWHNzNmxVclFtMndWcXRHS0VLSlpqS3RzdmZOcjFFR2JPdVZUS3V2Nzd4ZDhEN1pseVV2b0dyYTZRRlZJUHhSeTNQZGJySlhXZEtNRVRiYlRFUUhOaVU?oc=5",
+   "fonte": "a-trattori",
+   "fonte_nome": "Trattori e macchine agricole",
+   "tipo": "stampa",
+   "aree": [
+    "mezzi"
+   ],
+   "normativa": false,
+   "sintesi": "Virus Shamonda, 5 province spagnole positive e 13 Paesi Ue coinvolti: cosa cambia per le stalle italiane OmniTrattore.it",
+   "pubblicata": "2026-11-27T15:23:25Z",
+   "visto": "2026-11-28T11:03:45Z",
+   "metodo": "gnews",
+   "sotto": [],
+   "luogo": null,
+   "nicchia": "auto",
+   "prof": []
+  },
+  {
    "id": "fe6ad8e4bc456459",
    "titolo": "MotoGP | Valencia, Prove: Marquez continua a non fare sconti e precede un tris di Aprilia",
    "link": "https://it.motorsport.com/motogp/news/motogp-valencia-prove-marquez-continua-a-non-fare-sconti-e-precede-un-tris-di-aprilia-/10878284/",
@@ -76843,7 +77855,7 @@
    "normativa": true,
    "sintesi": "Accordo unanime in prima commissione al Senato per inserire l'Inno di Mameli in Costituzione EduNews24",
    "pubblicata": "2026-11-27T15:16:39Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [
     "governo.parlamento"
@@ -88707,7 +89719,7 @@
    "normativa": false,
    "sintesi": "Concorso docenti A034, ripubblicata la graduatoria per il Veneto News Istruzione",
    "pubblicata": "2026-11-27T14:00:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [
     "formazione_cultura.scuola"
@@ -99097,7 +100109,7 @@
    "normativa": false,
    "sintesi": "Venezia, ticket d'accesso fino a 20 euro. Fa discutere la proposta di Fratelli d'Italia RaiNews",
    "pubblicata": "2026-11-27T12:31:00Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [
     "partiti.partiti"
@@ -118722,7 +119734,7 @@
    "normativa": false,
    "sintesi": "Scuola per ricchi o per tutti_ Franco Lorenzoni racconta le diseguaglianze Tecnica della Scuola",
    "pubblicata": "2026-11-27T10:12:03Z",
-   "visto": "2026-11-28T10:55:20Z",
+   "visto": "2026-11-28T11:03:45Z",
    "metodo": "gnews",
    "sotto": [
     "formazione_cultura.scuola"
@@ -141469,917 +142481,6 @@
    "luogo": null,
    "nicchia": "auto",
    "prof": []
-  },
-  {
-   "id": "5b25343f893d4b2e",
-   "titolo": "Obereggen-Latemar Dolomites apre il 27 novembre, le novità",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQ0pKZ3JQZ3NhYjJVTURzWTdJc1AxSm9GQ2Z4dVAxbWF1STdzSG5pMWJtRXJVeFFDTUdzcVVSVmtIRHlDM0N3ZV9Uc2VNUlRZVGdUSmdRa2JFZnEwQkd3NElXNDFRdzdTN09SVDMySC1HRDV6bFVEdW5NTlEtTVNBeXFhbGtXSnZMd2RJZjdmNkxHcXJ2Wlkzc19ZZTNycGJGQmtRaU5NaFJpQUQxNWp3YUNlV3J3eWVXRm9NU25VMHB2T09VOTloR2hrTE1RWTBxV0dQa1Z6VlBSbjM4cVRsT3ktUWRWRmZkM1E?oc=5",
-   "fonte": "a-mtb",
-   "fonte_nome": "MTB Mag / Mtb-Vtt",
-   "tipo": "stampa",
-   "aree": [
-    "bici"
-   ],
-   "normativa": false,
-   "sintesi": "Obereggen-Latemar Dolomites apre il 27 novembre, le novità SportOutdoor24",
-   "pubblicata": "2026-11-27T07:01:00Z",
-   "visto": "2026-11-27T12:01:06Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "2305fd0c71d4a1fa",
-   "titolo": "Vigilanza sugli alunni, lo SPECIALE per le istituzioni scolastiche: obblighi, responsabilità, infortuni e tutela del personale scolastico. 14 approfondimenti e 21 modelli da scaricare",
-   "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNWXJ3a0l4dF9hZWlVamliS25wNEUyRk1zaXh6dktUMGpqY3pLR2htcGVkUFVFVWU0RHAzdlFMVm5zUjBBME0tbU5ob0ZVQ0Rmc0xkSHBvNjBsZW1Jcng1cnZhNktWZDJoVGxlMnltaFU4ZThQdXRQckNyOHpONUN3T1BDam9XT2JEQjlVRHJEWk84d3dlc3VwZW5oTHh1UmI4ZVliM2RMb3k5dW9qeDA1M1NNZmdFYkVJZ0dzZGRuNWl1dmJQY2FWU3BHRldZRFhDU1cxODlZX1pIcGM3TUFMbmRybU9SRE1TY2RQTURjaGp4M25KcC1xanRjUjhvUlV2T1hxUTR4SDJjQjRNdXVLcmw1UXJWZjkwN0NKRGdocHZ1R09ZaEExS2o2bFRkQndSM29mYg?oc=5",
-   "fonte": "pr-scuola",
-   "fonte_nome": "Orizzonte Scuola e Tecnica della Scuola",
-   "tipo": "stampa",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "Vigilanza sugli alunni, lo SPECIALE per le istituzioni scolastiche: obblighi, responsabilità, infortuni e tutela del personale scolastico.",
-   "pubblicata": "2026-11-27T07:00:51Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "e7ca342f2e1049e4",
-   "titolo": "Volvo addestra i robot AEON copiando gli operai: in fabbrica dal 2027",
-   "link": "https://www.hdmotori.it/volvo-cars-robot-umanoidi-aeon-fabbrica-ghent-2027/",
-   "fonte": "hdblog",
-   "fonte_nome": "HDblog",
-   "tipo": "stampa",
-   "aree": [
-    "smartphone"
-   ],
-   "normativa": false,
-   "sintesi": "Volvo Cars sperimenta i robot umanoidi AEON nello stabilimento di Ghent. Sviluppati con Hexagon, affiancheranno gli operai nei lavori pesanti: debutto in linea nel 2027.",
-   "pubblicata": "2026-11-27T07:00:28Z",
-   "visto": "2026-11-27T08:14:14Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "81ee4e672b9cb403",
-   "titolo": "Kuwait: morti due tecnici italiani di Rheinmetall. L’azienda: “Siamo sconvolti”",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVl9GNFZQSXU4UjhDUGxuYkVXbFZlX0FTNTRyckd3b1JpMnZJWm1PRTJsbFlwY3pHRmVuU0h1LUN6SkNLMTNRdUs1c19aNGNpWEl4REo2aGJPY2JNenRrZy1lWTItSjZrT2ZuRHZmdUtSUHlFY1RraktYdGk1M25jbnpua01CRkRlMHJRRHRDRE11UVBPRnQwVFpvSjJuSTZibzFycTF1UVRnQU0?oc=5",
-   "fonte": "p-esteri",
-   "fonte_nome": "Ministero degli Esteri (Farnesina)",
-   "tipo": "ufficiale",
-   "aree": [
-    "esteri"
-   ],
-   "normativa": true,
-   "sintesi": "Kuwait: morti due tecnici italiani di Rheinmetall. L’azienda: “Siamo sconvolti” Agenzia Nova",
-   "pubblicata": "2026-11-27T07:00:21Z",
-   "visto": "2026-11-27T10:14:47Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "b95b00631909a38a",
-   "titolo": "Rilasciato GTA VI FPS Unlocker per PS5: 60 FPS, fix Delta-Time, offset e risoluzione",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNV05Ec2dmejdDejZmOE9yZ1NpUS1zWmlMSXd1T0ZvS1pheGZZZ2ZGN2NCX1dvLV9EZHl4UUlLZ3FLT05QU1pveTc3WnZRUnhadzRNX2VXZnVUQUpRNnZnbk9hNExYUUJvSGlwSnFRcm04akM3WmlGT0pUUUdaaFA5b0UyaHo3b3NHZ0RPblFQTHVfdTFfSS16RXAwM3BYV3NHS09LZUNmSTU1TklrOERJRDdXdnJuQUhwbkV5cVhmSDJ6ZFk?oc=5",
-   "fonte": "t-prezzi-gaming",
-   "fonte_nome": "Offerte gaming",
-   "tipo": "stampa",
-   "aree": [
-    "gaming",
-    "offerte"
-   ],
-   "normativa": false,
-   "sintesi": "Rilasciato GTA VI FPS Unlocker per PS5: 60 FPS, fix Delta-Time, offset e risoluzione BiteYourConsole",
-   "pubblicata": "2026-11-27T07:00:14Z",
-   "visto": "2026-11-27T11:01:08Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "58a8e0302656958c",
-   "titolo": "Inquinamento, non tutti gli alberi aiutano a limitarne l’impatto: ecco cosa consiglia la scienza",
-   "link": "https://quifinanza.it/salute/inquinamento-flora-urbana/1025908/",
-   "fonte": "f-quifinanza",
-   "fonte_nome": "QuiFinanza",
-   "tipo": "stampa",
-   "aree": [
-    "scienze",
-    "isee"
-   ],
-   "normativa": false,
-   "sintesi": "Flora urbana su misura per l’azione anti-inquinamento. Perché non sarebbe sufficiente solamente immettere verde sul territorio, ma per controllare meglio lo smog ed i…",
-   "pubblicata": "2026-11-27T07:00:05Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "rss",
-   "sotto": [
-    "scienze.chimica"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "geologo",
-    "agronomo",
-    "chimico",
-    "biologo",
-    "fisico",
-    "commercialista",
-    "tributarista"
-   ]
-  },
-  {
-   "id": "bb1d7a98e2026c14",
-   "titolo": "Una famiglia numerosa ha scambiato la città con il bosco, questa è la casa che hanno costruito a Girona",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdVh4dWhfeTdtNWY0LXJVQlg4ODZ3YVhDSzFTSmFreERsZng1Rjkzdk4wZm1TaUEwd2ZBT2ZkVEdBT2xuVWN1QTNjV0lHbDdCQ3FiM1RtRHFJSTJfNF85X2YtMTM4eVVKRG9iZzI1MTVFak0zb2hsMEpReTlYQkZQNmFQQndLY2xIcGVMMG1ZU1RoLXpNdDF1U1Q4QUFmdWR3ZkRISnBmdUZLcWx0Yk4yS1lhSmNITk5VcjE5YWNzOEJwaWZrczU2c0pGWFpVY1ZCYkJQLXdCZjVoOG1Pek1YSkFFbnlXSDDSAewBQVVfeXFMUG5YTjJPQlpnRUhPb19wTG5jMURKSGxlaVB6ZndCdWJxVWdzY3h5UkdTMk5JQUtCb2lIRW84ZGhGdEQ1T1NxUWFPVG5CemZWajVMdjF1VXVPMkc5ZWJ1VDFVZ1AwU0FKR08yX2thb1RLVkxKNFE1NU9mOHNTcjVRSDUxR1RkSnV5ZWxpc3FxeXE3QTY1T3pfM3FTRUlqcFZ4VTk3SzlUQzFhV2JYajdPdGgzVXphTkxTc052Nzk4Zjh0bm1RS29SQ2JsRk1oY2FTUG9maFlHemtPWkhqa1U4S1Bnd0UwY21qN0JOM2s?oc=5",
-   "fonte": "pr-immobiliare-news",
-   "fonte_nome": "Immobiliare.it e Idealista News",
-   "tipo": "stampa",
-   "aree": [
-    "immobiliare"
-   ],
-   "normativa": false,
-   "sintesi": "Una famiglia numerosa ha scambiato la città con il bosco, questa è la casa che hanno costruito a Girona Idealista",
-   "pubblicata": "2026-11-27T07:00:01Z",
-   "visto": "2026-11-27T08:14:14Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "agente_imm",
-    "condominio",
-    "valutatore",
-    "facility",
-    "mutui",
-    "notaio"
-   ]
-  },
-  {
-   "id": "41f11db9c6c528bc",
-   "titolo": "Detrazione Iva sui lavori di ristrutturazione, via libera anche se l’immobile diventerà abitativo",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZ190TmRCeDFDczJhN1BqUjVKLWFld3NQSTJibEJBMDlFVTF6THBuR3ZRQnlPMFdvd0Zzay1lS0s0Yk1GODlhUTJaWVJOa3B0SklfNlNOQkoyeWV5LXZSQ2F4czkxWVRFWVNYUlJidk1ibDd4TDJVcTJJOXFiN093WVYzc1ZaUDhKRDNtQl9kcjRJWWptbWlJQXZuWWI1Njc3Z1NlM3NhbVVhVGRsV2RzSXhzUHcxaEFMU2ZwQS1xYUdGMV9rOW04OXlsVlBnVGlrTTZ5NDJxOWVDbW1RdGIwZFFn0gHnAUFVX3lxTFBBNFVDeExaY1ZZczhZc082TVBqNmxtcmhsRFFZQ2J6S3ZvUG1zSl9SMUVLN0tMUlgxRXJlckhObUtyd215cmZjVEdXZ255WU5CYTItMEx6dU1FNkJKSS0tTmJlR2d2YUFWUk13UzlsVnJSdmpzdEJ3czhOMjZOc25mMlVKc3g1Nmt1SGZiZDRvUjVHbHNCTHJZRkstWHFvSUhrYjF1Ri1wNGt4azZSNnJmNW9TZ1V5VTBHeV91cnN0eTNVYjBzSjFUTHlpR2dIUkZUSTM5U2JubEt2WG55Y3RkU0RqQ0JSQQ?oc=5",
-   "fonte": "pr-immobiliare-news",
-   "fonte_nome": "Immobiliare.it e Idealista News",
-   "tipo": "stampa",
-   "aree": [
-    "edilizia",
-    "immobiliare"
-   ],
-   "normativa": true,
-   "sintesi": "Detrazione Iva sui lavori di ristrutturazione, via libera anche se l’immobile diventerà abitativo Idealista",
-   "pubblicata": "2026-11-27T07:00:01Z",
-   "visto": "2026-11-27T08:14:14Z",
-   "metodo": "gnews",
-   "sotto": [
-    "edilizia.interventi"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "agente_imm",
-    "condominio",
-    "valutatore",
-    "facility",
-    "mutui",
-    "ingegnere",
-    "architetto",
-    "geometra"
-   ]
-  },
-  {
-   "id": "1dd81064e882dd8f",
-   "titolo": "Pignoramento immobiliare per il coniuge separato, come funziona",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObVFDZF9LRGNhenIwSFNZRl9VNEFnVi0wWHU1UFVrUTZWUFZyX2hYdWhQdjFjSnVRWnN5dUF1WHc2aFp6M0dHdGpUZlhFaWlBZFBET2pqd1BobHNRampfRTUxZFdfM2hINWhXWXJYbUR3QUVCbC1CN1duS1VlcUhiS1N6M3huZktNRkduRDJsOUh5a3VUSFRuODNQbnI5Y3ROWjd2VDhaSEZEakR3Ullyc0I1WlR0eWpsNTBMNzVBU1_SAcYBQVVfeXFMT3RJSVhtTE42X2poZ0N3WkRkX3Y0NTdLang3cHZpNVF1d3VFMlF3VjdpbzVyMHd6WVg3SnN3dlFDZUdJR2MwdXFxQ3YzTjNlZkdkVnBvd09ZYkt0R2hPMVpSaDhtaV9PWlNQS09QM01vS0dJbU4yU1o1YldiQlAxc29aWndhb1NQd095V2ZBWGsyWEd4YTMwbXBSNnlKczlHaWZNdzd1c1JCVlBqNDhLQk11TUZuY0dVQ01uTzN2azkzQkdxV3dn?oc=5",
-   "fonte": "pr-immobiliare-news",
-   "fonte_nome": "Immobiliare.it e Idealista News",
-   "tipo": "stampa",
-   "aree": [
-    "immobiliare"
-   ],
-   "normativa": false,
-   "sintesi": "Pignoramento immobiliare per il coniuge separato, come funziona Idealista",
-   "pubblicata": "2026-11-27T07:00:01Z",
-   "visto": "2026-11-27T08:14:14Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "agente_imm",
-    "condominio",
-    "valutatore",
-    "facility",
-    "mutui",
-    "notaio"
-   ]
-  },
-  {
-   "id": "011fc7fd6f021cdc",
-   "titolo": "REDMI Note 17 5G a 269,90€, un OLED da 6,99\" per chi guarda tutto sul telefono",
-   "link": "https://www.tomshw.it/offerte/redmi-note-17-5g-a-26990eur-un-oled-da-699-per-chi-guarda-tutto-sul-telefono",
-   "fonte": "tomshw",
-   "fonte_nome": "Tom's Hardware Italia",
-   "tipo": "stampa",
-   "aree": [
-    "smartphone",
-    "pc"
-   ],
-   "normativa": false,
-   "sintesi": "REDMI Note 17 5G costa 269,90€ su Amazon, anziché 327,04€, con uno sconto del 17%: è il prezzo più basso del 2026.",
-   "pubblicata": "2026-11-27T07:00:00Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "a6b66fc745571e23",
-   "titolo": "La palestra di casa cambia forma: con Speediance pesi, cyclette e personal trainer diventano digitali",
-   "link": "https://images.dday.it/X5xgTYlEcD_MuNW6tcslHTECqsUXS1NjBBLUtRkc_Hs/w:329/h:256/rt:fill/plain/s3://dday-production/system/uploads/news/square_crop_img/59615/a41343_speediance_thumb.jpg",
-   "fonte": "dday",
-   "fonte_nome": "DDay.it",
-   "tipo": "stampa",
-   "aree": [
-    "offerte",
-    "pc"
-   ],
-   "normativa": false,
-   "sintesi": "Niente pile di dischi, niente muri da forare e molto più software. Tutto converge verso una palestra domestica sempre più connessa: e per il Black Friday gli sconti…",
-   "pubblicata": "2026-11-27T07:00:00Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "b78e41efb2405eb3",
-   "titolo": "Black Friday Lefant, ecco le migliori offerte: fino a 500 euro di sconto sui robot",
-   "link": "https://images.dday.it/JW5yZ_SdTLjLt7oCNZ7nRDB-A2-o5Yc9WBScGxoLZNI/w:329/h:256/rt:fill/plain/s3://dday-production/system/uploads/news/square_crop_img/59432/a413fd_lefant_thumb.jpg",
-   "fonte": "dday",
-   "fonte_nome": "DDay.it",
-   "tipo": "stampa",
-   "aree": [
-    "offerte",
-    "pc"
-   ],
-   "normativa": false,
-   "sintesi": "È arrivato il Black Friday e Lefant è in prima linea per farti risparmiare ma senza rinunciare alle prestazioni.",
-   "pubblicata": "2026-11-27T07:00:00Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "051e4f997845594c",
-   "titolo": "PREMIAZIONI PROVINCIALI MONZA BRIANZA. DOMANI, A CARATE BRIANZA LA GRANDE FESTA DEL 2026",
-   "link": "https://www.tuttobiciweb.it/article/2026/11/27/1795710820/ciclismo-premiazioni-monza-brianza-ruote-d-oro-campioni",
-   "fonte": "a-tuttobici",
-   "fonte_nome": "TuttoBiciWeb (ciclismo)",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport",
-    "bici"
-   ],
-   "normativa": false,
-   "sintesi": "Domani, sabato 28 novembre, la grande festa all’Auditorium Vittorio Ghezzi di Carate Brianza con inizio alle ore 15.00.",
-   "pubblicata": "2026-11-27T07:00:00Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "rss",
-   "sotto": [
-    "motorsport.altri"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "b9b3145815016ceb",
-   "titolo": "Dove si trova il borgo medievale di Serrungarina e cosa vedere",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaklpV0xfUWRRRlFPcjZZQzJGbS12YWlZT2Q4MEVtQkg2bGlTZ3pabjNaa0pEVkNMb2lMaFVTSjVlYkxsaHNJRG8tTWVRS2R4YVZzaVRyUlp5bEU5WXpockwxbGN2aVRIdVJFZS1nS2cwaFBtUHNmNGE3eDlPa0Z1SDFvUGJVUW1qN3RuYVA0R2pKS3hrQVNEeGh5ZGNYSWZsVEV5UUMyVHo1c3dReFh2M3BQUUdtTGVBVmc?oc=5",
-   "fonte": "pr-immobiliare-news",
-   "fonte_nome": "Immobiliare.it e Idealista News",
-   "tipo": "stampa",
-   "aree": [
-    "immobiliare"
-   ],
-   "normativa": false,
-   "sintesi": "Dove si trova il borgo medievale di Serrungarina e cosa vedere Immobiliare.it",
-   "pubblicata": "2026-11-27T07:00:00Z",
-   "visto": "2026-11-27T08:14:14Z",
-   "metodo": "gnews",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "agente_imm",
-    "condominio",
-    "valutatore",
-    "facility",
-    "mutui",
-    "notaio"
-   ]
-  },
-  {
-   "id": "79695139e0c4bbf0",
-   "titolo": "Prezzo dei carburanti, benzina a 1.938, diesel a 2.197. La regione più cara è la Basilicata",
-   "link": "https://quifinanza.it/osservatorio-prezzi/prezzo-carburanti-oggi/909839/",
-   "fonte": "f-quifinanza",
-   "fonte_nome": "QuiFinanza",
-   "tipo": "stampa",
-   "aree": [
-    "antincendio",
-    "isee"
-   ],
-   "normativa": false,
-   "sintesi": "Ogni giorno dalle 8.30 del mattino, QuiFinanza vi informa sul costo dei carburanti in tutte le regioni italiane.",
-   "pubblicata": "2026-11-27T07:00:00Z",
-   "visto": "2026-11-27T09:01:08Z",
-   "metodo": "rss",
-   "sotto": [
-    "antincendio.attivita"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "ingegnere",
-    "perito",
-    "dl",
-    "commercialista",
-    "tributarista"
-   ]
-  },
-  {
-   "id": "39229a2dff4696d1",
-   "titolo": "Michelin mostra come fare pneumatici senza sacrificare le foreste",
-   "link": "https://it.motor1.com/news/816916/michelin-pneumatici-gomma-deforestazione-zero/",
-   "fonte": "a-motor1",
-   "fonte_nome": "Motor1 Italia",
-   "tipo": "stampa",
-   "aree": [
-    "tecnica_auto",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "Dopo 10 anni di lavoro il produttore francese è arrivato a impiegare solo gomma naturale coltivata in piantagioni a deforestazione zero",
-   "pubblicata": "2026-11-27T07:00:00Z",
-   "visto": "2026-11-27T09:01:08Z",
-   "metodo": "rss",
-   "sotto": [
-    "tecnica_auto.motori"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "ac83338fdce1ce9f",
-   "titolo": "GP Valencia 2026: gli orari Sky/Now e TV8",
-   "link": "https://www.formulapassion.it/motogp/motogp-orari/orari-tv-gp-valencia-2026-televisione-programmazione-diretta-sky-differita-tv8-dove-vederla-bezzecchi-marquez-aprilia-ducati",
-   "fonte": "a-formula",
-   "fonte_nome": "Formula 1 e motorsport",
-   "tipo": "stampa",
-   "aree": [
-    "motorsport"
-   ],
-   "normativa": false,
-   "sintesi": "I dettagli della programmazione televisiva dell'ultimo appuntamento del Motomondiale 2026",
-   "pubblicata": "2026-11-27T07:00:00Z",
-   "visto": "2026-11-27T09:01:08Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": [],
-   "altre_fonti": []
-  },
-  {
-   "id": "7b2200882967724e",
-   "titolo": "Camerae Sanitatis. Intervista ad Andrea Quartini (M5S): “Manovra senza risposte per il Ssn. Serve un piano nazionale di reclutamento e un cambio di governance”",
-   "link": "https://www.quotidianosanita.it/governo-e-parlamento/camerae-sanitatis-intervista-ad-andrea-quartini-m5s-manovra-senza-risposte-per-il-ssn-serve-un-piano-nazionale-di-reclutamento-e-un-cambio-di-governance/",
-   "fonte": "pr-qs",
-   "fonte_nome": "Quotidiano Sanità",
-   "tipo": "stampa",
-   "aree": [
-    "sanita",
-    "management"
-   ],
-   "normativa": true,
-   "sintesi": "Riportare la sanità in capo allo Stato per contrastare le disuguaglianze regionali e investire sui determinanti di salute.",
-   "pubblicata": "2026-11-27T07:00:00Z",
-   "visto": "2026-11-27T09:01:08Z",
-   "metodo": "rss",
-   "sotto": [
-    "sanita.sistema",
-    "management.governance"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "medico",
-    "odontoiatra",
-    "farmacista",
-    "psicologo",
-    "fisioterapista",
-    "infermiere",
-    "dietista",
-    "veterinario"
-   ]
-  },
-  {
-   "id": "ec308bd0543f11d0",
-   "titolo": "I 75 anni a teatro di “Trappola per topi”: così siamo ancora prigionieri di Agatha Christie",
-   "link": "https://www.repubblica.it/cultura/2026/11/27/news/i_75_anni_a_teatro_di_trappola_per_topi_cosi_siamo_ancora_prigionieri_di_agatha_christie-425752976/",
-   "fonte": "t-repubblica-tech",
-   "fonte_nome": "Repubblica Tecnologia",
-   "tipo": "stampa",
-   "aree": [
-    "ai"
-   ],
-   "normativa": false,
-   "sintesi": "La commedia gialla ideata dalla grande scrittrice è in scena a Londra ininterrottamente dal 1952. Ecco perché, nonostante tutto, non passa mai di moda",
-   "pubblicata": "2026-11-27T07:00:00Z",
-   "visto": "2026-11-27T10:14:47Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "9432a4c5e0eb384f",
-   "titolo": "Immigrazione e asilo: 10 proposte del Tavolo Asilo e Immigrazione al Parlamento",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWm1mQ0tqQkNNTEZOQWdBQTBiNTQxQWtPd3BxekowWmVvOEpSbDFiSWhQN0Z6TTU4dTN3OXlIZ0dwcEc1OGRhcUFfZERHVlVmMnVNekYySXdXN0RfVkFzcXZNQ1FoR3d1VGRJZmNqWUJYZ2YxVm1TOHVubXBnOFVoaXBPUFVfVVdBaXNnOG1YbjNOV2MwU3J6czN2OFVrZkgyOG1mN29udl9DMFhmQUtUTzdNZ2I?oc=5",
-   "fonte": "p-interno",
-   "fonte_nome": "Ministero dell'Interno",
-   "tipo": "ufficiale",
-   "aree": [
-    "governo",
-    "giustizia"
-   ],
-   "normativa": true,
-   "sintesi": "Immigrazione e asilo: 10 proposte del Tavolo Asilo e Immigrazione al Parlamento Servizidemografici.com",
-   "pubblicata": "2026-11-27T07:00:00Z",
-   "visto": "2026-11-27T18:01:07Z",
-   "metodo": "gnews",
-   "sotto": [
-    "governo.parlamento",
-    "giustizia.diritti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "6af5ee0e5b3ddc98",
-   "titolo": "Pensioni: Bonus Giorgetti verso la conferma per il 2027, come funziona",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNX1pPMFNwdGZLMTdJVVJ6T1BUWWk1elVLYk1uOEhBaFk0NnF5ZG1sUUZqYVNwT0JjZzU2UVpkX1VzRklFemNqU1FaNDZMbjJ2U3pZVjdQaWI0Z1ZkanpVR1RWNGdwSGY1ZE9FejhwSDFvc0lNWFlFMUVJaG9ReURWaUNyaWx4dw?oc=5",
-   "fonte": "p-mef",
-   "fonte_nome": "Ministero Economia (MEF)",
-   "tipo": "ufficiale",
-   "aree": [
-    "economia_pol"
-   ],
-   "normativa": true,
-   "sintesi": "Pensioni: Bonus Giorgetti verso la conferma per il 2027, come funziona Borsa&Finanza",
-   "pubblicata": "2026-11-27T07:00:00Z",
-   "visto": "2026-11-27T18:01:07Z",
-   "metodo": "gnews",
-   "sotto": [
-    "economia_pol.welfare"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "6c6883ab39decccb",
-   "titolo": "Mirafiori, nuovo stop con cassa integrazione: Stellantis lancia l'allarme sui costi dell'energia",
-   "link": "https://www.motorbox.com/auto/magazine/stellantis-mirafiori-nuova-cassa-integrazione-400-lavoratori-dicembre",
-   "fonte": "a-motorbox",
-   "fonte_nome": "Motorbox",
-   "tipo": "stampa",
-   "aree": [
-    "mercato_auto",
-    "novita_auto"
-   ],
-   "normativa": false,
-   "sintesi": "Per Carrozzere Mirafiori non ci sono notizie positive. Dopo una settimana di lavoro, Stellantis ha annunciato che ricorrerà alla cassa integrazione da martedì 1 a…",
-   "pubblicata": "2026-11-27T07:00:00Z",
-   "visto": "2026-11-28T10:55:20Z",
-   "metodo": "rss",
-   "sotto": [
-    "mercato_auto.industria",
-    "novita_auto.marchi"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "dd72e7b2bc9703a7",
-   "titolo": "Basta pulire i vetri a mano: il Black Friday vi sconta il robot Ecovacs Mini 2",
-   "link": "https://www.macitynet.it/basta-pulire-i-vetri-a-mano-il-black-friday-vi-sconta-il-robot-ecovacs-mini-2/",
-   "fonte": "t-macitynet",
-   "fonte_nome": "Macitynet",
-   "tipo": "stampa",
-   "aree": [
-    "offerte",
-    "smartphone"
-   ],
-   "normativa": false,
-   "sintesi": "Il Black Friday taglia di quasi 114 euro il prezzo del robot lavavetri di ultima generazione di Ecovacs, capace di lavorare anche sulle finestre più strette e di pulire…",
-   "pubblicata": "2026-11-27T06:59:57Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "761fcc4d46fbc102",
-   "titolo": "Bollo auto elettriche, chi non paga e cosa cambia dal 2027",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCNnV0RDAzNjViT0NtaUhOLWhLZnpVUTFMaVQxNHhtTE9YeVR4X1E3VDB6SXl4eGdDeWpQajFLcDJMN0hSV0dNNEFBc3NRSDlkbGxSWUNVZHJMVVVrak1FbFYzQXo2b0VlT29GUWhQUkhMNTJTbGtLRTktVkI?oc=5",
-   "fonte": "ai-incentivi",
-   "fonte_nome": "Incentivi auto in vigore",
-   "tipo": "stampa",
-   "aree": [
-    "normativa_auto",
-    "incentivi_auto"
-   ],
-   "normativa": false,
-   "sintesi": "Bollo auto elettriche, chi non paga e cosa cambia dal 2027 InsideEVs Italia",
-   "pubblicata": "2026-11-27T06:59:57Z",
-   "visto": "2026-11-27T17:01:15Z",
-   "metodo": "gnews",
-   "sotto": [
-    "normativa_auto.burocrazia",
-    "incentivi_auto.agevolazioni"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "008f43aab7d219a4",
-   "titolo": "I migliori smartphone Oppo disponibili nel 2026",
-   "link": "https://www.tomshw.it/smartphone/migliori-smartphone-oppo",
-   "fonte": "tomshw",
-   "fonte_nome": "Tom's Hardware Italia",
-   "tipo": "stampa",
-   "aree": [
-    "smartphone",
-    "pc"
-   ],
-   "normativa": false,
-   "sintesi": "Il miglior Oppo 2026 per foto e prestazioni è OPPO Find X10 Pro Max. OPPO Reno16 5G è la scelta equilibrata di fascia media, OPPO Find X9 Ultra privilegia lo zoom ottico…",
-   "pubblicata": "2026-11-27T06:59:20Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "ba8a3ca6d401e264",
-   "titolo": "I giovani di oggi guadagnano il 17,5% in meno dei loro coetanei degli anni ’80. E uno su due ha un contratto a termine",
-   "link": "https://www.open.online/2026/11/27/stipendi-giovani-italia-calo-anni-ottanta/",
-   "fonte": "p-open",
-   "fonte_nome": "Open",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Secondo un'analisi dell'Osservatorio sui Conti Pubblici Italiani, la disoccupazione giovanile è diminuita rispetto a quarant'anni fa, ma sono aumentati la precarietà…",
-   "pubblicata": "2026-11-27T06:58:44Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "7e75d0d25db11b00",
-   "titolo": "Bilancio 2027 Regione Campania, 180mila euro a ogni consigliere di maggioranza per gli emendamenti: all'opposizione 60mila",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWTdBUExCa2RjcEFpalFRZS1KT1g2VmROdkloaG52SG50QzV0ZE0yY0ZPMjIyY0FfdDFISWNOS3llS0lZMWdUdF93YnNubnZWeUZSTTZ0STk4YkVTRmxIa19iVEE2UnhJRTRSa1MxZFZPc3dhTkJIM21Fd21heVI4UHBjMWNLQnh6T0xzUmFQR25EWlJVenVJUWotVnp3akpQMDEya0M3a19DS3A0QTE0MFBLTEd4Vng2WDZ0NzVhdTVmRUpwMVR0dkRsNVNwend2NV9WREkzY0ZzOWtQbTJEamVWTm0?oc=5",
-   "fonte": "p-fanpage",
-   "fonte_nome": "Fanpage Politica",
-   "tipo": "stampa",
-   "aree": [
-    "territorio",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Bilancio 2027 Regione Campania, 180mila euro a ogni consigliere di maggioranza per gli emendamenti: all'opposizione 60mila Fanpage",
-   "pubblicata": "2026-11-27T06:57:31Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "gnews",
-   "sotto": [
-    "territorio.campania",
-    "governo.parlamento"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "6ba3bc6232ed0638",
-   "titolo": "Morte De Gennaro, oggi l’autopsia. L’appello del figlio: “Pubblicate l’intero testamento morale”",
-   "link": "https://www.lapresse.it/cronaca/2026/11/27/morte-de-gennaro-oggi-lautopsia-lappello-del-figlio-pubblicate-lintero-testamento-morale/",
-   "fonte": "p-lapresse",
-   "fonte_nome": "LaPresse Politica",
-   "tipo": "stampa",
-   "aree": [
-    "governo",
-    "partiti"
-   ],
-   "normativa": false,
-   "sintesi": "Ai funerali sarà presente il presidente della Repubblica Sergio Mattarella, in dubbio la partecipazione di Giorgia Meloni Questo articolo Morte De Gennaro, oggi…",
-   "pubblicata": "2026-11-27T06:57:10Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "rss",
-   "sotto": [
-    "governo.quirinale",
-    "partiti.partiti"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "ee7ee9bc084f9721",
-   "titolo": "Il mistero dei libri usati comprati in blocco a Milano: «Servono per addestrare l’IA»",
-   "link": "https://www.open.online/2026/11/27/milano-libri-usati-acquisti-mistero-intelligenza-artificiale/",
-   "fonte": "p-open",
-   "fonte_nome": "Open",
-   "tipo": "stampa",
-   "aree": [
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Gli acquisti di Zoom Books, che smentisce la distruzione dei volumi. «Li rivendiamo integri, come libri.",
-   "pubblicata": "2026-11-27T06:56:44Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "eb05e5cfdb369210",
-   "titolo": "Concorsi docenti 2027, classi di concorso accorpate: a quante procedure si può partecipare? Regole e chiarimenti",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZ2JjS0p0ZENmYlRQN21FWmZWZk1VZEdST3VBandiRFNJMnc3NVAzNFdzRWlPeXZiS09DZmVyRUNZR2lvR3FyazJ6N1J2TzZyM3FTaWJoZnAxNHVrZWY1dGRWOEk0VFdDQUZIY0ZqRE92WWdlQUdITk1RcWVKSE9yM2pMbHZ6ZF9JTHp0WHpjMDd6S2x4d01SNkNpSVhiMEN2YkUzZm9wMkZVWUdtSnZnLVo1aUh0Z09uWDNCNjFhaUIwX0FVekludnpzMDJBeGZUaTR5SzRvWE1JNEk?oc=5",
-   "fonte": "pr-scuola",
-   "fonte_nome": "Orizzonte Scuola e Tecnica della Scuola",
-   "tipo": "stampa",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": true,
-   "sintesi": "Concorsi docenti 2027, classi di concorso accorpate: a quante procedure si può partecipare? Regole e chiarimenti Tecnica della Scuola",
-   "pubblicata": "2026-11-27T06:56:15Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "gnews",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "3ec9539700aa5229",
-   "titolo": "Salvini sul Superbollo: \"Il lavoro continua\". Cosa può cambiare",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQ3NBeHAzVXFYbHBtTEhySU1MUW1tSVdLVEtnTnI5MXEtVU9pMzdWRFlNSDhIc3c3M0VGMEk3a0RtaXI0M1ZVLWhDTDFYQXh3eWVsbzgxcVN3dEpfR1NjZEUtX2owaDdPeDJQMGtRRnBVY0xuM21Hckl3bEtEUnFrNg?oc=5",
-   "fonte": "a-autopro",
-   "fonte_nome": "AutoPro e Automotive News Italia",
-   "tipo": "stampa",
-   "aree": [
-    "normativa_auto",
-    "mercato_auto"
-   ],
-   "normativa": false,
-   "sintesi": "Salvini sul Superbollo: \"Il lavoro continua\". Cosa può cambiare Motor1.com Italia",
-   "pubblicata": "2026-11-27T06:56:05Z",
-   "visto": "2026-11-27T16:01:05Z",
-   "metodo": "gnews",
-   "sotto": [
-    "normativa_auto.burocrazia"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "acf104f5a57d38fb",
-   "titolo": "Pieno più caro, il gasolio sale e Gpl e metano continuano a crescere",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcF9oYXlablR5T0lDOTg4NUswOWhxRjhaM2lPTFZaa1JaM0xuY3FZbmhmQXFNLUUzemtBSUdFU2V4cFZFMFh0d1VJcmZ0MEVFc25CbW9NTTkwY0tnSWprRDVka182Q1h5S3RGQmxCYWtGcUswS3FCSXRuSGpqbm9DZXFQenQ?oc=5",
-   "fonte": "am-carburanti",
-   "fonte_nome": "Prezzi carburanti e energia",
-   "tipo": "stampa",
-   "aree": [
-    "elettriche",
-    "mercato_auto"
-   ],
-   "normativa": false,
-   "sintesi": "Pieno più caro, il gasolio sale e Gpl e metano continuano a crescere Il Moderatore",
-   "pubblicata": "2026-11-27T06:55:44Z",
-   "visto": "2026-11-27T16:01:05Z",
-   "metodo": "gnews",
-   "sotto": [
-    "elettriche.ibride"
-   ],
-   "luogo": null,
-   "nicchia": "auto",
-   "prof": []
-  },
-  {
-   "id": "e3f908f3ee5d4073",
-   "titolo": "Relazione del Dirigente Scolastico al Consiglio di Istituto: cosa deve contenere e come strutturarla [GUIDA PRATICA]",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONTJ3RnJRQ0I2b3QxMU5zSTJXTjBnT2FudjZGWXh0ejBLUkctY3pGLTVPYXdLajJkMXVHZ0JDcVlENGN0OWRTeVViLXh2LTYyeFdBX1RQM0tVQnVZdklreUV6RUdJN0JneXJTTS1CV1hjVUZ3T21tRFNReDEzeHF5TVQtN2lIRVVDbEZfd1JfS3RjM29nX2NjeG9oSXRCcGgxU3JrbWszVmk4RnVySjhQelNIOGx6LUJpYlhiWXJaREg5UXlXWE9jOURQbG5BYlRSZ21QYXplWUh1bU5WSlE?oc=5",
-   "fonte": "pr-scuola",
-   "fonte_nome": "Orizzonte Scuola e Tecnica della Scuola",
-   "tipo": "stampa",
-   "aree": [
-    "formazione_cultura"
-   ],
-   "normativa": false,
-   "sintesi": "Relazione del Dirigente Scolastico al Consiglio di Istituto: cosa deve contenere e come strutturarla [GUIDA PRATICA] Orizzonte Scuola Notizie",
-   "pubblicata": "2026-11-27T06:55:32Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "gnews",
-   "sotto": [
-    "formazione_cultura.scuola"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "docente",
-    "traduttore",
-    "archivista",
-    "curatore_mus"
-   ]
-  },
-  {
-   "id": "490543ccea2d00fb",
-   "titolo": "Clona la voce dello streamer N3on con l’AI: condannato a 47 mesi",
-   "link": "https://www.hdblog.it/sicurezza/articoli/n678448/n3on-voce-clonata-ia-truffa-crypto-condanna-47-mesi/",
-   "fonte": "hdblog",
-   "fonte_nome": "HDblog",
-   "tipo": "stampa",
-   "aree": [
-    "smartphone"
-   ],
-   "normativa": false,
-   "sintesi": "Una voce clonata con l’IA in una frode da circa 220.000 euro: condanna a 47 mesi negli USA.",
-   "pubblicata": "2026-11-27T06:55:00Z",
-   "visto": "2026-11-27T08:14:14Z",
-   "metodo": "rss",
-   "sotto": [],
-   "luogo": null,
-   "nicchia": "tech",
-   "prof": []
-  },
-  {
-   "id": "c5fe5c5d1db28f30",
-   "titolo": "Lollobrigida: \"Su gasolio agricolo intervenuti in maniera rilevante con credito imposta'\"",
-   "link": "https://www.adnkronos.com/economia/lollobrigida-su-gasolio-agricolo-intervenuti-in-maniera-rilevante-con-credito-imposta_7v6QRO0P3Taf5KgPbjxi8r",
-   "fonte": "adnkronos",
-   "fonte_nome": "Adnkronos (edilizia e fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "energia",
-    "bonus"
-   ],
-   "normativa": false,
-   "sintesi": "(Adnkronos) - \"Sul gasolio agricolo siamo intervenuti in maniera molto rilevante con il credito d'imposta, prima 90 milioni, poi siamo intervenuti ulteriormente mettendo…",
-   "pubblicata": "2026-11-27T06:54:39Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "rss",
-   "sotto": [
-    "energia.incentivi",
-    "bonus.crediti"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "ingegnere",
-    "certificatore",
-    "energy",
-    "impiantista",
-    "commercialista",
-    "geometra",
-    "architetto",
-    "agente_imm"
-   ]
-  },
-  {
-   "id": "12d6112cecf709f1",
-   "titolo": "Clima e Comuni, cosa dice alla Sardegna l'assemblea dell'Anci",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQM3lreDN5R1Q5aXRpSTNka3hNS3lINmFJTzVIWElOeW9NWTVOSkYwSFU4Zlk4ODYwN0stalB4VnU0UVZvWGtuVHdmdFljWGFod2xzMmU0TFpZNElxTmlnU1psSjJmUXpuUnJ5M09Bak1ObVJOTTlWOXp5akc2QjJWVjA2SDFoX2lq?oc=5",
-   "fonte": "p-anci",
-   "fonte_nome": "ANCI (Comuni italiani)",
-   "tipo": "ente",
-   "aree": [
-    "territorio"
-   ],
-   "normativa": false,
-   "sintesi": "Clima e Comuni, cosa dice alla Sardegna l'assemblea dell'Anci CagliariToday",
-   "pubblicata": "2026-11-27T06:54:36Z",
-   "visto": "2026-11-27T08:01:04Z",
-   "metodo": "gnews",
-   "sotto": [
-    "territorio.regioni"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "3d401a82d7c5a331",
-   "titolo": "Raid in Libia, Zelensky: \"Non agiamo mai senza coordinarci con i partner\". Tajani: \"Non è vero\"",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWXFzLUtGci1YNlVCcXU1c3JjN0FIQkk4OTVybGhWTlJOUnBnOHZ4RWVLQ3pfb0pHRzRWbXBrTWdRUnJfOWNqNE9zempyb25idHk1NE5kSUNPSTN2ekNjYW5JVVYzVWtLMHhWWXpPS3M0YmpKeGUtaXVReHJYeTJuWU9TaEEtanQ3bC1yZndST0FQR29IbTEwcEp5R1ZFeWg0WWtmTFpBemM5TTJ5RjdYUEJMS0pBYUdiWFM1RDllRQ?oc=5",
-   "fonte": "p-fanpage",
-   "fonte_nome": "Fanpage Politica",
-   "tipo": "stampa",
-   "aree": [
-    "esteri",
-    "governo"
-   ],
-   "normativa": false,
-   "sintesi": "Raid in Libia, Zelensky: \"Non agiamo mai senza coordinarci con i partner\". Tajani: \"Non è vero\" Fanpage",
-   "pubblicata": "2026-11-27T06:54:22Z",
-   "visto": "2026-11-27T19:00:54Z",
-   "metodo": "gnews",
-   "sotto": [
-    "esteri.esteri"
-   ],
-   "luogo": null,
-   "nicchia": "politica",
-   "prof": []
-  },
-  {
-   "id": "0aec32d074c6726b",
-   "titolo": "Locatelli: \"La sfida è mettere a terra riforma sulla disabilità per riorganizzazione sistema di welfare e presa in carico\"",
-   "link": "https://www.adnkronos.com/cronaca/locatelli-la-sfida-e-mettere-a-terra-riforma-sulla-disabilita-per-riorganizzazione-sistema-di-welfare-e-presa-in-carico_B6tRCmuW6ZPmkcjg6tm5l",
-   "fonte": "adnkronos",
-   "fonte_nome": "Adnkronos (edilizia e fisco)",
-   "tipo": "stampa",
-   "aree": [
-    "management"
-   ],
-   "normativa": false,
-   "sintesi": "(Adnkronos) - \"Nel corso degli anni ci sono stati investimenti sia da parte dei Comuni, sia da parte delle Regioni e del Governo che hanno migliorato la qualità della…",
-   "pubblicata": "2026-11-27T06:53:55Z",
-   "visto": "2026-11-27T07:01:00Z",
-   "metodo": "rss",
-   "sotto": [
-    "management.finanza"
-   ],
-   "luogo": null,
-   "nicchia": "edilizia",
-   "prof": [
-    "finanziario",
-    "manager",
-    "consulente_az",
-    "compliance"
-   ]
   }
  ]
 }
